@@ -22,7 +22,7 @@ gallery:
     url: ''
     title: ''
 ---
-{% include toc title="Table of content" icon="btc" %}
+{% include toc title="Table of content" %}
 
 # CoinMarketCap
 
