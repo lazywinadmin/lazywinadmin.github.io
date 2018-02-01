@@ -11,18 +11,18 @@ minimal_mistakes_skin    : "contrast" # "default" # "air", "aqua", "contrast", "
 locale                   : "en-US"
 title                    : "LazyWinAdmin"
 title_separator          : "-"
-name                     : "Your Name!"
-description              : "An amazing website."
+name                     : "Francois-Xavier Cat"
+description              : "Scripting and Automation"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : lazywinadmin/minimal-mistakes # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : lazywinadmin # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -50,19 +50,19 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : 'http://feeds.feedburner.com/lazywinadmin' # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : 'cGasAvSObD3wRVyYrMyPEAIyGp3TeCL8DS69pC9dcwQ' #https://www.google.com/webmasters/tools/
+bing_site_verification   : '41C4B698DCF8E8CC8310802951961BF0' #https://www.bing.com/webmaster/configure/verify/ownership/?url=http://lazywinadmin.github.io/
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : lazywinadmin
+  username               : lazywinadm
 facebook:
   username               :
   app_id                 :
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "François-Xavier Cat"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems Engineer | Microsoft MVP | 🥐🍁"
+  bio              : "SysEng | Microsoft MVP"
   location         : "Montréal, Canada"
   email            :
   uri              : 'http://lazywinadmin.com'
@@ -181,7 +181,7 @@ sass:
 
 # Outputting
 permalink: /:year/:month/:title.html # /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -253,3 +253,21 @@ defaults:
       comments: # true
       share: true
       related: true
+
+##########
+# CUSTOM #
+##########
+# post with future date won't show'
+future: false
+
+# Show date on main page
+custom:
+  landingpage:
+    publisheddate: true
+    postlogo: false
+  post:
+    authorname: false
+    publisheddate: true
+    edit: true
+  link:
+    rssfeed: "http://feeds.feedburner.com/lazywinadmin"
