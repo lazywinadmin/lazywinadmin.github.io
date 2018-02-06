@@ -2,13 +2,13 @@
 title: "Upgrading"
 permalink: /docs/upgrading/
 excerpt: "Instructions and suggestions for upgrading the theme."
-last_modified_at: 2018-01-05T08:35:23-05:00
+last_modified_at: 2018-01-08T20:10:30-05:00
 toc: true
 ---
 
-If you're using the Ruby Gem or remote theme versions of Minimal Mistakes, upgrading is fairly painless.
+If you're using the [Ruby Gem]({{ "/docs/quick-start-guide/#ruby-gem-method" | absolute_url }}) or [remote theme]({{ "/docs/quick-start-guide/#github-pages-method" | absolute_url }}) versions of Minimal Mistakes, upgrading is fairly painless.
 
-To check which version you are currently using, view the source of your built site and you should something similar to:
+To check which version you are currently using, view the source of your built site and you should see something similar to:
 
 ```
 <!--
@@ -25,11 +25,21 @@ At the top of every `.html` file, `/assets/css/main.css`, and `/assets/js/main.m
 
 Simply run `bundle update` if you're using Bundler (have a `Gemfile`) or `gem update minimal-mistakes-jekyll` if you're not.
 
+When using Bundler you can downgrade or lock the theme to a specific release ([tag](https://github.com/mmistakes/minimal-mistakes/tags)), branch, or commit. Instead of `gem "minimal-mistakes-jekyll"` you'd add the following to your `Gemfile`:
+
+```ruby
+gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.9.0"
+```
+
+For more information on [installing gems from git repositories](http://bundler.io/v1.16/guides/git.html) consult Bundler's documentation.
+
 ## Remote Theme
 
-When hosting with GitHub Pages you'll need to push up a commit to force a rebuild with the latest [theme release](https://github.com/mmistakes/minimal-mistakes/releases).
+When setting `remote_theme: "mmistakes/minimal-mistakes"` in your `_config.yml` you may also optionally specify a branch, [tag](https://github.com/mmistakes/minimal-mistakes/tags), or commit to use by appending an @ and the Git ref.
 
-An empty commit will get the job done too if you don't have anything to push at the moment:
+For example you can roll back to release 4.8.1 with `mmistakes/minimal-mistakes@4.8.1` or a specific commit with `mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`).
+
+To update the theme on GitHub Pages you'll need to push up a commit to force a rebuild. An empty commit works well if you don't have anything to push at the moment:
 
 ```terminal
 git commit --allow-empty -m "Force rebuild of site"
