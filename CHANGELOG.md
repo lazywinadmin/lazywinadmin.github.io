@@ -1,3 +1,19 @@
+## Unreleased
+
+### Enhancements
+
+* Update jQuery to version `3.3.1`. [#1491](https://github.com/mmistakes/minimal-mistakes/issues/1491)
+
+### Bug Fixes
+
+* Focus Algolia search input after clicking on search toggle.
+
+## [4.10.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.0)
+
+### Enhancements
+
+* Add support for [Algolia](https://www.algolia.com/) search provider ([see demo](https://mmistakes.github.io/minimal-mistakes-algolia-search/)). [#1416](https://github.com/mmistakes/minimal-mistakes/issues/1416)
+
 ## [4.9.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.9.1)
 
 ### Enhancements
