@@ -2,7 +2,7 @@
 title: "Configuration"
 permalink: /docs/configuration/
 excerpt: "Settings for configuring and customizing the theme."
-last_modified_at: 2018-02-16T12:49:45-05:00
+last_modified_at: 2018-02-19T08:09:39-05:00
 toc: true
 ---
 
@@ -530,6 +530,9 @@ For faster and more relevant search ([see demo](https://mmistakes.github.io/mini
 
 To use the Algolia search with GitHub Pages hosted sites follow [this deployment guide](https://community.algolia.com/jekyll-algolia/github-pages.html). Or this guide for [deploying on Netlify](https://community.algolia.com/jekyll-algolia/netlify.html).
 
+**Note:** The Jekyll Algolia plugin can be configured in several ways. Be sure to check out [their full documentation](https://community.algolia.com/jekyll-algolia/options.html "Algolia configuration") on how to exclude files and other valuable settings.
+{: .notice--info}
+
 ### SEO, Social Sharing, and Analytics Settings
 
 All optional, but a good idea to take the time setting up to improve SEO and links shared from the site.
@@ -676,13 +679,14 @@ Analytics is disabled by default. To enable globally select one of the following
 | -------------------- | --------------------------------------------------------------- |
 | **google**           | [Google Standard Analytics](https://www.google.com/analytics/)  |
 | **google-universal** | [Google Universal Analytics](https://www.google.com/analytics/) |
+| **google-gtag**      | [Google Analytics Global Site Tag)](https://www.google.com/analytics/) |
 | **custom**           | Other analytics providers                                       |
 
 For Google Analytics add your Tracking Code:
 
 ```yaml
 analytics:
-  provider: "google-universal"
+  provider: "google-gtag"
   google:
     tracking_id: "UA-1234567-8"
 ```
