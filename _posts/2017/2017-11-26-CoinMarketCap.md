@@ -22,11 +22,11 @@ gallery:
     url: ''
     title: ''
 ---
-{% include toc title="Table of content" %}
+{% include toc title="Table of content" icon="btc" %}
 
 # CoinMarketCap
 
-I recently developed an interest for cryptocurrencies. It takes some time to get familiar with all the technologies involved but I'm enjoying the ride so far ::m
+I recently developed an interest for cryptocurrencies. It takes some time to get familiar with all the technologies involved but I'm enjoying the ride so far :rocket:
 
 To follow the market, there are plenty of services and websites available. One of the most popular platform is [CoinMarketCap](https://coinmarketcap.com/). In addition to provide a clean interface, they offer a nice api to interact with the data of each coins.
 

@@ -9,6 +9,7 @@ tags:
   - 'Microsoft MVP'
 categories:
   - powershell
+  - 'MVP Module'
 published: true
 comments: true
 author_profile: false
@@ -53,22 +54,22 @@ Install-Module -name MVP
 You need to register and get a subscription key from Microsoft in order to use the module.
 Fortunately you only need to do this once.
 
-<u>Steps</u>
+__Steps__
 
 1. Go to the [Microsoft MVP API Developer Portal](https://mvpapi.portal.azure-api.net/)
-2. Click the ```Sign In``` button and sign in with your Microsoft Account. It must be the same Microsoft Account as you use for your Microsoft MVP Site access.
-3. Subscribe to the ```MVP Production``` product.
-4. Go to the ```PRODUCTS``` tab, and choose ```MVP Production```.
-5. Click the ```Subscribe``` button.
-6. This request will be reviewed and Accepted / Declined by the admin in one or two business days. The admin verifies your access permission based on your Microsoft Account. It must be the same Microsoft Account as you use for your Microsoft MVP Site access.
-7. Once approved, on the top right corner click on your name and select ```PROFILE```
-8. You should see a subscription for the ```MVP Production```
-9. On the ```Primary Key``` line, select ```Show``` and this is your Subscription Key
+1. Click the `Sign In` button and sign in with your Microsoft Account. It must be the same Microsoft Account as you use for your Microsoft MVP Site access.
+1. Subscribe to the `MVP Production` product.
+1. Go to the `PRODUCTS` tab, and choose `MVP Production`.
+1. Click the `Subscribe` button.
+1. This request will be reviewed and Accepted / Declined by the admin in one or two business days. The admin verifies your access permission based on your Microsoft Account. It must be the same Microsoft Account as you use for your Microsoft MVP Site access.
+1. Once approved, on the top right corner click on your name and select `PROFILE`
+1. You should see a subscription for the `MVP Production`
+1. On the `Primary Key` line, select `Show` and this is your Subscription Key
 
 See [Getting Started with Microsoft MVP API](https://mvp.microsoft.com/en-us/Opportunities/my-opportunities-api-getting-started) for more information.
 
+Next you need to configure your connection using `Set-MVPConfiguration`
 
-Next you need to configure your connection using ```Set-MVPConfiguration```
 ```powershell
 # Configure your connection
 Set-MVPConfiguration -SubscriptionKey 'abcdef083b5b482f8d99184d318b12f6'
@@ -79,40 +80,44 @@ A user interface will show to authenticate against the Microsoft API "mvpapi.por
 ## Commands
 
 Here is the list of functions available in the module
+
 ```powershell
 # List all the functions available
 Get-Command -module MVP
 ```
-```
-CommandType     Name                                               Version    Source                                                                 
------------     ----                                               -------    ------                                                                 
-Function        Get-MVPContribution                                0.0.1.0    MVP                                                                    
-Function        Get-MVPContributionArea                            0.0.1.0    MVP                                                                    
-Function        Get-MVPContributionType                            0.0.1.0    MVP                                                                    
-Function        Get-MVPContributionVisibility                      0.0.1.0    MVP                                                                    
-Function        Get-MVPOnlineIdentity                              0.0.1.0    MVP                                                                    
-Function        Get-MVPProfile                                     0.0.1.0    MVP                                                                    
-Function        Get-MVPProfileImage                                0.0.1.0    MVP                                                                    
-Function        New-MVPContribution                                0.0.1.0    MVP                                                                    
-Function        New-MVPOnlineIdentity                              0.0.1.0    MVP                                                                    
-Function        Remove-MVPConfiguration                            0.0.1.0    MVP                                                                    
-Function        Remove-MVPContribution                             0.0.1.0    MVP                                                                    
-Function        Remove-MVPOnlineIdentity                           0.0.1.0    MVP                                                                    
-Function        Set-MVPConfiguration                               0.0.1.0    MVP                                                                    
-Function        Set-MVPContribution                                0.0.1.0    MVP                                                                    
-Function        Set-MVPOnlineIdentity                              0.0.1.0    MVP
+
+```text
+CommandType Name                          Version Source
+----------- ----                          ------- ------
+Function    Get-MVPContribution           0.0.2.0 MVP
+Function    Get-MVPContributionArea       0.0.2.0 MVP
+Function    Get-MVPContributionType       0.0.2.0 MVP
+Function    Get-MVPContributionVisibility 0.0.2.0 MVP
+Function    Get-MVPOnlineIdentity         0.0.2.0 MVP
+Function    Get-MVPProfile                0.0.2.0 MVP
+Function    Get-MVPProfileImage           0.0.2.0 MVP
+Function    New-MVPContribution           0.0.2.0 MVP
+Function    New-MVPOnlineIdentity         0.0.2.0 MVP
+Function    Remove-MVPConfiguration       0.0.2.0 MVP
+Function    Remove-MVPContribution        0.0.2.0 MVP
+Function    Remove-MVPOnlineIdentity      0.0.2.0 MVP
+Function    Set-MVPConfiguration          0.0.2.0 MVP
+Function    Set-MVPContribution           0.0.2.0 MVP
+Function    Set-MVPOnlineIdentity         0.0.2.0 MVP
 ```
 
 ## Retrieve a MVP Profile
 
 You can retrieve a specific profile (your account being the default one)
+
 ```powershell
 # Retrieving my profile
 Get-MVPProfile -ID 5000475 #Francois-Xavier Cat
 ```
 
-<u>Output:</u>
-```
+__Output__
+
+```text
 Metadata             : @{PageTitle=Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an 
                        Automation Specialist.; TemplateName=; Keywords=; Description=}
 MvpId                : 5000475
@@ -124,14 +129,12 @@ InTheSpotlight       : False
 Headline             : Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an Automation 
                        Specialist in a large Financial company.
 Biography            : Francois-Xavier Cat is from France but has been living in Montreal, Quebec, Canada since 2004.
-                       
-                       In 2014, He was concurrently awarded his first MVP PowerShell by Microsoft and PowerShell Hero 2014 award by PowerShell.org. 
+                       In 2014, He was concurrently awarded his first MVP PowerShell by Microsoft and PowerShell Hero 2014 award by PowerShell.org.
                        In 2015, he was also nominated Sapien Technologies MVP.
-                       
                        You can follow his blog at http://lazywinadmin.com
 DisplayName          : Francois-Xavier Cat
 FullName             : Francois-Xavier Cat
-PrimaryEmailAddress  : 
+PrimaryEmailAddress  :
 ShippingCountry      : Canada
 ShippingStateCity    : Montreal, QC
 Languages            : French, English
@@ -148,7 +151,7 @@ OnlineIdentities     : {@{PrivateSiteId=35435; SocialNetwork=; Url=https://www.f
                        ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=True; 
                        PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False}...}
 Certifications       : {@{PrivateSiteId=1274; Id=a2137352-509a-e431-bbc8-6c3be5a82b68; Title=VMware VCP510-DCV,; CertificationVisibility=}}
-Activities           : 
+Activities           :
 CommunityAwards      : {@{PrivateSiteId=12499; Title=SAPIEN MVP; Description="SAPIEN Most Valuable Professional (MVP) award. It’s our way to 
                        recognize and show
                        our appreciation for community members who promote our products and contribute
@@ -160,26 +163,25 @@ NewsHighlights       : {}
 UpcomingEvent        : {}
 ```
 
-
 ## Retrieve your contributions
 
 You can retrieve your contributions by using ```Get-MVPContribution```. The default limit is 5 entries.
+
 ``` powershell
 # Retrieve your contribution
 Get-MVPContribution #by default it will return 5 entries only
 ```
 
 You can change the limit using the ```-Limit``` parameter
+
 ```powershell
 # Retrieve your contribution
 Get-MVPContribution -Limit 100 # This will retrieve 100 entries
 ```
 
-
 ## Create a new contribution
 
 Creating a new contribution with ```New-MVPContribution``` requires a few fields that need to match existing data.
-
 
 For example, for the **Type** or **Technology** you can use the function parameters ```-ContributionType``` and ```-ContributionTechnology``` which are Dynamic parameters to retrieve the possible values, or you can use ```Get-MVPContributionType``` and ```Get-MVPContributionArea``` to retrieve that data prior to using ```New-MVPContribution```.
 
@@ -202,8 +204,10 @@ $Splatting = @{
 New-MVPContribution @splatting
 ```
 
-<u>Output:</u>
+__Output:__
+
 ```
+
 ContributionId         : 123456
 ContributionTypeName   : Blog Site Posts
 ContributionType       : @{Id=df6464de-173a-e411-cccc-6c3be5a82b68; Name=Blog Site Posts; EnglishName=Blog Site Posts}
@@ -216,8 +220,8 @@ AnnualQuantity         : 0
 SecondAnnualQuantity   : 0
 AnnualReach            : 0
 Description            : Description sample
-```
 
+```
 
 ## Create multiple contributions
 
@@ -225,7 +229,8 @@ Description            : Description sample
 
 For example you can provide a CSV file that look like this:
 
-```
+```text
+
 startdate,title,description,referenceurl,AnnualQuantity,SecondAnnualQuantity,AnnualReach,Visibility,ContributionType,ContributionTechnology
 2017-12-01,Test1,Some content,https://github.com/lazywinadmin/MVP,1,0,0,EveryOne,Blog Site Posts,PowerShell
 2017-12-02,Test2,Some content,https://github.com/lazywinadmin/MVP,1,0,0,EveryOne,Blog Site Posts,PowerShell
@@ -237,14 +242,18 @@ startdate,title,description,referenceurl,AnnualQuantity,SecondAnnualQuantity,Ann
 2017-12-08,Test8,Some content,https://github.com/lazywinadmin/MVP,1,0,0,EveryOne,Blog Site Posts,PowerShell
 2017-12-09,Test9,Some content,https://github.com/lazywinadmin/MVP,1,0,0,EveryOne,Blog Site Posts,PowerShell
 2017-12-10,Test10,Some content,https://github.com/lazywinadmin/MVP,1,0,0,EveryOne,Blog Site Posts,PowerShell
+
 ```
 
 Import the CSV file and pass it to ```New-MVPContribution```
 
 ```powershell
+
 # Importing multiple contributions at once
 import-csv .\Examples\MultipleEntries.csv | New-MVPContribution
+
 ```
+
 
 # Source / Contributions
 
