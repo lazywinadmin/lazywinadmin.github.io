@@ -12,7 +12,7 @@ comments: true
 ---
 {% include base_path %}
 
-![image-left]({{ site.url }}{{ site.baseurl }}/images/2015/20150504_Microsoft_Ignite_2015_in_Chicago/Microsoft%252BIgnite%252B-%252BChicago%252B2015__872674360__-320x213.jpg){: .align-left}
+![image-left]({{ site.url }}{{ site.baseurl }}\images\2015\20150504_Microsoft_Ignite_2015_in_Chicago\Microsoft+Ignite+-+Chicago+2015__872674360__-320x213.jpg){: .align-left}
 This week I will be in Chicago, Illinois to attend the Microsoft Ignite 2015. The last time I was in Chicago was for the Marathon in 2012. I kept a great souvenir of the city and people were super nice!
 
 This time I'm going to attend the Microsoft Ignite all week but first I will meet my coworkers at the NetherRealm video games studio (where they work on Mortal Kombat) and visit their workplace.
