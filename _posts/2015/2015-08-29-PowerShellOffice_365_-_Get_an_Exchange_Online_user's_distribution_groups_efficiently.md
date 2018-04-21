@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+{% include base_path %}
 
 <a href="{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__580073936__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__307945277__-200x200.png" width="150" /></a>
 
@@ -23,8 +23,6 @@ There are multiple approaches you could be using to gather this information but 
 This is probably the route PowerShell beginners would take and it is working '<i>Fine</i>' in a small environment but not very efficient, you'll see in the following example.
 
 In this environment, there are a bit more than 1800 Distribution Groups. I want to know which Distribution Group I'm member of.
-
-
 
 Retrieving the count of Distribution Groups and an User account in Office 365:
 
@@ -83,7 +81,6 @@ In the Filter I specified the `Members` property.... but there is no `Members` p
 Get-DistributionGroup -ResultSize 5 | Get-Member -Name "*Member*"
 ```
 
-
 No signs of 'Members' property. If you look at the help of `Get-DistributionGroup`, you see something talking about `Opath filtering` used to filter recipients.
 
 {% assign ImageText = '' %}
@@ -98,23 +95,17 @@ No signs of 'Members' property. If you look at the help of `Get-DistributionGrou
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{ImageUrl}})
 
-
-`Get-Help` on `Get-DistributionGroup` - FILTER Parameter
-
+`Get-Help` on `Get-DistributionGroup` for the `-Filter` Parameter.
 
 The reason is that you can use `Exchange Opath filters` inside many Exchange Online cmdlets.
 
-
-> <b><u>Exchange Opath filters</u></b>
+> ## Exchange Opath filters
 <i>OPATH is basis for the filtering syntax used by PowerShell, and is therefore the filtering syntax used by Exchange 2007. It replaces the complicated syntax of LDAP used in Exchange 2003, and will allow for filters which are easier to create and interpret. For native PowerShell filters, all work is done client-side in the Powershell host. In Exchange 2007, however, various cmdlets provide "server-side" filters using the same syntax as their client-side counterparts. These server-side filters provide higher performance and added scenarios that are specific to Exchange Server.</i>
 > [http://blogs.technet.com/b/exchange/archive/2007/01/10/3397707.aspx](http://blogs.technet.com/b/exchange/archive/2007/01/10/3397707.aspx)
 
 More information on the properties that you can use with Exchange Cmdlets in the `Filter` Parameter : [https://technet.microsoft.com/en-us/library/bb738155(v=exchg.150).aspx](https://technet.microsoft.com/en-us/library/bb738155(v=exchg.150).aspx)
 
-
-
 # Additional Information
-
 
 * Exchange Online - <a href="https://technet.microsoft.com/en-us/library/bb124268(v=exchg.150).aspx#OPATH" target="_blank">OPATH Syntax</a>
 * Exchange Online - <a href="https://technet.microsoft.com/en-us/library/bb124268(v=exchg.150).aspx" target="_blank">Filters in recipient Shell commands</a>
