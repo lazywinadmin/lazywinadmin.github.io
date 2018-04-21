@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Remove a PowerShell Object property"
-excerpt: "Quick post on how to remove a property from a Powershell Object"
+excerpt: "In this article we'll see how to remove a property from a Powershell Object"
 permalink:
 tags: 
   - powershell
