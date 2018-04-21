@@ -1,7 +1,7 @@
 ---
 layout: single
 title: PowerShell - Get a list of my domain Organizational Units
-excerpt: 
+excerpt: This article shows how to list organization unit in your Active Directory using the AD Module and ADSI
 permalink: /2014/04/powershell-get-list-of-my-domain.html
 tags: 
 - .net
@@ -13,26 +13,22 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
- 
- <a href="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" /></a>Quick post, last week my coworker <a href="http://www.virtualizemydc.ca/" target="_blank">Andrey</a> needed to list all the Organization Units in the domain by Canonical Name. I thought sharing the PowerShell One-Liner magic could save time to some people out there.
+{% include base_path %}
 
-In the following examples two methods to retrieve the information using<b>&nbsp;Active Directory</b> and <b>ADSI/NET</b>.
+<a href="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" /></a>Quick post, last week my coworker <a href="http://www.virtualizemydc.ca/" target="_blank">Andrey</a> needed to list all the Organization Units in the domain by Canonical Name. I thought sharing the PowerShell One-Liner magic could save time to some people out there.
 
-
-
+In the following examples two methods to retrieve the information using<b>Active Directory</b> and <b>ADSI/NET</b>.
 
 # Active Directory Module
 
 I found two ways to get this information using this module
-<ul>
-* <span style="font-family: Courier New, Courier, monospace;">Get-ADOrganizationUnit
 
-* <span style="font-family: Courier New, Courier, monospace;">Get-ADObject
-</ul>
+* Get-ADOrganizationUnit
+* Get-ADObject
+
 First we need to verify if the module is loaded and then search for Cmdlet that could meet our needs.
 
-```
+```powershell
 # Check if the ActiveDirectory module is Loaded
 Get-Module -Name ActiveDirevtory
 
@@ -46,28 +42,23 @@ Import-Module -Name ActiveDirectory
 Get-Command -Module ActiveDirectory -Name *OrganizationalUnit*
 ```
 
+![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png)
 
-
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png" /></a></div>
-
-
-
-# <span style="font-size: large;">Get-ADOrganizationalUnit
+# Get-ADOrganizationalUnit
 
 The Get-ADOrganizational unit cmdlet gets an organizational unit object or performs a search to retrieve multiple organizational units.
 
 Straight forward, we look for the properties available to us.
 
-
-```
+```powershell
 # Get the properties available for each OrganizationalUnit object
 Get-ADOrganizationalUnit -Filter * -Properties *| Get-Member
 ```
 
+**Output:**
 
-<b><u>Output:</u></b>
+```text
 
-```
    TypeName: Microsoft.ActiveDirectory.Management.ADOrganizationalUnit
 
 Name                            MemberType            Definition
@@ -118,18 +109,16 @@ whenChanged                     Property              System.DateTime whenChange
 whenCreated                     Property              System.DateTime whenCreated {get;}
 ```
 
+Now we just have to filter on the property `CanonicalName`.
 
-<div class="separator" style="clear: both; text-align: center;"></div>Now we just have to filter on the property CanonicalName.
-
-```
+```powershell
 # Get the property CanonicalName for each Organizational Unit
 Get-ADOrganizationalUnit -Filter * -Properties CanonicalName | Select-Object -Property CanonicalName
 ```
 
-<div class="separator" style="clear: both; text-align: center;"></div>
-<b><u>Output:</u></b>
+**Output:**
 
-```
+```text
 CanonicalName
 -------------
 FX.LAB/Domain Controllers
@@ -150,30 +139,25 @@ FX.LAB/Winter Scripting Games 2014/Event3/Finance Department
 
 ```
 
+# Get-ADObject
 
+The Get-ADObject cmdlet gets an Active Directory object or performs a search to retrieve multiple objects.
 
-
-
-# <span style="font-size: large;">Get-ADObject
-
-<div>The Get-ADObject cmdlet gets an Active Directory object or performs a search to retrieve multiple objects.
-
-
-```
+```powershell
 # Get Organizational Unit objects
 Get-ADObject -Filter { ObjectClass -eq 'organizationalunit' }
 ```
 
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_22-45-52__806703649__-692x442.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_22-45-52__806703649__-692x442.png" /></a></div>
+![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_22-45-52__806703649__-692x442.png)
 
-```
+```powershell
 # Get Organizational Unit objects
 Get-ADObject -Filter { ObjectClass -eq 'organizationalunit' } -Properties&nbsp;CanonicalName | Select-Object -Property CanonicalName
 ```
 
-<div class="separator" style="clear: both; text-align: center;"></div><b><u>Output:</u></b>
+**Output:**
 
-```
+```text
 CanonicalName
 -------------
 FX.LAB/Domain Controllers
@@ -193,21 +177,15 @@ FX.LAB/Winter Scripting Games 2014/Event3
 FX.LAB/Winter Scripting Games 2014/Event3/Finance Department
 
 ```
-
-
 
 # ADSI/NET
 
 Finally, the ADSI method! This technique is a bit more complex, but this does not require any module/snapin and can be run from PowerShell without any pre-requisites.
 
-
-```
+```powershell
 $info = ([adsisearcher]"objectclass=organizationalunit")
 $info.PropertiesToLoad.AddRange("CanonicalName")
 $info.findall().properties.canonicalname
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-05_0-01-25__875077715__-692x346.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-05_0-01-25__875077715__-692x346.png" /></a></div>
-
-
-
+![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-05_0-01-25__875077715__-692x346.png)
