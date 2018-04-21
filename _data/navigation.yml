@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#  - title: "Quick-Start Guide"
+#    url: https://mmistakes.github.io/minimal-mistakes/resources/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +10,63 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  #- title: "Blog"
+  #  url: /
+  - title: "About"
+    url: /about.html
+#  - title: "Tags"
+#    url: /tags
+#  - title: "Projects/Scripts"
+#    url: /projects.html
+  - title: "Archive"
+    url: /archive.html
+#  - title: "Categories"
+#    url: /categories/
+#  - title: "Collections"
+#    url: /collection-archive/
+#  - title: "Resources"
+#    url: /resources/powershell/resources
+  - title: "Old blog"
+    url: "http://lazywinadmin.com"
+
+resources:
+  - title: PowerShell
+    children:
+      - title: "Getting Started"
+        url: /resources/powershell/gettingstarted
+      - title: "Débuter (french)"
+        url: /resources/powershell/debuter
+      - title: "Tips"
+        url: /tags/#powershelltip
+      - title: "Resources"
+        url: /resources/powershell/resources
+  - title: Regular Expression
+    children:
+      - title: 'Resources'
+        url: '/resources/regex/resources'
+  - title: Active Directory
+  - title: Jekyll
+    children:
+      - title: "Resources"
+        url: /resources/jekyll/resources
+      - title: 'Jemoji'
+        url: /resources/jekyll/jemoji
+
+
+projects:
+  - title: Module
+    children:
+      - title: "AdsiPS"
+        url: /resources/powershell/gettingstarted
+    children:
+      - title: "MVP"
+        url: /resources/powershell/gettingstarted
+  - title: UI
+    children:
+      - title: "Getting Started"
+        url: /resources/powershell/gettingstarted
+  - title: Scripts
+    children:
+      - title: "Getting Started"
+        url: /resources/powershell/gettingstarted
+
