@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Microsoft Ignite 2015 in Chicago
-excerpt: 
+excerpt: Here is a retrospective on the 42k i recently ran in Chicago (My third marathon)
 permalink: /2015/05/microsoft-ignite-2015-in-chicago.html
 tags: 
 - chicago
