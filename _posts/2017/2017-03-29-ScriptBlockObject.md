@@ -17,9 +17,8 @@ header:
   caption: ""
   teaserlogo: images/2017/2017-03-29-ScriptBlockObject/script.png
 ---
-{% include toc title="Table of content" icon="file-text" %}
+{% include toc title="Table of content" %}
 Countless time people asked me how they could pass arguments to parameters inside a powershell scriptblock.
-
 
 ## The usual approach
 Here are a few examples when using Invoke-Command:
@@ -48,12 +47,11 @@ Get-ChildItem [[-Path] <String[]>] [[-Filter] <String>] [-Attributes {ReadOnly |
     Encrypted | IntegrityStream | NoScrubData}] [-Depth <UInt32>] [-Directory] [-Exclude <String[]>] [-File] [-Force]
     [-Hidden] [-Include <String[]>] [-Name] [-ReadOnly] [-Recurse] [-System] [-UseTransaction] [<CommonParameters>]
 ```
+
  First is Path, Second is Filter, Third is Attributes, etc...
 
-
-
-
 ## Creating your own ScriptBlock
+
 Another option is to create your own ```ScriptBlock``` object (```[System.Management.Automation.ScriptBlock]```) and add your parameters to it before the execution
 
 ```powershell
@@ -94,7 +92,6 @@ $MyFilter = '*.log'
 
 Invoke-Command -ScriptBlock {Get-ChildItem -Path $using:MyPath -Filter $using:MyFilter}
 ```
-
 
 ## Resources
 You'll find more information on this topic on this page: [about_Remote_Variables](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_remote_variables?f=255&MSPPError=-2147217396)

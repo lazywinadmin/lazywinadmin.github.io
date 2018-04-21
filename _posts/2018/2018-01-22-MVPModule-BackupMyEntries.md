@@ -24,7 +24,7 @@ gallery:
     title: ''
 ---
 
-{% include toc title="Table of content" icon="file-text" %}
+{% include toc title="Table of content" %}
 
 Last year, [Emin Atac](https://twitter.com/p0w3rsh3ll) and I released a PowerShell module to interact with the Microsoft MVP website, see: [MVP Module](https://lazywinadmin.github.io/2017/05/MVP_Module.html).
 

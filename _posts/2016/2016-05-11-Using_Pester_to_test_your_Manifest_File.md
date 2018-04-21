@@ -10,8 +10,9 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
-{% include toc title="Table of content" icon="file-text" %}
+{% include base_path %}
+{% include toc title="Table of content" %}
+
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ base_path }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/pester_logo__837959368__-320x320.png" width="130" /> In my previous post I got started with Pester and wrote <a href="{{ base_path }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">my first test against the Comment Based Help</a> of my module [AdsiPS](https://github.com/lazywinadmin/AdsiPS").
 
 Next, I wanted to write a Pester test against the Manifest File of AdsiPS module. I want to make sure all the basic information of the module is referenced in this file. Mike Robbins wrote a great article on <a href="http://mikefrobbins.com/2016/04/14/write-dynamic-unit-tests-for-your-powershell-code-with-pester/" target="_blank">Dynamic Unit Tests</a> where he is touching some of the points I want to cover today.

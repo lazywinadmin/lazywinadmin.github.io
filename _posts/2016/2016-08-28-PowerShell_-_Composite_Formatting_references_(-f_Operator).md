@@ -11,7 +11,7 @@ published: true
 comments: true
 ---
 {% include base_path %} 
-{% include toc title="Table of content" icon="file-text" %}
+{% include toc title="Table of content" %}
  <a href="{{ base_path }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" /></a>If you play often with PowerShell you might have encountered something called "Composite Formatting". What is that ? 
 
 Each format item takes the following form and consists of the following components:

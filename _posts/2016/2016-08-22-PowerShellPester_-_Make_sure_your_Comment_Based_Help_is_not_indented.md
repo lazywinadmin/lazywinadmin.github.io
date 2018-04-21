@@ -11,17 +11,16 @@ published: true
 comments: true
 ---
 {% include base_path %} 
-{% include toc title="Table of content" icon="file-text" %}
+{% include toc title="Table of content" %}
 <a href="{{ base_path }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__1425385033__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__2058964902__-200x200.png" width="120" /></a>
 While writing some PowerShell Pester tests for my module <a href="https://www.powershellgallery.com/packages/AdsiPS/1.0.0.2" target="_blank">AdsiPS</a>, I wanted to make sure for each functions that all the help keywords of the comment based help were not indented.
 
 Depending of the script editor you are using, the number of spaces or tabs might differ and once published on GitHub the code might looks not so pretty.
 
-
 My goal is just to keep my code clean and enforce the same practice across all the functions.
 
-
 ## Example
+
 Here for example, <b>I don't want this</b>:
 
 <img border="0" src="{{ base_path }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp01__2057622999__-511x384.png" />
@@ -33,8 +32,8 @@ Instead, <b>I want all the comment based help in that format</b>
 (Help keywords directly at the beginning of the line)
 
 ## Code
-This can be accomplish by something like that:
 
+This can be accomplish by something like that:
 
 ```powershell
 [CmdletBinding()]
@@ -58,14 +57,14 @@ $ExportedFunctions = $ModuleInformation.ExportedFunctions.Values.name
 # Testing the Module
 Describe "$ModuleName Module - HELP" -Tags "Module" {
     #$Commands = (get-command -Module ADSIPS).Name
-    
+
     FOREACH ($funct in $ExportedFunctions)
     {
         # Retrieve the content of the current function
         $FunctionContent = Get-Content function:$funct
-        
+
         Context "$funct - Comment Based Help - Indentation Checks"{
-            
+
             # Validate Help start at the beginning of the line
             It "Help - Starts at the beginning of the line"{
                 <span style="background-color: yellow;">$Pattern = ".Synopsis"
@@ -79,6 +78,7 @@ Describe "$ModuleName Module - HELP" -Tags "Module" {
 ```
 
 ## Step By Step
+
 <b>So what is happening here ?</b>
 
 <b>#1</b>- I get the content of the function using ```Get-Content```
@@ -108,12 +108,8 @@ line -match "^$Pattern" | Should Be $true
 
 <img border="0" src="{{ base_path }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp03__40354873__-834x329.png"/>
 
-
 ## Related posts
 
 * <a href="{{ base_path }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
-
 * <a href="{{ base_path }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
-
 * <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>
-
