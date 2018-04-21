@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+{% include base_path %}
 {% include toc title="Table of content" %}
  <a href="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__1746910156__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__454921558__-200x200.png" width="120" /></a>
 
@@ -26,8 +26,8 @@ Instead,<b>I want all the comment based help in that format</b> (with an empty l
 <center>
 <img border="0" height="165" src="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter02__2044538152__-547x227.png"/></center>
 
-
 ## Code
+
 This can be accomplish by something like that:
 
 ```powershell
@@ -55,20 +55,20 @@ Describe "$ModuleName Module - HELP" -Tags "Module" {
     {
         $FunctionContent = Get-Content function:$funct
         $AST = [System.Management.Automation.Language.Parser]::ParseInput($FunctionContent, [ref]$null, [ref]$null)
-        
+
         Context "$funct - Help"{
-            
-            <span style="background-color: yellow; color: green;"># Parameters separated by a space
-            <span style="background-color: yellow;">$ParamText = $AST.ParamBlock.extent.text -split '\r\n' # split on carriage return
-            <span style="background-color: yellow;">$ParamText = $ParamText.trim() # Trim the edges
-            <span style="background-color: yellow;">$ParamTextSeparator = $ParamText | select-string ',$' #line that finish by a ','
-            
+
+            # Parameters separated by a space
+            $ParamText = $AST.ParamBlock.extent.text -split '\r\n' # split on carriage return
+            $ParamText = $ParamText.trim() # Trim the edges
+            $ParamTextSeparator = $ParamText | select-string ',$' #line that finish by a ','
+
             if ($ParamTextSeparator)
             {
                 Foreach ($ParamLine in $ParamTextSeparator.linenumber)
                 {
                     it "Parameter - Separated by space (Line $ParamLine)"{
-                        <span style="background-color: yellow;">$ParamText[$ParamLine] -match '^$|\s+' | Should Be $true
+                        $ParamText[$ParamLine] -match '^$|\s+' | Should Be $true
                     }
                 }
             }
@@ -78,29 +78,30 @@ Describe "$ModuleName Module - HELP" -Tags "Module" {
 ```
 
 ## Step by Step
-<b>So what is happening here ?</b>
 
-<b>#1</b>- Using Abstract Syntax Tree (AST), we retrieve the content of the```PARAM()``` block and split on the carriage return character
+So what is happening here ?
+
+* #1 - Using Abstract Syntax Tree (AST), we retrieve the content of the `PARAM()` block and split on the carriage return character
 
 ```powershell
 $ParamText = $AST.ParamBlock.extent.text -split '\r\n'
 ```
 
-<b>#2</b>- We trim the edges of each lines
+* #2 - We trim the edges of each lines
 
 ```powershell
 $ParamText = $ParamText.trim()
 ```
 
-<b>#3</b>- We find the line that finish by a comma character "```,```".
+* #3 - We find the line that finish by a comma character `,`.
 
-Here we are using Regex and the Dollar sign "```$```" that will matches the ending of a line.
+Here we are using Regex and the Dollar sign `$` that will matches the ending of a line.
 
 ```powershell
 $ParamTextSeparator = $ParamText | select-string ',$'
 ```
 
-<b>#4</b>- Then for each lines that finish by a comma character, we will check if the next line is empty or contains only white spaces, which is fine too. Again we will be using regex here, ```^$``` matches an empty line and ```\s+``` matches one ore more whitespaces. This should return either ```$true``` or ```$false``` and we can use Pester from here to return the success of failure of the test.
+* #4 - Then for each lines that finish by a comma character, we will check if the next line is empty or contains only white spaces, which is fine too. Again we will be using regex here, `^$` matches an empty line and `\s+` matches one ore more whitespaces. This should return either `$true` or `$false` and we can use Pester from here to return the success of failure of the test.
 
 ```powershell
 $ParamText[$ParamLine] -match '^$|\s+' | Should Be $true
@@ -111,9 +112,6 @@ $ParamText[$ParamLine] -match '^$|\s+' | Should Be $true
 ## Related posts
 
 * <a href="{{ base_path }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
-
 * <a href="{{ base_path }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
-
 * <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your-comment.html" target="_blank">Make sure your Comment Based Help is not indented</a>
-
 * <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>
