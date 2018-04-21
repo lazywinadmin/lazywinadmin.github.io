@@ -29,6 +29,32 @@ Use it: `[Some Text][Link1]`
 the last part `"Some description here"` will be visible when you pass over the link
 
 ### Image
+
+#### Show an image
+
+```text
+![useful image]({{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+```
+
+![useful image]({{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+
+```text
+![useful image]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+```
+
+![useful image]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+
+#### Show an image with a link
+
+```text
+[![Get-DistributionGroupMember error]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+```
+
+[![Get-DistributionGroupMember error]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+
+
+#### Declare an image with Minimal mistakes theme
+
 Declare:`[ImageLink1]: http://lazywinadmin.com/lazy.jpg`
 Use it: `![Description][ImageLink1]`
 
@@ -42,10 +68,10 @@ Declare:`[ImageLink1]: http://lazywinadmin.com/lazy.jpg "Some details"`
 Use it: `![Description][ImageLink1]`
 
 ### Link
+
 `<http://lazywinadmin.com>`
 or
 `[http://lazywinadmin.com](http://lazywinadmin.com)`
-
 
 ### Emoticons
 
@@ -89,7 +115,6 @@ Update `img {` in `_sidebar.scss`
 }
 ```
 
-
 ### Using the .notice from minimal mistkaes
 
 My text {.notice}
@@ -101,7 +126,6 @@ My text
 {% endcapture %}
 
 {{mynote}}{: .notice--warning}
-
 
 {% capture notice-text %}
 You can also add the `.notice` class to a `<div>` element.
