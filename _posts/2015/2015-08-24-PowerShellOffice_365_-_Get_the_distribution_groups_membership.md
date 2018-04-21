@@ -33,7 +33,7 @@ By using `Get-Help` on `Get-DistributionGroupMember`, we can check the parameter
     Select-Object name,parametervalue,pipelineinput
 ```
 
-![Get-Help Get-DistributionGroupMember]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroupMember_help_pipelineinput2__1765972882__-772x298.png)
+[![Get-Help Get-DistributionGroupMember]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroupMember_help_pipelineinput2__1765972882__-772x298.png)]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroupMember_help_pipelineinput2__1765972882__-772x298.png)
 
 The Identity parameter is not accepting the value by property name, so we have to specify `Identity` before we send the output to `Get-DistributonGroupMember`
 
@@ -42,7 +42,7 @@ The Identity parameter is not accepting the value by property name, so we have t
     Get-DistributionGroupMember
 ```
 
-![Get-DistributionGroup]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Identity_Get-DistributionGroupMember2__626810639__-772x318.png)
+[![Get-DistributionGroup]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Identity_Get-DistributionGroupMember2__626810639__-772x318.png)]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Identity_Get-DistributionGroupMember2__626810639__-772x318.png)
 
 The above output does the job but we do not know which group they belong to.
 You can include the Distribution group name in the output using the following:
