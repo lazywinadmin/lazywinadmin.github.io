@@ -23,7 +23,7 @@ gallery:
     title: ''
 ---
 
-{% include toc title="Table of content" icon="file-text" %}
+{% include toc title="Table of content" %}
 
 {% capture mynote%}
 **Update 2018/02/09**: Add launch video
