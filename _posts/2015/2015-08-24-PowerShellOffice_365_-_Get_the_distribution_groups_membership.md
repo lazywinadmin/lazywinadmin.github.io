@@ -12,16 +12,26 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
- 
+{% include base_path %}
+
 <a href="{{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" width="150" /></a>I was recently looking at Office365/Exchange Online to retrieve Distribution Group membership. This is pretty simple using something like: `Get-DistributionGroupMember -Identity "Marketing"`
 
 Not that prior to perforce the following command you need to be already connected to Office365, <a href="{{ base_path }}/2014/07/powershell-handy-function-to-connect-to.html" target="_blank">see this post</a>.
 
-
 ### Retrieving all members of each Distribution Group
 
 Now if I want to retrieve all the Distribution group members, it's bit trickier you'll see. First I started by listing the groups members. My PowerShell instinct made me type `Get-DistributionGroup | Get-DistributionGroupMember` but it did not work, see below:
+
+Link1
+
+![useful image]({{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+
+link2
+
+![useful image]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+
+
+previous link
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
