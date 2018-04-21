@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+{% include base_path %}
 {% include toc title="Table of content" %}
 <a href="{{ base_path }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__1425385033__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__2058964902__-200x200.png" width="120" /></a>
 While writing some PowerShell Pester tests for my module <a href="https://www.powershellgallery.com/packages/AdsiPS/1.0.0.2" target="_blank">AdsiPS</a>, I wanted to make sure for each functions that all the help keywords of the comment based help were not indented.
@@ -57,50 +57,50 @@ $ExportedFunctions = $ModuleInformation.ExportedFunctions.Values.name
 # Testing the Module
 Describe "$ModuleName Module - HELP" -Tags "Module" {
     #$Commands = (get-command -Module ADSIPS).Name
-
+    
     FOREACH ($funct in $ExportedFunctions)
     {
         # Retrieve the content of the current function
         $FunctionContent = Get-Content function:$funct
-
+        
         Context "$funct - Comment Based Help - Indentation Checks"{
-
+            
             # Validate Help start at the beginning of the line
             It "Help - Starts at the beginning of the line"{
-                <span style="background-color: yellow;">$Pattern = ".Synopsis"
-                <span style="background-color: yellow;">(<span style="background-color: yellow;">$FunctionContent -split '\r\n' |
-                <span style="background-color: yellow;">    <span style="background-color: yellow;">select-string $Pattern).line -match "^$Pattern" | Should Be $true
+                $Pattern = ".Synopsis"
+                ($FunctionContent -split '\r\n' |
+                    select-string $Pattern).line -match "^$Pattern" | Should Be $true
             }
         }
     }
 }
-
 ```
 
 ## Step By Step
 
-<b>So what is happening here ?</b>
+So what is happening here ?
 
-<b>#1</b>- I get the content of the function using ```Get-Content```
+* #1 - I get the content of the function using `Get-Content`
 
 ```powershell
 $FunctionContent = Get-Content function:$funct
 ```
 
-<b>#2</b>- I define the pattern that I want to retrieve, here I'm just looking for the help keyword Synopsis
+* #2 - I define the pattern that I want to retrieve, here I'm just looking for the help keyword Synopsis
 
 ```powershell
 $Pattern = ".Synopsis"
 ```
+
 I guess i could check each help keywords as an improvement of the current code.
 
-<b>#3</b>- I split the content of the Function file on each Carriage Return character and look for the pattern I define in #2. This will give me any lines that contains '```.Synopsis```' (We should only have one)
+* #3 - I split the content of the Function file on each Carriage Return character and look for the pattern I define in #2. This will give me any lines that contains `.Synopsis` (We should only have one)
 
 ```powershell
 $FunctionContent -split '\r\n' | select-string $Pattern
 ```
 
-<b>#4</b>- Using regex, we specify the caret character '```^```' which will matches the beginning of a line with the pattern we defined. Finally we validate that it is $true using the Pester syntax '```Should Be```'
+* #4 - Using regex, we specify the caret character `^` which will matches the beginning of a line with the pattern we defined. Finally we validate that it is $true using the Pester syntax `Should Be`
 
 ```powershell
 line -match "^$Pattern" | Should Be $true
