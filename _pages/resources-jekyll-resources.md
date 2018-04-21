@@ -53,7 +53,7 @@ the last part `"Some description here"` will be visible when you pass over the l
 [![Get-DistributionGroupMember error]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
 
 
-#### Declare an image with Minimal mistakes theme
+#### Declare an image (specific to Minimal mistakes)
 
 Declare:`[ImageLink1]: http://lazywinadmin.com/lazy.jpg`
 Use it: `![Description][ImageLink1]`
@@ -66,6 +66,20 @@ or
 
 Declare:`[ImageLink1]: http://lazywinadmin.com/lazy.jpg "Some details"`
 Use it: `![Description][ImageLink1]`
+
+
+#### Image aligned left in post with text around (specific to minimal mistakes)
+
+Align left
+```
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-150x150.jpg){: .align-left}
+```
+
+see:
+
+https://github.com/mmistakes/minimal-mistakes/blob/57a4324fa04086ee8c035a6969d3c415f250e556/docs/_posts/2013-01-10-markup-image-alignment.md
+
+https://mmistakes.github.io/minimal-mistakes/markup/markup-image-alignment/
 
 ### Link
 
