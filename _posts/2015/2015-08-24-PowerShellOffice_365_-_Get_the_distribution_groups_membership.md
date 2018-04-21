@@ -22,7 +22,7 @@ Not that prior to perforce the following command you need to be already connecte
 
 Now if I want to retrieve all the Distribution group members, it's bit trickier you'll see. First I started by listing the groups members. My PowerShell instinct made me type `Get-DistributionGroup | Get-DistributionGroupMember` but it did not work, see below:
 
-![Get-DistributionGroupMember error]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
+[![Get-DistributionGroupMember error]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)]({{ base_path }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Get-DistributionGroup_Get-DistributionGroupMember__1466182560__-772x318.png)
 
 As the error message is stating that this Cmdlet does not accept input :-/
 
