@@ -31,11 +31,11 @@ I recently released a PowerShell module called MeetupPS. This module is a wrappe
 * Get Meetup events for a specific group (past and upcoming)
 * Create events
 
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/Meetup3.png){: .align-left}
+
 The initial reason behind the creation of this module is that I needed to gather the list of all the meetings from the last year (Title, link, attendees) and needed to submit them to the MVP Portal [using the MVP Module](/2017/05/MVP_Module.html). A long process if you do this manually.
 
 The second reason is that I want to automate the creation of an event using something like a Plaster template (Blog post, Meetup Event, Announce to Meetup members, Skype meeting, Tweet, Slack...). This whole process is not done yet, but that would save me some times on the long term.
-
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/Meetup3.png)
 
 ## Install the module
 
