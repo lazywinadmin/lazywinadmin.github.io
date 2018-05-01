@@ -15,15 +15,14 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
- 
- <div class="separator" style="clear: both; text-align: center;"><a href="https://draft.blogger.com/blogger.g?blogID=5118199599906690528" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="" /></a></div><a href="http://3.bp.blogspot.com/-Q4hb9idCNUE/Ux-RyNG8BZI/AAAAAAABjlg/C1eyS7yshe0/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-Q4hb9idCNUE/Ux-RyNG8BZI/AAAAAAABjlg/C1eyS7yshe0/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a>
+{% include base_path %}
+
+<div class="separator" style="clear: both; text-align: center;"><a href="https://draft.blogger.com/blogger.g?blogID=5118199599906690528" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="" /></a></div><a href="http://3.bp.blogspot.com/-Q4hb9idCNUE/Ux-RyNG8BZI/AAAAAAABjlg/C1eyS7yshe0/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-Q4hb9idCNUE/Ux-RyNG8BZI/AAAAAAABjlg/C1eyS7yshe0/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a>
 In April 2013 I was one of the lucky attendees at the first PowerShell Summit in North America. The event was organized by the PowerShell.org team and was held in Redmond, WA between the 22nd and 25th of April 2013.
 
 I thought sharing some details and pictures would be nice :-)
 
 <u><b>Note:</b></u>&nbsp;Just realized that this blog post stayed in my draft since last year ! Sorry for the late post ;-)
-
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/seattle_kerry_park__941080560__-700x393.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/seattle_kerry_park__941080560__-700x393.png" height="222" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Seattle, WA</td></tr></tbody></table>
 
@@ -49,7 +48,6 @@ When we got to the "Get-Together" evening event, I got to meet some of the Power
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_194744__1693483270__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_194744__1295881731__-320x240.jpg" /></a></td></tr><tr><td class="tr-caption" style="font-size: 13px;">Jeffrey Snover, Teresa Wilson and Jeff Wouters
 <div>
 </div></td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_194733__1640859123__-1088x816.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_194733__1640859123__-1088x816.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Don Jones, Mike F Robbins</td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_181148__1397899020__-1088x816.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_181148__1397899020__-1088x816.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Jeff Hicks, Alan Renouf, Jeffrey Snover, Jason Helmick, Richard Siddaway,...</td></tr></tbody></table>
-
 
 # PowerShell Summit 2013
 
@@ -93,8 +91,6 @@ Redmond offers some nice runner tracks to follow)</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161218__1215794647__-612x816.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161218__1215794647__-612x816.jpg" height="320" width="240" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Redmond Runner Tracks - Fitness Map
 Really nice and easy to follow</td></tr></tbody></table><div class="separator" style="clear: both; text-align: center;"></div>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1627179313__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1223311732__-320x240.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">My Redmond hotel "Extended Stay America" - cheap, convenient and close to the summit&nbsp;</td></tr></tbody></table>
-# 
-
 
 # Assessment
 
@@ -103,17 +99,12 @@ Really nice and easy to follow</td></tr></tbody></table><div class="separator" s
 I got to meet a lot of great people (PowerShell Teams, MVPs, IT Pro, ...).
 I left with a huge amount of information and I feel it really gave a boost to my PowerShell knowledge!
 
-
 # Total Costs
 
 The event was happening in Redmond, close to Seattle... personally I live in Montreal, QC, Canada that's on the other side of the continent, almost 5000 km away (~3100 miles)!
-<ul>
+
 * Conference PowerShell Summit 2013: 500$USD
-
 * Montreal to Seattle round trip Airplane Tickets: 600$USD
-
 * Hotel (99$/night), 3 nights With taxes: 350$USD
-</ul><div>Excluding the food, transportation, attractions and small expenses... the total was approx&nbsp;<b>1450$ USD </b>which&nbsp;is pretty cheap for a conference.</div><ul></ul>I initially purchased everything by myself, but lucky for me, my company Domtar paid for all of my fees :-) !!!</div>
-
-<div class="separator" style="clear: both; text-align: center;"></div>
-
+</ul><div>Excluding the food, transportation, attractions and small expenses... the total was approx <b>1450$ USD </b>which&nbsp;is pretty cheap for a conference.</div>
+I initially purchased everything by myself, but lucky for me, my company Domtar paid for all of my fees :-) !!!

@@ -12,9 +12,9 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
- 
- <div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a></div>In approximately 1 month I will be attending the <a href="http://powershell.org/wp/community-events/summit/powershell-summit-north-america/" target="_blank">PowerShell Summit 2014 North America</a>. This is the second edition of this event organized by the PowerShell.org team, It will be held April 28, 29, and 30 at the Meydenbauer Center on Northeast 6th Street in Bellevue, WA.
+{% include base_path %}
+
+<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a></div>In approximately 1 month I will be attending the <a href="http://powershell.org/wp/community-events/summit/powershell-summit-north-america/" target="_blank">PowerShell Summit 2014 North America</a>. This is the second edition of this event organized by the PowerShell.org team, It will be held April 28, 29, and 30 at the Meydenbauer Center on Northeast 6th Street in Bellevue, WA.
 
 <b><u>Note:</u></b> If you are interested, <a href="{{ base_path }}/2014/03/powershell-summit-north-america-2013.html" target="_blank">I previously blog about the 2013 event with some pictures, cost and other details</a>.
 
@@ -27,5 +27,3 @@ If you are attending, don't hesitate to come talk to me, my picture is in the to
 Also, if my plane is on time (or not stuck at the custom) I should be able to attend the Pre-Mixer event on Sunday night at Blue Martini.
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140315_PowerShell_Summit_North_America_2014/Summit-Horiz-Logo-Color__296729634__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140315_PowerShell_Summit_North_America_2014/Summit-Horiz-Logo-Color__296729634__-700x130.png" height="59" width="320" /></a></div>
-
-

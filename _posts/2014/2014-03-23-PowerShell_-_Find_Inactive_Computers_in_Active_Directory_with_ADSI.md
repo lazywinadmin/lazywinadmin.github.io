@@ -1,7 +1,7 @@
 ---
 layout: single
 title: PowerShell - Find Inactive Computers in Active Directory with ADSI
-excerpt: 
+excerpt: Leveraging ADSI to retrieve inactive machine accounts in your domain.
 permalink: /2014/03/powershell-find-inactive-computers-in.html
 tags: 
 - active directory
@@ -11,26 +11,19 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
- 
- <a href="{{ base_path }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" /></a>Today I wanted to retrieve inactive computer accounts in the Active Directory without using the Quest Active Directory Snapin or the Active Directory Module. Yes... It happens that you work on a computer that don't have those tools once in a while, and I thought It would be fun to have a script without requirements...
+{% include base_path %}
+
+<a href="{{ base_path }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" /></a>Today I wanted to retrieve inactive computer accounts in the Active Directory without using the Quest Active Directory Snapin or the Active Directory Module. Yes... It happens that you work on a computer that don't have those tools once in a while, and I thought It would be fun to have a script without requirements...
 
 <u>Note</u>: BTW, the following solution might not be the best or most efficient, so let me know if you know a faster/easier way to do this, I'm willing to learn more about querying AD.
 
 Here are the key element of the script, I want:
-<ul>
+
 * Computer Inactive for &gt;=90 days
-
 * Be able to specify a SearchRoot
-
 * Filter on the Operating System if possible (I want only Windows Servers, without the Domain controllers for example)
-
 * Return SamAccountName, Name, DN, Operating System, and Description
-
 * Limit the number of object to return (can be useful for large environment)
-</ul>
-
-
 
 # [adsisearcher]
 
@@ -38,13 +31,13 @@ I already talked about ADSISearcher<a href="{{ base_path }}/2013/10/powershell-g
 
 After some research and tests I quickly got the following line which return the basic information of what I want:
 
-```
+```powershell
 ([adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-105).ToFileTime())))").findall()
 ```
 
-<b><u>Output:</u></b>
+**Output:**
 
-```
+```text
 Path                                              Properties
 ----                                              ----------
 LDAP://CN=XAVIERLAPTOP,CN=Computers,DC=FX,DC=LAB  {logoncount, codepage, objectcategory, descrip...
@@ -56,19 +49,17 @@ LDAP://CN=LAB1SQL01,OU=Servers,OU=TEST,DC=FX,D... {logoncount, codepage, objectc
 LDAP://CN=LAB1CM01,CN=Computers,DC=FX,DC=LAB      {logoncount, codepage, objectcategory, descrip...
 LDAP://CN=LAB1OR01,OU=Servers,OU=TEST,DC=FX,DC... {logoncount, codepage, objectcategory, descrip...
 LDAP://CN=LAB1VC02,OU=Servers,OU=TEST,DC=FX,DC... {logoncount, codepage, objectcategory, descrip...
-
 ```
-
 
 Next the properties. If we a take look at the list of properties and methods available with this object we might be able to find what we need. We can do this using Get-Member
 
-```
+```powershell
 ([adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-105).ToFileTime())))") | Get-Member
 ```
 
-<b><u>Output: </u></b>
+**Output:**
 
-```
+```text
    TypeName: System.DirectoryServices.DirectorySearcher
 
 Name                      MemberType Definition
@@ -110,20 +101,14 @@ VirtualListView           Property   System.DirectoryServices.DirectoryVirtualLi
 
 ```
 
-
 Looks like the following properties will do just what we need:
-<ul>
+
 * <b>SearchRoot</b> (ADSI Object, Distinguished Name of the organization unit) this will be used to specify the root of the search
-
 * <b>SizeLimit </b>(Integer), to limit the number of object in the output (Can be useful in large environment),
-
 * <b>PropertiesToLoad</b> (String), to select the properties I want in the output,
-
 * <b>Filter</b> (String/LDAP Query), to limit the query to computer with a specific Operating System.
-</ul>
 
-
-```
+```powershell
 $searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-90).ToFileTime())))"
 $searcher.searchRoot = [adsi]"LDAP://OU=Servers,OU=TEST,dc=fx,dc=lab"
 $searcher.SizeLimit = "5"
@@ -132,9 +117,9 @@ $searcher.PropertiesToLoad.AddRange(('name','samaccountname','cn','operatingsyst
 $searcher.FindAll()
 ```
 
-<b><u>Output:</u></b>
+**Output:**
 
-```
+```text
 Name                           Value
 ----                           -----
 samaccountname                 {LAB1HYPE02$}
@@ -168,11 +153,9 @@ adspath                        {LDAP://CN=LAB1VC02,OU=Servers,OU=TEST,DC=FX,DC=L
 
 ```
 
-
 The output is poorly formated and we have some extra curly brackets that need to be take care of... Let's fix that by creating a new PowerShell object for each item retrieve by the query.
 
-
-```
+```powershell
 $searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-90).ToFileTime())))"
 $searcher.searchRoot = [adsi]"LDAP://OU=Servers,OU=TEST,dc=fx,dc=lab"
 $searcher.SizeLimit = "5"
@@ -189,9 +172,7 @@ Foreach ($ComputerAccount in $searcher.FindAll()){
 }
 ```
 
-
-
-```
+```text
 DistinguishedName : CN=LAB1HYPE02,OU=Servers,OU=TEST,DC=FX,DC=LAB
 Name              : LAB1HYPE02
 OperatingSystem   : Windows Server 2012 R2 Standard
@@ -226,23 +207,9 @@ SamAccountName    : LAB1VC02$
 
 That's way better! Neat!
 
-
-
-
 # My previous posts on ADSI
 
-
-
-<ul>
 * <a href="{{ base_path }}/2013/11/powershell-add-ad-site-subnet.html" target="_blank">PowerShell - Add AD Site Subnet</a>
-
 * <a href="{{ base_path }}/2013/10/powershell-get-domaincomputer-adsi.html" target="_blank">PowerShell - Get-DomainComputer (ADSI)</a>
-
 * <a href="{{ base_path }}/2013/10/powershell-using-adsi-with-alternate.html" target="_blank">PowerShell - Using ADSI with alternate Credentials</a>
-
 * <a href="{{ base_path }}/2013/10/powershell-get-domainuser.html" target="_blank">PowerShell - Get-DomainUser</a>
-</ul>
-
-
-
-
