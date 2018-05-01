@@ -35,7 +35,7 @@ The initial reason behind the creation of this module is that I needed to gather
 
 The second reason is that I want to automate the creation of an event using something like a Plaster template (Blog post, Meetup Event, Announce to Meetup members, Skype meeting, Tweet, Slack...). This whole process is not done yet, but that would save me some times on the long term.
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/meetup3.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/Meetup3.png)
 
 ## Install the module
 
