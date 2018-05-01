@@ -7,6 +7,7 @@ author_profile: false
 {% include toc title="Table of content" icon="file-text" %}
 
 ## Chronological
+
 <section class="archive-post-list">
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
