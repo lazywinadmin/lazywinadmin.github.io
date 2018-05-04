@@ -93,6 +93,7 @@ analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-23373830-3"
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author

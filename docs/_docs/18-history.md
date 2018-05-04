@@ -4,9 +4,22 @@ permalink: /docs/history/
 excerpt: "Change log of enhancements and bug fixes made to the theme."
 sidebar:
   nav: docs
-last_modified_at: 2018-03-20T17:32:27-04:00
+last_modified_at: 2018-05-03T19:31:32-04:00
 toc: true
 ---
+
+## [4.11.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.11.2)
+
+### Enhancements
+
+* Update Font Awesome to version `5.0.11`. [#1605](https://github.com/mmistakes/minimal-mistakes/pull/1620)
+* Add Slovak localized UI text strings. [#1613](https://github.com/mmistakes/minimal-mistakes/pull/1613)
+* Add option to anonymize IP addresses of hits sent to Google Analytics. [#1636](https://github.com/mmistakes/minimal-mistakes/pull/1636)
+
+### Bug Fixes
+
+* Use correct text string for "Back to Top" link. [#1595](https://github.com/mmistakes/minimal-mistakes/issues/1595)
+* Add conditionals for showing `reCaptcha.siteKey` and `reCaptcha.secret` in Staticman comments form.
 
 ## [4.11.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.11.1)
 
