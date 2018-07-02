@@ -17,6 +17,6 @@ What an Amazing way to start the year !!! It is a great pleasure and honor to re
 
 HUGE Thank you to my family, friends and people who support me!!!
 
-<a href="{{ base_path }}/images/2015/20150103_Microsoft_MVP_2015_for_PowerShell_!/mvplogo__1438215705__-650x125.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150103_Microsoft_MVP_2015_for_PowerShell_!/mvplogo__1438215705__-650x125.jpg"/></a></div>
+<a href="{{ base_path }}/images/2015/20150103_Microsoft_MVP_2015_for_PowerShell_!/mvplogo__1438215705__-650x125.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150103_Microsoft_MVP_2015_for_PowerShell_!/mvplogo__1438215705__-650x125.jpg"/></a>
 
 > <i>Chère/Cher Francois-Xavier Cat, Félicitations! Nous sommes heureux de vous remettre la récompense MVP Microsoft® 2015! Cette récompense est accordée aux leaders d'exception de la communauté technique qui partagent activement leur expertise pratique de grande qualité. Nous apprécions vos remarquables contributions dans les communautés techniques PowerShell lors de cette année passée.</i>
