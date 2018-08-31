@@ -1,3 +1,55 @@
+## Unreleased
+
+### Enhancements
+
+* Update [jekyll-toc](https://github.com/allejo/jekyll-toc) to `v1.0.5`.
+* Support heading levels 1-6 in table of contents with proper indentation styling. [#1782](https://github.com/mmistakes/minimal-mistakes/issues/1782)
+* Use relative links for masthead navigation menu items when possible. [#1784](https://github.com/mmistakes/minimal-mistakes/pull/1784)
+* Add `.emoji` class to author sidebar to normalize image sizes. [#1780](https://github.com/mmistakes/minimal-mistakes/pull/1780)
+* Update Staticman commit message to include commentor's name.
+* Improve side navigation spacing in relation to masthead.
+* Style archive links with appropriate link color.
+* Adjust feature row spacing and font-sizes.
+* Use sentence case and increase font-sizes for improved readability in table of contents.
+* Add `{{ content }}` to `home` layout. [#1775](https://github.com/mmistakes/minimal-mistakes/pull/1775)
+
+## [4.12.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.12.1)
+
+### Enhancements
+
+* Add missing French localized UI text strings. [#1769](https://github.com/mmistakes/minimal-mistakes/pull/1769) [#1741](https://github.com/mmistakes/minimal-mistakes/pull/1741)
+* Update Font Awesome to version [`5.2.0`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md). [#1754](https://github.com/mmistakes/minimal-mistakes/pull/1754)
+* Add documentation note to update root `Gemfile` when forking theme.
+
+### Bug Fixes
+
+* Remove slash at the beginning of `path` in staticman.yml example. [#1772](https://github.com/mmistakes/minimal-mistakes/pull/1772)
+* Fix `read_time` logic in header image overlay. [#1756](https://github.com/mmistakes/minimal-mistakes/pull/1756)
+
+## [4.12.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.12.0)
+
+### Enhancements
+
+* Add Hungarian localized UI text strings. [#1682](https://github.com/mmistakes/minimal-mistakes/pull/1682)
+* DRY `tags_max` calculation in tags.html layout. [#1696](https://github.com/mmistakes/minimal-mistakes/pull/1696)
+* DRY `categories_max` calculation in categories.html layout.
+* Add support for ["sticking" table of contents](https://mmistakes.github.io/minimal-mistakes/layout-table-of-contents-sticky/) to top of page via `toc_sticky: true` YAML Front Matter.
+* Add support for captioning images in feature row helper via `image_caption` YAML Front Matter. [#1440](https://github.com/mmistakes/minimal-mistakes/issues/1440)
+* Add [Google Custom Search Engine](https://cse.google.com/cse) support. [#1652](https://github.com/mmistakes/minimal-mistakes/issues/1652)
+* Update Font Awesome to version [`5.1.13`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md)
+* Add "Pets" sample archive page to documentation site. [#1664](https://github.com/mmistakes/minimal-mistakes/pull/1664)
+* Add GitLab social icon brand color. [#1653](https://github.com/mmistakes/minimal-mistakes/issues/1653)
+* Prevent line breaks between FontAwesome icon and text in footer social links. [#1659](https://github.com/mmistakes/minimal-mistakes/issues/1659)
+
+### Bug Fixes
+
+* Set default `title_separator`. [#1701](https://github.com/mmistakes/minimal-mistakes/pull/1701)
+* Fix `naver_site_verification` typo in /_includes/seo.html. [#1687](https://github.com/mmistakes/minimal-mistakes/pull/1687)
+* Fix table of contents missing borders. [#1675](https://github.com/mmistakes/minimal-mistakes/issues/1675)
+* Fix link to "Recipes" sample archive on documentation site. [#1664](https://github.com/mmistakes/minimal-mistakes/pull/1664)
+* Update example Reddit social share interpolation syntax in documentation. [#1656](https://github.com/mmistakes/minimal-mistakes/issues/1656)
+* Fix "Back to Top" links on pages that use [header overlays](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#header-overlay).
+
 ## [4.11.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.11.2)
 
 ### Enhancements

@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .archive {
+  margin-top: 1em;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
@@ -36,10 +37,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
-  a {
-    color: inherit;
-  }
-
   a + a {
     opacity: 0.5;
   }
@@ -63,10 +60,37 @@
 }
 
 .archive__item-teaser {
+  position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
+  }
+}
+
+.archive__item-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: $caption-font-family;
+  font-size: $type-size-8;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: $border-radius 0 0 0;
+
+  @include breakpoint($large) {
+    padding: 5px 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
@@ -184,11 +208,15 @@
   @include clearfix();
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
+
+  .archive__item-title {
+    margin-bottom: 0;
+  }
 }
 
 .feature__item {
   margin-bottom: 2em;
-  font-size: 1.25rem;
+  font-size: 1.125em;
 
   @include breakpoint($small) {
     float: left;
@@ -216,13 +244,18 @@
     }
   }
 
+  .archive__item-body {
+    padding-left: gutter(1 of 12);
+    padding-right: gutter(1 of 12);
+  }
+
   &--left {
     float: left;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem;
+    font-size: 1.125em;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -249,7 +282,7 @@
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem;
+    font-size: 1.125em;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -264,7 +297,7 @@
       }
 
       .archive__item-body {
-        float: right;
+        float: left;
         width: span(7 of 12);
         padding-left: gutter(0.5 of 12);
         padding-right: gutter(1 of 12);
@@ -278,7 +311,7 @@
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem;
+    font-size: 1.125em;
 
     .archive__item-teaser {
       margin-bottom: 2em;

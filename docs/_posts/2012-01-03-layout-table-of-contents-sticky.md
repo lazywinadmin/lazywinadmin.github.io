@@ -1,22 +1,17 @@
 ---
-title: "Layout: Post with Table of Contents"
-header:
-  image: assets/images/unsplash-image-9.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+title: "Layout: Post with Sticky Table of Contents"
 tags:
   - table of contents
 toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"
+toc_sticky: true
 ---
 
-Enable table of contents on post or page by adding `toc: true` to its YAML Front Matter. The title and icon can also be changed with:
+"Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
 
 ```yaml
 ---
 toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 ```
 
