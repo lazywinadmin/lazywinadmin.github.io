@@ -103,7 +103,7 @@ author:
   name             : "François-Xavier Cat"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "SysEng | Microsoft MVP"
-  location         : "Montréal, Canada"
+  location         : "San Francisco Bay"
   email            :
   uri              : 'http://lazywinadmin.com'
   home             : # null (default), "absolute or relative url to link to author home"
