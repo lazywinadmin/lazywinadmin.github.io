@@ -14,18 +14,14 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
- 
+{% include relative_url %}
+
  The year 2013 has been a pretty good year for the LazyWinAdmin blog.
 Thank you guys for following my blog and participating to the comments discussions. Thanks also for those who give me advices, critics and ideas to improve my scripts, I think It helps everyone (and myself) to improve our knowledge everyday, Really appreciated :-)
 
-I get more and more page views, comments,... every month&nbsp; :-) and I thought It would be nice to give a small Top Five 2013 of the LazyWinAdmin blog posts.
+I get more and more page views, comments,... every month :-) and I thought It would be nice to give a small Top Five 2013 of the LazyWinAdmin blog posts.
 
-
-
-
-# Top Five 2013 Blog posts:
-
+# Top Five 2013 Blog posts
 
 <b><a href="{{ base_path }}/2013/01/configure-windows-server-2012-nfs.html" target="_blank">WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab</a> </b>
 <i>This article focus on how to configure NFS on Windows Server 2012<b> </b>with</i><b> </b><i>PowerShell for a VMware vSphere 5.1 host.</i><b>
@@ -43,7 +39,3 @@ In 2013 I started playing a bit more <i>with Regex, this post talked about getti
 
 <b><a href="{{ base_path }}/2013/10/powershell-40-is-now-available.html" target="_blank">PowerShell 4.0 is now available</a></b>
 <i>The team of Jeffery Snover, the PowerShell Team, &nbsp;realeased a new version of this awesome tool ! more cmdlets!! more fun!!</i>
-
-
-
-
