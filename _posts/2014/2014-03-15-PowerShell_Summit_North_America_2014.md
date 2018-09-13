@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a></div>In approximately 1 month I will be attending the <a href="http://powershell.org/wp/community-events/summit/powershell-summit-north-america/" target="_blank">PowerShell Summit 2014 North America</a>. This is the second edition of this event organized by the PowerShell.org team, It will be held April 28, 29, and 30 at the Meydenbauer Center on Northeast 6th Street in Bellevue, WA.
 

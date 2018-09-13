@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="http://2.bp.blogspot.com/-nnDulVPr8nI/Uy4x0oATYuI/AAAAAAABj1s/v8Nky6kakKY/s1600/2014-03-22+8-57-33+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-nnDulVPr8nI/Uy4x0oATYuI/AAAAAAABj1s/v8Nky6kakKY/s1600/2014-03-22+8-57-33+PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
 

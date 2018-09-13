@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 I just came back yesterday from the **Microsoft MVP Global Summit 2015** who took place in the beautiful city of Seattle from the 2nd to 5th of November 2015. This was the second time that I attend this event which was really well organized. I really had a blast meeting with all the MVP and Microsoft teams.
 

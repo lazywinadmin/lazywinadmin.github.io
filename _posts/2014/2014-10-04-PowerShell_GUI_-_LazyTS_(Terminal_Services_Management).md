@@ -15,7 +15,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" height="113" style="cursor: move;" width="200" /></a></div><b>LazyTS</b> is a PowerShell script to manage <u>Sessions</u> and <u>Processes</u>on local or remote machines. It allows you to <b>Query/Disconnect/Stop session(s)</b>, <b>Query/Stop process(es)</b> and<b>Send Interactive message</b> to one or more sessions.
 

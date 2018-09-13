@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="{{ site.url }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" /></a>Today I wanted to retrieve inactive computer accounts in the Active Directory without using the Quest Active Directory Snapin or the Active Directory Module. Yes... It happens that you work on a computer that don't have those tools once in a while, and I thought It would be fun to have a script without requirements...
 

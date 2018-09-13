@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="{{ site.url }}/images/2014/20141126_Finding_VIBs_on_ESXi_hosts_with_PowerCLI/powercli-110x110__1784526564__-110x110.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141126_Finding_VIBs_on_ESXi_hosts_with_PowerCLI/powercli-110x110__1784526564__-110x110.png" /></a>I did not work with PowerCli for the last couple of months and I had an interesting question from one of my follower Ivo from Netherlands.
 

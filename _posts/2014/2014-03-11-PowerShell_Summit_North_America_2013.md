@@ -15,7 +15,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://draft.blogger.com/blogger.g?blogID=5118199599906690528" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="" /></a></div><a href="http://3.bp.blogspot.com/-Q4hb9idCNUE/Ux-RyNG8BZI/AAAAAAABjlg/C1eyS7yshe0/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-Q4hb9idCNUE/Ux-RyNG8BZI/AAAAAAABjlg/C1eyS7yshe0/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a>
 In April 2013 I was one of the lucky attendees at the first PowerShell Summit in North America. The event was organized by the PowerShell.org team and was held in Redmond, WA between the 22nd and 25th of April 2013.

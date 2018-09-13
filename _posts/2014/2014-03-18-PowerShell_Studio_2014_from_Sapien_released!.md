@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <div class="separator" style="clear: both; text-align: center;"></div><a href="{{ site.url }}/images/2014/20140318_PowerShell_Studio_2014_from_Sapien_released!/powershellstudio__1679627693__-88x88.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140318_PowerShell_Studio_2014_from_Sapien_released!/powershellstudio__1679627693__-88x88.png" /></a>SAPIEN released a new version of their awesome tool PowerShell Studio a few days ago:<a href="http://www.sapien.com/software/powershell_studio" target="_blank">SAPIEN PowerShell Studio 2014</a>.
 

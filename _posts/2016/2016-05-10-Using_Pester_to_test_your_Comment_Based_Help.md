@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 {% include toc title="Table of content" %}
 
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/pester_logo__332888956__-200x200.png" width="130" />

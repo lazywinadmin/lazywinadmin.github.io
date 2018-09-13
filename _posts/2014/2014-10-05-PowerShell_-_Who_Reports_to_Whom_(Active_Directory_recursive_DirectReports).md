@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
  
 <a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Site_Map__1366356344__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Site_Map__1366356344__-96x96.png" /></a>I've been working in the video games industry for a bit more than 3 months now. A lot is going on, and the pace seems faster than regular corporation environment. I also notice a lot of employees movements between teams and projects.
 

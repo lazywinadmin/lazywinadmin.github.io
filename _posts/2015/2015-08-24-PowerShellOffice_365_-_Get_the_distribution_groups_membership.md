@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="{{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" width="150" /></a>I was recently looking at Office365/Exchange Online to retrieve Distribution Group membership. This is pretty simple using something like: `Get-DistributionGroupMember -Identity "Marketing"`
 

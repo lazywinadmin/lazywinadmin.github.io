@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 Today a quick post to share one of the editor preset I created for Sapien PowerShell Studio.
 

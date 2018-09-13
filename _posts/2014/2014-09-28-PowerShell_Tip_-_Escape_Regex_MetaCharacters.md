@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/powershell_logo__1414163941__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/powershell_logo__1414163941__-144x109.png" /></a>
 Last week I worked on a Scorch PowerShell script that is looking for duplicate Incident Requests inside SCSM by checking new incoming request and existing ticket already in the system.

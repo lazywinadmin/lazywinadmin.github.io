@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 What an Amazing way to start the year !!! It is a great pleasure and honor to receive the Microsoft Most Valuable Professional (MVP) Award for a second year for my contributions in Windows PowerShell. Can't wait to stack the 2015 ring on the MVP Award trophy!
 

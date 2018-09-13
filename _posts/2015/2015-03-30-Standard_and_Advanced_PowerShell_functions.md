@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 This post is part of the <b>PowerShell Blogging Week (</b><a href="https://twitter.com/hashtag/PSBlogWeek?src=hash&amp;lang=en" target="_blank">#PSBlogWeek</a><b>)</b>, a series of coordinated posts designed to provide a comprehensive view of a particular topic.
 

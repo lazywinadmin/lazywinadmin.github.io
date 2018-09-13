@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="{{ site.url }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" /></a>Quick post, last week my coworker <a href="http://www.virtualizemydc.ca/" target="_blank">Andrey</a> needed to list all the Organization Units in the domain by Canonical Name. I thought sharing the PowerShell One-Liner magic could save time to some people out there.
 

@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="http://1.bp.blogspot.com/-8bFyb29nsMA/U_kuiKKDt8I/AAAAAAABnZw/ij11ovxajUc/s1600/SCSM_128x128x32.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-8bFyb29nsMA/U_kuiKKDt8I/AAAAAAABnZw/ij11ovxajUc/s1600/SCSM_128x128x32.png" /></a>Using the PowerShell module <a href="https://smlets.codeplex.com/" target="_blank">SMlets</a> you can easily change the Status of a Ticket inside System Center Service Manager.
 

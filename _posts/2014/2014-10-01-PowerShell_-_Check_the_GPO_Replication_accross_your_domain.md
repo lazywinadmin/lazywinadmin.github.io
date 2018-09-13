@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Active_Directory_GPO_Replication__1735484773__-144x118.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Active_Directory_GPO_Replication__1735484773__-144x118.png" /></a></div>A couple of days ago we had to troubleshoot some SYSVOL replication issues throughout the domain. I wanted to check the version of the GPO that was modified recently and make sure it was replicated on all the Domain Controllers.
 

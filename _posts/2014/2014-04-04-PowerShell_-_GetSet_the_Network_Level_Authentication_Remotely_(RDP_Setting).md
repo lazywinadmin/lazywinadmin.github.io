@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %}
+
 
 <a href="http://2.bp.blogspot.com/-6f6kXC7Moqo/UzyIUkTdV4I/AAAAAAABj9A/G0B0bwNpM_c/s1600/Network-Remote-Desktop-icon+(1).png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-6f6kXC7Moqo/UzyIUkTdV4I/AAAAAAABj9A/G0B0bwNpM_c/s1600/Network-Remote-Desktop-icon+(1).png" /></a>A few days ago I was in a training class out of the office with one of my work colleague. During the class he tried to connect to work using our Citrix (SRA) portal when he realized that his computer at work (freshly re-installed with Windows 8.1) was not allowing him to connect because of the Network Level Authentication.
 
