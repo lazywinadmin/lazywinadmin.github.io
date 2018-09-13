@@ -13,7 +13,7 @@ comments: true
 ---
 
  
-<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ base_path }}/images/2016/20160224_Windows_Management_Framework_(WMF)_5.0_RTM_released_(again)/powershell_logo__2124756278__-144x109.png" /> Microsoft just re-released the new version of Windows Management Framework (WMF) 5.0 RTM for Windows Server 2012 R2, Windows Server 2012, Windows 2008 R2 SP1, Windows 8.1, and Windows 7 SP1.
+<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ site.url }}/images/2016/20160224_Windows_Management_Framework_(WMF)_5.0_RTM_released_(again)/powershell_logo__2124756278__-144x109.png" /> Microsoft just re-released the new version of Windows Management Framework (WMF) 5.0 RTM for Windows Server 2012 R2, Windows Server 2012, Windows 2008 R2 SP1, Windows 8.1, and Windows 7 SP1.
 
 The PowerShell Team previously released WMF 5.0 RTM two months ago but it was pulled-back mainly because of the <a href="https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11148471-bug-wmf5-rtm-psmodulepath" target="_blank">$PSmodulePath issue</a>.
 
@@ -75,5 +75,5 @@ The PowerShell Team previously released WMF 5.0 RTM two months ago but it was pu
 
 * [MSDN Documentation WMF 5.0 RTM Release Notes Overview](https://msdn.microsoft.com/en-us/powershell/wmf/releasenotes)
 
-<img border="0" src="{{ base_path }}/images/2016/20160224_Windows_Management_Framework_(WMF)_5.0_RTM_released_(again)/WMF5RTM_01__1094346790__-844x349.jpg"  />
+<img border="0" src="{{ site.url }}/images/2016/20160224_Windows_Management_Framework_(WMF)_5.0_RTM_released_(again)/WMF5RTM_01__1094346790__-844x349.jpg"  />
 

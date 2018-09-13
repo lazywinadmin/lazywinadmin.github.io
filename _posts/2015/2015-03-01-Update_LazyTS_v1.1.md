@@ -14,7 +14,7 @@ comments: true
 ---
 {% include base_path %}
 
-<a href="{{ base_path }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" height="104" width="200" /></a>I found some time over the week-end to fix some bugs and add a few things to <b>LazyTS</b>. You'll now be able to quickly search though the displayed data using the small highlight util and open a Remote Desktop connection using the Shadow feature (View and Control)
+<a href="{{ site.url }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" height="104" width="200" /></a>I found some time over the week-end to fix some bugs and add a few things to <b>LazyTS</b>. You'll now be able to quickly search though the displayed data using the small highlight util and open a Remote Desktop connection using the Shadow feature (View and Control)
 
 See <a href="http://blogs.technet.com/b/askperf/archive/2013/10/22/windows-8-1-windows-server-2012-r2-rds-shadowing-is-back.aspx" target="_blank">this link</a> for more information about RDP Shadow.
 
@@ -39,8 +39,8 @@ Apart of a couple of bugs fixes and minor changes:
 
 You can easily search for a string in the displayed data
 
-<a href="{{ base_path }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" imageanchor="1" style="margin-left: auto; margin-right: auto;">
-  <img border="0" src="{{ base_path }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" height="332" width="640" />
+<a href="{{ site.url }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" imageanchor="1" style="margin-left: auto; margin-right: auto;">
+  <img border="0" src="{{ site.url }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-Highlight__1728965691__-740x387.png" height="332" width="640" />
 </a>
 
 ### Remote Desktop Shadow
@@ -48,8 +48,8 @@ You can easily search for a string in the displayed data
 Allows you to View or Control a specific session.
 By default it requires the user to accept your request. (this can be changed using a group policy object)
 
-<a href="{{ base_path }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-RDP_Shadow__873050890__-740x387.png" imageanchor="1" style="margin-left: auto; margin-right: auto;">
-  <img border="0" src="{{ base_path }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-RDP_Shadow__873050890__-740x387.png" height="334" width="640" />
+<a href="{{ site.url }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-RDP_Shadow__873050890__-740x387.png" imageanchor="1" style="margin-left: auto; margin-right: auto;">
+  <img border="0" src="{{ site.url }}/images/2015/20150301_Update_LazyTS_v1.1/LazyTS-RDP_Shadow__873050890__-740x387.png" height="334" width="640" />
 </a>
 
 ## Download

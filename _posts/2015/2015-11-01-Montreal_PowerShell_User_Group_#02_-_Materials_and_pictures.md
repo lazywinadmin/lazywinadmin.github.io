@@ -14,7 +14,7 @@ comments: true
 ---
 
  
-<a href="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/mtlpug__838790986__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/mtlpug__838790986__-1600x438.jpg" height="172" width="640" /></a>
+<a href="{{ site.url }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/mtlpug__838790986__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/mtlpug__838790986__-1600x438.jpg" height="172" width="640" /></a>
 
 Here is the material from our second Montreal PowerShell User Group meeting that occurred last Tuesday (2015/10/27).
 
@@ -26,13 +26,13 @@ The Powerpoint presentations and PowerShell codes is available on the meetup gro
 
 
 
-<a href="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581084__30660877__-1600x1200.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581084__1394122644__-640x480.jpeg" width="640" /></a>
+<a href="{{ site.url }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581084__30660877__-1600x1200.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="{{ site.url }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581084__1394122644__-640x480.jpeg" width="640" /></a>
 
 Martin lebel
 
 <br>
 
-<a href="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581090__191632862__-1600x1200.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581090__781233709__-640x480.jpeg" width="640" /></a>
+<a href="{{ site.url }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581090__191632862__-1600x1200.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="{{ site.url }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/highres_443581090__781233709__-640x480.jpeg" width="640" /></a>
 
 Gary Szabo on "Creating Scripts and Functions"
 

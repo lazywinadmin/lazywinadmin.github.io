@@ -13,17 +13,17 @@ comments: true
 ---
 
  
- <div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%252B6-43-32%252BPM__34967239__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%252B6-43-32%252BPM__34967239__-298x308.jpg" height="200" width="193" /></a></div>Monday evening, the PowerShell Summit 2014 NA organized an Iron Scripter competition. The goal was to fix/create 3 scripts and to get them rated by 3 juges. We had 45 minutes to complete everything, including time for the juges to score the scripts.
+ <div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%252B6-43-32%252BPM__34967239__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%252B6-43-32%252BPM__34967239__-298x308.jpg" height="200" width="193" /></a></div>Monday evening, the PowerShell Summit 2014 NA organized an Iron Scripter competition. The goal was to fix/create 3 scripts and to get them rated by 3 juges. We had 45 minutes to complete everything, including time for the juges to score the scripts.
 
 <b><u>PshSummit 2014 NA serie posts:</u></b>
-<a href="{{ base_path }}/2014/04/powershell-summit-2014-na-day-1.html" target="_blank">PowerShell Summit 2014 NA - Day 1</a>
+<a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-1.html" target="_blank">PowerShell Summit 2014 NA - Day 1</a>
 PowerShell Summit 2014 NA - Iron Scripter Competition <i>(current post)</i>
-<a href="{{ base_path }}/2014/04/powershell-summit-2014-na-day-2.html" target="_blank">PowerShell Summit 2014 NA - Day 2</a>
-<a href="{{ base_path }}/2014/05/powershell-summit-2014-na-day-3.html" target="_blank">PowerShell Summit 2014 NA - Day 3</a>
+<a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-2.html" target="_blank">PowerShell Summit 2014 NA - Day 2</a>
+<a href="{{ site.url }}/2014/05/powershell-summit-2014-na-day-3.html" target="_blank">PowerShell Summit 2014 NA - Day 3</a>
 
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/Summit-Horiz-Logo-Color__1818637477__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/Summit-Horiz-Logo-Color__1818637477__-700x130.png" height="59" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/Summit-Horiz-Logo-Color__1818637477__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/Summit-Horiz-Logo-Color__1818637477__-700x130.png" height="59" width="320" /></a></div>
 
 
 # Iron Scripter
@@ -33,7 +33,7 @@ You will be awarded 1-5 points in each of four categories: Presentation (formati
 
 <b><u>Theme Ingredient</u></b> : <b>CIM</b>
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140428_172326__1844839101__-1200x1600.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140428_172326__1844839101__-1200x1600.jpg" height="400" width="300" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Iron Scripter trophy</b> (created by <u>Rob Campbell</u>)</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140428_172326__1844839101__-1200x1600.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140428_172326__1844839101__-1200x1600.jpg" height="400" width="300" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Iron Scripter trophy</b> (created by <u>Rob Campbell</u>)</td></tr></tbody></table>
 
 
 
@@ -45,12 +45,12 @@ You will be awarded 1-5 points in each of four categories: Presentation (formati
 Create the shortest on-liner possible that produces the following output as exactly as possible. No Semicolons permitted. Property values may differ on your computer. Alias and all other syntactically legal shortuts are allowed
 
 <div class="separator" style="clear: both; text-align: center;"></div>
-<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%255B1%255D__89717336__-1600x601.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%255B1%255D__89717336__-1600x601.jpg" height="240" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%255B1%255D__89717336__-1600x601.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%255B1%255D__89717336__-1600x601.jpg" height="240" width="640" /></a></div>
 
 # Dessert Course
 
 <div class="separator" style="clear: both; text-align: left;">Debug and fix this function so that it runs properly.</div><div class="separator" style="clear: both; text-align: left;">Save room for you main course, on the other side of this page.</div><div class="separator" style="clear: both; text-align: center;">
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%255B1%255D__413306252__-1600x610.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%255B1%255D__413306252__-1600x610.jpg" height="243" width="640" /></a></div>
+</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%255B1%255D__413306252__-1600x610.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%255B1%255D__413306252__-1600x610.jpg" height="243" width="640" /></a></div>
 
 
 

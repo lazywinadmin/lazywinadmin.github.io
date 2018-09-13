@@ -11,7 +11,7 @@ comments: true
 ---
 {% include base_path %}
 {% include toc title="Table of content" %}
- <a href="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__1746910156__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__454921558__-200x200.png" width="120" /></a>
+ <a href="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__1746910156__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__454921558__-200x200.png" width="120" /></a>
 
 Today, I continue with another post on Pester. I want to check that each of my parameters declared in my ```PARAM()``` block is separated by a empty line.
 
@@ -20,11 +20,11 @@ This will help bring clarity to my code and make it easier to read for other peo
 ## Example
 Here is an example,<b>I don't want this</b>:
 <center>
-<img border="0" height="153" src="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter01__1521695242__-549x212.png"/></center>
+<img border="0" height="153" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter01__1521695242__-549x212.png"/></center>
 
 Instead,<b>I want all the comment based help in that format</b> (with an empty line between each parameters)
 <center>
-<img border="0" height="165" src="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter02__2044538152__-547x227.png"/></center>
+<img border="0" height="165" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter02__2044538152__-547x227.png"/></center>
 
 ## Code
 
@@ -107,11 +107,11 @@ $ParamTextSeparator = $ParamText | select-string ',$'
 $ParamText[$ParamLine] -match '^$|\s+' | Should Be $true
 ```
 
-<img border="0" height="157" src="{{ base_path }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter03__1644746112__-834x329.png"/>
+<img border="0" height="157" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter03__1644746112__-834x329.png"/>
 
 ## Related posts
 
-* <a href="{{ base_path }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
-* <a href="{{ base_path }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
-* <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your-comment.html" target="_blank">Make sure your Comment Based Help is not indented</a>
-* <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>
+* <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
+* <a href="{{ site.url }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
+* <a href="{{ site.url }}/2016/08/powershellpester-make-sure-your-comment.html" target="_blank">Make sure your Comment Based Help is not indented</a>
+* <a href="{{ site.url }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>

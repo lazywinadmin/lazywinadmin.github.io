@@ -16,7 +16,7 @@ comments: true
 
 {% include base_path %}
 
-<a href="{{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/339px-Expired.svg__2053401180__-339x479.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/339px-Expired.svg__2053401180__-339x479.png" width="141" /></a>In the video game industry it is common practice to hire consultants to take care of the Quality Assurance, which consists of a means of the software engineering processes and methods used to ensure quality. Those people are most likely Testers and usually spend most of their day testing games in development to find bugs.
+<a href="{{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/339px-Expired.svg__2053401180__-339x479.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/339px-Expired.svg__2053401180__-339x479.png" width="141" /></a>In the video game industry it is common practice to hire consultants to take care of the Quality Assurance, which consists of a means of the software engineering processes and methods used to ensure quality. Those people are most likely Testers and usually spend most of their day testing games in development to find bugs.
 
 The problem is, once in a while managers forget to update the expiration dates of their Consultant/External Partners even if they got a couple of reminders, and since we have some automation process taking care of the off-boarding (thanks to PowerShell! ;-)...it is becoming fun when those guys can't connect to their accounts on Monday morning...and they lost all their access.
 
@@ -24,7 +24,7 @@ So I wrote a tiny script to report any expiring user accounts and send it to the
 
 <b><u>Report Example</u></b>
 
-[ReportExample]: {{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Example__1621226184__-951x506.png
+[ReportExample]: {{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Example__1621226184__-951x506.png
 ![Report Example][ReportExample]
 
 # How does this work ?
@@ -46,23 +46,23 @@ You will also need to create a scheduled task to run the script at the specific 
 
 ## Workflow
 
-[![Workflow]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)
+[![Workflow]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)
 
 # Finding Expiring Account
 
 I am using the very neat cmdlet: `Search-ADAccount`. This cmdlet is included with in the Active Directory Module and comes with some very cool parameters.
 
-[![Finding Expiring Account]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)
+[![Finding Expiring Account]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)
 
 Notice the `-AccountExpiring` parameter, that's what we need for our little script.
 
 We can get more information by checking out the help
 
-[![Checking out the help]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)
+[![Checking out the help]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)
 
 With the `-AccountExpiring` parameter we can use either `-DateTime` or `TimeSpan` parameter to specify the time range.
 
-[![AccountExpiring]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)
+[![AccountExpiring]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)
 
 Search for account Expiring before 2015/05/26
 
@@ -70,15 +70,15 @@ Search for account Expiring before 2015/05/26
 Search-ADAccount -AccountExpiring -DateTime "2015/05/26"
 ```
 
-[![Search-ADAccount]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)
+[![Search-ADAccount]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)
 
-[![Search-ADAccount2]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)
+[![Search-ADAccount2]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)
 
 ```powershell
 Search-ADAccount -AccountExpiring -TimeSpan "10.00:00:00"
 ```
 
-[![Search-ADAccount3]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)
+[![Search-ADAccount3]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)
 
 Ok we got the expiring accounts, now we need to generate a report.
 
@@ -91,7 +91,7 @@ A quick Google search lead me to this little piece of code below (found on <http
 I'm adding this piece of code into the variable `$CSS` using the here-string construction method.
 Here-String construction lets you bypass the complexities involved in assigning a multi-line string value to a variable.
 
-[![Example using the TimeSpan parameter]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)]({{ base_path }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)
+[![Example using the TimeSpan parameter]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)
 
 Almost there! The next step is to add a Title above our report and a Foot Note to display the source and generated date/time.
 

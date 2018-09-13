@@ -33,10 +33,10 @@ You can also look at the ADK install/uninstall logs here: `C:\Users\<Account>\Ap
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_01__605578273__-778x579.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_01__605578273__-778x579.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_01__605578273__-778x579.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_01__605578273__-778x579.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -64,10 +64,10 @@ Using [`PsExec.exe`](https://technet.microsoft.com/en-us/sysinternals/bb897553.a
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PsExec_PowerShell_LocalSystem__125866709__-630x239.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PsExec_PowerShell_LocalSystem__125866709__-630x239.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PsExec_PowerShell_LocalSystem__125866709__-630x239.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PsExec_PowerShell_LocalSystem__125866709__-630x239.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -79,20 +79,20 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PowerShell_LocalSystem_ADKSetup__214499777__-674x218.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PowerShell_LocalSystem_ADKSetup__214499777__-674x218.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PowerShell_LocalSystem_ADKSetup__214499777__-674x218.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PowerShell_LocalSystem_ADKSetup__214499777__-674x218.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_02_success__448296844__-780x583.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_02_success__448296844__-780x583.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_02_success__448296844__-780x583.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_02_success__448296844__-780x583.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -106,10 +106,10 @@ Unfortunately I had the same issue when running the Windows 10 ADK Installer.
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install01__453172665__-781x579.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install01__453172665__-781x579.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install01__453172665__-781x579.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install01__453172665__-781x579.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -118,10 +118,10 @@ Unfortunately I had the same issue when running the Windows 10 ADK Installer.
 
 {% assign ImageText = 'Install did not complete successfully' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install02__691625683__-779x581.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install02__691625683__-779x581.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install02__691625683__-779x581.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install02__691625683__-779x581.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -138,10 +138,10 @@ Error 0x800705514: Failed to execute EXE package
 
 {% assign ImageText = 'Error seen in the setup log file' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install03__583158098__-900x791.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install03__583158098__-900x791.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install03__583158098__-900x791.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install03__583158098__-900x791.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -150,10 +150,10 @@ Error seen in the log file:
 
 {% assign ImageText = 'Error seen in the log file' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install04__1638434946__-719x176.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install04__1638434946__-719x176.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install04__1638434946__-719x176.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install04__1638434946__-719x176.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -173,10 +173,10 @@ Same solution as above by using `Psexec` and by running `adksetup.exe`
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install06__230518088__-675x176.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install06__230518088__-675x176.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install06__230518088__-675x176.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install06__230518088__-675x176.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -184,9 +184,9 @@ Same solution as above by using `Psexec` and by running `adksetup.exe`
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install05__754254663__-766x568.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install05__754254663__-766x568.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install05__754254663__-766x568.png
+{{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install05__754254663__-766x568.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})

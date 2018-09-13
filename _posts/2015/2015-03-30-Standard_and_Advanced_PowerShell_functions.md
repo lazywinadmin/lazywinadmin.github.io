@@ -16,7 +16,7 @@ This post is part of the <b>PowerShell Blogging Week (</b><a href="https://twitt
 This week topic will be focused on <b><u>Windows PowerShell Advanced Functions</u></b>.
 
 > <u>In this series:</u>
-> * <a href="{{ base_path }}/2015/03/standard-and-advanced-powershell.html" target="_blank"><b>Standard and Advanced PowerShell Functions</b></a> by <a href="https://twitter.com/LazyWinAdm" target="_blank">Francois-Xavier Cat (@LazyWinAdm)</a> (March 30, 2015)
+> * <a href="{{ site.url }}/2015/03/standard-and-advanced-powershell.html" target="_blank"><b>Standard and Advanced PowerShell Functions</b></a> by <a href="https://twitter.com/LazyWinAdm" target="_blank">Francois-Xavier Cat (@LazyWinAdm)</a> (March 30, 2015)
 > * <a href="http://mikefrobbins.com/2015/03/31/powershell-advanced-functions-can-we-build-them-better-with-parameter-validation-yes-we-can/" target="_blank"><b>PowerShell Advanced Functions: Can we build them better? With parameter validation, yes we can!</b></a> by <a href="https://twitter.com/mikefrobbins" target="_blank">Mike F. Robbins (@mikefrobbins)</a> (March 31, 2015)
 > * <a href="http://www.adamtheautomator.com/psbloggingweek-dynamic-parameters-and-parameter-validation/" target="_blank"><b>Dynamic Parameters and Parameter Validation</b></a> by <a href="https://twitter.com/adbertram" target="_blank">Adam Bertram (@adbertram)</a> (April 1, 2015)
 > * <a href="http://bit.ly/1GlVVff" target="_blank"><b>Supporting WhatIf and Confirm in Advanced Functions</b></a> by <a href="https://twitter.com/JeffHicks" target="_blank">Jeffery Hicks (@JeffHicks)</a> (April 2, 2015)
@@ -58,7 +58,7 @@ Function Get-ComputerInformation
 
 It can be used this way:
 
-<a href="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" /></a>
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" /></a>
 
 Now we can make our function more versatile by including a parameter that accepts different computer names. In the following example I'm adding the parameter `$ComputerName` and some extra code on the WMI queries to pass the machine name.
 
@@ -92,8 +92,8 @@ Function Get-ComputerInformation
 }
 ```
 
-<a href="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-  <img border="0" src="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" />
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+  <img border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" />
 </a>
 
 We created a very simple and nice tool that can query different machines by editing the ComputerName parameter. What can we do to make this tool more efficient?
@@ -146,12 +146,12 @@ If you take a look at the parameters available with and without the CmdletBindin
 
 <b>Standard Function</b> (Without `CmdletBinding`)
 
-<a href="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" /></a>
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" /></a>
 
 <b>Advanced Function</b> (With `CmdletBinding`)
 
-<a href="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-  <img border="0" src="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" />
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+  <img border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" />
 </a>
 
 The common parameters are available with any cmdlet and on advanced functions that use the CmdletBinding attribute or the Parameter attribute. They can, for example, help you handle different types of error, warnings or show some programmer-level details about the operation performed.
@@ -223,8 +223,8 @@ Function Get-ComputerInformation
 In this example, I'm loading a list of machines inside the text file computers.txt. Those machines are passed to the parameter "ComputerName". I also used the verbose switch which lets me follow the sequence of my tool.
 
 
-<a href="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-  <img border="0" src="{{ base_path }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" />
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+  <img border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" />
 </a>
 
 

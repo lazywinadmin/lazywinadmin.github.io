@@ -26,15 +26,15 @@ I get more and more page views, comments,... every month :-) and I thought It wo
 <i>This article focus on how to configure NFS on Windows Server 2012<b> </b>with</i><b> </b><i>PowerShell for a VMware vSphere 5.1 host.</i><b>
 </b>
 
-<b><a href="{{ base_path }}/2013/10/powershell-studio-2012-winforms.html" target="_blank">PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)</a></b>
+<b><a href="{{ site.url }}/2013/10/powershell-studio-2012-winforms.html" target="_blank">PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)</a></b>
 <i>This is a quick tutorial (with a video) on how to create a really basic Winform/Graphical User Interface (GUI) using SAPIEN PowerShell Studio 2012.</i>
 <b></b>
 
-<b><a href="{{ base_path }}/2013/10/powershell-monitor-and-report-active.html" target="_blank">PowerShell - Monitor and Report Active Directory Group Membership Change</a></b>
+<b><a href="{{ site.url }}/2013/10/powershell-monitor-and-report-active.html" target="_blank">PowerShell - Monitor and Report Active Directory Group Membership Change</a></b>
 <i>This is probably one of my most popular script. This PowerShell script let you monitor membership of one or multiple groups. You can specify the names of the group(s) directly, from a file or from an OU path.</i>
 
-<b><a href="{{ base_path }}/2013/10/powershell-get-substring-out-of-string.html" target="_blank">PowerShell - Get a SubString out of a String using RegEx</a></b>
+<b><a href="{{ site.url }}/2013/10/powershell-get-substring-out-of-string.html" target="_blank">PowerShell - Get a SubString out of a String using RegEx</a></b>
 In 2013 I started playing a bit more <i>with Regex, this post talked about getting text from a string. I'll post more about this subject soon. </i>
 
-<b><a href="{{ base_path }}/2013/10/powershell-40-is-now-available.html" target="_blank">PowerShell 4.0 is now available</a></b>
+<b><a href="{{ site.url }}/2013/10/powershell-40-is-now-available.html" target="_blank">PowerShell 4.0 is now available</a></b>
 <i>The team of Jeffery Snover, the PowerShell Team, realeased a new version of this awesome tool ! more cmdlets!! more fun!!</i>

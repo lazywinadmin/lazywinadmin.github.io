@@ -10,7 +10,7 @@ published: true
 comments: true
 ---
 {% include base_path %}
-<a href="{{ base_path }}/images/2015/20150327_PowerShell_Blogging_Week/powershell_logo__656374481__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150327_PowerShell_Blogging_Week/powershell_logo__656374481__-144x109.png" /></a> Next week, from the 30th of March to the 4th of April, I will be participating to the <b>PowerShell Blogging Week</b> with a couple of community well-known Bloggers/Enthusiasts/MVP.
+<a href="{{ site.url }}/images/2015/20150327_PowerShell_Blogging_Week/powershell_logo__656374481__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150327_PowerShell_Blogging_Week/powershell_logo__656374481__-144x109.png" /></a> Next week, from the 30th of March to the 4th of April, I will be participating to the <b>PowerShell Blogging Week</b> with a couple of community well-known Bloggers/Enthusiasts/MVP.
 
 <b>But.. what is the PowerShell Blogging Week: </b>This event was initiated by Jeffery Hicks and Adam Bertram and will focus on one PowerShell topic.
 

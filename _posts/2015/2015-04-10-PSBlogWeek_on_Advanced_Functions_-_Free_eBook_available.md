@@ -12,7 +12,7 @@ comments: true
 ---
 {% include base_path %}
 
-<a href="{{ base_path }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" /></a>
+<a href="{{ site.url }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" /></a>
 
 Last week I participated to the **PowerShell Blog Week** with a couple of community well-known Bloggers/Enthusiasts/MVP. The topic of the week was Advanced Functions.
 
@@ -34,7 +34,7 @@ I'm happy to announced that all the articles have been combined into a free eboo
 
 ## Table of Content
 
-1. <a href="{{ base_path }}/2015/03/standard-and-advanced-powershell.html" target="_blank">Standard and Advanced PowerShell Functions</a>
+1. <a href="{{ site.url }}/2015/03/standard-and-advanced-powershell.html" target="_blank">Standard and Advanced PowerShell Functions</a>
 1. <a href="http://mikefrobbins.com/2015/03/31/powershell-advanced-functions-can-we-build-them-better-with-parameter-validation-yes-we-can/" target="_blank">Parameter validation</a>
 1. <a href="http://www.adamtheautomator.com/psbloggingweek-dynamic-parameters-and-parameter-validation/" target="_blank">Dynamic Parameters and Parameter Validation</a>
 1. <a href="http://bit.ly/1GlVVff" target="_blank">Supporting WhatIf and Confirm</b></a>

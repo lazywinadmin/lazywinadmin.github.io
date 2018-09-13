@@ -12,7 +12,7 @@ comments: true
 ---
 
 {% include toc title="Table of content" %}
- <a href="{{ base_path }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" /></a>If you play often with PowerShell you might have encountered something called "Composite Formatting". What is that ? 
+ <a href="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" /></a>If you play often with PowerShell you might have encountered something called "Composite Formatting". What is that ? 
 
 Each format item takes the following form and consists of the following components:
 
@@ -25,7 +25,7 @@ The matching braces ```{``` and ```}``` are required.
 
 Here is a quick example ```"Welcome to {0}" -f "LazyWinAdmin.com"```
 
-<center><a href="{{ base_path }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/CompositeFormatting__1364390208__-438x57.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/CompositeFormatting__1364390208__-438x57.png" /></a></center>
+<center><a href="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/CompositeFormatting__1364390208__-438x57.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/CompositeFormatting__1364390208__-438x57.png" /></a></center>
 
 
 

@@ -16,7 +16,7 @@ comments: true
 ---
 
  
- <a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-09-04_20-28-34__1627644906__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-09-04_20-28-34__1627644906__-144x125.png" /></a>In the last couple of months I had to parse different types of output using PowerShell and I thought it would be a cool idea to explain how this can be done. Command line tool: <b><u>Netstat.exe</u></b>
+ <a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-09-04_20-28-34__1627644906__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-09-04_20-28-34__1627644906__-144x125.png" /></a>In the last couple of months I had to parse different types of output using PowerShell and I thought it would be a cool idea to explain how this can be done. Command line tool: <b><u>Netstat.exe</u></b>
 
 This small tool allows you to display active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, IPv4 and IPv6 statistics.
 
@@ -26,7 +26,7 @@ In this example I will use the parameter '<b><u>-n</u></b>' which displays activ
 
 
 
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__398076426__-692x826.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__398076426__-692x826.png" /></a></div>
+</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__398076426__-692x826.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__398076426__-692x826.png" /></a></div>
 
 
 
@@ -43,7 +43,7 @@ Before we start to write code, we need to :
 * <b>Define each of the </b><b style="text-decoration: underline;">Properties.</b>First column represents the Protocol, second column the Local Address, third...etc...
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" /></a></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" /></a></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div>
 
 
 # Getting the Data
@@ -70,7 +70,7 @@ $data[4..$data.count]
 ```
 
 <div class="separator" style="clear: both; text-align: center;"></div>
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_21-42-33__665391850__-772x658.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_21-42-33__665391850__-772x658.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_21-42-33__665391850__-772x658.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_21-42-33__665391850__-772x658.png" /></a></div>
 
 
 
@@ -81,19 +81,19 @@ Those properties are separated by spaces (also called whitespace characters). Re
 
 <b><span style="font-size: large;">\s</b>
 Using the parameter \s we can <u>find any whitespace inside a string</u>. But as you can see the regex find multiple matches and will split on each individual whitespace.
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-53-44__437826017__-588x190.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-53-44__437826017__-588x190.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-53-44__437826017__-588x190.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-53-44__437826017__-588x190.png" /></a></div>
 <b><span style="font-size: large;">\s+</b>
 The solution to avoid the previous example is to add a + to theparameter \s. This way we can <u>find any substring that contains more that one whitespace</u>.
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-52-54__621512630__-579x186.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-52-54__621512630__-579x186.png" /></a></div><div class="separator" style="clear: both; text-align: center;">
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-52-54__621512630__-579x186.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-52-54__621512630__-579x186.png" /></a></div><div class="separator" style="clear: both; text-align: center;">
 </div><b><span style="font-size: large;">^\s+</b>
 Finally we need to get rid of the first whitespaces at the the beginning of the string, before the protocol property. If we don't do this step, the first property of our split will be empty.
 The <b><span style="font-size: large;">^</b> sign means that we are looking at the very beginning of the line.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-55-36__741437709__-583x183.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-55-36__741437709__-583x183.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-55-36__741437709__-583x183.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-55-36__741437709__-583x183.png" /></a></div>
 
 Let's test the split in PowerShell:
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-13-27__200921306__-772x398.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-13-27__200921306__-772x398.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-13-27__200921306__-772x398.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-13-27__200921306__-772x398.png" /></a></div>
 # Defining your properties
 
 <div>
@@ -126,7 +126,7 @@ FOREACH ($line in $data)
 
 <div class="separator" style="clear: both; text-align: center;"></div>And here is the Output! Magnifique! :-)
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" /></a></div>```
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" /></a></div>```
 
 ```
 ```
@@ -142,7 +142,7 @@ FOREACH ($line in $data)
 
 <div>
 If you want the ports information in a separated fields, we can simply split on the ":", this does not require a lot of additional work.</div><div>
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-27-28__249884520__-772x238.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-27-28__249884520__-772x238.png" /></a></div><div class="separator" style="clear: both; text-align: center;">
+</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-27-28__249884520__-772x238.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-27-28__249884520__-772x238.png" /></a></div><div class="separator" style="clear: both; text-align: center;">
 </div><div class="separator" style="clear: both; text-align: center;">
 </div>
 ```
@@ -180,7 +180,7 @@ FOREACH ($line in $data)
 <u><b>
 </b></u>
 ```
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-31-39__373841716__-772x818.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-31-39__373841716__-772x818.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-31-39__373841716__-772x818.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-31-39__373841716__-772x818.png" /></a></div>
 #  <u>Extra step:</u> Building a function
 
 
@@ -245,5 +245,5 @@ Get-NetStat |
     Format-Table -AutoSize -HideTableHeaders
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-17_2-07-48__354367697__-772x652.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-17_2-07-48__354367697__-772x652.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-17_2-07-48__354367697__-772x652.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-17_2-07-48__354367697__-772x652.png" /></a></div>
 

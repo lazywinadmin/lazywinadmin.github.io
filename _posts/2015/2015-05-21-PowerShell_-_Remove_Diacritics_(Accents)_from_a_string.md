@@ -17,10 +17,10 @@ In the last few days, I have been working on a Onboarding automation process tha
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/aaaaaa-diacritics__873671977__-496x135.png
+{{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/aaaaaa-diacritics__873671977__-496x135.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/aaaaaa-diacritics__873671977__-496x135.png
+{{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/aaaaaa-diacritics__873671977__-496x135.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -32,10 +32,10 @@ The following approach uses <a href="https://msdn.microsoft.com/en-us/library/sy
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell__1063375222__-772x258.png
+{{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell__1063375222__-772x258.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell__1063375222__-772x258.png
+{{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell__1063375222__-772x258.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -111,10 +111,10 @@ This code is available on my [GitHub Repository](https://github.com/lazywinadmin
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell2__774601678__-772x178.png
+{{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell2__774601678__-772x178.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell2__774601678__-772x178.png
+{{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell2__774601678__-772x178.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 

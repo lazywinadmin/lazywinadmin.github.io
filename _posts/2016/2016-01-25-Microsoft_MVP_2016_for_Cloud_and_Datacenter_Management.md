@@ -16,7 +16,7 @@ comments: true
  
 It is a great pleasure and honor to receive for a third year the <strike>PowerShell MVP</strike> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5000475?fullName=Francois-Xavier%20Cat" target="_blank"><b>Cloud and DataCenter Management MVP</b> Award</a>!!!
 
-<img border="0" src="{{ base_path }}/images/2016/20160125_Microsoft_MVP_2016_for_Cloud_and_Datacenter_Management/mvplogo__872798122__-650x125.jpg" />
+<img border="0" src="{{ site.url }}/images/2016/20160125_Microsoft_MVP_2016_for_Cloud_and_Datacenter_Management/mvplogo__872798122__-650x125.jpg" />
 
 >Chère/Cher Francois-Xavier Cat,
 >

@@ -14,7 +14,7 @@ comments: true
 ---
 {% include base_path %}
 
-<div class="separator" style="clear: both; text-align: center;"></div><a href="{{ base_path }}/images/2014/20140318_PowerShell_Studio_2014_from_Sapien_released!/powershellstudio__1679627693__-88x88.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140318_PowerShell_Studio_2014_from_Sapien_released!/powershellstudio__1679627693__-88x88.png" /></a>SAPIEN released a new version of their awesome tool PowerShell Studio a few days ago:<a href="http://www.sapien.com/software/powershell_studio" target="_blank">SAPIEN PowerShell Studio 2014</a>.
+<div class="separator" style="clear: both; text-align: center;"></div><a href="{{ site.url }}/images/2014/20140318_PowerShell_Studio_2014_from_Sapien_released!/powershellstudio__1679627693__-88x88.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140318_PowerShell_Studio_2014_from_Sapien_released!/powershellstudio__1679627693__-88x88.png" /></a>SAPIEN released a new version of their awesome tool PowerShell Studio a few days ago:<a href="http://www.sapien.com/software/powershell_studio" target="_blank">SAPIEN PowerShell Studio 2014</a>.
 
 PowerShell Studio is a Toolmaking Environment, a PowerShell Integrated Scripting Environment (ISE) tool that let you edit and debug scripts, create package, installer, executable and deployments. Also, the Enhanced Form Designer makes GUI design fast and easy, eliminating the need to manually write hundreds of lines of code.
 

@@ -14,7 +14,7 @@ commment: true
 ---
 
  
-<a href="{{ base_path }}/images/2015/20150831_Montreal_PowerShell_User_Group_%2301_-_Introduction_to_PowerShell/mtlpug__799110755__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ base_path }}/images/2015/20150831_Montreal_PowerShell_User_Group_%2301_-_Introduction_to_PowerShell/mtlpug__636217772__-640x175.jpg" width="640" /></a>
+<a href="{{ site.url }}/images/2015/20150831_Montreal_PowerShell_User_Group_%2301_-_Introduction_to_PowerShell/mtlpug__799110755__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ site.url }}/images/2015/20150831_Montreal_PowerShell_User_Group_%2301_-_Introduction_to_PowerShell/mtlpug__636217772__-640x175.jpg" width="640" /></a>
 
 # -English-
 

@@ -19,7 +19,7 @@ comments: true
 
 > **Error message:**<i>The remote computer that you are trying to connect to requires Network Level Authentication (NLA), but your Windows domain controller cannot be contacted to perform NLA. If you are an administrator on the remote computer, you can disable NLA by using the options on the Remote tab of the System Properties dialog box."</i>
 
-<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA__180582049__-583x182.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA__1667311512__-583x182.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA__180582049__-583x182.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA__1667311512__-583x182.png" /></a></div>
 Before I talk about the workaround and the PowerShell script we used to fix that, let's investigate in order to understand the problem.
 
 # What is Network Level Authentication ?
@@ -30,7 +30,7 @@ Originally, if you opened a RDP (remote desktop) session to a server it would lo
 
 Network Level Authentication was introduced in RDP 6.0 and supported initially in Windows Vista. It uses the new Security Support Provider, CredSSP, which is available through SSPI since Windows Vista.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA_RDP_Supported__911042635__-346x226.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="209" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA_RDP_Supported__1565359304__-346x226.png" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA_RDP_Supported__911042635__-346x226.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="209" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/NLA_RDP_Supported__1565359304__-346x226.png" width="320" /></a></div>
 
 The advantages of Network Level Authentication are:
 
@@ -121,7 +121,7 @@ The property <span style="font-family: &quot;courier new&quot; , &quot;courier&q
 Get-WmiObject -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-44-36__968688984__-692x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-44-36__2015979677__-692x778.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-44-36__968688984__-692x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-44-36__2015979677__-692x778.png" /></a></div>
 
 <b><u>Finding the methods</u></b>
 We can retrieve the methods available using <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace; font-weight: bold;">Get-Member.<span style="font-family: inherit;">Here we are interested at the method <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace; font-weight: bold;">SetUserAuthenticationRequired.
@@ -130,7 +130,7 @@ We can retrieve the methods available using <span style="font-family: &quot;cour
 Get-WmiObject -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices | Get-Member -Type Methods
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-47-35__1249747839__-692x330.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-47-35__1889517893__-692x330.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-47-35__1249747839__-692x330.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-47-35__1889517893__-692x330.png" /></a></div>
 
 <b><u>Using CIM cmdlets</u></b>
 However in my functions I decided to use CIM Cmdlets, you can retrieve the same information using the following:
@@ -138,7 +138,7 @@ However in my functions I decided to use CIM Cmdlets, you can retrieve the same 
 Get-Ciminstance -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-50-18__210592771__-692x570.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-50-18__1509479296__-692x570.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-50-18__210592771__-692x570.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-50-18__1509479296__-692x570.png" /></a></div>
 
 However when you check the methods, you will notice the same methods are not available.
 
@@ -146,7 +146,7 @@ However when you check the methods, you will notice the same methods are not ava
 Get-Ciminstance -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices | Get-Member -Type Method
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-51-55__1969548964__-692x410.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-51-55__664197085__-692x410.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-51-55__1969548964__-692x410.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-51-55__664197085__-692x410.png" /></a></div>
 
 <b><u>Find CIM Methods</u></b>
 Cim Cmdlets don't work the same way, we need to use <b><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">Get-CimClass</b> cmdlets instead with the property <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>cimclassmethods</b>
@@ -155,7 +155,7 @@ Cim Cmdlets don't work the same way, we need to use <b><span style="font-family:
 (Get-Cimclass -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices).cimclassmethods
 ```
 
-<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_22-09-37__125149504__-692x442.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_22-09-37__1699464907__-692x442.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_22-09-37__125149504__-692x442.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_22-09-37__1699464907__-692x442.png" /></a></div>
 
 <b><u>Invoking CIM Method</u></b>
 We use the cmdlet <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">Invoke-CimMethod to call this method.
@@ -167,7 +167,7 @@ Invoke-CimMethod -MethodName SetUserAuthenticationRequired -Arguments @{ UserAut
 
 The <a href="http://msdn.microsoft.com/en-us/library/aa383441%28v=vs.85%29.aspx" target="_blank">MSDN page</a> of this method show us how to use it:
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-04_20-01-37__1265536478__-970x905.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="298" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-04_20-01-37__238174237__-970x905.png" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-04_20-01-37__1265536478__-970x905.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="298" src="{{ site.url }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-04_20-01-37__238174237__-970x905.png" width="320" /></a></div>
 
 # Download
 

@@ -17,9 +17,9 @@ comments: true
 ---
 
  
- <a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" /></a>I'm continuing to play with the new <b><span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertFrom-String</b> cmdlet (<a href="http://blogs.msdn.com/b/powershell/archive/2014/09/04/windows-management-framework-5-0-preview-september-2014-is-now-available.aspx" target="_blank">available in the last WMF 5.0 September preview released yesterday</a>) which make the parsing job really easy for simple or complex output.
+ <a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" /></a>I'm continuing to play with the new <b><span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertFrom-String</b> cmdlet (<a href="http://blogs.msdn.com/b/powershell/archive/2014/09/04/windows-management-framework-5-0-preview-september-2014-is-now-available.aspx" target="_blank">available in the last WMF 5.0 September preview released yesterday</a>) which make the parsing job really easy for simple or complex output.
 
-This cmdlets supports two types of modes: <b>Basic Delimited Parsing</b> (<a href="{{ base_path }}/2014/09/powershell-playing-with-new-convertfrom.html" target="_blank">See yesterday's post</a>) and the <b>Auto-Generated Example-Driven Parsing</b> which I will cover in this post.
+This cmdlets supports two types of modes: <b>Basic Delimited Parsing</b> (<a href="{{ site.url }}/2014/09/powershell-playing-with-new-convertfrom.html" target="_blank">See yesterday's post</a>) and the <b>Auto-Generated Example-Driven Parsing</b> which I will cover in this post.
 
 This Auto-Generated Example-Driven Parsing mode is based on the <b>FlashExtract</b> research work in Microsoft Research...
 
@@ -34,7 +34,7 @@ The research core of FlashExtract comes from <a href="http://research.microsoft.
 
 Once again, I will work with the <b>NetStat.exe</b>command line, to demo <b><span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertFrom-String </b>with the<b style="text-decoration: underline;">TemplateFile</b>parameter. Here is the default output.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" /></a></div>
 <div class="separator" style="clear: both; text-align: center;"></div>
 
 # Creating the Template File
@@ -79,7 +79,7 @@ However, What if a line does not contains a State information? like this one :
 
 <u>State</u> will show the same value as <u>ForeignAddress</u> :-/
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-15-20__587262349__-449x460.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-15-20__587262349__-449x460.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-15-20__587262349__-449x460.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-15-20__587262349__-449x460.png" /></a></div>
 
 This can be solved by adding the property State anyway with a whitespace Regex Metacharacter<b><span style="font-family: Courier New, Courier, monospace; font-size: large;">\s</b>
 
@@ -88,7 +88,7 @@ This can be solved by adding the property State anyway with a whitespace Regex M
 ```
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-17-47__311027146__-433x554.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-17-47__311027146__-433x554.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-17-47__311027146__-433x554.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-17-47__311027146__-433x554.png" /></a></div>
 
 
 <b><u>Different type of lines in NetStat -na</u></b>
@@ -138,7 +138,7 @@ netstat -na |
 
 ```
 <div>
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-20-15__461307832__-692x634.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-20-15__461307832__-692x634.png" /></a></div>
+</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-20-15__461307832__-692x634.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-20-15__461307832__-692x634.png" /></a></div>
 <div class="separator" style="clear: both; text-align: center;"></div>This is super cool !!
 
 
@@ -185,6 +185,6 @@ netstat -na |
     Out-gridview
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-23-30__1662940095__-513x813.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-23-30__1662940095__-513x813.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-23-30__1662940095__-513x813.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-23-30__1662940095__-513x813.png" /></a></div>
 <div class="separator" style="clear: both; text-align: center;"></div>
 

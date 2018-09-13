@@ -15,7 +15,7 @@ comments: true
 ---
 
  
-<a href="{{ base_path }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/SCCM2012R2_big__1580057027__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ base_path }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/SCCM2012R2_big__1977075591__-200x200.png" width="140" /></a>The following function helps you retrieve all the deployment that a user is supposed to received.
+<a href="{{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/SCCM2012R2_big__1580057027__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/SCCM2012R2_big__1977075591__-200x200.png" width="140" /></a>The following function helps you retrieve all the deployment that a user is supposed to received.
 
 We use this during the Operating System Deployment (OSD). Using the UDI we get the user account that will receive the workstation currently being deployed. This script allow us to retrieve in SCCM all the Application advertised on the user that needed to be deployed on the computer during the task sequence.
 
@@ -106,13 +106,13 @@ This works perfectly inside a Task Sequence during the OSD.
 ## Function in Action
 
 Default Output:
-![Default Output]({{ base_path }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollectionb__387352672__-718x262.jpg)
+![Default Output]({{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollectionb__387352672__-718x262.jpg)
 
 
 Using `Select-Object` to only show `TargetName`, `TargetSubname` and `DeploymentIntent`
 You can also filter on the collection name if you just want a specific set of application.
 
-![alt]({{ base_path }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollection2b__291576827__-718x380.jpg)
+![alt]({{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollection2b__291576827__-718x380.jpg)
 
 
 ## Download

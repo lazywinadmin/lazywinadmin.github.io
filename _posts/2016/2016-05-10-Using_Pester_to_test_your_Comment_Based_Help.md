@@ -13,7 +13,7 @@ comments: true
 {% include base_path %}
 {% include toc title="Table of content" %}
 
-<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ base_path }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/pester_logo__332888956__-200x200.png" width="130" />
+<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/pester_logo__332888956__-200x200.png" width="130" />
 <mark><u>Update 2016/11/25:</u></mark> Updated the code to support functions where there is no parameter declared (Thanks <b>Wojciech Sciesinski</b> !!!)
 
 I remember attending a meeting on Pester presented by Dave Wyatt back in November 2014 during my first MVP Summit.
@@ -26,7 +26,7 @@ Anyway, at the time Pester looked pretty neat but since I only played with it a 
 Evening event organized by Dave Wyatt on Pester.</i>
 
 <center>
-<a href="{{ base_path }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1621835198__-892x669.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ base_path }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1783351507__-320x240.jpg" width="320" /></a>
+<a href="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1621835198__-892x669.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1783351507__-320x240.jpg" width="320" /></a>
 </center>
 
 # What is Pester ?
@@ -134,14 +134,14 @@ Here is the code in action:
 
 We can see that I already missed a couple of things on the first functions tested ... :-/
 
-<img border="0" src="{{ base_path }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" />
 
 # Other Pester posts
 
-* <a href="{{ base_path }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
-* <a href="{{ base_path }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
-* <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your-comment.html" target="_blank">Make sure your Comment Based Help is not indented</a>
-* <a href="{{ base_path }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>
+* <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
+* <a href="{{ site.url }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
+* <a href="{{ site.url }}/2016/08/powershellpester-make-sure-your-comment.html" target="_blank">Make sure your Comment Based Help is not indented</a>
+* <a href="{{ site.url }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>
 
 # Resources
 

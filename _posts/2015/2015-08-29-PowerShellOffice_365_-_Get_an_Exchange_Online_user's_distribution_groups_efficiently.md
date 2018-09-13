@@ -14,9 +14,9 @@ comments: true
 ---
 {% include base_path %}
 
-<a href="{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__580073936__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__307945277__-200x200.png" width="150" /></a>
+<a href="{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__580073936__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__307945277__-200x200.png" width="150" /></a>
 
-<a href="{{ base_path }}/2015/08/powershello365-get-distribution-groups.html#more" target="_blank">In my previous post</a> I showed how to retrieve the membership of one or multiple groups. In today's post I want to find the Distribution groups a user belongs to.
+<a href="{{ site.url }}/2015/08/powershello365-get-distribution-groups.html#more" target="_blank">In my previous post</a> I showed how to retrieve the membership of one or multiple groups. In today's post I want to find the Distribution groups a user belongs to.
 
 There are multiple approaches you could be using to gather this information but as an example I'll re-use the same one-liner from my previous article and simply filter with `Where-Object` to find a particular User.
 
@@ -28,7 +28,7 @@ Retrieving the count of Distribution Groups and an User account in Office 365:
 
 {% assign ImageText = 'Retrieving the count of Distribution Groups and an User account in Office 365' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-17-33+PM__333558129__-772x178.png
+{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-17-33+PM__333558129__-772x178.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{ImageUrl}})
 
@@ -38,7 +38,7 @@ Retrieving the count of Distribution Groups and an User account in Office 365:
 You need to be connected to Exchange Online. This can be done using on of the following functions:
 
 * [Connect-ExchangeOnline](https://github.com/lazywinadmin/PowerShell/blob/master/EXCHANGE-Connect-ExchangeOnline/Connect-ExchangeOnline.ps1)
-* [Connect-Office365]({{ base_path }}/2014/07/powershell-handy-function-to-connect-to.html)
+* [Connect-Office365]({{ site.url }}/2014/07/powershell-handy-function-to-connect-to.html)
 
 
 # Find User's distribution groups with the Where-Object cmdlet
@@ -48,7 +48,7 @@ This retrieve all the members of each groups, then narrow down the output to onl
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-43-40+PM__189355782__-772x649.png
+{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-43-40+PM__189355782__-772x649.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{ImageUrl}})
 
@@ -67,7 +67,7 @@ Get-DistributionGroup -Filter "Members -like $($user.distinguishedName)"
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-47-27+PM__1159283031__-772x478.png
+{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-47-27+PM__1159283031__-772x478.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{ImageUrl}})
 
@@ -85,13 +85,13 @@ No signs of 'Members' property. If you look at the help of `Get-DistributionGrou
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Get-Member__164818717__-772x458.png
+{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Get-Member__164818717__-772x458.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{ImageUrl}})
 
 {% assign ImageText = '' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Help_Filterparam__2128617403__-772x378.png
+{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Help_Filterparam__2128617403__-772x378.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{ImageUrl}})
 

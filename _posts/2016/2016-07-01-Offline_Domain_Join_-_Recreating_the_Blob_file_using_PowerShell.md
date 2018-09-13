@@ -14,7 +14,7 @@ comments: true
 {% include base_path %}
 {% include toc title="Table of content" %}
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/powershell_logo__1375352796__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"/>When you need to join a machine to the Active Directory It is a pretty straight forward task using either the User Interface or the PowerShell cmdlet available for that usage.
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/powershell_logo__1375352796__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"/>When you need to join a machine to the Active Directory It is a pretty straight forward task using either the User Interface or the PowerShell cmdlet available for that usage.
 
 However in some situation you don't have network connectivity and need to rely on Offline Domain Join, using the ```Djoin.exe``` tool. Typically you use djoin in two phases. First you generates a provisioning file that you drop on a newly deployed machine. In the second phase you run djoin with the file as a parameter and the machine is joined to the domain without connection to the domain controller.
 
@@ -28,17 +28,17 @@ Recreating the djoin file with the content was a bit trickier. Djoin is really p
 > ## Using Djoin
 > Djoin comes with Windows Client and Server since Windows 7 and Windows Server 2008 R2 installation. Djoin requires administrator privileges, you have to use the tool on an elevated command prompt. Of course, you also need an account that has sufficient rights to create domain computer accounts.
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/Djoin_help__838119443__-761x717.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/Djoin_help__838119443__-761x717.png" />
 
 1 - First, Run ```Djoin.exe``` to provision the computer account metadata. When you run the provisioning command, the computer account metadata is created in a blob .txt file that you specify as part of the command.
 
 <u>Example:</u>
 ```djoin /provision /domain fx.lab /machine testdjoin01 /savefile provisioning.txt```
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/djoin01__584700155__-759x201.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/djoin01__584700155__-759x201.png" />
 
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/djoin01_ObjectCreated__1360167059__-687x271.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/djoin01_ObjectCreated__1360167059__-687x271.png" />
 
 2 - This blob then has to be copied on the machine and used to offline domain join the Windows machine.
 
@@ -47,11 +47,11 @@ Recreating the djoin file with the content was a bit trickier. Djoin is really p
 
 Here is what we see when we open the output file (provisionning.txt)
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/blob__1887000796__-617x460.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/blob__1887000796__-617x460.png" />
 
 And here in a hexadecimal editor, you can see it is an unicode base64 encoded string by the two first bytes "FF FE".
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/blob_hexadecimal__1932001147__-664x258.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/blob_hexadecimal__1932001147__-664x258.png" />
 
 ## Copying the content of the blob to another file
 
@@ -66,7 +66,7 @@ Set-Content -path newfile.txt -Encoding Unicode
 
 Using Djoin with the same parameters we used to create the blob earlier, we will add the parameter /PRINTBLOB which will output the Blob to the console.
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/djoin02_printblob__503439498__-759x410.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/djoin02_printblob__503439498__-759x410.png" />
 
 The output can then be stored in a Variable and parse to retrieve only the Blob:
 
@@ -92,7 +92,7 @@ New-DjoinFile -Blob $blob -DestinationFile $home\desktop\blob.txt -Verbose
 
 You can now use ```Djoin.exe``` with the file ```blob.txt``` to join your new machine to the domain:
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/recreateddjoinfile__913043406__-614x95.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/recreateddjoinfile__913043406__-614x95.png" />
 
 [Download the function from Github](https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-New-DjoinFile).
 
@@ -100,15 +100,15 @@ Now if you compare the file generated by ```djoin.exe``` and the one recreated b
 
 <b><u>Original File:</u></b>
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/Original_file_start__459775647__-749x264.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/Original_file_start__459775647__-749x264.png" />
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/Original_file_end__1409207496__-749x253.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/Original_file_end__1409207496__-749x253.png" />
 
 <b><u>File created with New-DjoinFile</u></b>
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/New-DjoinFile_file_start__1299855173__-749x253.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/New-DjoinFile_file_start__1299855173__-749x253.png" />
 
-<img border="0" src="{{ base_path }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/New-DjoinFile_file_end__2138957638__-749x253.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/New-DjoinFile_file_end__2138957638__-749x253.png" />
 
 ## More information
 

@@ -14,7 +14,7 @@ comments: true
 ---
 
 
-<a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM2012R2_big__899663529__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM2012R2_big__843211874__-200x200.png" width="140" /></a>In <a href="{{ base_path }}/2015/09/powershellsccm-find-applications.html" target="_blank">my previous article</a> I talked about SCCM Application and how to retrieve the applications targeted to a user.
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM2012R2_big__899663529__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM2012R2_big__843211874__-200x200.png" width="140" /></a>In <a href="{{ site.url }}/2015/09/powershellsccm-find-applications.html" target="_blank">my previous article</a> I talked about SCCM Application and how to retrieve the applications targeted to a user.
 
 Today I'll show how we can build a function to create a list of dynamic variables. This would be used in a Task Sequence during the Operating System Deployment in the task **Install Application**.
 
@@ -25,9 +25,9 @@ First we will need to find the list of applications and then create a variable w
 
 Before we dig into the PowerShell, I think it is important to understand where everything will goes.
 
-In the following task "<b><i>Run PowerShell Shell Script</i></b>", the script will retrieve in SCCM all the Applications advertised on the users (<a href="{{ base_path }}/2015/09/powershellsccm-find-applications.html" target="_blank">showed in previous article</a>) and then create a bunch of variables that will be used in the task "<b><i>Install Application</i></b>".
+In the following task "<b><i>Run PowerShell Shell Script</i></b>", the script will retrieve in SCCM all the Applications advertised on the users (<a href="{{ site.url }}/2015/09/powershellsccm-find-applications.html" target="_blank">showed in previous article</a>) and then create a bunch of variables that will be used in the task "<b><i>Install Application</i></b>".
 
-<a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable01__799027215__-889x655.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="293" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable01__1436397956__-400x295.png" width="400" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable01__799027215__-889x655.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="293" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable01__1436397956__-400x295.png" width="400" /></a>
 
 
 
@@ -43,21 +43,21 @@ FX03
 
 Each of those variables value must contain the name of the Application you want to deploy.
 
-<a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable02__51884747__-874x640.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="292" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable02__1213736718__-400x293.png" width="400" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable02__51884747__-874x640.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="292" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM_TaskSequence-DynamicVariable02__1213736718__-400x293.png" width="400" /></a>
 
 
 ## Retrieving the application targeted to a user
 
 Now let's focus on PowerShell. Assuming you have following list of application targeted to a user:
 
-<a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" /></a>
 
 ## Creating a list of variable with a specific pattern
 
 
 First we need to work on the variable incrementation, this can easily be done with a counter, the list of application and some Composite Formatting.
 
-<a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" /></a>
 
 ```powershell
 # Create a Counter
@@ -87,7 +87,7 @@ The format operator `-f` places the composite formatting with the format item on
 
 This also work with multiple values:
 
-<a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" /></a>
 
 ## Creating Variable in the SCCM Task Sequence Environment
 

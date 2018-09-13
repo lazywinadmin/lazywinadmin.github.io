@@ -13,7 +13,7 @@ comments: true
 ---
 
 {% include toc title="Table of content" %}
-<a href="{{ base_path }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__851313811__-301x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ base_path }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__334636553__-195x200.jpg" width="195" /></a>If you are creating Windows Forms (WinForms) using PowerShell with tools such as PowerShell Studio from Sapien, you might have some scenario where you want to use Row Header instead of Column Header in a ```DataGridView``` control.
+<a href="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__851313811__-301x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__334636553__-195x200.jpg" width="195" /></a>If you are creating Windows Forms (WinForms) using PowerShell with tools such as PowerShell Studio from Sapien, you might have some scenario where you want to use Row Header instead of Column Header in a ```DataGridView``` control.
 
 Those can be controlled using the properties ```RowHeaderVisible``` and ```ColumnHeaderVisible```.
 
@@ -94,6 +94,6 @@ Set-WFDataGridView -DataGridView $datagridview1 -HideColumnHeader
 ```
 
 
-<a href="{{ base_path }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" /></a>
+<a href="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" /></a>
 
 <b><u><a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_RowHeader" target="_blank">Download this example</a></u></b>

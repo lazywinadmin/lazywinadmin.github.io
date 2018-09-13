@@ -12,7 +12,7 @@ comments: true
 ---
 
  
-<a href="{{ base_path }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/mtlpug__1504757369__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ base_path }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/mtlpug__2062982231__-640x175.jpg" width="640" /></a>
+<a href="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/mtlpug__1504757369__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/mtlpug__2062982231__-640x175.jpg" width="640" /></a>
 
 Join us for the <b>Montreal PowerShell User Group #02</b> meeting on the <u>Tuesday 27th of October 2015 from 6:00pm to 9:00pm</u> at the <u>Warner Brothers Games Studio</u>!
 
@@ -53,9 +53,9 @@ We would like to thank our sponsors for their support:
 * <a href="http://wbgamesmontreal.com/" target="_blank">Warner Brothers Games Montreal</a>
 * <a href="https://www.sapien.com/" target="_blank">Sapien Technologies</a>
 
-<a href="{{ base_path }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/oFFOHxsV__1852180263__-250x250.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/oFFOHxsV__1852180263__-250x250.png" height="200" width="200" /></a>
+<a href="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/oFFOHxsV__1852180263__-250x250.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/oFFOHxsV__1852180263__-250x250.png" height="200" width="200" /></a>
 
-<a href="{{ base_path }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/WB_Games_Montreal_logo__347989734__-240x320.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/WB_Games_Montreal_logo__347989734__-240x320.png" height="200" width="150" /></a>
+<a href="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/WB_Games_Montreal_logo__347989734__-240x320.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/WB_Games_Montreal_logo__347989734__-240x320.png" height="200" width="150" /></a>
 
 
 # RSVP/Register and more info

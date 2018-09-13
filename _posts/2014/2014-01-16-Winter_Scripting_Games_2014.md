@@ -12,7 +12,7 @@ comments: true
 ---
 
  
- <a href="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" height="200" width="171" /></a>Get Ready! The Winter Scripting Games 2014 are starting very soon !! The Event 1 is scheduled to start this week-end (Jan 19th 2014)! The Games are an amazing opportunity to learn more about PowerShell. This is the kind of thing you don't want to miss !!! 
+ <a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" height="200" width="171" /></a>Get Ready! The Winter Scripting Games 2014 are starting very soon !! The Event 1 is scheduled to start this week-end (Jan 19th 2014)! The Games are an amazing opportunity to learn more about PowerShell. This is the kind of thing you don't want to miss !!! 
 
 Last year I jumped in for the first time in the 2013 edition and this was really a lot of fun !!! It gave me a huge boost to my PowerShell Skills and so much more confidence in my scripting style !!! <a href="http://www.lazywinadmin.com/search/label/2013%20Scripting%20Games" target="_blank">You can refer to my old blog posts for each Scripting Games 2013 events were I tried to analyze each of my solutions.</a>
 
@@ -42,7 +42,7 @@ Here is my setup for the scripting games :-) (Coffee is a huge friend)!
 # Winter Scripting Games 2014
 
 
-Here are the most important Information you will need for the games. Note that the Time is UTC/GMT. For example January 19th 00:00 GMT means 18:00/6:00pm Eastern Time (I was not able to submit <a href="{{ base_path }}/2013/02/winter-scripting-games-2013-practice.html" target="_blank">one of my entry last year just for this reason</a>... silly me..)
+Here are the most important Information you will need for the games. Note that the Time is UTC/GMT. For example January 19th 00:00 GMT means 18:00/6:00pm Eastern Time (I was not able to submit <a href="{{ site.url }}/2013/02/winter-scripting-games-2013-practice.html" target="_blank">one of my entry last year just for this reason</a>... silly me..)
 <ul>
 * <a href="http://scriptinggames.org/" target="_blank">Scripting Games Website</a>
 
@@ -173,6 +173,6 @@ Finally, I want to introduce the team I will work with for the Winter Scripting 
 * <b>Guido Oliviera</b> (Brazil GMT -3:00) <a href="https://twitter.com/_Guido_Oliveira" target="_blank">@_Guido_Oliveira</a> - <a href="http://guidooliveira.com/" target="_blank">Blog</a>
 </ul>As you can see we are almost all on a different TimeZones, so this will probably very challenging, but I'm sure we'll have some great fun :-) 
 <ul></ul>
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" /></a></div>
 
 

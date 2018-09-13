@@ -18,7 +18,7 @@ comments: true
 
  
  
-<a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" /></a>Following <a href="{{ base_path }}/2014/08/powershell-scsm-my-first-steps.html" target="_blank">my previous post</a>, today I continuemy SCSM journey. I had to create a new automation workflow using SCSM and SCORCH to give the ability to a portal user to add an Active Directory Account to one or more group(s).
+<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" /></a>Following <a href="{{ site.url }}/2014/08/powershell-scsm-my-first-steps.html" target="_blank">my previous post</a>, today I continuemy SCSM journey. I had to create a new automation workflow using SCSM and SCORCH to give the ability to a portal user to add an Active Directory Account to one or more group(s).
 
 Once you get the input of the user, the selected user account and groups impacted by the request are added to the Service Request Related Item, in the Configuration Item field.
 
@@ -27,7 +27,7 @@ Finding this information with PowerShell was not easy. Also Users and Groups are
 
 
 Here is an example of Service Request using the SCSM Console:
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B8-29-42%252BPM__2120621519__-1028x905.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B8-29-42%252BPM__2120621519__-1028x905.png" height="562" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B8-29-42%252BPM__2120621519__-1028x905.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B8-29-42%252BPM__2120621519__-1028x905.png" height="562" width="640" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 </div>
 See the objects highlighted, those are stored in the CMDB of SCSM and not in AD.
@@ -53,7 +53,7 @@ $SRTicket = Get-SCSMObject -Id 992315e4-a94c-6e35-2720-51fe9808f903
 
 In the output, we have 2 groups, 1 user and 1 computer. But It looks like we can't find out if the groups are actually group object or a user is really an user object.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SR_RelationShipObject_filter_AD_Obj_bad_class__1389336323__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SR_RelationShipObject_filter_AD_Obj_bad_class__1389336323__-772x278.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SR_RelationShipObject_filter_AD_Obj_bad_class__1389336323__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SR_RelationShipObject_filter_AD_Obj_bad_class__1389336323__-772x278.png" /></a></div>
 
 
 ### Finding the real class of an object
@@ -68,7 +68,7 @@ To work around that, we have to use the method <span style="font-family: Courier
 
 Note that I'm selecting only the first object (Select -first 1), which is a group object.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-30-47%252BPM__1329652726__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-30-47%252BPM__1329652726__-772x278.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-30-47%252BPM__1329652726__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-30-47%252BPM__1329652726__-772x278.png" /></a></div>
 You have to look at the property <b><u>Name</u></b> and look for "<b>Microsoft.AD.*</b>" <i>User/Group</i> or <i>Computer</i>, to find the real object class.
 
 
@@ -104,7 +104,7 @@ Select-Object -Property DisplayName, @{
 ```
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-23-42%252BPM__555643882__-772x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-23-42%252BPM__555643882__-772x218.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-23-42%252BPM__555643882__-772x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-23-42%252BPM__555643882__-772x218.png" /></a></div>
 
 
 

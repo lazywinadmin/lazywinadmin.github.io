@@ -13,14 +13,14 @@ comments: true
 ---
 
 {% include toc title="Table of content" %}
-<a href="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_10thAnniversary__953515884__-249x254.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_10thAnniversary__2008900208__-196x200.jpg" width="120" /></a>The PowerShell Team <a href="https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/" target="_blank">just dropped a bombshell</a>!
+<a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_10thAnniversary__953515884__-249x254.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_10thAnniversary__2008900208__-196x200.jpg" width="120" /></a>The PowerShell Team <a href="https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/" target="_blank">just dropped a bombshell</a>!
 
 Windows PowerShell is now a cross platform technology with the <b>availability of PowerShell on Linux and Mac</b> !! .... AND.... The PowerShell team is <b>Open Sourcing Windows PowerShell (.Net) and PowerShell Core (.Net Core) </b>!! This is so Cool !!!
 
 Today (2016/08/18) also marks the 10th Anniversary of PowerShell ! Quite a surprise that the PowerShell team prepared for us :-) Given the recent changes in leadership and culture, It is really nice to see Microsoft taking that direction.
 
 
-<a href="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1227934463__-1027x653.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="203" src="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1312684459__-320x204.png" width="320" /></a>
+<a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1227934463__-1027x653.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="203" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1312684459__-320x204.png" width="320" /></a>
 
 
 ## PowerShell is now Open Source
@@ -61,7 +61,7 @@ It also worth to note that the PowerShell Team is also providing some nice examp
 * <a href="https://github.com/PowerShell/PowerShell/tree/master/demos/rest" target="_blank"><b>Invoke-WebRequest</b></a>
 Some of those are also demoed in a video here:
 
-<a href="https://www.youtube.com/watch?v=2WZwv7TxqZ0" target="_blank"><img border="0" height="169" src="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Youtube_Snover__1633438665__-320x169.png" width="320" /></a>
+<a href="https://www.youtube.com/watch?v=2WZwv7TxqZ0" target="_blank"><img border="0" height="169" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Youtube_Snover__1633438665__-320x169.png" width="320" /></a>
 
 
 ## Installing PowerShell Core on Linux and Mac
@@ -71,9 +71,9 @@ Here is the documentation on how to proceed with the installation of PowerShell 
 At the time I'm writing this, I only see documentation on how to install PowerShell Core on Linux
 
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Linux__1129078568__-991x680.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="273" src="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Linux__42790099__-400x274.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on Linux
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Linux__1129078568__-991x680.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="273" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Linux__42790099__-400x274.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on Linux
 <div>
-</div></td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__56341299__-964x581.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__1950227408__-400x241.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on MAC OS X
+</div></td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__56341299__-964x581.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__1950227408__-400x241.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on MAC OS X
 <div>
 </div></td></tr></tbody></table>
 

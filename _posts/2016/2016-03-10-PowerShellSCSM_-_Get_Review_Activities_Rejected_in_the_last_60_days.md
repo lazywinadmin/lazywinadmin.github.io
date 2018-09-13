@@ -14,7 +14,7 @@ comments: true
 ---
 {% include base_path %}
 
-<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ base_path }}/images/2016/20160310_PowerShellSCSM_-_Get_Review_Activities_Rejected_in_the_last_60_days/SCSM_128x128x32__1472339523__-128x128.png" /> In the following post I demonstrate how you can retrieve all the rejected Review Activities from the last 60 days. I also include the DisplayName, the Decision and the Comment of the Reviewer.
+<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ site.url }}/images/2016/20160310_PowerShellSCSM_-_Get_Review_Activities_Rejected_in_the_last_60_days/SCSM_128x128x32__1472339523__-128x128.png" /> In the following post I demonstrate how you can retrieve all the rejected Review Activities from the last 60 days. I also include the DisplayName, the Decision and the Comment of the Reviewer.
 
 Hope this help some people out there.
 
@@ -70,4 +70,4 @@ ForEach-Object -Process {
 }#| Format-List
 ```
 
-<img border="0" src="{{ base_path }}/images/2016/20160310_PowerShellSCSM_-_Get_Review_Activities_Rejected_in_the_last_60_days/SCSM-RA_Rejected_Last60Days__1508608342__-772x397.png" />
+<img border="0" src="{{ site.url }}/images/2016/20160310_PowerShellSCSM_-_Get_Review_Activities_Rejected_in_the_last_60_days/SCSM-RA_Rejected_Last60Days__1508608342__-772x397.png" />

@@ -13,7 +13,7 @@ comments: true
 ---
 
  
-<a href="{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
+<a href="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
 <b>Finding a way to list all the groups a specific user was managing.</b>
 
 If you look into the properties of an Active Directory group object, you will find under the tab `ManagedBy` the name of a user or group who is managing the group and possibly its members if the `Manager can update membership list` is checked.
@@ -21,10 +21,10 @@ If you look into the properties of an Active Directory group object, you will fi
 Group object properties / Managed By tab:
 {% assign ImageText = 'Example using the TimeSpan parameter' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagerdBy_Tab__678788052__-432x477.png
+{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagerdBy_Tab__678788052__-432x477.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagerdBy_Tab__678788052__-432x477.png
+{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagerdBy_Tab__678788052__-432x477.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -43,10 +43,10 @@ Get-ADGroup -LDAPFilter "(ManagedBy=$((Get-ADuser -Identity $env:username).disti
 
 {% assign ImageText = 'Example using the TimeSpan parameter' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Get-ADObject__2038758211__-852x508.png
+{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Get-ADObject__2038758211__-852x508.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Get-ADObject__2038758211__-852x508.png
+{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Get-ADObject__2038758211__-852x508.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 
@@ -75,10 +75,10 @@ $DN = "CN=TestUser,OU=User,DC=FX,DC=Lab"
 ```
 {% assign ImageText = 'Example using the TimeSpan parameter' %}
 {% capture ImageUrl %}
-{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagedByGet-ADSI_LDAP__124834729__-852x202.png
+{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagedByGet-ADSI_LDAP__124834729__-852x202.png
 {% endcapture %}
 {% capture SourceUrl %}
-{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagedByGet-ADSI_LDAP__124834729__-852x202.png
+{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagedByGet-ADSI_LDAP__124834729__-852x202.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 

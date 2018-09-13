@@ -15,7 +15,7 @@ comments: true
 
  
  <a href="http://4.bp.blogspot.com/-yknk9yVtAFw/U-ZOjihDhlI/AAAAAAABnA4/jmloYWv3EbE/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-yknk9yVtAFw/U-ZOjihDhlI/AAAAAAABnA4/jmloYWv3EbE/s1600/2014-03-11+6-43-32+PM.jpg" height="200" width="192" /></a>
-<a href="{{ base_path }}/2014/08/powershell-summit-2014-europe-english.html" target="_blank">English version</a>.
+<a href="{{ site.url }}/2014/08/powershell-summit-2014-europe-english.html" target="_blank">English version</a>.
 
 La confÃ©rence PowerShell Summit Europe organisera sa premiÃ¨re Ã©dition <u>du 29 septembre au 1er octobre 2014</u>.
 Trois jours de sessions PowerShell par les membres de l'Ã©quipe PowerShell, MVPs et d'autres experts PowerShell.
@@ -32,7 +32,7 @@ Le PowerShell Summit Europe est organisÃ© par <a href="http://powershell.org/"
 <b style="text-decoration: underline;">Agenda</b> : <a href="http://eventmgr.azurewebsites.net/event/agenda/PSEU14">http://eventmgr.azurewebsites.net/event/agenda/PSEU14</a>
 <b><u>Inscription</u></b> : <a href="http://eventmgr.azurewebsites.net/event/home/PSEU14">http://eventmgr.azurewebsites.net/event/home/PSEU14</a>
 <div>
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(Fran%c3%83%c2%a7aisFrench)/KeizersgrachtReguliersgrachtAmsterdam__1887950468__-1600x1066.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(Fran%c3%83%c2%a7aisFrench)/KeizersgrachtReguliersgrachtAmsterdam__1887950468__-1600x1066.jpg" height="213" width="320" /></a></div>
+</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(Fran%c3%83%c2%a7aisFrench)/KeizersgrachtReguliersgrachtAmsterdam__1887950468__-1600x1066.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(Fran%c3%83%c2%a7aisFrench)/KeizersgrachtReguliersgrachtAmsterdam__1887950468__-1600x1066.jpg" height="213" width="320" /></a></div>
 
 
 

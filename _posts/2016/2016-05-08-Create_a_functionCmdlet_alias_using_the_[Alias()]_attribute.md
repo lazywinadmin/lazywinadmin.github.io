@@ -36,4 +36,4 @@ According to Jason Shirk this has been added in PowerShell v4.0:
 "<b><i>Support for the alias attribute on a function or cmdlet (works in C# too!) was added in V4.</i></b>
 <b><i>It's most valuable in a binary module because it's harder to create aliases via IModuleAssemblyInitializer and when you do via that interface</i></b>"
 
-![Function Alias]( {{ base_path }}/images/2016/20160508_Create_a_functionCmdlet_alias_using_the_Alias_attribute/Alias_Attribute_on_function_Cmdlet__134371622__.png )
+![Function Alias]( {{ site.url }}/images/2016/20160508_Create_a_functionCmdlet_alias_using_the_Alias_attribute/Alias_Attribute_on_function_Cmdlet__134371622__.png )

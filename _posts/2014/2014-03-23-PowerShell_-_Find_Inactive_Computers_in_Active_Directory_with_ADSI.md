@@ -13,7 +13,7 @@ comments: true
 ---
 {% include base_path %}
 
-<a href="{{ base_path }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" /></a>Today I wanted to retrieve inactive computer accounts in the Active Directory without using the Quest Active Directory Snapin or the Active Directory Module. Yes... It happens that you work on a computer that don't have those tools once in a while, and I thought It would be fun to have a script without requirements...
+<a href="{{ site.url }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140323_PowerShell_-_Find_Inactive_Computers_in_Active_Directory_with_ADSI/icon_find_computer__674497977__-127x135.png" /></a>Today I wanted to retrieve inactive computer accounts in the Active Directory without using the Quest Active Directory Snapin or the Active Directory Module. Yes... It happens that you work on a computer that don't have those tools once in a while, and I thought It would be fun to have a script without requirements...
 
 <u>Note</u>: BTW, the following solution might not be the best or most efficient, so let me know if you know a faster/easier way to do this, I'm willing to learn more about querying AD.
 
@@ -27,7 +27,7 @@ Here are the key element of the script, I want:
 
 # [adsisearcher]
 
-I already talked about ADSISearcher<a href="{{ base_path }}/2013/10/powershell-get-domainuser.html" target="_blank"> in a previous post</a>so I won't give too much details about it. [adsisearcher] type accelerator is used to search Active Directory Domain Services (ADDS)
+I already talked about ADSISearcher<a href="{{ site.url }}/2013/10/powershell-get-domainuser.html" target="_blank"> in a previous post</a>so I won't give too much details about it. [adsisearcher] type accelerator is used to search Active Directory Domain Services (ADDS)
 
 After some research and tests I quickly got the following line which return the basic information of what I want:
 
@@ -209,7 +209,7 @@ That's way better! Neat!
 
 # My previous posts on ADSI
 
-* <a href="{{ base_path }}/2013/11/powershell-add-ad-site-subnet.html" target="_blank">PowerShell - Add AD Site Subnet</a>
-* <a href="{{ base_path }}/2013/10/powershell-get-domaincomputer-adsi.html" target="_blank">PowerShell - Get-DomainComputer (ADSI)</a>
-* <a href="{{ base_path }}/2013/10/powershell-using-adsi-with-alternate.html" target="_blank">PowerShell - Using ADSI with alternate Credentials</a>
-* <a href="{{ base_path }}/2013/10/powershell-get-domainuser.html" target="_blank">PowerShell - Get-DomainUser</a>
+* <a href="{{ site.url }}/2013/11/powershell-add-ad-site-subnet.html" target="_blank">PowerShell - Add AD Site Subnet</a>
+* <a href="{{ site.url }}/2013/10/powershell-get-domaincomputer-adsi.html" target="_blank">PowerShell - Get-DomainComputer (ADSI)</a>
+* <a href="{{ site.url }}/2013/10/powershell-using-adsi-with-alternate.html" target="_blank">PowerShell - Using ADSI with alternate Credentials</a>
+* <a href="{{ site.url }}/2013/10/powershell-get-domainuser.html" target="_blank">PowerShell - Get-DomainUser</a>

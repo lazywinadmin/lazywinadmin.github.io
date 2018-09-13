@@ -14,7 +14,7 @@ comments: true
 ---
 {% include base_path %}
 
-<a href="{{ base_path }}/images/2015/20150224_Two_free_live_trainings_from_MVA_on_Desired_State_Configuration_!/MVA-share-logo__1277078375__-283x283.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150224_Two_free_live_trainings_from_MVA_on_Desired_State_Configuration_!/MVA-share-logo__1277078375__-283x283.png" height="100" width="100" /></a>This week Microsoft Virtual Academy (MVA) will host two great live training events, one tomorrow and another one after tomorrow on Desired State Configuration.
+<a href="{{ site.url }}/images/2015/20150224_Two_free_live_trainings_from_MVA_on_Desired_State_Configuration_!/MVA-share-logo__1277078375__-283x283.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150224_Two_free_live_trainings_from_MVA_on_Desired_State_Configuration_!/MVA-share-logo__1277078375__-283x283.png" height="100" width="100" /></a>This week Microsoft Virtual Academy (MVA) will host two great live training events, one tomorrow and another one after tomorrow on Desired State Configuration.
 
 If you are not familiar with MVA, It provides <u><b>free</b></u> online IT training learning of Windows, Microsoft Technologies through courses designed by industry experts.
 
