@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <a href="{{ base_path }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/SCCM2012R2_big__1580057027__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ base_path }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/SCCM2012R2_big__1977075591__-200x200.png" width="140" /></a>The following function helps you retrieve all the deployment that a user is supposed to received.
 

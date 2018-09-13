@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/SCSM_128x128x32__859657984__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/SCSM_128x128x32__109657511__-128x128.png" /></a>
 In the last couple of months, I have been busy on some projects involving System Center Service Manager (SCSM), System Center Orchestrator (SCORCH) and Cireson Portal/Asset Management and I had to script a couple of repetitive tasks using PowerShell.

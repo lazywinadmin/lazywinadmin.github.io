@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_19-13-26__844052398__-343x281.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_19-13-26__844052398__-343x281.png" height="163" width="200" /></a>One very cool thing in the last <a href="http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx" target="_blank">Windows Management Framework V5 Preview release</a> is the new module <b>OneGet</b> which allow us to manage a list of software repositories, search/acquire/install/uninstall package(s).
 
@@ -63,7 +63,7 @@ For now, there is not much information in the help but the naming convention is 
 
 <b><u><span style="font-size: large;">Additional Cmdlet Get-PackageProvider ?</u></b>
 
-Note that we can also expect a new cmdlet called <b><span style="font-family: Courier New, Courier, monospace;">Get-PackageProvider</b>&nbsp;in the final version from what we see in the manifest.
+Note that we can also expect a new cmdlet called <b><span style="font-family: Courier New, Courier, monospace;">Get-PackageProvider</b>in the final version from what we see in the manifest.
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_21-52-10__2031314686__-763x429.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_21-52-10__2031314686__-763x429.png" /></a></div>
 
@@ -133,7 +133,7 @@ Find-Package -Name putty | Install-Package -Verbose
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-29-14__124714829__-692x1050.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-29-14__124714829__-692x1050.png" height="640" width="419" /></a></div>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-28-41__692951346__-653x189.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-28-41__692951346__-653x189.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">PowerShell is download the configuration file the repository and execute it
 Then Posh/OneGet is downloading the package (note the package it's not actually located on the chocolatey website)</td></tr></tbody></table>
-The file are download and unzipped in&nbsp;C:\Chocolatey\lib directory by default.
+The file are download and unzipped inC:\Chocolatey\lib directory by default.
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-35__684587052__-256x171.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-35__684587052__-256x171.png" /></a><a href="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-55__1919707307__-278x325.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-55__1919707307__-278x325.png" /></a></div>
 <u>ChocolateyInstall.ps1 content:</u>
@@ -157,7 +157,7 @@ Also note there is some interesting parameters in the Install-Package cmdlet:
 
 <b><u><span style="font-size: large;">Find and install one/multiple package(s) using Out-GridView</u></b>
 
-<a class="g-profile" href="https://plus.google.com/109550251938639533774" target="_blank">+Jeffrey Snover</a>&nbsp;also shared a very smart line on twitter on how to use a small "GUI" to Select one or multiple packages you want to install:
+<a class="g-profile" href="https://plus.google.com/109550251938639533774" target="_blank">+Jeffrey Snover</a>also shared a very smart line on twitter on how to use a small "GUI" to Select one or multiple packages you want to install:
 
 
 ```

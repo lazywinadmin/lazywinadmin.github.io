@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <a href="{{ base_path }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Outlook-2013-Logo-256x256__688739842__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ base_path }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Outlook-2013-Logo-256x256__892680219__-200x200.png" width="200" /></a> A couple of weeks ago I was looking at a way to find the Calendar Events of an Office365 shared mailbox using PowerShell. Unfortunately I was not able to find a way to accomplished this task using the O365 Cmdlets. (Let me know in the comments if you know how...)
 

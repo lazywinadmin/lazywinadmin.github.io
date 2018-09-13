@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/powershell_logo__990131128__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/powershell_logo__990131128__-144x109.png" /></a>One of my script is scheduled to download everyday the proxy logs files from multiple proxies (Approx 1&gt;2GB per file) of the previous day. The second step is to parse each of them and get the top 200 domain names within a specific environment. Finally at the end of the month another script create a report on the monthly internet usage.
 
@@ -33,7 +33,7 @@ In this post, I will talk about the last part of this process and how I combine 
 Here is a sample of daily CSV file result after the parsing has done its job:
 <div>
 </div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-47-54__862795648__-197x157.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-47-54__862795648__-197x157.png" /></a></div><div class="separator" style="clear: both; text-align: center;"></div>
-So at the end of the month I have a bunch of CSV files that were generated during the months and &nbsp;I need to know how many time each domains were accessed.
+So at the end of the month I have a bunch of CSV files that were generated during the months and I need to know how many time each domains were accessed.
 
 
 

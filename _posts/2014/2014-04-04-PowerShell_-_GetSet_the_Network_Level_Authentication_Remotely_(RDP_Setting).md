@@ -59,7 +59,7 @@ The user will then be able to connect to the server or workstation.
 
 # Using PowerShell One-Liners
 
-We used the class&nbsp;<a href="http://msdn.microsoft.com/en-us/library/aa383799%28v=vs.85%29.aspx" target="_blank">Win32_TSGeneralSetting</a>&nbsp;to get the information of the current NLA setting.
+We used the class<a href="http://msdn.microsoft.com/en-us/library/aa383799%28v=vs.85%29.aspx" target="_blank">Win32_TSGeneralSetting</a>to get the information of the current NLA setting.
 
 <b><u>Quick answer</u></b>, you can do this using the following commands:
 
@@ -124,7 +124,7 @@ Get-WmiObject -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservic
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-44-36__968688984__-692x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140404_PowerShell_-_GetSet_the_Network_Level_Authentication_Remotely_(RDP_Setting)/2014-04-02_21-44-36__2015979677__-692x778.png" /></a></div>
 
 <b><u>Finding the methods</u></b>
-We can retrieve the methods available using <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace; font-weight: bold;">Get-Member.<span style="font-family: inherit;">&nbsp;Here we are interested at the method <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace; font-weight: bold;">SetUserAuthenticationRequired.
+We can retrieve the methods available using <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace; font-weight: bold;">Get-Member.<span style="font-family: inherit;">Here we are interested at the method <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace; font-weight: bold;">SetUserAuthenticationRequired.
 
 ```powershell
 Get-WmiObject -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices | Get-Member -Type Methods
@@ -172,9 +172,9 @@ The <a href="http://msdn.microsoft.com/en-us/library/aa383441%28v=vs.85%29.aspx"
 # Download
 
 <a href="http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet Repository</a>
-Github&nbsp;(<a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Get-NetworkLevelAuthentication" target="_blank">Get-NetworkLevelAuthentication</a> <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Set-NetworkLevelAuthentication" target="_blank">Set-NetworkLevelAuthentication</a>)
+Github(<a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Get-NetworkLevelAuthentication" target="_blank">Get-NetworkLevelAuthentication</a> <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Set-NetworkLevelAuthentication" target="_blank">Set-NetworkLevelAuthentication</a>)
 
 # References
 
 <a href="http://blogs.msdn.com/b/powershell/archive/2012/08/24/introduction-to-cim-cmdlets.aspx" target="_blank">PowerShell Team Blog - Introduction to CIM Cmdlets</a>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2014/01/30/invoking-cim-methods-with-powershell.aspx" target="_blank">Scripting Guy Blog -&nbsp;Invoking CIM Methods with PowerShell</a>
+<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2014/01/30/invoking-cim-methods-with-powershell.aspx" target="_blank">Scripting Guy Blog -Invoking CIM Methods with PowerShell</a>

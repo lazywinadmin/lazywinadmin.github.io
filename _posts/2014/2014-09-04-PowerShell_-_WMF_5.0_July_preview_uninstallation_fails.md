@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <div class="separator" style="clear: both; text-align: center;"></div><a href="{{ base_path }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" /></a>
 Today the <a href="http://blogs.msdn.com/b/powershell/archive/2014/09/04/windows-management-framework-5-0-preview-september-2014-is-now-available.aspx" target="_blank">PowerShell Team released a new version of the WMF : v5 September preview</a>, I really like the faster beta cycle !
@@ -30,8 +30,8 @@ Fortunately, the PowerShell Team is already aware of this issue and documented t
 
 
 <div class="bq4"><b><u>Resolution:</u></b> Delete the <b>\\root\microsoft\windows\desiredstateconfiguration</b> namespace in WMI before uninstalling WMF 5.0 Experimental Release July 2014.
-&nbsp; 1- Open powershell.exe with elevated user rights (run as administrator).
-&nbsp; 2- Run the following commands:&nbsp; 
+ 1- Open powershell.exe with elevated user rights (run as administrator).
+ 2- Run the following commands: 
 
 ```
 $dscNamespace = Get-CimInstance -Namespace root\microsoft\windows -Query "select * from __namespace where name = 'desiredstateconfiguration'"

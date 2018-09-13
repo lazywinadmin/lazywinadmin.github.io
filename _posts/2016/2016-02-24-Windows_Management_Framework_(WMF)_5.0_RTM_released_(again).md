@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ base_path }}/images/2016/20160224_Windows_Management_Framework_(WMF)_5.0_RTM_released_(again)/powershell_logo__2124756278__-144x109.png" /> Microsoft just re-released the new version of Windows Management Framework (WMF) 5.0 RTM for Windows Server 2012 R2, Windows Server 2012, Windows 2008 R2 SP1, Windows 8.1, and Windows 7 SP1.
 

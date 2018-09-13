@@ -10,15 +10,15 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
- <a href="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" height="200" width="171" /></a>Get Ready! The Winter Scripting Games 2014 are starting very soon !! The Event 1 is scheduled to start this week-end (Jan 19th 2014)! The Games are an amazing opportunity to learn more about PowerShell. This is the kind of thing you don't want to miss !!!&nbsp; 
+ <a href="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" height="200" width="171" /></a>Get Ready! The Winter Scripting Games 2014 are starting very soon !! The Event 1 is scheduled to start this week-end (Jan 19th 2014)! The Games are an amazing opportunity to learn more about PowerShell. This is the kind of thing you don't want to miss !!! 
 
 Last year I jumped in for the first time in the 2013 edition and this was really a lot of fun !!! It gave me a huge boost to my PowerShell Skills and so much more confidence in my scripting style !!! <a href="http://www.lazywinadmin.com/search/label/2013%20Scripting%20Games" target="_blank">You can refer to my old blog posts for each Scripting Games 2013 events were I tried to analyze each of my solutions.</a>
 
 
 
-Back at the beginning of December I was actually offered by&nbsp;<a class="g-profile" href="https://plus.google.com/110276222213807732733" target="_blank">+Mike Robbins</a> to Coach the teams, but since I had so much fun playing at the last games I decided to play again this year, couldn't resist!!
+Back at the beginning of December I was actually offered by<a class="g-profile" href="https://plus.google.com/110276222213807732733" target="_blank">+Mike Robbins</a> to Coach the teams, but since I had so much fun playing at the last games I decided to play again this year, couldn't resist!!
 
 For the 2014 Edition however, the formula of the Scripting Games is a bit different:
 <ul>
@@ -44,11 +44,11 @@ Here is my setup for the scripting games :-) (Coffee is a huge friend)!
 
 Here are the most important Information you will need for the games. Note that the Time is UTC/GMT. For example January 19th 00:00 GMT means 18:00/6:00pm Eastern Time (I was not able to submit <a href="{{ base_path }}/2013/02/winter-scripting-games-2013-practice.html" target="_blank">one of my entry last year just for this reason</a>... silly me..)
 <ul>
-* <a href="http://scriptinggames.org/" target="_blank">Scripting Games Website</a>&nbsp;
+* <a href="http://scriptinggames.org/" target="_blank">Scripting Games Website</a>
 
 * <a href="http://scriptinggames.org/games/2014WinterSGPlayersGuide.pdf" target="_blank">Scripting Games Guide</a>
 
-* <a href="http://powershell.org/wp/2014/01/03/scripting-games-winter-2014-understanding-the-scoring/" target="_blank">Understand the Scoring</a>&nbsp;
+* <a href="http://powershell.org/wp/2014/01/03/scripting-games-winter-2014-understanding-the-scoring/" target="_blank">Understand the Scoring</a>
 
 * <a href="http://scriptinggames.org/events.php?game_id=4" target="_blank">Events Schedule</a>
 <ul>
@@ -70,27 +70,27 @@ Here are the most important Information you will need for the games. Note that t
 
 
 <ul>
-* <a href="http://powershell.org/wp/category/announcements/scripting-games/" target="_blank">PowerShell.org posts</a>&nbsp;
+* <a href="http://powershell.org/wp/category/announcements/scripting-games/" target="_blank">PowerShell.org posts</a>
 
 * Twitter Tag <a href="https://twitter.com/search?q=%23pshgames&amp;src=typd" target="_blank">#pshgames</a>
 
 * <u>Coaches</u> Blog Posts : Additionally to the comments made on the submitted scripts, Coaches will publish articles about what they see good or wrong and will provide great tips to help you deliver the best solutions. Here is a list of the coaches:
 <ul>
-* <a href="http://learn-powershell.net/" target="_blank">Boe Prox</a> -&nbsp;<a href="https://twitter.com/proxb" target="_blank">@proxb</a> - <a class="g-profile" href="https://plus.google.com/100797865397105871021" target="_blank">+Boe Prox</a>&nbsp;<complete id="goog_1290977159"><span id="goog_1290977160"><span id="goog_1290977161"></complete>
+* <a href="http://learn-powershell.net/" target="_blank">Boe Prox</a> -<a href="https://twitter.com/proxb" target="_blank">@proxb</a> - <a class="g-profile" href="https://plus.google.com/100797865397105871021" target="_blank">+Boe Prox</a><complete id="goog_1290977159"><span id="goog_1290977160"><span id="goog_1290977161"></complete>
 </ul><ul>
-* <a href="http://www.happysysadm.com/" target="_blank">Carlo Mancini </a>- <a href="http://twitter.com/sysadm2010" target="_blank">@sysadm2010</a> -  <a class="g-profile" href="https://plus.google.com/105116157851864104820" target="_blank">+Carlo Sysadm</a>&nbsp;
+* <a href="http://www.happysysadm.com/" target="_blank">Carlo Mancini </a>- <a href="http://twitter.com/sysadm2010" target="_blank">@sysadm2010</a> -  <a class="g-profile" href="https://plus.google.com/105116157851864104820" target="_blank">+Carlo Sysadm</a>
 
-* <a href="http://xipher.dk/" target="_blank">Claus Nielsen</a> - <a href="http://twitter.com/claustn" target="_blank">@claustn</a> - <a class="g-profile" href="https://plus.google.com/112926282765221183731" target="_blank">+Claus Thude Nielsen</a>&nbsp;
+* <a href="http://xipher.dk/" target="_blank">Claus Nielsen</a> - <a href="http://twitter.com/claustn" target="_blank">@claustn</a> - <a class="g-profile" href="https://plus.google.com/112926282765221183731" target="_blank">+Claus Thude Nielsen</a>
 
-* <a href="http://p0w3rsh3ll.wordpress.com/" target="_blank">Emin Atac</a> - <a href="http://twitter.com/p0w3rsh3ll" target="_blank">@p0w3rsh3ll</a> - <a class="g-profile" href="https://plus.google.com/108295229459530996948" target="_blank">+Emin Atac</a>&nbsp;
+* <a href="http://p0w3rsh3ll.wordpress.com/" target="_blank">Emin Atac</a> - <a href="http://twitter.com/p0w3rsh3ll" target="_blank">@p0w3rsh3ll</a> - <a class="g-profile" href="https://plus.google.com/108295229459530996948" target="_blank">+Emin Atac</a>
 </ul><ul>
-* <a href="http://blog.powershell.no/" target="_blank">Jan Egil Ring</a> - <a href="http://twitter.com/JanEgilRing" target="_blank">@JanEgilRing</a> - <a class="g-profile" href="https://plus.google.com/100183891046488829989" target="_blank">+Jan Egil Ring</a>&nbsp; 
+* <a href="http://blog.powershell.no/" target="_blank">Jan Egil Ring</a> - <a href="http://twitter.com/JanEgilRing" target="_blank">@JanEgilRing</a> - <a class="g-profile" href="https://plus.google.com/100183891046488829989" target="_blank">+Jan Egil Ring</a> 
 
-* <a href="http://jeffwouters.nl/" target="_blank">Jeff Wouters</a> - <a href="http://twitter.com/JeffWouters" target="_blank">@JeffWouters</a> -  <a class="g-profile" href="https://plus.google.com/101369284574988073420" target="_blank">+Jeff Wouters</a>&nbsp;
+* <a href="http://jeffwouters.nl/" target="_blank">Jeff Wouters</a> - <a href="http://twitter.com/JeffWouters" target="_blank">@JeffWouters</a> -  <a class="g-profile" href="https://plus.google.com/101369284574988073420" target="_blank">+Jeff Wouters</a>
 
-* <a href="http://www.jonathanmedd.net/" target="_blank">Jonathan Medd</a> - <a href="http://twitter.com/jonathanmedd/" target="_blank">@jonathanmedd</a> -  <a class="g-profile" href="https://plus.google.com/114991381416891894727" target="_blank">+Jonathan Medd</a>&nbsp;
+* <a href="http://www.jonathanmedd.net/" target="_blank">Jonathan Medd</a> - <a href="http://twitter.com/jonathanmedd/" target="_blank">@jonathanmedd</a> -  <a class="g-profile" href="https://plus.google.com/114991381416891894727" target="_blank">+Jonathan Medd</a>
 
-* <a href="http://paglia.org/" target="_blank">Lido Paglia</a> - <a href="https://twitter.com/nicemarmot" target="_blank">@nicemarmot</a> -  <a class="g-profile" href="https://plus.google.com/116690272698204785457" target="_blank">+Lido Paglia</a>&nbsp;
+* <a href="http://paglia.org/" target="_blank">Lido Paglia</a> - <a href="https://twitter.com/nicemarmot" target="_blank">@nicemarmot</a> -  <a class="g-profile" href="https://plus.google.com/116690272698204785457" target="_blank">+Lido Paglia</a>
 
 * <a href="http://sgitpro.com/" target="_blank">Matt Hitchcock</a> - <a href="http://twitter.com/hitchysg" target="_blank">@hitchysg</a>
 
@@ -100,17 +100,17 @@ Here are the most important Information you will need for the games. Note that t
 
 * <a href="http://www.get-exchange.info/" target="_blank">Sahal Omer </a>- <a href="http://twitter.com/GetExchange" target="_blank">@GetExchange</a>
 <span id="goog_1290977216"><span id="goog_1290977217"><span id="goog_1290977214"><span id="goog_1290977215">
-* <a href="http://stevenmurawski.com/" target="_blank">Steve Murawski</a> - <a href="http://twitter.com/StevenMurawski" target="_blank">@StevenMurawski</a> -&nbsp;<a class="g-profile" href="https://plus.google.com/105260700993333567300" target="_blank">+Steve Murawski</a>&nbsp;
+* <a href="http://stevenmurawski.com/" target="_blank">Steve Murawski</a> - <a href="http://twitter.com/StevenMurawski" target="_blank">@StevenMurawski</a> -<a class="g-profile" href="https://plus.google.com/105260700993333567300" target="_blank">+Steve Murawski</a>
 </ul>
-* &nbsp;<u>Judges</u>
+* <u>Judges</u>
 <ul>
 * <a href="http://blogs.technet.com/b/heyscriptingguy/" target="_blank">Ed Wilson</a> - <a href="https://twitter.com/ScriptingGuys" target="_blank">@ScriptingGuys</a>
 
-* <a href="http://www.concentratedtech.com/" target="_blank">Don Jones</a> - <a href="https://twitter.com/concentrateddon" target="_blank">@concentrateddon</a> -&nbsp;<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a>&nbsp; 
+* <a href="http://www.concentratedtech.com/" target="_blank">Don Jones</a> - <a href="https://twitter.com/concentrateddon" target="_blank">@concentrateddon</a> -<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a> 
 
-* <a href="http://www.jasonhelmick.com/" target="_blank">Jason Helmick</a> - <a href="https://twitter.com/theJasonHelmick" target="_blank">@TheJasonHelmicks</a> -  <a class="g-profile" href="https://plus.google.com/115305321045759000895" target="_blank">+Jason Helmick</a>&nbsp;
+* <a href="http://www.jasonhelmick.com/" target="_blank">Jason Helmick</a> - <a href="https://twitter.com/theJasonHelmick" target="_blank">@TheJasonHelmicks</a> -  <a class="g-profile" href="https://plus.google.com/115305321045759000895" target="_blank">+Jason Helmick</a>
 
-* <a href="http://jdhitsolutions.com/blog/" target="_blank">Jeffery Hicks</a> - <a href="https://twitter.com/JeffHicks" target="_blank">@JeffHicks</a> -&nbsp;<a class="g-profile" href="https://plus.google.com/109354722869529171746" target="_blank">+Jeffery Hicks</a>&nbsp;
+* <a href="http://jdhitsolutions.com/blog/" target="_blank">Jeffery Hicks</a> - <a href="https://twitter.com/JeffHicks" target="_blank">@JeffHicks</a> -<a class="g-profile" href="https://plus.google.com/109354722869529171746" target="_blank">+Jeffery Hicks</a>
 </ul></ul>
 
 
@@ -130,7 +130,7 @@ Here are the most important Information you will need for the games. Note that t
 
 This is probably the most challenging part of the game,  working all together, split the work, organize a few meetings (via  Hangout) and stay up to date with who is doing what.
 
-Note:&nbsp;<a class="g-profile" href="https://plus.google.com/108295229459530996948" target="_blank">+Emin Atac</a> released a nice article on "<a href="http://p0w3rsh3ll.wordpress.com/2014/01/03/game-plan-for-high-performing-team/" target="_blank">Game plan for high performing team</a>".
+Note:<a class="g-profile" href="https://plus.google.com/108295229459530996948" target="_blank">+Emin Atac</a> released a nice article on "<a href="http://p0w3rsh3ll.wordpress.com/2014/01/03/game-plan-for-high-performing-team/" target="_blank">Game plan for high performing team</a>".
 
 Since this event is a Team work task, we had to find a tool that can handle a few things :
 
@@ -160,7 +160,7 @@ Finally, I want to introduce the team I will work with for the Winter Scripting 
 </b>
 
 <ul>
-* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdm</a> - <a href="http://lazywinadmin.com/" target="_blank">Blog</a>&nbsp;
+* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdm</a> - <a href="http://lazywinadmin.com/" target="_blank">Blog</a>
 
 * <b>Stephane Van Gulick</b> (Switzerland GMT+1:00) <a href="https://twitter.com/Stephanevg" target="_blank">@Stephanevg</a> - <a href="http://powershelldistrict.com/" target="_blank">Blog</a>
 

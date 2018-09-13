@@ -32,9 +32,9 @@ Get-GPO -Name AZE_Test
 ```
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Get-GPO_AZE_Test__1886206204__-772x358.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Get-GPO_AZE_Test__1886206204__-772x358.png" /></a></div>
-From this output, we can notice the properties <b>UserVersion</b> and <b>ComputerVersion</b>&nbsp;that give information about the GPO Version and SysVol Version. Those properties which are generated and available in the default view won't show if you look at all the properties/methods available (using Get-Member).
+From this output, we can notice the properties <b>UserVersion</b> and <b>ComputerVersion</b>that give information about the GPO Version and SysVol Version. Those properties which are generated and available in the default view won't show if you look at all the properties/methods available (using Get-Member).
 
-You'll have to dig into the property&nbsp;<b>Computer</b>&nbsp;and&nbsp;<b>User</b>&nbsp;to get the versions details.
+You'll have to dig into the property<b>Computer</b>and<b>User</b>to get the versions details.
 
 ```powershell
 Get-GPO -Name AZE_Test | Get-Member
@@ -69,7 +69,7 @@ For each GPO, It will then retrieve the version of the User/Computer configurati
 Getting the list of Domain Controllers
 
 ```powershell
-$DomainControllers&nbsp;= ((Get-ADDomainController -filter *).hostname)
+$DomainControllers= ((Get-ADDomainController -filter *).hostname)
 ```
 
 Processing each Group Policy Object, against each Domain controllers

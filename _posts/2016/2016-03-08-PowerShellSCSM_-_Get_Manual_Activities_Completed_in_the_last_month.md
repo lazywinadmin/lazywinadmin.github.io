@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ base_path }}/images/2016/20160308_PowerShellSCSM_-_Get_Manual_Activities_Completed_in_the_last_month/SCSM_128x128x32__596339289__-128x128.png" /> I got an interested question from a reader that asked how he could get all the Manual Activities completed in the last 30 days using one Filter.
 

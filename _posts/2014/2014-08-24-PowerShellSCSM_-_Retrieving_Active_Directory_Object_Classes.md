@@ -15,10 +15,10 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  
-<a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" /></a>Following <a href="{{ base_path }}/2014/08/powershell-scsm-my-first-steps.html" target="_blank">my previous post</a>, today I continue&nbsp;my SCSM journey. I had to create a new automation workflow using SCSM and SCORCH to give the ability to a portal user to add an Active Directory Account to one or more group(s).
+<a href="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SCSM_128x128x32__1955049355__-128x128.png" /></a>Following <a href="{{ base_path }}/2014/08/powershell-scsm-my-first-steps.html" target="_blank">my previous post</a>, today I continuemy SCSM journey. I had to create a new automation workflow using SCSM and SCORCH to give the ability to a portal user to add an Active Directory Account to one or more group(s).
 
 Once you get the input of the user, the selected user account and groups impacted by the request are added to the Service Request Related Item, in the Configuration Item field.
 
@@ -39,7 +39,7 @@ We properly see the class of each objects.
 ### Retrieving this information with PowerShell/Smlets module
 
 Using PowerShell with the SMlets module, this information is not easily accessible.
-<u style="font-weight: bold;">The problem:</u>&nbsp;We can't tell if an object is an user or a group. Computer however shows correctly as computer object.
+<u style="font-weight: bold;">The problem:</u>We can't tell if an object is an user or a group. Computer however shows correctly as computer object.
 
 
 ```
@@ -49,7 +49,7 @@ $SRTicket = Get-SCSMObject -Id 992315e4-a94c-6e35-2720-51fe9808f903
 # Get all the classes of the first object (which is a group in this case)
 ((Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c8b59-8554-6e77-0aa7-f51448868b43'").targetobject
 ```
-<u>Note</u> that the RelationshipID&nbsp;'d96c8b59-8554-6e77-0aa7-f51448868b43'&nbsp;is used for Active Directory objects.
+<u>Note</u> that the RelationshipID'd96c8b59-8554-6e77-0aa7-f51448868b43'is used for Active Directory objects.
 
 In the output, we have 2 groups, 1 user and 1 computer. But It looks like we can't find out if the groups are actually group object or a user is really an user object.
 
@@ -74,7 +74,7 @@ You have to look at the property <b><u>Name</u></b> and look for "<b>Microsoft.A
 
 
 
-### Adding a property Class&nbsp;
+### Adding a property Class
 
 Finally you can use the following piece of code to retrieve all the class.
 We are adding a property called "Class" that will run against each object and check which value is present: "<i>Microsoft.AD.User</i>", "<i>Microsoft.AD.Group</i>" or "<i>Microsoft.AD.Computer</i>".

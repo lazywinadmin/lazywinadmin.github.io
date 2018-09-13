@@ -13,11 +13,11 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/SCSM_128x128x32__630048673__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/SCSM_128x128x32__630048673__-128x128.png" /></a>If you follow my blog, you might have noticed that I recently started to post <a href="http://www.lazywinadmin.com/search/label/SCSM" target="_blank">about SCSM</a>. We just finished to migrate to a new SCSM environment in Azure (Iaas) while using Cireson Portal as a front end.
 
-Of course of lot of the automation part is handled by SCORCH in the background which rely on a lot of PowerShell :-) &nbsp;(We don't use SMA yet, but I will soon look into it)
+Of course of lot of the automation part is handled by SCORCH in the background which rely on a lot of PowerShell :-) (We don't use SMA yet, but I will soon look into it)
 
 Anyway I just wanted to post a quick article on how to configure SMlets on a workstation to be able to query SCSM.
 
@@ -40,7 +40,7 @@ Make sure to select only the feature: .NET Framework 4.5.1 during the installati
 
 <u>And copy the following files to the <b>C:\Windows\Assembly</b> directory</u>
 <span style="font-family: Courier New, Courier, monospace;">Microsoft.EnterpriseManagement.Core.dll
-<span style="font-family: Courier New, Courier, monospace;">Microsoft.EnterpriseManagement.ServiceManager.dll&nbsp;
+<span style="font-family: Courier New, Courier, monospace;">Microsoft.EnterpriseManagement.ServiceManager.dll
 
 You can use the following command (make sure to run powershell as admin)
 

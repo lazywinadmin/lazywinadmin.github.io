@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  Here a quick post to show you the awesome MVP Welcome Kit I received ! :-)
 

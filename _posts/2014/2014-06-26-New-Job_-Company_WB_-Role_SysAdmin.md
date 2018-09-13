@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140626_New-Job_-Company_WB_-Role_SysAdmin/31397__222477906__-600x759.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140626_New-Job_-Company_WB_-Role_SysAdmin/31397__222477906__-600x759.png" height="200" width="157" /></a></div>Next week I will be starting a new job at <a href="http://www.wbgamesmontreal.com/" target="_blank">Warner Brothers Gaming</a> studio in Montreal as a Senior Microsoft System Administrator.
 

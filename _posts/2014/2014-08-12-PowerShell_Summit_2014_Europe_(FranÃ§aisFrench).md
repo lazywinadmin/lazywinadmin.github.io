@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="http://4.bp.blogspot.com/-yknk9yVtAFw/U-ZOjihDhlI/AAAAAAABnA4/jmloYWv3EbE/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-yknk9yVtAFw/U-ZOjihDhlI/AAAAAAABnA4/jmloYWv3EbE/s1600/2014-03-11+6-43-32+PM.jpg" height="200" width="192" /></a>
 <a href="{{ base_path }}/2014/08/powershell-summit-2014-europe-english.html" target="_blank">English version</a>.

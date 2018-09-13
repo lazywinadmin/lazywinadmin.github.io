@@ -27,7 +27,7 @@ In the following post, I will use the above diagram as an example to explain how
 
 # Get-ADDirectReports function
 
-Get-ADDirectReports is PowerShell function&nbsp;using the ActiveDirectory module to retrieve the directreports property. If the switch parameter <u><b>-Recurse</b></u> is used, It will report all the <b><u>in</u></b>directreports users under the <u><b>-Identity</b></u>&nbsp;account specified.
+Get-ADDirectReports is PowerShell functionusing the ActiveDirectory module to retrieve the directreports property. If the switch parameter <u><b>-Recurse</b></u> is used, It will report all the <b><u>in</u></b>directreports users under the <u><b>-Identity</b></u>account specified.
 
 As an example, (assuming the above diagram) we can run the following commands:
 

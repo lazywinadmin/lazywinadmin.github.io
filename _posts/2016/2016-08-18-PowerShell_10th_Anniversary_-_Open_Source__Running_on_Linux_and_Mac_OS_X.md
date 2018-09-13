@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
 {% include toc title="Table of content" %}
 <a href="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_10thAnniversary__953515884__-249x254.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_10thAnniversary__2008900208__-196x200.jpg" width="120" /></a>The PowerShell Team <a href="https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/" target="_blank">just dropped a bombshell</a>!
 

@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" height="180" width="180" /></a></div>Itâ€™s always a good idea to include help within your functions ! You never know who might benefit from it.
 
@@ -23,7 +23,7 @@ With PowerShell adding help to your script, function and module is a really easy
 # Help in the PARAM statements
 
 
-A very cool way to add some help to your script parameters is to add comments within the <b>PARAM</b> statement block. With this method you do not need to write a <span style="font-family: Courier New, Courier, monospace;"><b>.PARAMETER</b>&nbsp;directive for each paremeters. However you are required to write at least one directive in the Comment Based Help block (<span style="font-family: Courier New, Courier, monospace;"><b>.SYNOPSIS</b>&nbsp;or <span style="font-family: Courier New, Courier, monospace;"><b>.DESCRIPTION</b>) to be able to use it.
+A very cool way to add some help to your script parameters is to add comments within the <b>PARAM</b> statement block. With this method you do not need to write a <span style="font-family: Courier New, Courier, monospace;"><b>.PARAMETER</b>directive for each paremeters. However you are required to write at least one directive in the Comment Based Help block (<span style="font-family: Courier New, Courier, monospace;"><b>.SYNOPSIS</b>or <span style="font-family: Courier New, Courier, monospace;"><b>.DESCRIPTION</b>) to be able to use it.
 
 <u>Example:</u>
 

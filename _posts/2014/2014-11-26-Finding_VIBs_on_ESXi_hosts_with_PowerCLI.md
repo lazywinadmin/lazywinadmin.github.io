@@ -19,7 +19,7 @@ comments: true
 He was trying to retrieve the VIB information with the name `net-e1000e` from all his VMware Hosts using the PowerShell and the Snapin PowerCli from VMware.
 
 > <b><u>What is a VIB ?</u></b>
-VIB stands for vSphere Installation Bundle. &nbsp;At a conceptual level a VIB is somewhat similar to a tarball or ZIP archive in that it is a collection of files packaged into a single archive to facilitate distribution
+VIB stands for vSphere Installation Bundle. At a conceptual level a VIB is somewhat similar to a tarball or ZIP archive in that it is a collection of files packaged into a single archive to facilitate distribution
 
 </div>
 Here is the piece of code to retrieve this information.

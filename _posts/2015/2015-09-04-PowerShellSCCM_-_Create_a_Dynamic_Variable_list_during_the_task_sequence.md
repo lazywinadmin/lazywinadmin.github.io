@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
 
 <a href="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM2012R2_big__899663529__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ base_path }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/SCCM2012R2_big__843211874__-200x200.png" width="140" /></a>In <a href="{{ base_path }}/2015/09/powershellsccm-find-applications.html" target="_blank">my previous article</a> I talked about SCCM Application and how to retrieve the applications targeted to a user.
 

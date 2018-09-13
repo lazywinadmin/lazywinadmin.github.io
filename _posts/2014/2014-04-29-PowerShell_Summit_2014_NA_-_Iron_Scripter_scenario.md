@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%252B6-43-32%252BPM__34967239__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%252B6-43-32%252BPM__34967239__-298x308.jpg" height="200" width="193" /></a></div>Monday evening, the PowerShell Summit 2014 NA organized an Iron Scripter competition. The goal was to fix/create 3 scripts and to get them rated by 3 juges. We had 45 minutes to complete everything, including time for the juges to score the scripts.
 

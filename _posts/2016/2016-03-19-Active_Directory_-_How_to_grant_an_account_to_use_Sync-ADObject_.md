@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ base_path }}/images/2016/20160319_Active_Directory_-_How_to_grant_an_account_to_use_Sync-ADObject_/Site_Map__1914663504__-96x96.png" />During an onboarding process, I had to create some accounts on a remote site where the Exchange Role is installed. There, the account can be mail-enabled. We do this because the information will get replicated to Office365 faster and we will be able to proceed with other automated tasks.
 

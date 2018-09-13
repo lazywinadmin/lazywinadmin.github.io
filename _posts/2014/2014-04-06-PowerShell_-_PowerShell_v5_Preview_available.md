@@ -14,12 +14,12 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_22-04-15__926260955__-154x111.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_22-04-15__926260955__-154x111.png" /></a>
-Wow that was really fast!! In case you missed it last week,&nbsp;<b>PowerShell 5.0</b> <span style="background-color: yellow;">"Preview" has been released by Microsoft part of Windows Management Framework 5.0 (WMF 5.0) <u>Preview</u>. The release of the version 4 <a href="{{ base_path }}/2013/10/powershell-40-is-now-available.html" target="_blank">was not so long ago (October 2013)</a>, Microsoft is definitely increasing the pace of releases.
+Wow that was really fast!! In case you missed it last week,<b>PowerShell 5.0</b> <span style="background-color: yellow;">"Preview" has been released by Microsoft part of Windows Management Framework 5.0 (WMF 5.0) <u>Preview</u>. The release of the version 4 <a href="{{ base_path }}/2013/10/powershell-40-is-now-available.html" target="_blank">was not so long ago (October 2013)</a>, Microsoft is definitely increasing the pace of releases.
 
-Download&nbsp;WMF v5&nbsp;<a href="http://www.microsoft.com/en-us/download/details.aspx?id=42316" target="_blank">here</a>.
+DownloadWMF v5<a href="http://www.microsoft.com/en-us/download/details.aspx?id=42316" target="_blank">here</a>.
 
 
 
@@ -27,15 +27,15 @@ Download&nbsp;WMF v5&nbsp;<a href="http://www.microsoft.com/en-us/download/detai
 # <b>What's New?</b>
 
 <div>This preview release brings the following update/features:</div><ul>
-* <b>Update of PowerShell Desired State Configuration</b>: performance improvements +&nbsp;bug fixes,
+* <b>Update of PowerShell Desired State Configuration</b>: performance improvements +bug fixes,
 
-* Module&nbsp;<b>OneGet&nbsp;</b>to manage lists of software repositories, search/acquire/install/uninstall packages&nbsp;
+* Module<b>OneGet</b>to manage lists of software repositories, search/acquire/install/uninstall packages
 
-* Module&nbsp;<b>NetworkSwitch</b>. to manage Windows network switches
+* Module<b>NetworkSwitch</b>. to manage Windows network switches
 </ul>
-In my opinion, the coolest feature is the module&nbsp;<b><u>OneGet</u></b>&nbsp;which allows you manage/install/uninstall packages, &nbsp;(Linux world has something similar called&nbsp;<b>Apt-Get&nbsp;</b>for a very long time). I think this is a very good news and it will had more flexibility to the sysadmin work.
+In my opinion, the coolest feature is the module<b><u>OneGet</u></b>which allows you manage/install/uninstall packages, (Linux world has something similar called<b>Apt-Get</b>for a very long time). I think this is a very good news and it will had more flexibility to the sysadmin work.
 
-Once installed, &nbsp;<span style="font-family: Courier New, Courier, monospace;">$PSVersionTable&nbsp;will report the following result :-) &nbsp;<span style="font-family: Courier New, Courier, monospace;">PSVersion: 5.0.9701.0
+Once installed, <span style="font-family: Courier New, Courier, monospace;">$PSVersionTablewill report the following result :-) <span style="font-family: Courier New, Courier, monospace;">PSVersion: 5.0.9701.0
 
 
 
@@ -87,7 +87,7 @@ Function        Set-NetworkSwitchVlanProperty                      NetworkSwitch
 
 # New Module: Windows PowerShell OneGet
 
-<div>The coolest news in my opinion is the module OneGet which allow you to install and uninstall packages.</div><blockquote class="tr_bq"><b>Jeffrey Snover</b> - "... <i>introduces Windows PowerShell OneGet to dramatically simplify finding and installing software on your machines. &nbsp;OneGet works with the community-based software repository called Chocolatey which has over 1,700 unique software packages. &nbsp;Step by step, we are delivering the technologies you need to simplify creating and operating your computing environment..</i>." <a href="http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx" target="_blank">Source</a></blockquote>
+<div>The coolest news in my opinion is the module OneGet which allow you to install and uninstall packages.</div><blockquote class="tr_bq"><b>Jeffrey Snover</b> - "... <i>introduces Windows PowerShell OneGet to dramatically simplify finding and installing software on your machines. OneGet works with the community-based software repository called Chocolatey which has over 1,700 unique software packages. Step by step, we are delivering the technologies you need to simplify creating and operating your computing environment..</i>." <a href="http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx" target="_blank">Source</a></blockquote>
 Here is a list of the cmdlets available to us
 ```
 Get-Command -Module OneGet
@@ -111,7 +111,7 @@ The packages available in this module are the ones from Chocolatey repository.
 <a href="https://chocolatey.org/packages">https://chocolatey.org/packages</a>
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_21-55-52__1628079001__-1024x1034.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_21-55-52__1628079001__-1024x1034.png" height="400" width="395" /></a></div>
-There is no documentation so far. But some PowerShellers out there already found a way to define their own repository. <a class="g-profile" href="https://plus.google.com/100797865397105871021" target="_blank">+Boe Prox</a>&nbsp;and&nbsp;<a class="g-profile" href="https://plus.google.com/116113824901529664420" target="_blank">+Eric Courville</a>&nbsp;are already working on that :-) ! Can't wait to see what they come with.
+There is no documentation so far. But some PowerShellers out there already found a way to define their own repository. <a class="g-profile" href="https://plus.google.com/100797865397105871021" target="_blank">+Boe Prox</a>and<a class="g-profile" href="https://plus.google.com/116113824901529664420" target="_blank">+Eric Courville</a>are already working on that :-) ! Can't wait to see what they come with.
 
 
 <center><blockquote class="twitter-tweet" lang="en">I have a working internal nuget server that works great with <a href="https://twitter.com/search?q=%23OneGet&amp;src=hash">#OneGet</a>. <a href="https://twitter.com/search?q=%23PowerShell&amp;src=hash">#PowerShell</a> /cc <a href="https://twitter.com/jsnover">@jsnover</a> <a href="https://twitter.com/_organicit">@_organicit</a> <a href="http://t.co/PgOp6YrTZ4">pic.twitter.com/PgOp6YrTZ4</a>

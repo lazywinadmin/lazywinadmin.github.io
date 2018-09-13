@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/powershellstudio__1010113239__-88x88.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/powershellstudio__1010113239__-88x88.png" /></a>When creating graphical tools with PowerShell Studio 2014 and using the <a href="http://msdn.microsoft.com/en-us/library/e0ywh3cz%28v=vs.90%29.aspx" target="_blank">DataGridView control</a>, I often find myself looking for the following tip!
 

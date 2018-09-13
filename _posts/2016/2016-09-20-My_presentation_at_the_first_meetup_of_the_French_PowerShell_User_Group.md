@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2016/20160920_My_presentation_at_the_first_meetup_of_the_French_PowerShell_User_Group/CCohI-YUwAA5zEb__1985165432__-600x602.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ base_path }}/images/2016/20160920_My_presentation_at_the_first_meetup_of_the_French_PowerShell_User_Group/CCohI-YUwAA5zEb__515925266__-199x200.png" width="120" /></a>
 

@@ -27,7 +27,7 @@ Here are the key element of the script, I want:
 
 # [adsisearcher]
 
-I already talked about ADSISearcher<a href="{{ base_path }}/2013/10/powershell-get-domainuser.html" target="_blank"> in a previous post</a>&nbsp;so I won't give too much details about it. [adsisearcher] type accelerator is used to search Active Directory Domain Services (ADDS)
+I already talked about ADSISearcher<a href="{{ base_path }}/2013/10/powershell-get-domainuser.html" target="_blank"> in a previous post</a>so I won't give too much details about it. [adsisearcher] type accelerator is used to search Active Directory Domain Services (ADDS)
 
 After some research and tests I quickly got the following line which return the basic information of what I want:
 

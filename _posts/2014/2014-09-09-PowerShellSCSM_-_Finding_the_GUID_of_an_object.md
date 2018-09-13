@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/SCSM_128x128x32__115304754__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/SCSM_128x128x32__115304754__-128x128.png" /></a>Retrieving the GUID of an object in SCSM using PowerShell is sometime a bit challenging. For the WorkItems, this piece of information is not present in any Property available, you have to invoke the get_id method to retrieve it.
 

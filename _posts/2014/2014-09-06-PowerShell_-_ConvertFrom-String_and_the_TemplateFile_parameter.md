@@ -15,7 +15,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" /></a>I'm continuing to play with the new <b><span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertFrom-String</b> cmdlet (<a href="http://blogs.msdn.com/b/powershell/archive/2014/09/04/windows-management-framework-5-0-preview-september-2014-is-now-available.aspx" target="_blank">available in the last WMF 5.0 September preview released yesterday</a>) which make the parsing job really easy for simple or complex output.
 
@@ -23,7 +23,7 @@ This cmdlets supports two types of modes: <b>Basic Delimited Parsing</b> (<a hre
 
 This Auto-Generated Example-Driven Parsing mode is based on the <b>FlashExtract</b> research work in Microsoft Research...
 
-<b><u>Important:</u></b>&nbsp;<i>This post is based on the September 2014 preview release of WMF 5.0. This is pre-release software, so this information may change.</i>
+<b><u>Important:</u></b><i>This post is based on the September 2014 preview release of WMF 5.0. This is pre-release software, so this information may change.</i>
 
 The research core of FlashExtract comes from <a href="http://research.microsoft.com/en-us/um/people/sumitg/publications.html" target="_blank">Sumit Gulwani and Vu Le</a>:
 <b><u>FlashExtract:</u> A Framework for Data Extraction by Examples, PLDI 2014, Vu Le, Sumit Gulwani (<a href="http://research.microsoft.com/en-us/um/people/sumitg/pubs/pldi14-flashextract-abs.html" target="_blank">Abstract</a> / <a href="http://research.microsoft.com/en-us/um/people/sumitg/pubs/pldi14-flashextract.pdf" target="_blank">Pdf</a> / <a href="http://research.microsoft.com/en-us/um/people/sumitg/pubs/FlashM-TextFile.avi" target="_blank">Video</a>)</b>
@@ -32,7 +32,7 @@ The research core of FlashExtract comes from <a href="http://research.microsoft.
 
 # NetStat.exe -na
 
-Once again, I will work with the <b>NetStat.exe</b>&nbsp;command line, to demo <b><span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertFrom-String </b>with the&nbsp;<b style="text-decoration: underline;">TemplateFile</b>&nbsp;parameter. Here is the default output.
+Once again, I will work with the <b>NetStat.exe</b>command line, to demo <b><span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertFrom-String </b>with the<b style="text-decoration: underline;">TemplateFile</b>parameter. Here is the default output.
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" /></a></div>
 <div class="separator" style="clear: both; text-align: center;"></div>
@@ -81,7 +81,7 @@ However, What if a line does not contains a State information? like this one :
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-15-20__587262349__-449x460.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_3-15-20__587262349__-449x460.png" /></a></div>
 
-This can be solved by adding the property State anyway with a whitespace Regex Metacharacter&nbsp;<b><span style="font-family: Courier New, Courier, monospace; font-size: large;">\s</b>
+This can be solved by adding the property State anyway with a whitespace Regex Metacharacter<b><span style="font-family: Courier New, Courier, monospace; font-size: large;">\s</b>
 
 ```
   {Protocol*:UDP}    {LocalAddress:0.0.0.0:443}            {ForeignAddress:*:*}<span style="background-color: lime;">{State:\s}

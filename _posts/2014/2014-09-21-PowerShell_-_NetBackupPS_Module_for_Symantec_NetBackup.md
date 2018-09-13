@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  
 <a href="{{ base_path }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/9-20-2014%252B12-02-32%252BPM__1269134158__-122x137.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/9-20-2014%252B12-02-32%252BPM__1269134158__-122x137.png" /></a>In my previous job, we used Symantec NetBackup to handle backups and restores. To handle some of the reporting, the storage admins were using the Symantec CLI tools (bunch of Exe).
@@ -28,12 +28,12 @@ I wanted to parse the output and be able to reuse the information for other comm
 # Module NetBackupPS
 
 The module contains a few Cmdlets which are focus on reporting information from the system.
-I still have some materials to work on but unfortunately,&nbsp;I don't have access to NetBackup anymore so I can't really test further from this point on.
+I still have some materials to work on but unfortunately,I don't have access to NetBackup anymore so I can't really test further from this point on.
 
 Anyway, I thought sharing the code could be useful to other people.
 
 It is available on the <a href="http://gallery.technet.microsoft.com/NetBackupPS-Module-for-7be565e5" target="_blank">Technet Gallery</a>.
-I also push my last updates to a&nbsp;<a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">Github Repository</a>,&nbsp;<b>contributors are welcome</b>&nbsp;! so feel free to fork the repo :)
+I also push my last updates to a<a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">Github Repository</a>,<b>contributors are welcome</b>! so feel free to fork the repo :)
 
 <div style="text-align: left;"></div>
 

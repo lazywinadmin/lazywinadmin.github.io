@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
 {% include toc title="Table of content" %}
 
 

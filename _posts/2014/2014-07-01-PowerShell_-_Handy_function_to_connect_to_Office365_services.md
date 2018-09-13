@@ -15,7 +15,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" height="97.6" width="160" /></a></div>I just started to play with a Microsoft Office 365 environment (Azure Active Directory, Lync Online and Exchange Online) and I thought I would make it through PowerShell obviously :-)
@@ -41,13 +41,13 @@ Here is a very handy function that you can include to your PowerShell Profil to 
 <b><u>Requirements</u></b>
 
 <ul>
-* <b>Azure Active Directory</b>&nbsp;<a href="http://technet.microsoft.com/en-us/library/jj151815.aspx#BKMK_Requirements" target="_blank">Download</a>
+* <b>Azure Active Directory</b><a href="http://technet.microsoft.com/en-us/library/jj151815.aspx#BKMK_Requirements" target="_blank">Download</a>
 
-* <b>Exchange Online PowerShell</b>&nbsp;(no download needed, the function will create an implicit remoting module)
+* <b>Exchange Online PowerShell</b>(no download needed, the function will create an implicit remoting module)
 
-* <b>SharePoint Online PowerShell</b>&nbsp;(no download needed, the function will create an implicit remoting module)
+* <b>SharePoint Online PowerShell</b>(no download needed, the function will create an implicit remoting module)
 
-* <b>Lync Online PowerShell</b>&nbsp;<a href="http://www.microsoft.com/en-us/download/details.aspx?id=39366" target="_blank">Download</a>
+* <b>Lync Online PowerShell</b><a href="http://www.microsoft.com/en-us/download/details.aspx?id=39366" target="_blank">Download</a>
 </ul>
 
 

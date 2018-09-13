@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <a href="{{ base_path }}/images/2016/20160829_PowerShell_Tip_-_Generate_a_list_of_Mac_Addresses/1472461884_computer__1229181452__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2016/20160829_PowerShell_Tip_-_Generate_a_list_of_Mac_Addresses/1472461884_computer__1229181452__-128x128.png" /></a>While playing in my lab I needed to create a bunch of fake Devices in System Center Configuration Manager (SCCM). When creation devices you need two pieces of information, the computer name and the Mac Address of the device.
 

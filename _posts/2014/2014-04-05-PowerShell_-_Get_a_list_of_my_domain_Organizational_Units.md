@@ -152,7 +152,7 @@ Get-ADObject -Filter { ObjectClass -eq 'organizationalunit' }
 
 ```powershell
 # Get Organizational Unit objects
-Get-ADObject -Filter { ObjectClass -eq 'organizationalunit' } -Properties&nbsp;CanonicalName | Select-Object -Property CanonicalName
+Get-ADObject -Filter { ObjectClass -eq 'organizationalunit' } -PropertiesCanonicalName | Select-Object -Property CanonicalName
 ```
 
 **Output:**

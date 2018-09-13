@@ -22,7 +22,7 @@ In April 2013 I was one of the lucky attendees at the first PowerShell Summit in
 
 I thought sharing some details and pictures would be nice :-)
 
-<u><b>Note:</b></u>&nbsp;Just realized that this blog post stayed in my draft since last year ! Sorry for the late post ;-)
+<u><b>Note:</b></u>Just realized that this blog post stayed in my draft since last year ! Sorry for the late post ;-)
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/seattle_kerry_park__941080560__-700x393.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/seattle_kerry_park__941080560__-700x393.png" height="222" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Seattle, WA</td></tr></tbody></table>
 
@@ -90,11 +90,11 @@ Redmond offers some nice runner tracks to follow)</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-iWG8yPTRdzk/Ultefckk_5I/AAAAAAABeBY/FY1TDT_3SR4/w960-h720-no/D02592DF-B662-4BCA-9FDA-7F79E8D631CB.JPG" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://4.bp.blogspot.com/-iWG8yPTRdzk/Ultefckk_5I/AAAAAAABeBY/FY1TDT_3SR4/w960-h720-no/D02592DF-B662-4BCA-9FDA-7F79E8D631CB.JPG" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Redmond Runner tracks: 3 miles (4.82 KM) and 5 miles (8 KM)</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161218__1215794647__-612x816.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161218__1215794647__-612x816.jpg" height="320" width="240" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Redmond Runner Tracks - Fitness Map
 Really nice and easy to follow</td></tr></tbody></table><div class="separator" style="clear: both; text-align: center;"></div>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1627179313__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1223311732__-320x240.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">My Redmond hotel "Extended Stay America" - cheap, convenient and close to the summit&nbsp;</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1627179313__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1223311732__-320x240.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">My Redmond hotel "Extended Stay America" - cheap, convenient and close to the summit</td></tr></tbody></table>
 
 # Assessment
 
-<div>To summarize, the organizers of this event (the&nbsp;<a href="http://powershell.org/">PowerShell.org</a>&nbsp;Team) did an awesome job!!!! Everything was timed well, Great Speakers, Great Sessions, Great food, Great Location (4 min walk from my hotel !!) and even Great Weather!! ;-)
+<div>To summarize, the organizers of this event (the<a href="http://powershell.org/">PowerShell.org</a>Team) did an awesome job!!!! Everything was timed well, Great Speakers, Great Sessions, Great food, Great Location (4 min walk from my hotel !!) and even Great Weather!! ;-)
 
 I got to meet a lot of great people (PowerShell Teams, MVPs, IT Pro, ...).
 I left with a huge amount of information and I feel it really gave a boost to my PowerShell knowledge!
@@ -106,5 +106,5 @@ The event was happening in Redmond, close to Seattle... personally I live in Mon
 * Conference PowerShell Summit 2013: 500$USD
 * Montreal to Seattle round trip Airplane Tickets: 600$USD
 * Hotel (99$/night), 3 nights With taxes: 350$USD
-</ul><div>Excluding the food, transportation, attractions and small expenses... the total was approx <b>1450$ USD </b>which&nbsp;is pretty cheap for a conference.</div>
+</ul><div>Excluding the food, transportation, attractions and small expenses... the total was approx <b>1450$ USD </b>whichis pretty cheap for a conference.</div>
 I initially purchased everything by myself, but lucky for me, my company Domtar paid for all of my fees :-) !!!

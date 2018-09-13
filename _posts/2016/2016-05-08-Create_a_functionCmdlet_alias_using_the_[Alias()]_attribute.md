@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 Just wanted to share a small PowerShell tips that Kirk Munro found.
 You can declare a function or Cmdlet Alias using the following keyword `[Alias("MyAlias")]`

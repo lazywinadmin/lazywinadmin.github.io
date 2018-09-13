@@ -19,7 +19,7 @@ comments: true
 <b><u>Note:</u></b> If you are interested, <a href="{{ base_path }}/2014/03/powershell-summit-north-america-2013.html" target="_blank">I previously blog about the 2013 event with some pictures, cost and other details</a>.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ base_path }}/images/2014/20140315_PowerShell_Summit_North_America_2014/bv9__990140311__-640x427.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ base_path }}/images/2014/20140315_PowerShell_Summit_North_America_2014/bv9__990140311__-640x427.jpeg" height="266" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Bellevue, WA, United States</td></tr></tbody></table>
-The agenda of the summit is out:&nbsp;<a href="http://powershell.org/files/2014_NA_Summit_Agenda.pdf" target="_blank">Session Abstracts and Attendee Information</a>
+The agenda of the summit is out:<a href="http://powershell.org/files/2014_NA_Summit_Agenda.pdf" target="_blank">Session Abstracts and Attendee Information</a>
 A lot of great speakers, huge content, It will be hard to decide which sessions I want to attend, but I think I will definitely check those on Desired State Configuration (DSC) which I did touch yet... *~*
 It should be great occasions to talk and to meet new/old PowerShellers friends.
 

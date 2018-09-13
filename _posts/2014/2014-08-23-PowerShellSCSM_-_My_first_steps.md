@@ -12,15 +12,15 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
- <a href="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" /></a>I recently started to work with&nbsp;<a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">System Center Service Manager 2012 R2</a>&nbsp;(also known as SCSM) which provides provides an integrated platform for automating and adapting an organization's IT service management best practices, such as those found in Microsoft Operations Framework (MOF) and Information Technology Infrastructure Library (ITIL). It provides built-in processes for incident and problem resolution, change control, and asset lifecycle management.
+ <a href="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" /></a>I recently started to work with<a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">System Center Service Manager 2012 R2</a>(also known as SCSM) which provides provides an integrated platform for automating and adapting an organization's IT service management best practices, such as those found in Microsoft Operations Framework (MOF) and Information Technology Infrastructure Library (ITIL). It provides built-in processes for incident and problem resolution, change control, and asset lifecycle management.
 
 
 
 This platform can easily be integrated with the other products of the System Center suite. In my case we are using System Center Orchestrator at work (also known as SCO or SCORCH) to handle the background automation part.
 
-I really started to play and learn about SCSM 2 months ago with the help of the consultants from&nbsp;<a href="http://www.prosum.com/" target="_blank">Prosum</a>&nbsp;(David Gibbons) and&nbsp;<a href="http://cireson.com/" target="_blank">Cireson</a>&nbsp;(<a href="http://systemcentersynergy.com/" target="_blank">Will Udovich</a>). Those guys also did a really awesome work and put in place some awesome processes using PowerShell Magic/SCSM and SCORCH, Thanks guys!
+I really started to play and learn about SCSM 2 months ago with the help of the consultants from<a href="http://www.prosum.com/" target="_blank">Prosum</a>(David Gibbons) and<a href="http://cireson.com/" target="_blank">Cireson</a>(<a href="http://systemcentersynergy.com/" target="_blank">Will Udovich</a>). Those guys also did a really awesome work and put in place some awesome processes using PowerShell Magic/SCSM and SCORCH, Thanks guys!
 
 
 
@@ -43,7 +43,7 @@ Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 ```
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" /></a></div>
 <span style="font-size: x-large;">
-<span style="font-size: x-large;">Get the Service Requests&nbsp;<u>created in the last 2 days</u>
+<span style="font-size: x-large;">Get the Service Requests<u>created in the last 2 days</u>
 
 
 ```
@@ -83,7 +83,7 @@ Get-SCSMRelatedObject -SMObject $SRTicket
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" /></a></div>
 <span style="font-size: x-large;">
-<span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s)&nbsp;<span style="font-size: x-large;">of the Service Request
+<span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s)<span style="font-size: x-large;">of the Service Request
 
 
 ```
@@ -94,7 +94,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" /></a></div>
 
 
-<span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) TargetObject and RelationshipID&nbsp;<span style="font-size: x-large;">of the Service Request
+<span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) TargetObject and RelationshipID<span style="font-size: x-large;">of the Service Request
 
 
 ```
@@ -103,7 +103,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket |
     Select-Object -Property TargetObject,RelationshipID
 ```
 
-For the next step we will re-use the Active Directory Object type (ID:&nbsp;d96c8b59-8554-6e77-0aa7-f51448868b43)
+For the next step we will re-use the Active Directory Object type (ID:d96c8b59-8554-6e77-0aa7-f51448868b43)
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" /></a></div>
 
 

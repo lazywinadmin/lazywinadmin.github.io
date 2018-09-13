@@ -10,13 +10,13 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140110_I%27m_a_PowerShell_Hero_!_Thank_you_guys_!/PowerShellHeroes2014_01__1759540315__-492x526.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140110_I%27m_a_PowerShell_Hero_!_Thank_you_guys_!/PowerShellHeroes2014_01__1759540315__-492x526.png" height="200" width="186" /></a></div>Wow ! What a year so far... I'm one of the five persons who received the first-ever <b>PowerShell Heroes</b> recognition <a href="http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/" target="_blank">on PowerShell.org.</a>
 
 <i>"The idea was to offer a kudos to folks who have been working hard in the PowerShell community, but who havenâ€™t received other formal recognition (like Microsoftâ€™s MVP Award)."</i>
 
-First, I was really surprised to receive this recognition ! I recently got my first MVP award on the 1st of January 2014 and I immediately contacted&nbsp;<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a>&nbsp;to let him know there was a conflict. However he said this was related to my work done in the past year(s) and they decided to recognize me anyway.
+First, I was really surprised to receive this recognition ! I recently got my first MVP award on the 1st of January 2014 and I immediately contacted<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a>to let him know there was a conflict. However he said this was related to my work done in the past year(s) and they decided to recognize me anyway.
 
 Second, I want to say <b>THANK YOU</b> for those who recommended me. I am very humbled and honored that my contributions to this community are helpful to some people out there ! <b>So again THANK YOU!!! MERCI!!!</b>
 

@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 In the last few days, I have been working on a Onboarding automation process that need to handle both French and English and one of the step needed to remove the accents (also knows as Diacritics) from some strings passed by the users.
 

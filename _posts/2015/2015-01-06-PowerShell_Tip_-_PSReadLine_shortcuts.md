@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  </div><a href="{{ base_path }}/images/2015/20150106_PowerShell_Tip_-_PSReadLine_shortcuts/windows_powershell_icon__1771894770__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150106_PowerShell_Tip_-_PSReadLine_shortcuts/windows_powershell_icon__1771894770__-256x256.png" height="150" width="150" /></a></div>If you are using PowerShell everyday like me, you probably started to populate you profile with some neat tools that make you like easier. In my case It's loading some modules or add some functions such as <a href="{{ base_path }}/2014/07/powershell-handy-function-to-connect-to.html" target="_blank">Connect-Office365</a> or <a href="http://tommymaynard.com/ql-clear-host-without-clearning-the-host/" target="_blank">Clx</a>.
 

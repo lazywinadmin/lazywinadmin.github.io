@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <a href="{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
 <b>Finding a way to list all the groups a specific user was managing.</b>

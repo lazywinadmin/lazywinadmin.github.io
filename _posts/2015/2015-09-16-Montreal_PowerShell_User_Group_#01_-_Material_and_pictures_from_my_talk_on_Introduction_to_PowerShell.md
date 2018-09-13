@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <a href="{{ base_path }}/images/2015/20150916_Montreal_PowerShell_User_Group_%2301_-_Material_and_pictures_from_my_talk_on_Introduction_to_PowerShell/mtlpug__963896114__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ base_path }}/images/2015/20150916_Montreal_PowerShell_User_Group_%2301_-_Material_and_pictures_from_my_talk_on_Introduction_to_PowerShell/mtlpug__963896114__-1600x438.jpg" width="640" /></a>
 

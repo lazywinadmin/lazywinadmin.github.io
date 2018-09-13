@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 It is a great pleasure and honor to receive for a third year the <strike>PowerShell MVP</strike> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5000475?fullName=Francois-Xavier%20Cat" target="_blank"><b>Cloud and DataCenter Management MVP</b> Award</a>!!!
 

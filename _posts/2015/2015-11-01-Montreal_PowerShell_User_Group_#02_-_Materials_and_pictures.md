@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
 <a href="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/mtlpug__838790986__-1600x438.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2015/20151101_Montreal_PowerShell_User_Group_%2302_-_Materials_and_pictures/mtlpug__838790986__-1600x438.jpg" height="172" width="640" /></a>
 

@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-{% include base_path %} 
+
  
  <a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-09-04_20-28-34__1627644906__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-09-04_20-28-34__1627644906__-144x125.png" /></a>In the last couple of months I had to parse different types of output using PowerShell and I thought it would be a cool idea to explain how this can be done. Command line tool: <b><u>Netstat.exe</u></b>
 
@@ -40,7 +40,7 @@ Before we start to write code, we need to :
 
 * <b>Define what is the <u>separator</u> between each properties</b>. In this case we see that the properties are separated by one or more spaces (those spaces are also called whitespaces)
 
-* <b>Define each of the </b><b style="text-decoration: underline;">Properties.</b>&nbsp;First column represents the Protocol, second column the Local Address, third...etc...
+* <b>Define each of the </b><b style="text-decoration: underline;">Properties.</b>First column represents the Protocol, second column the Local Address, third...etc...
 
 
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" /></a></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div>
@@ -83,7 +83,7 @@ Those properties are separated by spaces (also called whitespace characters). Re
 Using the parameter \s we can <u>find any whitespace inside a string</u>. But as you can see the regex find multiple matches and will split on each individual whitespace.
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-53-44__437826017__-588x190.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-53-44__437826017__-588x190.png" /></a></div>
 <b><span style="font-size: large;">\s+</b>
-The solution to avoid the previous example is to add a + to the&nbsp;parameter \s. This way we can <u>find any substring that contains more that one whitespace</u>.
+The solution to avoid the previous example is to add a + to theparameter \s. This way we can <u>find any substring that contains more that one whitespace</u>.
 <div class="separator" style="clear: both; text-align: center;"><a href="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-52-54__621512630__-579x186.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ base_path }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_22-52-54__621512630__-579x186.png" /></a></div><div class="separator" style="clear: both; text-align: center;">
 </div><b><span style="font-size: large;">^\s+</b>
 Finally we need to get rid of the first whitespaces at the the beginning of the string, before the protocol property. If we don't do this step, the first property of our split will be empty.
