@@ -4,7 +4,6 @@ layout: single
 permalink: /about.html
 ---
 {% include toc title="Table of content" icon="file-text" %}
-{% include base_path %}
 
 I'm Francois-Xavier Cat and I'm a Systems Engineer focusing mostly on Microsoft and VMware technologies.
 
