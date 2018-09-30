@@ -22,9 +22,9 @@ gallery:
   - image_path: ''
     url: ''
     title: ''
+toc: true
+toc_label: "Table of content"
 ---
-
-{% include toc title="Table of content" %}
 
 In the following post I'll describe how to add multiple contributions on the Microsoft MVP portal using the MVP PowerShell module.
 
