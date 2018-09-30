@@ -125,7 +125,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/fxcat/"
     - label: "RSS"
-      icon: "fab fa-fw fa-rss-square"
+      icon: "fas fa-rss-square"
       url: "http://feeds.feedburner.com/lazywinadmin"
 
 # Site Footer
