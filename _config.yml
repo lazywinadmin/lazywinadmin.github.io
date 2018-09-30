@@ -122,7 +122,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lazywinadmin"
     - label: "RSS feed"
-      icon: "fab fa-fw fa-rss-square"
+      icon: "fas fa-rss-square"
       url: "http://feeds.feedburner.com/lazywinadmin"
 
 # Site Footer
