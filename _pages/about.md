@@ -5,7 +5,7 @@ permalink: /about.html
 toc: true
 toc_label: "Table of content"
 ---
-# About the author
+## Author
 
 I'm Francois-Xavier Cat and I'm a Systems Engineer focusing mostly on Microsoft and VMware technologies.
 
@@ -13,14 +13,16 @@ I created this blog mainly for the purpose of documenting my day-to-day work. Of
 
 Hopefully this blog will help some people and contribute to the IT community. :slightly_smiling_face:
 
-# My User Groups
+## Community work
+
+Here are the user groups I'm involved with:
 
 |Name|Type|Role|
 |---|:-------------:|:-------------:|
 | [French PowerShell User Group](https://frpsug.github.io/)|Online|Founder/Organizer|
 | [Montreal PowerShell User Group](https://www.meetup.com/MontrealPowerShellUserGroup)|In Person|Founder/Organizer|
 
-# Awards
+## Awards
 
 |Name|Authority|
 |---|:-------------:|
@@ -33,7 +35,7 @@ Hopefully this blog will help some people and contribute to the IT community. :s
 |[Most Valuable Professional (MVP) 2014 for Windows PowerShell](https://mvp.microsoft.com/en-us/PublicProfile/5000475)|Microsoft|
 |[PowerShell Hero 2014](https://powershell.org/2014/01/08/announcing-our-2014-powershell-heroes/)|PowerShell.org|
 
-# Contact me
+## Contact me
 
 <form method="POST" action="https://formspree.io/info@lazywinadmin.com" style="width: 50%">
   <input type="text" name="Name" placeholder="Your name">
@@ -42,7 +44,7 @@ Hopefully this blog will help some people and contribute to the IT community. :s
   <button type="submit">Send</button>
 </form>
 
-# Disclaimer
+## Disclaimer
 
 The content on this site is provided without any warranty and confers no rights.
 
