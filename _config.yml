@@ -113,7 +113,7 @@ author:
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Microsoft MVP"
-      icon: "fab fa-microsoft"
+      icon: "fab fa-fw fa-microsoft"
       url: "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -128,7 +128,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/fxcat/"
     - label: "RSS"
-      icon: "fab fa-rss-square"
+      icon: "fas fa-fw fa-rss-square"
       url: "http://feeds.feedburner.com/lazywinadmin"
 
 # Site Footer
