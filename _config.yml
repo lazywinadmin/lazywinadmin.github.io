@@ -112,7 +112,7 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: Microsoft MVP"
+    - label: "Microsoft MVP"
       icon: "fab fa-microsoft"
       url: "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
     - label: "Twitter"
