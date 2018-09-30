@@ -121,9 +121,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lazywinadmin"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "RSS feed"
+      icon: "fab fa-fw fa-rss-square"
+      url: "http://feeds.feedburner.com/lazywinadmin"
 
 # Site Footer
 footer:
@@ -136,7 +136,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/lazywinadmin"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
