@@ -26,8 +26,8 @@ main:
 #    url: /collection-archive/
 #  - title: "Resources"
 #    url: /resources/powershell/resources
-  - title: "Old blog"
-    url: "http://lazywinadmin.com"
+#  - title: "Old blog"
+#    url: "http://lazywinadmin.com"
 
 resources:
   - title: PowerShell
