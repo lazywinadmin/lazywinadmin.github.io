@@ -9,10 +9,11 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
 
-{% include toc title="Table of content" %}
- <a href="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" /></a>If you play often with PowerShell you might have encountered something called "Composite Formatting". What is that ? 
+<a href="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/1472490851_format-indent-more__1286772066__-128x128.png" /></a>If you play often with PowerShell you might have encountered something called "Composite Formatting". What is that ? 
 
 Each format item takes the following form and consists of the following components:
 
@@ -20,22 +21,19 @@ Each format item takes the following form and consists of the following componen
 {index[,alignment][:formatString]}
 ```
 
-The matching braces ```{``` and ```}``` are required.
+The matching braces `{` and `}` are required.
 
-
-Here is a quick example ```"Welcome to {0}" -f "LazyWinAdmin.com"```
+Here is a quick example `"Welcome to {0}" -f "LazyWinAdmin.com"`
 
 <center><a href="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/CompositeFormatting__1364390208__-438x57.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2016/20160828_PowerShell_-_Composite_Formatting_references_(-f_Operator)/CompositeFormatting__1364390208__-438x57.png" /></a></center>
-
-
 
 ## Composite Formation
 
 > The .NET Framework composite formatting feature takes a list of objects and a composite format string as input. A composite format string consists of fixed text intermixed with indexed placeholders, called format items, that correspond to the objects in the list. The formatting operation yields a result string that consists of the original fixed text intermixed with the string representation of the objects in the list.
 <a href="https://msdn.microsoft.com/en-us/library/txafckwd(v=vs.110).aspx" target="_blank">https://msdn.microsoft.com/en-us/library/txafckwd(v=vs.110).aspx</a> 
 
-
 ### Numeric Format Strings
+
 ```powershell
 ##########################
 # Numeric Format Strings #
@@ -104,8 +102,8 @@ Here is a quick example ```"Welcome to {0}" -f "LazyWinAdmin.com"```
 #0x7FFFFFFFFFFFFFFF 9.223372E+018 9,223,372,036,854,775,807.00
 ```
 
-
 ### Time / Date
+
 ```powershell
 ###############
 # TIME / DATE #
@@ -180,6 +178,7 @@ Here is a quick example ```"Welcome to {0}" -f "LazyWinAdmin.com"```
 ```
 
 ### Alignement / Spacing
+
 ```powershell
 ########################
 # ALIGNEMENT / SPACING #
@@ -194,8 +193,8 @@ Here is a quick example ```"Welcome to {0}" -f "LazyWinAdmin.com"```
 "|{0,10}|" -f "hello" #|     hello|
 ```
 
-
 ### String
+
 ```powershell
 ##########
 # STRING #

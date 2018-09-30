@@ -9,10 +9,9 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
-
-{% include toc title="Table of content" %}
-
 
 <a href="{{ site.url }}/images/2016/20160820_Launch_of__Lancement_du_French_PowerShell_User_Group/image__2146177198__-600x453.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ site.url }}/images/2016/20160820_Launch_of__Lancement_du_French_PowerShell_User_Group/image__555044452__-200x151.png" width="200" /></a>
 

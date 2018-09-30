@@ -9,9 +9,9 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
-
-{% include toc title="Table of content" %}
 <a href="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__1425385033__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__2058964902__-200x200.png" width="120" /></a>
 While writing some PowerShell Pester tests for my module <a href="https://www.powershellgallery.com/packages/AdsiPS/1.0.0.2" target="_blank">AdsiPS</a>, I wanted to make sure for each functions that all the help keywords of the comment based help were not indented.
 

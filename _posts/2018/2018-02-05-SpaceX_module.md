@@ -21,9 +21,9 @@ gallery:
   - image_path: ''
     url: ''
     title: ''
+toc: true
+toc_label: "Table of content"
 ---
-
-{% include toc title="Table of content" %}
 
 {% capture mynote%}
 **Update 2018/02/09**: Add launch video

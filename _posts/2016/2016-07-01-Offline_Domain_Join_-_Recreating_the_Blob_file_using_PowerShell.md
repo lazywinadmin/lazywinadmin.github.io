@@ -10,9 +10,9 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
-
-{% include toc title="Table of content" %}
 
 <img border="0" src="{{ site.url }}/images/2016/20160701_Offline_Domain_Join_-_Recreating_the_Blob_file_using_PowerShell/powershell_logo__1375352796__-144x109.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"/>When you need to join a machine to the Active Directory It is a pretty straight forward task using either the User Interface or the PowerShell cmdlet available for that usage.
 

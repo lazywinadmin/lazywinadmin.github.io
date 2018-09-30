@@ -11,10 +11,9 @@ tags:
 - user account
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
-{% include toc title="Table of content" %}
-
-
 
 <a href="{{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/339px-Expired.svg__2053401180__-339x479.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/339px-Expired.svg__2053401180__-339x479.png" width="141" /></a>In the video game industry it is common practice to hire consultants to take care of the Quality Assurance, which consists of a means of the software engineering processes and methods used to ensure quality. Those people are most likely Testers and usually spend most of their day testing games in development to find bugs.
 

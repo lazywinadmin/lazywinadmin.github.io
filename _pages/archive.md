@@ -3,9 +3,10 @@ layout: archive
 permalink: /archive.html
 title: "Archive"
 author_profile: false
+toc: true
+toc_label: "Table of content"
+toc_icon: "file-text"
 ---
-{% include toc title="Table of content" icon="file-text" %}
-
 ## Chronological
 
 <section class="archive-post-list">

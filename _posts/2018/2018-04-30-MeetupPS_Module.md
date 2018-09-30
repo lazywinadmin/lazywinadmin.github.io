@@ -21,9 +21,9 @@ gallery:
   - image_path: ''
     url: ''
     title: ''
+toc: true
+toc_label: "Table of content"
 ---
-
-{% include toc title="Table of content" %}
 
 I recently released a PowerShell module called MeetupPS. This module is a wrapper around the Rest API offered by Meetup.com. The commands available at the moment allow you to:
 

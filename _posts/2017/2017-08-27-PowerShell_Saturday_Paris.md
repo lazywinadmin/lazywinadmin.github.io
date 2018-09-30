@@ -19,8 +19,10 @@ gallery:
   - image_path: ''
     url: ''
     title: ''
+toc: true
+toc_label: "Table of content"
+toc_icon: "code"
 ---
-{% include toc title="Table of content" icon="code" %}
 
 Le Samedi 16 Septembre 2017, nous organisons un **PowerShell Saturday** à Paris à partir de 9h00 chez [Cellenza](https://www.google.fr/maps/place/156+Boulevard+Haussmann,+75008+Paris/@48.8755622,2.3088236,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fc7c0eb09d3:0x9b3b3b5b3007b596!8m2!3d48.8755587!4d2.3110176).
 

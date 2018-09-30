@@ -8,9 +8,10 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
 
-{% include toc title="Table of content" %}
  <a href="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__1746910156__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="120" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__454921558__-200x200.png" width="120" /></a>
 
 Today, I continue with another post on Pester. I want to check that each of my parameters declared in my ```PARAM()``` block is separated by a empty line.

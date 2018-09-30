@@ -5,9 +5,10 @@ permalink: /resources/powershell/resources
 author_profile: false
 sidebar:
   nav: "resources"
+toc: true
+toc_label: "Table of content"
+toc_icon: "file-text"
 ---
-{% include toc title="Table of content" icon="file-text" %}
-
 ## Blog Roll
 
 <table>

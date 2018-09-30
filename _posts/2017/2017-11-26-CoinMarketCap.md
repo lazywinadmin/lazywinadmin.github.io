@@ -21,8 +21,10 @@ gallery:
   - image_path: ''
     url: ''
     title: ''
+toc: true
+toc_label: "Table of content"
+toc_icon: "code"
 ---
-{% include toc title="Table of content" %}
 
 # CoinMarketCap
 

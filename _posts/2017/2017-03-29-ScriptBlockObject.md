@@ -16,11 +16,13 @@ header:
   image: images/headers/Code01_1920x500.jpg
   caption: ""
   teaserlogo: images/2017/2017-03-29-ScriptBlockObject/script.png
+toc: true
+toc_label: "Table of content"
 ---
-{% include toc title="Table of content" %}
 Countless time people asked me how they could pass arguments to parameters inside a powershell scriptblock.
 
 ## The usual approach
+
 Here are a few examples when using Invoke-Command:
 
 ```powershell
