@@ -145,11 +145,11 @@ New-MeetupEvent `
     -PublishStatus draft
 ```
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent01.png)
+![full](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent01.png){: .full}
 
 Here is the event created in Meetup
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent02.png)
+![full](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent02.png){: .full}
 
 <a name="APIPermissionScopes"/>
 
