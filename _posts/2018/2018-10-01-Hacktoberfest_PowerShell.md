@@ -25,7 +25,6 @@ toc: true
 toc_label: "Table of content"
 ---
 
-![image-left](/images/2018/2018-10-01-Hacktoberfest_PowerShell/powershell.png){: .align-left}
 Dans le cadre du Hacktoberfest qui ce tient pendant le mois d'Octobre, nous organisons un mini-meetup pour démontrer les différentes façons de contribuer a des projets Open Sources sur Github.
 
 Les démos seront évidemment concentrées sur les projets PowerShell de la communauté.
