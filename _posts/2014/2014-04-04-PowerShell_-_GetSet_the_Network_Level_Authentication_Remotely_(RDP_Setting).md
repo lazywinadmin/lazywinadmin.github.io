@@ -166,10 +166,11 @@ The <a href="http://msdn.microsoft.com/en-us/library/aa383441%28v=vs.85%29.aspx"
 
 ## Download
 
-<a href="http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet Repository</a>
-Github(<a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Get-NetworkLevelAuthentication" target="_blank">Get-NetworkLevelAuthentication</a> <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Set-NetworkLevelAuthentication" target="_blank">Set-NetworkLevelAuthentication</a>)
+* <a href="http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet Repository</a>
+* Github - <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Get-NetworkLevelAuthentication" target="_blank">Get-NetworkLevelAuthentication</a>
+* Github - <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Set-NetworkLevelAuthentication" target="_blank">Set-NetworkLevelAuthentication</a>
 
 ## References
 
-<a href="http://blogs.msdn.com/b/powershell/archive/2012/08/24/introduction-to-cim-cmdlets.aspx" target="_blank">PowerShell Team Blog - Introduction to CIM Cmdlets</a>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2014/01/30/invoking-cim-methods-with-powershell.aspx" target="_blank">Scripting Guy Blog -Invoking CIM Methods with PowerShell</a>
+* <a href="http://blogs.msdn.com/b/powershell/archive/2012/08/24/introduction-to-cim-cmdlets.aspx" target="_blank">PowerShell Team Blog - Introduction to CIM Cmdlets</a>
+* <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2014/01/30/invoking-cim-methods-with-powershell.aspx" target="_blank">Scripting Guy Blog -Invoking CIM Methods with PowerShell</a>
