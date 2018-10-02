@@ -10,8 +10,9 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of Content"
 ---
-
 
 <a href="http://2.bp.blogspot.com/-nnDulVPr8nI/Uy4x0oATYuI/AAAAAAABj1s/v8Nky6kakKY/s1600/2014-03-22+8-57-33+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-nnDulVPr8nI/Uy4x0oATYuI/AAAAAAABj1s/v8Nky6kakKY/s1600/2014-03-22+8-57-33+PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
 
@@ -19,7 +20,7 @@ Here is the sample Excel file I worked with:
 
 ![SampleExcel]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/VIDEOSERVER02__918066707__-691x852.png)
 
-# COM interface: Excel.Application
+## COM interface: Excel.Application
 
 <b>Layers</b>
 To access an Excel file data, you have to be aware of the hierarchy of each elements/layers.
@@ -94,7 +95,7 @@ $WorkSheet = $WorkBook.sheets.item("BuildSpecs")
 
 ![BuildSpecs](http://1.bp.blogspot.com/-AIdNtL3p3d4/Uy4rxFHxaFI/AAAAAAABj1Q/Ggsa5YSmrok/s1600/2014-03-22+8-30-11+PM.png)
 
-# Loading and getting the Data
+## Loading and getting the Data
 
 Loading the file in PowerShell can be done with just a few lines.
 
@@ -160,7 +161,7 @@ $Output = [pscustomobject][ordered]@{
 
 ![BuildSpecs](http://3.bp.blogspot.com/-0X6m94skkjo/Uy41tyg933I/AAAAAAABj14/ANHlIsQtoa0/s1600/2014-03-22+9-14-51+PM.png)
 
-# Script example
+## Script example
 
 Here is an example with all the pieces together.
 
@@ -201,12 +202,12 @@ $WorkSheet = $WorkBook.sheets.item($SheetName)
 }
 ```
 
-# Download
+## Download
 
-<a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Read-ExcelFile" target="_blank">GitHub</a>
-<a href="http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet Gallery</a>
+* <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Read-ExcelFile" target="_blank">GitHub</a>
+* <a href="http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet Gallery</a>
 
-# Other References
+## Other References
 
 * <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2008/09/11/how-can-i-read-from-excel-without-using-excel.aspx" style="font-family: '';" target="_blank">Hey, Scripting Guy! How Can I Read from Excel Without Using Excel?</a>
 * <a href="http://import-powershell.blogspot.ca/2012/03/excel-part-1.html" style="font-family: '';" target="_blank">Josh Miller - Excel part1</a>

@@ -42,22 +42,6 @@ I came up with the following solutions:
 
 > Note: Please leave a comment if you know a better way, I would be curious to learn more.
 
-### Solutions from the comments
-
-### Jay
-
-```powershell
-'OU=MTL1,OU=CORP,DC=FX,DC=LAB' -match '(?<=(^OU=))\w*(?=(,))'
-$matches[0]
-```
-
-### Robert Westerlund
-
-```powershell
-"OU=MTL1,OU=CORP,DC=FX,DC=LAB" -match "^OU=(?<MTL1>[^,]*)"
-$matches["MTL1"]
-```
-
 ### Steps to solution: Using PowerShell
 
 First let's check the methods and properties available using Get-Member
@@ -187,6 +171,22 @@ PS C:\> ("OU=MTL1,OU=CORP,DC=FX,DC=LAB" -split ',*..=')[1]
 
 ```text
 MTL1
+```
+
+### Other solutions from the readers
+
+#### Jay
+
+```powershell
+'OU=MTL1,OU=CORP,DC=FX,DC=LAB' -match '(?<=(^OU=))\w*(?=(,))'
+$matches[0]
+```
+
+#### Robert Westerlund
+
+```powershell
+"OU=MTL1,OU=CORP,DC=FX,DC=LAB" -match "^OU=(?<MTL1>[^,]*)"
+$matches["MTL1"]
 ```
 
 ## Resources

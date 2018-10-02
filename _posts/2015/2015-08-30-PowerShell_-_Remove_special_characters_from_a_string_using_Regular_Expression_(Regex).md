@@ -10,13 +10,13 @@ tags:
 - string
 published: true
 comments: true
+toc: true
+toc_label: "Table of Content"
 ---
 
- 
 <a href="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" /></a>Some more string manipulations! Today I'd like to remove the special characters and only keep alphanumeric characters using Regular Expression (Regex).
 
 You might be interested to check a previous article where I showed how to remove diacritics (accents) from some strings, see here: <a href="{{ site.url }}/2015/05/powershell-remove-diacritics-accents.html">{{ site.url }}/2015/05/powershell-remove-diacritics-accents.html</a>
-
 
 <b>My goal</b> is to be able to keep only any characters considered as letters and any numbers.
 If you are familiar with Regex, you could do something simple as using the metacharacter `\w` or `[a-z]` type of things. It's great when you only work with english language but does not work when you have accents or diacritics with Latin languages for example.
@@ -25,8 +25,7 @@ Preview of the final solution:
 
 <a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/2015-08-30_18-40-10__1502951707__-844x209.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="99" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/2015-08-30_18-40-10__1239215365__-400x99.png" width="400" /></a>
 
-
-# Regex approaches
+## Regex approaches
 
 Here is a couple of examples using different meta-characters and Unicode techniques.
 I stored the string in a variable `$String` to make it easy to read.
@@ -35,9 +34,7 @@ I stored the string in a variable `$String` to make it easy to read.
 $String = "François-Xavier!?!#@$%^&*()_+\|}{○<>??/ €$¥£¢ \^$.|?*+()[{ 0123456789"
 ```
 
-
-## \W Meta-character
-
+### \W Meta-character
 
 ```powershell
 # Regular Expression - Using the \W (opposite of \w)
@@ -48,9 +45,7 @@ The `\w` metacharacter is used to find a word character. A word character is a c
 
 <a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex01_W__325467495__-844x129.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex01_W__325467495__-844x129.png" /></a>
 
-
-## [^a-zA-Z0-9] Ranges
-
+### [^a-zA-Z0-9] Ranges
 
 ```powershell
 # Regular Expression - Using characters from a-z, A-Z, 0-9
@@ -62,8 +57,7 @@ $String -replace '[^a-zA-Z0-9]', ''
 <a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex02_A-Z__1320925435__-844x129.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex02_A-Z__1320925435__-844x129.png" /></a>
 This is working well, but the diacritics are removed. (Missing C of "François")
 
-
-## ASCII Ranges
+### ASCII Ranges
 
 ```powershell
 # Regular Expression - Using ASCII
@@ -77,8 +71,7 @@ Same here, we are using specific ranges of ASCII Characters. The diacritics are 
 
 <a href="http://www.asciitable.com/" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="216" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/asciitable__755878205__-320x216.png" width="320" /></a>
 
-
-## UNICODE Specific Code Point
+### UNICODE Specific Code Point
 
 ```powershell
 # Regular Expression - Unicode - Matching Specific Code Points
@@ -89,9 +82,7 @@ $String -replace '[^\u0030-\u0039\u0041-\u005A\u0061-\u007A]+', ''
 
 Same here again, we are using specific ranges of Unicode Code Point Characters. The diacritics are removed. (Missing C of "François")
 
-
-## UNICODE Categories (This is what I use in my final function)
-
+### UNICODE Categories (This is what I use in my final function)
 
 ```powershell
 # Regular Expression - Unicode - Unicode Categories
@@ -104,16 +95,12 @@ Each Unicode character belongs to a certain category. You can match a single cha
 
 Other cool Example such as `\p{N}` for any type of numbers, `\p{Nl}` for a number that looks like a letter, such as a Roman numeral and finally `\p{No}` for a superscript or subscript digit, or a number that is not a digit `0-9`.
 
-
 This is the method I use in the final function.
 
-
-
-# Keep some specific characters
+## Keep some specific characters
 
 Now that I have the main code working. I want to include some Exclusion.
 This can easily be done with the slash character, example:
-
 
 ```powershell
 # Regular Expression - Unicode - Unicode Categories
@@ -123,11 +110,90 @@ $String -replace '[^\p{L}\p{Nd}/(/}/_]', ''
 
 <a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex05_Unicode_Category_WITH_Exceptions__545375934__-844x129.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex05_Unicode_Category_WITH_Exceptions__545375934__-844x129.png" /></a>
 
+## Final Function
 
-
-# Final Function
-
-[Available on my GitHub repository](https://github.com/lazywinadmin/PowerShell/blob/master/TOOL-Remove-StringSpecialCharacter/Remove-StringSpecialCharacter.ps1)
+* [Available on my GitHub repository](https://github.com/lazywinadmin/PowerShell/blob/master/TOOL-Remove-StringSpecialCharacter/Remove-StringSpecialCharacter.ps1)
 
 <a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Remove-StringSpecialCharacter__130501068__-844x329.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Remove-StringSpecialCharacter__130501068__-844x329.png" /></a>
 
+Sample of the code as of 2018/10/02
+
+```powershell
+
+function Remove-StringSpecialCharacter
+{
+<#
+.SYNOPSIS
+	This function will remove the special character from a string.
+	
+.DESCRIPTION
+	This function will remove the special character from a string.
+	I'm using Unicode Regular Expressions with the following categories
+	\p{L} : any kind of letter from any language.
+	\p{Nd} : a digit zero through nine in any script except ideographic 
+	
+	http://www.regular-expressions.info/unicode.html
+	http://unicode.org/reports/tr18/
+
+.PARAMETER String
+	Specifies the String on which the special character will be removed
+
+.SpecialCharacterToKeep
+	Specifies the special character to keep in the output
+
+.EXAMPLE
+	PS C:\> Remove-StringSpecialCharacter -String "^&*@wow*(&(*&@"
+	wow
+.EXAMPLE
+	PS C:\> Remove-StringSpecialCharacter -String "wow#@!`~)(\|?/}{-_=+*"
+	
+	wow
+.EXAMPLE
+	PS C:\> Remove-StringSpecialCharacter -String "wow#@!`~)(\|?/}{-_=+*" -SpecialCharacterToKeep "*","_","-"
+	wow-_*
+
+.NOTES
+	Francois-Xavier Cat
+	@lazywinadm
+	www.lazywinadmin.com
+	github.com/lazywinadmin
+#>
+	[CmdletBinding()]
+	param
+	(
+		[Parameter(ValueFromPipeline)]
+		[ValidateNotNullOrEmpty()]
+		[Alias('Text')]
+		[System.String[]]$String,
+		
+		[Alias("Keep")]
+		#[ValidateNotNullOrEmpty()]
+		[String[]]$SpecialCharacterToKeep
+	)
+	PROCESS
+	{
+		IF ($PSBoundParameters["SpecialCharacterToKeep"])
+		{
+			$Regex = "[^\p{L}\p{Nd}"
+			Foreach ($Character in $SpecialCharacterToKeep)
+			{
+				IF ($Character -eq "-"){
+					$Regex +="-"
+				} else {
+					$Regex += [Regex]::Escape($Character)
+				}
+				#$Regex += "/$character"
+			}
+			
+			$Regex += "]+"
+		} #IF($PSBoundParameters["SpecialCharacterToKeep"])
+		ELSE { $Regex = "[^\p{L}\p{Nd}]+" }
+		
+		FOREACH ($Str in $string)
+		{
+			Write-Verbose -Message "Original String: $Str"
+			$Str -replace $regex, ""
+		}
+	} #PROCESS
+}
+```
