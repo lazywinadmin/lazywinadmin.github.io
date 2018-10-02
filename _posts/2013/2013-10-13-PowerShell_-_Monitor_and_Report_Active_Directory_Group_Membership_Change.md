@@ -1,0 +1,446 @@
+---
+layout: single
+title: PowerShell - Monitor and Report Active Directory Group Membership Change
+excerpt: 
+permalink: /2013/10/powershell-monitor-and-report-active.html
+tags: 
+- active directory
+- compare
+- csv
+- html
+- monitoring
+- powershell
+- report
+published: true
+comments: true
+---
+<a href="http://2.bp.blogspot.com/-fFvFvSUb8EA/UltTBkbzHnI/AAAAAAABd_4/codPfPqaNas/s1600/2013-10-13+10-11-52+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-fFvFvSUb8EA/UltTBkbzHnI/AAAAAAABd_4/codPfPqaNas/s1600/2013-10-13+10-11-52+PM.png" /></a>
+<b><u>UPDATE 2016/05/03:</u></b><span style="background-color: yellow;">The most recent update is available<a href="https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip" target="_blank">on Github</a>
+<b><u>
+</u></b><b><u>See also the related blogpost:</u></b>[{{ site.url }}/2013/11/update-powershell-monitor-and-report.html]({{ site.url }}/2013/11/update-powershell-monitor-and-report.html)
+
+Today I will update a post that I published at the beginning of last year : <a href="{{ site.url }}/2012/03/powershell-monitor-membership-change-to.html" target="_blank">Monitor Active Directory Membership changes</a>.I updated the script to add some of the things I learned during the Scripting Games 2013 back in April/May. The script will also create a nice html report and send it via Email.
+
+Basically, the script will monitor the Active Directory groups that you specify and notify you if a change occurred since the last time it checked.
+
+
+
+
+
+## 
+
+<a href="http://4.bp.blogspot.com/-reslQaGRayM/UltSIlXETFI/AAAAAAABd_w/PsAQC6gZC6I/s1600/2013-10-13+10-07-29+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-reslQaGRayM/UltSIlXETFI/AAAAAAABd_w/PsAQC6gZC6I/s1600/2013-10-13+10-07-29+PM.png" /></a>
+### 
+
+
+### Overview
+
+
+* <b>How does the script works ?</b>
+
+* Main Process
+
+* Comparing
+
+* Change History
+
+* Reporting
+
+* What does this script does not cover ?
+
+* <b>Workflow</b>
+
+* <b>Requirements</b>
+
+* PowerShell 3.0
+
+* Quest Active Directory Snapin
+
+* A Schedule task (Automate it!)
+
+* Permissions
+
+* <b>Running the Script the first time</b>
+
+* <b>Running the Script after the first change</b>
+
+* <b>Running the Script after the second change</b>
+
+* <b>Comments Based Help</b>
+
+* <b>Download</b>
+
+
+
+
+
+### <span style="font-size: large;">How does the script works ?
+
+
+<h4><b>Main Process</b>
+
+<span style="font-weight: normal;">This script checks an Active Directory Group membership that you specify and notify you if a change occurred since the last time it checked.
+<span style="font-weight: normal;">
+<span style="font-weight: normal;">In order to find the right group to monitor, you can specify the group<b> <u>Name</u></b>, <u><b>SID</b></u>(Security Identifier), <u><b>GUID</b></u>(Globally Unique IDentifier) or <u><b>DN</b></u>(Distinguished Name).
+<span style="font-weight: normal;">Group name like '<b>DOMAIN</b><span style="font-weight: normal;">\<b>GROUPNAME</b><span style="font-weight: normal;">' will also work.
+<b>
+</b><b>Comparing</b>
+The membership of each group is saved in a CSV file "<span style="color: #38761d; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>DOMAIN_GROUPNAME-membership.csv</b>"
+If the file does not exist, the script will create one, so the next time it will be able to compare the membership with this file.
+<b>
+</b><b>Change History</b>
+Each time a change is detected (<b>Add</b> or <b>Remove</b> an Account (Nested or Not)) a CSV file will be generated with the following name: "<span style="color: #38761d; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>DOMAIN_GROUPNAME-ChangesHistory-yyyyMMdd-hhmmss.csv</b>"
+<span style="font-weight: normal;">
+When generating the HTML Report, the script will add this Change History to the Email (if there is one to add)
+
+<h4>Reporting
+
+Here is an example of report generated when a change is detected.
+You can see the user '<b><u>catfx</u></b>' was removed from the group FX\<b>FXGROUP</b>
+Also, If the script find some <u>Change History</u> files for this group, it will be added to the report.
+Finally at the end of the report, information on when, where and who ran the script.
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-rfB9mbPr8b4/UltEgt3783I/AAAAAAABd_g/0P8ihpfQ20U/s1600/2013-10-12+11-00-24+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="267" src="https://3.bp.blogspot.com/-rfB9mbPr8b4/UltEgt3783I/AAAAAAABd_g/0P8ihpfQ20U/s640/2013-10-12+11-00-24+PM.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Example of Email Report generated by the script</td></tr></tbody></table>
+
+<h4>
+
+
+### 
+
+<h4>What does this script does not cover ?
+
+
+This script won't:
+
+
+* Use the Active Directory module (Next update)
+
+* Tell you who changed the Group Membership in Active Directory (<i>You would need to active Auditing in Active Directory</i>)
+
+* Create the Schedule Task for you
+
+* Generate a HTML file (Next update)
+
+<span style="font-size: small; font-weight: normal;">
+
+
+### Workflow
+
+
+The script is a bit complex to understand, so I created a small workflow that explain how each parts interact with each other:
+
+
+
+<a href="{{ site.url }}/images/2013/20131013_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/Monitor_ActiveDirectory_Group_Membership_Change-Workflowvsdx3__1445516534__-526x1600.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20131013_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/Monitor_ActiveDirectory_Group_Membership_Change-Workflowvsdx3__1123494058__-526x1600.png" /></a>
+
+
+
+
+
+### Requirements
+
+<h4>
+
+<h4>
+
+<h4>PowerShell v3.0 
+
+You will need PowerShell version 3.0 to take advantage <span style="background-color: yellow;"><b><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">[mailaddress]</b> which make a validation on the Source and Destination Email addresses.
+<h4>Quest Active Directory PowerShell Snappin
+
+I used the Quest Active Directory Snapin to do my queries, <a href="http://www.quest.com/powershell/activeroles-server.aspx" target="_blank">get it here</a>
+In the next update I plan to add support for the Active Directory module (maybe ADSI too).
+<h4>A Scheduled task (Automate it!!)
+
+<a href="{{ site.url }}/images/2013/20131013_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/35059284__1554646585__-400x300.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="{{ site.url }}/images/2013/20131013_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/35059284__1652401638__-200x150.jpg" width="200" /></a>
+You will need to configure a Scheduled task that will run your task for you every minute
+* Make sure the account that will run the task is an Administrator OR is member of the Local Security Policy "<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">Log on as a batch job".
+
+* Create your task and <a href="{{ site.url }}/2012/03/run-this-task-every-minute.html" target="_blank">make sure it runs every minutes</a>!
+
+* I recommend to assign a dedicated AD account to this task
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-g_pDJ6OSHAg/UloN_MVdtoI/AAAAAAABd9g/38O-fAn3SPQ/s1600/2013-10-12+11-02-18+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="196" src="https://2.bp.blogspot.com/-g_pDJ6OSHAg/UloN_MVdtoI/AAAAAAABd9g/38O-fAn3SPQ/s640/2013-10-12+11-02-18+PM.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Local Security Policy console</td></tr></tbody></table>
+
+<h4>Permissions
+
+This PowerShell script will need some rights, it will:
+* <u>Create CSV files inside of the script parent directory</u>
+
+* Make sure the account you use for this job<b>has the rights to write files inside the parent directory of this script </b>(this does not apply if the account is part of the Local Administrators group)
+
+* <u>Access the Active Directory (read)</u>
+
+* Make sure the account you use has the rights to read the membership of the group(s) you want to monitor.
+
+
+
+
+### 
+
+
+### <u>Running the Script <span style="background-color: yellow;">the first time</u>
+
+In this example I run the script against 2 Active Directory Groups with the verbose parameter so it will let me know what it's doing.
+```
+.\TOOL-MONITOR-AD_Groups.ps1 -verbose -Group "FXGROUP", "FXGROUP2" -EmailServer "mail.fx.local" -EmailTo "catfx@fx.local" -EmailFrom "PowerShellMonitoring@fx.local"
+```
+
+```
+VERBOSE: Creating the Output Folder : C:\LazyWinAdmin\Output
+VERBOSE: Creating the ChangeHistory Folder : C:\LazyWinAdmin\ChangeHistory
+VERBOSE: GROUP: FXGROUP
+VERBOSE: FXGROUP - The following file did not exist: FX_FXGROUP-membership.csv
+VERBOSE: FXGROUP - Exporting the current membership information into the file: FX_FXGROUP-membership.csv
+VERBOSE: FXGROUP - Comparing Current and Before
+VERBOSE: FXGROUP - Compare Block Done !
+VERBOSE: FXGROUP - No Change
+VERBOSE: GROUP: FXGROUP2
+VERBOSE: FXGROUP2 - The following file did not exist: FX_FXGROUP2-membership.csv
+VERBOSE: FXGROUP2 - Exporting the current membership information into the file: FX_FXGROUP2-membership.csv
+VERBOSE: FXGROUP2 - Comparing Current and Before
+VERBOSE: FXGROUP2 - Compare Block Done !
+VERBOSE: FXGROUP2 - No Change
+VERBOSE: Script Completed
+```
+
+As you can see, the first time you run the script it will create the two directories '<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">Output' and '<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">ChangeHistory'
+
+<b>Output:</b> contains the membership files
+<b>ChangeHistory:</b> contains all the change that occurred since the script is operational.
+
+<a href="http://3.bp.blogspot.com/-PXxgtVN5UEs/UloTwJrcNPI/AAAAAAABd-A/VIkG7-x-j8g/s1600/2013-10-12+10-28-35+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-PXxgtVN5UEs/UloTwJrcNPI/AAAAAAABd-A/VIkG7-x-j8g/s1600/2013-10-12+10-28-35+PM.png" /></a>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-dfkrx3bNoP0/Uls23UVszCI/AAAAAAABd_A/vKzD5QxFwbM/s1600/2013-10-13+8-06-34+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://4.bp.blogspot.com/-dfkrx3bNoP0/Uls23UVszCI/AAAAAAABd_A/vKzD5QxFwbM/s1600/2013-10-13+8-06-34+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">In the Output folder, the script save the current membership of each groups</td></tr></tbody></table>
+
+At this point the <b>ChangeHistory</b> is empty.
+
+
+
+
+### <u>Running the script after making <span style="background-color: yellow;">a first change on a group</u>
+
+I changed the membership of the group FX\<b>FXGROUP</b>
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-9d8eHfLr4so/Uls3EiOzJPI/AAAAAAABd_M/rO9vAYWijeU/s1600/2013-10-13+8-08-20+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://1.bp.blogspot.com/-9d8eHfLr4so/Uls3EiOzJPI/AAAAAAABd_M/rO9vAYWijeU/s1600/2013-10-13+8-08-20+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">A change is detected by the script, so it creates a file for this group.</td></tr></tbody></table>
+
+Then the script send the following Email Report:
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-I5DjAqWogEI/UlsrToXDHqI/AAAAAAABd-o/n1rZwJlohuE/s1600/2013-10-13+7-15-47+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://1.bp.blogspot.com/-I5DjAqWogEI/UlsrToXDHqI/AAAAAAABd-o/n1rZwJlohuE/s1600/2013-10-13+7-15-47+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">The script send an email with the above report. Notice there is no 'Change History' 
+since no previous changes were detected</td></tr></tbody></table>
+
+
+
+
+### <u>Running the script after making <span style="background-color: yellow;">a second change on a group</u>
+
+Again, I changed the membership of the group FX\<b>FXGROUP</b>,
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-F3r9ofkfgVA/Uls3uyLYBTI/AAAAAAABd_Q/56Q0Mhgil6g/s1600/2013-10-13+8-08-37+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://1.bp.blogspot.com/-F3r9ofkfgVA/Uls3uyLYBTI/AAAAAAABd_Q/56Q0Mhgil6g/s1600/2013-10-13+8-08-37+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">A second Change History file is created by the script</td></tr></tbody></table>
+
+You will notice that the email you receive is a bit different. It will contains the Change History of the first file (the previous change made at first) "<span style="color: #38761d; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>FX_FXGROUP-ChangeHistory-20131013_185831.csv</b>"
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-k1DcsD2exLo/UlsrXPj1NKI/AAAAAAABd-w/DbuFTZEatxU/s1600/2013-10-13+7-16-48+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://3.bp.blogspot.com/-k1DcsD2exLo/UlsrXPj1NKI/AAAAAAABd-w/DbuFTZEatxU/s1600/2013-10-13+7-16-48+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">This time the Email Report is a bit different, the script <u>did detect some previous change</u>
+and include a 'Change History' table in the Email Report.</td></tr></tbody></table>
+
+### Comments Based Help
+
+Let's test the help now...
+
+
+```
+PS C:\LazyWinAdmin> Get-Help .\TOOL-MONITOR-AD_Groups.ps1 -full
+```
+
+```
+NAME
+    C:\LazyWinAdmin\TOOL-MONITOR-AD_Group.ps1
+
+SYNOPSIS
+    This script is monitoring group(s) in Active Directory and send an email when someone is
+    changing the membership.
+
+SYNTAX
+    C:\LazyWinAdmin\TOOL-MONITOR-AD_Group.ps1 [-Group] <string> [-Emailfrom] <mailaddress>
+    [-Emailto] <mailaddress> [-EmailServer] <string> [<commonparameters>]
+
+
+DESCRIPTION
+    This script is monitoring group(s) in Active Directory and send an email when someone is
+    changing the membership.
+    It will also report the Change History made for this/those group(s).
+
+
+PARAMETERS
+    -Group <string>
+        Specifies the group(s) to query in Active Directory.
+        You can also specify the 'DN','GUID','SID' or the 'Name' of your group(s).
+        Using 'Domain\Name' will also work.
+
+        Required?                    true
+        Position?                    1
+        Default value
+        Accept pipeline input?       false
+        Accept wildcard characters?  false
+
+    -Emailfrom <mailaddress>
+        Specifies the Email Address of the Sender
+
+        Required?                    true
+        Position?                    2
+        Default value
+        Accept pipeline input?       false
+        Accept wildcard characters?  false
+
+    -Emailto <mailaddress>
+        Specifies the Email Address of the Destination
+
+        Required?                    true
+        Position?                    3
+        Default value
+        Accept pipeline input?       false
+        Accept wildcard characters?  false
+
+    -EmailServer <string>
+        Specifies the Email Server IPAddress/FQDN
+
+        Required?                    true
+        Position?                    4
+        Default value
+        Accept pipeline input?       false
+        Accept wildcard characters?  false
+
+    <commonparameters>
+        This cmdlet supports the common parameters: Verbose, Debug,
+        ErrorAction, ErrorVariable, WarningAction, WarningVariable,
+        OutBuffer, PipelineVariable, and OutVariable. For more information, see
+        about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+INPUTS
+    System.String
+
+
+
+
+OUTPUTS
+    Email Report
+
+
+
+
+NOTES
+
+
+        NAME:    TOOL-Monitor-AD_Group.ps1
+        AUTHOR:    Francois-Xavier CAT
+        DATE:    2012/02/01
+        EMAIL:    info@lazywinadmin.com
+
+        REQUIREMENTS:
+            -Read Permission in Active Directory on the monitored groups
+            -Quest Active Directory PowerShell Snapin
+            -A Scheduled Task (in order to check every X seconds/minutes/hours)
+
+        VERSION HISTORY:
+        1.0 2012.02.01
+            Initial Version
+
+        1.1 2012.03.13
+            CHANGE to monitor both Domain Admins and Enterprise Admins
+
+        1.2 2013.09.23
+            FIX issue when specifying group with domain 'DOMAIN\Group'
+            CHANGE Script Format (BEGIN, PROCESS, END)
+            ADD Minimal Error handling. (TRY CATCH)
+
+        1.3 2013.10.05
+            CHANGE in the PROCESS BLOCK, the TRY CATCH blocks and placed
+             them inside the FOREACH instead of inside the TRY block
+            ADD support for Verbose
+            CHANGE the output file name "DOMAIN_GROUPNAME-membership.csv"
+            ADD a Change History File for each group(s)
+             example: "GROUPNAME-ChangesHistory-yyyyMMdd-hhmmss.csv"
+            ADD more Error Handling
+            ADD a HTML Report instead of plain text
+            ADD HTML header
+            ADD HTML header for change history
+
+        1.4 2013.10.11
+            CHANGE the 'Change History' filename to
+             "DOMAIN_GROUPNAME-ChangesHistory-yyyyMMdd-hhmmss.csv"
+            UPDATE Comments Based Help
+            ADD Some Variable Parameters
+        1.5 2013.10.13
+            ADD the full Parameter Names for each Cmdlets used in this script
+            ADD Alias to the Group ParameterName
+
+    -------------------------- EXAMPLE 1 --------------------------
+
+    C:\PS>.\TOOL-Monitor-AD_Group.ps1 -Group "FXGroup" -EmailFrom "From@Company.com" -EmailTo
+    "To@Company.com" -EmailServer "mail.company.com"
+
+
+    This will run the script against the group FXGROUP and send an email to To@Company.com using
+    the address From@Company.com and the server mail.company.com.
+
+
+
+
+
+    -------------------------- EXAMPLE 2 --------------------------
+
+    C:\PS>.\TOOL-Monitor-AD_Group.ps1 -Group "FXGroup","FXGroup2","FXGroup3" -EmailFrom
+    "From@Company.com" -Emailto "To@Company.com" -EmailServer "mail.company.com"
+
+
+    This will run the script against the groups FXGROUP,FXGROUP2 and FXGROUP3  and send an email
+    to To@Company.com using the address From@Company.com and the Server mail.company.com.
+
+
+
+
+
+    -------------------------- EXAMPLE 3 --------------------------
+
+    C:\PS>.\TOOL-Monitor-AD_Group.ps1 -Group "FXGroup" -EmailFrom "From@Company.com" -Emailto
+    "To@Company.com" -EmailServer "mail.company.com" -Verbose
+
+
+    This will run the script against the group FXGROUP and send an email to To@Company.com using
+    the address From@Company.com and the server mail.company.com. Additionally the switch Verbose
+    is activated to show the activities of the script.
+
+
+
+
+
+    -------------------------- EXAMPLE 4 --------------------------
+
+    C:\PS>.\TOOL-Monitor-AD_Group.ps1 -Group "FXGroup" -EmailFrom "From@Company.com" -Emailto
+    "Auditor@Company.com","Auditor2@Company.com" -EmailServer "mail.company.com" -Verbose
+
+
+    This will run the script against the group FXGROUP and send an email to 2 persons using the
+    address From@Company.com and the server mail.company.com. Additionally the switch Verbose is
+    activated to show the activities of the script.
+
+
+
+
+
+
+RELATED LINKS</commonparameters></string></mailaddress></mailaddress></string>
+```
+
+
+
+
+## <span style="font-size: x-large;">Download
+
+
+### 
+
+<a href="https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip" target="_blank">Github Repo</a>
+<a href="http://gallery.technet.microsoft.com/Monitor-Active-Directory-4c4e04c7" target="_blank">Technet Script Repository</a>
+
+
+<b>
