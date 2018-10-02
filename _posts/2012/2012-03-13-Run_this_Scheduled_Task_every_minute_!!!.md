@@ -15,9 +15,6 @@ This is a weird one... This post will show you how to configure a Scheduled task
 
 By default on Microsoft Windows Server 2008 R2, You have the options to run a task every:<span style="font-family: 'Courier New', Courier, monospace;">"5 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"10 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"15 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"30 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"1 hour".
 
-
-
-
 <span style="font-size: large;">How to Schedule a task to run every minute ?
 Today I was configuring a new<i> Scheduled task</i> on Windows Server 2008 R2. In my case i wanted the task to run every minute...
 
@@ -34,13 +31,9 @@ I realize that i couldn't set the task to repeat under 5 minutes ;-(
 
 So here is <b><u>the trick</u></b>:
 
-
 * Edit the Trigger of your task. And as you can see ... nothing below 5 minutes :-(
 
-
 <a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-5minutes-c__537366515__-594x509.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="340" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-5minutes-c__2146880799__-400x343.png" width="400" /></a>
-
-
 
 * I realized the <i>Repeat Task Every</i>'s Textbox could be edited... All you need to do is to set the value to "<u>1 minute</u>" manually, (manually type "1 minutes") and press OK. VOILA! :-)
 
@@ -51,6 +44,3 @@ Here you can see the task repeat every minute.
 
 <a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-b__1604341881__-634x471.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="295" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-b__1209500685__-400x297.png" width="400" /></a><a href="http://4.bp.blogspot.com/-xArIkCG11jE/T1-0Z41YBYI/AAAAAAABCB0/pNHv3gPiNy8/s1600/3-13-2012+4-53-20+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
 </a>
-Hope that's help someone out there.
-
-
