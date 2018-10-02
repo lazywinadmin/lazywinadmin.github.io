@@ -52,7 +52,9 @@ Note: Gagner un t-shirt sympa si vous faites aux minimum 5 pull requests sur nim
 
 ## Lien du meetup
 
-https://meet.lync.com/lazywinadm/fxaviercat/7TZ703G3
+[https://www.meetup.com/FrenchPSUG/events/255186350/](https://www.meetup.com/FrenchPSUG/events/255186350/)
+
+Lien skype fournis dans l'evenement
 (Avertissement: Pendant cette rencontre tous les écrans partagés sont enregistrés ainsi que tout ce que disent les participants)
 
 ## Code de conduite
