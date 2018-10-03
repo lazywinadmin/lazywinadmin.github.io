@@ -5,6 +5,7 @@ permalink: /about.html
 toc: true
 toc_label: "Table of content"
 ---
+
 ## Author
 
 I'm Francois-Xavier Cat and I'm a Systems Engineer focusing mostly on Microsoft and VMware technologies.
@@ -43,11 +44,3 @@ Here are the user groups I'm involved with:
   <textarea name="message" placeholder="Your message"></textarea>
   <button type="submit">Send</button>
 </form>
-
-## Disclaimer
-
-The content on this site is provided without any warranty and confers no rights.
-
-All the scripts provided in this blog are based on my personal views/usage scenarios. There is no guaranty or warranty that these will work your environment without any issues. You need to test them yourself in your test lab before trying in production.
-
-The author of this blog is not responsible if the usage of scripts given in this blog causes any damage to your environment or malfunctions.
