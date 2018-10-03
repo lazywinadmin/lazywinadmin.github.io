@@ -5,9 +5,10 @@ permalink: /p/links.html
 toc: true
 ---
 
-**Last update:** 2015/12/15 - Reorganize categories, add some PowerShell links :thumbsup: {: .notice--info}
+**Last update:** 2015/12/15 - Reorganize categories, add some PowerShell links :thumbsup:
+{: .notice--info}
 
-# Tools
+## Tools
 
 <ul>
 <li><span style="font-family: inherit;"><a href="http://sydiproject.com/download/"><b>SYDI</b></a>&nbsp;-&nbsp;<i>Network Documentation  made easy (VBS script)&nbsp;</i></span><i>SYDI-Server v.2.3 Server is a tool for documenting Windows computers</i></li>
@@ -167,12 +168,9 @@ toc: true
 <li><a href="http://eskonr.com/2013/04/download-sccm-2012-sql-views-documentation/" target="_blank">SCCM 2012 SQL Views Documentation</a></li>
 </ul>
 </ul>
-<div>
-<br /></div>
-<div>
 
 ### Videos
-</div>
+
 <ul>
 <li><strong>Microsoft Virtual Academy (Trainings)</strong></li>
 <ul>
