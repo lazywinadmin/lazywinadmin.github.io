@@ -12,12 +12,16 @@ main:
   #   url: /sitemap/
   #- title: "Blog"
   #  url: /
+  - title: "Disclaimer"
+    url: /disclaimer.html
   - title: "About"
     url: /about.html
 #  - title: "Tags"
 #    url: /tags
-#  - title: "Projects/Scripts"
-#    url: /projects.html
+  - title: "Projects/Scripts"
+    url: /p/scripts.html
+  - title: "Resources"
+    url: /p/links.html
   - title: "Archive"
     url: /archive.html
 #  - title: "Categories"
