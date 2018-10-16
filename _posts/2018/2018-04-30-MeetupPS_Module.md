@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "MeetupPS PowerShell module"
+classes: wide
 excerpt: "I recently released a PowerShell module called MeetupPS to interact with the Meetup API. This allows you to gather information about groups and create events"
 permalink:
 tags: 
