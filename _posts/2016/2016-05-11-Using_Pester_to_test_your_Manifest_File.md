@@ -11,6 +11,7 @@ published: true
 comments: true
 toc: true
 toc_label: "Table of content"
+classes: wide
 ---
 
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/pester_logo__837959368__-320x320.png" width="130" /> In my previous post I got started with Pester and wrote <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">my first test against the Comment Based Help</a> of my module [AdsiPS](https://github.com/lazywinadmin/AdsiPS").
