@@ -57,7 +57,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : 'http://feeds.feedburner.com/lazywinadmin' # blank (default) uses feed.xml
+  path                   : 'https://feeds.feedburner.com/lazywinadmin' # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -129,7 +129,7 @@ author:
       url: "https://www.linkedin.com/in/fxcat/"
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
-      url: "http://feeds.feedburner.com/lazywinadmin"
+      url: "https://feeds.feedburner.com/lazywinadmin"
 
 # Site Footer
 footer:
