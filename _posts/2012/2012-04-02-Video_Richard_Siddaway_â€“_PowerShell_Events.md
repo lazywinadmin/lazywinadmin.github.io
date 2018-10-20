@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Video - Richard Siddaway â€“ PowerShell Events
+title: Video - Richard Siddaway – PowerShell Events
 excerpt: 
 permalink: /2012/04/video-richard-siddaway-powershell.html
 tags: 
@@ -10,8 +10,8 @@ tags:
 published: true
 comments: true
 ---
-[Video: Richard Siddaway â€“ PowerShell Events](http://feedproxy.google.com/%7Er/DmitrysPowerblog/%7E3/yl173LZfqRo/): 
-See [@rsiddaway](https://twitter.com/#%21/rsiddaway)/[Richard Siddaway](http://richardspowershellblog.wordpress.com/)(PowerShell MVP and the founder of UK PowerShell usergroup) giving a great overview of PowerShell eventing in this recording from last yearâ€™s PowerShell Deep Dive.
+[Video: Richard Siddaway – PowerShell Events](http://feedproxy.google.com/%7Er/DmitrysPowerblog/%7E3/yl173LZfqRo/): 
+See [@rsiddaway](https://twitter.com/#%21/rsiddaway)/[Richard Siddaway](http://richardspowershellblog.wordpress.com/)(PowerShell MVP and the founder of UK PowerShell usergroup) giving a great overview of PowerShell eventing in this recording from last year's PowerShell Deep Dive.
 <i>Windows is an event driven system. PowerShell is the automation engine for the Microsoft platform. Version 2.0 introduced the ability to work with system events. Many system events do not require action on our part. There are some events that we really need to be aware of and act upon. Gaining access to these events has not been an easy task for the administrator â€” up until now.</i>
 
 <i></i>
@@ -24,7 +24,7 @@ See [@rsiddaway](https://twitter.com/#%21/rsiddaway)/[Richard Siddaway](http://r
 <i>â€¢ The PowerShell engine</i>
 
 <i></i>
-<i>Between them they give a handle into the inner workings of your system. A customizable, generic approach to handling events will be presented that enables you to perform actions based on the events detected. Events donâ€™t just provide an insight into whatâ€™s happening. We can use them to trigger system actions for us â€” a self-healing system anyone</i>
+<i>Between them they give a handle into the inner workings of your system. A customizable, generic approach to handling events will be presented that enables you to perform actions based on the events detected. Events don't just provide an insight into what's happening. We can use them to trigger system actions for us â€” a self-healing system anyone</i>
 
 <i></i>
 <i>The key take aways from this session will be:</i>
@@ -36,7 +36,7 @@ See [@rsiddaway](https://twitter.com/#%21/rsiddaway)/[Richard Siddaway](http://r
 <i>â€¢ You can use events to teach your system to react a fix things on its own</i>
 <iframe frameborder="0" height="312" src="http://www.youtube.com/embed/oeiqUGupuOo?version=3&amp;rel=1&amp;fs=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" width="500"></iframe>
 This is a live recording from European TEC 2011 PowerShell Deep Dive conference.See[more PowerShell Deep Dive recordings here](http://dmitrysotnikov.wordpress.com/category/deep-dive/).
-By the way, TEC US is just around the corner â€“<b>April 29 â€“ May 2, 2012 in San Diego</b>.<a href="http://www.theexpertsconference.com/us/2012/powershell-deep-dive/agenda/" title="Agenda for PowerShell Deep Dive - US 2012 - The Experts Conference">The agenda has already been published</a>and is absolutely fantastic.<img alt=":)" src="{{ site.url }}/images/2012/20120402_Video_Richard_Siddaway_%c3%a2%e2%82%ac%e2%80%9c_PowerShell_Events/icon_smile__506291975__-15x15.gif?m=1336659725g" />
+By the way, TEC US is just around the corner –<b>April 29 – May 2, 2012 in San Diego</b>.<a href="http://www.theexpertsconference.com/us/2012/powershell-deep-dive/agenda/" title="Agenda for PowerShell Deep Dive - US 2012 - The Experts Conference">The agenda has already been published</a>and is absolutely fantastic.<img alt=":)" src="{{ site.url }}/images/2012/20120402_Video_Richard_Siddaway_%c3%a2%e2%82%ac%e2%80%9c_PowerShell_Events/icon_smile__506291975__-15x15.gif?m=1336659725g" />
 [Register now](http://www.theexpertsconference.com/)- this is the best PowerShell event you can find!
 
 <a href="http://feeds.wordpress.com/1.0/gocomments/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dmitrysotnikov.wordpress.com/2435/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/dmitrysotnikov.wordpress.com/2435/" /></a> <a href="http://feeds.wordpress.com/1.0/gofacebook/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/facebook/dmitrysotnikov.wordpress.com/2435/" /></a> <a href="http://feeds.wordpress.com/1.0/gotwitter/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/twitter/dmitrysotnikov.wordpress.com/2435/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/dmitrysotnikov.wordpress.com/2435/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/dmitrysotnikov.wordpress.com/2435/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/dmitrysotnikov.wordpress.com/2435/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/dmitrysotnikov.wordpress.com/2435/" /></a> <img alt="" border="0" height="1" src="{{ site.url }}/images/2012/20120402_Video_Richard_Siddaway_%c3%a2%e2%82%ac%e2%80%9c_PowerShell_Events/b__1010110472__-1x1.gif?host=dmitrysotnikov.wordpress.com&amp;blog=867377&amp;post=2435&amp;subd=dmitrysotnikov&amp;ref=&amp;feed=1" width="1" />

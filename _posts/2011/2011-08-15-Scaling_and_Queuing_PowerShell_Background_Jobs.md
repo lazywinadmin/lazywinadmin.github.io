@@ -13,7 +13,7 @@ comments: true
 <b>Great article from Travis Jones [[Source](http://blogs.msdn.com/b/powershell/archive/2011/04/04/scaling-and-queuing-powershell-background-jobs.aspx)]</b>
 
 A couple of months ago I had asked the PowerShell MVPs for  suggestions on blog topics. Karl Prosser, one of our awesome MVPs,  brought up the topic of scaling and queuing background jobs.
-The scenario is familiar: You have a file containing a bunch of input  that you want to process and you donâ€™t want to overburden your computer  by starting up hundreds of instances of PowerShell at once to process  them.
+The scenario is familiar: You have a file containing a bunch of input  that you want to process and you don't want to overburden your computer  by starting up hundreds of instances of PowerShell at once to process  them.
 After playing around for about an hour on Friday afternoon, here is  what I came up withâ€¦ This example assumes you have a text file  containing the names of many event logs and you want to get the content  of each log.
 
 <div class="MsoNormal" style="line-height: normal; list-style-type: disc; margin: 0in 0in 0pt; mso-layout-grid-align: none;"><span style="font-family: Lucida Console;"><span style="color: darkgreen; font-size: xx-small;"># How many jobs we should run simultaneously<div class="MsoNormal" style="line-height: normal; list-style-type: disc; margin: 0in 0in 0pt; mso-layout-grid-align: none;"><span style="font-family: Lucida Console;"><span style="font-size: xx-small;">$maxConcurrentJobs = 3;<div class="MsoNormal" style="line-height: normal; list-style-type: disc; margin: 0in 0in 0pt; mso-layout-grid-align: none;">
@@ -31,8 +31,8 @@ The English version of this script is:
 * When a job finishes (determined by the StateChanged Event), start a new job with the next piece of input from the queue 
 
 * Clean up the jobs corresponding to the event subscription so at the end we only have jobs containing event data 
-The â€œSynchronizedâ€ code you see when defining the queue is just for  good measure to make sure that only one job can access it at a time. 
-Have something you want to see on the PowerShell blog? Leave a  commentâ€¦ Canâ€™t promise weâ€™ll get to everything but itâ€™s nice to see what  everyone is interested in.
+The "Synchronized" code you see when defining the queue is just for  good measure to make sure that only one job can access it at a time. 
+Have something you want to see on the PowerShell blog? Leave a  commentâ€¦ Can't promise we'll get to everything but it's nice to see what  everyone is interested in.
 
 Travis Jones 
 Windows PowerShell PM 

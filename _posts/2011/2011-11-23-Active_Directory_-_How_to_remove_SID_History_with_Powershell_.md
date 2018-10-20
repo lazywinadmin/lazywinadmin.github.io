@@ -30,12 +30,12 @@ Using <a href="http://technet.microsoft.com/en-us/library/ee617198.aspx" target=
 In order for this to work you have to first use Export-DomainSIDs to  create the DomainSIDs.CSV file that maps the domain names to the domain  SIDs. If you don't know the old domain name, then you can use the  -DomainSID switch to remove SID history for any unnamed domain. You can  copy the old domain SID from the SIDHistoryReport.CSV file produced by  the function Export-SIDMapping (included in the attached code). You  could also modify the DomainSIDs.CSV file by manually adding any other  domain names and SIDs from your own documentation.
 Another feature of the Get-SIDHistory query is that it handles the <span style="background-color: yellow;">multi-value nature of the <a href="http://msdn.microsoft.com/en-us/library/ms679833%28VS.85%29.aspx" target="_blank">sIDHistory</a> attribute. We do this using the ExpandProperty parameter of <a href="http://technet.microsoft.com/en-us/library/dd315291.aspx" target="_blank">Select-Object</a> which I demonstrated <a href="http://blogs.technet.com/b/ashleymcglone/archive/2011/05/26/do-over-sid-history-one-liner.aspx" target="_blank">here</a>.  This allows us to identify and target specific SID history entries when  a user has been migrated more than once. The ExpandProperty parameter  ensures that we get a result row for every SID history entry regardless  of the count.
 Here is an example without ExpandProperty:
-<span style="font-family: 'Courier New'; font-size: xx-small;">Get-ADUser user1 -Property sIDHistory | Select-Object name, sIDHistory | Format-Table name, sIDHistory â€“AutoSize
+<span style="font-family: 'Courier New'; font-size: xx-small;">Get-ADUser user1 -Property sIDHistory | Select-Object name, sIDHistory | Format-Table name, sIDHistory –AutoSize
 <span style="font-family: 'Courier New'; font-size: xx-small;">name <span style="background-color: yellow;">sidhistory 
 ---- ---------- 
 user1 {S-1-5-21-3013500491-1380372588-2491230877-1122, S-1-5-21-179552...
 Here is an example with ExpandProperty:
-<span style="font-family: 'Courier New'; font-size: xx-small;">Get-ADUser  user1 -Property sIDHistory | Select-Object name, sIDHistory  -ExpandProperty sidHistory | Format-Table name, sIDHistory â€“AutoSize
+<span style="font-family: 'Courier New'; font-size: xx-small;">Get-ADUser  user1 -Property sIDHistory | Select-Object name, sIDHistory  -ExpandProperty sidHistory | Format-Table name, sIDHistory –AutoSize
 <span style="font-family: 'Courier New'; font-size: xx-small;">name <span style="background-color: yellow;">Value 
 ---- ----- 
 user1 S-1-5-21-3013500491-1380372588-2491230877-1122 
@@ -45,19 +45,19 @@ Notice that ExpandProperty modifies the property name to "value". We  can rename
 Get-SIDHistory takes the parameters you specify, shapes them into an AD query, and then uses <a href="http://technet.microsoft.com/en-us/library/dd347550.aspx" target="_blank">Invoke-Expression</a> to run it. In other words, this is code that writes code. I love that  feature of PowerShell. The query parameters are cumulative. Therefore  you can pile on two or three criteria for laser accuracy.
 Here are a few examples of how you can use Get-SIDHistory:
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“SamAccountName ashleym
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –SamAccountName ashleym
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“DomainName wingtiptoys.com
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –DomainName wingtiptoys.com
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“DomainName wingtiptoys.com â€“SamAccountName ashleym
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –DomainName wingtiptoys.com –SamAccountName ashleym
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“DomainSID S-1-5-21-2371126157-4032412735-3953120161
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –DomainSID S-1-5-21-2371126157-4032412735-3953120161
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“ObjectClass group
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –ObjectClass group
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“SearchBase "OU=Sales,DC=contoso,DC=com"
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –SearchBase "OU=Sales,DC=contoso,DC=com"
 
-* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“MemberOf MigratedUsers
+* <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –MemberOf MigratedUsers
 
 * <span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory | Measure-Object
 Experiment with different combinations of parameters until you  isolate exactly the targets you need. Then you can script out multiple  statements for each phase of the remediation.
@@ -65,12 +65,12 @@ Experiment with different combinations of parameters until you  isolate exactly 
 ###  Remove-SIDHistory
 
 This <a href="http://technet.microsoft.com/en-us/library/powershell_remove_sid_history%28WS.10%29.aspx" target="_blank">short TechNet article</a> provides syntax for removing SID history:
-<span style="font-family: 'Courier New'; font-size: xx-small;">Get-ADUser  â€“filter 'sidhistory â€“like "*"' â€“searchbase "dc=name,dc=name"  â€“searchscope subtree â€“properties sidhistory | foreach {Set-ADUser $_  -remove @{sidhistory=$_.sidhistory.value}}
+<span style="font-family: 'Courier New'; font-size: xx-small;">Get-ADUser  –filter 'sidhistory –like "*"' –searchbase "dc=name,dc=name"  –searchscope subtree –properties sidhistory | foreach {Set-ADUser $_  -remove @{sidhistory=$_.sidhistory.value}}
 That single line of PowerShell is a "resumÃ©-generating-event". <span style="background-color: yellow;">DO NOT RUN THIS LINE IN YOUR ENVIRONMENT IF YOU WANT TO KEEP YOUR JOB. Wiping SID history for every user all at once is not a best practice (in case you were wondering).
 You can call Remove-SIDHistory by specifying the distinguishedName of  the object and the SID entry to remove. However, that is a lot of  complicated typing. The intention is to use Get-SIDHistory to tailor  your query to exactly the results you want, and then simply pipe it to  Remove-SIDHistory. This works through a feature of PowerShell <a href="http://technet.microsoft.com/en-us/library/dd347600.aspx" target="_blank">advanced functions</a> called <a href="http://technet.microsoft.com/en-us/library/dd347560.aspx" target="_blank">cmdlet binding</a>. The <a href="http://msdn.microsoft.com/en-us/library/system.management.automation.parametersetmetadata.valuefrompipelinebypropertyname%28VS.85%29.aspx" target="_blank" title="ValueFromPipelineByPropertyName">ValueFromPipelineByPropertyName</a> argument allows us to pipe the output from one function into the next  as long as the first output properties match the second input  parameters. Features like this make PowerShell truly remarkable.
-<span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“SamAccountName ashleym | Remove-SIDHistory
+<span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –SamAccountName ashleym | Remove-SIDHistory
 I recommend piping the output of the Remove-SIDHistory to a CSV file for change documentation. Like this:
-<span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory â€“SamAccountName ashleym | Remove-SIDHistory | Export-CSV removed.csv
+<span style="font-family: 'Courier New'; font-size: xx-small;">Get-SIDHistory –SamAccountName ashleym | Remove-SIDHistory | Export-CSV removed.csv
 Your CSV will include a date/time stamp for each entry's removal:
 <a href="http://blogs.technet.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-84-58-metablogapi/4452.image_5F00_59575563.png"><img alt="image" border="0" height="115" src="http://blogs.technet.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-84-58-metablogapi/2046.image_5F00_thumb_5F00_782DC941.png" style="background-image: none; border: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="594" /></a>
 This documentation will come in handy if users start to call and  report issues after the removal. But that shouldn't happen if you are  thorough in scrubbing all SID history dependencies prior to removing the  data.

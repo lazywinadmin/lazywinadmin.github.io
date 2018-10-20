@@ -30,7 +30,7 @@ Feel free to comment and send me your critics.
 <span style="font-size: large;">Instruction
 
 <a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" target="_blank">Download the instruction here (skydrive)</a><u><b><a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" target="_blank"> </a></b></u>
-<blockquote class="tr_bq"><i>Dr.Scripto is in a tizzy! It seems that someone has allowed a series of application log files to pile up for around two years, and theyâ€™re starting to put the pinch on free disk space on a server. Your job is to help get the old files off to a new location.
+<blockquote class="tr_bq"><i>Dr.Scripto is in a tizzy! It seems that someone has allowed a series of application log files to pile up for around two years, and they're starting to put the pinch on free disk space on a server. Your job is to help get the old files off to a new location.
 
 Actually, this happened last week, too. You might as well create a tool to do the archiving.
 The current sets of log files are located in C:\Application\Log. There are three applications that write logs here, and each uses its own subfolder.
@@ -49,7 +49,7 @@ You need to maintain the subfolder structure, so that files from C:\Application\
 
 Make those paths parameters, so that Dr.Scripto can just run this tool with whatever paths are appropriate at the time. The 90-day period should be a parameter too.
 
-You want to ensure that any errors that happen during the move are clearly displayed to whoever is running your command. If no errors occur, your command doesnâ€™t need to display any output - â€œno news is good news.â€</i></blockquote>
+You want to ensure that any errors that happen during the move are clearly displayed to whoever is running your command. If no errors occur, your command doesn't need to display any output - "no news is good news."</i></blockquote>
 <span style="font-size: large;">VOTE<b> :-)</b><u><b></b></u>
 Anybody can vote even if you do not participate to the Scripting Games<u><b>
 </b></u>

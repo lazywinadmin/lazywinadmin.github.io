@@ -68,7 +68,7 @@ Group of physical disks into a container, the so-called storage pool, such that 
 
 There are two primary types of pools which are used in conjunction with Storage Spaces, as well as the management API in Windows Server 2012: Primordial Pool and Concrete Pool.
 
-<b>Primordial Pool:</b>The Primordial pool represents all of the disks that Storage Spaces is able to enumerate, regardless of whether they are currently being used for a concrete pool. Physical Disks in the Primordial pool have a property named CanPool equal to â€œTrueâ€ when they meet the requirements to create a concrete pool.
+<b>Primordial Pool:</b>The Primordial pool represents all of the disks that Storage Spaces is able to enumerate, regardless of whether they are currently being used for a concrete pool. Physical Disks in the Primordial pool have a property named CanPool equal to "True" when they meet the requirements to create a concrete pool.
 
 <b>Concrete Pool:</b>A Concrete pool is a specific collection of Physical Disks that was formed by the user to allow creating Storage Spaces (aka Virtual Disks).
 
@@ -213,7 +213,7 @@ The first thing we will need is to identify which physical disk I will be using 
 
 <a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" /></a>
 
-In the example below, Iâ€™m using the Get-PhysicalDisk cmdlet to list all of the Physical Disks that are present on the system:
+In the example below, I'm using the Get-PhysicalDisk cmdlet to list all of the Physical Disks that are present on the system:
 ```
 Get-PhysicalDisk -CanPool $true
 ```

@@ -128,7 +128,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 
 * Technet Videos
 <ul>
-* <a href="http://blogs.technet.com/b/servicemanager/archive/2011/11/10/demo-automating-service-request-fulfillment-from-the-scsm-service-catalog-with-orchestrator-real-world-examples.aspx#3464611" target="_blank">Demo: Automating Service Request Fulfillment from the SCSM Service Catalog with Orchestratorâ€“Real World Examples</a>
+* <a href="http://blogs.technet.com/b/servicemanager/archive/2011/11/10/demo-automating-service-request-fulfillment-from-the-scsm-service-catalog-with-orchestrator-real-world-examples.aspx#3464611" target="_blank">Demo: Automating Service Request Fulfillment from the SCSM Service Catalog with Orchestrator–Real World Examples</a>
 </ul>
 * <a href="http://technet.microsoft.com/en-ca/virtuallabs/bb467605.aspx" target="_blank">Technet Virtual Labs</a> (Search for 'Service Manager')
 

@@ -30,7 +30,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 * Getting Started with PowerShell
 
-* Donâ€™t Fear the Shell
+* Don't Fear the Shell
 
 * The Help System &amp; Getting Connected
 

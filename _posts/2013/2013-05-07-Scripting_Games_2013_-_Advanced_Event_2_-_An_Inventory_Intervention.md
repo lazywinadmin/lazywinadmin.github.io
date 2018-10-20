@@ -19,12 +19,12 @@ comments: true
 <a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" style="background-color: white; color: #da1f00; font-family: Verdana, Geneva, sans-serif; font-size: 13.333333969116211px; line-height: 20px; text-decoration: none;" target="_blank">Download the instruction here [skydrive]</a>
 
 <blockquote class="tr_bq"><i>Dr. Scripto finally has the budget to buy a few new virtualization host servers, but he needs to make some room in the data center to accommodate them. He thinks it makes sense to get rid of his lowest-powered old servers firstâ€¦ but he needs to figure out which ones those are.</i><i>
-</i><i>This is just the first wave, too â€“ thereâ€™s more budget on the horizon so itâ€™s possible heâ€™ll need to run this little report a few times. Better make a reusable tool.</i><i>
+</i><i>This is just the first wave, too – there's more budget on the horizon so it's possible he'll need to run this little report a few times. Better make a reusable tool.</i><i>
 </i><i>
-</i><i>All of the virtualization hosts run Windows Server, but some of them donâ€™t have Windows PowerShell installed, and theyâ€™re all running different OS versions. The oldest OS version is Windows 2000 Server (he knows, and heâ€™s embarrassed but heâ€™s just been so darn busy). The good news is that they all belong to the same domain, and that you can rely on having a Domain Admin account to work with.</i><i>
+</i><i>All of the virtualization hosts run Windows Server, but some of them don't have Windows PowerShell installed, and they're all running different OS versions. The oldest OS version is Windows 2000 Server (he knows, and he's embarrassed but he's just been so darn busy). The good news is that they all belong to the same domain, and that you can rely on having a Domain Admin account to work with.</i><i>
 </i><i>
-</i><i>The good Doctor has asked you to write a PowerShell tool that can show him each serverâ€™s name, installed version of Windows, amount of installed physical memory, and number of installed processors.</i><i>
-</i><i>For processors, heâ€™ll be happy getting a count of cores, or sockets, or even both â€“ whatever you can reliably provide across all these different versions of Windows. He has a few text files with computer names â€“ heâ€™d like to pipe the computer names, as strings, to you tool, and have your tool query those computers.</i></blockquote>
+</i><i>The good Doctor has asked you to write a PowerShell tool that can show him each server's name, installed version of Windows, amount of installed physical memory, and number of installed processors.</i><i>
+</i><i>For processors, he'll be happy getting a count of cores, or sockets, or even both – whatever you can reliably provide across all these different versions of Windows. He has a few text files with computer names – he'd like to pipe the computer names, as strings, to you tool, and have your tool query those computers.</i></blockquote>
 <span style="font-size: large;"><b>Key Points</b>
 
 

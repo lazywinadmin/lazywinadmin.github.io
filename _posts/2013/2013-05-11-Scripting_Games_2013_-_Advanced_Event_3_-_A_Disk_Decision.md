@@ -19,12 +19,12 @@ Unfortunately I don't expect a very high score in the Leader board since I did n
 <a href="http://sdrv.ms/10N73hY" target="_blank">Download</a> [SkyDrive]
 
 
-<blockquote class="tr_bq"><i>Dr. Scripto has been fielding a lot of calls from the Help Desk lately. Theyâ€™ve been asking him to look up information about the local hard drives in various servers â€“ mainly size and free space information. He doesnâ€™t mind helping, but all the requests have been getting in the way of his naps. Heâ€™s asked you to write a tool comand that can get the information for the help desk â€“ and theywants the output in an HTML file. The HTML file should look something like this:</i><i>
-</i></blockquote><a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__1927095938__-661x424.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="256" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__5237119__-400x257.png" width="400" /></a><blockquote class="tr_bq"><i></i><i>The Doctor says you should parameterize your command â€“ he wants to be able to pipe in one or more computer names as strings.The resulting HTML does need to go into an HTML file on disk someplace, and that file should have the computer name (e.g., the computer SERVER1 should have Server1.html, SERVER2 should have server2.html, and so on). A parameter should let him indicate the path (directory) to write the files to. Also, he wants you to pay special attention to the following:</i>
+<blockquote class="tr_bq"><i>Dr. Scripto has been fielding a lot of calls from the Help Desk lately. They've been asking him to look up information about the local hard drives in various servers – mainly size and free space information. He doesn't mind helping, but all the requests have been getting in the way of his naps. He's asked you to write a tool comand that can get the information for the help desk – and theywants the output in an HTML file. The HTML file should look something like this:</i><i>
+</i></blockquote><a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__1927095938__-661x424.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="256" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__5237119__-400x257.png" width="400" /></a><blockquote class="tr_bq"><i></i><i>The Doctor says you should parameterize your command – he wants to be able to pipe in one or more computer names as strings.The resulting HTML does need to go into an HTML file on disk someplace, and that file should have the computer name (e.g., the computer SERVER1 should have Server1.html, SERVER2 should have server2.html, and so on). A parameter should let him indicate the path (directory) to write the files to. Also, he wants you to pay special attention to the following:</i>
 
-* <i>The browser displays â€œDisk Free Space Reportâ€ in the page tab when viewing the report.</i>
+* <i>The browser displays "Disk Free Space Report" in the page tab when viewing the report.</i>
 
-* <i>â€œLocal Fixed Disk Reportâ€ is in the H2 (â€œHeading 2â€) HTML style.If you can actually add the computer name to that â€“ bonus!</i>
+* <i>"Local Fixed Disk Report" is in the H2 ("Heading 2") HTML style.If you can actually add the computer name to that – bonus!</i>
 
 * <i>The report ends with an HTML horizontal rule and the date and time that the report was generated.</i>
 
@@ -157,9 +157,9 @@ Finally there are some requirements for the HTML Report:
 
 
 
-* The browser displays â€œDisk Free Space Reportâ€ in the page tab when viewing the report.
+* The browser displays "Disk Free Space Report" in the page tab when viewing the report.
 
-* â€œLocal Fixed Disk Reportâ€ is in the H2 (â€œHeading 2â€) HTML style.If you can actually add the computer name to that â€“ bonus!
+* "Local Fixed Disk Report" is in the H2 ("Heading 2") HTML style.If you can actually add the computer name to that – bonus!
 
 * The report ends with an HTML horizontal rule and the date and time that the report was generated.
 

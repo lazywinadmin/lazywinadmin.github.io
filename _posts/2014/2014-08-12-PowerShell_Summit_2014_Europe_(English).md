@@ -17,7 +17,7 @@ comments: true
 
 The European PowerShell Summit, organised by <a href="http://powershell.org/">PowerShell.org</a>guys, will be in Amsterdam from the September 29th to the October 1st 2014 at the Park Hotel. Details at <a href="http://powershell.org/wp/community-events/summit/">http://powershell.org/wp/community-events/summit/</a>
 
-The Summit will feature 3 days of PowerShell sessions from PowerShell team members, PowerShell MVPs and other PowerShell experts. Itâ€™s the in-person gathering place for PowerShell enthusiasts and PowerShell users. Itâ€™s a place to make new connections, learn new techniques, and offer something to your peers and colleagues. If you can't get your PowerShell questions answered at the PowerShell Summit you'll never get an answer.
+The Summit will feature 3 days of PowerShell sessions from PowerShell team members, PowerShell MVPs and other PowerShell experts. It's the in-person gathering place for PowerShell enthusiasts and PowerShell users. It's a place to make new connections, learn new techniques, and offer something to your peers and colleagues. If you can't get your PowerShell questions answered at the PowerShell Summit you'll never get an answer.
 
 
 
