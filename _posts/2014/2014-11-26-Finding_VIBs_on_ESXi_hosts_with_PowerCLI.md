@@ -26,7 +26,7 @@ Here is the piece of code to retrieve this information.
 The output is sent to `Out-GridView` which create a simple GUI.
 
 ```powershell
-Get-VMHost | Where-Object { $_.ConnectionState -eq â€œConnectedâ€ } | Foreach-Object {
+Get-VMHost | Where-Object { $_.ConnectionState -eq "Connected" } | Foreach-Object {
     $CurrentVMhost = $_
     TRY
     {

@@ -133,15 +133,15 @@ function Connect-Office365
             $O365PS = <span style="color: blue; font-size: 12px; font-weight: bold;">New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri $ExchangeURL -Credential $O365cred -Authentication Basic -AllowRedirection -ErrorAction Stop -ErrorVariable ErrorConnectExchange
             
             <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Open session to Exchange online (Prefix: Cloud)"
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Import-PSSession -Session $O365PS â€“Prefix ExchCloud
+            <span style="color: blue; font-size: 12px; font-weight: bold;">Import-PSSession -Session $O365PS –Prefix ExchCloud
             
             # LYNC ONLINE (LyncOnlineConnector)
             <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Create session to Lync online"
-            $lyncsession = New-CsOnlineSession â€“Credential $O365cred -ErrorAction Stop -ErrorVariable ErrorConnectExchange
+            $lyncsession = New-CsOnlineSession –Credential $O365cred -ErrorAction Stop -ErrorVariable ErrorConnectExchange
             <span style="color: blue; font-size: 12px; font-weight: bold;">Import-PSSession -Session $lyncsession -Prefix LyncCloud
             
             # SHAREPOINT ONLINE (Implicit Remoting module)
-            #Connect-SPOService -Url https://contoso-admin.sharepoint.com â€“credential $O365cred
+            #Connect-SPOService -Url https://contoso-admin.sharepoint.com –credential $O365cred
         }
         CATCH
         {

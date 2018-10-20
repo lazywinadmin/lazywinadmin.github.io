@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Zenmap (Nmap Gui)â€“Network Scanner
+title: Zenmap (Nmap Gui)–Network Scanner
 excerpt: 
 permalink: /2010/11/zenmap-nmap-guinetwork-scanner.html
 tags: 

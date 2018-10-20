@@ -21,7 +21,7 @@ comments: true
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2012/DBI331" target="_blank">TechEd 2012 -The Dirty Dozen: Windows PowerShell Scripts for the Busy DBA</a>
 <a href="http://www.youtube.com/watch?v=hDFEAN45tLA&amp;feature=plcp" target="_blank">TechEd 2012 -Inside Windows Server 2012 Multi-Server Management Capabilities</a>
 <a href="http://www.youtube.com/watch?v=PmoFN2P0Y24&amp;feature=plcp" target="_blank">TechEd 2012 -Group Policy Reporting and Analysis with Windows PowerShell</a>
-<a href="http://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-IT-Time-The-Scripting-Guys-Top-5-PowerShell-30-Tips-and-Tricks" target="_blank">Technet Radio -The Scripting Guyâ€™s Top 5 PowerShell 3.0 Tips and Tricks</a>
+<a href="http://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-IT-Time-The-Scripting-Guys-Top-5-PowerShell-30-Tips-and-Tricks" target="_blank">Technet Radio -The Scripting Guy's Top 5 PowerShell 3.0 Tips and Tricks</a>
 More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="_blank">http://channel9.msdn.com</a>
 
 <b>Guides</b>
