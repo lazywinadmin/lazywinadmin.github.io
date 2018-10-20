@@ -1,6 +1,6 @@
 ---
 title: About
-layout: single
+layout: archive
 permalink: /about.html
 toc: true
 toc_label: "Table of content"
