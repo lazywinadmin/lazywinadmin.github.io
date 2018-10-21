@@ -13,12 +13,12 @@ comments: true
 toc: true
 toc_label: "Table of Content"
 ---
-
+![image-left](/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression/2013-10-19 4-20-29 PM__1161130349__-106x122.png"){: .align-left}
 <a href="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" /></a>Some more string manipulations! Today I'd like to remove the special characters and only keep alphanumeric characters using Regular Expression (Regex).
 
 You might be interested to check a previous article where I showed how to remove diacritics (accents) from some strings, see here: <a href="{{ site.url }}/2015/05/powershell-remove-diacritics-accents.html">{{ site.url }}/2015/05/powershell-remove-diacritics-accents.html</a>
 
-<b>My goal</b> is to be able to keep only any characters considered as letters and any numbers.
+**My goal** is to be able to keep only any characters considered as letters and any numbers.
 If you are familiar with Regex, you could do something simple as using the metacharacter `\w` or `[a-z]` type of things. It's great when you only work with english language but does not work when you have accents or diacritics with Latin languages for example.
 
 Preview of the final solution:
@@ -52,7 +52,7 @@ The `\w` metacharacter is used to find a word character. A word character is a c
 $String -replace '[^a-zA-Z0-9]', ''
 ```
 
-<b><u>Note:</u></b> The `^` character allows us to get the opposite (inverse) of the regex pattern defined.
+**<u>Note:</u>** The `^` character allows us to get the opposite (inverse) of the regex pattern defined.
 
 <a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex02_A-Z__1320925435__-844x129.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/LazyWinAdmin_Regex02_A-Z__1320925435__-844x129.png" /></a>
 This is working well, but the diacritics are removed. (Missing C of "François")
