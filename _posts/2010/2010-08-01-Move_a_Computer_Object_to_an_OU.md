@@ -1,18 +1,43 @@
 ---
 layout: single
-title: Move a Computer Object to an OU
+title: Move a Computer Object to another Organizational Unit (OU) using DSMove
 excerpt: 
 permalink: /2010/12/how-to-find-computer-serial-number.html
 tags: 
 - active directory
 - scripting
 - vbscript
+categories:
+- powershell
 published: true
 comments: true
 ---
-<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial; font-size: 10pt;">I'm currently working on the configuration of HP Rapid Deployment Pack (RDP) and I had to create a task who will automatically move the Computer object in the good OU.<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;">
-<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: black; font-family: Arial; font-size: 10pt;">So I want to move a computer object to the good OU depending of the SERVERNAME<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial;"><span style="font-size: 10pt;">In my company we use the name convention <b><u><span style="font-size: 10pt;">MTL1ASTT01:</u></b><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><b><u><br style="mso-special-character: line-break;" /><span style="font-family: Arial;"></u></b><blockquote><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial;"><b><u><span style="font-size: 10pt;">MTL</u></b><span style="font-size: 10pt;"><b></b><span style="font-size: 10pt;">is the city name</blockquote><blockquote><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial;"><b><u><span style="font-size: 10pt;">1 </u></b><span style="font-size: 10pt;">is the site number</blockquote><blockquote><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial;"><b><u><span style="font-size: 10pt;">A</u></b><span style="font-size: 10pt;"> for application</blockquote><blockquote><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial;"><b><u><span style="font-size: 10pt;">STT</u></b><span style="font-size: 10pt;"> custom info</blockquote><blockquote><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="font-family: Arial;"><b><u><span style="font-size: 10pt;">01</u></b><span style="font-size: 10pt;"> number of the server</blockquote><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: black; font-family: Arial; font-size: 10pt;">In our Active Directory we use:<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;">
-<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: black; font-family: Arial; font-size: 10pt;"><strong>DOMAIN.local > GLOBAL > %SITENAME% > SERVERS</strong><div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;">
-<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: black; font-family: Arial; font-size: 10pt;">So if want to get the SITENAME and the SITENUMBER from the SERVERNAME i would use the code below, it will select<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;">
-<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="background-color: #cccccc; color: black; font-family: Arial; font-size: 10pt;"><span style="color: green; font-family: 'Lucida Console'; font-size: 10pt;">echo. Getting Sitename from the Computer name ...<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: green; font-family: 'Lucida Console'; font-size: 10pt;">Set SITENAME=%COMPUTERNAME%:0,4%<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: green; font-family: 'Lucida Console'; font-size: 10pt;">echo. SITENAME is %SITENAME%<div class="MsoNormal" style="background: white; line-height: 14.25pt; margin: 0in 0in 0pt;"><span style="color: green; font-family: 'Lucida Console'; font-size: 10pt;">dsmove "CN=%COMPUTERNAME%,OU=COMPUTERS,DC=DOMAIN,DC=LOCAL" -newparent OU=Servers,OU=%SITENAME%,OU=GLOBAL,DC=DOMAIN,DC=LOCAL<div class="MsoNormal" style="line-height: 13pt; margin: 0in 0in 0pt;">
-<div class="MsoNormal" style="line-height: 13pt; margin: 0in 0in 0pt;">More information about <a href="http://technet.microsoft.com/en-us/library/cc731094(WS.10).aspx" target="_blank">DSMOVE</a>
+
+I’m currently configuring HP Rapid Deployment Pack (RDP) and needed a way to automatically move a Computer object in a specific Organizational Unit(OU).
+
+My logic is based on the Server name itself.
+
+As an example we use the following naming convention:
+
+Server Name: `MTL1ASTT01`
+
+* `MTL` is the city name
+* `1` is the site number
+* `A` for application
+* `STT` custom info
+* `01` number of the server
+
+On the Active Directory side, we organize the servers (computer objects) this way:
+
+DOMAIN.local > GLOBAL > **%SITENAME%** > SERVERS
+
+So if want to get the **SITENAME** and the SITENUMBER from the SERVERNAME i would use the code below, it will select
+
+```vb
+echo. Getting Sitename from the Computer name ...
+Set SITENAME=%COMPUTERNAME%:0,4%
+echo. SITENAME is %SITENAME%
+dsmove "CN=%COMPUTERNAME%,OU=COMPUTERS,DC=DOMAIN,DC=LOCAL" -newparent OU=Servers,OU=%SITENAME%,OU=GLOBAL,DC=DOMAIN,DC=LOCAL
+```
+
+More information about DSMOVE

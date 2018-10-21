@@ -9,4 +9,13 @@ tags:
 published: true
 comments: true
 ---
-<p>Last week i was working on [HP RDP (Rapid Deployment Pack)](http://h20000.www2.hp.com/bizsupport/TechSupport/Home.jsp?lang=en&amp;cc=us&amp;prodTypeId=18964&amp;prodSeriesId=332359), we want to automate the deployment of new server (Mainly Physical, and some Virtual) <p>I was looking for a way to rename an network Interface, by default: "Local Area Connection" or "Local Area Connection 2". Here is the useful command: <p><font color="#008000" face="Lucida Console">netsh interface set interface name="Local Area Connection" newname="ExampleLan"</font></p>  
+
+Last week I was working on [HP RDP (Rapid Deployment Pack)](http://h20000.www2.hp.com/bizsupport/TechSupport/Home.jsp?lang=en&cc=us&prodTypeId=18964&prodSeriesId=332359) where I want to automate the deployment of new server.
+
+One of the task I wanted to do was: Renaming a Network Interface. As you probably know it, by default: "Local Area Connection" or "Local Area Connection 2". But I wanted to put some custom name, such as "VLAN10". I was able to resolve this problem with `netsh`.
+
+Here is the useful command:
+
+```
+netsh interface set interface name="Local Area Connection" newname="ExampleLan"
+```

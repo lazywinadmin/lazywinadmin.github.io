@@ -135,11 +135,11 @@ EXPORTFORMAT="xml" ' For XML
 SYDISERVER="C:\scripts\sydi-server.vbs"
 OUTPUTDIRECTORY="C:\scripts\Output files\"
 LOGDIRECTORY="C:\Scripts\Log Files\"
-TIMEOUT="600″ ' How many seconds you have to wait until a computer-scan is aborted hasn’t been tested.
+TIMEOUT="600" ' How many seconds you have to wait until a computer-scan is aborted hasn’t been tested.
 ' Other options, check sydi-server.vbs -h for help
 ' Uncoment/Change One of the below
 OTHEROPTIONS="-sh" ' For HTML Stylesheet on XML output
-'OTHEROPTIONS="-b10″ ' Base Font size of 12
+'OTHEROPTIONS="-b10" ' Base Font size of 12
 ' End Of Settings
 ```
 

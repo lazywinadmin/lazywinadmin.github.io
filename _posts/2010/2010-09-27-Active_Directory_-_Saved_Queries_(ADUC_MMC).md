@@ -15,6 +15,8 @@ comments: true
 toc: true
 ---
 
+>Updated: 2013/03/29
+
 Active Directory Users and Computers provides a Saved Queries folder in which administrators can create, edit, save, and organize saved queries. Before saved queries, administrators were required to create custom ADSI scripts that would perform a query on common objects. This was an often lengthy process that required knowledge of how ADSI utilizes LDAP search filters to resolve a query.
 
 All queries located in the Saved Queries folder are stored in Active Directory Users and Computers (dsa.msc). Once you have successfully created your customized set of queries you can copy the .msc file to other domain controllers (located in the same domain) and use the same set of saved queries. You can also export saved queries to an .xml file and import them into other Active Directory User and Computer consoles located on domain controllers (within the same domain)
