@@ -36,9 +36,9 @@ Actually, this happened last week, too. You might as well create a tool to do th
 The current sets of log files are located in C:\Application\Log. There are three applications that write logs here, and each uses its own subfolder.
 
 For example:
-â€¢ C:\Application\Log\App1,
-â€¢ C:\Application\Log\OtherApp,
-â€¢ C:\Application\Log\ThisAppAlso.
+* C:\Application\Log\App1,
+* C:\Application\Log\OtherApp,
+* C:\Application\Log\ThisAppAlso.
 
 Within those subfolders, the filenames are random GUIDs with a .LOG filename extension.
 Once created on disk, the files are never touched again by the applications.
