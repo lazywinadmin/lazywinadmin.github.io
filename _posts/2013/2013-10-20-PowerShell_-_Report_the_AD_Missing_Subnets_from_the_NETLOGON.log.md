@@ -333,7 +333,7 @@ RELATED LINKS
 
 <a href="http://technet.microsoft.com/en-us/library/hh852246.aspx" target="_blank">TechNet -Get-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/library/hh852206.aspx" target="_blank">TechNet - New-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/library/hh852195.aspx" target="_blank">TechNet - Set-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/library/hh852303.aspx" target="_blank">TechNet - Remove-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/magazine/2009.06.subnets.aspx" target="_blank">Using Catch-All Subnets in Active Directory</a>
 <a href="http://jorgequestforknowledge.wordpress.com/2011/01/27/dc-locator-what-does-quot-no-client-site-quot-mean-in-netlogon-log/" target="_blank"> DC Locator – What Does "NO_CLIENT_SITE" Mean In Netlogon.log</a>
-<a href="http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx" target="_blank">Ask the Directory Services Team - Sites Sites Everywhereâ€¦</a>
+<a href="http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx" target="_blank">Ask the Directory Services Team - Sites Sites Everywhere...</a>
 <a href="http://support.microsoft.com/kb/314861/en-us" target="_blank">How Domain Controllers Are Located in Windows XP</a>
 <a href="http://technet.microsoft.com/en-us/library/cc733142(v=ws.10).aspx" target="_blank">Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)</a>
 

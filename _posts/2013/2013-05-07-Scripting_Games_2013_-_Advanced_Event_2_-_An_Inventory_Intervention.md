@@ -18,7 +18,7 @@ comments: true
 <span style="font-size: large;"><b>Instruction</b>
 <a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" style="background-color: white; color: #da1f00; font-family: Verdana, Geneva, sans-serif; font-size: 13.333333969116211px; line-height: 20px; text-decoration: none;" target="_blank">Download the instruction here [skydrive]</a>
 
-<blockquote class="tr_bq"><i>Dr. Scripto finally has the budget to buy a few new virtualization host servers, but he needs to make some room in the data center to accommodate them. He thinks it makes sense to get rid of his lowest-powered old servers firstâ€¦ but he needs to figure out which ones those are.</i><i>
+<blockquote class="tr_bq"><i>Dr. Scripto finally has the budget to buy a few new virtualization host servers, but he needs to make some room in the data center to accommodate them. He thinks it makes sense to get rid of his lowest-powered old servers first... but he needs to figure out which ones those are.</i><i>
 </i><i>This is just the first wave, too – there's more budget on the horizon so it's possible he'll need to run this little report a few times. Better make a reusable tool.</i><i>
 </i><i>
 </i><i>All of the virtualization hosts run Windows Server, but some of them don't have Windows PowerShell installed, and they're all running different OS versions. The oldest OS version is Windows 2000 Server (he knows, and he's embarrassed but he's just been so darn busy). The good news is that they all belong to the same domain, and that you can rely on having a Domain Admin account to work with.</i><i>
