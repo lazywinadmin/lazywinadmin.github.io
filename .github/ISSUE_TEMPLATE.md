@@ -1,8 +1,8 @@
 ## Type
 
-* [] Issue
-* [] Feature
-* [] Change
+* [ ] Issue
+* [ ] Feature
+* [ ] Change
 
 ## Description
 
