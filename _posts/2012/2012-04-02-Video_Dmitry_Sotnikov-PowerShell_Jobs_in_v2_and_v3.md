@@ -8,7 +8,7 @@ tags:
 - powershell
 - powershell 3.0
 - video
-published: true
+published: false
 comments: true
 ---
 [Video: Dmitry Sotnikov – PowerShell Jobs in v2 and v3](http://feedproxy.google.com/~r/DmitrysPowerblog/~3/miIKWdS_4pk/): 

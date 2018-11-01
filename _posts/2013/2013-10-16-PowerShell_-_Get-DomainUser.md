@@ -203,7 +203,7 @@ Using the two tables above I will build my filter.
 
 * <b>DisplayName</b> = <input from user>
 
-Finally, I use the ampersand symbol '<span style="font-family: Courier New, Courier, monospace; font-size: large;"><b>&amp;</b>' symbol at the start. The whole query can be translated to:
+Finally, I use the ampersand symbol '<b>&amp;</b>' symbol at the start. The whole query can be translated to:
 <i>Search for objectCategory=Person<b><u>AND</u></b>ObjectClass=user <b><u>AND</u></b> DisplayName = <input user></i>
 
 

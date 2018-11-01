@@ -25,7 +25,7 @@ What is Change Block Tracking (CBT) ? If you are not familiar with CBT, checkout
 * VMware Documentation: <a href="http://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vddk.pg.doc_50%2FvddkBkupVadp.9.3.html" target="_blank">Low Level Backup Procedures</a>
 
 
-<span style="font-size: large;"><b>How to implement CBT, what do you need ?</b>
+<b>How to implement CBT, what do you need ?</b>
 
 
 * VM version 7 at least,
@@ -36,7 +36,7 @@ What is Change Block Tracking (CBT) ? If you are not familiar with CBT, checkout
 
 * Finally the VM must go through a <u>stun-unstun cycle</u>(power on, resume after suspend, migrate, or snapshot create/delete/revert) before the reconfiguration takes effect.
 
-<b><span style="font-size: large;">How to Enable CBT on your VM ? (GUI)</b>
+<b>How to Enable CBT on your VM ? (GUI)</b>
 
 <u><b>Note:</b></u> When the VM is Powered ON you <u>won't be able</u> to access those settings.
 However, <u>It is possible to do it via PowerShell even when the VM is started</u>. :-) (see below)
@@ -52,7 +52,7 @@ Click on <b><u>Configuration Parameters</u></b> and add the following entries</t
 <b>ctkEnabled</b> = true</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130122_Enabling_Change_Block_Tracking_(CBT)_on_a_Virtual_Machine_(VMware_vSphere_5.1)/CBT02__384841638__-322x106.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2013/20130122_Enabling_Change_Block_Tracking_(CBT)_on_a_Virtual_Machine_(VMware_vSphere_5.1)/CBT02__384841638__-322x106.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Additionally, you need to add an entry for each disk. (in this example I had two virtual disks)
 <b>scsi0:0.ctkEnabled</b> = true
-<b>scsi0:1.ctkEnabled</b>= true</td></tr></tbody></table><b><span style="font-size: large;">How to Enable CBT on your VM ? (PowerShell/PowerCli)</b>
+<b>scsi0:1.ctkEnabled</b>= true</td></tr></tbody></table><b>How to Enable CBT on your VM ? (PowerShell/PowerCli)</b>
 
 You can do the following even if your VM is Powered ON.
 
@@ -72,7 +72,7 @@ $vmConfigSpec.changeTrackingEnabled = $true
 $vmtest.reconfigVM($vmConfigSpec)
 ```
 
-<span style="font-size: large;"><b>How to Apply this CBT configuration ?</b>
+<b>How to Apply this CBT configuration ?</b>
 
 Once you enable CBT, the VM must go through a<u>stun-unstun cycle</u>(power on, resume after suspend, migrate, or snapshot create/delete/revert) before the reconfiguration takes effect.
 
@@ -85,7 +85,7 @@ In my case i will create/delete a snapshot since I don't want any downtime to oc
 CBT is now enabled on this VM.
 
 
-<b><span style="font-size: large;">How to Check if CBT is enabled on your VM (PowerShell/PowerCli)</b>
+<b>How to Check if CBT is enabled on your VM (PowerShell/PowerCli)</b>
 
 
 ```

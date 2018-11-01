@@ -24,13 +24,13 @@ So I created my own...
 <u><b>Download from GitHub</b></u>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets" target="_blank">https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets</a>
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/PowerShellStudio_EditorPreset_Black__1458837646__-919x871.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/PowerShellStudio_EditorPreset_Black__1458837646__-919x871.png" height="606" width="640" /></a></div>
+<a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/PowerShellStudio_EditorPreset_Black__1458837646__-919x871.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/PowerShellStudio_EditorPreset_Black__1458837646__-919x871.png" height="606" width="640" /></a>
 
 ## PowerShell Studio Theme
 
 PowerShell Studio comes with a set of themes, in my case I select the <b><i>Visual Studio 2013 Dark</i></b>
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-26-46__946352000__-872x486.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-26-46__946352000__-872x486.png" height="356" width="640" /></a></div>
+<a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-26-46__946352000__-872x486.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-26-46__946352000__-872x486.png" height="356" width="640" /></a>
 
 ## PowerShell Studio Editor theme
 
@@ -67,4 +67,4 @@ Those can also be integrated on your blog using <a href="https://www.google.com/
 <u>Download my preset from my Github</u>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets" target="_blank">https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets</a>
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-31-58__1912926846__-616x330.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-31-58__1912926846__-616x330.png" /></a></div>
+<a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-31-58__1912926846__-616x330.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-31-58__1912926846__-616x330.png" /></a>

@@ -41,7 +41,7 @@ Before I start exploring some of the commands, I just wanted to point-out a very
 # Get List of all Service Request
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 ```
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" /></a>
 <span style="font-size: x-large;">
 <span style="font-size: x-large;">Get the Service Requests<u>created in the last 2 days</u>
 
@@ -51,7 +51,7 @@ Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$) -Filter "LastModified -gt $((Get-Date).Adddays(-2))"
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" /></a>
 
 <span style="font-size: x-large;">Get the Service Requests <u>created in the last 2 days</u> with a status: <b>In Progress</b>
 
@@ -68,7 +68,7 @@ $TwoDaysAgo = $((Get-Date).Adddays(-2))
 Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified &gt; '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'"
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" /></a>
 
 
 <span style="font-size: x-large;">Get related object(s) of the Service Request
@@ -81,7 +81,7 @@ $SRTicket = Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified &gt
 Get-SCSMRelatedObject -SMObject $SRTicket
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" /></a>
 <span style="font-size: x-large;">
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s)<span style="font-size: x-large;">of the Service Request
 
@@ -91,7 +91,7 @@ Get-SCSMRelatedObject -SMObject $SRTicket
 Get-SCSMRelationshipObject -BySource $SRTicket
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" /></a>
 
 
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) TargetObject and RelationshipID<span style="font-size: x-large;">of the Service Request
@@ -104,7 +104,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket |
 ```
 
 For the next step we will re-use the Active Directory Object type (ID:d96c8b59-8554-6e77-0aa7-f51448868b43)
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" /></a>
 
 
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) and filter on Active Directory objects
@@ -116,7 +116,7 @@ Those elements are queried to the CMDB of SCSM, not to ActiveDirectory.
 Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c8b59-8554-6e77-0aa7-f51448868b43'"
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" /></a>
 
 
 # Resources

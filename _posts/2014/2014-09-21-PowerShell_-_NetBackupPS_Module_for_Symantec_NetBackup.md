@@ -35,7 +35,7 @@ Anyway, I thought sharing the code could be useful to other people.
 It is available on the <a href="http://gallery.technet.microsoft.com/NetBackupPS-Module-for-7be565e5" target="_blank">Technet Gallery</a>.
 I also push my last updates to a<a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">Github Repository</a>,<b>contributors are welcome</b>! so feel free to fork the repo :)
 
-<div style="text-align: left;"></div>
+<div style="text-align: left;">
 
 # Using the module
 
@@ -60,7 +60,7 @@ Import-Module -Name NetBackupPS
 
 # Cmdlets available
 
-<div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" /></a>
 
 As an example, here is the help from Get-NetBackupVolume which retrieve volumes information.
 

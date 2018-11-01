@@ -8,12 +8,19 @@ tags:
 - powershell
 - scripting
 - security
+categories:
+- powershell
 published: true
 comments: true
+classes: wide
 ---
-[Source](http://grinding-it-out.blogspot.com/2008/10/generating-passwords-with-powershell.html)
 
-<pre class="brush: powershell; ruler: true; first-line: 1; highlight: [2, 4, 6]">#
+Here is a very neat script writte by Derek Mangrum that can generate new passwords based on your parameters
+
+
+## Script
+
+```powershell
 #######################################################################
 # FUNCTION NAME: New-Password
 #   
@@ -23,6 +30,8 @@ comments: true
 #
 # REVISION HISTORY:
 #     2008-10-23 : Initial version
+#
+# http://grinding-it-out.blogspot.com/2008/10/generating-passwords-with-powershell.html
 #######################################################################
 function New-Password
 {
@@ -139,12 +148,11 @@ function New-Password
     {
     }
 }
-
-
-
 ```
 
 
-<b><u>Use the script like this:</u></b>
+## Usage
 
-<b><span class="Apple-style-span" style="color: #274e13;">New-Password -length 7 -lowerCase -upperCase -numbers -specialChars</b>
+```powershell
+New-Password -length 7 -lowerCase -upperCase -numbers -specialChars
+```

@@ -83,7 +83,7 @@ In the following post I will cover the following points:
 
 ### <span style="font-size: x-large;">Configuring the iSCSI Initiator on VMware vSphere 5.1<span style="font-weight: normal;"> (PowerCli)
 
-<h4><span style="font-size: large;">Pre-requisites
+<h4>Pre-requisites
 
 In order to work with the PowerCli cmdlets, you will need to load the PowerShell Snapin <b>VMware.VimAutomation.Core.</b>
 
@@ -100,7 +100,7 @@ Connect-VIServer lab1vh02.fx.lab -Credential (Get-Credential)
 ```
 ```
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
-<span style="font-size: large;">
+
 Turn On the iSCSI Initiator
 
 
@@ -124,7 +124,7 @@ Get-VMHostStorage -VMHost lab1vh02.fx.lab | Set-VMHostStorage -SoftwareIScsiEnab
 ```
 ```
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
-<span style="font-size: large;">
+
 Add a new iSCSI Target Address
 
 
@@ -149,7 +149,7 @@ Get-VMHostHba -VMHost lab1vh02.fx.lab -Type iScsi |
 ```
 ```
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
-<span style="font-size: large;">
+
 Refresh HBA / Rescan Datastore
 
 
@@ -168,7 +168,7 @@ Get-VMHostStorage -VMHost lab1vh02.fx.lab -RescanVmfs
 
 ### <span style="font-size: x-large;">Creating a new Datastore on the presented iSCSI LUN (PowerCli)
 
-<h4><span style="font-size: large;">Find the Lun Canonical Name
+<h4>Find the Lun Canonical Name
 
 ```
 <span style="font-family: 'Times New Roman'; white-space: normal;">To create a datastore using the <span style="white-space: normal;"><span style="font-family: Courier New, Courier, monospace;">New-Datastore<span style="font-family: 'Times New Roman'; white-space: normal;"> cmdlet you will need to get the <span style="white-space: normal;"><span style="font-family: Courier New, Courier, monospace;">CanonicalName<span style="font-family: 'Times New Roman'; white-space: normal;"> property from the Lun you want to use.
@@ -197,7 +197,7 @@ $lun = Get-ScsiLun | Where-Object {(($_.Vendor -like "MSFT") -and ($_.CapacityGB
 ```
 ```
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
-<span style="font-size: large;">Create the new Datastore
+Create the new Datastore
 
 
 

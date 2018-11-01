@@ -25,14 +25,14 @@ And for some other type of objects, such as the DomainUser or Enumeration object
 
 # Getting the GUID for a WorkItem
 
-<div>If you look at the property of an Incident for example, you will notice that there is no property that contains the GUID
+If you look at the property of an Incident for example, you will notice that there is no property that contains the GUID
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-30-26%252BAM__2126266851__-772x298.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-30-26%252BAM__2126266851__-772x298.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-30-26%252BAM__2126266851__-772x298.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-30-26%252BAM__2126266851__-772x298.png" /></a>
 You will have to use the method get_id() to retrieve this information
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-01-56%252BAM__2133589236__-772x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-01-56%252BAM__2133589236__-772x418.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-01-56%252BAM__2133589236__-772x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-01-56%252BAM__2133589236__-772x418.png" /></a>
 
-</div><b><u>Incident Request</u></b>
+<b><u>Incident Request</u></b>
 
 ```
 # Get a specific Incident Request
@@ -42,7 +42,7 @@ $IncidentRequest = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.In
 $IncidentRequest.get_id()
 
 ```
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-29-01%252BAM__2017127624__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-29-01%252BAM__2017127624__-772x278.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-29-01%252BAM__2017127624__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-29-01%252BAM__2017127624__-772x278.png" /></a>
 
 
 
@@ -56,7 +56,7 @@ $ServiceRequest = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.Ser
 $ServiceRequest.get_id()
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-44-23%252BAM__1266271804__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-44-23%252BAM__1266271804__-772x278.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-44-23%252BAM__1266271804__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-44-23%252BAM__1266271804__-772x278.png" /></a>
 
 <b><u>Review Activity</u></b>
 
@@ -68,7 +68,7 @@ $ReviewActivity = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.Act
 $ReviewActivity.get_id()
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B10-40-30%252BPM__1790051538__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B10-40-30%252BPM__1790051538__-772x278.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B10-40-30%252BPM__1790051538__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B10-40-30%252BPM__1790051538__-772x278.png" /></a>
 
 <b><u>ManualActivity</u></b>
 
@@ -95,7 +95,7 @@ $RunbookActivity.id
 $RunbookActivity.get_id()
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-27-10%252BPM__1914218625__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-27-10%252BPM__1914218625__-772x278.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-27-10%252BPM__1914218625__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-27-10%252BPM__1914218625__-772x278.png" /></a>
 
 
 
@@ -113,7 +113,7 @@ $DomainUser = Get-SCSMObject -Class (Get-SCSMClass -Name Microsoft.AD.User$) -Fi
 $DomainUser.id
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-55-54%252BAM__483067059__-772x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-55-54%252BAM__483067059__-772x418.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-55-54%252BAM__483067059__-772x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B12-55-54%252BAM__483067059__-772x418.png" /></a>
 
 <b><u>Domain Computer</u></b>
 
@@ -128,7 +128,7 @@ $ComputerObject.id
 $ComputerObject.get_id()
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-13-56%252BPM__481123987__-772x378.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-13-56%252BPM__481123987__-772x378.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-13-56%252BPM__481123987__-772x378.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140909_PowerShellSCSM_-_Finding_the_GUID_of_an_object/9-9-2014%252B11-13-56%252BPM__481123987__-772x378.png" /></a>
 
 
 

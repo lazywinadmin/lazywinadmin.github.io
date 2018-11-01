@@ -45,11 +45,11 @@ If you try to launch the tool, you'll see the following. At this point we can't 
 
 # Converting to a Database object
 
-One of the requirement to allow the sorting feature is to convert the PowerShell Object to a <span style="font-family: Courier New, Courier, monospace; font-size: large;">[System.Data.Datatable] object.
+One of the requirement to allow the sorting feature is to convert the PowerShell Object to a [System.Data.Datatable] object.
 
 
 <b><u>Function ConvertTo-DataTable</u></b>
-Thanks the guys at SAPIEN, they created a small function to do this: <span style="font-family: Courier New, Courier, monospace; font-size: large;">ConvertTo-DataTable
+Thanks the guys at SAPIEN, they created a small function to do this: ConvertTo-DataTable
 
 To load this function, open the snippets using the CTRL+K shortcut and select "Convert To Database"
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/2014-12-02_23-17-37__100399466__-298x203.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/2014-12-02_23-17-37__100399466__-298x203.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Snippets</b></td></tr></tbody></table>
@@ -106,7 +106,7 @@ $datagridview1_ColumnHeaderMouseClick=[System.Windows.Forms.DataGridViewCellMous
 
 Now let's run the tool again and click on "Name" a couple of times for example, It will sort on this property.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/Datagridview_Sorting_GIF__83437090__-373x301.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/Datagridview_Sorting_GIF__83437090__-373x301.gif" /></a></div>
+<a href="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/Datagridview_Sorting_GIF__83437090__-373x301.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/Datagridview_Sorting_GIF__83437090__-373x301.gif" /></a>
 
 
 

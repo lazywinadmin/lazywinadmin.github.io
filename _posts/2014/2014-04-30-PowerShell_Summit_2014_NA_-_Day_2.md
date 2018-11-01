@@ -25,8 +25,8 @@ PowerShell Summit 2014 NA - Day 2 <i>(current post)</i>
 
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/Summit-Horiz-Logo-Color__1896257049__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/Summit-Horiz-Logo-Color__1896257049__-700x130.png" height="59" width="320" /></a></div>
-<div class="separator" style="clear: both; text-align: center;"></div>
+<a href="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/Summit-Horiz-Logo-Color__1896257049__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/Summit-Horiz-Logo-Color__1896257049__-700x130.png" height="59" width="320" /></a>
+
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/IMG_20140429_085924__672263003__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/IMG_20140429_085924__672263003__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>On the Job: Putting PowerShell Scheduled Jobs to Work</b> with <u>Jeffrey Hicks</u></td></tr></tbody></table>
 
 

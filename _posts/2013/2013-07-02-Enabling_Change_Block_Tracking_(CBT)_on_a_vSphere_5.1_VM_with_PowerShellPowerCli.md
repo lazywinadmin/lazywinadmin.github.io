@@ -72,7 +72,7 @@ Obviously you will need VMware PowerCli ; Here I used PowerCli version 5.1 with 
 <a href="https://my.vmware.com/web/vmware/details?productId=285&amp;downloadGroup=VSP510-PCLI-510" target="_blank">Download VMware PowerCli</a>
 <a href="http://www.microsoft.com/en-ca/download/details.aspx?id=34595" target="_blank">Download PowerShell 3.0</a>
 
-<b><span style="font-size: large;">Set-VMChangeBlockTracking</b>
+<b>Set-VMChangeBlockTracking</b>
 <script src="https://gist.github.com/lazyadmin/800ef5dd742dd8701152.js"></script> 
 
 Here is the small piece of the script that actually does the change (download the full script a bit below)

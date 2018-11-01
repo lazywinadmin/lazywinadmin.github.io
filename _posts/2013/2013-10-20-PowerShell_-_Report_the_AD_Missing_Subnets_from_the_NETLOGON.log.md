@@ -143,9 +143,9 @@ This will generate the report inserted at the beginning of this article.
 [String[]]$EmailTo,
 ```
 
-For the email addresses validation, at first I wanted to use the <span style="font-family: Courier New, Courier, monospace; font-size: large;">[mailaddress] class, but this only work since PowerShell v3.0 so I decided to add the previous regex so it is supported on PowerShell v2.0 too.
+For the email addresses validation, at first I wanted to use the [mailaddress] class, but this only work since PowerShell v3.0 so I decided to add the previous regex so it is supported on PowerShell v2.0 too.
 
-Note that I also use the<span style="font-family: Courier New, Courier, monospace; font-size: large;"> [ValidatePattern] attribute declaration, which is super useful!<a class="g-profile" href="http://plus.google.com/109354722869529171746" target="_blank">+Jeffery Hicks</a> wrote <a href="http://jdhitsolutions.com/blog/2012/04/powershell-scripting-with-validatepattern/" target="_blank">a great article </a>about it last year.
+Note that I also use the [ValidatePattern] attribute declaration, which is super useful!<a class="g-profile" href="http://plus.google.com/109354722869529171746" target="_blank">+Jeffery Hicks</a> wrote <a href="http://jdhitsolutions.com/blog/2012/04/powershell-scripting-with-validatepattern/" target="_blank">a great article </a>about it last year.
 
 <h4>Gathering the information from all the different Netlogon.log files
 

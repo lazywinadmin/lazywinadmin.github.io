@@ -15,7 +15,7 @@ comments: true
 ---
 <a href="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/PowerShell-Scripting-Games-Logo__613157146__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/PowerShell-Scripting-Games-Logo__1295564477__-171x200.png" width="171" /></a>Now that event 2 is closed for new entries. Here is the solution I proposed.
 
-<span style="font-size: large;"><b>Instruction</b>
+<b>Instruction</b>
 <a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" style="background-color: white; color: #da1f00; font-family: Verdana, Geneva, sans-serif; font-size: 13.333333969116211px; line-height: 20px; text-decoration: none;" target="_blank">Download the instruction here [skydrive]</a>
 
 <blockquote class="tr_bq"><i>Dr. Scripto finally has the budget to buy a few new virtualization host servers, but he needs to make some room in the data center to accommodate them. He thinks it makes sense to get rid of his lowest-powered old servers first... but he needs to figure out which ones those are.</i><i>
@@ -25,7 +25,7 @@ comments: true
 </i><i>
 </i><i>The good Doctor has asked you to write a PowerShell tool that can show him each server's name, installed version of Windows, amount of installed physical memory, and number of installed processors.</i><i>
 </i><i>For processors, he'll be happy getting a count of cores, or sockets, or even both – whatever you can reliably provide across all these different versions of Windows. He has a few text files with computer names – he'd like to pipe the computer names, as strings, to you tool, and have your tool query those computers.</i></blockquote>
-<span style="font-size: large;"><b>Key Points</b>
+<b>Key Points</b>
 
 
 * Some Remote Server don't have PowerShell
@@ -37,9 +37,9 @@ comments: true
 * Output of the script: ServerName, Version of Windows, Amount of Physical Memory, Processors Count, Sockets Count, Cores Count.
 
 * Script can receive ComputerName injected via the pipeline
-<span style="font-size: large;">
-<span style="font-size: large;">
-<span style="font-size: large;"><b>Steps to my solution</b>
+
+
+<b>Steps to my solution</b>
 Using WMI you can retrieve most of the information on remote machines (WMI Service is present since Windows 2000, Assuming WMI Service is running.. of course...)
 
 Why not CIM ?
@@ -92,12 +92,12 @@ FOREACH ($Proc in $Processors){
 <u style="font-weight: bold;">Note:</u>For the Processor part, I think Mike F Robbins got a betterapproached, Check his post <a href="http://mikefrobbins.com/2013/05/07/2013-powershell-scripting-games-advanced-event-2-attention-to-detail-is-everything/" target="_blank">here.</a>
 
 
-<span style="font-size: large;">Vote for me! And Comment!
+Vote for me! And Comment!
 Please vote for me and let me know what you liked or not. I'm still learning and want to improve my code.
 Thank you!
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://scriptinggames.org/entrylist.php?entryid=537" imageanchor="1" style="margin-left: auto; margin-right: auto;" target="_blank"><img border="0" height="120" src="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/voting__1862195796__-400x123.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>You will need to be Logged On first on [http://scriptinggames.org](http://scriptinggames.org/)</b></td></tr></tbody></table>
 <div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: large;">Script
+Script
 
 <pre class="brush: powershell;collapse:true;highlight:3; ruler: true; first-line: 1;gutter: true;">#requires -Version 3
 

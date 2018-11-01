@@ -31,8 +31,8 @@ In this post, I will talk about the last part of this process and how I combine 
 
 
 Here is a sample of daily CSV file result after the parsing has done its job:
-<div>
-</div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-47-54__862795648__-197x157.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-47-54__862795648__-197x157.png" /></a></div><div class="separator" style="clear: both; text-align: center;"></div>
+
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-47-54__862795648__-197x157.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-47-54__862795648__-197x157.png" /></a>
 So at the end of the month I have a bunch of CSV files that were generated during the months and I need to know how many time each domains were accessed.
 
 
@@ -62,7 +62,7 @@ Get-ChildItem -Path .\*.csv | # Get each CSV files
 ```
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-27-49__1938572579__-338x402.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-27-49__1938572579__-338x402.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-27-49__1938572579__-338x402.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-27-49__1938572579__-338x402.png" /></a>
 
 # Step by Step
 
@@ -70,20 +70,20 @@ Get-ChildItem -Path .\*.csv | # Get each CSV files
 
 <u>Get all the CSV File</u>
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" /></a></div>```
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" /></a>```
 
 ```
 
 Now we <u>import the data</u> inside each file. I added a Sort-Object so you can see that we have duplicates (since we have the same values coming from different files).
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-22-38__1316553119__-677x583.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-22-38__1316553119__-677x583.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-22-38__1316553119__-677x583.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-22-38__1316553119__-677x583.png" /></a>
 
 Using <u>Group-Object by Domain Name</u>. This will group also all the different "counts" for each domain
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-15-53__576300314__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-15-53__576300314__-692x292.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-15-53__576300314__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-15-53__576300314__-692x292.png" /></a>
 Finally we use Select-Object to <u>show a unique Domain Name</u> and <u>Sum each counts present in the "Group"</u> property from the Group-Object Cmdlet (see above).
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_20-26-30__1652430148__-692x400.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_20-26-30__1652430148__-692x400.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_20-26-30__1652430148__-692x400.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_20-26-30__1652430148__-692x400.png" /></a>
 
 
 

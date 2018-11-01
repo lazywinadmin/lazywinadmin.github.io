@@ -74,7 +74,7 @@ Basically, the script will monitor the Active Directory groups that you specify 
 
 
 
-### <span style="font-size: large;">How does the script works ?
+### How does the script works ?
 
 
 <h4><b>Main Process</b>

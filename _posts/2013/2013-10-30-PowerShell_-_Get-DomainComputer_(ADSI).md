@@ -292,7 +292,7 @@ PROCESS{
 }#FOREACH $item
 ```
 
-<u>Note:</u> I had to use backtick "<b><span style="font-size: large;">`</b>" to be able to fit the code in my blog. Backticks are not present in the final script.
+<u>Note:</u> I had to use backtick "<b>`</b>" to be able to fit the code in my blog. Backticks are not present in the final script.
 
 To resume we added the following items :
 

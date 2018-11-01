@@ -10,12 +10,12 @@ published: true
 comments: true
 ---
 <a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/Task-Scheduler__1187729876__-129x141.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/Task-Scheduler__1187729876__-129x141.png" /></a>
-<span style="font-size: large;">Description
+Description
 This is a weird one... This post will show you how to configure a Scheduled task every single minute.
 
 By default on Microsoft Windows Server 2008 R2, You have the options to run a task every:<span style="font-family: 'Courier New', Courier, monospace;">"5 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"10 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"15 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"30 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"1 hour".
 
-<span style="font-size: large;">How to Schedule a task to run every minute ?
+How to Schedule a task to run every minute ?
 Today I was configuring a new<i> Scheduled task</i> on Windows Server 2008 R2. In my case i wanted the task to run every minute...
 
 <u><b>Using the CLI</b></u>
@@ -38,7 +38,7 @@ So here is <b><u>the trick</u></b>:
 * I realized the <i>Repeat Task Every</i>'s Textbox could be edited... All you need to do is to set the value to "<u>1 minute</u>" manually, (manually type "1 minutes") and press OK. VOILA! :-)
 
 <a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-a__1304695560__-594x506.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="340" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-a__1670170967__-400x341.png" width="400" /></a>
-<span style="font-size: large;">Verifying your Trigger settings
+Verifying your Trigger settings
 
 Here you can see the task repeat every minute.
 

@@ -25,7 +25,7 @@ Anyway, here is my small Day 3 retrospective:
 
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/Summit-Horiz-Logo-Color__660526220__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/Summit-Horiz-Logo-Color__660526220__-700x130.png" height="59" width="320" /></a></div>
+<a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/Summit-Horiz-Logo-Color__660526220__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/Summit-Horiz-Logo-Color__660526220__-700x130.png" height="59" width="320" /></a>
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_085741__951089944__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_085741__951089944__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Using PowerShell to Configure Secure Environments and Delegated Administration</b> with
@@ -40,10 +40,10 @@ Plan of attack (or Defense) against threats coming from inside the domain
 Phase 1: Create an Isolated Environment
 Phase 2: Limit Access
 Phase 3: Add Server securely
-Phase 4: Configure Servers</td></tr></tbody></table><div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
+Phase 4: Configure Servers</td></tr></tbody></table>
+
+
+
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_100003__2044695133__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_100003__2044695133__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>PowerShell and the Web - Leveraging Web Services</b> with <u>Trond Hindenes</u>
 <u>
@@ -85,18 +85,18 @@ Kirk talked about formatting objects, creating views, serialization-deserializat
 * Don't do the mistake to do more work that you have to do to get the job done
 
 * Use available Cmdlets if Available, If those do the job
-</ul></div><div style="text-align: left;">
-</div>
+</ul><div style="text-align: left;">
+
 </td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_145954__1091225052__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_145954__1091225052__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Monad Manifesto Revisited </b>- <u>Jeffrey Snover</u>
 Jeffrey did a retrospective of the Monad Manifesto initially wrote in 2002,</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_152038__256320240__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_152038__256320240__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Monad Manifesto Revisited</b>-<u>Jeffrey Snover</u>
 Talking about the Monad Automation Model</td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/BmgU99RCQAAzf7Z__1135443875__-1024x768.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/BmgU99RCQAAzf7Z__1135443875__-1024x768.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Monad Manifesto Revisited</b>-<u>Jeffrey Snover</u>
 Talking about what is next for PowerShell! The Future looks awesome! :-)</td></tr></tbody></table>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
+
+
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_152911__1861942673__-1200x1600.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_152911__1861942673__-1200x1600.jpg" height="320" width="240" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">PshSummit 2014 is over... time to leave but not without a hug 
 from Teresa (Scripting Wife) !!</td></tr></tbody></table>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
+
+
 

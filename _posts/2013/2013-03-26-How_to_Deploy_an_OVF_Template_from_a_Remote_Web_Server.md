@@ -26,7 +26,7 @@ An appliance is a pre-configured virtual machine that typically includes a prein
 
 
 
-<div style="text-align: justify;"><span style="font-size: large;">Methods to deploy an OVF TemplateUsing vSphere Client you have a couple of methods available to you :
+<div style="text-align: justify;">Methods to deploy an OVF TemplateUsing vSphere Client you have a couple of methods available to you :
 
 * Remote web server (URL)
 
@@ -40,7 +40,7 @@ In most cases, Administrators would probably browse their Local Disks or Network
 However, In my case I want to deploy a template using the local datastore of my ESXi host, using an URL.
 
 
-<span style="font-size: large;">Using a Remote web server (URL) to deploy an OVF Template
+Using a Remote web server (URL) to deploy an OVF Template
 Typically, in the following example I will use the built-in Web Server of my VMware ESXi host.
 
 * Open vSphere Client and Click "<b>File - Deploy OVF Template</b>"
@@ -73,7 +73,7 @@ Typically, in the following example I will use the built-in Web Server of my VMw
 
 <a href="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/OVF_ESXi-Local-10__1897334863__-744x708.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="380" src="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/OVF_ESXi-Local-10__472802979__-400x381.png" width="400" /></a>
 <a href="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/vCSA-08__957380208__-409x210.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/vCSA-08__957380208__-409x210.png" /></a>
-<span style="font-size: large;">VMware Documentation
+VMware Documentation
 You can find more information here :<a href="http://pubs.vmware.com/vsphere-51/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-51-virtual-machine-admin-guide.pdf" target="_blank">vSphere Virtual Machine Administrator Guide 5.1</a>[page 93]
 
 

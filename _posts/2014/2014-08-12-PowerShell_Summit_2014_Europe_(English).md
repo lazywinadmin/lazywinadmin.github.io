@@ -24,7 +24,7 @@ The Summit will feature 3 days of PowerShell sessions from PowerShell team membe
 The Summit agenda is available to view at: <a href="http://eventmgr.azurewebsites.net/event/agenda/PSEU14">http://eventmgr.azurewebsites.net/event/agenda/PSEU14</a>
 
 Registration is now open via <a href="http://eventmgr.azurewebsites.net/event/home/PSEU14">http://eventmgr.azurewebsites.net/event/home/PSEU14</a>
-<div>
-</div><div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.jpg" height="213" width="320" /></a></div>
+
+<a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.jpg" height="213" width="320" /></a>
 
 

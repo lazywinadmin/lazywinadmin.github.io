@@ -73,10 +73,10 @@ At the time I'm writing this, I only see documentation on how to install PowerSh
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Linux__1129078568__-991x680.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="273" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Linux__42790099__-400x274.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on Linux
-<div>
-</div></td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__56341299__-964x581.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__1950227408__-400x241.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on MAC OS X
-<div>
-</div></td></tr></tbody></table>
+
+</td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__56341299__-964x581.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/PowerShell_on_Mac_OSX__1950227408__-400x241.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="font-size: 12.8px;">PowerShell Core on MAC OS X
+
+</td></tr></tbody></table>
 
 ## More information
 

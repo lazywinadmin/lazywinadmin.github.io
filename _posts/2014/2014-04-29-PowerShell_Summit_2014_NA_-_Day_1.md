@@ -12,7 +12,7 @@ comments: true
 ---
 
  
- <div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" /></a></div>The PowerShell Summit 2014 North America kicked off this morning ! What a day! The organizers really did an Awesome Work!! Great Summit so far! This event is a great opportunity to meet old friends, make some new ones and put faces on names.
+ <a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" /></a>The PowerShell Summit 2014 North America kicked off this morning ! What a day! The organizers really did an Awesome Work!! Great Summit so far! This event is a great opportunity to meet old friends, make some new ones and put faces on names.
 
 I also took this opportunity to bring a couple of PowerShell books, and get them signed by authors (a lot of them are at the summit).
 
@@ -31,12 +31,12 @@ PowerShell Summit 2014 NA - Day 1 <i>(current post)</i>
 
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/Summit-Horiz-Logo-Color__123354272__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/Summit-Horiz-Logo-Color__123354272__-700x130.png" height="73" width="400" /></a></div>
+<a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/Summit-Horiz-Logo-Color__123354272__-700x130.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/Summit-Horiz-Logo-Color__123354272__-700x130.png" height="73" width="400" /></a>
 
 
 
 
-<div class="separator" style="clear: both; text-align: center;"></div>
+
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/IMG_20140428_191839__381987546__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/IMG_20140428_191839__381987546__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Meydenbauer Center: This is where everything is happening</td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/IMG_20140428_124812__577254207__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/IMG_20140428_124812__577254207__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Meydenbauer Center is right next to some Microsoft Buildings, 
 don't actually know if the PowerShell team is working there.</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/IMG_20140428_075752__1414190578__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/IMG_20140428_075752__1414190578__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Monday 8am - <b>Welcome</b>with <u>Don Jones</u> and <u>Jeffrey Snover</u></td></tr></tbody></table>

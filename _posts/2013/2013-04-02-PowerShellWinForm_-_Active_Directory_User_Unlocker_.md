@@ -49,7 +49,7 @@ If you want to know more about <span style="font-family: &quot;Courier New&quot;
 
 ### <b><span style="font-size: x-large;">Graphical User Interface</b>
 
-<span style="font-size: large;">
+
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130402_PowerShellWinForm_-_Active_Directory_User_Unlocker_/AD-USER-Unlocker-02__648315511__-466x330.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2013/20130402_PowerShellWinForm_-_Active_Directory_User_Unlocker_/AD-USER-Unlocker-02__648315511__-466x330.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Under Windows 8</td></tr></tbody></table>
 

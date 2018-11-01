@@ -25,7 +25,7 @@ Let's see how I solved it.
 
 
 
-<span style="font-size: large;"><b>Instruction</b>
+<b>Instruction</b>
 <a href="http://sdrv.ms/13DgigU" target="_blank">Download</a> [Skydrive]
 
 <blockquote class="tr_bq"><i>Dr. Scripto isn't saying he dislikes auditors, but they do seem to show up at the most inconvenient times, and with the oddest requests. So he's tossing this particular auditor request over to you.
@@ -35,7 +35,7 @@ This auditor would like a report that shows 20 randomly selected (well, as rando
 Auditors being like they are, that "20 randomly" selected number will probably change in the future â€” so you'd better build this as a reusable tool. Have a parameter that speciï¬es the number of users to pull, and default it to 20. Also parameterize the output HTML ï¬lename. Oh, but if the speciï¬ed ï¬lename doesn't end in ".html" or  reject it. Get PowerShell to do as much of that validation as possible â€” Dr. Scripto has to review your code, and doesn't want to read a lot of manual validation script.
 
 A Domain Admin will always run the command (on behalf of the auditor), and the resulting HTML ï¬le will be manually e-mailed to the requesting auditor.</i></blockquote>
-<span style="font-size: large;"><b>Solution</b>
+<b>Solution</b>
 <b>
 </b><b>Dr. Scripto Requirements</b>
 
@@ -195,7 +195,7 @@ Help about <a href="http://technet.microsoft.com/en-us/library/hh847766.aspx" ta
 Article about Error Handling<a href="http://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell" target="_blank">here</a>.
 <b style="font-size: x-large;">
 </b>
-<span style="font-size: large;"><b>What I missed ?</b>
+<b>What I missed ?</b>
 
 <u>Check if Active Directory module is installed</u>, I should add the following line
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">#Requires -Modules ActiveDirectory
@@ -257,12 +257,12 @@ CATCH{
 ```
 
 
-<span style="font-size: large;"><b>Final Output</b>
-<span style="font-size: large;"><b>
+<b>Final Output</b>
+<b>
 </b>
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" /></a><a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" /></a>
 
-<span style="font-size: large;"><b>Script</b>
+<b>Script</b>
 
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">#requires -Version 3
 

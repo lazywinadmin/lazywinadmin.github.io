@@ -61,14 +61,14 @@ Same thing here, we will edit the two following Advance settings
 
 * <b>isolation.tool.paste.disable</b>
 
-<span style="font-size: large;"><b>Enable-VMCopyPaste </b>
+<b>Enable-VMCopyPaste </b>
 <a href="http://gallery.technet.microsoft.com/Enable-VMCopyPaste-39d785a4" target="_blank">Download on Technet Repository</a>
 
-<span style="font-size: large;"><b>Disable-VMCopyPaste </b>
+<b>Disable-VMCopyPaste </b>
 <a href="http://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Download on Technet Repository</a>
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><div style="text-align: left;">Using the Cmdlet<span style="font-family: Courier New, Courier, monospace; font-size: large;">New-AdvancedSettingwe create an Advanced Settings/Specifications that includes the values required for both copy and paste operations into the vSphere client. It then applies it to the VM.
-I used <span style="font-family: Courier New, Courier, monospace; font-size: large;"><b>-Confirm:$false</b> to avoid the script to request confirmation and <span style="font-family: Courier New, Courier, monospace; font-size: large;"><b>-force:$true</b> to overwrite if a similar entry already exist.
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><div style="text-align: left;">Using the CmdletNew-AdvancedSettingwe create an Advanced Settings/Specifications that includes the values required for both copy and paste operations into the vSphere client. It then applies it to the VM.
+I used <b>-Confirm:$false</b> to avoid the script to request confirmation and <b>-force:$true</b> to overwrite if a similar entry already exist.
 After running the script, It must go through a <b>stun-unstun cycle</b> (power on, resume after suspend, migrate, or snapshot create/delete/revert) before the reconfiguration takes effect. In my case, I did a snapshot and deleted it, and that's it ... We are in business!!!
 <a href="http://4.bp.blogspot.com/-Pe27nmJNmMc/UcyS19Z69qI/AAAAAAABaMk/9H59_oTU9mw/s709/2013-06-26+10-01-55+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://4.bp.blogspot.com/-Pe27nmJNmMc/UcyS19Z69qI/AAAAAAABaMk/9H59_oTU9mw/s1600/2013-06-26+10-01-55+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Running<b> Enable-VMCopyPaste</b> against one VM with the Verbose parameter</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-EuL9JmA_wSM/UcyS5VL38HI/AAAAAAABaMs/GePuiubx3TY/s733/2013-06-26+10-03-32+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://2.bp.blogspot.com/-EuL9JmA_wSM/UcyS5VL38HI/AAAAAAABaMs/GePuiubx3TY/s1600/2013-06-26+10-03-32+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Running<b>Disable-VMCopyPaste</b>against two VMs with the Verbose parameter</td></tr></tbody></table><b><span style="font-size: x-large;">

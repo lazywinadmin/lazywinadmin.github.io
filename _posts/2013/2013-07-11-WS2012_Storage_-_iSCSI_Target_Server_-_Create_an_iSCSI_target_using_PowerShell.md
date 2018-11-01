@@ -133,7 +133,7 @@ Add-WindowsFeature-Name FS-iSCSITarget-Server
 
 ```
 <u style="background-color: yellow;">Optionally</u>
-You might also want to install the <span style="font-family: Courier New, Courier, monospace; font-size: large;">iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="http://blogs.technet.com/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">more info</a>)
+You might also want to install the iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="http://blogs.technet.com/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">more info</a>)
 
 
 ```
@@ -216,7 +216,7 @@ New-IscsiServerTarget -TargetName TestTarget1 -InitiatorId "IQN:iqn.1998-01.com.
 <a href="http://4.bp.blogspot.com/-jHua033J0cw/UdojPsHPfzI/AAAAAAABal4/wsNYmo-u-UI/s1600/2013-07-07+8-34-40+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-jHua033J0cw/UdojPsHPfzI/AAAAAAABal4/wsNYmo-u-UI/s1600/2013-07-07+8-34-40+PM.png" /></a>
 <u>Using PowerCli</u>
 I found two ways to get this information with PowerCli ...
- 1 - With<span style="font-family: Courier New, Courier, monospace; font-size: large;">Get-View(Call to the NET Framework)
+ 1 - WithGet-View(Call to the NET Framework)
 
 <a href="http://1.bp.blogspot.com/-O22B0PEDpeA/Udol4q0vARI/AAAAAAABamI/MwswHLnafF0/s1600/2013-07-07+10-35-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-O22B0PEDpeA/Udol4q0vARI/AAAAAAABamI/MwswHLnafF0/s1600/2013-07-07+10-35-41+PM.png" /></a>
 ```
@@ -224,7 +224,7 @@ I found two ways to get this information with PowerCli ...
 manager.storagesystem).StorageDeviceInfo.HostBusAdapter).iscsiName
 ```
 
- 2 - With<span style="font-family: Courier New, Courier, monospace; font-size: large;">Get-EsxCli
+ 2 - WithGet-EsxCli
 
 
 ```

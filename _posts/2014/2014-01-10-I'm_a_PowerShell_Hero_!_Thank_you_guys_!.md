@@ -12,7 +12,7 @@ comments: true
 ---
 
  
- <div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140110_I%27m_a_PowerShell_Hero_!_Thank_you_guys_!/PowerShellHeroes2014_01__1759540315__-492x526.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140110_I%27m_a_PowerShell_Hero_!_Thank_you_guys_!/PowerShellHeroes2014_01__1759540315__-492x526.png" height="200" width="186" /></a></div>Wow ! What a year so far... I'm one of the five persons who received the first-ever <b>PowerShell Heroes</b> recognition <a href="http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/" target="_blank">on PowerShell.org.</a>
+ <a href="{{ site.url }}/images/2014/20140110_I%27m_a_PowerShell_Hero_!_Thank_you_guys_!/PowerShellHeroes2014_01__1759540315__-492x526.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140110_I%27m_a_PowerShell_Hero_!_Thank_you_guys_!/PowerShellHeroes2014_01__1759540315__-492x526.png" height="200" width="186" /></a>Wow ! What a year so far... I'm one of the five persons who received the first-ever <b>PowerShell Heroes</b> recognition <a href="http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/" target="_blank">on PowerShell.org.</a>
 
 <i>"The idea was to offer a kudos to folks who have been working hard in the PowerShell community, but who haven't received other formal recognition (like Microsoft's MVP Award)."</i>
 

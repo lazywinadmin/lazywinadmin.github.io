@@ -22,7 +22,7 @@ If the Allow and Deny permission check boxes in the various parts of the access 
 
 Here is the PowerShell way to check which users does not have Inheriting Permission and How to Enabling it for all your users. You will need to user <a href="http://www.quest.com/active-directory/" target="_blank">Quest Active Directory Snapin</a>
 
-<span style="font-size: large;">List Users without Inheriting Permission 
+List Users without Inheriting Permission 
 <pre class="brush: powershell; ruler: true; first-line: 1; highlight: [2, 4, 6]"># This Command will list the user not inheriting Permission
 Get-QADUser -SizeLimit 0 | `
 Where-Object {$_.DirectoryEntry.PSBase.ObjectSecurity.AreAccessRulesProtected}
@@ -30,7 +30,7 @@ Where-Object {$_.DirectoryEntry.PSBase.ObjectSecurity.AreAccessRulesProtected}
 
 ```
 
-<span style="font-size: large;">Enabling Inheriting Permission for all Users
+Enabling Inheriting Permission for all Users
 <pre class="brush: powershell; ruler: true; first-line: 1; highlight: [2, 4, 6]"># This Command will enable inheriting Permission for all the accounts
 Get-QADUser -SizeLimit 0 | `
 Where-Object {$_.DirectoryEntry.PSBase.ObjectSecurity.AreAccessRulesProtected} | `

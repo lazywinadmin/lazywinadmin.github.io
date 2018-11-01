@@ -30,7 +30,7 @@ Unfortunately I don't expect a very high score in the Leader board since I did n
 
 * <i>The size and free space values are shown as gigabytes (GB) and megabytes (MB) respectively, each to two decimal places.</i>
 <i>The command you write can assume that both WMI and CIM are available on the remote computers, and that all the necessary firewall rules and authentication have already been taken care of.</i></blockquote>
-<span style="font-size: large;"><b>Solution</b>
+<b>Solution</b>
 
 <b>Finding the disk information</b>
 We'll have to use WMI/CIM to get this information on the remote computers.
@@ -192,7 +192,7 @@ With a Windows Server 2012 (WsMan Enabled)
 
 <a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" /></a>
 
-<span style="font-size: large;">Script
+Script
 
 
 ```
