@@ -81,7 +81,7 @@ From my understanding this is how the OneGet module interact with the package ma
 
 * The package manager will then query its software repository to retrieve the package. In this example Chocolatey use it's own set of Cmdlets (see below in this post)
 
-* The package manager then download a configuration file OR get the URI where it will find the instruction to install the package. In the case of Chocolatey, a configuration file is downloaded from the repository and saved locally in C:\Chocolatey\lib\&lt;APPNAME&gt;\Tools,
+* The package manager then download a configuration file OR get the URI where it will find the instruction to install the package. In the case of Chocolatey, a configuration file is downloaded from the repository and saved locally in C:\Chocolatey\lib\<APPNAME>\Tools,
 
 * The Provider will then execute the configuration file and download the actual software (+ its dependencies) from a repository, and obviously install it.... silently :-)
 

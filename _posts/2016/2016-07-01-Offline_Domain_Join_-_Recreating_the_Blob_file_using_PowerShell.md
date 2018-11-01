@@ -84,7 +84,7 @@ Finally, on the new deployed machine, we can recreate the Blob file using New-Dj
 
 ```powershell
 # Blob generated
-$Blob = "Blob generated previously on the domain machine&gt;"
+$Blob = "Blob generated previously on the domain machine>"
 
 # Recreate djoin file
 New-DjoinFile -Blob $blob -DestinationFile $home\desktop\blob.txt -Verbose

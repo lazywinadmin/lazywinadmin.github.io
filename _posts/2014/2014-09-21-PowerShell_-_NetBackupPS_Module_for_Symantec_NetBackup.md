@@ -76,10 +76,10 @@ SYNOPSIS
     This function queries the EMM database for volume information (vmquery)
 
 SYNTAX
-    Get-NetBackupVolume -MediaID &lt;String[]&gt; [&lt;CommonParameters&gt;]
+    Get-NetBackupVolume -MediaID <String[]> [<CommonParameters>]
 
-    Get-NetBackupVolume [-PoolName &lt;String&gt;] [-RobotNumber &lt;Int32[]&gt;]
-    [&lt;CommonParameters&gt;]
+    Get-NetBackupVolume [-PoolName <String>] [-RobotNumber <Int32[]>]
+    [<CommonParameters>]
 
 
 DESCRIPTION
@@ -87,7 +87,7 @@ DESCRIPTION
 
 
 PARAMETERS
-    -PoolName &lt;String&gt;
+    -PoolName <String>
         Specify the PoolName to query
 
         Required?                    false
@@ -96,7 +96,7 @@ PARAMETERS
         Accept pipeline input?       false
         Accept wildcard characters?  false
 
-    -RobotNumber &lt;Int32[]&gt;
+    -RobotNumber <Int32[]>
         Specify the RobotNumber to query
 
         Required?                    false
@@ -105,7 +105,7 @@ PARAMETERS
         Accept pipeline input?       false
         Accept wildcard characters?  false
 
-    -MediaID &lt;String[]&gt;
+    -MediaID <String[]>
         Specify the MediaID(s) to display
 
         Required?                    true
@@ -114,7 +114,7 @@ PARAMETERS
         Accept pipeline input?       false
         Accept wildcard characters?  false
 
-    &lt;CommonParameters&gt;
+    <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
@@ -126,7 +126,7 @@ OUTPUTS
 
     -------------------------- EXAMPLE 1 --------------------------
 
-    C:\PS&gt;Get-NetBackupVolume -PoolName Scratch
+    C:\PS>Get-NetBackupVolume -PoolName Scratch
 
 
     This will return all the volumes in the Pool named Scratch
@@ -200,7 +200,7 @@ OUTPUTS
 
     -------------------------- EXAMPLE 2 --------------------------
 
-    C:\PS&gt;Get-NetBackupVolume -MediaID CC0002,DD0005
+    C:\PS>Get-NetBackupVolume -MediaID CC0002,DD0005
 
 
     This will display information for the tapes CC0002,DD0005
@@ -253,7 +253,7 @@ OUTPUTS
 
     -------------------------- EXAMPLE 3 --------------------------
 
-    C:\PS&gt;Get-NetBackupVolume -RobotNumber 23 -Poolname Scratch
+    C:\PS>Get-NetBackupVolume -RobotNumber 23 -Poolname Scratch
 
 
     This will return the volumes in the PoolName 'Scratch' for the RobotNumber 23.
@@ -264,7 +264,7 @@ OUTPUTS
 
     -------------------------- EXAMPLE 4 --------------------------
 
-    C:\PS&gt;Get-NetBackupVolume -RobotNumber 23,19 -Poolname Scratch -Verbose
+    C:\PS>Get-NetBackupVolume -RobotNumber 23,19 -Poolname Scratch -Verbose
 
 
     This will return the volumes in the PoolName 'Scratch' for the RobotNumber 23 and 19.

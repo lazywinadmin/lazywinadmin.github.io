@@ -190,12 +190,12 @@ Finally we can wrap this powershell code inside a function to create a re-usable
 ```
 function Get-NetStat
 {
-&lt;#
+<#
 .SYNOPSIS
     This function will get the output of netstat -n and parse the output
 .DESCRIPTION
     This function will get the output of netstat -n and parse the output
-#&gt;
+#>
     PROCESS
     {
         # Get the output of netstat

@@ -44,10 +44,10 @@ You can create your own going into FILE/OPTIONS/EDITOR
 By default, you'll find the preset in the following location
 
 <u>PowerShell Studio 2014</u>
-C:\Users\<i><b>&lt;UserName&gt;</b></i>\AppData\Roaming\SAPIEN\PowerShell Studio 2014\Editor Presets
+C:\Users\<i><b><UserName></b></i>\AppData\Roaming\SAPIEN\PowerShell Studio 2014\Editor Presets
 
 <u>PowerShell Studio 2015</u>
-C:\Users\<i><b>&lt;UserName&gt;</b></i>\AppData\Roaming\SAPIEN\PowerShell Studio 2015\Editor Presets
+C:\Users\<i><b><UserName></b></i>\AppData\Roaming\SAPIEN\PowerShell Studio 2015\Editor Presets
 
 ### Other Fonts
 

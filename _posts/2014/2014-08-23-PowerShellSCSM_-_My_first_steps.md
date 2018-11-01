@@ -65,7 +65,7 @@ $ServiceRequestInProgressStatus = Get-SCSMEnumeration -Name ServiceRequestStatus
 $ServiceRequestInProgressStatusID = $ServiceRequestInProgressStatus.ID
 $TwoDaysAgo = $((Get-Date).Adddays(-2))
 
-Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified &gt; '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'"
+Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified > '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'"
 ```
 
 <a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" /></a>
@@ -77,7 +77,7 @@ Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified &gt; '$TwoDaysA
 
 ```
 # Related Object of a Service request
-$SRTicket = Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified &gt; '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'" | Select-Object -Last 1
+$SRTicket = Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified > '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'" | Select-Object -Last 1
 Get-SCSMRelatedObject -SMObject $SRTicket
 ```
 

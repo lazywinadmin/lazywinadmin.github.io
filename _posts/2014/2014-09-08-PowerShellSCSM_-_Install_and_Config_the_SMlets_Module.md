@@ -32,11 +32,11 @@ Make sure to select only the feature: .NET Framework 4.5.1 during the installati
 <a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/Windows8.1_SDK__43774700__-775x575.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="237" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/Windows8.1_SDK__1209726335__-320x238.png" width="320" /></a><u>
 </u><u>
 </u><u>Browse to one of the following locations</u>:
-<span style="font-family: Courier New, Courier, monospace;">\\<i>&lt;SCSM_SERVERNAME&gt;</i>\c$\Program Files\Microsoft System Center\Service Manager 2010\SDK Binaries\
+<span style="font-family: Courier New, Courier, monospace;">\\<i><SCSM_SERVERNAME></i>\c$\Program Files\Microsoft System Center\Service Manager 2010\SDK Binaries\
 
 <b>or</b>
 
-<span style="font-family: Courier New, Courier, monospace;">\\&lt;SCSM_SERVERNAME&gt;\c$\Program Files\Microsoft System Center 2012 R2\Service Manager\SDK Binaries\
+<span style="font-family: Courier New, Courier, monospace;">\\<SCSM_SERVERNAME>\c$\Program Files\Microsoft System Center 2012 R2\Service Manager\SDK Binaries\
 
 <u>And copy the following files to the <b>C:\Windows\Assembly</b> directory</u>
 <span style="font-family: Courier New, Courier, monospace;">Microsoft.EnterpriseManagement.Core.dll
