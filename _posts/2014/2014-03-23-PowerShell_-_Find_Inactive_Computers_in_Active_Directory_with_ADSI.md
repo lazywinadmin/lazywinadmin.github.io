@@ -19,7 +19,7 @@ comments: true
 
 Here are the key element of the script, I want:
 
-* Computer Inactive for &gt;=90 days
+* Computer Inactive for >=90 days
 * Be able to specify a SearchRoot
 * Filter on the Operating System if possible (I want only Windows Servers, without the Domain controllers for example)
 * Return SamAccountName, Name, DN, Operating System, and Description
@@ -32,7 +32,7 @@ I already talked about ADSISearcher<a href="{{ site.url }}/2013/10/powershell-ge
 After some research and tests I quickly got the following line which return the basic information of what I want:
 
 ```powershell
-([adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-105).ToFileTime())))").findall()
+([adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp<=$((Get-Date).AddDays(-105).ToFileTime())))").findall()
 ```
 
 **Output:**
@@ -54,7 +54,7 @@ LDAP://CN=LAB1VC02,OU=Servers,OU=TEST,DC=FX,DC... {logoncount, codepage, objectc
 Next the properties. If we a take look at the list of properties and methods available with this object we might be able to find what we need. We can do this using Get-Member
 
 ```powershell
-([adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-105).ToFileTime())))") | Get-Member
+([adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp<=$((Get-Date).AddDays(-105).ToFileTime())))") | Get-Member
 ```
 
 **Output:**
@@ -109,7 +109,7 @@ Looks like the following properties will do just what we need:
 * <b>Filter</b> (String/LDAP Query), to limit the query to computer with a specific Operating System.
 
 ```powershell
-$searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-90).ToFileTime())))"
+$searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp<=$((Get-Date).AddDays(-90).ToFileTime())))"
 $searcher.searchRoot = [adsi]"LDAP://OU=Servers,OU=TEST,dc=fx,dc=lab"
 $searcher.SizeLimit = "5"
 $searcher.Filter = "(&amp;(objectCategory=computer)(operatingSystem=*Windows*server*))"
@@ -156,7 +156,7 @@ adspath                        {LDAP://CN=LAB1VC02,OU=Servers,OU=TEST,DC=FX,DC=L
 The output is poorly formated and we have some extra curly brackets that need to be take care of... Let's fix that by creating a new PowerShell object for each item retrieve by the query.
 
 ```powershell
-$searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp&lt;=$((Get-Date).AddDays(-90).ToFileTime())))"
+$searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp<=$((Get-Date).AddDays(-90).ToFileTime())))"
 $searcher.searchRoot = [adsi]"LDAP://OU=Servers,OU=TEST,dc=fx,dc=lab"
 $searcher.SizeLimit = "5"
 $searcher.Filter = "(&amp;(objectCategory=computer)(operatingSystem=*server*))"

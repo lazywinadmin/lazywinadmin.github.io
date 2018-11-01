@@ -59,7 +59,7 @@ Here is a very handy function that you can include to your PowerShell Profil to 
 ```
 function Connect-Office365
 {
-&lt;#
+<#
 .SYNOPSIS
     This function will prompt for credentials, load module MSOLservice,
     load implicit modules for Office 365 Services (AD, Lync, Exchange) using PSSession.
@@ -79,7 +79,7 @@ function Connect-Office365
     Francois-Xavier Cat
     lazywinadmin.com
     @lazywinadm
-#&gt;
+#>
     [CmdletBinding()]
     PARAM ()
     BEGIN

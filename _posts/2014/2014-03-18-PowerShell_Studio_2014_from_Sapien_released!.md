@@ -118,7 +118,7 @@ Once you are done, the function will be inserted in your script:
         A description of the Limit parameter.
 
     .EXAMPLE
-        PS C:\&gt; Get-LazyWinAdmin -Blog $value1 -Post $value2
+        PS C:\> Get-LazyWinAdmin -Blog $value1 -Post $value2
         'This is the output'
         This example shows how to call the Get-LazyWinAdmin function with named parameters.
 

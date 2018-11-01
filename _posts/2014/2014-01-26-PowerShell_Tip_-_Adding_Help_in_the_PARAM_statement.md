@@ -29,10 +29,10 @@ A very cool way to add some help to your script parameters is to add comments wi
 
 
 ```
-&lt;#
+<#
     .SYNOPSIS
         This function will get some cool stuff
-#&gt;
+#>
     PARAM(
         # Specifies the computer name
         $ComputerName,
