@@ -7,7 +7,7 @@ tags:
 - powershell
 - system events
 - video
-published: true
+published: false
 comments: true
 ---
 [Video: Richard Siddaway – PowerShell Events](http://feedproxy.google.com/%7Er/DmitrysPowerblog/%7E3/yl173LZfqRo/): 

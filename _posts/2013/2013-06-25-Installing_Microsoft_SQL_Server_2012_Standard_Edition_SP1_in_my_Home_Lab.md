@@ -14,8 +14,8 @@ comments: true
 
 I used a dedicated VM that will be used to host the database of Configuration Manager 2012 and Orchestrator 2012 (at least.. for now)
 
-<span style="font-size: large;">
-<span style="font-size: large;"><b>Resources</b>
+
+<b>Resources</b>
 
 
 * <a href="http://technet.microsoft.com/en-us/sqlserver/ff898410.aspx" target="_blank">Documentation - Microsoft SQL Server 2012 - Technet</a>
@@ -24,7 +24,7 @@ I used a dedicated VM that will be used to host the database of Configuration Ma
 
 * <a href="http://technet.microsoft.com/en-us/library/bb500469.aspx" target="_blank">Plan, Install, Upgrade, Uninstall, Failover Cluster - Technet</a>
 
-<span style="font-size: large;"><b>Installation</b>
+<b>Installation</b>
 
 1 - After launching the SQL 2012 Server Installation, you should first run the <b>System Configuration Checker</b>. This small tool will check if you have every requirements to install SQL Server.
 <a href="http://3.bp.blogspot.com/-iG6DayOFJPc/UceTE8rnzzI/AAAAAAABaCI/zWd6sSsy-Gs/s1600/2013-06-23+8-25-03+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="482" src="http://3.bp.blogspot.com/-iG6DayOFJPc/UceTE8rnzzI/AAAAAAABaCI/zWd6sSsy-Gs/s640/2013-06-23+8-25-03+PM.png" width="640" /></a>

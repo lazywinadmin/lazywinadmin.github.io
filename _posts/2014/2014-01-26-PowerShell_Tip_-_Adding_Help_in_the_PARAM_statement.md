@@ -15,7 +15,7 @@ comments: true
 ---
 
  
- <div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" height="180" width="180" /></a></div>It's always a good idea to include help within your functions ! You never know who might benefit from it.
+ <a href="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" height="180" width="180" /></a>It's always a good idea to include help within your functions ! You never know who might benefit from it.
 
 With PowerShell adding help to your script, function and module is a really easy thing to do.
 
@@ -78,7 +78,7 @@ This command will only return the Parameters information with the help we added 
 ```
 
 
-<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-ldV5QCZ7Oec/UuSSEAVCbzI/AAAAAAABijE/6b3ej4vQLM4/s1600/2014-01-25+11-32-11+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-ldV5QCZ7Oec/UuSSEAVCbzI/AAAAAAABijE/6b3ej4vQLM4/s1600/2014-01-25+11-32-11+PM.png" /></a></div>
+<a href="http://4.bp.blogspot.com/-ldV5QCZ7Oec/UuSSEAVCbzI/AAAAAAABijE/6b3ej4vQLM4/s1600/2014-01-25+11-32-11+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-ldV5QCZ7Oec/UuSSEAVCbzI/AAAAAAABijE/6b3ej4vQLM4/s1600/2014-01-25+11-32-11+PM.png" /></a>
 Even if this tip is pretty cool, I would still recommend to use the Comment Based Help block to have a centralized place to put all the help !
 
 

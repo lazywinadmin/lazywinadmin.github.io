@@ -15,7 +15,7 @@ comments: true
 ---
 
 
- </div>
+ 
 <a href="{{ site.url }}/images/2015/20150215_Introducing_WinFormPS_PowerShell_module_to_interact_with_WinForms_controls/Apps-preferences-desktop-theme-icon__1590010150__-128x128.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150215_Introducing_WinFormPS_PowerShell_module_to_interact_with_WinForms_controls/Apps-preferences-desktop-theme-icon__1590010150__-128x128.png" /></a>I started to work on a PowerShell module called <b>WinFormPS</b>.
 This module contains a few functions that let you interact with Windows Form controls such as DataGridView, ListBox or Button controls for example.
 

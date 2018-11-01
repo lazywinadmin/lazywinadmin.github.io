@@ -14,14 +14,14 @@ comments: true
 ---
 <b style="text-decoration: underline;">Updated (2013/06/03):</b> I added some error handeling/verbose/testing. You are now able to pass multiple computers to the ComputerName parameter.
 
-<span style="font-size: large;">Intro
+Intro
 
 Recently I had to do an Audit at my work to find who was Local Administrators on a bunch of Servers.
 That might sounds easy when you just have to check 2 or 3 servers... but what if you have to get the information for hundreds! Plus ... I know the Auditor would ask me this same question every few months to prove that the list did not change...Arghhh!
 
 Once again PowerShell saved me so much time on that one!!
 
-<span style="font-size: large;">Get-LocalGroupMembership
+Get-LocalGroupMembership
 
 Get the specified local group membership on a local or remote computer.
 By default, if you don't specify any parameter, It will query the local group "Administrators" on the localhost.
@@ -31,10 +31,10 @@ For some reason WMI bug with some of my Windows Server 2003 and does not return 
 Here is my ADSI/WinNT version, It fixed my problem.
 In the next post I will go a bit further and get the membership from the domain groups ;-)
 
-<span style="font-size: large;">Running the Function
+Running the Function
 
-<a href="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__1536305082__-603x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="442" src="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__812400549__-603x418.png" width="640" /></a><span style="font-size: large;">
-<span style="font-size: large;">The Code
+<a href="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__1536305082__-603x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="442" src="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__812400549__-603x418.png" width="640" /></a>
+The Code
 
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Function Get-LocalGroupMembership {
 <#

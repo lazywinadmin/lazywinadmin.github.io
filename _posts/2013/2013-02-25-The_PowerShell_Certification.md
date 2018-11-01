@@ -17,7 +17,7 @@ Don Jones just <a href="http://powershell.org/wp/2013/02/24/verified-effective-f
 
 This is available for anybody who want to test their PowerShell scripting knowledge. The PowerShell "certification" is under the VERIFIED EFFECTIVEâ„¢ brand.
 
-The certification name:<b><span style="font-size: large;">Windows PowerShell 3.0 Toolmaking.</b>
+The certification name:<b>Windows PowerShell 3.0 Toolmaking.</b>
 
 
 <u>More information:</u>

@@ -11,13 +11,12 @@ tags:
 published: true
 comments: true
 ---
-SYDI is a script which collects information from your servers and networks, then writes the data to a report (XML, DOC or HTM File)
 
-In my case i collected all the information into XML Files. Then i needed to convert those XML files to DOC files.
+SYDI is a script to collect information (from servers and network devices) and write the data to a XML, DOC or HTML report file.
 
-<pre class="brush: powershell; ruler: true; first-line: 1; highlight: [2, 4, 6]">#
+The following example takes the XML generated and convert them to DOC files.
 
-
+```powershell
 # ==============================================================================================
 # 
 # Microsoft PowerShell Source File
@@ -100,9 +99,4 @@ $DOCList=gci $PathToDOC
 
 Write-Host "Total DOC Files:"$TotalFilesDOC
 Write-Host "Total XML Files:"$TotalFilesXML
-
-
-
-
 ```
-

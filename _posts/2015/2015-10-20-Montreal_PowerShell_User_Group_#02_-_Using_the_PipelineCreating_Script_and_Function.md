@@ -44,7 +44,7 @@ Tuesday, 27th of October 2015 from 6:00pm to 9:00pm
 Room: Jack Warner (In front of elevators)
 
 # Participant prize draw
-We will have a draw at the end of the meeting (A couple of Games/Movies) We'll use <span style="font-family: Courier New, Courier, monospace; font-size: large;">Get-Random of course ;-)
+We will have a draw at the end of the meeting (A couple of Games/Movies) We'll use `Get-Random` of course ;-)
 
 # Sponsors
 

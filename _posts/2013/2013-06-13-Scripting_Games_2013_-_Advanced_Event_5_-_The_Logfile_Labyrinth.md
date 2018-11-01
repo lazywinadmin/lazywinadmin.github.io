@@ -17,7 +17,7 @@ comments: true
 <a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/PowerShell-Scripting-Games-Logo__1922393941__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/PowerShell-Scripting-Games-Logo__1639206210__-171x200.png" width="171" /></a>This is my solution for the Advanced Event 5.
 I did not have much time to work on this event, but here is the script I submitted.
 
-<span style="font-size: large;">Instruction
+Instruction
 <a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!10056&amp;authkey=!AMr75bAbpcKJSxw" target="_blank">Download</a> [Skydrive]
 
 <blockquote class="tr_bq"><i>Dr. Scripto finds himself in possession of a bunch of IIS log files, much like the one at</i>

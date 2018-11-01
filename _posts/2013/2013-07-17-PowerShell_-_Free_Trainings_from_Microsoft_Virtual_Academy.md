@@ -22,7 +22,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 <a href="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/microsoft-mva__277597002__-460x202.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="140" src="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/microsoft-mva__194022841__-320x141.png" width="320" /></a>
 
-<span style="font-size: large;"><b>Getting Started with PowerShell 3.0</b>
+<b>Getting Started with PowerShell 3.0</b>
 <b>When:</b> July 18, 2013 9:00am - 5:00pm (Pacific Time)
 <b>Instructors:</b> Jeffrey Snover and Jason Helmick
 
@@ -46,7 +46,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 
 
-<span style="font-size: large;"><b>Advanced Tools &amp; Scripting with PowerShell 3.0</b>
+<b>Advanced Tools &amp; Scripting with PowerShell 3.0</b>
 <b>When:</b> August 1, 2013 9:00am - 5:00pm (Pacific Time)
 <b>Instructors:</b> Jeffrey Snover and Jason Helmick
 
@@ -66,7 +66,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 <a href="http://www.microsoftvirtualacademy.com/training-courses/advanced-tools-scripting-with-powershell-3-0-jump-start#fbid=wdBipBJLtCB" style="background-color: yellow;" target="_blank">Watch it now on Microsoft Virtual Academy</a>
 
 
-<span style="font-size: large;"><b>About the Instructors</b> 
+<b>About the Instructors</b> 
 
 <a href="https://twitter.com/jsnover" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" src="http://1.bp.blogspot.com/-Po8RpkLHRDk/UebOLpf3W-I/AAAAAAABa1Q/5NV6cfF1PlQ/s1600/2013-07-17+1-01-25+PM.png" /></a>
 <a href="https://twitter.com/theJasonHelmick" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" src="http://4.bp.blogspot.com/-VpXJ2nhW8kk/UebOXB8KxLI/AAAAAAABa1Y/sUtJpXwQWgE/s1600/2013-07-17+1-03-26+PM.png" /></a>

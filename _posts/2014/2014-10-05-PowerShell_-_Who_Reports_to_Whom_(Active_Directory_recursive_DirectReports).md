@@ -39,22 +39,22 @@ Get-ADDirectReports -Identity Test_director
 Get-ADDirectReports -Identity Test_director -Recurse
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Get-ADDirectReport__1896028255__-692x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Get-ADDirectReport__1896028255__-692x454.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Get-ADDirectReport__1896028255__-692x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Get-ADDirectReport__1896028255__-692x454.png" /></a>
 
 # Retrieving the DirectReport Property
 
 Using the MMC Active Directory Users and Computers, this property in under the Organization tab of a user object. For example, here is the information for the Director
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/directreports_property_mmc__102966376__-432x531.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/directreports_property_mmc__102966376__-432x531.png" /></a></div><div class="separator" style="clear: both; text-align: center;">
-</div><div class="separator" style="clear: both; text-align: center;">
-</div><b>Director - DirectReports using PowerShell</b>
+<a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/directreports_property_mmc__102966376__-432x531.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/directreports_property_mmc__102966376__-432x531.png" /></a>
+
+<b>Director - DirectReports using PowerShell</b>
 
 ```powershell
 # Find all direct user reporting to Test_director
 Get-ADUser -Identity test_director -Properties directreports | Select-Object -ExpandProperty DirectReports
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_02__1496667751__-692x166.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_02__1496667751__-692x166.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_02__1496667751__-692x166.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_02__1496667751__-692x166.png" /></a>
 
 **Managers - DirectReports**
 
@@ -63,7 +63,7 @@ Get-ADUser -Identity test_director -Properties directreports | Select-Object -Ex
 Get-ADUser -Identity test_managerA -Properties directreports | Select-Object -ExpandProperty DirectReports
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/ManagerA_ManagerB_directreports_powershell_02__454327956__-692x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/ManagerA_ManagerB_directreports_powershell_02__454327956__-692x454.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/ManagerA_ManagerB_directreports_powershell_02__454327956__-692x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/ManagerA_ManagerB_directreports_powershell_02__454327956__-692x454.png" /></a>
 
 # Translating the output
 
@@ -76,7 +76,7 @@ Get-ADUser -Identity test_director -Properties directreports |
     Select-Object SamAccountName, mail
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_SamAccountName_mail__1578705780__-692x220.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_SamAccountName_mail__1578705780__-692x220.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_SamAccountName_mail__1578705780__-692x220.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_SamAccountName_mail__1578705780__-692x220.png" /></a>
 
 
 # Recursive DirectReport

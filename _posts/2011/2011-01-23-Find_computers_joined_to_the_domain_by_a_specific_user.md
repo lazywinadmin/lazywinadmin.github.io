@@ -3,22 +3,30 @@ layout: single
 title: Find computers joined to the domain by a specific user
 excerpt: 
 permalink: /2011/01/find-computers-joined-to-domain-by.html
-tags: 
+tags:
+- powershell
+categories:
+- powershell
 published: true
 comments: true
 ---
-<pre class="brush: powershell; ruler: true; first-line: 1; highlight: [2, 4, 6]">##
+
+Here is a quick PowerShell tip to retrieve the computers created in Active Directory by a specific user
+
+## With ActiveDirectory module
+
+```powershell
 ## Find computers joined to the domain by a specific user
-
 $UserName = Read-Host -Prompt "Enter username"
-$UserSID = (Get-QADUser -Identity $UserName -IncludeAllProperties).objectsid
-
-Get-QADComputer -SizeLimit 0 | Where-Object {$_.'mS-DS-CreatorSid' -eq $UserSID} | `
-ft Name
-#
-#
-
+$UserSID = (Get-ADUser $UserName -Property objectsid).objectsid
+Get-ADComputer -SizeLimit 0 -LdapFilter "(&(objectcategory=computer)(mS-DS-CreatorSid=$UserSID)"
 ```
 
+## With Quest Active Directory
 
-salut
+```powershell
+## Find computers joined to the domain by a specific user
+$UserName = Read-Host -Prompt "Enter username"
+$UserSID = (Get-QADUser -Identity $UserName -IncludeAllProperties).objectsid
+Get-QADComputer -SizeLimit 0 -LdapFilter "(&(objectcategory=computer)(mS-DS-CreatorSid=$UserSID)"
+```

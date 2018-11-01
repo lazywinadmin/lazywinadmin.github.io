@@ -43,8 +43,8 @@ $String2 = "Title:\[PowerShell\ Rocks!]"
 $String1 -match $String2
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/2014-09-29_21-40-22__1259397774__-692x170.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/2014-09-29_21-40-22__1259397774__-692x170.png" /></a></div>
-<div class="separator" style="clear: both; text-align: center;"></div>
+<a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/2014-09-29_21-40-22__1259397774__-692x170.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/2014-09-29_21-40-22__1259397774__-692x170.png" /></a>
+
 
 # Using the [Regex]::Escape() method
 
@@ -61,8 +61,8 @@ $String1 -match [System.Text.RegularExpressions.Regex]::Escape($String2)
 $String1 -match [Regex]::Escape($String2)
 ```
 
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/string_match_Regex_Escape_string3__1669152075__-692x234.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/string_match_Regex_Escape_string3__1669152075__-692x234.png" /></a></div>
-<div class="separator" style="clear: both; text-align: center;"></div>
+<a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/string_match_Regex_Escape_string3__1669152075__-692x234.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/string_match_Regex_Escape_string3__1669152075__-692x234.png" /></a>
+
 If you look on <a href="http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.regex.escape(v=vs.110).aspx" target="_blank">MSDN documentation</a>, you find the following details:
 
 > <b><u>Regex.Escape Method </u></b>

@@ -173,6 +173,6 @@ Finally, I want to introduce the team I will work with for the Winter Scripting 
 * <b>Guido Oliviera</b> (Brazil GMT -3:00) <a href="https://twitter.com/_Guido_Oliveira" target="_blank">@_Guido_Oliveira</a> - <a href="http://guidooliveira.com/" target="_blank">Blog</a>
 </ul>As you can see we are almost all on a different TimeZones, so this will probably very challenging, but I'm sure we'll have some great fun :-) 
 <ul></ul>
-<div class="separator" style="clear: both; text-align: center;"><a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" /></a></div>
+<a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" /></a>
 
 

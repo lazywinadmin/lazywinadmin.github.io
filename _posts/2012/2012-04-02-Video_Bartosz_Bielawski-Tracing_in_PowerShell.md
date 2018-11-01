@@ -7,7 +7,7 @@ tags:
 - powershell
 - tracing
 - video
-published: true
+published: false
 comments: true
 ---
 [Video: Bartosz Bielawski – Tracing in PowerShell](http://feedproxy.google.com/~r/DmitrysPowerblog/~3/yiFU2KfG0JU/): 
