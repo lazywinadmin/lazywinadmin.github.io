@@ -27,8 +27,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  receiver: https://lwacommentsfunc18954.azurewebsites.net/api/PostComment
-  provider               : "custom" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # lazywinadmin # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
