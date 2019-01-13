@@ -27,7 +27,7 @@ So I turned to the PowerShell Community and posted tweet about it.
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/twitter.jpg
 {% endcapture %}
 {% capture SourceUrl %}
-https://twitter.com/LazyWinAdm/status/593760077745680385
+https://twitter.com/LazyWinAdmin/status/593760077745680385
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
 

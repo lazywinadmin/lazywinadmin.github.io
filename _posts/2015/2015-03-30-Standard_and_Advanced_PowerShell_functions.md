@@ -247,7 +247,7 @@ Follow the hashtag <a href="https://twitter.com/hashtag/PSBlogWeek?src=hash&amp;
 | ------------- |-------------| -----|
 | Adam Bertram | [@adbertam](http://twitter.com/adbertam) | http://www.adamtheautomator.com/ |
 | Boe Prox | [@proxb](http://twitter.com/proxb) | http://learn-powershell.net/ |
-| Francois-Xavier Cat | [@lazywinadm](http://twitter.com/lazywinadm) | http://www.lazywinadmin.com/ |
+| Francois-Xavier Cat | [@lazywinadmin](http://twitter.com/lazywinadmin) | http://www.lazywinadmin.com/ |
 | Jeffery Hicks | [@jeffhicks](http://twitter.com/jeffhicks) | http://jdhitsolutions.com/blog/ |
 | June Blender | [@juneb_get_help](http://twitter.com/juneb_get_help) | http://www.sapien.com/blog/ |
 | Mike F. Robbins | [@mikefrobbins](http://twitter.com/mikefrobbins) | http://mikefrobbins.com/ |

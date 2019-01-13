@@ -105,6 +105,6 @@ Open a Web browser and enter the URL for the vSphere Web Client: <i><b>https://<
 <a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/WebClient-01__1572216846__-965x616.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="408" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/WebClient-01__4224691__-640x409.png" width="640" /></a>
 <a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/WebClient-02__678285982__-1042x623.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="382" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/WebClient-02__1554760961__-640x383.png" width="640" /></a>
 
-Thanks for Reading! If you have any questions, leave a comment or send me an email at fxcat@lazywinadmin.com. I invite you to follow me on Twitter:[@lazywinadm](https://twitter.com/LazyWinAdm)
+Thanks for Reading! If you have any questions, leave a comment or send me an email at fxcat@lazywinadmin.com. I invite you to follow me on Twitter:[@lazywinadmin](https://twitter.com/LazyWinAdmin)
 
 

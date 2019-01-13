@@ -599,5 +599,5 @@ SYNTAX
 
 
 
-Thanks for Reading! If you have any questions, leave a comment or send me an email at fxcat@lazywinadmin.com. I invite you to follow me on [Twitter @lazywinadm](https://twitter.com/LazyWinAdm) / [Google+](https://plus.google.com/u/0/118118278125759171027/posts) / <a href="http://ca.linkedin.com/in/fxcat" target="_blank">LinkedIn</a> You can also follow the <b>LazyWinAdmin Blog</b> on [Facebook Page](https://www.facebook.com/pages/LazyWinAdmin/191148464265117) and [Google+ Page](https://plus.google.com/u/0/b/111250084602492302873/111250084602492302873/posts).
+Thanks for Reading! If you have any questions, leave a comment or send me an email at fxcat@lazywinadmin.com. I invite you to follow me on [Twitter @lazywinadm](https://twitter.com/lazywinadmin) / [Google+](https://plus.google.com/u/0/118118278125759171027/posts) / <a href="http://ca.linkedin.com/in/fxcat" target="_blank">LinkedIn</a> You can also follow the <b>LazyWinAdmin Blog</b> on [Facebook Page](https://www.facebook.com/pages/LazyWinAdmin/191148464265117) and [Google+ Page](https://plus.google.com/u/0/b/111250084602492302873/111250084602492302873/posts).
 <div class="zemanta-pixie" style="height: 15px; margin-top: 10px;"><img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=681ebada-9c16-43f5-9b98-ca32094dbeac" style="border: currentColor; float: right;" />
