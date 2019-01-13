@@ -16,7 +16,7 @@ This post is part of the <b>PowerShell Blogging Week (</b><a href="https://twitt
 This week topic will be focused on <b><u>Windows PowerShell Advanced Functions</u></b>.
 
 > <u>In this series:</u>
-> * <a href="{{ site.url }}/2015/03/standard-and-advanced-powershell.html" target="_blank"><b>Standard and Advanced PowerShell Functions</b></a> by <a href="https://twitter.com/LazyWinAdm" target="_blank">Francois-Xavier Cat (@LazyWinAdm)</a> (March 30, 2015)
+> * <a href="{{ site.url }}/2015/03/standard-and-advanced-powershell.html" target="_blank"><b>Standard and Advanced PowerShell Functions</b></a> by <a href="https://twitter.com/LazyWinAdm" target="_blank">Francois-Xavier Cat (@LazyWinAdmin)</a> (March 30, 2015)
 > * <a href="http://mikefrobbins.com/2015/03/31/powershell-advanced-functions-can-we-build-them-better-with-parameter-validation-yes-we-can/" target="_blank"><b>PowerShell Advanced Functions: Can we build them better? With parameter validation, yes we can!</b></a> by <a href="https://twitter.com/mikefrobbins" target="_blank">Mike F. Robbins (@mikefrobbins)</a> (March 31, 2015)
 > * <a href="http://www.adamtheautomator.com/psbloggingweek-dynamic-parameters-and-parameter-validation/" target="_blank"><b>Dynamic Parameters and Parameter Validation</b></a> by <a href="https://twitter.com/adbertram" target="_blank">Adam Bertram (@adbertram)</a> (April 1, 2015)
 > * <a href="http://bit.ly/1GlVVff" target="_blank"><b>Supporting WhatIf and Confirm in Advanced Functions</b></a> by <a href="https://twitter.com/JeffHicks" target="_blank">Jeffery Hicks (@JeffHicks)</a> (April 2, 2015)

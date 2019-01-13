@@ -34,7 +34,7 @@ It was my first time on the west coast. From what I heard, Seattle looked like a
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_122305__519250730__-2048x1536.jpg?psid=1" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_122305__519250730__-2048x1536.jpg?psid=1" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Seattle Public Market</td></tr></tbody></table>
 After visiting a couple of attractions, I took a break at the Public Market to eat a crepe... I was tweeting about my tourists adventures when I got a great surprise...
 
-<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/LazyWinAdm">@LazyWinAdm</a> are you at pikes market
+<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/LazyWinAdm">@LazyWinAdmin</a> are you at pikes market
 â€” Teresa Wilson (@ScriptingWife) <a href="https://twitter.com/ScriptingWife/statuses/326086844011925504">April 21, 2013</a></blockquote>
 Soon enough I was joined by Teresa Wilson and Jeff Wouters! Really super nice people !!! They quickly offered to give me a ride from my hotel downtown to Redmond where PowerShell.org organized a "Get-Together" for the PowerShell attendees. But before going there we had to stop to pick up someone else... Ed Wilson! Yes! I got the chance to meet the Scripting Guy too !
 

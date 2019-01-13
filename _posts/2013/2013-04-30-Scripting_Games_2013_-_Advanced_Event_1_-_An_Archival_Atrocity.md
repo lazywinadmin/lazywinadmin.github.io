@@ -145,7 +145,7 @@ Script
  .NOTES
   NAME    : Move-Log.ps1
   AUTHOR  : Francois-Xavier Cat
-  TWITTER : @lazywinadm
+  TWITTER : @lazywinadmin
   EMAIL   : fxcat@lazywinadmin.com
   WWW     : www.lazywinadmin.com
 #>
@@ -241,5 +241,5 @@ Script
 
 Thanks for reading! Feel free to contact me or leave me a comment below!
 
-Twitter: @lazywinadm
+Twitter: @lazywinadmin
 Email: fxcat@lazywinadmin.com

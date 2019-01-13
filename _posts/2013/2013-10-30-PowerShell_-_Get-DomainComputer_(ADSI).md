@@ -336,7 +336,7 @@ To resume we added the following items :
 
 The function generate the following output
 
-```
+```powershell
 PS C:\> Get-DomainComputer -ComputerName "lab1*"
 ```
 
@@ -407,7 +407,8 @@ DistinguishedName : CN=LAB1VC02,CN=Computers,DC=FX,DC=LAB
 <h4>Help
 
 Can't built a function without help! :-)
-```
+
+```powershell
 PS C:\> Get-Help Get-DomainComputer -full
 
 NAME
@@ -488,7 +489,7 @@ NOTES
         DATE:    2013/10/26
         EMAIL:    info@lazywinadmin.com
         WWW:    www.lazywinadmin.com
-        TWITTER:@lazywinadm
+        TWITTER:@lazywinadmin
         
         VERSION HISTORY:
         1.0 2013.10.26

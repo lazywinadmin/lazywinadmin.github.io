@@ -85,7 +85,7 @@ Describe "AdsiPS Module" -Tags "Module" {
             It "Description"{ $help.Description | Should not BeNullOrEmpty }
             It "Notes - Author" { $Notes[0].trim() | Should Be "Francois-Xavier Cat" }
             It "Notes - Site" { $Notes[1].trim() | Should Be "Lazywinadmin.com" }
-            It "Notes - Twitter" { $Notes[2].trim() | Should Be "@lazywinadm" }
+            It "Notes - Twitter" { $Notes[2].trim() | Should Be "@lazywinadmin" }
             It "Notes - Github" { $Notes[3].trim() | Should Be "github.com/lazywinadmin" }
 
             # Get the parameters declared in the Comment Based Help

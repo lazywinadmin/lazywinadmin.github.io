@@ -33,7 +33,7 @@ For the 2014 Edition however, the formula of the Scripting Games is a bit differ
 
 
 <center><blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/search?q=%23powershell&amp;src=hash">#powershell</a> <a href="https://twitter.com/search?q=%23pshgames&amp;src=hash">#pshgames</a> portrait mode :) <a href="http://t.co/cXgNIk8sYA">pic.twitter.com/cXgNIk8sYA</a>
-â€” Francois-Xavier Cat (@LazyWinAdm) <a href="https://twitter.com/LazyWinAdmin/statuses/419643651065909248">January 5, 2014</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
+â€” Francois-Xavier Cat (@LazyWinAdmin) <a href="https://twitter.com/LazyWinAdmin/statuses/419643651065909248">January 5, 2014</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
 Here is my setup for the scripting games :-) (Coffee is a huge friend)! 
 </center>
 
@@ -160,7 +160,7 @@ Finally, I want to introduce the team I will work with for the Winter Scripting 
 </b>
 
 <ul>
-* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdm</a> - <a href="http://lazywinadmin.com/" target="_blank">Blog</a>
+* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdmin</a> - <a href="http://lazywinadmin.com/" target="_blank">Blog</a>
 
 * <b>Stephane Van Gulick</b> (Switzerland GMT+1:00) <a href="https://twitter.com/Stephanevg" target="_blank">@Stephanevg</a> - <a href="http://powershelldistrict.com/" target="_blank">Blog</a>
 

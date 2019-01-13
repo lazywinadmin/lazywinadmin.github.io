@@ -35,7 +35,7 @@ Nous organiserons un meeting mensuel. Le premier étant planifié pour le 20 sep
 Nous avons déjà une liste de présenteurs tous les mois jusqu'en Janvier 2017 !!! Merci à tous!
 
 <u><b>Voici notre calendrier:</b></u>
-* 2016/09/20 <b>Analyse syntaxique de données avec PowerShell</b> (<a href="http://www.lazywinadmin.com/" target="_blank">Francois-Xavier Cat</a> - <a href="https://twitter.com/LazyWinAdm" target="_blank">@lazywinadm</a>)
+* 2016/09/20 <b>Analyse syntaxique de données avec PowerShell</b> (<a href="http://www.lazywinadmin.com/" target="_blank">Francois-Xavier Cat</a> - <a href="https://twitter.com/LazyWinAdm" target="_blank">@lazywinadmin</a>)
 * 2016/10/18 <b>Les Classes PowerShell</b> (<a href="http://powershelldistrict.com/" target="_blank">Stephane Van Gulick</a> - <a href="https://twitter.com/stephanevg" target="_blank">@stephanevg</a>)
 * 2016/11/16 <b>PowerShell et Unity</b> (<a href="https://balladelli.com/" target="_blank">Micky Balladelli</a> - <a href="https://twitter.com/mickyballadelli" target="_blank">@mickyballadelli</a>)
 * 2016/12/14 <b>PowerShell Pester</b> (<a href="http://pwrshell.net/" target="_blank">Fabien Dibot</a> - <a href="https://twitter.com/fdibot" target="_blank">@fdibot</a>)
@@ -80,7 +80,7 @@ We will organize an Online monthly meeting. The first event is scheduled for the
 ANDe already have speakers lined-up until January 2017!!! :-)
 
 <u>Here the current calendar:</u>
-* 2016/09/20 <b>Parsing Data with PowerShell</b> (<a href="http://www.lazywinadmin.com/" target="_blank">Francois-Xavier Cat</a> - <a href="https://twitter.com/LazyWinAdm" target="_blank">@lazywinadm</a>)
+* 2016/09/20 <b>Parsing Data with PowerShell</b> (<a href="http://www.lazywinadmin.com/" target="_blank">Francois-Xavier Cat</a> - <a href="https://twitter.com/LazyWinAdm" target="_blank">@lazywinadmin</a>)
 * 2016/10/18 <b>Using PowerShell Classes</b> (<a href="http://powershelldistrict.com/" target="_blank">Stephane Van Gulick</a> - <a href="https://twitter.com/stephanevg" target="_blank">@stephanevg</a>)
 * 2016/11/16 <b>PowerShell and Unity engine</b> (<a href="https://balladelli.com/" target="_blank">Micky Balladelli</a> - <a href="https://twitter.com/mickyballadelli" target="_blank">@mickyballadelli</a>)
 * 2016/12/14 <b>PowerShell Pester</b> (<a href="http://pwrshell.net/" target="_blank">Fabien Dibot</a> - <a href="https://twitter.com/fdibot" target="_blank">@fdibot</a>)

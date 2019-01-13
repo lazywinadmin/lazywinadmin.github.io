@@ -42,7 +42,7 @@ Once your Powershell is launched you can load the function using the Dot Sourcin
 # DATE:		2012/12/27 
 # EMAIL:	fxcat@lazywinadmin.com
 # WEBSITE:	LazyWinAdmin.com
-# TWiTTER:	@lazywinadm
+# TWiTTER:	@lazywinadmin
 #  
 # COMMENT:	The following functions will gather all the local and domain members (direct or nested)
 # 			By Default the function will query the Localhost and the Group Administrators.
