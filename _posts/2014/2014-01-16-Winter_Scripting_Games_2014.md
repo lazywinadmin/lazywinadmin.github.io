@@ -33,7 +33,7 @@ For the 2014 Edition however, the formula of the Scripting Games is a bit differ
 
 
 <center><blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/search?q=%23powershell&amp;src=hash">#powershell</a> <a href="https://twitter.com/search?q=%23pshgames&amp;src=hash">#pshgames</a> portrait mode :) <a href="http://t.co/cXgNIk8sYA">pic.twitter.com/cXgNIk8sYA</a>
-â€” FranÃ§ois-Xavier Cat (@LazyWinAdm) <a href="https://twitter.com/LazyWinAdmin/statuses/419643651065909248">January 5, 2014</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
+â€” Francois-Xavier Cat (@LazyWinAdm) <a href="https://twitter.com/LazyWinAdmin/statuses/419643651065909248">January 5, 2014</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
 Here is my setup for the scripting games :-) (Coffee is a huge friend)! 
 </center>
 
