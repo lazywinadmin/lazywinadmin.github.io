@@ -6,8 +6,8 @@ toc: false
 toc_label: "Table of content"
 ---
 
-| Name | Link | Notes |
-|---|---|---|
+|Name|Notes|
+|---|---|
 {% for item in site.data.music-coding %}
-| {{ item.name }} | {{ item.link }} | {{ item.notes }} |
+| [{{ item.name }}]({{ item.link }}) | {{ item.notes }} |
 {% endfor %}
