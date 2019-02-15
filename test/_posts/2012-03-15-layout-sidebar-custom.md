@@ -7,8 +7,8 @@ sidebar:
     image: http://placehold.it/350x250
     image_alt: "image"
     text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
+    nav: sidebar-sample
+  - title: Another sidebar nav
     nav: sidebar-sample
 ---
 
@@ -24,5 +24,4 @@ sidebar:
     text: "Some text here."
   - title: "Another Title"
     text: "More text here."
-    nav: sidebar-sample
 ```
