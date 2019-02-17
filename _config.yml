@@ -61,7 +61,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : "https://dev.staticman.net/v3/entry/github/" # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha: 
-  siteKey                : "KA+qCwNGCR09jrnZveXKXYZ0jv1bLqhKok8CAEEuWZRDioToXpKFOKKw8AJuoo9t+FuMz58w8gexknxNckX3yMcVR6jyaJXL0/pUEqcaa5Cy+PBKsTRMB6asx5jOZ3mNajnKemqzcFvgvG5A3/GSb3KO7lsi/szzJa7Uv81BTeM="
+  siteKey                : "6Lep-ZEUAAAAAJ6uKJGiA7N8zk-ptLDBAcIDLfoA"
   secret                 : "d8Vye+OStMnpXvKlf5CnH8XEIyg7WYeQ5fHr30mo5vmJf6UJOBa8+UPG8Z8SBQ2DTD5y75W/O4qhhWGeiN4f/NBduBg9OBnDG2It1pl+hwp7/XzDa1uUosvMo18mGaLagwyGpsrQ8JO9tUcwuVwVqU5J9xhc+xBGoJrt+bIgT+0="
 #https://www.google.com/recaptcha/intro/v3.html
 # see doc https://mmistakes.github.io/minimal-mistakes/docs/configuration/#comment-moderation
