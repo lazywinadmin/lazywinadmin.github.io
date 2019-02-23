@@ -8,15 +8,16 @@ tags:
 - powershell
 - scripting
 - windows update
-published: true
+published: false
 comments: true
 ---
-```
-<span class="Apple-style-span" style="font-size: x-small;">#
+
+Quick post, I found this neat function from http://richardspowershellblog.wordpress.com/ to be able to retrieve the installed Windows updates.
+
+```powershell
+#
 # Functions from http://richardspowershellblog.wordpress.com/
 #
-
-
 # --- GET-UPDATE --- #
 function get-update {
     $session = New-Object -ComObject Microsoft.Update.Session
@@ -113,4 +114,3 @@ function install-update {
 
 }
 ```
-
