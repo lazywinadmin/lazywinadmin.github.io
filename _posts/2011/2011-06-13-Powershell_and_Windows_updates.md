@@ -8,7 +8,7 @@ tags:
 - powershell
 - scripting
 - windows update
-published: false
+published: true
 comments: true
 ---
 
