@@ -27,7 +27,7 @@ toc_label: "Table of content"
 Here is a recording to demo how you can install, configure and use the MVP PowerShell module to add your contributions into the MVP Website.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UeRvlMzfsT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
 ```powershell
 # Install the module
 Install-Module -Name MVP -Scope CurrentUser -Verbose
