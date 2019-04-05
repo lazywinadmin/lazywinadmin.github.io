@@ -13,7 +13,7 @@ comments: true
 toc: true
 toc_label: "Table of Content"
 ---
-![image-left](/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression/2013-10-19 4-20-29 PM__1161130349__-106x122.png"){: .align-left}
+![](/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression/2013-10-19 4-20-29 PM__1161130349__-106x122.png){: .align-left}
 <a href="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" /></a>Some more string manipulations! Today I'd like to remove the special characters and only keep alphanumeric characters using Regular Expression (Regex).
 
 You might be interested to check a previous article where I showed how to remove diacritics (accents) from some strings, see here: <a href="{{ site.url }}/2015/05/powershell-remove-diacritics-accents.html">{{ site.url }}/2015/05/powershell-remove-diacritics-accents.html</a>
@@ -23,7 +23,7 @@ If you are familiar with Regex, you could do something simple as using the metac
 
 Preview of the final solution:
 
-<a href="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/2015-08-30_18-40-10__1502951707__-844x209.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="99" src="{{ site.url }}/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/2015-08-30_18-40-10__1239215365__-400x99.png" width="400" /></a>
+[![](/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/2015-08-30_18-40-10__1502951707__-844x209.png)](/images/2015/20150830_PowerShell_-_Remove_special_characters_from_a_string_using_Regular_Expression_(Regex)/2015-08-30_18-40-10__1239215365__-400x99.png)
 
 ## Regex approaches
 
