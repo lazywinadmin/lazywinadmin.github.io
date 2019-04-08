@@ -13,7 +13,7 @@ published: true
 header:
   teaserlogo:
   teaser: ''
-  image: images/headers/disqus_migration-1936x500.png
+  image: images/headers/mountain01_1920x500.jpg
   caption: 'unsplash.com'
 gallery:
   - image_path: ''
