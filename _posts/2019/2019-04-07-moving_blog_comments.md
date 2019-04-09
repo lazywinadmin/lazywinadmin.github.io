@@ -636,8 +636,8 @@ On the Github side, it will just look like a regular issue. Note that the title 
 
 List of issues related to blog posts:
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/Githubissues01.png){: .align-center}
+![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues01.png){: .align-center}
 
 Comments for a particular blog post:
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/Githubissues02.png){: .align-center}
+![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues02.png){: .align-center}
