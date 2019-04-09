@@ -23,6 +23,9 @@ toc: true
 toc_label: "Table of content"
 ---
 
+**Update 2019/04/08** Adding a preview of the results
+{: .notice}
+
 In this post I'm documenting my blog comment migration from Disqus to Github Issues using PowerShell. It was stricky... hopefully the diagrams help you to understand what I was trying to resolve.
 
 # Hosting my comments on Disqus
@@ -80,6 +83,7 @@ To comment, users must authorize the utterances app to post on their behalf usin
 * **Cons**
   * No Anonymous :see_no_evil:
   * Github account required
+  * For imported comments, we can't have the comment entries appear with their real author, the import is done by my account
   * Need to be migrated if host is changed
 
 ## Using Pull request and comment files stored with your code
@@ -94,6 +98,7 @@ Solutions using this approach: [StaticMan App](https://staticman.net/) or [using
   * Easily editable 📝 (User can edit their comments on the repo, but not so straight forward from the website)
   * No ads 👍
   * Open Source :raised_hands:
+  * Authors of the comments will show properly after import
 * **Cons**
   * Need to review comments before publishing
   * No support for markdown
@@ -614,3 +619,25 @@ comments:
 ```
 
 However if your blog does not, you can find information on the following [page](https://utteranc.es/).
+
+# Final result
+
+Now what does the final result looks like, here are the two perspectives:
+
+## Blog post
+
+If you look at a blog article, now it will look like this:
+
+![image-center](/images/2019/2019-04-07-moving_blog_comments/blogpost01.png){: .align-center}
+
+## Github Issues
+
+On the Github side, it will just look like a regular issue. Note that the title contains the relative path of the blog post. This is how Utterances retrieve the related issue and its comments.
+
+List of issues related to blog posts:
+
+![image-center](/images/2019/2019-04-07-moving_blog_comments/Githubissues01.png){: .align-center}
+
+Comments for a particular blog post:
+
+![image-center](/images/2019/2019-04-07-moving_blog_comments/Githubissues02.png){: .align-center}
