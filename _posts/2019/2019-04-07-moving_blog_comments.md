@@ -22,8 +22,7 @@ gallery:
 toc: true
 toc_label: "Table of content"
 ---
-
-**Update 2019/04/08** Adding a preview of the results
+**Update 2019/04/12** Adding a preview of the results
 {: .notice}
 
 In this post I'm documenting my blog comment migration from Disqus to Github Issues using PowerShell. It was stricky... hopefully the diagrams help you to understand what I was trying to resolve.
@@ -629,6 +628,10 @@ Now what does the final result looks like, here are the two perspectives:
 If you look at a blog article, now it will look like this:
 
 ![image-center](/images/2019/2019-04-07-moving_blog_comments/blogpost01.png){: .align-center}
+
+You also have a link that send you directly to the Github issue item related to the Blogpost
+
+![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues03.png){: .align-center}
 
 ## Github Issues
 
