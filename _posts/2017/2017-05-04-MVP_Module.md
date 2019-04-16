@@ -24,7 +24,7 @@ gallery:
     title: ''
 toc: true
 toc_label: "Table of content"
-
+toc_sticky: true
 ---
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ base_path }}/images/2017/2017-05-04-MVP_Module/MVP_BlackOnly.png" />
 The [MVP PowerShell module](https://github.com/lazywinadmin/MVP) is finally out! This module allows you to interact with the Microsoft MVP Portal Api directly from PowerShell. The goal being to help any Microsoft MVP Award recipient to maintain and update their profile, for example by adding multiple contributions at once.
