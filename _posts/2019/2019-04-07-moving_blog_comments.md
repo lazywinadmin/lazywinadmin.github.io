@@ -21,6 +21,7 @@ gallery:
     title: ''
 toc: true
 toc_label: "Table of content"
+toc_sticky: true
 ---
 **Update 2019/04/12** Adding a preview of the results
 {: .notice}

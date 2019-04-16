@@ -23,6 +23,7 @@ gallery:
     title: ''
 toc: true
 toc_label: "Table of content"
+toc_sticky: true
 ---
 
 # Summary
