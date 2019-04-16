@@ -24,6 +24,7 @@ gallery:
 toc: true
 toc_label: "Table of content"
 toc_icon: "code"
+toc_sticky: true
 ---
 
 # CoinMarketCap
