@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "MeetupPS PowerShell module"
-classes: wide
 excerpt: "I recently released a PowerShell module called MeetupPS to interact with the Meetup API. This allows you to gather information about groups and create events"
 permalink:
 tags: 
@@ -24,6 +23,7 @@ gallery:
     title: ''
 toc: true
 toc_label: "Table of content"
+toc_sticky: true
 ---
 
 I recently released a PowerShell module called MeetupPS. This module is a wrapper around the Rest API offered by Meetup.com. The commands available at the moment allow you to:
