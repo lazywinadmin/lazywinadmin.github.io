@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-Last month I posted [a script that report the Missing Subnets](/2013/10/powershell-report-ad-missing-subnets.html) from the Active Directory. The script goes on each Domain Controllers and get the last x entries from the NETLOGON.log file.
+![image-left](/images/2013/20131110_PowerShell_-_Add_AD_Site_Subnet/Add_subnet2__1291922575__-142x124.png){: .align-left} Last month I posted [a script that report the Missing Subnets](/2013/10/powershell-report-ad-missing-subnets.html) from the Active Directory. The script goes on each Domain Controllers and get the last x entries from the NETLOGON.log file.
 Once this report is generated, you might want to check with your Telecom guy/team to get the correct network mask, correct site of each entries and fix this situation.
 
 <u>Reminder:</u> Subnet objects (class subnet) define network subnets in Active Directory. A network subnet is a segment of a TCP/IP network to which a set of logical IP addresses is assigned. Subnets group computers in a way that identifies their physical proximity on the network. Subnet objects in Active Directory are used to map computers to sites.
