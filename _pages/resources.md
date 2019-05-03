@@ -157,7 +157,7 @@ toc_sticky: true
 
 # Active Directory
 
-* (http://www.microsoftvirtualacademy.com/training-courses/using-powershell-for-active-directory)Using PowerShell for Active Directory (2014/11)
+* [Using PowerShell for Active Directory (2014/11)](http://www.microsoftvirtualacademy.com/training-courses/using-powershell-for-active-directory)
 
 # Tools
 
@@ -168,7 +168,7 @@ toc_sticky: true
 * [JoeWare Tools](http://www.joeware.net/freetools/index.htm) offers a bunch of tool for saving administrators around the world time and frustration
 * [NirSoft Tools](http://www.nirsoft.net/) NirSoft web site provides a unique collection of small and useful freeware utilities, all of them developed by Nir Sofer.
 * [CJWDEV Tools](http://www.cjwdev.co.uk/Software.html) offer softwares aimed at helping make the jobs of fellow IT Professionalss easier
-* [NetPerf](http://www.chriswolf.com/download/netperf.zip) Netperf is a great tool for obtaining instantaneous network bandwidth between a client and server. Instructions on using Netperf can be found in (http://mcpmag.com/articles/2005/09/13/bottleneck-battle.aspx">this article
+* [NetPerf](http://www.chriswolf.com/download/netperf.zip) Netperf is a great tool for obtaining instantaneous network bandwidth between a client and server. Instructions on using Netperf can be found in [this article](http://mcpmag.com/articles/2005/09/13/bottleneck-battle.aspx)
 * [Netwrix Freetools](http://www.netwrix.com/top_10_freeware_tools.html)
 * [WMI Explorer 2014 (SAPIEN)](http://www.sapien.com/blog/2013/07/29/introducing-the-wmi-explorer-2014/) Allows you to get a handle on WMI classes and their properties and methods
 * [WMI Explorer](http://powershell.org/wp/wp-content/uploads/2013/03/wmiexplorer.zip?4d9871) - PowerShell-based WMI Explorer tool created by Marc van Orsouw (aka `/\/\O\/\/`)
