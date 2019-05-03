@@ -114,10 +114,12 @@ VERBOSE: Script Completed
 
 ```
 
-The parameters of my function<b>Name</b>,<b>Location</b>,<b>Site</b>and<b>Description</b>will match theproperties in the CSV file so the cmdlet will be able to interpret them. This is possible thanks to the parameter<span style="background-color: white;"><b><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">ValueFromPipelineByPropertyName</b>
+The parameters of my function *Name*, *Location*, *Site* and *Description* will match theproperties in the CSV file so the cmdlet will be able to interpret them. This is possible thanks to the parameter `ValueFromPipelineByPropertyName`.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-RZj1W1Cs-Y4/UoBpsAVCSUI/AAAAAAABeiI/zNSzXa3tNP0/s1600/2013-11-11+12-22-31+AM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://4.bp.blogspot.com/-RZj1W1Cs-Y4/UoBpsAVCSUI/AAAAAAABeiI/zNSzXa3tNP0/s1600/2013-11-11+12-22-31+AM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Management Console: Active Directory Sites and Services. We can see the
-subnets created.</td></tr></tbody></table><h4>Download the function
+subnets created.</td></tr></tbody></table>
+
+# Download the function
 
 <a href="http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">TechNet Gallery</a>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">Github (CSV and PS1)</a>
@@ -125,7 +127,9 @@ subnets created.</td></tr></tbody></table><h4>Download the function
 # Using the new cmdlets in ActiveDirectory module
 
 <i style="background-color: yellow;">Applies To: Windows 8.1, Windows PowerShell 4.0, Windows Server 2012 R2</i><i>
-</i><h4>Finding related cmdlets
+</i>
+
+# Finding related cmdlets
 
 ```powershell
 PS C:\LazyWinAdmin> get-command *subnet*
