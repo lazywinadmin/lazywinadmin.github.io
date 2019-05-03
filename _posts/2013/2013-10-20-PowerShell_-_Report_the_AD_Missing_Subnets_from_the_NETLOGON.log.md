@@ -16,30 +16,33 @@ tags:
 - subnet
 published: true
 comments: true
+toc: true
+toc_sticky: true
 ---
-<a href="{{ site.url }}/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/1382328008_Contacts__1514056776__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/1382328008_Contacts__1514056776__-128x128.png" /></a>Today I will share with you a script that report the Missing Subnets detected in the NetLogon file(s) of your Active Directory Domain Controller(s).
+Today I will share with you a script that report the Missing Subnets detected in the NetLogon file(s) of your Active Directory Domain Controller(s).
 
-<b><u style="background-color: yellow;">Update:</u></b> See <a href="https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1" target="_blank">my Github repository</a> for the most recent version
+**Update** See [my Github repository](https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1) for the most recent version
+{: .notice--info}
 
-
-### <b>Missing Subnets</b>
+# Missing Subnets
 
 When a computer is joined to a domain It knows for sure of which AD domain it is a member. However once the computer is joined to the domain, It may or may not know which AD site it belongs to. Even if it thinks it knows the AD site, it may not even be in the correct AD site (e.g. because it was moved, AD site was renamed, Subnet not declared, Subnet was removed from a site and add to another...etc.).
 
+## Fixing this issue
 
+In the Active Directory Sites and Services console, your need to associate create all of your subnets inthese subnets with the appropriate site(s). It is important to note that with Windows Server 2012 R2 some new cmdlets are available with the Active Directory module to manage the Site subnets:
 
-<h4>Fixing this issue
+* [Get-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852246.aspx)
+* [New-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852206.aspx)
+* [Set-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852195.aspx)
+* [Remove-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852303.aspx)
 
-In the Active Directory Sites and Services console, your need to associate create all of your subnets inthese subnets with the appropriate site(s). It is important to note that with Windows Server 2012 R2 some new cmdlets are available with the Active Directory module to manage the Site subnets:<a href="http://technet.microsoft.com/en-us/library/hh852246.aspx" target="_blank">Get-ADReplicationSubnet</a>,<a href="http://technet.microsoft.com/en-us/library/hh852206.aspx" target="_blank">New-ADReplicationSubnet</a>,<a href="http://technet.microsoft.com/en-us/library/hh852195.aspx" target="_blank">Set-ADReplicationSubnet</a>and<a href="http://technet.microsoft.com/en-us/library/hh852303.aspx" target="_blank">Remove-ADReplicationSubnet</a>.
-
-
-
-### <b>NETLOGON.log</b>
+# NETLOGON.log
 
 If some subnets are not declared in your Active Directory and/or not assigned to Site, you might start to see those kind of message in your NetLogon.log file.
 
 Path of the NETLOGON.log file on a Domain Controller:
-<b><i style="background-color: yellow;">\\<dcname>\admin$\debug\netlogon.log</i></b>
+<b><i style="background-color: yellow;">\\<dcname>\admin$\debug\netlogon.log</i>
 
 <u>Missing subnets errors in NetLogon.log</u>
 
@@ -52,65 +55,43 @@ Path of the NETLOGON.log file on a Domain Controller:
 
 A NetLogon.log exists on all the Domain Controllers of your domain, so you need to check every single of them to have the full list of subnets to add.
 
-
-
-### <b>PowerShell Reporting</b>
+# PowerShell Reporting
 
 So I created a PowerShell script to handle this task and report all the Missing subnets automatically (every month in my case). Here is a screenshot of the final report. In my opinion, this does not need to run everyday or every week.
 
-<a href="http://3.bp.blogspot.com/-EPI7odaA76w/UmNYbF7QVKI/AAAAAAABeLw/Ug9v4f60law/s1600/2013-10-15+12-33-20+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-EPI7odaA76w/UmNYbF7QVKI/AAAAAAABeLw/Ug9v4f60law/s1600/2013-10-15+12-33-20+AM.png" /></a>
+![image-center](http://3.bp.blogspot.com/-EPI7odaA76w/UmNYbF7QVKI/AAAAAAABeLw/Ug9v4f60law/s1600/2013-10-15+12-33-20+AM.png){: .align-center}
 
+# How the script work
 
+![image-center](/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.png){: .align-center}
 
-### How the script work
-
-
-<a href="{{ site.url }}/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="552" src="{{ site.url }}/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__1998994015__-640x552.png" width="640" /></a>
-
-
-* 
-* Get the list of Domain Controllers in the Domain using .NET
-
-* Get the Last 200 Lines from the NETLOGON.log on each Domain controllers (200 is default)
-
-* Process Logs and Compile in one list and keep one entry per IP
-
-* Export the AD Missing Subnet to a CSV file locally
-* 
-* Exported in: $scriptPathOutput\$DateFormat-AD-SITE-MissingSubnets.csv
-
-
-* Send an Email Report.
+1. Get the list of Domain Controllers in the Domain using .NET
+1. Get the Last 200 Lines from the NETLOGON.log on each Domain controllers (200 is default)
+1. Process Logs and Compile in one list and keep one entry per IP
+1. Export the AD Missing Subnet to a CSV file locally
+1. Exported in: $scriptPathOutput\$DateFormat-AD-SITE-MissingSubnets.csv
+1. Send an Email Report.
 
 <u>The report will contains:</u>
 
-
 * One table with the Missings Subnets from all the Domain Controllers
-
 * The other error(s) found in the last 200 lines of each NETLOGON.log on each Domain Controllers(200 is default)
 
-<a href="http://4.bp.blogspot.com/-Zo09Rn47Uzw/UmSHnbNj_2I/AAAAAAABeNU/AqdNqcD2i-U/s1600/2013-10-20+9-36-27+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-Zo09Rn47Uzw/UmSHnbNj_2I/AAAAAAABeNU/AqdNqcD2i-U/s1600/2013-10-20+9-36-27+PM.png" /></a>
+![image-center](http://4.bp.blogspot.com/-Zo09Rn47Uzw/UmSHnbNj_2I/AAAAAAABeNU/AqdNqcD2i-U/s1600/2013-10-20+9-36-27+PM.png){: .align-center}
 
-### Requirement
+# Requirement
 
+1. A Task scheduler to execute the script every x weeks
+1. Permission to Read `\\DC\admin$`, a basic account without specific rights will do it
+1. Permission to write locally in the Output folder ($ScriptPath\Output)
 
-* A Task scheduler to execute the script every x weeks
+# Running the script
 
-* Permission to Read \\DC\admin$, a basic account without specific rights will do it
-
-* Permission to write locally in the Output folder ($ScriptPath\Output)
-
-
-### Running the script
-
-<h4>With Verbose
-
-
-```
+```powershell
 PS C:\User\Francois-Xavier> ./TOOL-AD-SITE-Report_Missing_Subnets.ps1 -Verbose -EmailServer mail.fx.lab -EmailTo "catfx@fx.lab" -EmailFrom Reporting@fx.lab -EmailSubject "AD - MIssing Subnets"
 ```
 
-```
+```text
 VERBOSE: Domain: FX.LAB
 VERBOSE: Getting all Domain Controllers from FX.LAB ...
 VERBOSE: Gathering Logs from Domain controllers
@@ -127,15 +108,14 @@ VERBOSE: Preparing the Email
 VERBOSE: Email Sent!
 VERBOSE: Cleanup txt and log files...
 VERBOSE: Script Completed
-
 ```
 
 This will generate the report inserted at the beginning of this article.
 
+## Validating the Email Addresses
 
-<h4>Validating the Email Addresses
-
-<pre style="background-color: #f8f8f8; border-style: solid; border-width: 1px; font-size: 0.70em;">[Parameter(Mandatory=$true,HelpMessage="You must specify the Sender Email Address")]
+```powershell
+[Parameter(Mandatory=$true,HelpMessage="You must specify the Sender Email Address")]
 [ValidatePattern("[a-z0-9!#\$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#\$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?")]
 [String]$EmailFrom,
 [Parameter(Mandatory=$true,HelpMessage="You must specify the Destination Email Address")]
@@ -143,13 +123,14 @@ This will generate the report inserted at the beginning of this article.
 [String[]]$EmailTo,
 ```
 
-For the email addresses validation, at first I wanted to use the [mailaddress] class, but this only work since PowerShell v3.0 so I decided to add the previous regex so it is supported on PowerShell v2.0 too.
+For the email addresses validation, at first I wanted to use the `[mailaddress]` class, but this only work since PowerShell v3.0 so I decided to add the previous regex so it is supported on PowerShell v2.0 too.
 
-Note that I also use the [ValidatePattern] attribute declaration, which is super useful!<a class="g-profile" href="http://plus.google.com/109354722869529171746" target="_blank">+Jeffery Hicks</a> wrote <a href="http://jdhitsolutions.com/blog/2012/04/powershell-scripting-with-validatepattern/" target="_blank">a great article </a>about it last year.
+Note that I also use the `[ValidatePattern]` attribute declaration, which is super useful! Jeffery Hicks wrote [a great article](http://jdhitsolutions.com/blog/2012/04/powershell-scripting-with-validatepattern) about it last year.
 
-<h4>Gathering the information from all the different Netlogon.log files
+## Gathering the info from Netlogon.log files
 
-<pre style="background-color: #f8f8f8; border-style: solid; border-width: 1px; font-size: 0.70em;"># NETLOGON.LOG path for the current Domain Controller
+```powershell
+# NETLOGON.LOG path for the current Domain Controller
 $path = "\\$DCName\admin`$\debug\netlogon.log"
 
 # Testing the $path
@@ -169,9 +150,10 @@ IF ((Test-Path -Path $path) -and ((Get-Item -Path $path).Length -ne $null))
 }ELSE{Write-Warning -Message "$DCName NETLOGON.log is not reachable"}
 ```
 
-<h4>Combining the logs
+## Combining the logs
 
-<pre style="background-color: #f8f8f8; border-style: solid; border-width: 1px; font-size: 0.70em;"># Combine all the TXT file in one
+```powershell
+# Combine all the TXT file in one
 $FilesToCombine = Get-Content -Path $ScriptPathOutput\*.txt -ErrorAction SilentlyContinue
 if ($FilesToCombine){
     $FilesToCombine| Out-File -FilePath $ScriptPathOutput\$dateformat-All_Export.txt
@@ -188,14 +170,13 @@ if ($FilesToCombine){
     Write-Verbose -Message "Other Error(s) Found: $($OtherErrors.count)"
 ```
 
-<h4>Checking the Comment based Help
+## Comment based Help
 
-
-```
+```powershell
 PS C:\LazyWinAdmin> Get-help .\AD-Find_missing_subnets_in_ActiveDirectory.ps1 -full
 ```
 
-```
+```text
 NAME
     C:\LazyWinAdmin\AD-Find_missing_subnets_in_ActiveDirectory_20131020.ps1
 
@@ -316,25 +297,21 @@ NOTES
 
 
 RELATED LINKS
-
-
-
-
 ```
 
+# Download
 
-### Download
+* [Technet](http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb)
+* [Github Repository (Most updated version)](https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1)
 
-<a href="http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb" target="_blank">TechNet Repository</a>
-<a href="https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1" target="_blank">Github Repository (Most updated version)</a>
+# Resources
 
-
-### More Information
-
-<a href="http://technet.microsoft.com/en-us/library/hh852246.aspx" target="_blank">TechNet -Get-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/library/hh852206.aspx" target="_blank">TechNet - New-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/library/hh852195.aspx" target="_blank">TechNet - Set-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/library/hh852303.aspx" target="_blank">TechNet - Remove-ADReplicationSubnet (Windows 8.1/W2012R2)</a><a href="http://technet.microsoft.com/en-us/magazine/2009.06.subnets.aspx" target="_blank">Using Catch-All Subnets in Active Directory</a>
-<a href="http://jorgequestforknowledge.wordpress.com/2011/01/27/dc-locator-what-does-quot-no-client-site-quot-mean-in-netlogon-log/" target="_blank"> DC Locator – What Does "NO_CLIENT_SITE" Mean In Netlogon.log</a>
-<a href="http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx" target="_blank">Ask the Directory Services Team - Sites Sites Everywhere...</a>
-<a href="http://support.microsoft.com/kb/314861/en-us" target="_blank">How Domain Controllers Are Located in Windows XP</a>
-<a href="http://technet.microsoft.com/en-us/library/cc733142(v=ws.10).aspx" target="_blank">Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)</a>
-
-
+* [TechNet -Get-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852246.aspx)
+* [TechNet - New-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852206.aspx)
+* [TechNet - Set-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852195.aspx)
+* [TechNet - Remove-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852303.aspx)
+* [Using Catch-All Subnets in Active Directory](http://technet.microsoft.com/en-us/magazine/2009.06.subnets.aspx)
+* [DC Locator – What Does "NO_CLIENT_SITE" Mean In Netlogon.log](http://jorgequestforknowledge.wordpress.com/2011/01/27/dc-locator-what-does-quot-no-client-site-quot-mean-in-netlogon-log/)
+* [Ask the Directory Services Team - Sites Sites Everywhere...](http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx)
+* [How Domain Controllers Are Located in Windows XP](http://support.microsoft.com/kb/314861/en-us)
+* [Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)](http://technet.microsoft.com/en-us/library/cc733142(v=ws.10).aspx)
