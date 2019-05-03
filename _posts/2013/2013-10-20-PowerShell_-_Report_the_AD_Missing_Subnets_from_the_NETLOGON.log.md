@@ -42,7 +42,7 @@ In the Active Directory Sites and Services console, your need to associate creat
 If some subnets are not declared in your Active Directory and/or not assigned to Site, you might start to see those kind of message in your NetLogon.log file.
 
 Path of the NETLOGON.log file on a Domain Controller:
-<b><i style="background-color: yellow;">\\<dcname>\admin$\debug\netlogon.log</i>
+<b><i style="background-color: yellow;">\\<dcname>\admin$\debug\netlogon.log
 
 <u>Missing subnets errors in NetLogon.log</u>
 
