@@ -27,7 +27,7 @@ Today I will show how to add those missing subnets in your Active Directory usin
 
 In some of my previous posts, I learned a lot about ADSI and I thought I could do the same for this one and find a way to create my subnets with ADSI.
 
-I came up with the following function which accept 4 parameters: <b>Subnet</b>, <b>SiteName</b>, <b>Description</b> and <b>Location</b>.
+I came up with the following function which accept 4 parameters: Subnet, SiteName, Description and <b>Location.
 
 <a href="http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">Download from TechNet Gallery</a>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">Download from Github (CSV and PS1)</a>
@@ -186,8 +186,22 @@ Site              : CN=FX3,CN=Sites,CN=Configuration,DC=FX,DC=LAB
 
 We re-use the same file used in the ADSI example (above) with a few subnets to add:
 <a href="http://3.bp.blogspot.com/-_kFn8eojX_I/UoAagaVAEaI/AAAAAAABehI/qp4K8mFxric/s1600/2013-11-10+6-35-03+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-_kFn8eojX_I/UoAagaVAEaI/AAAAAAABehI/qp4K8mFxric/s1600/2013-11-10+6-35-03+PM.png" /></a>
-<div class="separator" style="clear: both; text-align: left;"><b>Name</b>, <b>Location</b>,<b> Site</b> and <b>Description</b> properties are in the CSV file so the cmdlet will be able to interpret them.<div class="separator" style="clear: both; text-align: left;">
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-wXnHmMkqjyY/UoApvSncyeI/AAAAAAABeho/jG-wHtWuUP8/s1600/2013-11-10+7-49-16+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://1.bp.blogspot.com/-wXnHmMkqjyY/UoApvSncyeI/AAAAAAABeho/jG-wHtWuUP8/s1600/2013-11-10+7-49-16+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Get-Help New-ADReplicationSubnet -ShowWindow</td></tr></tbody></table><div class="separator" style="clear: both; text-align: left;">Here is the result using the <b>-Verbose</b> parameter.<div class="separator" style="clear: both; text-align: left;">By default <b>New-ADReplicationSubnet</b> cmdlet does not generate output, so here we only see the output of the verbose parameter.<div class="separator" style="clear: both; text-align: left;">
+
+*Name*, *Location*, *Site* and *Description* properties are in the CSV file so the cmdlet will be able to interpret them.
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+    <tbody>
+    <tr>
+    <td style="text-align: center;">
+    <a href="http://1.bp.blogspot.com/-wXnHmMkqjyY/UoApvSncyeI/AAAAAAABeho/jG-wHtWuUP8/s1600/2013-11-10+7-49-16+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://1.bp.blogspot.com/-wXnHmMkqjyY/UoApvSncyeI/AAAAAAABeho/jG-wHtWuUP8/s1600/2013-11-10+7-49-16+PM.png" /></a>
+    </td>
+    </tr>
+    <tr>
+    <td class="tr-caption" style="text-align: center;">Get-Help New-ADReplicationSubnet -ShowWindow</td>
+    </tr></tbody>
+</table>
+
+Here is the result using the `-Verbose` parameter.By default `New-ADReplicationSubnet` cmdlet does not generate output, so here we only see the output of the verbose parameter.
 
 ```powershell
 PS C:\LazyWinAdmin> import-csv .\subnets.csv | New-ADReplicationSubnet -Verbose
@@ -212,7 +226,7 @@ VERBOSE: Performing operation "New" on Target
 "CN=192.168.8.0/24,CN=Subnets,CN=Sites,CN=Configuration,DC=FX,DC=LAB".
 ```
 
-The parameter <b>-PassThru</b> must be used if you want to see the output of this cmdlet.
+The parameter `-PassThru` must be used if you want to see the output of this cmdlet.
 
 ```powershell
 PS C:\LazyWinAdmin> import-csv .\subnets.csv | New-ADReplicationSubnet -PassThru -Verbose
