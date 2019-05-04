@@ -12,6 +12,8 @@ tags:
 - report
 published: true
 comments: true
+toc: true
+toc_sticky: true
 ---
 **Update** The most recent update is available [on Github](https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip)
 {: .notice}
