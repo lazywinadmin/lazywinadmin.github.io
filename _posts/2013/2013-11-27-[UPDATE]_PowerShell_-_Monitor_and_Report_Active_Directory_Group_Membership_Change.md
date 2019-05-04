@@ -47,14 +47,14 @@ See also my previous blogposts:
   * Group
   * Organization Unit
   * List
-* Change History files
+* Change History files changes
   * In the previous version, a file was generate for each change of each group, I decided to use only one file per group for the change history. The script will just append the new information to it.
   * Membership and Changes History files changes
-* ADD Properties `DisplayName` and the `DateTime`
-* Report changes
-* ADD Additional information on the Group
-* ADD Title include the DOMAIN\GroupName
-* `[MailAddress]` type which is available in PowerShell v3.0 has been <u>removed</u> on the parameter $Emailto and $EmailFrom to allow support on PowerShell 2.0. This is actually replaced by aRegular Expression validation
+  * ADD Properties `DisplayName` and the `DateTime`
+* Reporting changes
+  * ADD Additional information on the Group
+  * ADD Title include the DOMAIN\GroupName
+  * `[MailAddress]` type which is available in PowerShell v3.0 has been <u>removed</u> on the parameter $Emailto and $EmailFrom to allow support on PowerShell 2.0. This is actually replaced by aRegular Expression validation
 * ... and some more minors other changes...
 
 <u>Note:</u> Unfortunately, if you were already using the script, this update won't work with the old ChangeHistory.csv files (So you will need to archives the old ones in another directory). I added some properties and decided to keep only one file per group to track the change history, these changes are not compatible with the old files (previous to version 1.6)
