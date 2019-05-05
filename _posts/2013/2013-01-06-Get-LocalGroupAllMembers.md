@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Get-LocalGroupAllMembers
+title: PowerShell - Retrieve a local group membership
 excerpt: 
 permalink: /2013/01/get-localgroupallmembers.html
 tags: 
