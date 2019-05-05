@@ -1,6 +1,6 @@
 ---
 layout: single
-title: How to find running processes and their port number
+title: PowerShell - How to find running processes and their port number
 excerpt: 
 permalink: /2011/02/how-to-find-running-processes-and-their.html
 tags: 
@@ -10,20 +10,25 @@ tags:
 published: true
 comments: true
 ---
-[Source](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2011/02/10/How-to-find-running-processes-and-their-port-number.aspx)
-{: .notice}
-
-The <i>netstat</i> command line utility displays protocol statistics and current TCP/IP network connections. If we want to display the associated process identifier (PID) of each process we add the -o parameter.
+The *netstat* command line utility displays protocol statistics and current TCP/IP network connections. If we want to display the associated process identifier (PID) of each process we add the `-o` parameter.
 
 ![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_2576CA4D__161054948__-720x365.png){: .align-center}
 
-o filter the result we need to pipe to the<i>Find</i>utility and again, the result is text!. In [PowerShell](http://www.microsoft.com/PowerShell) we can get the same information with the following command, however the process PID is missing and the connections in LISTENING state are not included by default.
+This filter the result we need to pipe to the `Find.exe` utility and again, the result is text!.
+
+In PowerShell we can get the same information with the following command, however the process PID is missing and the connections in `LISTENING` state are not included by default.
 
 ```powershell
 PS > [System.Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties().GetActiveTcpConnections()
 ```
 
-With the `Get-NetworkStatistics` function we can get the same information but each returned connection is an object.`Get-NetworkStatistics` parses only TCP/UDP connections (entries that starts with `[::` are ignored). Each connection is divided into two columns. For example, if the `Local Address` column has a value of `0.0.0.0:80` the IP address will be shown in the LocalAddress property (e.g 0.0.0.0) and the port number in the LocalPort property (e.g 80). The name of each process is also added to the result. This should make filtering much more easier when we pipe the result to the [Where-Object](http://go.microsoft.com/fwlink/?LinkID=113423) cmdlet, allowing us to filter on any property of a connection.<strong>UPDATE</strong>: Added support for IPv6 connections. [@xcud](http://twitter.com/xcud) and surveyor, thanks for the input!
+With the `Get-NetworkStatistics` function we can get the same information but each returned connection is an object.
+
+`Get-NetworkStatistics` parses only TCP/UDP connections (entries that starts with `[::` are ignored). Each connection is divided into two columns.
+
+For example, if the `Local Address` column has a value of `0.0.0.0:80` the IP address will be shown in the LocalAddress property (e.g 0.0.0.0) and the port number in the LocalPort property (e.g 80).
+
+The name of each process is also added to the result. This should make filtering much more easier when we pipe the result to the [Where-Object](http://go.microsoft.com/fwlink/?LinkID=113423) cmdlet, allowing us to filter on any property of a connection.
 
 ```powershell
 function Get-NetworkStatistics

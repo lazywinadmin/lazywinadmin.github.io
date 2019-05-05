@@ -1,9 +1,9 @@
 ---
 layout: single
 title: PowerShell - Using ADSI with alternate Credentials
-excerpt: 
+excerpt:
 permalink: /2013/10/powershell-using-adsi-with-alternate.html
-tags: 
+tags:
 - active directory
 - adsi
 - credentials
@@ -11,24 +11,22 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
 ---
-<a href="{{ site.url }}/images/2013/20131028_PowerShell_-_Using_ADSI_with_alternate_Credentials/022__2014673127__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20131028_PowerShell_-_Using_ADSI_with_alternate_Credentials/022__2014673127__-128x128.png" /></a>The following PowerShell code will show you how to run ADSI with alternate credentials to get information from the Active Directory.
+
+![image-center]({{ site.url }}/images/2013/20131028_PowerShell_-_Using_ADSI_with_alternate_Credentials/022__2014673127__-128x128.png){: .align-center}
+
+The following PowerShell code will show you how to run ADSI with alternate credentials to get information from the Active Directory.
 
 I will query Group objects in this example, my filter is define by the following line:"(objectCategory=Group)"
 
+## Using ADSI with alternate Credentials
 
-
-
-
-
-### Using ADSI with alternate Credentials
-
-
-```
+```powershell
 #Define the Credential
 $Credential = Get-Credential -Credential FX\catfx
 
-# Create an ADSI Search    
+# Create an ADSI Search
 $Searcher = New-Object -TypeName System.DirectoryServices.DirectorySearcher
 
 # Get only the Group objects
@@ -41,7 +39,11 @@ $Searcher.SizeLimit = '50'
 $DomainDN = $(([adsisearcher]"").Searchroot.path)
 
 # Create an object "DirectoryEntry" and specify the domain, username and password
-$Domain = New-Object -TypeName System.DirectoryServices.DirectoryEntry -ArgumentList $DomainDN ,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
+$Domain = New-Object `
+ -TypeName System.DirectoryServices.DirectoryEntry `
+ -ArgumentList $DomainDN,
+   $($Credential.UserName),
+   $($Credential.GetNetworkCredential().password)
 
 # Add the Domain to the search
 $Searcher.SearchRoot = $Domain
@@ -50,13 +52,9 @@ $Searcher.SearchRoot = $Domain
 $Searcher.FindAll()
 ```
 
+## Output
 
-
-### Output
-
-
-
-```
+```text
 PS C:\> $Searcher.FindAll()
 
 Path                                              Properties
@@ -109,40 +107,39 @@ LDAP://CN=DnsUpdateProxy,CN=Users,DC=FX,DC=LAB    {usnchanged, distinguishedname
 LDAP://CN=esx admins,OU=Local,OU=Administratio... {usnchanged, distinguishedname, grouptype, whe...
 LDAP://CN=ScorchUsers,OU=Global,OU=Administrat... {usnchanged, distinguishedname, grouptype, whe...
 LDAP://CN=Test Jonathan Group,CN=Users,DC=FX,D... {usnchanged, distinguishedname, grouptype, whe...
-
 ```
 
+## Credentials object
 
+The key here to pass the credentials is the .NET Class [System.DirectoryServices.DirectoryEntry](http://msdn.microsoft.com/en-us/library/system.directoryservices.directoryentry.aspx)
 
+![image-center](http://3.bp.blogspot.com/-g669rSYWxKI/Um8tITxbFvI/AAAAAAABeXM/2ax-024y2aI/s640/2013-10-28+11-33-37+PM.png){: .align-center}
 
-### Credentials
+If you inspect each of the constructors below, you will notice one accept a path, a username and a password `DirectoryEntry(String,String,String)`
 
-The key here to pass the credentials is the .NET Class <a href="http://msdn.microsoft.com/en-us/library/system.directoryservices.directoryentry.aspx" target="_blank">System.DirectoryServices.DirectoryEntry</a>
-<a href="http://3.bp.blogspot.com/-g669rSYWxKI/Um8tITxbFvI/AAAAAAABeXM/2ax-024y2aI/s1600/2013-10-28+11-33-37+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="521" src="http://3.bp.blogspot.com/-g669rSYWxKI/Um8tITxbFvI/AAAAAAABeXM/2ax-024y2aI/s640/2013-10-28+11-33-37+PM.png" width="640" /></a>
+![image-center](http://2.bp.blogspot.com/-tKLMwoOd8DQ/Um8uZwUJdII/AAAAAAABeXY/TnieNshPRUE/s1600/2013-10-28+11-36-51+PM.png){: .align-center}
 
+Which mean : `DirectoryEntry(path,username,password)`
 
-If you inspect each of the constructors below, you will notice one accept a path, a username and a password <span style="font-family: Courier New, Courier, monospace;">DirectoryEntry(String,String,String)
-<a href="http://2.bp.blogspot.com/-tKLMwoOd8DQ/Um8uZwUJdII/AAAAAAABeXY/TnieNshPRUE/s1600/2013-10-28+11-36-51+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-tKLMwoOd8DQ/Um8uZwUJdII/AAAAAAABeXY/TnieNshPRUE/s1600/2013-10-28+11-36-51+PM.png" /></a>
+![image-center](http://1.bp.blogspot.com/-omDSMlPAeSo/Um8urb6ILdI/AAAAAAABeXo/4rWPprYV_ZI/s1600/2013-10-28+11-37-59+PM.png){: .align-center}
 
-Which mean : <span style="font-family: Courier New, Courier, monospace;">DirectoryEntry(path,username,password)
-<a href="http://1.bp.blogspot.com/-omDSMlPAeSo/Um8urb6ILdI/AAAAAAABeXo/4rWPprYV_ZI/s1600/2013-10-28+11-37-59+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-omDSMlPAeSo/Um8urb6ILdI/AAAAAAABeXo/4rWPprYV_ZI/s1600/2013-10-28+11-37-59+PM.png" /></a>
 That's exactly what I used in the following line
+
+```powershell
+New-Object `
+  -TypeName System.DirectoryServices.DirectoryEntry `
+  -ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
 ```
-New-Object -TypeName System.DirectoryServices.DirectoryEntry -ArgumentList $DomainDN ,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
-```
 
-<b><span style="font-family: Courier New, Courier, monospace;">$DomainDN</b>contains the path of current domain : "LDAP://DC=FX,DC=LAB"
-<b><span style="font-family: Courier New, Courier, monospace;">$($Credential.UserName)</b>contains the username specify : "FX\Catfx"
-<b><span style="font-family: Courier New, Courier, monospace;">$($Credential.GetNetworkCredential().password)</b>contains the password
+* `$DomainDN` contains the path of current domain : "LDAP://DC=FX,DC=LAB"
+* `$($Credential.UserName)` contains the username specify : "FX\Catfx"
+* `$($Credential.GetNetworkCredential().password)` contains the password
 
-
-
-### More Properties
+## Additional properties
 
 Additionally if you want to get other properties, you will need to dig a bit
 
-
-```
+```text
 PS C:\> ($Searcher.FindAll())[0].properties
 
 Name                           Value
@@ -166,7 +163,3 @@ objectclass                    {top, group}
 dscorepropagationdata          {3/7/2013 2:19:52 AM, 1/1/1601 12:00:01 AM}
 name                           {WinRMRemoteWMIUsers__}
 ```
-
-
-
-

@@ -12,33 +12,21 @@ tags:
 - powershell
 - sapien powershell studio 2012
 - syntax highlighter
-published: true
+published: false
 comments: true
 ---
 <a href="http://1.bp.blogspot.com/-Y0pz30TmFXI/UlGBUPbTDfI/AAAAAAABd0g/LWurWKvb6kc/s1600/2013-10-06+11-20-41+AM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="178" src="http://1.bp.blogspot.com/-Y0pz30TmFXI/UlGBUPbTDfI/AAAAAAABd0g/LWurWKvb6kc/s200/2013-10-06+11-20-41+AM.png" width="200" /></a>From time to time you might be interested to have your code syntax highlighted or presented with a neat format in your blog posts.
 
 Plain text is boring and it can really mess up the layout of your post. Also It can be very hard to understand some code without some sort of syntax highlighting.
 
-
-
-
-
 Here are a few methods that I found useful for Blogger: (those can probably be applied to Wordpress and other platforms)
 
-
 * Method 1: Using Syntax Highlighter from Alex Gorbatchev
-
 * Method 2: Using an Editor to copy the code as HTML language
-
 * Method 3: HTML CSS Rectangle (PowerShell console look a like)
-
 * Method 4: Embedded code using Gist (GitHub)
 
-
-
-
-
-### <b>Method 1: Using <a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">Syntax Highlighter</a> from Alex Gorbatchev</b>
+### Method 1: Using <a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">Syntax Highlighter</a> from Alex Gorbatchev
 
 
 <u>Preview:</u>
@@ -51,11 +39,7 @@ $Params = @{
     ComputerName  = "$env:ComputerName"
     Class         = "win32_OperatingSystem"
 }
-
-
-
 ```
-
 
 <u>Configuration </u>
 * 
@@ -137,19 +121,19 @@ SyntaxHighlighter.all();
 ```
 
 
-### <b>
+### 
 </b>
 
 
-### <b>
+### 
 </b>
 
 
-### <b>
+### 
 </b>
 
 
-### <b>Method 2: Using an Editor to copy the code as HTML language.</b>
+### Method 2: Using an Editor to copy the code as HTML language.</b>
 
 
 In the following example, I use PowerShell Studio 2012, but this can also be done with some other editors.
@@ -181,7 +165,7 @@ Now you are ready to insert the HTML code in your blog post.
 
 
 
-### <b>Method 3: HTML CSS Rectangle</b>
+### Method 3: HTML CSS Rectangle</b>
 
 
 Preview:
@@ -282,7 +266,7 @@ For example, simply copy the code from your PowerShell windows and insert into t
 
 
 
-### <b>Method 4: Embedded code using Gist (GitHub)</b>
+### Method 4: Embedded code using Gist (GitHub)</b>
 
 "<i>Gist is a simple way to share snippets and pastes with others. All gists are Git repositories, so they are automatically versioned, forkable and usable from Git.</i>"
 
