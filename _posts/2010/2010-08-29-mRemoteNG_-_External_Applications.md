@@ -9,7 +9,13 @@ tags:
 - scripting
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
 ---
+
+> Update 2019/06/29: Add ExtApp.xml at the end of this post
+
+# External Applications list
 
 ## Application: Windows Computer Manager
 This will let you launch the Windows Computer Management MMC against the selected host. This MMC will let you view event logs, manage users, configure disks, manage services, and a whole bunch more. 
@@ -275,3 +281,42 @@ In my case i added %tools% (system variable)
 ## Application: Shutdown GUi
 * **Filename**: `shutdown`
 * **Arguments**: `/i /m %hostname%`
+
+
+# ExtApp.xml
+
+As requested in comment, here is the ExtApp.xml file.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Apps>
+    <App DisplayName="[HTTP] Dell OpenManage [1311]" FileName="iexplore" Arguments="http://%Hostname%:1311" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[HTTP] HP HomePage [2381]" FileName="iexplore" Arguments="http://%Hostname%:2381" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[HTTP] ILO" FileName="iexplore" Arguments="http://ilo-%Hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[HTTP] Localhost" FileName="iexplore" Arguments="http://%hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[MSC] Compmgmt" FileName="compmgmt.msc" Arguments="/computer:%hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[MSC] EventViewer" FileName="eventvwr" Arguments="%hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[MSC] Services" FileName="services.msc" Arguments="/computer:%hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="[PSTOOLS] Front-End (GUI)" FileName="cmd" Arguments="/k %mremote%\scripts\launch_fepstools.bat" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="C$" FileName="cmd" Arguments="/k powershell %mremote%\scripts\explorer.ps1 %hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="CMD (Psexec.exe)" FileName="cmd" Arguments="/k %mremote%\tools\psexec.exe \\%hostname% cmd.exe" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Files Opened (Psfile.exe)" FileName="cmd" Arguments="/k %mremote%\tools\psfile.exe \\%hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="IPconfig" FileName="cmd" Arguments="/k powershell %mremote%\scripts\ipconfig.ps1 %hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Logged-On Users (psloggedon.exe)" FileName="cmd" Arguments="/k %mremote%\tools\psloggedon.exe \\%hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Netstat (listening ports)" FileName="cmd" Arguments="/k %mremote%\tools\psexec.exe \\%hostname% netstat -nab |find /i &quot;listening&quot;" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Nmap (winpcap needed)" FileName="cmd" Arguments="/K nmap -sS -P0 %hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="NsLookup" FileName="cmd" Arguments="/K nslookup %hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Ping" FileName="cmd" Arguments="/K ping %Hostname% -t" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="PortPing - 3389" FileName="cmd" Arguments="/k %mremote%\tools\tools4ever\T4ePortPing.exe %hostname% 3389" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Processes List" FileName="powershell" Arguments="-noexit Get-wmiobject win32_process -computername %hostname% | Select-Object __server,name,processid,sessionid,vm,ws,description,executablepath,osname,windowsversion,__path | Out-GridView" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="RDP /admin (console session)" FileName="cmd" Arguments="/k mstsc /v:%hostname%:3389 /admin" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Server Information" FileName="powershell" Arguments="powershell -noexit $env:mremote\scripts\serverinfoglobal.ps1 %hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Services List" FileName="powershell" Arguments="-noexit Get-WMIObject win32_service -computer %hostname% | select-object displayname,name,state,status,startMode,processId,startname | Sort-Object state,displayname,name |Out-GridView " WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Shares List" FileName="powershell" Arguments="-noexit Get-WmiObject Win32_Share -ComputerName %hostname% | Select-Object Name,Path,caption,status,description | Out-GridView" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="SID or ACCOUNT Query" FileName="cmd" Arguments="/k powershell %mremote%\scripts\psgetsid.ps1" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Traceroute" FileName="cmd" Arguments="/K tracert %Hostname%" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="shutdown -s -t 0 -f" FileName="cmd" Arguments="/k shutdown.exe -m \\%hostname% -s -t 0 -f" WaitForExit="False" TryToIntegrate="False" />
+    <App DisplayName="Qwinsta" FileName="cmd" Arguments="/k qwinsta /server:%hostname% " WaitForExit="False" TryToIntegrate="False" />
+</Apps>
+```
+

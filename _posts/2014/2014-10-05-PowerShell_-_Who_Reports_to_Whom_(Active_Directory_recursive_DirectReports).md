@@ -13,6 +13,7 @@ published: true
 comments: true
 ---
 
+> Update 2019/06/29: Added an example to do wildcard search
  
 <a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Site_Map__1366356344__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Site_Map__1366356344__-96x96.png" /></a>I've been working in the video games industry for a bit more than 3 months now. A lot is going on, and the pace seems faster than regular corporation environment. I also notice a lot of employees movements between teams and projects.
 
@@ -110,3 +111,39 @@ The full version is available below :-)
 
 * <a href="http://gallery.technet.microsoft.com/Get-ADDirectReport-962616c6" target="_blank">Technet Gallery</a>
 * <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-USER-Get-ADDirectReport" target="_blank">GitHub</a>
+
+
+# Extra: Wildcard search
+
+Someone asked in comment how to do a wildcard search when specifying the `-SamAccountName`
+
+For this we need to edit the function to use `-ldapfilter` instead of `-Identity`. 
+
+Here is an example
+
+
+```powershell
+function Get-ADdirectReports
+{
+    PARAM ($SamAccountName)
+    Get-Aduser -ldapfil "(samaccountname=$SamAccountName)" -Properties directreports |
+		ForEach-Object{
+        $_.directreports | ForEach-Object -Process {
+            # Output the current Object information
+            Get-ADUser -identity $Psitem -Properties mail,manager | Select-Object -Property Name, SamAccountName, Mail, @{ L = "Manager"; E = { (Get-Aduser -iden $psitem.manager).samaccountname } }
+            # Find the DirectReports of the current item ($PSItem / $_)
+            Get-ADdirectReports -SamAccountName $PSItem
+        }
+    }
+}
+```
+Once loaded in your session, you can do something like:
+
+```powershell
+Get-ADdirectReports -SamAccountName francoi*
+```
+
+Hope this helps
+
+
+
