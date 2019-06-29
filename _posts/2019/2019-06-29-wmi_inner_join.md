@@ -112,7 +112,7 @@ Get-WmiObject @Param -Query "
     SELECT * FROM sms_fullcollectionmembership
     INNER JOIN sms_r_system
     ON sys.resourceid=sms_fullcollectionmembership.resourceid
-    WHERE sms_collectionmembership.collectionid='$SCCMCollectionID'"
+    WHERE sms_collectionmembership.collectionid='$SCCMCollectionID'" |
     Select-Object -Expand sms_r_system
 ```
 
