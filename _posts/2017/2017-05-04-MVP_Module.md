@@ -5,7 +5,6 @@ excerpt: "The MVP PowerShell module allow you to interact with the Microsoft MVP
 permalink:
 tags: 
   - powershell
-  - MVP
   - 'Microsoft MVP'
 categories:
   - powershell
