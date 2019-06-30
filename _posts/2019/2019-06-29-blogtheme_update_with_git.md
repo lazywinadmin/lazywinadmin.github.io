@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to update your blog theme Git"
+title: "Updating my blog theme with git"
 excerpt: "My blog is a static site hosted with Github Pages. I initially forked a theme that I liked and now I need to fetch the latest updates..."
 permalink:
 tags: 
