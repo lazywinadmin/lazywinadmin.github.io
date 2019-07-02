@@ -50,9 +50,9 @@ One of the great advantage of having my blog content hosted on git is that I can
 
 In my case I'm using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme from [mmistakes](https://github.com/mmistakes). You'll need to adapt the following code for the theme that you are using.
 
-1. To pull down theme updates you must first ensure there's an upstream remote. If you forked the theme's repo then you're likely good to go.
+1. **List your remote repositories**: You must first ensure there's an upstream remote. If you forked the theme's repo then you're likely good to go.
    * To double check, run `git remote -v` and verify that you can fetch from origin `https://github.com/mmistakes/minimal-mistakes.git`
-1. To add it manually you can do the following: `git remote add upstream https://github.com/mmistakes/minimal-mistakes.git`
+1. **Add your remote repositories (optional)**: To add it manually you can do the following: `git remote add upstream https://github.com/mmistakes/minimal-mistakes.git`
+1. **Pull the changes** `git pull upstream master`
    * Depending on the amount of customizations you've made after forking, there's likely to be merge conflicts. Work through any conflicting files Git flags, staging the changes you wish to keep, and then commit them. You can also do these steps using Microsoft Visual Studio Code.
-
-And you are done! Now all you have to do is push the changes to your fork hosted on github `git push` to make the changes live on your blog.
+1. You are done. To push the changes to your fork hosted on github, you can simply use `git push` to make the changes live on your blog.
