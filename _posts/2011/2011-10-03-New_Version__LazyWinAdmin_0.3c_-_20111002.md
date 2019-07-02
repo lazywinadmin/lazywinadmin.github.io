@@ -4,7 +4,7 @@ title: New Version - LazyWinAdmin 0.3c - 2011/10/02
 excerpt: 
 permalink: /2011/10/lazywinadmin-update-20111002.html
 tags: LazyWinAdmin
-published: true
+published: false
 comments: true
 ---
 <span class="Apple-style-span" style="line-height: 18px;"><b style="background-color: white;"><u>LazyWinAdmin 0.3c - 2011/10/02</u></b><span class="Apple-style-span" style="font-size: xx-small;"><span class="Apple-style-span" style="font-size: small;"><span style="background-color: white; line-height: 18px;"><span class="Apple-style-span" style="font-family: inherit; font-size: xx-small;">

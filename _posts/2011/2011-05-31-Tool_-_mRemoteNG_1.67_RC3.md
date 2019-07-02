@@ -3,37 +3,48 @@ layout: single
 title: Tool - mRemoteNG 1.67 RC3
 excerpt: 
 permalink: /2011/05/tool-mremoteng-167-rc3.html
-tags: Tool
-published: true
+tags:
+  - tool
+published: false
 comments: true
 ---
-New version of one of my favorite Admin tool: <b>mRemoteNG</b>
-<a href="http://www.mremoteng.org/home/Screenshot_V1.15_SSH.png?height=208&amp;width=320" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.mremoteng.org/home/Screenshot_V1.15_SSH.png?height=208&amp;width=320" /></a>
 
-<span class="Apple-style-span" style="color: #333333; font-family: 'Lucida Grande', 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px;"><a class="postlink" href="http://www.mremoteng.org/download/rc" style="border-bottom-color: rgb(54, 138, 210); border-bottom-style: solid; border-bottom-width: 1px; color: #105289; direction: ltr; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; text-decoration: none; unicode-bidi: embed;">Download it now!</a><br style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" />
-<span style="font-weight: bold; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Changes from 1.67 RC2 to 1.67 RC3<br style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" /><ul style="margin-bottom: 1em; margin-left: 3em; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added confirmation before closing connection tabs.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed bug 42 - Maximized location not remembered with multiple monitors.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Improved loading and saving of window location.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Removed flickering on start up.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed bug 43 - Creating a duplicate connection causes connection list to no longer be sorted ascending.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Improvements to German translation.
-<span style="font-weight: bold; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Changes from 1.67 RC1 to 1.67 RC2<br style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" /><ul style="margin-bottom: 1em; margin-left: 3em; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added partial French translation to the application.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Addded Thai translation to the installer.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Updated graphics in the installer to mRemoteNG logo.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added buttons for Add Connection, Add Folder, and Sort Ascending (A-Z) to the Connections panel toolbar.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed rename edit control staying open when collapsing all folders.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Changed sorting to sort all subfolders below the selected folder.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Allow sorting of connections if a connection entry is selected.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed adding a connection entry if nothing is selected in the tree.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added 15-bit Color RDP setting.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed loading of RDP Colors setting from SQL.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added Font Smoothing and Desktop Composition RDP settings.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Improved error handling when loading XML connection files.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added the mRemoteNG icon to the list of selectable icons for connection entries.
-<span style="font-weight: bold; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Changes from 1.66 to 1.67 RC1<br style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" /><ul style="margin-bottom: 1em; margin-left: 3em; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed migration of external tools configuration and panel layout from Local to Roaming folder.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Disable ICA Hotkeys for Citrix connections. Fixes issue with international users.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Added a language selection option so users can override the language if they don't want it automatically detected.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed RD Gateway default properties and RDP reconnection count setting not being saved.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Fixed bug 33 - IPv6 doesn't work in quick Connect box.
-<li style="list-style-type: inherit; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Moved the items under Tools in the Connections panel context menu up to the top level.
+New version of one of my favorite Admin tool: **mRemoteNG**
 
+[Download](http://www.mremoteng.org/download/rc)
+
+## Changes from 1.67 RC2 to 1.67 RC3
+
+* Added confirmation before closing connection tabs.
+* Fixed bug 42 - Maximized location not remembered with multiple monitors.
+* Improved loading and saving of window location.
+* Removed flickering on start up.
+* Fixed bug 43 - Creating a duplicate connection causes connection list to no longer be sorted ascending.
+* Improvements to German translation.
+
+## Changes from 1.67 RC1 to 1.67 RC2
+
+* Added partial French translation to the application.
+* Addded Thai translation to the installer.
+* Updated graphics in the installer to mRemoteNG logo.
+* Added buttons for Add Connection, Add Folder, and Sort Ascending (A-Z) to the Connections panel toolbar.
+* Fixed rename edit control staying open when collapsing all folders.
+
+## Changed sorting to sort all subfolders below the selected folder.
+
+* Allow sorting of connections if a connection entry is selected.
+* Fixed adding a connection entry if nothing is selected in the tree.
+* Added 15-bit Color RDP setting.
+* Fixed loading of RDP Colors setting from SQL.
+* Added Font Smoothing and Desktop Composition RDP settings.
+* Improved error handling when loading XML connection files.
+* Added the mRemoteNG icon to the list of selectable icons for connection entries.
+
+## Changes from 1.66 to 1.67 RC1
+
+* Fixed migration of external tools configuration and panel layout from Local to Roaming folder.
+* Disable ICA Hotkeys for Citrix connections. Fixes issue with international users.
+* Added a language selection option so users can override the language if they don't want it automatically detected.
+* Fixed RD Gateway default properties and RDP reconnection count setting not being saved.
+* Fixed bug 33 - IPv6 doesn't work in quick Connect box.
+* Moved the items under Tools in the Connections panel context menu up to the top level.

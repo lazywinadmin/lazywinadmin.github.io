@@ -3,7 +3,8 @@ layout: single
 title: MS Windows Server 2008 R2 - Adding the desktop icons back
 excerpt: 
 permalink: /2010/12/ms-windows-server-2008-r2-desktop-icons.html
-tags: Windows Server 2008 R2
+tags:
+  - 'windows server 2008 r2'
 published: true
 comments: true
 ---

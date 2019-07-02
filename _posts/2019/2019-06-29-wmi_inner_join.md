@@ -25,7 +25,7 @@ toc_label: "Table of content"
 
 ## Quick tip - How to do a JOIN between two WMI classes ?
 
-Having done a ton of WMI work around SCCM/SCSM in the past, a friend of mine asked how to retrieve the IP Addresses information of a Device Collection members efficiently.
+Having done a ton of WMI work around SCCM/SCSM in the past, my friend [@stephanevg](https://twitter.com/stephanevg) asked how to retrieve the IP Addresses information of a Device Collection members efficiently.
 
 *(As far as I know, it's a bit less efficient to do this with the SCCM Module. 2 queries: Query Collection Members Then Query Device information)*
 
