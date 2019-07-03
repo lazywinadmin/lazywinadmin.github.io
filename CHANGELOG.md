@@ -1,3 +1,86 @@
+## Unreleased
+
+### Enhancements
+
+- Use [Font Awesome Kits](https://blog.fontawesome.com/introducing-font-awesome-kits-7134d1d59959) to use the latest version of icons. [#2184](https://github.com/mmistakes/minimal-mistakes/issues/2184)
+- Remove unecessary console.log in `lunr-en.js` and `lunr-gr.js` JavaScript. [#2193](https://github.com/mmistakes/minimal-mistakes/issues/2193)
+- Remove unecessary `type="text/javascript"` from Google Analytics JavaScript. [#2190](https://github.com/mmistakes/minimal-mistakes/pull/2190)
+- Update links and fix typos in documentation. [#2186](https://github.com/mmistakes/minimal-mistakes/pull/2186)
+- Add skip links. [#2182](https://github.com/mmistakes/minimal-mistakes/issues/2182)
+
+### Bug Fixes
+
+- Fix missing fallback title for table of contents.
+
+## [4.16.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.4)
+
+### Enhancements
+
+- Update Brazilian Portuguese localized UI text strings. [#2162](https://github.com/mmistakes/minimal-mistakes/pull/2162)
+- Update Font Awesome to v5.8.2. [#2150](https://github.com/mmistakes/minimal-mistakes/pull/2150)
+- Add missing Spanish localized UI text strings. [#2149](https://github.com/mmistakes/minimal-mistakes/pull/2149)
+
+### Bug Fixes
+
+- Fix arithmetic in `_form.scss` partial. [#2169](https://github.com/mmistakes/minimal-mistakes/pull/2169)
+- Fix pound symbol not displaying properly for post categories and tags. [#2156](https://github.com/mmistakes/minimal-mistakes/issues/2156)
+- Fix permalink stacking order and click-able area in archives.
+
+## [4.16.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.3)
+
+### Enhancements
+
+- Update jQuery to v3.4.1. [#2137](https://github.com/mmistakes/minimal-mistakes/issues/2137)
+- Update Gumshoe to v5.1.1. [#2140](https://github.com/mmistakes/minimal-mistakes/issues/2140)
+
+### Bug Fixes
+
+- Fix JavaScript error when resizing pages with table of contents. [#2140](https://github.com/mmistakes/minimal-mistakes/issues/2140)
+
+## [4.16.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.2)
+
+### Bug Fixes
+
+- Revert jQuery back to version v3.3.1, v.3.4.0 causes issues with other plugins that haven't been updated. [#2137](https://github.com/mmistakes/minimal-mistakes/issues/2137)
+
+## [4.16.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.1)
+
+### Enhancements
+
+- Update [`compress` layout](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#compress-layout) to v3.1.0. [#2128](https://github.com/mmistakes/minimal-mistakes/pull/2128)
+- Update jQuery to v3.4.0. [#2129](https://github.com/mmistakes/minimal-mistakes/pull/2129)
+
+### Bug Fixes
+
+- Fix Gumshoe related JavaScript error on pages without a table of contents. [#2124](https://github.com/mmistakes/minimal-mistakes/pull/2124)
+
+## [4.16.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.0)
+
+### Enhancements
+
+- Improve search `input` semantics for Lunr and Google search providers. [#2123](https://github.com/mmistakes/minimal-mistakes/pull/2123)
+- Allow adding JavaScript files after those bundled in the theme. [#2110](https://github.com/mmistakes/minimal-mistakes/issues/2110) [#2116](https://github.com/mmistakes/minimal-mistakes/pull/2116)
+- Add `$max-width` Sass variable for adjusting page content's maximum width. [#2093](https://github.com/mmistakes/minimal-mistakes/pull/2093)
+- Add Thai localized UI text strings. [#2111](https://github.com/mmistakes/minimal-mistakes/pull/2111)
+- Update Font Awesome to [v5.8.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.8.1). [#2102](https://github.com/mmistakes/minimal-mistakes/pull/2102)
+- Add missing Vietnamese localized UI text strings. [#2097](https://github.com/mmistakes/minimal-mistakes/pull/2097)
+- Replace jQuery Smooth Scroll with Smooth Scroll + Gumshoe. [#2082](https://github.com/mmistakes/minimal-mistakes/pull/2082)
+- Add styling for [GFM task lists](https://help.github.com/en/articles/about-task-lists#creating-task-lists). [#2092](https://github.com/mmistakes/minimal-mistakes/issues/2092)
+- Update Google Universal Analytics to load async. [#2079](https://github.com/mmistakes/minimal-mistakes/pull/2079)
+- Remove Google+ social sharing button, comment provider, and author link configs from theme.
+- Add missing Chinese text strings. [#2072](https://github.com/mmistakes/minimal-mistakes/pull/2072)
+
+### Bug Fixes
+
+- Fix table of contents active link styling.
+- Add missing Hindi localized UI text strings. [#2105](https://github.com/mmistakes/minimal-mistakes/pull/2105) [#2106](https://github.com/mmistakes/minimal-mistakes/pull/2106)
+- Fix Brazilian Portuguese text strings. [#2098](https://github.com/mmistakes/minimal-mistakes/pull/2098)
+- Fix typo in French `results_found` text string. [#2096](https://github.com/mmistakes/minimal-mistakes/pull/2096)
+- Fix figures inside of list elements. [#2094](https://github.com/mmistakes/minimal-mistakes/pull/2094)
+- Remove Font Awesome `data-search-pseudo-elements` attribute as it degrades smooth scroll performance. [#2075](https://github.com/mmistakes/minimal-mistakes/issues/2075#issuecomment-472437014)
+- Fix footnote links incompatibility with smooth scroll plugin. [#2075](https://github.com/mmistakes/minimal-mistakes/issues/2075)
+- Loosen Bundler dependency in ruby gem.
+
 ## [4.15.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.15.2)
 
 ### Enhancements
