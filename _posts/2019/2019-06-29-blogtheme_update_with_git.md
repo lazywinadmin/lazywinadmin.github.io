@@ -55,13 +55,13 @@ In my case I'm using the [Minimal Mistakes](https://github.com/mmistakes/minimal
 1. **Add your remote repositories (optional)**: To add it manually you can do the following: `git remote add upstream https://github.com/mmistakes/minimal-mistakes.git`
 1. **Pull the changes**: `git pull upstream master`
    * Depending on the amount of customizations you've made after forking, there's likely to be merge conflicts. Work through any conflicting files Git flags, staging the changes you wish to keep, and then commit them. You can also do these steps using Microsoft Visual Studio Code (see below).
-1. *Push the change to your fork*: `git push`
+1. **Push the change to your fork**: `git push`
 
 ## Conflicts
 
 When pulling the changes from the Upstream (as see above) you might see some conflicts, example during my last upgrade:
 
-![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.png){: .align-center}
+[![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.png){: .align-center}](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.png)
 
 You resolved these issues using Visual Studio, here is an example:
 
