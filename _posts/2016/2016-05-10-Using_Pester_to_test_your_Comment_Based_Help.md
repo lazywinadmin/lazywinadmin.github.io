@@ -15,7 +15,9 @@ classes: wide
 ---
 
 <img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/pester_logo__332888956__-200x200.png" width="130" />
-<mark><u>Update 2016/11/25:</u></mark> Updated the code to support functions where there is no parameter declared (Thanks <b>Wojciech Sciesinski</b> !!!)
+<mark><u>Update 2019/07/26:</u></mark> It seems that the AST to Help content parameter comparison doesn't work in PowerShell Core.
+See the example suggested by *[@mgeorgebrown89](https://github.com/mgeorgebrown89)* (Thank you!)<br>
+<mark><u>Update 2016/11/25:</u></mark> Updated the code to support functions where there is no parameter declared (Thanks <b>Wojciech Sciesinski</b> !)
 
 I remember attending a meeting on Pester presented by Dave Wyatt back in November 2014 during my first MVP Summit.
 
@@ -130,6 +132,18 @@ Describe "AdsiPS Module" -Tags "Module" {
     }
 }
 ```
+
+Note that in PowerShell Core, It seems that the AST to Help content parameter comparison doesn't work.
+Thanks to [@mgeorgebrown89](https://github.com/mgeorgebrown89) who suggested the following:
+
+```powershel
+foreach ($param in $ASTParameters) {
+    It "parameter `"$param`" has a .PARAMTER description" {
+         (Get-Help $functionName -Parameter $param).description | Should -Not -BeNullOrEmpty
+    }
+}
+```
+
 
 Here is the code in action:
 
