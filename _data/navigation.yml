@@ -12,10 +12,6 @@ main:
   #   url: /sitemap/
   #- title: "Blog"
   #  url: /
-  - title: "Disclaimer"
-    url: /disclaimer.html
-  - title: "About"
-    url: /about.html
 #  - title: "Tags"
 #    url: /tags
   - title: "Projects/Scripts"
@@ -24,6 +20,10 @@ main:
     url: /p/links.html
   - title: "Archive"
     url: /archive.html
+  - title: "About"
+    url: /about.html
+  - title: "Disclaimer"
+    url: /disclaimer.html
 #  - title: "Categories"
 #    url: /categories/
 #  - title: "Collections"
