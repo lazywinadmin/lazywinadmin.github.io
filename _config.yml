@@ -311,7 +311,7 @@ defaults:
 # CUSTOM #
 ##########
 # post with future date won't show'
-future: false
+future: true
 
 # Show date on main page
 custom:
