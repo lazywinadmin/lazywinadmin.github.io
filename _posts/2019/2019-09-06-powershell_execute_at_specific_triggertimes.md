@@ -60,8 +60,7 @@ foreach ($t in $TriggerTimes)
         while ((Get-Date -Date $t) -gt (Get-Date))
         {
             # Sleep for the remaining time
-            (Get-Date -Date $t) - (Get-Date) |
-                Start-Sleep
+            (Get-Date -Date $t) - (Get-Date) | Start-Sleep
         }
 
         # Trigger event
