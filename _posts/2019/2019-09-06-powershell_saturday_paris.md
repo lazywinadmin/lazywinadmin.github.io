@@ -82,6 +82,10 @@ Merci a tous les sponsors qui par leur soutien et leur fidélité permettent d�
 <a href="https://chocolatey.org/"><img src="https://frpsug.github.io/images/sponsors/chocolatey.png" width="30%" title="Chocolatey" alt="Chocolatey"></a>
 </p>
 
+<p align="center">
+<a href="https://systemfrontier.com"><img src="https://frpsug.github.io/images/sponsors/System Frontier Logo - Wide.png" width="30%" title="SystemFrontier" alt="SystemFrontier"></a>
+</p>
+
 ## Merci aux organisateurs
 
 Un énorme travail de fond a été fait pour organiser cette événement. Merci a tous les organisateurs:
