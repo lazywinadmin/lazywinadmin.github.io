@@ -48,8 +48,8 @@ En plus d'apprendre en contribuant, vous pouvez vous qualifier pour gagner un t-
 
 Pour trouver des issues relier a l'evenement Hacktoberfest, vous pouvez faire une recherche sur Github, exemples:
 
-* Issue `Hacktoberfest` pour le language `PowerShell` [](https://github.com/search?l=Powershell&q=label%3Ahacktoberfest&type=Issues)
-* Issue `Hacktoberfest` pour le language `Python`: [](https://github.com/search?l=Python&q=label%3Ahacktoberfest&type=Issues)
+* [Issue `Hacktoberfest` pour le language `PowerShell`](https://github.com/search?l=Powershell&q=label%3Ahacktoberfest&type=Issues)
+* [Issue `Hacktoberfest` pour le language `Python`](https://github.com/search?l=Python&q=label%3Ahacktoberfest&type=Issues)
 
 ## Besoin d'aide ? Evenement en ligne Mardi 1er Octobre 20h @frpsug
 
