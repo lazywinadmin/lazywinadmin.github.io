@@ -112,17 +112,10 @@ analytics:
 
 # Site Author
 author:
-<<<<<<< HEAD
   name             : "François-Xavier Cat"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Systems Engineer"
   location         : "San Francisco Bay"
-=======
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
->>>>>>> 2328c8192cdb30c94ef5524bd5a979eb7a2fa5e2
   email            :
   links:
     - label: "Email"
