@@ -142,7 +142,7 @@ author:
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
       url: "https://feeds.feedburner.com/lazywinadmin"
-      - label: "Get me a coffee :)"
+    - label: "Get me a coffee :)"
       icon: "fas fa-coffee"
       url: "https://github.com/sponsors/lazywinadmin"
 
