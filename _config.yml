@@ -124,9 +124,6 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Buy me a coffee!"
-      icon: "fas fa-coffee"
-      url: "https://github.com/sponsors/lazywinadmin"
     - label: "Microsoft MVP"
       icon: "fab fa-fw fa-microsoft"
       url: "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
@@ -145,6 +142,9 @@ author:
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
       url: "https://feeds.feedburner.com/lazywinadmin"
+      - label: "Get me a coffee :)"
+      icon: "fas fa-coffee"
+      url: "https://github.com/sponsors/lazywinadmin"
 
 # Site Footer
 footer:
