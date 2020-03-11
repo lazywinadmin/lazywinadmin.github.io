@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "LazyWinAdmin"
 title_separator          : "-"
 name                     : "Francois-Xavier Cat"
-description              : "Scripting and Automation"
+description              : "Cloud, DevOps and Automation"
 url                      : https://lazywinadmin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : lazywinadmin/lazywinadmin.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
