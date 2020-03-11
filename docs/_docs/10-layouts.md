@@ -7,7 +7,7 @@ single_layout_gallery:
     alt: "single layout with header example"
   - image_path: /assets/images/mm-layout-single-meta.png
     alt: "single layout with comments and related posts"
-last_modified_at: 2019-07-24T10:15:57-04:00
+last_modified_at: 2020-03-06T15:47:42-05:00
 toc: true
 toc_label: "Included Layouts"
 toc_icon: "columns"
@@ -427,6 +427,7 @@ To overlay text on top of a header image you have a few more options:
 | **overlay_filter**       | Color/opacity to overlay on top of the header image eg: `0.5` or `rgba(255, 0, 0, 0.5)`. |
 | **show_overlay_excerpt** | Display excerpt in the overlay text | true |
 | **excerpt**              | Auto-generated page excerpt is added to the overlay text or can be overridden. | |
+| **tagline**              | Overrides page excerpt. Useful when header text needs to be different from excerpt in archive views. | |
 | **actions**              | Call to action button links (`actions` array: `label` and `url`). More than one button link can be assigned. | |
 | **cta_label**            | Deprecated, use `actions` instead. Call to action button text label. | `more_label` in UI Text data file |
 | **cta_url**              | Deprecated, use `actions` instead. Call to action button URL. | |
@@ -732,8 +733,8 @@ Under the `$social` color map in `assets/_scss/_buttons.scss` simply add a name 
 $social:
 (facebook, $facebook-color),
 (twitter, $twitter-color),
-(linkedin, $linkedin-color);
-(reddit, #ff4500;)
+(linkedin, $linkedin-color),
+(reddit, #ff4500);
 ```
 
 **ProTip:** For bonus points you can add it as a Sass `$variable` that you set in `_variables.scss` like the other ["brand" colors](http://brandcolors.net/).
