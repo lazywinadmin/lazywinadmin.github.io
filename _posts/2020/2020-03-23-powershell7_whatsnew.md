@@ -96,7 +96,7 @@ ForEach-Object -Parallel <scriptblock>
 1..5 | Foreach-Object -Parallel {$_}
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_001.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_001.png){: .align-center}
 
 
 ```powershell
@@ -107,7 +107,7 @@ ForEach-Object -Parallel <scriptblock>
 
 Let's set a maximum of 20 threads and try to hit the limit.
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_002.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_002.png){: .align-center}
 
 
 We can also show the current Process ID, Thread ID and RunSpace ID by executing the following.
@@ -127,7 +127,7 @@ We can also show the current Process ID, Thread ID and RunSpace ID by executing 
 # so not always a good things to combine the two
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_004.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_004.png){: .align-center}
 
 ### Performance
 
@@ -149,7 +149,7 @@ Let's compare:
 
 As we can see `-Process` is actually faster in this scenario.
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_005.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_005.png){: .align-center}
 
 Now let's add a 1 second sleep to make the thread last a bit longer.
 
@@ -164,7 +164,7 @@ Now let's add a 1 second sleep to make the thread last a bit longer.
 
 Now we can see the benefits of using this parameter when some tasks can take longer.
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_006.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_006.png){: .align-center}
 
 ### Passing data to the runspaces
 
@@ -180,7 +180,7 @@ $Message = "Output:"
 } -ThrottleLimit 4
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_007.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_007.png){: .align-center}
 
 ### AsJob
 
@@ -195,7 +195,7 @@ $Message = "Output:"
 Receive-Job -Wait
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_008.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_008.png){: .align-center}
 
 ### Storing data from multiple runspaces
 
@@ -226,7 +226,7 @@ $threadSafeDictionary.Values
 $threadSafeDictionary["github"]
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_011.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_011.png){: .align-center}
 
 ### Set a timeout
 
@@ -239,7 +239,7 @@ You might want to set a "Time to live" limit in second(s) on each of your Runspa
 
 Here is the output if the time exceed the timeout specified
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_012.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_012.png){: .align-center}
 
 
 ## ErrorView 'ConciseView'
@@ -254,7 +254,7 @@ $ErrorView # ConciseView is default
 [Enum]::getvalues([System.Management.Automation.ErrorView])
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_015.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_015.png){: .align-center}
 
 
 We can compare the different ErrorViews available. You will probably be familiar with the `NormalView` which was used by default in previous PowerShell versions.
@@ -273,7 +273,7 @@ $ErrorView = 'ConciseView'
 Get-ChildItem -Path /fake
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_016.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_016.png){: .align-center}
 
 
 Another interesting thing to note in PowerShell 7 is the information showed when a Script generate an error with the `ConciseView`.
@@ -282,7 +282,7 @@ Another interesting thing to note in PowerShell 7 is the information showed when
 ./errortest.ps1
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_017.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_017.png){: .align-center}
 
 
 A new property `ErrorAccentColor` was also added to the `$host.PrivateData` object to control the Error message color (if you need to customize this for your terminal)
@@ -290,7 +290,7 @@ A new property `ErrorAccentColor` was also added to the `$host.PrivateData` obje
 ```powershell
 $Host.PrivateData.ErrorAccentColor = 'Magenta'
 ```
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_018.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_018.png){: .align-center}
 
 
 ## Get-Error
@@ -308,7 +308,7 @@ $Error[0] | Get-Error
 Get-Error -Newest 2
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_019.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_019.png){: .align-center}
 
 
 ## $ErrorActionPreference = 'Break'
@@ -320,7 +320,7 @@ $ErrorActionPreference = 'Break'
 Get-ChildItem -Path /fake
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_032.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_032.png){: .align-center}
 
 
 ## Null-Coalescing Operators
@@ -357,7 +357,7 @@ $x ?? 'x is null'
 (Get-Content ./stuff.txt -ea 0) ?? ((iwr 'http://lazywinadmin.com').content > ./stuff.txt)
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_020.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_020.png){: .align-center}
 
 
 ### Operator ??=
@@ -377,7 +377,7 @@ $x ??= 5
 $x # $x eq 5
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_021.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_021.png){: .align-center}
 
 
 ## Pipeline Chain Operators
@@ -392,9 +392,9 @@ These two new operators are leveraging `$LASTEXITCODE` and `$?` variables to kno
 
 As a reminder, here is the behavior of these 2 variables:
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_022.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_022.png){: .align-center}
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_023.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_023.png){: .align-center}
 
 Now let's see how to use the two new operators
 
@@ -419,7 +419,7 @@ install-module adsips -Force && import-module adsips -passthru
 sudo apt update && sudo apt upgrade
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_024.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_024.png){: .align-center}
 
 
 ### Operator ||
@@ -451,7 +451,7 @@ $ErrorActionPreference = 'Stop' # Default 'Continue'
 1/0 || "Wow something went wrong"
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_026.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_026.png){: .align-center}
 
 ## Ternary Operator
 
@@ -475,7 +475,7 @@ if((Get-Module -Name Adsips -listavailable){
 (get-service myservice) ? (irm http://myservice) : (installmyservice.ps1;irm http://myservice)
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_027.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_027.png){: .align-center}
 
 
 ## Skip HTTP Error with Web Cmdlets
@@ -494,14 +494,14 @@ Here is an example WITHOUT it
 # Querying a page that does not exist
 Invoke-WebRequest -uri 'http://lazywinadmin.com/fakepage'
 ```
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_029.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_029.png){: .align-center}
 
 Here is an example WITH `-SkipHttpErrorCheck`. As you can see the response is processed normaly.
 
 ```powershell
 Invoke-RestMethod -uri 'http://lazywinadmin.com/fakepage' -SkipHttpErrorCheck
 ```
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_035.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_035.png){: .align-center}
 
 ### StatusCodeVariable
 
@@ -511,7 +511,7 @@ This parameter specifies a variable that's assigned a status code's integer valu
 $Output = Invoke-RestMethod -uri 'http://lazywinadmin.com/fakepage' -SkipHttpErrorCheck -StatusCodeVariable mystatuscode
 $mystatuscode # Contains the status code
 ```
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_036.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_036.png){: .align-center}
 
 ## Select-String Emphasis
 
@@ -528,7 +528,7 @@ Get-Childitem "$Files*.txt" |
     Select-String -Pattern 'powershell'
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_013.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_013.png){: .align-center}
 
 ### Emphasis pattern with regex
 
@@ -540,7 +540,7 @@ $Files = "~\code\Presentations\20200310-PowerShell7-whats_new\"
 Get-Childitem "$Files*.txt" |
     Select-String -Pattern 'github\w+'
 ```
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_014.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_014.png){: .align-center}
 
 
 ## Split Negative max-substring
@@ -557,7 +557,7 @@ $c = "Mercury,Venus,Earth,Mars,Jupiter,Saturn,Uranus,Neptune"
 $c -split ",", -5
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_030.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_030.png){: .align-center}
 
 
 ## New Version Notification
@@ -568,7 +568,7 @@ You can however configure this using the `$Env:POWERSHELL_UPDATECHECK` variable.
 
 Here is the feature in action by launching PowerShell 7 RC3 installed on my machine.
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_028.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_028.png){: .align-center}
 
 ## Windows OS features
 
@@ -611,7 +611,7 @@ $myobjects = @(
 $myobjects | Group-Object -Property Capitonym -AsHashTable -CaseSensitive
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_034.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_034.png){: .align-center}
 
 
 ### PowerShell Jobs
@@ -635,7 +635,7 @@ Start-job -ScriptBlock {"Hey"} -PSVersion 5.1 |Receive-Job -Wait
 Get-History
 ```
 
-![image-center](/images/2020/2020-03-10-powershell7_whatsnew/Terminal_033.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_033.png){: .align-center}
 
 
 ## Resources
