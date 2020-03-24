@@ -648,3 +648,4 @@ Get-History
 - [SecretsManagement module](https://devblogs.microsoft.com/powershell/secrets-management-module-vault-extensions/)
 - [Using thread safe variable references](https://docs.microsoft.com/en-us/dotnet/standard/collections/thread-safe/)
 - [PowerShell 7 - New JSON Cmdlets](https://powershell.anovelidea.org/powershell/ps7now-changes-to-json-cmdlets/)
+- [PowerShell 7 for Programmers](https://colincogle.name/blog/2019-12-22-powershell-7-for-programmers.html)
