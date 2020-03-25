@@ -27,10 +27,9 @@ classes: wide
 
 {% capture mynote%}
 **Tested on** PowerShell 7.0.0 on Ubuntu 18.04
-
 {% endcapture %}
-
 {{mynote}}{: .notice--info}
+
 
 Last week I gave a [presentation on "PowerShell 7 - What's new ?"](https://www.youtube.com/watch?v=nqb6s0PYfM0) at the French PowerShell User Group.
 
