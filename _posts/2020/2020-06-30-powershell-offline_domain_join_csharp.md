@@ -104,6 +104,8 @@ $Splatting = @{
 New-ADDomainJoin -Credential $credential @splatting
 ```
 
+This will create an object in active directory and output the blob needed to join the machine offline.
+
 ## Download
 
 The [code is available on GitHub](https://github.com/lazywinadmin/PowerShell/blob/master/AD-COMPUTER-New-ADDomainJoin/New-ADDomainJoin.ps1).
