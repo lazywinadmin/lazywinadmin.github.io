@@ -30,14 +30,14 @@ toc_sticky: true
 
 ## Ebooks
 
-  * (https://www.penflip.com/powershellorg)PowerShell.org Ebooks
-  * (http://powershell.com/cs/media/28/default.aspx)PowerShell.com Monthly PowerTips Ebooks
+  * [PowerShell.org Ebooks](https://www.penflip.com/powershellorg)
+  * [PowerShell.com Monthly PowerTips Ebooks](http://powershell.com/cs/media/28/default.aspx)
 
 ## Blogs/References/Resources
-  * (http://www.microsoft.com/en-us/download/details.aspx?id=9706)Windows PowerShell Language Specification Version 2.0
-  * (http://www.microsoft.com/en-ca/download/details.aspx?id=36389)Windows PowerShell Language Specification Version 3.0
-  * (http://www.microsoft.com/en-us/download/details.aspx?id=42554)Windows PowerShell 4.0 and Other Quick Reference Guides
-  * (http://powershell.org/wp/ebooks/)PowerShell.org Free Ebooks
+  * [Windows PowerShell Language Specification Version 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=9706)
+  * [Windows PowerShell Language Specification Version 3.0](http://www.microsoft.com/en-ca/download/details.aspx?id=36389)
+  * [Windows PowerShell 4.0 and Other Quick Reference Guides](http://www.microsoft.com/en-us/download/details.aspx?id=42554)
+  * [PowerShell.org Free Ebooks](http://powershell.org/wp/ebooks/)
   * [Windows PowerShell Survival Guide](http://social.technet.microsoft.com/wiki/contents/articles/183.windows-powershell-survival-guide.aspx)
 
 ##  Useful Modules
