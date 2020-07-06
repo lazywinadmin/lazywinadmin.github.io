@@ -22,7 +22,6 @@ toc: true
 toc_label: "Table of content"
 toc_sticky: true
 toc_icon: "terminal"
-classes: wide
 ---
 
 {% capture mynote%}
