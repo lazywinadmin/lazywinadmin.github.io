@@ -61,7 +61,7 @@ The high-level flow looked like this:
 
 Here is an high-level flow:
 
-![](/images/2020/2020-06-30-powershell-offline_domain_join_csharp/odj-automation.png)
+![](/images/2020/2020-06-30-powershell-offline_domain_join_csharp/odj-automation2.png)
 
 This was working really well, the whole **Stage** process was taking 3-5 minutes. However one of the tasks that was costly in time was the ODJ part. This automation needed to run very frequently so it started to become a bottleneck for the entire workflow where hundreds machines needed to be deployed at the same time.
 
