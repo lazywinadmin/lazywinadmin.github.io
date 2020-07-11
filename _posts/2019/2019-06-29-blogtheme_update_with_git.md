@@ -38,6 +38,11 @@ The migration of my old blog posts and comment was another story 😶.
 
 We can summarize the workflow described above like this:
 
+1. Fork a repository (blog theme source)
+1. Clone your fork locally
+1. Create custom content locally and commit back to your fork
+1. Static website gets regenerated each time you commit to your fork
+
 ![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/step1.png){: .align-center}
 
 ## Blog theme update
