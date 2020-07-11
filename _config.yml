@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "François-Xavier Cat"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems Engineer"
+  bio              : "Cloud DevOps Engineer"
   location         : "San Francisco Bay"
   email            :
   links:
