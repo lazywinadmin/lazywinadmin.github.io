@@ -56,13 +56,14 @@ Function Get-Computer {
 ```
 
 <b><u>[ADSISearcher]</u></b>
-Basically, I'm creating a<span style="font-family: Courier New, Courier, monospace;">[ADSISearcher]object with a filter which contains the two following conditions:
+Basically, I'm creating a `[ADSISearcher]` object with a filter which contains the two following conditions:
 
-* <span style="font-family: Courier New, Courier, monospace;">(objectCategory=Computer) which only show the Computer object
+* `(objectCategory=Computer)` which only show the Computer object
+* `ComputerName` parameter specified by the user
 
-* <span style="font-family: Courier New, Courier, monospace;">ComputerNameparameter specified by the user
 Notice the '<b>&amp;</b>' logical operator which can be translated to <b>AND</b>. The two conditions must be met.
 The execution of the search will not be perform until you actually use the FindOne() or FindAll() methods
+
 ```
    TypeName: System.DirectoryServices.DirectorySearcher
 
@@ -70,7 +71,6 @@ Name    MemberType Definition
 ----    ---------- ----------                                               
 FindAll Method     System.DirectoryServices.SearchResultCollection FindAll()
 FindOne Method     System.DirectoryServices.SearchResult FindOne()          
-
 ```
 
 
@@ -81,7 +81,6 @@ PS C:\> $Search.findall()
 Path                                              Properties
 ----                                              ----------
 LDAP://CN=DHCP1,CN=Computers,DC=FX,DC=LAB         {logoncount, codepage, objectcategory, descrip...
-
 ```
 
 The full list of properties is available by doing the following
@@ -128,63 +127,50 @@ objectsid                      {1 5 0 0 0 0 0 5 21 0 0 0 180 190 60 92 74 161 10
 lastlogoff                     {0}
 displayname                    {DHCP1$}
 accountexpires                 {9223372036854775807}
-
 ```
 
 
 ### Output
 
 
-This function will just return the <b><span style="font-family: Courier New, Courier, monospace;">Name</b>, <b><span style="font-family: Courier New, Courier, monospace;">DNSHostName</b> and the <span style="font-family: Courier New, Courier, monospace;"><b>Description</b>
+This function will just return the `Name`, `DNSHostName` and the `Description`.
 
-```
+```powershell
 PS C:\> Get-Computer -ComputerName "LAB1DC01"
-```
 
-```
 DNShostName                Description                Name                     
 -----------                -----------                ----                     
 LAB1DC01.FX.LAB            Domain Controller of FX... LAB1DC01
-```
 
-Against multiple computer objects
 
-```
+# Running against multiple computer objects
+
 PS C:\> Get-Computer -ComputerName WORKSTATION01, WORKSTATION02, WORKSTATION03, WORKSTATION04
-```
 
-```
 DNShostName                       Description                      Name
 -----------                       -----------                      ----
 WORKSTATION01.fx.lab              Bob Smith                        WORKSTATION01
 WORKSTATION02.fx.lab              Jean Dupont                      WORKSTATION02
 WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
-```
 
-Using a pattern
 
-```
+#Using a ComputerName pattern
+
 PS C:\> Get-Computer -ComputerName WORKSTATION*
-```
 
-```
 DNShostName                       Description                      Name
 -----------                       -----------                      ----
 WORKSTATION01.fx.lab              Bob Smith                        WORKSTATION01
 WORKSTATION02.fx.lab              Jean Dupont                      WORKSTATION02
 WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
-```
 
 
-Or using a list of workstations instead
+# Or using a list of workstations instead
 
-```
 PS C:\> Get-Content -Path .\computers.txt | Get-Computer
-```
 
-```
 DNShostName                       Description                      Name
 -----------                       -----------                      ----
 WORKSTATION01.fx.lab              Bob Smith                        WORKSTATION01
@@ -192,7 +178,6 @@ WORKSTATION02.fx.lab              Jean Dupont                      WORKSTATION02
 WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
 ```
-
 
 ## SOLUTION #2: The Advanced way 
 
@@ -282,7 +267,7 @@ PROCESS{
 }#FOREACH $item
 ```
 
-<u>Note:</u> I had to use backtick "<b>`</b>" to be able to fit the code in my blog. Backticks are not present in the final script.
+<u>Note:</u> I had to use backtick ` to be able to fit the code in my blog. Backticks are not present in the final script.
 
 To resume we added the following items :
 
