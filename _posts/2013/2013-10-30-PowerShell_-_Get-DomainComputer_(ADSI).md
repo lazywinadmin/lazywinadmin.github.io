@@ -21,18 +21,14 @@ Lucky for me, <u>first</u> he had the <b>list of workstations</b> and <u>second<
 
 So he asked me if I could help and get this information somehow. My answer was obviously ... <b>PowerShell!</b>
 This could be done very easily using the ActiveDirectory Module but unfortunately RSAT (Remote Server Administrator Tools) feature was not installed on his computer. Why not use ADSI then ? :-)
-<b></b>
+
 If you follow my blog, in my previous posts I wrote about a small PowerShell function <a href="{{ site.url }}/2013/10/powershell-get-domainuser.html" target="_blank">Get-DomainUser</a> that use ADSI to get some information out of a Active Directory User Object and about <a href="{{ site.url }}/2013/10/powershell-using-adsi-with-alternate.html" target="_blank">Using alternate credential for ADSI query</a>.
 
 Today we will use the same techniques to get information from Active Directory Computer Object(s).
 
-
-
 ## SOLUTION #1: The Lazy way 
 
-
-<h4>PowerShell Code
-
+### Code
 
 This is the small function I originally sent him, nothing fancy but it does the work.
 
