@@ -11,6 +11,11 @@ tags:
 - powershell
 published: true
 comments: true
+toc: true
+toc_label: "Table of content"
+toc_sticky: true
+toc_icon: "terminal"
+classes: wide
 ---
 <a href="{{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/Config-Tools__1125592699__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/Config-Tools__1125592699__-128x128.png" /></a>
 The following function use ADSI to query Computer objects from the Active Directory. Optionally an alternate credentials and/or a different domain can be specified.
