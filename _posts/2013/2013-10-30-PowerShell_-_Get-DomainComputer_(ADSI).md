@@ -43,24 +43,24 @@ This is the small function I originally sent him, nothing fancy but it does the 
 
 ```powershell
 Function Get-Computer {
-    [CmdletBinding()]
-    PARAM(
-        [Parameter(
-            ValueFromPipelineByPropertyName=$true,
-            ValueFromPipeline=$true,
-            Mandatory=$true)]
-            [String[]]$ComputerName)
-    PROCESS{
-        FOREACH ($item in $ComputerName){
-            $Search = [adsisearcher]"(&amp;(objectCategory=Computer)(name=$item))"
-            FOREACH ($Computer in $($Search.FindAll())){
-                New-Object -TypeName PSObject -Property @{
-                    "Name" = $($Computer.properties.name)
-                    "DNShostName"    = $($Computer.properties.dnshostname)
-                    "Description" = $($Computer.properties.description)}
-            }#foreach ($Computer in $($Search.FindAll
-        }#FOREACH ($item in $ComputerName){
-    }#PROCESS{
+  [CmdletBinding()]
+  PARAM(
+    [Parameter(
+      ValueFromPipelineByPropertyName=$true,
+      ValueFromPipeline=$true,
+      Mandatory=$true)]
+    [String[]]$ComputerName)
+  PROCESS{
+    FOREACH ($item in $ComputerName){
+      $Search = [adsisearcher]"(&(objectCategory=Computer)(name=$item))"
+      FOREACH ($Computer in $($Search.FindAll())){
+        New-Object -TypeName PSObject -Property @{
+          "Name" = $($Computer.properties.name)
+          "DNShostName"    = $($Computer.properties.dnshostname)
+          "Description" = $($Computer.properties.description)}
+      }#foreach ($Computer in $($Search.FindAll
+    }#FOREACH ($item in $ComputerName){
+  }#PROCESS{
 }#function Get-Computer
 ```
 
@@ -70,7 +70,7 @@ Basically, I'm creating a `[ADSISearcher]` object with a filter which contains t
 * `(objectCategory=Computer)` which only show the Computer object
 * `ComputerName` parameter specified by the user
 
-Notice the '<b>&amp;</b>' logical operator which can be translated to <b>AND</b>. The two conditions must be met.
+Notice the `&` logical operator which can be translated to an `AND` operator, means the following conditions must be met.
 The execution of the search will not be perform until you actually use the FindOne() or FindAll() methods
 
 ```
@@ -83,8 +83,8 @@ FindOne Method     System.DirectoryServices.SearchResult FindOne()
 ```
 
 
-```
-PS C:\> $Search = [adsisearcher]"(&amp;(objectCategory=Computer)(name=DHCP1))"
+```powershell
+PS C:\> $Search = [adsisearcher]"(&(objectCategory=Computer)(name=DHCP1))"
 PS C:\> $Search.findall()
 
 Path                                              Properties
@@ -141,10 +141,10 @@ accountexpires                 {9223372036854775807}
 
 ### Output
 
-
 This function will just return the `Name`, `DNSHostName` and the `Description`.
 
 ```powershell
+# Querying a specific machine
 PS C:\> Get-Computer -ComputerName "LAB1DC01"
 
 DNShostName                Description                Name                     
@@ -152,7 +152,7 @@ DNShostName                Description                Name
 LAB1DC01.FX.LAB            Domain Controller of FX... LAB1DC01
 
 
-# Running against multiple computer objects
+# Querying multiple machines
 
 PS C:\> Get-Computer -ComputerName WORKSTATION01, WORKSTATION02, WORKSTATION03, WORKSTATION04
 
@@ -164,7 +164,7 @@ WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
 
 
-#Using a ComputerName pattern
+# Using a ComputerName pattern
 
 PS C:\> Get-Computer -ComputerName WORKSTATION*
 
@@ -176,7 +176,7 @@ WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
 
 
-# Or using a list of workstations instead
+# Using a list of workstations instead 
 
 PS C:\> Get-Content -Path .\computers.txt | Get-Computer
 
@@ -205,74 +205,76 @@ This is just a part of the function that is creating a ADSI searcher object to l
 ```powershell
 [CmdletBinding()]
 PARAM(
-    [Parameter(ValueFromPipelineByPropertyName=$true,
-                ValueFromPipeline=$true)]
-    [Alias("Computer")]
-    [String[]]$ComputerName,
-    
-    [Alias("ResultLimit","Limit")]
-    [int]$SizeLimit='100',
-    
-    [Parameter(ValueFromPipelineByPropertyName=$true)]
-    [Alias("Domain")]
-    [String]$DomainDN=$(([adsisearcher]"").Searchroot.path),
+  [Parameter(
+    ValueFromPipelineByPropertyName=$true,
+    ValueFromPipeline=$true)]
+  [Alias("Computer")]
+  [String[]]$ComputerName,
 
-    [Alias("RunAs")]
-    [System.Management.Automation.Credential()]
-    $Credential = [System.Management.Automation.PSCredential]::Empty
+  [Alias("ResultLimit","Limit")]
+  [int]$SizeLimit='100',
 
-)#PARAM
+  [Parameter(ValueFromPipelineByPropertyName=$true)]
+  [Alias("Domain")]
+  [String]$DomainDN=$(([adsisearcher]"").Searchroot.path),
 
-PROCESS{
-    IF ($ComputerName){FOREACH ($item in $ComputerName){
-    TRY{
-        # Building the basic search object with some parameters
-        Write-Verbose -Message "COMPUTERNAME: $item"
-        $Searcher = New-Object -TypeName System.DirectoryServices.DirectorySearcher `
-                        -ErrorAction 'Stop' -ErrorVariable ErrProcessNewObjectSearcher
-        $Searcher.Filter = "(&amp;(objectCategory=Computer)(name=$item))"
-        $Searcher.SizeLimit = $SizeLimit
-        $Searcher.SearchRoot = $DomainDN
+  [Alias("RunAs")]
+  [System.Management.Automation.Credential()]
+  $Credential = [System.Management.Automation.PSCredential]::Empty
 
-        # Specify a different domain to query
-        IF ($PSBoundParameters['DomainDN']){
-            IF ($DomainDN -notlike "LDAP://*") {$DomainDN = "LDAP://$DomainDN"}#IF
-            Write-Verbose -Message "Different Domain specified: $DomainDN"
-            $Searcher.SearchRoot = $DomainDN}#IF ($PSBoundParameters['DomainDN'])
+  )#PARAM
 
-        # Alternate Credentials
-        IF ($PSBoundParameters['Credential']) {
-            Write-Verbose -Message "Different Credential specified: $($Credential.UserName)"
-            $Domain = New-Object -TypeName System.DirectoryServices.DirectoryEntry `
-                -ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password) `
-                -ErrorAction 'Stop' -ErrorVariable ErrProcessNewObjectCred
-            $Searcher.SearchRoot = $Domain}#IF ($PSBoundParameters['Credential'])
+  PROCESS{
+  IF ($ComputerName){FOREACH ($item in $ComputerName){
+  TRY{
+    # Building the basic search object with some parameters
+    Write-Verbose -Message "COMPUTERNAME: $item"
+    $Searcher = New-Object -TypeName System.DirectoryServices.DirectorySearcher `
+                  -ErrorAction 'Stop' -ErrorVariable ErrProcessNewObjectSearcher
+    $Searcher.Filter = "(&(objectCategory=Computer)(name=$item))"
+    $Searcher.SizeLimit = $SizeLimit
+    $Searcher.SearchRoot = $DomainDN
 
-        # Querying the Active Directory
-        Write-Verbose -Message "Starting the ADSI Search..."
-        FOREACH ($Computer in $($Searcher.FindAll())){
-            Write-Verbose -Message "$($Computer.properties.name)"
-            New-Object -TypeName PSObject -ErrorAction 'Continue' `
-                -ErrorVariable ErrProcessNewObjectOutput -Property @{
-                "Name" = $($Computer.properties.name)
-                "DNShostName"    = $($Computer.properties.dnshostname)
-                "Description" = $($Computer.properties.description)
-                "OperatingSystem"=$($Computer.Properties.operatingsystem)
-                "WhenCreated" = $($Computer.properties.whencreated)
-                "DistinguishedName" = $($Computer.properties.distinguishedname)}#New-Object
-        }#FOREACH $Computer
+    # Specify a different domain to query
+    IF ($PSBoundParameters['DomainDN']){
+      IF ($DomainDN -notlike "LDAP://*") {$DomainDN = "LDAP://$DomainDN"}#IF
+      Write-Verbose -Message "Different Domain specified: $DomainDN"
+      $Searcher.SearchRoot = $DomainDN}#IF ($PSBoundParameters['DomainDN'])
 
-        Write-Verbose -Message "ADSI Search completed"
-    }#TRY
-    CATCH{ 
-        Write-Warning -Message ('{0}: {1}' -f $item, $_.Exception.Message)
-        IF ($ErrProcessNewObjectSearcher){
-            Write-Warning -Message "PROCESS BLOCK - Error during the creation of the searcher object"}
-        IF ($ErrProcessNewObjectCred){
-            Write-Warning -Message "PROCESS BLOCK - Error during the creation of the alternate credential object"}
-        IF ($ErrProcessNewObjectOutput){
-            Write-Warning -Message "PROCESS BLOCK - Error during the creation of the output object"}
-    }#CATCH
+    # Alternate Credentials
+    IF ($PSBoundParameters['Credential']) {
+      Write-Verbose -Message "Different Credential specified: $($Credential.UserName)"
+      $Domain = New-Object -TypeName System.DirectoryServices.DirectoryEntry `
+        -ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password) `
+        -ErrorAction 'Stop' -ErrorVariable ErrProcessNewObjectCred
+      $Searcher.SearchRoot = $Domain}#IF ($PSBoundParameters['Credential'])
+
+    # Querying the Active Directory
+    Write-Verbose -Message "Starting the ADSI Search..."
+    FOREACH ($Computer in $($Searcher.FindAll())){
+      Write-Verbose -Message "$($Computer.properties.name)"
+      New-Object -TypeName PSObject -ErrorAction 'Continue' `
+        -ErrorVariable ErrProcessNewObjectOutput -Property @{
+        "Name" = $($Computer.properties.name)
+        "DNShostName"    = $($Computer.properties.dnshostname)
+        "Description" = $($Computer.properties.description)
+        "OperatingSystem"=$($Computer.Properties.operatingsystem)
+        "WhenCreated" = $($Computer.properties.whencreated)
+        "DistinguishedName" = $($Computer.properties.distinguishedname)}#New-Object
+    }#FOREACH $Computer
+
+    Write-Verbose -Message "ADSI Search completed"
+  }#TRY
+  CATCH{ 
+    Write-Warning -Message ('{0}: {1}' -f $item, $_.Exception.Message)
+
+    IF ($ErrProcessNewObjectSearcher){
+      Write-Warning -Message "PROCESS BLOCK - Error during the creation of the searcher object"}
+    IF ($ErrProcessNewObjectCred){
+      Write-Warning -Message "PROCESS BLOCK - Error during the creation of the alternate credential object"}
+    IF ($ErrProcessNewObjectOutput){
+      Write-Warning -Message "PROCESS BLOCK - Error during the creation of the output object"}
+  }#CATCH
 }#FOREACH $item
 ```
 
@@ -306,6 +308,9 @@ The function generate the following output
 ```powershell
 PS C:\> Get-DomainComputer -ComputerName "lab1*"
 ```
+
+![image-center](../images/2013/../../../images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/example.png)
+
 
 ```
 Name              : LAB1DC01
@@ -376,70 +381,70 @@ Can't built a function without help! :-)
 PS C:\> Get-Help Get-DomainComputer -full
 
 NAME
-    Get-DomainComputer
-    
+  Get-DomainComputer
+  
 SYNOPSIS
-    The Get-DomainComputer function allows you to get information from an Active Directory 
-    Computer object using ADSI.
-    
+  The Get-DomainComputer function allows you to get information from an Active Directory 
+  Computer object using ADSI.
+  
 SYNTAX
-    Get-DomainComputer [[-ComputerName] <String[]>] [[-SizeLimit] <Int32>] [[-DomainDN] 
-    <String>] [[-Credential] <Object>] [<CommonParameters>]
-    
-    
+  Get-DomainComputer [[-ComputerName] <String[]>] [[-SizeLimit] <Int32>] [[-DomainDN] 
+  <String>] [[-Credential] <Object>] [<CommonParameters>]
+  
+  
 DESCRIPTION
-    The Get-DomainComputer function allows you to get information from an Active Directory 
-    Computer object using ADSI.
-    You can specify: how many result you want to see, which credentials to use and/or 
-    which domain to query.
-    
+  The Get-DomainComputer function allows you to get information from an Active Directory 
+  Computer object using ADSI.
+  You can specify: how many result you want to see, which credentials to use and/or 
+  which domain to query.
+  
 
 PARAMETERS
-    -ComputerName <String[]>
-        Specifies the name(s) of the Computer(s) to query
-        
-        Required?                    false
-        Position?                    1
-        Default value                
-        Accept pipeline input?       true (ByValue, ByPropertyName)
-        Accept wildcard characters?  false
-        
-    -SizeLimit <Int32>
-        Specifies the number of objects to output. Default is 100.
-        
-        Required?                    false
-        Position?                    2
-        Default value                100
-        Accept pipeline input?       false
-        Accept wildcard characters?  false
-        
-    -DomainDN <String>
-        Specifies the path of the Domain to query.
-        Examples:     "FX.LAB"
-                    "DC=FX,DC=LAB"
-                    "Ldap://FX.LAB"
-                    "Ldap://DC=FX,DC=LAB"
-        
-        Required?                    false
-        Position?                    3
-        Default value                $(([adsisearcher]"").Searchroot.path)
-        Accept pipeline input?       true (ByPropertyName)
-        Accept wildcard characters?  false
-        
-    -Credential <Object>
-        Specifies the alternate credentials to use.
-        
-        Required?                    false
-        Position?                    4
-        Default value                [System.Management.Automation.PSCredential]::Empty
-        Accept pipeline input?       false
-        Accept wildcard characters?  false
-        
-    <CommonParameters>
-        This cmdlet supports the common parameters: Verbose, Debug,
-        ErrorAction, ErrorVariable, WarningAction, WarningVariable,
-        OutBuffer and OutVariable. For more information, see 
-        about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
+  -ComputerName <String[]>
+      Specifies the name(s) of the Computer(s) to query
+      
+      Required?                    false
+      Position?                    1
+      Default value                
+      Accept pipeline input?       true (ByValue, ByPropertyName)
+      Accept wildcard characters?  false
+      
+  -SizeLimit <Int32>
+      Specifies the number of objects to output. Default is 100.
+      
+      Required?                    false
+      Position?                    2
+      Default value                100
+      Accept pipeline input?       false
+      Accept wildcard characters?  false
+      
+  -DomainDN <String>
+      Specifies the path of the Domain to query.
+      Examples:     "FX.LAB"
+                  "DC=FX,DC=LAB"
+                  "Ldap://FX.LAB"
+                  "Ldap://DC=FX,DC=LAB"
+      
+      Required?                    false
+      Position?                    3
+      Default value                $(([adsisearcher]"").Searchroot.path)
+      Accept pipeline input?       true (ByPropertyName)
+      Accept wildcard characters?  false
+      
+  -Credential <Object>
+      Specifies the alternate credentials to use.
+      
+      Required?                    false
+      Position?                    4
+      Default value                [System.Management.Automation.PSCredential]::Empty
+      Accept pipeline input?       false
+      Accept wildcard characters?  false
+      
+  <CommonParameters>
+      This cmdlet supports the common parameters: Verbose, Debug,
+      ErrorAction, ErrorVariable, WarningAction, WarningVariable,
+      OutBuffer and OutVariable. For more information, see 
+      about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
     
 INPUTS
     
@@ -447,17 +452,16 @@ OUTPUTS
     
 NOTES
     
-    
-        NAME:    FUNCT-AD-COMPUTER-Get-DomainComputer.ps1
-        AUTHOR:    Francois-Xavier CAT 
-        DATE:    2013/10/26
-        EMAIL:    info@lazywinadmin.com
-        WWW:    www.lazywinadmin.com
-        TWITTER:@lazywinadmin
-        
-        VERSION HISTORY:
-        1.0 2013.10.26
-            Initial Version
+  NAME:    FUNCT-AD-COMPUTER-Get-DomainComputer.ps1
+  AUTHOR:    Francois-Xavier CAT 
+  DATE:    2013/10/26
+  EMAIL:    info@lazywinadmin.com
+  WWW:    www.lazywinadmin.com
+  TWITTER:@lazywinadmin
+  
+  VERSION HISTORY:
+  1.0 2013.10.26
+      Initial Version
     
     -------------------------- EXAMPLE 1 --------------------------
     
@@ -533,4 +537,3 @@ NOTES
 ### Download
 
 Script can be found [here](https://github.com/lazywinadmin/PowerShell/blob/master/AD-COMPUTER-Get-DomainComputer/Get-DomainComputer.ps1)
-
