@@ -532,5 +532,5 @@ NOTES
 
 ### Download
 
-Script can be found [here](http://gallery.technet.microsoft.com/Get-DomainComputer-ADSI-3d531db7)
+Script can be found [here](https://github.com/lazywinadmin/PowerShell/blob/master/AD-COMPUTER-Get-DomainComputer/Get-DomainComputer.ps1)
 
