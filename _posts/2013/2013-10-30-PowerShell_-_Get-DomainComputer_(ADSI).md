@@ -28,14 +28,16 @@ Today we will use the same techniques to get information from Active Directory C
 
 
 
-### SOLUTION #1: The Lazy way 
+## SOLUTION #1: The Lazy way 
 
 
 <h4>PowerShell Code
 
 
 This is the small function I originally sent him, nothing fancy but it does the work.
-<pre style="border-style: solid; border-width: 1px; font-size: 13px;">Function Get-Computer {
+
+```powershell
+Function Get-Computer {
     [CmdletBinding()]
     PARAM(
         [Parameter(
@@ -134,7 +136,7 @@ accountexpires                 {9223372036854775807}
 ```
 
 
-<h4>Output
+### Output
 
 
 This function will just return the <b><span style="font-family: Courier New, Courier, monospace;">Name</b>, <b><span style="font-family: Courier New, Courier, monospace;">DNSHostName</b> and the <span style="font-family: Courier New, Courier, monospace;"><b>Description</b>
@@ -196,30 +198,22 @@ WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
 ```
 
 
-
-
-
-
-<h4>
-
-
-### SOLUTION #2: The Advanced way 
+## SOLUTION #2: The Advanced way 
 
 I spent a bit more time on this one to polish the code :
 
 * Comments based help,
-
 * Verbose,
-
 * Alternate credentials
-
 * Error handling
-
 * etc ...
 
-<h4>Quick look at the PowerShell code
+### Code
 
-This is just a part of the function that is creating a ADSI searcher object to look for a computer matching a name or a pattern specified by the user. Another part (not showed here) is taking care of listing all the Computer Objects.<pre style="border-style: solid; border-width: 1px; font-size: 11px;">[CmdletBinding()]
+This is just a part of the function that is creating a ADSI searcher object to look for a computer matching a name or a pattern specified by the user. Another part (not showed here) is taking care of listing all the Computer Objects.
+
+```powershell
+[CmdletBinding()]
 PARAM(
     [Parameter(ValueFromPipelineByPropertyName=$true,
                 ValueFromPipeline=$true)]
@@ -297,42 +291,25 @@ PROCESS{
 To resume we added the following items :
 
 * <b>Error Handling</b>
-
-* TRY{"do tasks"} CATCH{"Oups Error"}
-
+  * TRY{"do tasks"} CATCH{"Oups Error"}
 * <b>Verbose</b>
-
-* [cmdletbinding()]
-
-* Write-Verbose
-
+  * [cmdletbinding()]
+  * Write-Verbose
 * <b>Support for Multiple ComputerName query</b>
-
-* [string[]]$ComputerName
-
-* FOREACH ($item in $ComputerName)
-
+  * [string[]]$ComputerName
+  * FOREACH ($item in $ComputerName)
 * <b>Support for Alternative Credential</b>
-
-* [System.Management.Automation.Credential()]$Credential = [System.Management.Automation.PSCredential]::Empty
-
-* IF ($PSBoundParameters['Credential'])
-
-* New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
-
+  * [System.Management.Automation.Credential()]$Credential = [System.Management.Automation.PSCredential]::Empty
+  * IF ($PSBoundParameters['Credential'])
+  * New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
 * <b>Support for different Domain</b>
-
-* IF ($PSBoundParameters['DomainDN'])
-
-* $Searcher.SearchRoot = $DomainDN
-
-* OR
-
-* New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
+  * IF ($PSBoundParameters['DomainDN'])
+  * $Searcher.SearchRoot = $DomainDN
+  * OR
+  * New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
 
 
-
-<h4>Output
+### Output
 
 The function generate the following output
 
@@ -400,15 +377,12 @@ DistinguishedName : CN=LAB1VC02,CN=Computers,DC=FX,DC=LAB
 ```
 
 
-
-<h4>
-
-
-<h4>Help
+### Help
 
 Can't built a function without help! :-)
 
 ```powershell
+<#
 PS C:\> Get-Help Get-DomainComputer -full
 
 NAME
@@ -563,15 +537,10 @@ NOTES
     FX.LAB with the account FX\Administrator.
     Only show 10 results max and the Verbose parameter allows you to track the progression 
     of the script.
+#>
 ```
 
+### Download
 
-
-
-
-### Download (Advanced Solution)
-
-<a href="http://gallery.technet.microsoft.com/Get-DomainComputer-ADSI-3d531db7" target="_blank">Technet Repository</a>
-
-
+Script can be found [here](http://gallery.technet.microsoft.com/Get-DomainComputer-ADSI-3d531db7)
 
