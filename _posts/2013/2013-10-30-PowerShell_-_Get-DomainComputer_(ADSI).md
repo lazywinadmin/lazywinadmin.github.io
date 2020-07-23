@@ -1,9 +1,9 @@
 ---
 layout: single
 title: PowerShell - Get-DomainComputer (ADSI)
-excerpt: 
+excerpt:
 permalink: /2013/10/powershell-get-domaincomputer-adsi.html
-tags: 
+tags:
 - active directory
 - adsi
 - computer object
@@ -35,7 +35,7 @@ If you follow my blog, in my previous posts I wrote about a small PowerShell fun
 
 Today we will use the same techniques to get information from Active Directory Computer Object(s).
 
-## SOLUTION #1: The Lazy way 
+## SOLUTION #1: The Lazy way
 
 ### Code
 
@@ -76,10 +76,10 @@ The execution of the search will not be perform until you actually use the FindO
 ```
    TypeName: System.DirectoryServices.DirectorySearcher
 
-Name    MemberType Definition                                               
-----    ---------- ----------                                               
+Name    MemberType Definition
+----    ---------- ----------
 FindAll Method     System.DirectoryServices.SearchResultCollection FindAll()
-FindOne Method     System.DirectoryServices.SearchResult FindOne()          
+FindOne Method     System.DirectoryServices.SearchResult FindOne()
 ```
 
 
@@ -147,8 +147,8 @@ This function will just return the `Name`, `DNSHostName` and the `Description`.
 # Querying a specific machine
 PS C:\> Get-Computer -ComputerName "LAB1DC01"
 
-DNShostName                Description                Name                     
------------                -----------                ----                     
+DNShostName                Description                Name
+-----------                -----------                ----
 LAB1DC01.FX.LAB            Domain Controller of FX... LAB1DC01
 
 
@@ -176,7 +176,7 @@ WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
 
 
-# Using a list of workstations instead 
+# Using a list of workstations instead
 
 PS C:\> Get-Content -Path .\computers.txt | Get-Computer
 
@@ -188,7 +188,7 @@ WORKSTATION03.fx.lab              F-Xavier Cat                     WORKSTATION03
 WORKSTATION04.fx.lab              Jeanne St-Croix                  WORKSTATION04
 ```
 
-## SOLUTION #2: The Advanced way 
+## SOLUTION #2: The Advanced way
 
 I spent a bit more time on this one to polish the code :
 
@@ -265,7 +265,7 @@ PARAM(
 
     Write-Verbose -Message "ADSI Search completed"
   }#TRY
-  CATCH{ 
+  CATCH{
     Write-Warning -Message ('{0}: {1}' -f $item, $_.Exception.Message)
 
     IF ($ErrProcessNewObjectSearcher){
@@ -283,23 +283,21 @@ PARAM(
 To resume we added the following items :
 
 * <b>Error Handling</b>
-  * TRY{"do tasks"} CATCH{"Oups Error"}
+  * `TRY{"do tasks"} CATCH{"Oups Error"}`
 * <b>Verbose</b>
-  * [cmdletbinding()]
-  * Write-Verbose
+  * `[cmdletbinding()]`
+  * `Write-Verbose`
 * <b>Support for Multiple ComputerName query</b>
-  * [string[]]$ComputerName
-  * FOREACH ($item in $ComputerName)
+  * `[string[]]$ComputerName`
+  * `FOREACH ($item in $ComputerName)`
 * <b>Support for Alternative Credential</b>
-  * [System.Management.Automation.Credential()]$Credential = [System.Management.Automation.PSCredential]::Empty
-  * IF ($PSBoundParameters['Credential'])
-  * New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
+  * `[System.Management.Automation.Credential()]$Credential = [System.Management.Automation.PSCredential]::Empty`
+  * `IF ($PSBoundParameters['Credential'])`
+  * `New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)`
 * <b>Support for different Domain</b>
-  * IF ($PSBoundParameters['DomainDN'])
-  * $Searcher.SearchRoot = $DomainDN
-  * OR
-  * New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)
-
+  * `IF ($PSBoundParameters['DomainDN'])`
+  * `$Searcher.SearchRoot = $DomainDN`
+  * `New-Object -TypeName System.DirectoryServices.DirectoryEntry-ArgumentList $DomainDN,$($Credential.UserName),$($Credential.GetNetworkCredential().password)`
 
 ### Output
 
@@ -382,154 +380,154 @@ PS C:\> Get-Help Get-DomainComputer -full
 
 NAME
   Get-DomainComputer
-  
+
 SYNOPSIS
-  The Get-DomainComputer function allows you to get information from an Active Directory 
+  The Get-DomainComputer function allows you to get information from an Active Directory
   Computer object using ADSI.
-  
+
 SYNTAX
-  Get-DomainComputer [[-ComputerName] <String[]>] [[-SizeLimit] <Int32>] [[-DomainDN] 
+  Get-DomainComputer [[-ComputerName] <String[]>] [[-SizeLimit] <Int32>] [[-DomainDN]
   <String>] [[-Credential] <Object>] [<CommonParameters>]
-  
-  
+
+
 DESCRIPTION
-  The Get-DomainComputer function allows you to get information from an Active Directory 
+  The Get-DomainComputer function allows you to get information from an Active Directory
   Computer object using ADSI.
-  You can specify: how many result you want to see, which credentials to use and/or 
+  You can specify: how many result you want to see, which credentials to use and/or
   which domain to query.
-  
+
 
 PARAMETERS
   -ComputerName <String[]>
       Specifies the name(s) of the Computer(s) to query
-      
+
       Required?                    false
       Position?                    1
-      Default value                
+      Default value
       Accept pipeline input?       true (ByValue, ByPropertyName)
       Accept wildcard characters?  false
-      
+
   -SizeLimit <Int32>
       Specifies the number of objects to output. Default is 100.
-      
+
       Required?                    false
       Position?                    2
       Default value                100
       Accept pipeline input?       false
       Accept wildcard characters?  false
-      
+
   -DomainDN <String>
       Specifies the path of the Domain to query.
       Examples:     "FX.LAB"
                   "DC=FX,DC=LAB"
                   "Ldap://FX.LAB"
                   "Ldap://DC=FX,DC=LAB"
-      
+
       Required?                    false
       Position?                    3
       Default value                $(([adsisearcher]"").Searchroot.path)
       Accept pipeline input?       true (ByPropertyName)
       Accept wildcard characters?  false
-      
+
   -Credential <Object>
       Specifies the alternate credentials to use.
-      
+
       Required?                    false
       Position?                    4
       Default value                [System.Management.Automation.PSCredential]::Empty
       Accept pipeline input?       false
       Accept wildcard characters?  false
-      
+
   <CommonParameters>
       This cmdlet supports the common parameters: Verbose, Debug,
       ErrorAction, ErrorVariable, WarningAction, WarningVariable,
-      OutBuffer and OutVariable. For more information, see 
-      about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
-    
+      OutBuffer and OutVariable. For more information, see
+      about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 INPUTS
-    
+
 OUTPUTS
-    
+
 NOTES
-    
+
   NAME:    FUNCT-AD-COMPUTER-Get-DomainComputer.ps1
-  AUTHOR:    Francois-Xavier CAT 
+  AUTHOR:    Francois-Xavier CAT
   DATE:    2013/10/26
   EMAIL:    info@lazywinadmin.com
   WWW:    www.lazywinadmin.com
   TWITTER:@lazywinadmin
-  
+
   VERSION HISTORY:
   1.0 2013.10.26
       Initial Version
-    
+
     -------------------------- EXAMPLE 1 --------------------------
-    
+
     C:\PS>Get-DomainComputer
-    
-    
+
+
     This will show all the computers in the current domain
-    
-    
-    
-    
-    
+
+
+
+
+
     -------------------------- EXAMPLE 2 --------------------------
-    
+
     C:\PS>Get-DomainComputer -ComputerName "Workstation001"
-    
-    
+
+
     This will query information for the computer Workstation001.
-    
-    
-    
-    
-    
+
+
+
+
+
     -------------------------- EXAMPLE 3 --------------------------
-    
+
     C:\PS>Get-DomainComputer -ComputerName "Workstation001","Workstation002"
-    
-    
+
+
     This will query information for the computers Workstation001 and Workstation002.
-    
-    
-    
-    
-    
+
+
+
+
+
     -------------------------- EXAMPLE 4 --------------------------
-    
+
     C:\PS>Get-Content -Path c:\WorkstationsList.txt | Get-DomainComputer
-    
-    
-    This will query information for all the workstations listed inside the 
+
+
+    This will query information for all the workstations listed inside the
     WorkstationsList.txt file.
-    
-    
-    
-    
-    
+
+
+
+
+
     -------------------------- EXAMPLE 5 --------------------------
-    
+
     C:\PS>Get-DomainComputer -ComputerName "Workstation0*" -SizeLimit 10 -Verbose
-    
-    
-    This will query information for computers starting with 'Workstation0', but only show 
+
+
+    This will query information for computers starting with 'Workstation0', but only show
     10 results max.
     The Verbose parameter allow you to track the progression of the script.
-    
-    
-    
-    
-    
+
+
+
+
+
     -------------------------- EXAMPLE 6 --------------------------
-    
-    C:\PS>Get-DomainComputer -ComputerName "Workstation0*" -SizeLimit 10 -Verbose 
+
+    C:\PS>Get-DomainComputer -ComputerName "Workstation0*" -SizeLimit 10 -Verbose
     -DomainDN "DC=FX,DC=LAB" -Credential (Get-Credential -Credential FX\Administrator)
-    
-    
-    This will query information for computers starting with 'Workstation0' from the domain 
+
+
+    This will query information for computers starting with 'Workstation0' from the domain
     FX.LAB with the account FX\Administrator.
-    Only show 10 results max and the Verbose parameter allows you to track the progression 
+    Only show 10 results max and the Verbose parameter allows you to track the progression
     of the script.
 #>
 ```
