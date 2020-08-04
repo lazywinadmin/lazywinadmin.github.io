@@ -63,7 +63,7 @@ Here is whole workflow, including the dependencies.
 
 ## azurerm_automation_module Terraform resource
 
-As you can see [in the hashicorp documentation], the terraform resource `azurerm_automation_module` only provide a `uri` parameter for module to import.
+As you can see [in the hashicorp documentation](https://www.terraform.io/docs/providers/azurerm/r/automation_module.html), the terraform resource `azurerm_automation_module` only provide a `uri` parameter for module to import.
 
 ```
 resource "azurerm_automation_module" "mymodule" {
@@ -79,7 +79,7 @@ resource "azurerm_automation_module" "mymodule" {
 
 ## Code
 
-*Show me the code already! Jump to [download]((#download))*
+*Show me the code already! Jump to [download](#download)*
 
 In the following I'm using Terraform and the azurerm provider to create the resources needed. Nothing very complicated but a few requirements to be aware of.
 
