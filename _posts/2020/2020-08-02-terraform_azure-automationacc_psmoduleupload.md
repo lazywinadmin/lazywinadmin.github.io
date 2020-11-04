@@ -153,7 +153,7 @@ terraform apply "automation.tfplan"
 
 ## Download
 
-The code is available [on Github](https://github.com/lazywinadmin/terraform/tree/master/azure-automationaccount-upload_psmodule) on my `terraform` repository.
+The code is available [on Github](https://github.com/lazywinadmin/terraform/tree/master/azure/automationaccount/upload_psmodule) on my `terraform` repository.
 
 ## Resources
 
