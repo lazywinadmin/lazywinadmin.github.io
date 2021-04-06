@@ -410,7 +410,7 @@ if($CurrentPost.count -eq 1)
         $RealTitle = $result.ParsedHtml.title
         # output object
         $CurrentPost.group |
-            Select-Object -Property*,
+            Select-Object -Property *,
             @{L='RealTitle';e={$RealTitle}},
             @{L='ThreadCount';e={$CurrentPost.count}}
     }
@@ -500,7 +500,7 @@ Import-Module -Name powershellforgithub
 # Specify our Github Token
 $key = '<Secret token>'
 $KeySec = ConvertTo-SecureString $key -AsPlainText -Force
-$cred = New-Object System.Management.Automation.PSCredential ($null, $KeySec)
+$cred = New-Object System.Management.Automation.PSCredential ('username_is_ignored', $KeySec)
 #$cred = Get-Credential -UserName $null
 
 # Set Connection and configuration
