@@ -32,7 +32,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      height: calc(100vh - #{$nav-height} - 2em);
+      max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
 
@@ -184,13 +184,18 @@
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
-  z-index: 10;
-  position: relative;
+  z-index: 20;
   cursor: pointer;
 
   li:last-child {
     a {
       margin-bottom: 0;
+    }
+  }
+
+  .author__urls {
+    span.label {
+      padding-left: 5px;
     }
   }
 

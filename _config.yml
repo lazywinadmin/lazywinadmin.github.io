@@ -51,7 +51,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : 'https://feeds.feedburner.com/lazywinadmin' # blank (default) uses feed.xml
-search                   : true # true, false (default)
+  hide                   : # true, false (default)
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -85,7 +86,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "UA-23373830-3"
     anonymize_ip         : # true, false (default)
@@ -101,7 +102,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
