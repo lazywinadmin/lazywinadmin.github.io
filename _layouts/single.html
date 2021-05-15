@@ -41,8 +41,8 @@ layout: default
             <i class="far fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%Y/%m/%d" }} |
             {% endif %}
 
-            <!--- Include Read time (does not exist anymore)-->
-            <!--- <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}-->
+            <!--- Include Read time (does not exist anymore, brackets edited)-->
+            <!--- <i class="far fa-clock" aria-hidden="true"></i> { include read-time.html }-->
 
             <!--- Include github-->
             {% if site.custom.post.edit %} |
@@ -50,9 +50,6 @@ layout: default
               <!--- <i class="fa fa-pencil" aria-hidden="true"></i></a>-->
               <i class="fab fa-github-alt" aria-hidden="true"></i></a>
             {% endif %}
-
-            <!---<i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}-->
-
 
           </p>
         {% endif %}
