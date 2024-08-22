@@ -32,7 +32,7 @@ First we need to verify if the module is loaded and then search for Cmdlet that 
 
 ```powershell
 # Check if the ActiveDirectory module is Loaded
-Get-Module -Name ActiveDirevtory
+Get-Module -Name ActiveDirectory
 
 # Check if the ActiveDirectory module is available
 Get-Module -Name ActiveDirectory -ListAvailable
