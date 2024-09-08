@@ -1,9 +1,9 @@
 ---
 layout: single
 title: Winter Scripting Games 2013 - Practice Event 1
-excerpt: 
+excerpt:
 permalink: /2013/02/winter-scripting-games-2013-practice.html
-tags: 
+tags:
 - 2013 winter scripting games
 - function
 - powershell
@@ -64,8 +64,7 @@ for each computers listed in Computers.txt
 .NOTES
 NAME  : Get-DiskSizeInfo
 AUTHOR: Francois-Xavier Cat
-EMAIL : fxcat@LazyWinAdmin.com
-DATE  : 2013/02/05 
+DATE  : 2013/02/05
 
 .LINK
 http://lazywinadmin.com
@@ -90,7 +89,7 @@ PROCESS {
                       'ErrorAction'='SilentlyContinue'}
           $TryIsOK = $True
 
-          # Run the query against the current $Computer    
+          # Run the query against the current $Computer
           $Disks = Get-WmiObject @params
       }#Try
 

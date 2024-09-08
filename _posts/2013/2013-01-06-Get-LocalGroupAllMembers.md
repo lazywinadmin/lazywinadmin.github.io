@@ -1,9 +1,9 @@
 ---
 layout: single
 title: PowerShell - Retrieve a local group membership
-excerpt: 
+excerpt:
 permalink: /2013/01/get-localgroupallmembers.html
-tags: 
+tags:
 - active directory
 - audit
 - group membership
@@ -35,25 +35,24 @@ Once your Powershell is launched you can load the function using the Dot Sourcin
 ## The Code
 
 ```powershell
-# ############################################################################# 
-# NAME: FUNCTION-Get-LocalGroupAllMembers.ps1 
-#  
-# AUTHOR:	Francois-Xavier Cat 
-# DATE:		2012/12/27 
-# EMAIL:	fxcat@lazywinadmin.com
+# #############################################################################
+# NAME: FUNCTION-Get-LocalGroupAllMembers.ps1
+#
+# AUTHOR:	Francois-Xavier Cat
+# DATE:		2012/12/27
 # WEBSITE:	LazyWinAdmin.com
 # TWiTTER:	@lazywinadmin
-#  
+#
 # COMMENT:	The following functions will gather all the local and domain members (direct or nested)
 # 			By Default the function will query the Localhost and the Group Administrators.
 
 # REQUIRE:	Quest Active Directory
 # USAGE:	Get-LocalGroupAllMembers -ComputerName SERVER01 -GroupName "Administrators"
-# 
-# VERSION HISTORY 
-# 1.0 2012.12.27 Initial Version. 
 #
-# ############################################################################# 
+# VERSION HISTORY
+# 1.0 2012.12.27 Initial Version.
+#
+# #############################################################################
 
 # Function to get LOCAL Group Member(s)
 #	Members can be from the Local Machine or from the Domain.
@@ -65,15 +64,15 @@ Function global:Get-LocalGroupMembership {
 	Param (
 		[Parameter(ValueFromPipelineByPropertyName=$true,ValueFromPipeline=$true)]
 		[string]$ComputerName = $env:COMPUTERNAME,
-		
+
 		[string]$GroupName = "Administrators"
 		)
-	
+
 	# Create the array that will contains all the output of this function
 	$Output = @()
-	
+
 	# Get the members for the group and computer specified
-	$Group = [ADSI]"WinNT://$ComputerName/$GroupName" 
+	$Group = [ADSI]"WinNT://$ComputerName/$GroupName"
 	$Members = @($group.psbase.Invoke("Members"))
 
 	# Format the Output
@@ -81,14 +80,14 @@ Function global:Get-LocalGroupMembership {
 		$name = $_.GetType().InvokeMember("Name", 'GetProperty', $null, $_, $null)
 		$class = $_.GetType().InvokeMember("Class", 'GetProperty', $null, $_, $null)
 		$path = $_.GetType().InvokeMember("ADsPath", 'GetProperty', $null, $_, $null)
-		
+
 		# Find out if this is a local or domain object
 		if ($path -like "*/$ComputerName/*"){
 			$Type = "Local"
 			}
 		else {$Type = "Domain"
 		}
-		
+
 		$Details = "" | Select ComputerName,Account,Class,Group,Path,Type
 		$Details.ComputerName = $ComputerName
 		$Details.Account = $name
@@ -96,7 +95,7 @@ Function global:Get-LocalGroupMembership {
         $Details.Group = $GroupName
 		$details.Path = $path
 		$details.Type = $type
-		
+
 		# Send the current result to the $output variable
 		$output = $output + $Details
 	}
@@ -110,13 +109,13 @@ Function global:Get-LocalGroupMembership {
 function global:Get-DomainGroupMembership {
 	param ($GroupName,$ComputerName)
 	#$ComputerName parameter here is only used for information purpose, to show in the output
-	
+
 	# Create the array that will contains all the output of this function
 	$Output = @()
-	
+
 	# Check the current members of $GroupName
 	$Members = $GroupName | Get-QADGroupMember
-	
+
 	# Check the Count of $members
 	$MembersCount = $Members.count
 
@@ -169,7 +168,7 @@ function global:Get-LocalGroupAllMembers {
 # Create the array that will contains all the output of this function
 $Output = @()
 
-# Get the local administrators for the current ComputerName using the function declared 
+# Get the local administrators for the current ComputerName using the function declared
 #	earlier: Get-LocalGroupMembership
 $LocalAdministrators = Get-LocalGroupMembership -ComputerName $ComputerName -GroupName $GroupName
 
@@ -202,11 +201,11 @@ foreach ($admin in $LocalAdministrators){
         $output = $output + $Details
 		# Return the members of the current Local Group
         $localgroup = Get-LocalGroupMembership -GroupName $admin.account -ComputerName $ComputerName
-        
+
         # If There is at least 1 member, do the following
         if ($localgroup.count -gt 0) {
             foreach ($localMember in $localgroup){
-                $Details = "" | Select ComputerName,Account,Class,Group,Type,Path                       
+                $Details = "" | Select ComputerName,Account,Class,Group,Type,Path
                 $Details.Account = $localMember.account
                 $Details.Group = $admin.account # Here we are taking the name of the parent group
                 $Details.ComputerName = $localMember.ComputerName
@@ -223,9 +222,9 @@ foreach ($admin in $LocalAdministrators){
         # Get information about this object in the domain
         #	Here we just want to know if it is an User or Group.
         $ADObject = Get-QADObject $admin.account
-        
+
         Switch ($ADObject.type) {
-        
+
         	#	Domain User
             "user" {
                 # Return the User information

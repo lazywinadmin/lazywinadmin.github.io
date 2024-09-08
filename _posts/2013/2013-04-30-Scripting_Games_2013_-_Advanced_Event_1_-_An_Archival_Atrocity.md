@@ -1,9 +1,9 @@
 ---
 layout: single
 title: Scripting Games 2013 - Advanced Event 1 - An Archival Atrocity
-excerpt: 
+excerpt:
 permalink: /2013/04/scripting-games-2013-advanced-event-1.html
-tags: 
+tags:
 - 2013 scripting games
 - function
 - powershell 3.0
@@ -43,7 +43,7 @@ For example:
 Within those subfolders, the filenames are random GUIDs with a .LOG filename extension.
 Once created on disk, the files are never touched again by the applications.
 
-Your goal is to grab all of the files older than 90 days and move them to \\NASServer\Archives - although that path will change from time to time. 
+Your goal is to grab all of the files older than 90 days and move them to \\NASServer\Archives - although that path will change from time to time.
 
 You need to maintain the subfolder structure, so that files from C:\Application\Log\App1 get moved to\\NASServer\Archives\App1, and so forth.
 
@@ -83,9 +83,9 @@ Script
 
  .DESCRIPTION
   Move logs between two specified locations
-         Optionaly, you can specify the age in day(s) of the file(s) that need be 
+         Optionaly, you can specify the age in day(s) of the file(s) that need be
   moved (default = 90) and their File Extention (default = *.log)
-        
+
          If directories are present in the path, those will be re-created
   in the destination path.
 
@@ -95,7 +95,7 @@ Script
 
  .PARAMETER  Destination
   Location path where the logs will be moved.
- 
+
  .PARAMETER  Type
   Type of File Extention that need to be moved. Default value is *.log
 
@@ -104,16 +104,16 @@ Script
 
  .EXAMPLE
   PS C:\> Move-Log -Path "c:\Applications" -Destination "\\Server\Share"
-  
-  This example shows how to call the Move-Log function with 
-  Path and Destination parameters to move old logs from the local 
+
+  This example shows how to call the Move-Log function with
+  Path and Destination parameters to move old logs from the local
   directory C:\Applications to the remote share \\server\share.
 
  .EXAMPLE
   PS C:\> Move-Log -Path "c:\Applications" -Destination "x:\Backup\Apps\Archives"
-  
-  This example shows how to call the Move-Log function with Path and 
-  Destination parameters to move old logs from C:\Applications to 
+
+  This example shows how to call the Move-Log function with Path and
+  Destination parameters to move old logs from C:\Applications to
   x:\Backup\Apps\Archives
 
  .EXAMPLE
@@ -130,10 +130,10 @@ Script
 
  .EXAMPLE
   PS C:\> Move-Log -Path "C:\Applications" -Destination "\\Server\Share" -OlderThan 90 -type *.log
-  
-  This example shows how to call the Move-Log function with Path, 
+
+  This example shows how to call the Move-Log function with Path,
   Destination, OlderThan and type parameters. This will move logs with the
-  extention *.log older than 90 days from c:\Application to the remote 
+  extention *.log older than 90 days from c:\Application to the remote
   share \\server\share.
 
  .INPUTS
@@ -146,8 +146,7 @@ Script
   NAME    : Move-Log.ps1
   AUTHOR  : Francois-Xavier Cat
   TWITTER : @lazywinadmin
-  EMAIL   : fxcat@lazywinadmin.com
-  WWW     : www.lazywinadmin.com
+  WWW     : lazywinadmin.com
 #>
 
  [CmdletBinding(
@@ -164,7 +163,7 @@ Script
         [alias("Source")]
   [System.String]
   $Path = ".\",
-    
+
         [Parameter(Mandatory=$true,
           HelpMessage="Enter the Path where your logs will be moved")]
         [ValidateScript({Test-Path $_})]
@@ -191,7 +190,7 @@ Script
                             -Recurse `
                             -File |
                         Where-Object {$_.LastWriteTime -lt (get-date).AddDays(-$OlderThan) }
-            
+
             # If Logs are found
             if ($Files){
 
@@ -201,13 +200,13 @@ Script
 
                     # Get the Name of the Parent Folder
                     $ParentFolder = Split-Path -Path (Split-Path $File -Parent) -Leaf
-                    
+
                     # Build the Destination Path for the current $file
                     $DestinationFolder = Join-Path -Path $Destination -ChildPath $ParentFolder
 
                     # Verify this Folder Name exist in the Destination Path
                     if (-not(Test-Path -Path $DestinationFolder)){
-      
+
                         # Creating the Folder in the $destination if does not exist
                         Write-Verbose -Message "PROCESS - Creating folder in the Destination path: $ParentFolder"
                         New-Item -Name $ParentFolder -ItemType directory -Path $Destination | Out-Null
@@ -217,11 +216,11 @@ Script
                     # Move the file
                     Write-Verbose -Message "PROCESS - Moving $File to $DestinationFolder"
                     Move-Item -Path $File.FullName -Destination $DestinationFolder -Force
-                
+
                 }#foreach ($file in $files)
 
             }#if($files)
-            
+
    # If no old logs are found, do the following
    else{
                 Write-Verbose -Message "PROCESS - No Logs to move"
@@ -242,4 +241,3 @@ Script
 Thanks for reading! Feel free to contact me or leave me a comment below!
 
 Twitter: @lazywinadmin
-Email: fxcat@lazywinadmin.com

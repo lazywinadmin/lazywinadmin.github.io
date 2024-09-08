@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "[UPDATE] PowerShell - Monitor and Report Active Directory Group Membership Change"
-excerpt: 
+excerpt:
 permalink: /2013/11/update-powershell-monitor-and-report.html
-tags: 
+tags:
 - active directory
 - group membership
 - monitoring
@@ -338,8 +338,8 @@ SYNTAX
 
 .PARAMETER GroupScope
     Specify the group scope of groups you want to find. Acceptable values are:
-        'Global'; 
-        'Universal'; 
+        'Global';
+        'Universal';
         'DomainLocal'.
 
 .PARAMETER GroupType

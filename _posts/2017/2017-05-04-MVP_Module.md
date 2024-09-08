@@ -3,7 +3,7 @@ layout: single
 title: "MVP PowerShell module"
 excerpt: "The MVP PowerShell module allow you to interact with the Microsoft MVP portal to maintain and update a profile"
 permalink:
-tags: 
+tags:
   - powershell
   - 'Microsoft MVP'
 categories:
@@ -119,15 +119,15 @@ Get-MVPProfile -ID 5000475 #Francois-Xavier Cat
 __Output__
 
 ```text
-Metadata             : @{PageTitle=Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an 
+Metadata             : @{PageTitle=Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an
                        Automation Specialist.; TemplateName=; Keywords=; Description=}
 MvpId                : 5000475
 YearsAsMvp           : 4
 FirstAwardYear       : 2014
 AwardCategoryDisplay : Cloud and Datacenter Management
-TechnicalExpertise   : 
+TechnicalExpertise   :
 InTheSpotlight       : False
-Headline             : Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an Automation 
+Headline             : Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an Automation
                        Specialist in a large Financial company.
 Biography            : Francois-Xavier Cat is from France but has been living in Montreal, Quebec, Canada since 2004.
                        In 2014, He was concurrently awarded his first MVP PowerShell by Microsoft and PowerShell Hero 2014 award by PowerShell.org.
@@ -139,26 +139,26 @@ PrimaryEmailAddress  :
 ShippingCountry      : Canada
 ShippingStateCity    : Montreal, QC
 Languages            : French, English
-OnlineIdentities     : {@{PrivateSiteId=35435; SocialNetwork=; Url=https://www.facebook.com/fxavierc; OnlineIdentityVisibility=; 
-                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=False; 
-                       PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False}, 
-                       @{PrivateSiteId=74042; SocialNetwork=; Url=https://www.facebook.com/lazywinadmin; OnlineIdentityVisibility=; 
-                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=True; 
-                       PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False}, 
-                       @{PrivateSiteId=56489; SocialNetwork=; Url=http://klout.com/LazyWinAdm; OnlineIdentityVisibility=; 
-                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=False; 
-                       PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False}, 
-                       @{PrivateSiteId=39315; SocialNetwork=; Url=http://ca.linkedin.com/in/fxcat; OnlineIdentityVisibility=; 
-                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=True; 
+OnlineIdentities     : {@{PrivateSiteId=35435; SocialNetwork=; Url=https://www.facebook.com/; OnlineIdentityVisibility=;
+                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=False;
+                       PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False},
+                       @{PrivateSiteId=74042; SocialNetwork=; Url=https://www.facebook.com/; OnlineIdentityVisibility=;
+                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=True;
+                       PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False},
+                       @{PrivateSiteId=56489; SocialNetwork=; Url=http://klout.com/; OnlineIdentityVisibility=;
+                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=False;
+                       PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False},
+                       @{PrivateSiteId=39315; SocialNetwork=; Url=http://ca.linkedin.com/in/fxcat; OnlineIdentityVisibility=;
+                       ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=True;
                        PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False}...}
 Certifications       : {@{PrivateSiteId=1274; Id=a2137352-509a-e431-bbc8-6c3be5a82b68; Title=VMware VCP510-DCV,; CertificationVisibility=}}
 Activities           :
-CommunityAwards      : {@{PrivateSiteId=12499; Title=SAPIEN MVP; Description="SAPIEN Most Valuable Professional (MVP) award. It’s our way to 
+CommunityAwards      : {@{PrivateSiteId=12499; Title=SAPIEN MVP; Description="SAPIEN Most Valuable Professional (MVP) award. It’s our way to
                        recognize and show
                        our appreciation for community members who promote our products and contribute
-                       to their improvement and success."; DateEarned=2015-01-16T00:00:00; 
-                       ReferenceUrl=http://www.sapien.com/company/mvp/13/Francois-Xavier_Cat; AwardRecognitionVisibility=}, @{PrivateSiteId=6179; 
-                       Title=PowerShell Hero; Description=; DateEarned=2014-01-08T00:00:00; 
+                       to their improvement and success."; DateEarned=2015-01-16T00:00:00;
+                       ReferenceUrl=http://www.sapien.com/company/mvp/13/Francois-Xavier_Cat; AwardRecognitionVisibility=}, @{PrivateSiteId=6179;
+                       Title=PowerShell Hero; Description=; DateEarned=2014-01-08T00:00:00;
                        ReferenceUrl=http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/; AwardRecognitionVisibility=}}
 NewsHighlights       : {}
 UpcomingEvent        : {}
