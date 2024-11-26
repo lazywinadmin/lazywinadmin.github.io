@@ -192,6 +192,7 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
 * Automation
   * [IFTTT.com]
 * Regular Expression
+  * [Cyrilex](https://extendsclass.com/regex-tester.html)
   * [Regex101](http://regex101.com/)
 * Active Directory
   * [LDAP Syntax Filters](http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx)
