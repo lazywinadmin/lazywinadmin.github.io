@@ -1,6 +1,6 @@
 # LazyWinAdmin blog
 
-Blog of Francois-Xavier Cat @lazywinadmin. This focus on Automation and Orchestration of tasks.
+Blog of Francois-Xavier Cat @lazywinadmin. This focuses on Automation and Orchestration of tasks.
 
 ---
 
