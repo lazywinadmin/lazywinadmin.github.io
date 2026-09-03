@@ -89,7 +89,7 @@ For my need, this was working great during my initial tests on W2008R2 but I had
 * Windows Client 7/ Windows 2008 are using the [NetProvisionComputerAccount function](https://docs.microsoft.com/en-us/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount)
 * Windows Client 8+/ Windows Server 2012+ are using the [NetCreateProvisioningPackage function](https://docs.microsoft.com/en-us/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage)
 
-Overall this approach saved a lot of time and run in seconds compared `djoin.exe`. 
+Overall this approach saved a lot of time and run in seconds compared to `djoin.exe`. 
 
 ## Usage
 
