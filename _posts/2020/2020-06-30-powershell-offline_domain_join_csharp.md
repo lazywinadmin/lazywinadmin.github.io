@@ -80,13 +80,13 @@ Alternatively you could still use the approach shown in [my previous ODJ blogpos
 
 ## Solution using c# and PowerShell
 
-I spent sometimes looking for a solution that could expedite the ODJ step while using the entitled AD account. I tested different approaches but ultimately ended up using a combination of PowerShell and c#
+I spent some time looking for a solution that could expedite the ODJ step while using the entitled AD account. I tested different approaches but ultimately ended up using a combination of PowerShell and c#
 
 While investigating on P/Invoke around [[NetJoinDomain]](https://www.pinvoke.net/default.aspx/netapi32/NetJoinDomain.html), [[NetGetJoinInformation]](https://www.pinvoke.net/default.aspx/netapi32.NetGetJoinInformation) methods, I found the following [code snippet](https://gist.github.com/Ryan2065/79838b78643d2311d60cb6147e3b87bf) from [Ryan Ephgrave](https://twitter.com/EphingPosh) which was using PowerShell/c# to join a Nano Server during WinPE.
 
 For my need, this was working great during my initial tests on W2008R2 but I had to update the code a bit to make it work on Windows Server 2012/2016+ versions.
 
-* Window Client 7/ Windows 2008 are using the [NetProvisionComputerAccount function](https://docs.microsoft.com/en-us/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount)
+* Windows Client 7/ Windows 2008 are using the [NetProvisionComputerAccount function](https://docs.microsoft.com/en-us/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount)
 * Windows Client 8+/ Windows Server 2012+ are using the [NetCreateProvisioningPackage function](https://docs.microsoft.com/en-us/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage)
 
 Overall this approach saved a lot of time and run in seconds compared `djoin.exe`. 
