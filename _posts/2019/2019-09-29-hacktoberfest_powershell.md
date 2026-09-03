@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Hacktoberfest PowerShell (french)"
-excerpt: "Dans le cadre du Hacktoberfest qui ce tient pendant le mois d'Octobre, nous organisons un mini-meetup pour discuter des différentes façons de contribuer a des projets Open Sources sur Github."
+excerpt: "Dans le cadre du Hacktoberfest qui se tient pendant le mois d'Octobre, nous organisons un mini-meetup pour discuter des différentes façons de contribuer à des projets Open Sources sur Github."
 permalink:
 tags: 
   - hacktoberfest
@@ -24,7 +24,7 @@ toc: true
 toc_label: "Table of content"
 ---
 
-Dans le cadre du Hacktoberfest qui ce tient pendant le mois d'Octobre, nous organisons un mini-meetup pour discuter les différentes façons de contribuer a des projets Open Sources sur Github.
+Dans le cadre du Hacktoberfest qui se tient pendant le mois d'Octobre, nous organisons un mini-meetup pour discuter les différentes façons de contribuer à des projets Open Sources sur Github.
 
 Les démos seront évidemment concentrées sur les projets PowerShell de la communauté.
 
@@ -42,14 +42,14 @@ A l'aide de votre compte Github, dirigez-vous vers [Hacktoberfest](https://hackt
 
 ### Gagner un t-shirt
 
-En plus d'apprendre en contribuant, vous pouvez vous qualifier pour gagner un t-shirt "Hacktoberfest 2019". Celui ci sera offert aux premier 50 000 personnes ayant soumis au moins 4 pull requests sur des depots public Github (avec ou sans label `Hacktoberfest`).
+En plus d'apprendre en contribuant, vous pouvez vous qualifier pour gagner un t-shirt "Hacktoberfest 2019". Celui ci sera offert aux premier 50 000 personnes ayant soumis au moins 4 pull requests sur des dépôts publics Github (avec ou sans label `Hacktoberfest`).
 
-### Trouver et Contribuer a des depots public
+### Trouver et Contribuer à des dépôts publics
 
-Pour trouver des issues relier a l'evenement Hacktoberfest, vous pouvez faire une recherche sur Github, exemples:
+Pour trouver des issues reliées à l'événement Hacktoberfest, vous pouvez faire une recherche sur Github, exemples:
 
-* [Issue `Hacktoberfest` pour le language `PowerShell`](https://github.com/search?l=Powershell&q=label%3Ahacktoberfest&type=Issues)
-* [Issue `Hacktoberfest` pour le language `Python`](https://github.com/search?l=Python&q=label%3Ahacktoberfest&type=Issues)
+* [Issue `Hacktoberfest` pour le langage `PowerShell`](https://github.com/search?l=Powershell&q=label%3Ahacktoberfest&type=Issues)
+* [Issue `Hacktoberfest` pour le langage `Python`](https://github.com/search?l=Python&q=label%3Ahacktoberfest&type=Issues)
 
 ## Besoin d'aide ? Evenement en ligne Mardi 1er Octobre 20h @frpsug
 
