@@ -47,8 +47,8 @@ $Param = @{
 Get-WmiObject @Param -Query "
     SELECT * FROM sms_fullcollectionmembership
     INNER JOIN sms_r_system
-    ON sys.resourceid=sms_fullcollectionmembership.resourceid
-    WHERE sms_collectionmembership.collectionid='$SCCMCollectionID'"
+    ON sms_r_system.resourceid=sms_fullcollectionmembership.resourceid
+    WHERE sms_fullcollectionmembership.collectionid='$SCCMCollectionID'"
 ```
 
 This will return the entries for each device in the collection.
@@ -111,8 +111,8 @@ We can easily drill into the device data by expanding the property `sms_r_system
 Get-WmiObject @Param -Query "
     SELECT * FROM sms_fullcollectionmembership
     INNER JOIN sms_r_system
-    ON sys.resourceid=sms_fullcollectionmembership.resourceid
-    WHERE sms_collectionmembership.collectionid='$SCCMCollectionID'" |
+    ON sms_r_system.resourceid=sms_fullcollectionmembership.resourceid
+    WHERE sms_fullcollectionmembership.collectionid='$SCCMCollectionID'" |
     Select-Object -Expand sms_r_system
 ```
 
