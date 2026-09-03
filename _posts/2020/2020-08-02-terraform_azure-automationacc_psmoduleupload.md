@@ -32,15 +32,15 @@ toc_icon: "terminal"
 {{mynote}}{: .notice--info}
 
 
-Azure Automation runbooks are a convinient way to run code in the cloud or on-premises (using Hybrid workers). You create a runbook, create a webhook and your code can be pretty much triggered by any event or system.
+Azure Automation runbooks are a convenient way to run code in the cloud or on-premises (using Hybrid workers). You create a runbook, create a webhook and your code can be pretty much triggered by any event or system.
 
 I had a scenario where some of my runbooks were using a custom PowerShell module that was not publicly available.
 
-This short article document my approach.
+This short article documents my approach.
 
-While developping some terraform configuration I noticed the `azurerm` provider did not offer a way to upload a PowerShell module into the Automation account. You can only provide a `Uri` of a module location,... meaning they expect you make it available somewhere to be picked up. This applies to other tool offerings (ARM, API, ...).
+While developing some terraform configuration I noticed the `azurerm` provider did not offer a way to upload a PowerShell module into the Automation account. You can only provide a `Uri` of a module location,... meaning they expect you make it available somewhere to be picked up. This applies to other tool offerings (ARM, API, ...).
 
-However, if you use the Azure Portal, you have the option to upload your module as a zip file. Looks like Microsoft provide a Storage Account in the back end, generate a link and pass it other to Azure Automation to import the file.
+However, if you use the Azure Portal, you have the option to upload your module as a zip file. Looks like Microsoft provide a Storage Account in the back end, generate a link and pass it over to Azure Automation to import the file.
 
 This is what you would see in the portal after submitting your file:
 
@@ -48,7 +48,7 @@ This is what you would see in the portal after submitting your file:
 
 ## Uploading a PSModule to a Storage Account with Terraform
 
-I used Terraform to replicate the Azure Portal functionnality in the following scenario:
+I used Terraform to replicate the Azure Portal functionality in the following scenario:
 
 1. Create a Storage Account
 2. Create a Blob container
