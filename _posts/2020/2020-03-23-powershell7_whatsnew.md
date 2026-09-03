@@ -59,7 +59,7 @@ I wanted to highlight some of the new features mentioned during this presentatio
 
 PowerShell can be installed using different methods:
 
-- Windows: `iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"'`
+- Windows: `iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"``
 - Linux: `'wget https://aka.ms/install-powershell.sh; sudo bash install-powershell.sh; rm install-powershell.sh'`
 - MacOS: `brew cask install powershell`
 - Using the .NET SDK: `dotnet tool install --global PowerShell`
@@ -200,7 +200,7 @@ Receive-Job -Wait
 
 If you are gathering information from different locations, you might want to have a single place to store the data.
 
-One way is to use the dictionnary object `[System.Collections.Concurrent.ConcurrentDictionary]`, example:
+One way is to use the dictionary object `[System.Collections.Concurrent.ConcurrentDictionary]`, example:
 
 ```powershell
 # Create dictionary
@@ -294,7 +294,7 @@ $Host.PrivateData.ErrorAccentColor = 'Magenta'
 
 ## Get-Error
 
-A new Cmdlet `Get-Error` was added to retrieve the details of an error. This was previously available but you had to digg inside the Error object to retrieve all these information.
+A new Cmdlet `Get-Error` was added to retrieve the details of an error. This was previously available but you had to dig inside the Error object to retrieve all these information.
 
 ```powershell
 # Detailed view of the fully qualified error (for the last error)
@@ -425,7 +425,7 @@ sudo apt update && sudo apt upgrade
 
 The operator `||` (double Pipe).
 
-`<Command A> && <Command to execute if Command A failed>`
+`<Command A> || <Command to execute if Command A failed>`
 
 ```powershell
 ## Before PowerShell 7
@@ -460,7 +460,7 @@ You can use the ternary operator as a replacement for the `if-else` statement in
 
 ```powershell
 ## Before PowerShell 7
-if((Get-Module -Name Adsips -listavailable){
+if((Get-Module -Name Adsips -listavailable)){
     "Already installed"
 }else{
     Install-Module -Name ADSIPS -Force -whatif
@@ -495,7 +495,7 @@ Invoke-WebRequest -uri 'http://lazywinadmin.com/fakepage'
 ```
 ![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_029.png){: .align-center}
 
-Here is an example WITH `-SkipHttpErrorCheck`. As you can see the response is processed normaly.
+Here is an example WITH `-SkipHttpErrorCheck`. As you can see the response is processed normally.
 
 ```powershell
 Invoke-RestMethod -uri 'http://lazywinadmin.com/fakepage' -SkipHttpErrorCheck
@@ -514,7 +514,7 @@ $mystatuscode # Contains the status code
 
 ## Select-String Emphasis
 
-`Select-String` allows you to search accross files for different words, patterns,...
+`Select-String` allows you to search across files for different words, patterns,...
 
 In PowerShell 7, an Emphasis mode was added by default. This can be disabled using `-NoEmphasis`.
 
