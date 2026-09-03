@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "PowerShell Saturday Paris 2019/10/12 (french)"
-excerpt: "En ce mois de Septembre 2019 nous celebrons le troisieme anniversaire du French PowerShell User group. Pour cette occasion nour organisons a nouveau un evenement a Paris le Samedi 12 Octobre 2019 a Paris"
+excerpt: "En ce mois de Septembre 2019 nous celebrons le troisieme anniversaire du French PowerShell User group. Pour cette occasion nous organisons a nouveau un evenement a Paris le Samedi 12 Octobre 2019 a Paris"
 permalink:
 tags: 
   - powershell
@@ -29,7 +29,7 @@ Notre événement **PowerShell Saturday Paris** aura lieu dans quelques semaines
 
 Cette année l'événement est organisé par Stéphane, Olivier, Laurent et moi-meme. Un enorme merci pour a toute l'equipe pour leurs efforts.
 
-Cependant cette année je ne pourrais pas etre présent sur place pour differentes raisons. Je suis certain que le reste de l'équipe et de la communauté rendront cette événement inoubliable. (Prenez plein de photos ! 😸)
+Cependant cette année je ne pourrais pas etre présent sur place pour differentes raisons. Je suis certain que le reste de l'équipe et de la communauté rendront cet événement inoubliable. (Prenez plein de photos ! 😸)
 
 <center>
 <img src="https://raw.githubusercontent.com/FrPSUG/media/master/powershellsat/logo/adil/ps-saturday-paris-simple.png" width="40%">
@@ -50,7 +50,7 @@ Les inscriptions sur [meetup.com](https://www.meetup.com/fr-FR/FrenchPSUG/) <u>N
 
 ## Agenda, Lieu et autre détails
 
-[Voir la page dédier](http://frpsug.com/powershellsat-2019/) sur le site du frpsug.com
+[Voir la page dédiée](http://frpsug.com/powershellsat-2019/) sur le site du frpsug.com
 
 ## Enregistrements ?
 
@@ -60,7 +60,7 @@ Nous allons tenter d'enregistrer les sessions cette année, mais rien de promis.
 
 Merci a tous les sponsors qui par leur soutien et leur fidélité permettent d’organiser ce type d’événement:
 
-### Sponsors Platinium
+### Sponsors Platinum
 
 <p align="center">
 <a href="https://www.scriptrunner.com/en/"><img src="https://frpsug.github.io/images/sponsors/ScriptRunner.png" width="30%" title="ScriptRunner" alt="ScriptRunner"></a>
@@ -88,7 +88,7 @@ Merci a tous les sponsors qui par leur soutien et leur fidélité permettent d�
 
 ## Merci aux organisateurs
 
-Un énorme travail de fond a été fait pour organiser cette événement. Merci a tous les organisateurs:
+Un énorme travail de fond a été fait pour organiser cet événement. Merci a tous les organisateurs:
 
 * Francois-Xavier Cat ([@lazywinadmin](https://twitter.com/lazywinadmin))
 * Stephane Van Gulick ([@stephanevg](https://twitter.com/stephanevg))
