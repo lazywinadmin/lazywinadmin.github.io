@@ -56,16 +56,16 @@ I used Terraform to replicate the Azure Portal functionality in the following sc
 4. Create a SAS key (valid for 180 seconds in my case)
 5. Provide the link to Azure Automation Account to import the module.
 
-Here is whole workflow, including the dependencies.
+Here is the whole workflow, including the dependencies.
 
 ![](../../images/2020/2020-08-02/azure_automation_account-upload_module-flow.png)
 
 
 ## azurerm_automation_module Terraform resource
 
-As you can see [in the hashicorp documentation](https://www.terraform.io/docs/providers/azurerm/r/automation_module.html), the terraform resource `azurerm_automation_module` only provide a `uri` parameter for module to import.
+As you can see [in the hashicorp documentation](https://www.terraform.io/docs/providers/azurerm/r/automation_module.html), the terraform resource `azurerm_automation_module` only provides a `uri` parameter for module to import.
 
-```
+```hcl
 resource "azurerm_automation_module" "mymodule" {
   name                    = "mymodule"
   resource_group_name     = azurerm_resource_group.example.name
