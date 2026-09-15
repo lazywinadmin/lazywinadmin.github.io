@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "PowerShell/Azure - Update App Service Access Restriction IP Rules"
-excerpt: "Quick PowerShell script to append or overwrite the Network IP Rules restriction of a App Service"
+excerpt: "Quick PowerShell script to append or overwrite the Network IP Rules restriction of an App Service"
 permalink:
 tags: 
   - powershell
@@ -63,7 +63,7 @@ $Splatting=@{
     ResourceGroupName = "MyRG"
     AppServiceName = "MyApp"
     SubscriptionId = '<GUID>'
-    Path = ./source.csv
+    Path = './source.csv'
     verbose = $true
 }
 AppService-Update_RestrictionIP.ps1 @Splatting
@@ -74,7 +74,7 @@ $Splatting=@{
     ResourceGroupName = "MyRG"
     AppServiceName = "MyApp"
     SubscriptionId = '<GUID>'
-    Path = ./source.csv
+    Path = './source.csv'
     verbose = $true
     overwrite = $true
 }
