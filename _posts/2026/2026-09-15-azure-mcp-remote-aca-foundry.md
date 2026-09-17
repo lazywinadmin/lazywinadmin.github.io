@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Azure - Host a remote MCP server on Container Apps for Microsoft Foundry agents"
-excerpt: "Warm-up walkthrough: deploy Azure MCP Server on Azure Container Apps with managed identity, then connect a Microsoft Foundry agent over HTTPS using Entra project managed identity"
+title: "Host a remote MCP server on Azure Container Apps for Microsoft Foundry agents"
+excerpt: "Warm-up: deploy Azure MCP Server on Azure Container Apps with azd and managed identity, then connect a Microsoft Foundry agent over HTTPS"
 permalink:
 tags:
   - azure
@@ -35,7 +35,7 @@ toc_icon: "terminal"
 
 Model Context Protocol (MCP) is how agents discover and call tools over a standard interface. Most demos run MCP **locally** next to the model. That is fine for a laptop. Production agents need a **remote** MCP endpoint over HTTPS, with identity you can audit.
 
-This post is a short warm-up for that pattern on Azure:
+This post is a short warm-up for that pattern on Azure, using **azd** and **managed identity**:
 
 1. Host **Azure MCP Server** on **Azure Container Apps**
 2. Authenticate outbound calls to Azure Storage with the Container App **managed identity**
