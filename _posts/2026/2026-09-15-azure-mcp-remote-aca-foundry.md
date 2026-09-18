@@ -137,7 +137,7 @@ After deploy:
 
 Ask the agent something that needs Storage read tools (list containers / blobs in the account you granted). If identity or RBAC is wrong, you will feel it immediately as auth failures rather than “hallucinated” storage answers — that is a feature.
 
-## Platform notes (the warm-up that matters)
+## Platform notes
 
 A few things I would nail before promoting this beyond a lab:
 
