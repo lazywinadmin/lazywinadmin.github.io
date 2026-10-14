@@ -2,11 +2,11 @@
 
 **Staff Engineer, AI Platform Engineering** · Azure · Platform Engineering · Infrastructure as Code · CI/CD · Automation
 
-United States · TODO: Email · [lazywinadmin.com](https://lazywinadmin.com) · [linkedin.com/in/fxcat](https://www.linkedin.com/in/fxcat) · [github.com/lazywinadmin](https://github.com/lazywinadmin) · [x.com/lazywinadmin](https://x.com/lazywinadmin)
+United States · [lazywinadmin.com](https://lazywinadmin.com) · [linkedin.com/in/fxcat](https://www.linkedin.com/in/fxcat) · [github.com/lazywinadmin](https://github.com/lazywinadmin) · [x.com/lazywinadmin](https://x.com/lazywinadmin)
 
 ## Summary
 
-TODO: Write a short summary (current focus, years of experience, target role).
+Staff platform engineer with 19 years in infrastructure, the last 7 focused on Azure and Infrastructure as Code. At Ares I build the Terraform control plane, governance as code, and landing-zone guardrails other teams build on, and I now work on AI platform engineering. Microsoft MVP 2014 - 2022 and author of lazywinadmin.com.
 
 ## Skills
 
