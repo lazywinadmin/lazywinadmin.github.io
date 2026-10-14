@@ -32,7 +32,7 @@ Cette année l'événement est organisé par Stéphane, Olivier, Laurent et moi-
 Cependant cette année je ne pourrais pas etre présent sur place pour differentes raisons. Je suis certain que le reste de l'équipe et de la communauté rendront cet événement inoubliable. (Prenez plein de photos ! 😸)
 
 <center>
-<img src="/images/2019/ps-saturday-paris-simple.webp" width="40%" alt="PowerShell Saturday Paris logo">
+<img loading="lazy" decoding="async" src="/images/2019/ps-saturday-paris-simple.webp" width="40%" alt="PowerShell Saturday Paris logo">
 </center>
 
 ## PowerShell Saturday c'est quoi ?
@@ -63,27 +63,27 @@ Merci a tous les sponsors qui par leur soutien et leur fidélité permettent d�
 ### Sponsors Platinum
 
 <p align="center">
-<a href="https://www.scriptrunner.com/en/"><img src="/images/2019/sponsors/scriptrunner.webp" width="30%" title="ScriptRunner" alt="ScriptRunner logo"></a>
+<a href="https://www.scriptrunner.com/en/"><img loading="lazy" decoding="async" src="/images/2019/sponsors/scriptrunner.webp" width="30%" title="ScriptRunner" alt="ScriptRunner logo"></a>
 </p>
 
 
 <p align="center">
-<a href="https://www.cellenza.com/"><img src="/images/2019/sponsors/cellenza.webp" width="30%" title="Cellenza" alt="Cellenza logo"></a>
+<a href="https://www.cellenza.com/"><img loading="lazy" decoding="async" src="/images/2019/sponsors/cellenza.webp" width="30%" title="Cellenza" alt="Cellenza logo"></a>
 </p>
 
 
 <p align="center">
-<a href="https://www.metsys.fr/"><img src="/images/2019/sponsors/metsys.webp" width="30%" title="Metsys" alt="Metsys logo"></a>
+<a href="https://www.metsys.fr/"><img loading="lazy" decoding="async" src="/images/2019/sponsors/metsys.webp" width="30%" title="Metsys" alt="Metsys logo"></a>
 </p>
 
 ### Sponsors Silver
 
 <p align="center">
-<a href="https://chocolatey.org/"><img src="/images/2019/sponsors/chocolatey.webp" width="30%" title="Chocolatey" alt="Chocolatey logo"></a>
+<a href="https://chocolatey.org/"><img loading="lazy" decoding="async" src="/images/2019/sponsors/chocolatey.webp" width="30%" title="Chocolatey" alt="Chocolatey logo"></a>
 </p>
 
 <p align="center">
-<a href="https://systemfrontier.com"><img src="/images/2019/sponsors/system-frontier.webp" width="30%" title="System Frontier" alt="System Frontier logo"></a>
+<a href="https://systemfrontier.com"><img loading="lazy" decoding="async" src="/images/2019/sponsors/system-frontier.webp" width="30%" title="System Frontier" alt="System Frontier logo"></a>
 </p>
 
 ## Merci aux organisateurs

@@ -33,7 +33,7 @@ In the next post I will go a bit further and get the membership from the domain 
 
 Running the Function
 
-<a href="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__1536305082__-603x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="442" src="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__812400549__-603x418.png" width="640" /></a>
+<a href="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__1536305082__-603x418.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="442" src="{{ site.url }}/images/2012/20121230_Get-LocalGroupMembership_(Using_ADSIWinNT)/Get-LocalGroupMembership__812400549__-603x418.png" width="640" /></a>
 The Code
 
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Function Get-LocalGroupMembership {

@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130225_The_PowerShell_Certification/logo-powershell__1807052347__-260x140.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="106" src="{{ site.url }}/images/2013/20130225_The_PowerShell_Certification/logo-powershell__1425419701__-200x108.jpg" width="200" /></a><b><u>Update 2013/07/07:</u> It seems that the Certification is now ONLY available after doing the in-person class offered by Concentrated Technology :-(</b>
+<a href="{{ site.url }}/images/2013/20130225_The_PowerShell_Certification/logo-powershell__1807052347__-260x140.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="106" src="{{ site.url }}/images/2013/20130225_The_PowerShell_Certification/logo-powershell__1425419701__-200x108.jpg" width="200" /></a><b><u>Update 2013/07/07:</u> It seems that the Certification is now ONLY available after doing the in-person class offered by Concentrated Technology :-(</b>
 
 Don Jones just <a href="http://powershell.org/wp/2013/02/24/verified-effective-for-powershell-3-0-toolmaking-now-live/" target="_blank">announced the creation of the PowerShell "Certification"!!</a>
 

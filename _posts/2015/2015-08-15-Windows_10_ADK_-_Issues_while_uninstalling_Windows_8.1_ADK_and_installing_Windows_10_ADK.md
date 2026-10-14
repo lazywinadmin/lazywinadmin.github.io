@@ -38,7 +38,7 @@ You can also look at the ADK install/uninstall logs here: `C:\Users\<Account>\Ap
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_01__605578273__-778x579.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 We found different solutions online such as:
@@ -69,7 +69,7 @@ Using [`PsExec.exe`](https://technet.microsoft.com/en-us/sysinternals/bb897553.a
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PsExec_PowerShell_LocalSystem__125866709__-630x239.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 This will launch a new PowerShell window and you can verify the current user by using `WhoAmI` tool.
@@ -84,7 +84,7 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PowerShell_LocalSystem_ADKSetup__214499777__-674x218.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 {% assign ImageText = '' %}
@@ -94,7 +94,7 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_02_success__448296844__-780x583.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 # Installing Windows 10 ADK
@@ -111,7 +111,7 @@ Unfortunately I had the same issue when running the Windows 10 ADK Installer.
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install01__453172665__-781x579.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 > Install did not complete successfully.<br>
 > An error occurred while installing "Deployment Tools".
@@ -123,7 +123,7 @@ Unfortunately I had the same issue when running the Windows 10 ADK Installer.
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install02__691625683__-779x581.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 <br>
 Error seen in the setup log file:
@@ -143,7 +143,7 @@ Error 0x800705514: Failed to execute EXE package
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install03__583158098__-900x791.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 <br>
 Error seen in the log file:
@@ -155,7 +155,7 @@ Error seen in the log file:
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install04__1638434946__-719x176.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 ```
 Image Path is  [\??D:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\DISM\wimmount.sys]
@@ -178,7 +178,7 @@ Same solution as above by using `Psexec` and by running `adksetup.exe`
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install06__230518088__-675x176.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 
@@ -189,4 +189,4 @@ Same solution as above by using `Psexec` and by running `adksetup.exe`
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install05__754254663__-766x568.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})

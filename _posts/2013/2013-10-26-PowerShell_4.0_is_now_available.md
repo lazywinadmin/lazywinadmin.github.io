@@ -28,7 +28,7 @@ Windows6.1-KB2819745-x64-MultiPkg.msu [18.4 MB]
 Windows6.1-KB2819745-x86-MultiPkg.msu [14.1 MB]
 Windows8-RT-KB2799888-x64.msu [17.5 MB]
 
-<a href="http://3.bp.blogspot.com/-2diabf88qis/UmwRewTSHcI/AAAAAAABeVQ/J-PhMdX4y2o/s1600/2013-10-26+2-59-45+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="284" src="http://3.bp.blogspot.com/-2diabf88qis/UmwRewTSHcI/AAAAAAABeVQ/J-PhMdX4y2o/s640/2013-10-26+2-59-45+PM.png" width="640" /></a>
+<a href="http://3.bp.blogspot.com/-2diabf88qis/UmwRewTSHcI/AAAAAAABeVQ/J-PhMdX4y2o/s1600/2013-10-26+2-59-45+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="284" src="http://3.bp.blogspot.com/-2diabf88qis/UmwRewTSHcI/AAAAAAABeVQ/J-PhMdX4y2o/s640/2013-10-26+2-59-45+PM.png" width="640" /></a>
 
 ### <b>New Features, functionality and updates included in this new WMF 4.0</b>
 
@@ -89,7 +89,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 * Desired State Configuration Quick Reference for Windows Management Framework 4.0.pdf[244KB]
 
 * Desired State Configuration Quick Reference for Windows Management Framework 4.0.pptx[73KB]
-<a href="http://3.bp.blogspot.com/-p87n5Yh5c4A/UmwZCG6h9QI/AAAAAAABeVo/oEzdiATV8TM/s1600/2013-10-26+3-32-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="http://3.bp.blogspot.com/-p87n5Yh5c4A/UmwZCG6h9QI/AAAAAAABeVo/oEzdiATV8TM/s400/2013-10-26+3-32-41+PM.png" width="400" /></a>
+<a href="http://3.bp.blogspot.com/-p87n5Yh5c4A/UmwZCG6h9QI/AAAAAAABeVo/oEzdiATV8TM/s1600/2013-10-26+3-32-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="225" src="http://3.bp.blogspot.com/-p87n5Yh5c4A/UmwZCG6h9QI/AAAAAAABeVo/oEzdiATV8TM/s400/2013-10-26+3-32-41+PM.png" width="400" /></a>
 
 ### <b>Some of the new features in <u>Windows PowerShell 4.0</u> include</b>
 
@@ -177,6 +177,6 @@ To repair your WMF 4.0 installation after this failure, install .NET Framework 4
 Update-Help -Verbose -Force
 ```
 
-<a href="{{ site.url }}/images/2013/20131026_PowerShell_4.0_is_now_available/updatehelp__843266470__-960x409.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="272" src="{{ site.url }}/images/2013/20131026_PowerShell_4.0_is_now_available/updatehelp__1562408430__-640x273.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20131026_PowerShell_4.0_is_now_available/updatehelp__843266470__-960x409.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="272" src="{{ site.url }}/images/2013/20131026_PowerShell_4.0_is_now_available/updatehelp__1562408430__-640x273.png" width="640" /></a>
 
 

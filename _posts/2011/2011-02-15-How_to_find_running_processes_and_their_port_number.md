@@ -83,7 +83,7 @@ New-ObjectPSObject -Property @{
 Get-NetworkStatistics |Format-Table
 ```
 
-![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_147D9573__300040902__-722x413.png){: .align-center}
+![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_147D9573__300040902__-722x413.webp){: .align-center}
 
 To get all processes running on a local port 80:
 

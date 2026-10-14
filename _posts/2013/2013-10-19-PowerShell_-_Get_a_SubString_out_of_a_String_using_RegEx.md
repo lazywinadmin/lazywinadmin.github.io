@@ -15,7 +15,7 @@ comments: true
 toc: true
 toc_label: "Table of Content"
 ---
-<a href="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" /></a>Last week one of my colleague asked me if I could help him with some Regular Expression (Regex) to select some text inside a String.
+<a href="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://4.bp.blogspot.com/-HHt3IUIRYuI/UmLprP9HhgI/AAAAAAABeLU/No-OUlTpmQ8/s1600/2013-10-19+4-20-29+PM.png" /></a>Last week one of my colleague asked me if I could help him with some Regular Expression (Regex) to select some text inside a String.
 
 I don't work a lot with RegEx but when I do, I use tools like <a href="http://www.sapien.com/blog/2013/08/26/introducing-powerregex-community-preview/" target="_blank">PowerRegex from Sapien</a>, <a href="http://gskinner.com/RegExr/" target="_blank">RegExr</a>,the technet help for<a href="http://technet.microsoft.com/en-us/library/hh847880.aspx" target="_blank">about_Regular_Expressions</a>or <a href="http://regexlib.com/" target="_blank">RegExlib.com</a>. And to be honest, most of the time I'm trying to avoid it...trying to find a solution the "PowerShell Way" before trying with Regex...
 

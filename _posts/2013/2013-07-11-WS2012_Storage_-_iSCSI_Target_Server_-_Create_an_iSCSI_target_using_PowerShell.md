@@ -17,7 +17,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/Ethernet-Cable-icon__744673510__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="110" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/Ethernet-Cable-icon__1284204291__-200x200.png" width="110" /></a>For my Virtual Machines needs, some LUNS are presented to my VMware vSphere 5.1 Servers and until now,<a href="{% post_url 2012/2012-12-07-My_Home_Lab_! %}">my lab</a>storage was handle by<a href="{{ site.url }}/2012/12/freenas-83-creating-raid-volume-and.html" target="_blank">FreeNas using iSCSI</a>.
+<a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/Ethernet-Cable-icon__744673510__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="110" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/Ethernet-Cable-icon__1284204291__-200x200.png" width="110" /></a>For my Virtual Machines needs, some LUNS are presented to my VMware vSphere 5.1 Servers and until now,<a href="{% post_url 2012/2012-12-07-My_Home_Lab_! %}">my lab</a>storage was handle by<a href="{{ site.url }}/2012/12/freenas-83-creating-raid-volume-and.html" target="_blank">FreeNas using iSCSI</a>.
 For tests purposes, I replaced this FreeNas by Windows Server 2012 to take care of that part.
 
 <u>Note:</u> Before writing this post, I grouped my physical disks together into a container called <b>storage pools</b>to manage those disks as a single storage space. Afterwards, in these storage pools, I created <b>virtual disks </b>(aka LUN)on which I specify a layout, ... which is simply a raid level.
@@ -54,7 +54,7 @@ In the following post I will talk about the following points:
 It's an Internet Protocol (IP)-based storage networking standard for linking data storage facilities.
 iSCSI is used to facilitate data transfers over a network (LAN, WAN or Internet) and transferring data by carrying SCSI commands over IP networks. iSCSI leverages the Ethernet network and does not require any specialized hardware
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">source:[http://blogs.technet.com/b/filecab/](http://blogs.technet.com/b/filecab/)</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">source:[http://blogs.technet.com/b/filecab/](http://blogs.technet.com/b/filecab/)</td></tr></tbody></table>
 <b>iSCSI Target Server:</b> is the server that shares the storage, it runs the iSCSI Target. The server (machine) consumes the storage is called iSCSI initiator.
 
 <b>iSCSI Initiator:</b>Typically, it is an application server. For example, iSCSI Target provides storage to a SQL server, the SQL server will be the iSCSI initiator in this deployment.
@@ -67,8 +67,8 @@ iSCSI is used to facilitate data transfers over a network (LAN, WAN or Internet)
 
 <b>IQN:</b><span style="white-space: pre-wrap;">iSCSI Qualified Name. It is a unique identifier of the Target or Initiator. The Target IQN is shown when it is created on the Server. The initiator IQN can be found by typing a simple "<span style="font-family: Courier New, Courier, monospace;">iscsicli" cmd in the command window or using <span style="font-family: Courier New, Courier, monospace;">Get-InitiatorPort in PowerShell
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-l1nWIcvMUHw/Udody3WltMI/AAAAAAABalo/43k0uRlQVmw/s1600/2013-07-06+5-36-23+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-l1nWIcvMUHw/Udody3WltMI/AAAAAAABalo/43k0uRlQVmw/s1600/2013-07-06+5-36-23+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>iscsicli</b></td></tr></tbody></table>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-oTPFhh_nnEk/Udoc32Mnl7I/AAAAAAABalc/tTwzXuGsMg0/s1600/2013-07-07+9-57-20+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://3.bp.blogspot.com/-oTPFhh_nnEk/Udoc32Mnl7I/AAAAAAABalc/tTwzXuGsMg0/s1600/2013-07-07+9-57-20+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>PowerShell (</b>module <b>iSCSI</b>) with the Cmdlet <span style="font-family: Courier New, Courier, monospace;">Get-InitiatorPort</td></tr></tbody></table><span style="color: #cccccc; font-size: 13px; text-align: center;">
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-l1nWIcvMUHw/Udody3WltMI/AAAAAAABalo/43k0uRlQVmw/s1600/2013-07-06+5-36-23+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-l1nWIcvMUHw/Udody3WltMI/AAAAAAABalo/43k0uRlQVmw/s1600/2013-07-06+5-36-23+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>iscsicli</b></td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-oTPFhh_nnEk/Udoc32Mnl7I/AAAAAAABalc/tTwzXuGsMg0/s1600/2013-07-07+9-57-20+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-oTPFhh_nnEk/Udoc32Mnl7I/AAAAAAABalc/tTwzXuGsMg0/s1600/2013-07-07+9-57-20+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>PowerShell (</b>module <b>iSCSI</b>) with the Cmdlet <span style="font-family: Courier New, Courier, monospace;">Get-InitiatorPort</td></tr></tbody></table><span style="color: #cccccc; font-size: 13px; text-align: center;">
 <span style="color: #cccccc; font-size: 13px; text-align: center;">
 <u>Briefly, the fields are:</u>
 
@@ -80,7 +80,7 @@ iSCSI is used to facilitate data transfers over a network (LAN, WAN or Internet)
 
 * An optional, <b>colon</b> (<b>:</b>) prefixing a storage target name specified by the owner of the domain name deems appropriate.
 <u>Information from the RFC:</u>
-<a href="http://3.bp.blogspot.com/-xghPVVj3ErE/Udoa2fDjh6I/AAAAAAABalM/7apVueOg1Mw/s1600/2013-07-07+9-49-12+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-xghPVVj3ErE/Udoa2fDjh6I/AAAAAAABalM/7apVueOg1Mw/s1600/2013-07-07+9-49-12+PM.png" /></a><span style="color: #cccccc; font-size: 13px; text-align: center;">
+<a href="http://3.bp.blogspot.com/-xghPVVj3ErE/Udoa2fDjh6I/AAAAAAABalM/7apVueOg1Mw/s1600/2013-07-07+9-49-12+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-xghPVVj3ErE/Udoa2fDjh6I/AAAAAAABalM/7apVueOg1Mw/s1600/2013-07-07+9-49-12+PM.png" /></a><span style="color: #cccccc; font-size: 13px; text-align: center;">
 <b>Loopback:</b> There are cases where you want to run the initiator and Target on the same machine; it is referred as "loopback". In Windows Server 2012, it is a supported configuration. In loopback configuration, you can provide the local machine name to the initiator for discovery, and it will list all the Targets which the initiator can connect to. Once connected, the iSCSI virtual disk will be presented to the local machine as a new disk mounted. There will be performance impact to the IO, since it will travel through the iSCSI initiator and Target software stack when comparing to other local IOs. One use case of this configuration is to have initiators writing data to the iSCSI virtual disk, then mount those disks on the Target server (using loopback) to check the data in read mode.
 
 
@@ -94,13 +94,13 @@ iSCSI is used to facilitate data transfers over a network (LAN, WAN or Internet)
 <h4>The UI integrated to Service Manager
 
 Once you installed the Windows Feature for iSCSI Target Server you will see a new menu under <b>File and Storage Services</b>
-<a href="http://4.bp.blogspot.com/-hgw_bpTLv1c/Ud3wQZq2UEI/AAAAAAABapo/Qzge-rcmCEo/s1600/2013-07-10+7-36-47+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-hgw_bpTLv1c/Ud3wQZq2UEI/AAAAAAABapo/Qzge-rcmCEo/s1600/2013-07-10+7-36-47+PM.png" /></a>
-<a href="http://2.bp.blogspot.com/-Le1GWJVyicw/UdiREjGd_QI/AAAAAAABah0/xwNhEp5FPNM/s1600/2013-07-06+5-49-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-Le1GWJVyicw/UdiREjGd_QI/AAAAAAABah0/xwNhEp5FPNM/s1600/2013-07-06+5-49-41+PM.png" /></a>
+<a href="http://4.bp.blogspot.com/-hgw_bpTLv1c/Ud3wQZq2UEI/AAAAAAABapo/Qzge-rcmCEo/s1600/2013-07-10+7-36-47+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://4.bp.blogspot.com/-hgw_bpTLv1c/Ud3wQZq2UEI/AAAAAAABapo/Qzge-rcmCEo/s1600/2013-07-10+7-36-47+PM.png" /></a>
+<a href="http://2.bp.blogspot.com/-Le1GWJVyicw/UdiREjGd_QI/AAAAAAABah0/xwNhEp5FPNM/s1600/2013-07-06+5-49-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-Le1GWJVyicw/UdiREjGd_QI/AAAAAAABah0/xwNhEp5FPNM/s1600/2013-07-06+5-49-41+PM.png" /></a>
 <h4>PowerShell Cmdlets
 
 Windows Server 2012 comes with a complete set of PowerShell cmdlets for iSCSI. By combining the iSCSI target, iSCSI initiator, and storage cmdlets, you can automate pretty much all management tasks.Here is the list of Cmdlets available to you:
 
-<a href="http://1.bp.blogspot.com/-ySNFmn-043M/UdhVnxSmmlI/AAAAAAABadk/e0DEYPlcsDE/s1600/2013-07-06+1-30-50+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-ySNFmn-043M/UdhVnxSmmlI/AAAAAAABadk/e0DEYPlcsDE/s1600/2013-07-06+1-30-50+PM.png" /></a>
+<a href="http://1.bp.blogspot.com/-ySNFmn-043M/UdhVnxSmmlI/AAAAAAABadk/e0DEYPlcsDE/s1600/2013-07-06+1-30-50+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-ySNFmn-043M/UdhVnxSmmlI/AAAAAAABadk/e0DEYPlcsDE/s1600/2013-07-06+1-30-50+PM.png" /></a>
 The module<b>iSCSI</b>is used for all iSCSI<u>Initiator-specific Cmdlets</u>and the<b>iSCSITarget</b>for all iSCSI<u>target service-specific cmdlets</u>.
 <u>More Info:</u>
 <a href="http://technet.microsoft.com/en-us/library/hh826099.aspx" target="_blank">iSCSI Cmdlets in Windows PowerShell</a><a href="http://technet.microsoft.com/en-us/library/jj612803.aspx" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
@@ -188,7 +188,7 @@ Here we create a new iSCSI virtual hard disk (VHD) object with the specified fil
 New-IscsiVirtualDisk -Path c:\test\LUN1.vhd -Size 1GB
 ```
 
-<a href="http://1.bp.blogspot.com/-hQ4COPT31Fo/Udn1hnmSd5I/AAAAAAABaiA/ZpzH_obZ0PA/s1600/2013-07-07+7-10-05+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-hQ4COPT31Fo/Udn1hnmSd5I/AAAAAAABaiA/ZpzH_obZ0PA/s1600/2013-07-07+7-10-05+PM.png" /></a><a href="http://3.bp.blogspot.com/-tGKJTL5cchU/Udn_6zIc2lI/AAAAAAABakE/glmdgaI6RAs/s1600/2013-07-07+7-55-04+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-tGKJTL5cchU/Udn_6zIc2lI/AAAAAAABakE/glmdgaI6RAs/s1600/2013-07-07+7-55-04+PM.png" /></a><h4>3 - Create a Target
+<a href="http://1.bp.blogspot.com/-hQ4COPT31Fo/Udn1hnmSd5I/AAAAAAABaiA/ZpzH_obZ0PA/s1600/2013-07-07+7-10-05+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-hQ4COPT31Fo/Udn1hnmSd5I/AAAAAAABaiA/ZpzH_obZ0PA/s1600/2013-07-07+7-10-05+PM.png" /></a><a href="http://3.bp.blogspot.com/-tGKJTL5cchU/Udn_6zIc2lI/AAAAAAABakE/glmdgaI6RAs/s1600/2013-07-07+7-55-04+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-tGKJTL5cchU/Udn_6zIc2lI/AAAAAAABakE/glmdgaI6RAs/s1600/2013-07-07+7-55-04+PM.png" /></a><h4>3 - Create a Target
 
 Here we create a new iSCSI target object with the name "TestTarget1" specified by the<span style="font-family: Courier New, Courier, monospace;">-TargetNameparameter. The <span style="font-family: Courier New, Courier, monospace;">-InitiatorIdsparameter stores the initiators which can connect to the Target.
 
@@ -207,18 +207,18 @@ New-IscsiServerTarget -TargetName TestTarget1 -InitiatorId "IQN:iqn.1998-01.com.
 ```
 
 ```
-<a href="http://2.bp.blogspot.com/-IysmVc-JFyo/Udn2r1SmWLI/AAAAAAABaiM/7mtP9sffiAg/s1600/2013-07-07+7-15-17+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-IysmVc-JFyo/Udn2r1SmWLI/AAAAAAABaiM/7mtP9sffiAg/s1600/2013-07-07+7-15-17+PM.png" /></a>
+<a href="http://2.bp.blogspot.com/-IysmVc-JFyo/Udn2r1SmWLI/AAAAAAABaiM/7mtP9sffiAg/s1600/2013-07-07+7-15-17+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-IysmVc-JFyo/Udn2r1SmWLI/AAAAAAABaiM/7mtP9sffiAg/s1600/2013-07-07+7-15-17+PM.png" /></a>
 <h4>Finding the IQN of your iSCSI Initator
 
 
 <u>UsingVMware vSphere Client:</u>You can find the <b>IQN</b> in the properties of your <b>iSCSI Software Adapter</b>.
 
-<a href="http://4.bp.blogspot.com/-jHua033J0cw/UdojPsHPfzI/AAAAAAABal4/wsNYmo-u-UI/s1600/2013-07-07+8-34-40+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-jHua033J0cw/UdojPsHPfzI/AAAAAAABal4/wsNYmo-u-UI/s1600/2013-07-07+8-34-40+PM.png" /></a>
+<a href="http://4.bp.blogspot.com/-jHua033J0cw/UdojPsHPfzI/AAAAAAABal4/wsNYmo-u-UI/s1600/2013-07-07+8-34-40+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://4.bp.blogspot.com/-jHua033J0cw/UdojPsHPfzI/AAAAAAABal4/wsNYmo-u-UI/s1600/2013-07-07+8-34-40+PM.png" /></a>
 <u>Using PowerCli</u>
 I found two ways to get this information with PowerCli ...
  1 - WithGet-View(Call to the NET Framework)
 
-<a href="http://1.bp.blogspot.com/-O22B0PEDpeA/Udol4q0vARI/AAAAAAABamI/MwswHLnafF0/s1600/2013-07-07+10-35-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-O22B0PEDpeA/Udol4q0vARI/AAAAAAABamI/MwswHLnafF0/s1600/2013-07-07+10-35-41+PM.png" /></a>
+<a href="http://1.bp.blogspot.com/-O22B0PEDpeA/Udol4q0vARI/AAAAAAABamI/MwswHLnafF0/s1600/2013-07-07+10-35-41+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-O22B0PEDpeA/Udol4q0vARI/AAAAAAABamI/MwswHLnafF0/s1600/2013-07-07+10-35-41+PM.png" /></a>
 ```
    ((Get-view (Get-view -Id ((Get-VMhost lab1vh02.fx.lab).id)).config
 manager.storagesystem).StorageDeviceInfo.HostBusAdapter).iscsiName
@@ -235,7 +235,7 @@ manager.storagesystem).StorageDeviceInfo.HostBusAdapter).iscsiName
 
 
 ```
-<a href="http://1.bp.blogspot.com/-MznW0QcND0Q/Udoo1hWOaeI/AAAAAAABamY/TDMorAlwPvY/s1600/2013-07-07+10-49-15+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-MznW0QcND0Q/Udoo1hWOaeI/AAAAAAABamY/TDMorAlwPvY/s1600/2013-07-07+10-49-15+PM.png" /></a>```
+<a href="http://1.bp.blogspot.com/-MznW0QcND0Q/Udoo1hWOaeI/AAAAAAABamY/TDMorAlwPvY/s1600/2013-07-07+10-49-15+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-MznW0QcND0Q/Udoo1hWOaeI/AAAAAAABamY/TDMorAlwPvY/s1600/2013-07-07+10-49-15+PM.png" /></a>```
 
 ```
 
@@ -249,7 +249,7 @@ Here we assign a virtual disk to an iSCSI target.
 # Assigning the virtual disk to the iSCSI Target
 Add-IscsiVirtualDiskTargetMapping -TargetName TestTarget1 -Path C:\test\Lun1.vhd
 ```
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-TPkVSU8hxZo/UdoSA-LNuuI/AAAAAAABak0/SF-l19K1-Fw/s1600/2013-07-07+9-12-09+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://2.bp.blogspot.com/-TPkVSU8hxZo/UdoSA-LNuuI/AAAAAAABak0/SF-l19K1-Fw/s1600/2013-07-07+9-12-09+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">No output will be generated. 
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-TPkVSU8hxZo/UdoSA-LNuuI/AAAAAAABak0/SF-l19K1-Fw/s1600/2013-07-07+9-12-09+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-TPkVSU8hxZo/UdoSA-LNuuI/AAAAAAABak0/SF-l19K1-Fw/s1600/2013-07-07+9-12-09+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">No output will be generated. 
 There is no <span style="font-family: Courier New, Courier, monospace;"><b>Passthru</b> parameter either :-(</td></tr></tbody></table>
 <u style="background-color: yellow;">Optionally:</u><span style="background-color: white;">You can specify the Logical Unit Number (LUN) associated with the virtual disk. By default, the lowest available LUN number will be assigned.
 
@@ -259,7 +259,7 @@ There is no <span style="font-family: Courier New, Courier, monospace;"><b>Passt
 Add-IscsiVirtualDiskTargetMapping -TargetName TestTarget1 -Path C:\test\Lun1.vhd -Lun 25
 ```
 
-<a href="http://1.bp.blogspot.com/-eJZgWVTebcc/UdoSisW6qHI/AAAAAAABak8/K2mc2kIGrQU/s1600/2013-07-07+9-14-13+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-eJZgWVTebcc/UdoSisW6qHI/AAAAAAABak8/K2mc2kIGrQU/s1600/2013-07-07+9-14-13+PM.png" /></a>
+<a href="http://1.bp.blogspot.com/-eJZgWVTebcc/UdoSisW6qHI/AAAAAAABak8/K2mc2kIGrQU/s1600/2013-07-07+9-14-13+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-eJZgWVTebcc/UdoSisW6qHI/AAAAAAABak8/K2mc2kIGrQU/s1600/2013-07-07+9-14-13+PM.png" /></a>
 Once a virtual disk has been assigned to a target, and after the iSCSi initiator connects to that target, the iSCSI initiator can access the virtual disk. All of the virtual disks assigned to the same iSCSI target will be accessible by the connected iSCSI initiator.
 
 

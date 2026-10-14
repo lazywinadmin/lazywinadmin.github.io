@@ -21,7 +21,7 @@ classes: wide
 **Note:** FYI, more ADSI functions are available in the ADSIPS PowerShell module here: https://github.com/lazywinadmin/adsips
 {: .notice--info}
 
-<a href="{{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/Config-Tools__1125592699__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/Config-Tools__1125592699__-128x128.png" /></a>
+<a href="{{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/Config-Tools__1125592699__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/Config-Tools__1125592699__-128x128.png" /></a>
 The following function use ADSI to query Computer objects from the Active Directory. Optionally an alternate credentials and/or a different domain can be specified.
 
 Once in a while, everyone "enjoy" doing Auditing at work...,ok maybe not everyone :-).... so last week, an colleague of mine needed to get the name of the <u>Primary user</u> of each workstations that connect to one of their critical application.
@@ -307,7 +307,7 @@ The function generate the following output
 PS C:\> Get-DomainComputer -ComputerName "lab1*"
 ```
 
-![image-center](../images/2013/../../../images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/example.png)
+![image-center]({{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/example.png){: loading="lazy" decoding="async"}
 
 
 ```

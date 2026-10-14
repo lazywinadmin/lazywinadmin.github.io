@@ -15,7 +15,7 @@ author_profile: false
 header:
   teaserlogo:
   teaser: ''
-  image: images/headers/geran-de-klerk-148428_edit.jpg
+  image: images/headers/geran-de-klerk-148428_edit.webp
   caption: 
 gallery:
   - image_path: ''
@@ -60,11 +60,11 @@ Register a new Oauth Consumer on the [Meetup API Oauth Consumer portal](https://
 * `Redirect URI` Can be pretty much anything, here i used `https://github.com/lazywinadmin/MeetupPS`
 * Agree with terms
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer01.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer01.png){: loading="lazy" decoding="async"}
 
 Once the Oauth Consumer is created, copy the Key and the Secret. This will be used to authenticate against the API
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer02.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer02.png){: loading="lazy" decoding="async"}
 
 <a name="Authentication"/>
 
@@ -77,7 +77,7 @@ $Secret = '<Your Oauth Consumer Secret>'
 Set-MeetupConfiguration -ClientID $Key -Secret $Secret
 ```
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration01.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration01.png){: loading="lazy" decoding="async"}
 
 Note: This will leverage two private functions of the module:
 
@@ -86,7 +86,7 @@ Note: This will leverage two private functions of the module:
 
 This will then prompt you to connect to Meetup.
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration02.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration02.png){: loading="lazy" decoding="async"}
 
 <a name="GetGroupInfo"/>
 
@@ -98,7 +98,7 @@ Retrieve a Meetup group information
 Get-MeetupGroup -Groupname FrenchPSUG
 ```
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupGroup01.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupGroup01.png){: loading="lazy" decoding="async"}
 
 <a name="GetEventInfo"/>
 
@@ -124,14 +124,14 @@ Retrieve past event(s) for a Meetup group
 Get-MeetupEvent -GroupName FrenchPSUG -status past -page 2
 ```
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent03.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent03.png){: loading="lazy" decoding="async"}
 
 ```powershell
 Get-MeetupEvent -GroupName FrenchPSUG -status past |
 Format-List -property Name,local_date,link, yes_rsvp_count
 ```
 
-![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent04.png)
+![image-center](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent04.png){: loading="lazy" decoding="async"}
 
 <a name="CreateEvent"/>
 

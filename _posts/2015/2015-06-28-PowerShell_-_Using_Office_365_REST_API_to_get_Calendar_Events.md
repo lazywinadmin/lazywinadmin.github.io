@@ -15,7 +15,7 @@ comments: true
 ---
 
  
-<a href="{{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Outlook-2013-Logo-256x256__688739842__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Outlook-2013-Logo-256x256__892680219__-200x200.png" width="200" /></a> A couple of weeks ago I was looking at a way to find the Calendar Events of an Office365 shared mailbox using PowerShell. Unfortunately I was not able to find a way to accomplished this task using the O365 Cmdlets. (Let me know in the comments if you know how...)
+<a href="{{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Outlook-2013-Logo-256x256__688739842__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Outlook-2013-Logo-256x256__892680219__-200x200.png" width="200" /></a> A couple of weeks ago I was looking at a way to find the Calendar Events of an Office365 shared mailbox using PowerShell. Unfortunately I was not able to find a way to accomplished this task using the O365 Cmdlets. (Let me know in the comments if you know how...)
 
 <b><u>Update 2016/04/19:</u></b> Function updated to support `PageResult` parameter
 
@@ -29,7 +29,7 @@ So I turned to the PowerShell Community and posted tweet about it.
 {% capture SourceUrl %}
 https://twitter.com/LazyWinAdmin/status/593760077745680385
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 Quickly I got an answer from <a href="https://twitter.com/mjolinor" target="_blank">@Mjolinor</a> and <a href="https://twitter.com/glenscales" target="_blank">@Glenscales</a> who sent me some great stuff by using REST API. Thanks again guys!!
 
@@ -55,7 +55,7 @@ Of course you will need to have permissions on the specified mailbox.
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-06__98307730__-772x278.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 Even though it show this as a CustomObject, the object type is `Microsoft.OutlookServices.Event`, see this MSDN page to find all the properties and methods available: [https://msdn.microsoft.com/office/office365/APi/complex-types-for-mail-contacts-calendar#EventResource](https://msdn.microsoft.com/office/office365/APi/complex-types-for-mail-contacts-calendar#EventResource)
 
@@ -68,7 +68,7 @@ Even though it show this as a CustomObject, the object type is `Microsoft.Outloo
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-05__906656427__-772x918.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 My obvious next step was to create a function to handle different mailbox with different parameters such as `startdatetime`, `enddatetime` or alternative `credentials`. <b><u>See at the end of this post.</u></b>
 
@@ -87,7 +87,7 @@ The MSDN documentation on how to use the Office365 API is very well done, clear 
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-01__1979570724__-932x619.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 In our case, we are interested by the Outlook Calendar.
 
@@ -118,7 +118,7 @@ Invoke-RestMethod `
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-07__1619919174__-772x378.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 * <b><u>A Specific user</u>:</b> With the `users/{upn}` format to pass the UPN or a proxy address, such as:
@@ -136,7 +136,7 @@ Invoke-RestMethod `
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-08__637553995__-772x378.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 
@@ -162,7 +162,7 @@ Select-Object -Property Subject
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-09__1936211018__-772x278.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 * <b><u>Against a specific calendar</u></b> `../me/calendars/{calendar_id}/calendarview?startDateTime={ start_datetime }&endDateTime={ end_datetime }`
@@ -184,7 +184,7 @@ Select-Object -Property subject
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-10__439415214__-772x278.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 ## Get the Calendars
@@ -207,7 +207,7 @@ Select-Object -Property Name, ID
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-11__763151546__-772x258.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
  
 ### PageResult
@@ -230,5 +230,5 @@ You can find it on my GitHub here: [https://github.com/lazywinadmin/PowerShell/b
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150628_PowerShell_-_Using_Office_365_REST_API_to_get_Calendar_Events/Office365API-13__303836682__-772x538.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 

@@ -13,7 +13,7 @@ author_profile: false
 header:
   teaserlogo:
   teaser: ''
-  image: images/headers/france01_1920x500.jpg
+  image: images/headers/france01_1920x500.webp
   caption: ''
 gallery:
   - image_path: ''

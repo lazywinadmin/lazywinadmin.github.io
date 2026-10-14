@@ -16,7 +16,7 @@ Virtual Machine Template
 Virtual Machine Templates come in very handy when you want to have a repository of Virtual Machine base or images that you can easily create a virtual machine from. This saves you the time of installing/configuring the operating system, installing regular common applications and patching the system.
 
 Here are a few references I found to create my Windows Server 2008 R2 Template on a VMware environment
-<a href="{{ site.url }}/images/2012/20120215_VMware_Virtual_Machine_Template_-_Windows_Server_2008_R2/what-is-a-template__1047343381__-329x241.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2012/20120215_VMware_Virtual_Machine_Template_-_Windows_Server_2008_R2/what-is-a-template__1047343381__-329x241.jpg" /></a>
+<a href="{{ site.url }}/images/2012/20120215_VMware_Virtual_Machine_Template_-_Windows_Server_2008_R2/what-is-a-template__1047343381__-329x241.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2012/20120215_VMware_Virtual_Machine_Template_-_Windows_Server_2008_R2/what-is-a-template__1047343381__-329x241.jpg" /></a>
 Create, Install and Config
 
 * <a href="http://www.jasonsamuel.com/2010/05/07/how-to-build-a-vmware-vsphere-vm-template-for-windows-server-2008-r2/" target="_blank">Jason Samuel</a>-<i>How to Build a VMware vSphere VM Template for Windows Server 2008 R2</i>

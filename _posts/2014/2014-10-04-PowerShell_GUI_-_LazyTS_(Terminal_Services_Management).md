@@ -17,7 +17,7 @@ comments: true
 ---
 
 
-<a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" height="113" style="cursor: move;" width="200" /></a><b>LazyTS</b> is a PowerShell script to manage <u>Sessions</u> and <u>Processes</u>on local or remote machines. It allows you to <b>Query/Disconnect/Stop session(s)</b>, <b>Query/Stop process(es)</b> and<b>Send Interactive message</b> to one or more sessions.
+<a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" height="113" style="cursor: move;" width="200" /></a><b>LazyTS</b> is a PowerShell script to manage <u>Sessions</u> and <u>Processes</u>on local or remote machines. It allows you to <b>Query/Disconnect/Stop session(s)</b>, <b>Query/Stop process(es)</b> and<b>Send Interactive message</b> to one or more sessions.
 
 This tool is using the module PSTerminalService which relies on the Cassia .NET Library.I used <a href="http://www.sapien.com/software/powershell_studio" target="_blank">Sapien PowerShell Studio 2014</a>to which make life easier if you want to start building WinForms tools and add PowerShell code.
 
@@ -26,7 +26,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 Once in a while I need to disconnect or close one or more Terminal Sessions on a Windows Server in order to be able to connect via Remote Desktop Protocol or free up a session for someone else.
 You would most likely use handy legacy tools such as<a href="http://technet.microsoft.com/en-us/library/cc731503.aspx" target="_blank">Qwinsta</a>/<a href="http://technet.microsoft.com/en-us/library/cc754785.aspx" target="_blank">Rwinsta</a>,<a href="http://technet.microsoft.com/en-us/library/cc785434.aspx" target="_blank">Query</a>/<a href="http://technet.microsoft.com/en-us/library/cc754256.aspx" target="_blank">Reset Session</a>or<a href="http://technet.microsoft.com/en-us/library/cc754583.aspx" target="_blank">Quser</a>.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Quser_Query_Session_Qwinsta_legacy_tools__1513406131__-692x378.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Quser_Query_Session_Qwinsta_legacy_tools__1513406131__-692x378.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Legacy tools: Qwinsta/Query Session/Quser</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Quser_Query_Session_Qwinsta_legacy_tools__1513406131__-692x378.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Quser_Query_Session_Qwinsta_legacy_tools__1513406131__-692x378.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Legacy tools: Qwinsta/Query Session/Quser</td></tr></tbody></table>
 
 
 # PowerShell Way
@@ -63,7 +63,7 @@ Here is a list of the main feature of this module:
 
 <b>LazyTS</b>is a PowerShell script to manage Terminal Services<u>Sessions</u>and<u>Processes</u>on local or remote machines. It also allows you to<u>Disconnect/Stop sessions</u>and<u>Send Interactive message</u>to one or more sessions.
 
-<a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" /></a>
+<a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" /></a>
 
 
 # Version
@@ -85,7 +85,7 @@ LazyTS is relying on the Cassia .NET Library (A DLL file). This file need to be 
 Of course you also need the appropriate permission on the remote machine to be able to manage it.
 
 If the Cassia.dll is not present, the script won't start:
-<a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Cassia.dll_required__1075941985__-692x166.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Cassia.dll_required__1075941985__-692x166.png" /></a>
+<a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Cassia.dll_required__1075941985__-692x166.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Cassia.dll_required__1075941985__-692x166.png" /></a>
 
 
 # Download and Details

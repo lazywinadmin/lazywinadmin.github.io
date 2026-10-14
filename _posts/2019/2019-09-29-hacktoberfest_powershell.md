@@ -30,7 +30,7 @@ Les démos seront évidemment concentrées sur les projets PowerShell de la comm
 
 ## Hacktoberfest ?
 
-![image-center](/images/2019/2019-09-29-hacktoberfest_powershell/hacktoberfest2019medium.png){: .align-center}
+![image-center](/images/2019/2019-09-29-hacktoberfest_powershell/hacktoberfest2019medium.webp){: .align-center}
 
 Hacktoberfest - Présenté par DigitalOcean et DEV en partenariat avec GitHub est une célébration d’un mois du logiciel libre. Les maintainers sont invités à guider les contributeurs potentiels vers les questions qui aideront à faire avancer le projet, et les contributeurs ont la possibilité de contribuer aux projets qu'ils aiment et à ceux qu'ils viennent de découvrir. Aucune contribution n'est trop petite - les corrections de bogues et les mises à jour de la documentation sont des moyens valables de participer.
 

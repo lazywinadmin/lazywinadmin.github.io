@@ -66,7 +66,7 @@ In my case I'm using the [Minimal Mistakes](https://github.com/mmistakes/minimal
 
 When pulling the changes from the Upstream (as see above) you might see some conflicts, example during my last upgrade:
 
-[![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.png){: .align-center}](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.png)
+[![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.webp){: .align-center}](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.webp)
 
 You resolved these issues using Visual Studio, here is an example:
 

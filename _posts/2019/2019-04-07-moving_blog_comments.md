@@ -131,7 +131,7 @@ Fortunately Disqus made the comments exportation easy. Simply navigate to the [E
 
 `Your export has been queued. We will send an email to your registered address when it is available.`
 
-![](/images/2019/2019-04-07-moving_blog_comments/disqus_export_comments.png)
+![](/images/2019/2019-04-07-moving_blog_comments/disqus_export_comments.png){: loading="lazy" decoding="async"}
 
 Once downloaded you'll need a tool like 7zip to uncompress the Gz file.
 

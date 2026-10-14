@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130507_PowerShell_Summit_NA_2013_-_Recorded_Videos/poshsummit__1956129854__-361x330.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="182" src="{{ site.url }}/images/2013/20130507_PowerShell_Summit_NA_2013_-_Recorded_Videos/poshsummit__1526545017__-200x183.png" width="200" /></a>Recently I was lucky enough to attend the PowerShell Summit in Redmond,WA, this was a great opportunity to meet a lot of PowerShell people, MVPs, Writers, Bloggers, Trainers, IT Pros, DevOps, ... and some members of the PowerShell Team who created this amazing tool.
+<a href="{{ site.url }}/images/2013/20130507_PowerShell_Summit_NA_2013_-_Recorded_Videos/poshsummit__1956129854__-361x330.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="182" src="{{ site.url }}/images/2013/20130507_PowerShell_Summit_NA_2013_-_Recorded_Videos/poshsummit__1526545017__-200x183.png" width="200" /></a>Recently I was lucky enough to attend the PowerShell Summit in Redmond,WA, this was a great opportunity to meet a lot of PowerShell people, MVPs, Writers, Bloggers, Trainers, IT Pros, DevOps, ... and some members of the PowerShell Team who created this amazing tool.
 
 
 

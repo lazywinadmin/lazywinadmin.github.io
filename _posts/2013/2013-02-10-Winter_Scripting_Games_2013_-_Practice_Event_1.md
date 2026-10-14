@@ -133,7 +133,7 @@ END {# Cleanup
 ## Using the function
 
 By default, if you do not specify a computername, the function will query the localhost: $env:computername
-![full](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-01__1207834562__-485x284.png)
+![full](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-01__1207834562__-485x284.png){: loading="lazy" decoding="async"}
 {: .full}
 
 ### Getting some Help
@@ -145,7 +145,7 @@ Get-Help Get-DiskSizeInfo -Full
 The Function's help has been wrote between the <b>lines 2 and 39</b>.
 More information on technet: <a href="http://technet.microsoft.com/library/hh847834.aspx" target="_blank">about_Comment_Based_Help</a>
 
-![full](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-02__757978919__-685x1040.png)
+![full](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-02__757978919__-685x1040.png){: loading="lazy" decoding="async"}
 {: .full}
 
 ### Use the Verbose switch</u></b>
@@ -154,7 +154,7 @@ More information on technet: <a href="http://technet.microsoft.com/library/hh847
 Get-DiskSizeInfo -ComputerName XAVIER -Verbose
 ```
 
-![full](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-03__1499822209__-613x326.png)
+![full](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-03__1499822209__-613x326.png){: loading="lazy" decoding="async"}
 {: .full}
 
 The verbose switch is available since we use the `[CmdletBinding()]` at the line 41.
