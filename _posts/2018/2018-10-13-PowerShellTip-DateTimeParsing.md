@@ -32,7 +32,7 @@ Recently I had to parse a bunch of log files for one of my projects, but the dat
 
 As an example, here is one of the log format.
 
-![image-center](/images\2018\2018-10-13-PowerShellTip-DateTimeParsing\PowerShellTip-DateTimeParsing01.jpg){: .align-center}
+![image-center](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing01.jpg){: .align-center}
 
 ## Parsing the file using Import-CSV
 
@@ -60,7 +60,7 @@ Date           Type Message
 ```
 
 <!---
-![image-center](/images\2018\2018-10-13-PowerShellTip-DateTimeParsing\PowerShellTip-DateTimeParsing02.jpg){: .align-center}--->
+![image-center](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing02.jpg){: .align-center}--->
 
 ## Problem and Solution
 
@@ -131,4 +131,4 @@ Date                  Type Message
 
 Screenshot in action:
 
-![image-center](/images\2018\2018-10-13-PowerShellTip-DateTimeParsing\PowerShellTip-DateTimeParsing03.jpg){: .align-center}
+![image-center](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing03.jpg){: .align-center}
