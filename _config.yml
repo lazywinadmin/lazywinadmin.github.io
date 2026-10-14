@@ -26,9 +26,9 @@ repository               : lazywinadmin/lazywinadmin.github.io # GitHub username
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/lazywinadmin-88x55.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -65,10 +65,10 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : 'https://feeds.feedburner.com/lazywinadmin' # blank (default) uses feed.xml
+  path                   : # was FeedBurner; blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -117,18 +117,12 @@ author:
   location         : "Colorado"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Microsoft MVP"
       icon: "fab fa-fw fa-microsoft"
       url: "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lazywinadmin"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/lazywinadmin"
 #    - label: "Facebook"
 #      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -140,7 +134,7 @@ author:
       url: "https://www.linkedin.com/in/fxcat/"
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
-      url: "https://feeds.feedburner.com/lazywinadmin"
+      url: "/feed.xml"
 #    - label: "Get me a coffee :)"
 #      icon: "fas fa-coffee"
 #      url: "https://github.com/sponsors/lazywinadmin"
@@ -344,4 +338,4 @@ custom:
     publisheddate: true
     edit: true
   link:
-    rssfeed: "http://feeds.feedburner.com/lazywinadmin"
+    rssfeed: "https://lazywinadmin.com/feed.xml"
