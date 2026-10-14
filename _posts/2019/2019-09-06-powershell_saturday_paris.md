@@ -63,27 +63,27 @@ Merci a tous les sponsors qui par leur soutien et leur fidélité permettent d�
 ### Sponsors Platinum
 
 <p align="center">
-<a href="https://www.scriptrunner.com/en/"><img src="https://frpsug.github.io/images/sponsors/ScriptRunner.png" width="30%" title="ScriptRunner" alt="ScriptRunner"></a>
+<a href="https://www.scriptrunner.com/en/"><img src="/images/2019/sponsors/scriptrunner.webp" width="30%" title="ScriptRunner" alt="ScriptRunner logo"></a>
 </p>
 
 
 <p align="center">
-<a href="https://www.cellenza.com/"><img src="https://frpsug.github.io/images/sponsors/cellenza_.png" width="30%" title="Metsys" alt="Metsys"></a>
+<a href="https://www.cellenza.com/"><img src="/images/2019/sponsors/cellenza.webp" width="30%" title="Cellenza" alt="Cellenza logo"></a>
 </p>
 
 
 <p align="center">
-<a href="https://www.metsys.fr/"><img src="https://frpsug.github.io/images/sponsors/metsys.png" width="30%" title="Cellenza" alt="Cellenza"></a>
+<a href="https://www.metsys.fr/"><img src="/images/2019/sponsors/metsys.webp" width="30%" title="Metsys" alt="Metsys logo"></a>
 </p>
 
 ### Sponsors Silver
 
 <p align="center">
-<a href="https://chocolatey.org/"><img src="https://frpsug.github.io/images/sponsors/chocolatey.png" width="30%" title="Chocolatey" alt="Chocolatey"></a>
+<a href="https://chocolatey.org/"><img src="/images/2019/sponsors/chocolatey.webp" width="30%" title="Chocolatey" alt="Chocolatey logo"></a>
 </p>
 
 <p align="center">
-<a href="https://systemfrontier.com"><img src="https://frpsug.github.io/images/sponsors/System Frontier Logo - Wide.png" width="30%" title="SystemFrontier" alt="SystemFrontier"></a>
+<a href="https://systemfrontier.com"><img src="/images/2019/sponsors/system-frontier.webp" width="30%" title="System Frontier" alt="System Frontier logo"></a>
 </p>
 
 ## Merci aux organisateurs
