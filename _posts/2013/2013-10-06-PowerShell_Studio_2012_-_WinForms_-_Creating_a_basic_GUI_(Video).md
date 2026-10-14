@@ -59,7 +59,7 @@ The following post will demo how to create a basic Graphical User Interface with
 We will simply add a couple of controls (Buttons and a Richtextbox), and add a few events to write in the Richtextbox when pressing the buttons.
 
 <div style="text-align: center;">
-<div style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/UeYGapCK78g" width="480"></iframe><div style="text-align: center;">
+<div style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/UeYGapCK78g" width="480"></iframe><div style="text-align: center;">
 <div style="text-align: center;"><b>
 </b><b>
 </b><b>

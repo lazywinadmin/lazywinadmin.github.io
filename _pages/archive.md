@@ -14,7 +14,7 @@ toc_icon: "file-text"
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-            <h3> {{ currentDate }} </h3>
+            <h3 id="{{ currentDate }}"> {{ currentDate }} </h3>
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}

@@ -12,7 +12,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/2014-03-11%252B6-43-32%252BPM__205120932__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/2014-03-11%252B6-43-32%252BPM__205120932__-298x308.jpg" height="200" width="193" /></a>
+ <a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/2014-03-11%2B6-43-32%2BPM__205120932__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/2014-03-11%2B6-43-32%2BPM__205120932__-298x308.jpg" height="200" width="193" /></a>
 <a href="{{ site.url }}/2014/08/powershell-summit-2014-europe.html" target="_blank">French version</a>
 
 The European PowerShell Summit, organised by <a href="http://powershell.org/">PowerShell.org</a>guys, will be in Amsterdam from the September 29th to the October 1st 2014 at the Park Hotel. Details at <a href="http://powershell.org/wp/community-events/summit/">http://powershell.org/wp/community-events/summit/</a>

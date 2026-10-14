@@ -5,7 +5,7 @@ excerpt: "Quick and dirty way to resolve a DNS entry"
 permalink:
 tags: 
 - powershell
-- powershelltip
+- powershell tip
 categories:
 - powershell
 published: true

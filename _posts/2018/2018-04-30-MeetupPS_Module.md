@@ -184,7 +184,7 @@ $Headers = @{
 }
 ```
 
-See this line: [Header of Get-OauthAccessToken](/MeetupPS/private/Get-OAuthAccessToken.ps1#L24)
+See this line: [Header of Get-OauthAccessToken](https://github.com/lazywinadmin/MeetupPS/blob/HEAD/src/private/Get-OAuthAccessToken.ps1#L24)
 
 <a name="Resources"/>
 

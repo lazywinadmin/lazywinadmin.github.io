@@ -29,4 +29,4 @@ comments: true
 For this box I took my old HTPC and replaced some components.
 <a href="{{ site.url }}/images/2012/20121207_My_Home_Lab_!/FreeNas-Server__1167993578__-719x228.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2012/20121207_My_Home_Lab_!/FreeNas-Server__1167993578__-719x228.png" /></a>
 
-More detail on<a href="{{ site.url }}/p/lab.html" target="_blank">HomeLab page</a>....
+

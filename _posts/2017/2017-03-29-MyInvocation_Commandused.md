@@ -5,7 +5,7 @@ excerpt: "When troubleshooting scripts, it comes handy to be able to log which p
 permalink:
 tags: 
 - powershell
-- powershelltip
+- powershell tip
 - myinvocation
 - pscmdlet
 - automaticvariable

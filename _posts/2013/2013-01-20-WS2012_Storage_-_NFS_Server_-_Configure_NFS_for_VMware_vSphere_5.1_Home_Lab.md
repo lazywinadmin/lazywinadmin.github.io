@@ -17,7 +17,7 @@ published: true
 comments: true
 ---
 
-<a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/1374031693_data-center-px-png__1246874727__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/1374031693_data-center-px-png__1246874727__-128x128.png" /></a>The following procedure show how to setup aNFS Server hosted on <u>Windows Server 2012</u> forbackend storage of my<a href="{{ site.url }}/p/lab.html" target="_blank">VMware vSphere Server 5.1 Home Lab</a>.
+<a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/1374031693_data-center-px-png__1246874727__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/1374031693_data-center-px-png__1246874727__-128x128.png" /></a>The following procedure show how to setup aNFS Server hosted on <u>Windows Server 2012</u> forbackend storage of my<a href="{% post_url 2012/2012-12-07-My_Home_Lab_! %}">VMware vSphere Server 5.1 Home Lab</a>.
 
 You can also check my post on<a href="{{ site.url }}/2013/07/create-iscsi-target-using-powershell-on.html" target="_blank">Creating an iSCSI Target Server on Windows Server 2012</a>.
 

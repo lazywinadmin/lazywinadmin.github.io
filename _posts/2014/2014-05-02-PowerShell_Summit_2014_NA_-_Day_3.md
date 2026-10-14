@@ -13,7 +13,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/2014-03-11%252B6-43-32%252BPM__462548536__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/2014-03-11%252B6-43-32%252BPM__462548536__-298x308.jpg" height="200" width="193" /></a>The PowerShell Summit 2014 NA is now over ! The organizers really did an awesome work !! I can't wait for next year!! In 2015 the event will be hosted in Charlotte, NC around the same time.
+ <a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/2014-03-11%2B6-43-32%2BPM__462548536__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/2014-03-11%2B6-43-32%2BPM__462548536__-298x308.jpg" height="200" width="193" /></a>The PowerShell Summit 2014 NA is now over ! The organizers really did an awesome work !! I can't wait for next year!! In 2015 the event will be hosted in Charlotte, NC around the same time.
 
 <b><u>PshSummit 2014 NA serie posts:</u></b>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-1.html" target="_blank">PowerShell Summit 2014 NA - Day 1</a>

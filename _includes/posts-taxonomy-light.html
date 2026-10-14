@@ -1,0 +1,13 @@
+{% comment %}Lightweight taxonomy index: titles and dates only (no excerpts or teasers) to keep /tags/ and /categories/ small.{% endcomment %}
+{% assign items_max = 0 %}
+{% for item in include.taxonomies %}{% if item[1].size > items_max %}{% assign items_max = item[1].size %}{% endif %}{% endfor %}
+<ul class="taxonomy__index">
+{% for i in (1..items_max) reversed %}{% for item in include.taxonomies %}{% if item[1].size == i %}<li><a href="#{{ item[0] | slugify }}"><strong>{{ item[0] }}</strong> <span class="taxonomy__count">{{ i }}</span></a></li>{% endif %}{% endfor %}{% endfor %}
+</ul>
+{% for i in (1..items_max) reversed %}{% for taxonomy in include.taxonomies %}{% if taxonomy[1].size == i %}
+<section id="{{ taxonomy[0] | slugify }}" class="taxonomy__section">
+<h2 class="archive__subtitle">{{ taxonomy[0] }}</h2>
+<ul class="taxonomy__posts">{% for post in taxonomy.last %}<li><a href="{{ post.url | relative_url }}">{{ post.title | markdownify | strip_html | strip }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>{% endfor %}</ul>
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[include.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+</section>
+{% endif %}{% endfor %}{% endfor %}

@@ -13,7 +13,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/2014-03-11%252B6-43-32%252BPM__1533142396__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/2014-03-11%252B6-43-32%252BPM__1533142396__-298x308.jpg" height="200" width="193" /></a>Another day of PowerShell Awesomeness !!! Learned a ton of things today !! Made some new PowerShell friends ANDDD met so many PowerShell Team members!! Nana, John Slack, Bruce,...etc... and Diane Dubois a new member from France! It was a great surprise! Awesome! I was really not expecting to speak French at the summit ;-)
+ <a href="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/2014-03-11%2B6-43-32%2BPM__1533142396__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140430_PowerShell_Summit_2014_NA_-_Day_2/2014-03-11%2B6-43-32%2BPM__1533142396__-298x308.jpg" height="200" width="193" /></a>Another day of PowerShell Awesomeness !!! Learned a ton of things today !! Made some new PowerShell friends ANDDD met so many PowerShell Team members!! Nana, John Slack, Bruce,...etc... and Diane Dubois a new member from France! It was a great surprise! Awesome! I was really not expecting to speak French at the summit ;-)
 
 <b><u>Note:</u></b> The names of the PowerShell Team members might not be correct, sorry about that (please correct me!)
 
