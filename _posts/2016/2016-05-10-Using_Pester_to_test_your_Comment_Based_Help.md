@@ -14,7 +14,7 @@ toc_label: "Table of content"
 classes: wide
 ---
 
-<img imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/pester_logo__332888956__-200x200.png" width="130" />
+<img loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/pester_logo__332888956__-200x200.png" width="130" />
 <mark><u>Update 2019/07/26:</u></mark> It seems that the AST to Help content parameter comparison doesn't work in PowerShell Core.
 See the example suggested by **[@mgeorgebrown89](https://github.com/mgeorgebrown89)** (Thank you!)<br>
 <mark><u>Update 2016/11/25:</u></mark> Updated the code to support functions where there is no parameter declared (Thanks <b>Wojciech Sciesinski</b> !)
@@ -29,7 +29,7 @@ Anyway, at the time Pester looked pretty neat but since I only played with it a 
 Evening event organized by Dave Wyatt on Pester.</i>
 
 <center>
-<a href="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1621835198__-892x669.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="240" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1783351507__-320x240.jpg" width="320" /></a>
+<a href="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1621835198__-892x669.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" height="240" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1783351507__-320x240.jpg" width="320" /></a>
 </center>
 
 # What is Pester ?
@@ -149,7 +149,7 @@ Here is the code in action:
 
 We can see that I already missed a couple of things on the first functions tested ... :-/
 
-<img border="0" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" />
+<img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" />
 
 # Other Pester posts
 

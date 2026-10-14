@@ -63,7 +63,7 @@ So I created a PowerShell script to handle this task and report all the Missing 
 
 # How the script work
 
-![image-center](/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.png){: .align-center}
+![image-center](/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.webp){: .align-center}
 
 1. Get the list of Domain Controllers in the Domain using .NET
 1. Get the Last 200 Lines from the NETLOGON.log on each Domain controllers (200 is default)

@@ -18,7 +18,7 @@ Once Download and Install, all you need to do is:
 
 <b>Import-Module SDM-GPHealth</b>
 
-<a href="{{ site.url }}/images/2012/20120511_Group_Policy_Health_PowerShell_Cmdlet_Updated/SDM-GPOHealth_module__1580249737__-451x308.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2012/20120511_Group_Policy_Health_PowerShell_Cmdlet_Updated/SDM-GPOHealth_module__1580249737__-451x308.png" /></a>
+<a href="{{ site.url }}/images/2012/20120511_Group_Policy_Health_PowerShell_Cmdlet_Updated/SDM-GPOHealth_module__1580249737__-451x308.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2012/20120511_Group_Policy_Health_PowerShell_Cmdlet_Updated/SDM-GPOHealth_module__1580249737__-451x308.png" /></a>
 Here is the only cmdlet available for this module <b>Get-SDMGPHealth</b>, this is the full help.
 
 <pre class="brush: powershell; ruler: true; first-line: 1;gutter: true;">NAME

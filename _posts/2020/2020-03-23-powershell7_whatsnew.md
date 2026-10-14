@@ -307,7 +307,7 @@ $Error[0] | Get-Error
 Get-Error -Newest 2
 ```
 
-![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_019.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_019.webp){: .align-center}
 
 
 ## $ErrorActionPreference = 'Break'
@@ -500,7 +500,7 @@ Here is an example WITH `-SkipHttpErrorCheck`. As you can see the response is pr
 ```powershell
 Invoke-RestMethod -uri 'http://lazywinadmin.com/fakepage' -SkipHttpErrorCheck
 ```
-![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_035.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_035.webp){: .align-center}
 
 ### StatusCodeVariable
 
@@ -527,7 +527,7 @@ Get-Childitem "$Files*.txt" |
     Select-String -Pattern 'powershell'
 ```
 
-![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_013.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_013.webp){: .align-center}
 
 ### Emphasis pattern with regex
 
@@ -539,7 +539,7 @@ $Files = "~\code\Presentations\20200310-PowerShell7-whats_new\"
 Get-Childitem "$Files*.txt" |
     Select-String -Pattern 'github\w+'
 ```
-![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_014.png){: .align-center}
+![image-center](/images/2020/2020-03-23-powershell7_whatsnew/Terminal_014.webp){: .align-center}
 
 
 ## Split Negative max-substring

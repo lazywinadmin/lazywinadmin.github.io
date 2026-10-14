@@ -26,11 +26,11 @@ I highly encourage you to check-out this documentation. From my point of view, t
 * LAB: <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-H310" target="_blank">Desired State Configuration in Windows Server 2012 PowerShell</a>
 
 * <a href="http://redmondmag.com/blogs/it-decision-maker/2013/06/desired-state-configuration.aspx" target="_blank">Article from Don Jones on Redmondmag.com </a>
-<a href="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc01__993013490__-1081x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="363" src="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc01__1773073123__-640x364.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc01__993013490__-1081x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="363" src="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc01__1773073123__-640x364.png" width="640" /></a>
 
 
-<a href="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc02__1308151124__-1079x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="364" src="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc02__618164306__-640x365.png" width="640" /></a>
-<a href="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc03__2114821367__-1079x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="364" src="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc03__2097888369__-640x365.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc02__1308151124__-1079x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="364" src="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc02__618164306__-640x365.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc03__2114821367__-1079x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="364" src="{{ site.url }}/images/2013/20130626_What%27s_New_in_Windows_PowerShell_4.0/dsc03__2097888369__-640x365.png" width="640" /></a>
 
 * The default Execution Policy on Windows Server 2012 R2 Preview is <b>RemoteSigned</b>
 

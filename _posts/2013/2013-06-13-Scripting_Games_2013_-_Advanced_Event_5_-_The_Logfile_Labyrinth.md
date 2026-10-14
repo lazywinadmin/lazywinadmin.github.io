@@ -14,7 +14,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/PowerShell-Scripting-Games-Logo__1922393941__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/PowerShell-Scripting-Games-Logo__1639206210__-171x200.png" width="171" /></a>This is my solution for the Advanced Event 5.
+<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/PowerShell-Scripting-Games-Logo__1922393941__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/PowerShell-Scripting-Games-Logo__1639206210__-171x200.png" width="171" /></a>This is my solution for the Advanced Event 5.
 I did not have much time to work on this event, but here is the script I submitted.
 
 Instruction
@@ -65,7 +65,7 @@ In my script I only focused on the W3C format, but here is the list of formats s
 <b>Header</b>
 The header of the W3C Log format stats by the "#fields: " pattern.
 Let's use that to find our properties.
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">IIS Log - W3C Format</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">IIS Log - W3C Format</td></tr></tbody></table>
 Using<span style="font-family: Courier New, Courier, monospace;"> Select-String, I find the line with the pattern '<span style="font-family: Courier New, Courier, monospace;">#fields: '. Then I use the <span style="font-family: Courier New, Courier, monospace;">SubString() Method to get the rest of the line. Finally I use <span style="font-family: Courier New, Courier, monospace;">-split to have all my different property names.
 
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">((Select-String -path .\W3SVC1\u_ex120420.log -Pattern "#fields: " | 
@@ -87,15 +87,15 @@ Import-Csv '.\W3SVC1\u_ex120420.log' -Header $header -Delimiter ' ' |
  Where-Object { -not($_.Date.StartsWith('#'))}
 ```
 
-<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/split__79274484__-816x580.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/split__79274484__-816x580.png" /></a>
+<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/split__79274484__-816x580.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/split__79274484__-816x580.png" /></a>
 I repeat the same process for each file (using foreach) and store the information in an array. 
 This technique has some limits and can't handle large file.
 Check-out the references below,<b>Emin Atac </b>did an awesome work on this event. Especially this part.
 
-<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/code_explain__771152283__-896x444.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="317" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/code_explain__313833373__-640x317.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/code_explain__771152283__-896x444.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="317" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/code_explain__313833373__-640x317.png" width="640" /></a>
 
 <b>Processing the final Data</b>
-<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output__1959247186__-683x254.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output__1959247186__-683x254.png" /></a>
+<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output__1959247186__-683x254.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output__1959247186__-683x254.png" /></a>
 <b>Outputting</b>
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-IISLogClientIPAddress -Path .\ -Pattern *55.2*
 Get-IISLogClientIPAddress -Path .\

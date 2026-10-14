@@ -13,7 +13,7 @@ comments: true
 ---
 
  
-<a href="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
+<a href="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
 <b>Finding a way to list all the groups a specific user was managing.</b>
 
 If you look into the properties of an Active Directory group object, you will find under the tab `ManagedBy` the name of a user or group who is managing the group and possibly its members if the `Manager can update membership list` is checked.
@@ -26,7 +26,7 @@ Group object properties / Managed By tab:
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagerdBy_Tab__678788052__-432x477.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 This is nice for one group.... what if the user manage tons of them ?
 
@@ -48,7 +48,7 @@ Get-ADGroup -LDAPFilter "(ManagedBy=$((Get-ADuser -Identity $env:username).disti
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Get-ADObject__2038758211__-852x508.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 For better performance and depending on the size of your Active Directory, I would also recommend to use the `-SearchBase` to better scope the search range of your query... and possibly use the `-ResultSize` if you expect a long list of groups.
 
@@ -80,7 +80,7 @@ $DN = "CN=TestUser,OU=User,DC=FX,DC=Lab"
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/ManagedByGet-ADSI_LDAP__124834729__-852x202.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 You will then need to select the properties that you want to output.

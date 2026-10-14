@@ -35,7 +35,7 @@ Azure App Services are publicly accessible by default via `your_app_name.azurewe
 
 In the Azure Portal, the IP Address Rules can be set under the **Networking**/**Access Restrictions** properties of the App Service.
 
-![](../../images/2020/2020-07-05-azure_appservice_restrictions_iprules/azureportal-iprules.png)
+![](../../images/2020/2020-07-05-azure_appservice_restrictions_iprules/azureportal-iprules.png){: loading="lazy" decoding="async"}
 
 I would usually recommend using something like Terraform for these types of scenarios where you want to track the state of your resources. However for this particular example we wanted to perform the task using a PowerShell script.
 
@@ -83,7 +83,7 @@ AppService-Update_RestrictionIP.ps1 @Splatting
 
 Script in action:
 
-![](../../images/2020/2020-07-05-azure_appservice_restrictions_iprules/script_output-appservice-update_restrictionip.png)
+![](../../images/2020/2020-07-05-azure_appservice_restrictions_iprules/script_output-appservice-update_restrictionip.png){: loading="lazy" decoding="async"}
 
 
 ## Download

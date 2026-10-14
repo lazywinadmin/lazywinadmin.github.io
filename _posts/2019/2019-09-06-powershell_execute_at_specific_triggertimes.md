@@ -83,4 +83,4 @@ Belong to the past: '2:00:00pm'
 # TriggerTime: '4:12:20pm' - Executing my code here!
 ```
 
-![image-center](/images/2019/2019-09-06-powershell_execute_at_specific_triggertimes/powershell-triggertimes_output.png)
+![image-center](/images/2019/2019-09-06-powershell_execute_at_specific_triggertimes/powershell-triggertimes_output.png){: loading="lazy" decoding="async"}

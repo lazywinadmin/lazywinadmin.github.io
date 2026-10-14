@@ -18,7 +18,7 @@ comments: true
 
  
  
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" height="97.6" width="160" /></a>I just started to play with a Microsoft Office 365 environment (Azure Active Directory, Lync Online and Exchange Online) and I thought I would make it through PowerShell obviously :-)
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" height="97.6" width="160" /></a>I just started to play with a Microsoft Office 365 environment (Azure Active Directory, Lync Online and Exchange Online) and I thought I would make it through PowerShell obviously :-)
 
 But when you start your PowerShell console... you need to load modules, connect to each services, enter your credentials...yada yada yada...
 
@@ -175,13 +175,13 @@ function Connect-Office365
 
 <b><u>Running the function</u></b>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" /></a>```
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" /></a>```
 
 ```
 
 Here the result in action
 
-<a href="http://3.bp.blogspot.com/-p6i5LnXDInE/U7R69oyeIwI/AAAAAAABl0o/KA052Ymv5Js/s1600/7-2-2014+5-34-23+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-p6i5LnXDInE/U7R69oyeIwI/AAAAAAABl0o/KA052Ymv5Js/s1600/7-2-2014+5-34-23+PM.png" /></a>
+<a href="http://3.bp.blogspot.com/-p6i5LnXDInE/U7R69oyeIwI/AAAAAAABl0o/KA052Ymv5Js/s1600/7-2-2014+5-34-23+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-p6i5LnXDInE/U7R69oyeIwI/AAAAAAABl0o/KA052Ymv5Js/s1600/7-2-2014+5-34-23+PM.png" /></a>
 
 
 
@@ -189,15 +189,15 @@ Here the result in action
 
 <b><u>Adding the function to your PowerShell profile</u></b>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" /></a>```
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" /></a>```
 
 ```
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" /></a>
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" /></a>
 The next time you reload your PowerShell, the function<span style="font-family: Courier New, Courier, monospace;"> Connect-Office365 will be available to your PowerShell.
 
 Finally we can see two implicit modules created for Lync and Exchange with a sample of cmdlets available. Those cmdlets contains the prefix we defined in the function ExchCloud and LyncCloud.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-xtr_YLaCnwM/U7R8a4xGwyI/AAAAAAABl00/hepZCSNHjZo/s1600/7-2-2014+5-40-04+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://2.bp.blogspot.com/-xtr_YLaCnwM/U7R8a4xGwyI/AAAAAAABl00/hepZCSNHjZo/s1600/7-2-2014+5-40-04+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Implicit remoting modules loaded start by a "tmp". You can see a sample of the Cmdlets available
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-xtr_YLaCnwM/U7R8a4xGwyI/AAAAAAABl00/hepZCSNHjZo/s1600/7-2-2014+5-40-04+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-xtr_YLaCnwM/U7R8a4xGwyI/AAAAAAABl00/hepZCSNHjZo/s1600/7-2-2014+5-40-04+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Implicit remoting modules loaded start by a "tmp". You can see a sample of the Cmdlets available
 with the prefix we included.</td></tr></tbody></table>
 
 

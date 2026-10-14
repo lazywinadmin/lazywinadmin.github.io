@@ -87,7 +87,7 @@ Description            : Full day of PowerShell :)
 
 This will create the following entry in the Microsoft MVP portal.
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions01.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions01.jpg){: loading="lazy" decoding="async"}
 
 Now let's look at the important parameters.
 
@@ -99,11 +99,11 @@ This means that the possible values will show as you type them.
 
 __`ContributionTechnology` parameter in action:__
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions02.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions02.jpg){: loading="lazy" decoding="async"}
 
 __`ContributionType` parameter in action:__
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions03.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions03.jpg){: loading="lazy" decoding="async"}
 
 ### Visibility parameter
 
@@ -122,7 +122,7 @@ Note that your file need to be in CSV format so PowerShell can work with it.
 
 Example of CSV file in Excel:
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions04.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions04.jpg){: loading="lazy" decoding="async"}
 
 Here is the sample that I'm using (You can copy and paste it into notepad and save it as a CSV file. You should then be able to open and edit it in Excel).
 
@@ -146,7 +146,7 @@ We can validate the file load property by using `Import-CSV`
 Import-CSV .\Sample.csv
 ```
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions05.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions05.jpg){: loading="lazy" decoding="async"}
 
 ### Creating the entries
 
@@ -159,8 +159,8 @@ import-csv .\Examples\MultipleEntries.csv | New-MVPContribution
 
 This should give you the following output:
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions06.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions06.jpg){: loading="lazy" decoding="async"}
 
 Here is the result on the Microsoft MVP website:
 
-![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions07.jpg)
+![image-center](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions07.jpg){: loading="lazy" decoding="async"}

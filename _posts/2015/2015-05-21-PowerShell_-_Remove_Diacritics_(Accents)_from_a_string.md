@@ -22,7 +22,7 @@ In the last few days, I have been working on a Onboarding automation process tha
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/aaaaaa-diacritics__873671977__-496x135.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 The following approach uses <a href="https://msdn.microsoft.com/en-us/library/system.string.normalize.aspx" target="_blank">`String.Normalize`</a> to split the input string into constituent glyphs (basically separating the "base" characters from the diacritics) and then scans the result and retains only the base characters. It's just a little complicated, but really you're looking at a complicated problem...
 
@@ -37,7 +37,7 @@ The following approach uses <a href="https://msdn.microsoft.com/en-us/library/sy
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell__1063375222__-772x258.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 ## Method #1
@@ -116,7 +116,7 @@ This code is available on my [GitHub Repository](https://github.com/lazywinadmin
 {% capture SourceUrl %}
 {{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell2__774601678__-772x178.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}})]({{SourceUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
 ```powershell

@@ -94,7 +94,7 @@ This is a bit similar to `Get-Help Get-Process -Online`.
 Get-Coin ada -Online
 ```
 
-![image-center](/images/2017/2017-11-28-CoinMarketCap/CoinMarketCap02.png)
+![image-center](/images/2017/2017-11-28-CoinMarketCap/CoinMarketCap02.png){: loading="lazy" decoding="async"}
 
 ### Retrieve all the existing coins
 
@@ -229,7 +229,7 @@ last_updated                     : 1510520660
 
 This one was a bit tricky. CoinMarketCap does not offer an API for that. However I noticed that when you search for set of data with a start and end date you get an url that look like this `https://coinmarketcap.com/currencies/cardano/historical-data/?start=20171101&end=20171105`
 
-![image-center](/images/2017/2017-11-28-CoinMarketCap/CoinMarketCap03.png)
+![image-center](/images/2017/2017-11-28-CoinMarketCap/CoinMarketCap03.png){: loading="lazy" decoding="async"}
 
 Finally I can easily parse the page to retrieve the table. I'm using the code [from Lee Holmes](http://www.leeholmes.com/blog/2015/01/05/extracting-tables-from-powershells-invoke-webrequest/).
 

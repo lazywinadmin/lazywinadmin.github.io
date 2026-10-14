@@ -11,7 +11,7 @@ published: true
 comments: true
 ---
 [Video: Jeffery Hicks – Turn Command-Line Tools into PowerShell Tools](http://feedproxy.google.com/~r/DmitrysPowerblog/~3/zgg659oHfhU/): 
-Here's recording of [@jeffhicks](https://twitter.com/#!/jeffhicks) – PowerShell MVP, book author and trainer – [Jeffery Hicks](http://jdhitsolutions.com/blog) – talking at the previous [PowerShell Deep Dive](http://www.theexpertsconference.com/) about how you can turn existing command-line utilities into PowerShell functions so they can become first-class (object emitting <img alt=";)" src="{{ site.url }}/images/2012/20120406_Video_Jeffery_Hicks_-_Turn_Command-Line_Tools_into_PowerShell_Tools/icon_wink__223713247__-15x15.gif" /> ) PowerShell citizens.
+Here's recording of [@jeffhicks](https://twitter.com/#!/jeffhicks) – PowerShell MVP, book author and trainer – [Jeffery Hicks](http://jdhitsolutions.com/blog) – talking at the previous [PowerShell Deep Dive](http://www.theexpertsconference.com/) about how you can turn existing command-line utilities into PowerShell functions so they can become first-class (object emitting <img loading="lazy" decoding="async" alt=";)" src="{{ site.url }}/images/2012/20120406_Video_Jeffery_Hicks_-_Turn_Command-Line_Tools_into_PowerShell_Tools/icon_wink__223713247__-15x15.gif" /> ) PowerShell citizens.
 You can find Jeff's slides and demo scripts [here](http://jdhitsolutions.com/blog/2011/10/turning-cli-tools-into-powershell-tools-deep-dive-demos/).
 The abstract and video recording are below:
 

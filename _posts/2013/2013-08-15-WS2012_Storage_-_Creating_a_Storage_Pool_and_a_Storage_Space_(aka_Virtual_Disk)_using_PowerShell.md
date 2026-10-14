@@ -18,7 +18,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Top-10-Cloud-Storage-Services-in-2013__1913321047__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Top-10-Cloud-Storage-Services-in-2013__371380604__-200x200.png" width="200" /></a>In my previous posts I talked about how to use NFS and iSCSI technologies hosted on Windows Server 2012 and how to deploy those to my Home Lab ESXi servers.
+<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Top-10-Cloud-Storage-Services-in-2013__1913321047__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Top-10-Cloud-Storage-Services-in-2013__371380604__-200x200.png" width="200" /></a>In my previous posts I talked about how to use NFS and iSCSI technologies hosted on Windows Server 2012 and how to deploy those to my Home Lab ESXi servers.
 
 * <a href="{{ site.url }}/2013/07/create-iscsi-target-using-powershell-on.html" target="_blank">WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell</a>
 
@@ -78,7 +78,7 @@ There are two primary types of pools which are used in conjunction with Storage 
 
 ### <span style="font-size: x-large;">Storage Virtualization Concept
 
-<div class="separator" style="clear: both; text-align: left;">This diagram from Yung Chou shows nicely how the different parts of Windows Server 2012 Storage work together.<a href="http://2.bp.blogspot.com/-3u0jVvsGAWs/UfCLSh62xMI/AAAAAAABbWA/xX_iUKliiRQ/s1600/8738.image_2+(1).png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-3u0jVvsGAWs/UfCLSh62xMI/AAAAAAABbWA/xX_iUKliiRQ/s1600/8738.image_2+(1).png" /></a>
+<div class="separator" style="clear: both; text-align: left;">This diagram from Yung Chou shows nicely how the different parts of Windows Server 2012 Storage work together.<a href="http://2.bp.blogspot.com/-3u0jVvsGAWs/UfCLSh62xMI/AAAAAAABbWA/xX_iUKliiRQ/s1600/8738.image_2+(1).png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-3u0jVvsGAWs/UfCLSh62xMI/AAAAAAABbWA/xX_iUKliiRQ/s1600/8738.image_2+(1).png" /></a>
 
 
 ### <span style="font-size: x-large;">Deployment Model of a Storage Space (Virtual Disk)
@@ -86,7 +86,7 @@ There are two primary types of pools which are used in conjunction with Storage 
 
 In order to understand the deployment model of a Storage Space, I created the following diagram. Hopefully helpful!
 
-<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/WS2012_Storage_Workflow__1252811681__-1125x1600.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/WS2012_Storage_Workflow__849051994__-450x640.png" width="450" /></a>
+<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/WS2012_Storage_Workflow__1252811681__-1125x1600.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="640" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/WS2012_Storage_Workflow__849051994__-450x640.png" width="450" /></a>
 
 ### <div style="font-size: medium; font-weight: normal;">
 
@@ -98,7 +98,7 @@ In order to understand the deployment model of a Storage Space, I created the fo
 
 <u><b>Using The GUI</b></u>
 With the conventional <b>Server Manager</b>, under <b>File and Storage Services</b>, youcan browse our Volumes, Physical disks, Storage Pool and Virtual Disk. This is just to show you where to go if you need to use the GUI, this post will not cover this part.
-<a href="http://3.bp.blogspot.com/-v-K5ru63rCo/Ue9ArpK2EAI/AAAAAAABbRk/EnW6wGD2jDc/s1600/2013-07-23+9-50-02+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="388" src="http://3.bp.blogspot.com/-v-K5ru63rCo/Ue9ArpK2EAI/AAAAAAABbRk/EnW6wGD2jDc/s640/2013-07-23+9-50-02+PM.png" width="640" /></a>
+<a href="http://3.bp.blogspot.com/-v-K5ru63rCo/Ue9ArpK2EAI/AAAAAAABbRk/EnW6wGD2jDc/s1600/2013-07-23+9-50-02+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="388" src="http://3.bp.blogspot.com/-v-K5ru63rCo/Ue9ArpK2EAI/AAAAAAABbRk/EnW6wGD2jDc/s640/2013-07-23+9-50-02+PM.png" width="640" /></a>
 <b><u>Using PowerShell - Module Storage</u></b>
 Microsoft Windows Server 2012 is delivered with a really awesome PowerShell Storage module.
 Use the Cmdlet<span style="font-family: Courier New, Courier, monospace;"> Get-Command to retrieve the full list of Cmdlets available in this module.
@@ -111,7 +111,7 @@ Get-Command -Module Storage | Select-Object Name
 Import-Module Storage
 ```
 
-<a href="http://4.bp.blogspot.com/-H7E00TjKq6g/Ue9At5iuMDI/AAAAAAABbRs/Boq9IGuShwc/s1600/2013-07-23+7-20-44+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://4.bp.blogspot.com/-H7E00TjKq6g/Ue9At5iuMDI/AAAAAAABbRs/Boq9IGuShwc/s640/2013-07-23+7-20-44+PM.png" width="420" /></a>
+<a href="http://4.bp.blogspot.com/-H7E00TjKq6g/Ue9At5iuMDI/AAAAAAABbRs/Boq9IGuShwc/s1600/2013-07-23+7-20-44+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="640" src="http://4.bp.blogspot.com/-H7E00TjKq6g/Ue9At5iuMDI/AAAAAAABbRs/Boq9IGuShwc/s640/2013-07-23+7-20-44+PM.png" width="420" /></a>
 Here is the full list of Cmdlets for the Storage Module.
 ```
 Get-Command -Module Storage | Select-Object Name
@@ -310,7 +310,7 @@ New-Partition -DiskNumber 5 -UseMaximumSize -AssignDriveLetter
 Format-Volume -DriveLetter D -FileSystem NTFS -NewFileSystemLabel "DataStore01"
 ```
 <div class="separator" style="clear: both; text-align: left;">
-<a href="http://2.bp.blogspot.com/-VPPv1u2Rd_M/Ue9RI_DetpI/AAAAAAABbTc/a6f2sDNSWIk/s1600/2013-07-23+11-58-15+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-VPPv1u2Rd_M/Ue9RI_DetpI/AAAAAAABbTc/a6f2sDNSWIk/s1600/2013-07-23+11-58-15+PM.png" /></a>
+<a href="http://2.bp.blogspot.com/-VPPv1u2Rd_M/Ue9RI_DetpI/AAAAAAABbTc/a6f2sDNSWIk/s1600/2013-07-23+11-58-15+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-VPPv1u2Rd_M/Ue9RI_DetpI/AAAAAAABbTc/a6f2sDNSWIk/s1600/2013-07-23+11-58-15+PM.png" /></a>
 
 And you done...
 Where to go from here ? Check out my previous storage posts:
