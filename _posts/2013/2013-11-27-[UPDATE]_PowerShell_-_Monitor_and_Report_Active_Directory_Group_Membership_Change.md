@@ -18,7 +18,7 @@ toc_sticky: true
 **Update** The most recent update is available [on Github](https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip)
 {: .notice}
 
-![image-left](https://2.bp.blogspot.com/-85afUuHt0y0/UpLqk-EUUrI/AAAAAAABe7o/K1uCfaZAhto/s1600/2013-10-13+10-11-52+PM.png){: .align-left} I found some time to update the script *Monitor Active Directory Membership changes*. This is now the version 1.6.
+![image-left]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_10-11-52_PM.png){: .align-left} I found some time to update the script *Monitor Active Directory Membership changes*. This is now the version 1.6.
 
 As a reminder, this script allows you to monitor Active Directory groups membership changes. It will send you a report via email only when a change occur. I explained in details [in my last post how the script work](/2013/10/powershell-monitor-and-report-active.html).
 
@@ -80,24 +80,24 @@ Changes:
 * Columns in Membership Change and Change History now matche
 * New Columns DisplayName and DateTime
 
-![image-center](https://4.bp.blogspot.com/-jpDDI8m24vc/UpLrk_XYiDI/AAAAAAABe7w/pdP9x1TFqTI/s1600/2013-11-23+8-44-52+PM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-23_8-44-52_PM.png){: .align-center}
 
 ## Using the script
 
 In the following example I'm playing with two test groups: *FXGROUP01* and *FXGROUP02*
 
-![image-center](https://4.bp.blogspot.com/-uBtW77kjZm0/UpLoW45foSI/AAAAAAABe7Q/xXdQ6UuoeX4/s1600/2013-11-25+1-03-33+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-03-33_AM.png){: .align-center}
 
 For my test, I placed the script in the directory `C:\LazyWinAdmin\Tool-Monitor-AD_Groups`
 
-![image-center](https://2.bp.blogspot.com/-1OLcLb_-gso/UpLpNLfbGcI/AAAAAAABe7Y/hRR-iuPEOHU/s1600/2013-11-25+1-07-07+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-07-07_AM.png){: .align-center}
 
 ### Running the script the first time
 
 You will notice that the script is creating folders and files.
 At this point you won't get any email report.
 
-![image-center](https://4.bp.blogspot.com/-IMuYP2JdB88/UpLpglICjyI/AAAAAAABe7g/2FKgX8bo6c8/s1600/2013-11-25+1-08-50+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-08-50_AM.png){: .align-center}
 
 ```powershell
 PS C:\LazyWinAdmin\TOOL-MONITOR-AD_Group> .\TOOL-MONITOR-AD_Group.ps1 -group "FXGroup01","FXGroup02" -Emailfrom Reporting@fx.lab -Emailto "Catfx@fx.lab" -EmailServer 192.168.1.10 -Verbose
@@ -130,22 +130,22 @@ VERBOSE: Script Completed
 * *CHANGEHISTORY Directory* contains the list of changes observed by the script. One file per Group per domain, if multiple changes occur, the script will append the change in the same file.
 *Output Directory*contains the 2 files for each monitored groups
 
-![image-center](https://4.bp.blogspot.com/-s-QsLilOm4o/UpLtPZCF9XI/AAAAAAABe8E/gdN02xJhCeE/s1600/2013-11-25+1-22-00+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-22-00_AM.png){: .align-center}
 
 Each file contains the current membership of each groups. Since these are empty the script just create the following file with two properties* SamAccountName* and *Name* with the value "No User or Group"
 
-![image-center](https://4.bp.blogspot.com/-6FwUbLyvv68/UpLtPSQcWtI/AAAAAAABe8M/nuFNLw7jxjk/s1600/2013-11-25+1-24-11+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-24-11_AM.png){: .align-center}
 
 The *ChangeHistory Directory* is empty at this point since no change was observed by the script.
 
-![image-center](https://1.bp.blogspot.com/-rfed01MW2w4/UpLtPUkUuEI/AAAAAAABe8A/GKK997dy638/s1600/2013-11-25+1-22-22+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-22-22_AM.png){: .align-center}
 
 ### Running the script a second time (without change on the groups)
 
 If I re-run the script we will get the following output.
 The script does not see any change in the membership by comparing the content of the file *FX_FXGROUP01-membership.csv* and the current membership in Active Directory for this group.
 
-![image-center](https://4.bp.blogspot.com/-Q4VsgS8y7-M/UpLuBSwFy7I/AAAAAAABe8U/uFfsEkSaR-0/s1600/2013-11-25+1-27-29+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-27-29_AM.png){: .align-center}
 
 ### Running the script after a change
 
@@ -190,7 +190,7 @@ VERBOSE: Script Completed
 
 As you can see One account was added "*fxtest*" and the default "*No User or Group*" was removed by the script
 
-![image-center](https://2.bp.blogspot.com/-p_COZH-E2mA/UpLyJtYGqNI/AAAAAAABe9E/jq3Gyuun9YQ/s1600/2013-11-25+1-45-19+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-45-19_AM.png){: .align-center}
 
 Let's make another change to this group, add another user.
 
@@ -230,7 +230,7 @@ VERBOSE: Script Completed
 
 <u>Here is the report generated</u>
 
-![image-center](https://4.bp.blogspot.com/-SRc7VpBPh5Y/UpLyGWLnsMI/AAAAAAABe88/wRx9fVryM8M/s1600/2013-11-25+1-45-27+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-45-27_AM.png){: .align-center}
 
 Notice this time, the report contains a section called "Change History" so you'll be able to know which previous changes were made.
 
@@ -259,7 +259,7 @@ VERBOSE: Script Completed
 
 ### Using the File parameter
 
-![image-center](https://3.bp.blogspot.com/-Kn8J5En65bQ/UpLz15VDwhI/AAAAAAABe9c/ZIhcTX9sqMo/s1600/2013-11-25+1-50-39+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-50-39_AM.png){: .align-center}
 
 ```powershell
 PS C:\LazyWinAdmin\TOOL-MONITOR-AD_Group> .\TOOL-MONITOR-AD_Group.ps1 -file .\groupslist.txt -Emailfrom Reporting@fx.lab -Emailto "Catfx@fx.lab" -EmailServer 192.168.1.10 -Verbose

@@ -113,15 +113,15 @@ LDAP://CN=Test Jonathan Group,CN=Users,DC=FX,D... {usnchanged, distinguishedname
 
 The key here to pass the credentials is the .NET Class [System.DirectoryServices.DirectoryEntry](http://msdn.microsoft.com/en-us/library/system.directoryservices.directoryentry.aspx)
 
-![image-center](http://3.bp.blogspot.com/-g669rSYWxKI/Um8tITxbFvI/AAAAAAABeXM/2ax-024y2aI/s640/2013-10-28+11-33-37+PM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-33-37_PM.png){: .align-center}
 
 If you inspect each of the constructors below, you will notice one accept a path, a username and a password `DirectoryEntry(String,String,String)`
 
-![image-center](http://2.bp.blogspot.com/-tKLMwoOd8DQ/Um8uZwUJdII/AAAAAAABeXY/TnieNshPRUE/s1600/2013-10-28+11-36-51+PM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-36-51_PM.png){: .align-center}
 
 Which mean : `DirectoryEntry(path,username,password)`
 
-![image-center](http://1.bp.blogspot.com/-omDSMlPAeSo/Um8urb6ILdI/AAAAAAABeXo/4rWPprYV_ZI/s1600/2013-10-28+11-37-59+PM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-37-59_PM.png){: .align-center}
 
 That's exactly what I used in the following line
 

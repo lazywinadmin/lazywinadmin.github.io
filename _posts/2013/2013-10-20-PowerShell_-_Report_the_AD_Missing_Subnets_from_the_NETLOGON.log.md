@@ -59,7 +59,7 @@ A NetLogon.log exists on all the Domain Controllers of your domain, so you need 
 
 So I created a PowerShell script to handle this task and report all the Missing subnets automatically (every month in my case). Here is a screenshot of the final report. In my opinion, this does not need to run everyday or every week.
 
-![image-center](http://3.bp.blogspot.com/-EPI7odaA76w/UmNYbF7QVKI/AAAAAAABeLw/Ug9v4f60law/s1600/2013-10-15+12-33-20+AM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-15_12-33-20_AM.png){: .align-center}
 
 # How the script work
 
@@ -77,7 +77,7 @@ So I created a PowerShell script to handle this task and report all the Missing 
 * One table with the Missings Subnets from all the Domain Controllers
 * The other error(s) found in the last 200 lines of each NETLOGON.log on each Domain Controllers(200 is default)
 
-![image-center](http://4.bp.blogspot.com/-Zo09Rn47Uzw/UmSHnbNj_2I/AAAAAAABeNU/AqdNqcD2i-U/s1600/2013-10-20+9-36-27+PM.png){: .align-center}
+![image-center]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-20_9-36-27_PM.png){: .align-center}
 
 # Requirement
 

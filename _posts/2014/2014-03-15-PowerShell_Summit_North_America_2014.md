@@ -14,7 +14,7 @@ comments: true
 ---
 
 
-<a href="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-LEhb4jenXRs/Ux_ChCYpESI/AAAAAAABjmQ/SKRk6L1L-yQ/s1600/2014-03-11+6-43-32+PM.jpg" height="120" width="120" /></a>In approximately 1 month I will be attending the <a href="http://powershell.org/wp/community-events/summit/powershell-summit-north-america/" target="_blank">PowerShell Summit 2014 North America</a>. This is the second edition of this event organized by the PowerShell.org team, It will be held April 28, 29, and 30 at the Meydenbauer Center on Northeast 6th Street in Bellevue, WA.
+<a href="{{ site.url }}/images/2014/PowerShell_Summit_North_America_2014/2014-03-11_6-43-32_PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_North_America_2014/2014-03-11_6-43-32_PM.jpg" height="120" width="120" /></a>In approximately 1 month I will be attending the <a href="http://powershell.org/wp/community-events/summit/powershell-summit-north-america/" target="_blank">PowerShell Summit 2014 North America</a>. This is the second edition of this event organized by the PowerShell.org team, It will be held April 28, 29, and 30 at the Meydenbauer Center on Northeast 6th Street in Bellevue, WA.
 
 <b><u>Note:</u></b> If you are interested, <a href="{{ site.url }}/2014/03/powershell-summit-north-america-2013.html" target="_blank">I previously blog about the 2013 event with some pictures, cost and other details</a>.
 

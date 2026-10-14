@@ -68,8 +68,8 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 <b>About the Instructors</b> 
 
-<a href="https://twitter.com/jsnover" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-Po8RpkLHRDk/UebOLpf3W-I/AAAAAAABa1Q/5NV6cfF1PlQ/s1600/2013-07-17+1-01-25+PM.png" /></a>
-<a href="https://twitter.com/theJasonHelmick" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img loading="lazy" decoding="async" border="0" src="http://4.bp.blogspot.com/-VpXJ2nhW8kk/UebOXB8KxLI/AAAAAAABa1Y/sUtJpXwQWgE/s1600/2013-07-17+1-03-26+PM.png" /></a>
+<a href="https://twitter.com/jsnover" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/2013-07-17_1-01-25_PM.png" /></a>
+<a href="https://twitter.com/theJasonHelmick" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/2013-07-17_1-03-26_PM.png" /></a>
 
 
 

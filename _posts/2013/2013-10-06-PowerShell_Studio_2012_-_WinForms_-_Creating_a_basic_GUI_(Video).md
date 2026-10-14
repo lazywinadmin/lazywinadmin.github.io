@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-<div class="separator" style="clear: both; text-align: left;"><a href="http://2.bp.blogspot.com/-Wa4ZBE00854/UlIbnXr22qI/AAAAAAABd3s/lahXJHF8C3c/s1600/2013-10-06+10-12-49+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-Wa4ZBE00854/UlIbnXr22qI/AAAAAAABd3s/lahXJHF8C3c/s1600/2013-10-06+10-12-49+PM.png" /></a>The following post will demo how to create a basic Graphical User Interface with SAPIEN PowerShell Studio 2012.
+<div class="separator" style="clear: both; text-align: left;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" /></a>The following post will demo how to create a basic Graphical User Interface with SAPIEN PowerShell Studio 2012.
 
 <u><b>Update:</b></u>See also the second part of this post:<a href="{{ site.url }}/2013/10/PowerShellStudio2012ToolMaking.html" target="_blank">PowerShell Studio 2012 - WinForms - GUI ToolMaking</a>
 
@@ -82,8 +82,8 @@ Sapien also has a free version: <b><a href="http://www.sapien.com/blog/topics/so
 
 
 Select <b>File</b> / <b>New</b> / <b>New Form</b>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-viVseKKWUpE/UlGgbmgjgkI/AAAAAAABd2s/BGlAJXO1oHI/s1600/2013-10-06+1-28-17+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-viVseKKWUpE/UlGgbmgjgkI/AAAAAAABd2s/BGlAJXO1oHI/s1600/2013-10-06+1-28-17+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
-</td></tr></tbody></table><div class="separator" style="clear: both; text-align: left;">In the <b>Form Template</b> selection, select the <b>Empty Form</b>.<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-4A-IEo0pbeY/UlGge6Lvw5I/AAAAAAABd20/Npl3Ied5MTs/s1600/2013-10-06+1-29-21+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-4A-IEo0pbeY/UlGge6Lvw5I/AAAAAAABd20/Npl3Ied5MTs/s1600/2013-10-06+1-29-21+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-28-17_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-28-17_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
+</td></tr></tbody></table><div class="separator" style="clear: both; text-align: left;">In the <b>Form Template</b> selection, select the <b>Empty Form</b>.<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-29-21_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-29-21_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
 </td></tr></tbody></table>
 
 
@@ -91,11 +91,11 @@ Select <b>File</b> / <b>New</b> / <b>New Form</b>
 
 <b>
 </b>Drag and drop the controls into the main form. Here I added 3 <b>Buttons</b> and 1 <b>RichTextBox</b>
-<a href="http://3.bp.blogspot.com/-mXDbwZKdkbs/UgQoFXHn7JI/AAAAAAABbnA/aOQPfSCfyK4/s1600/2013-08-08+7-17-04+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-mXDbwZKdkbs/UgQoFXHn7JI/AAAAAAABbnA/aOQPfSCfyK4/s1600/2013-08-08+7-17-04+PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-17-04_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-17-04_PM.png" /></a>
 
 Arrange the Form so it does not look too weird :-)
-<a href="http://2.bp.blogspot.com/-MDLqbN0v-Hc/UgQogKSCmkI/AAAAAAABbnQ/8kMI9tmmZA4/s1600/2013-08-08+7-23-11+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-MDLqbN0v-Hc/UgQogKSCmkI/AAAAAAABbnQ/8kMI9tmmZA4/s1600/2013-08-08+7-23-11+PM.png" /></a>
-<div class="separator" style="clear: both; text-align: left;">Select one of the button and edit the property TEXT to change the name of it.<div class="separator" style="clear: both; text-align: left;">Repeat this step for each buttons<a href="http://3.bp.blogspot.com/-K2yqGnKuKb0/UgQpX-yweeI/AAAAAAABbng/yhO8sYc2hrU/s1600/2013-08-08+7-24-23+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-K2yqGnKuKb0/UgQpX-yweeI/AAAAAAABbng/yhO8sYc2hrU/s1600/2013-08-08+7-24-23+PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-23-11_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-23-11_PM.png" /></a>
+<div class="separator" style="clear: both; text-align: left;">Select one of the button and edit the property TEXT to change the name of it.<div class="separator" style="clear: both; text-align: left;">Repeat this step for each buttons<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-24-23_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-24-23_PM.png" /></a>
 
 
 
@@ -110,8 +110,8 @@ Select a button and do one of the following action to add the powershell code :
 <b>Double click on the Event</b>
 <b>
 </b>
-<a href="http://3.bp.blogspot.com/-u66tnBYOFXU/UgQrDzCBrhI/AAAAAAABbn0/-8cm8OcKofg/s1600/2013-08-08+7-29-47+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-u66tnBYOFXU/UgQrDzCBrhI/AAAAAAABbn0/-8cm8OcKofg/s1600/2013-08-08+7-29-47+PM.png" /></a>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-IRXMJLpAdCs/UgQrD7ojlGI/AAAAAAABbnw/LqPSQ2aVjCo/s1600/2013-08-08+7-34-10+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://1.bp.blogspot.com/-IRXMJLpAdCs/UgQrD7ojlGI/AAAAAAABbnw/LqPSQ2aVjCo/s1600/2013-08-08+7-34-10+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">For Example, here I added the code highlighted for the "Add Red Text" Button.</td></tr></tbody></table>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-29-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-29-47_PM.png" /></a>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-34-10_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-34-10_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">For Example, here I added the code highlighted for the "Add Red Text" Button.</td></tr></tbody></table>
 
 <u>PowerShell code for each buttons. I only used the event "Click".</u>
 
@@ -147,7 +147,7 @@ $buttonAddBlueText_Click={
 
 
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-UnYK_kzbpas/UgQmud321OI/AAAAAAABbms/_f51ts5gQKk/s1600/2013-08-08+7-06-17+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-UnYK_kzbpas/UgQmud321OI/AAAAAAABbms/_f51ts5gQKk/s1600/2013-08-08+7-06-17+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Final GUI ! :-)</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-06-17_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-06-17_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Final GUI ! :-)</td></tr></tbody></table>
 
 
 ### <b>DOWNLOAD</b>

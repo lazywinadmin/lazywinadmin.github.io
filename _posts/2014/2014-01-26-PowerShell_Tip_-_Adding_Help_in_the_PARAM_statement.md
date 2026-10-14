@@ -78,7 +78,7 @@ This command will only return the Parameters information with the help we added 
 ```
 
 
-<a href="http://4.bp.blogspot.com/-ldV5QCZ7Oec/UuSSEAVCbzI/AAAAAAABijE/6b3ej4vQLM4/s1600/2014-01-25+11-32-11+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://4.bp.blogspot.com/-ldV5QCZ7Oec/UuSSEAVCbzI/AAAAAAABijE/6b3ej4vQLM4/s1600/2014-01-25+11-32-11+PM.png" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/2014-01-25_11-32-11_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/2014-01-25_11-32-11_PM.png" /></a>
 Even if this tip is pretty cool, I would still recommend to use the Comment Based Help block to have a centralized place to put all the help !
 
 

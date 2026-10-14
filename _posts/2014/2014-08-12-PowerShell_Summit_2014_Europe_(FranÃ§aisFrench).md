@@ -14,7 +14,7 @@ comments: true
 ---
 
  
- <a href="http://4.bp.blogspot.com/-yknk9yVtAFw/U-ZOjihDhlI/AAAAAAABnA4/jmloYWv3EbE/s1600/2014-03-11+6-43-32+PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://4.bp.blogspot.com/-yknk9yVtAFw/U-ZOjihDhlI/AAAAAAABnA4/jmloYWv3EbE/s1600/2014-03-11+6-43-32+PM.jpg" height="200" width="192" /></a>
+ <a href="{{ site.url }}/images/2014/PowerShell_Summit_2014_Europe_(Fran_aisFrench)/2014-03-11_6-43-32_PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_2014_Europe_(Fran_aisFrench)/2014-03-11_6-43-32_PM.jpg" height="200" width="192" /></a>
 <a href="{{ site.url }}/2014/08/powershell-summit-2014-europe-english.html" target="_blank">English version</a>.
 
 La conférence PowerShell Summit Europe organisera sa premiÃ¨re édition <u>du 29 septembre au 1er octobre 2014</u>.
