@@ -2,7 +2,7 @@
 
 **Staff Engineer, AI Platform Engineering** · Azure · Platform Engineering · Infrastructure as Code · CI/CD · Automation
 
-United States · [lazywinadmin.com](https://lazywinadmin.com) · [linkedin.com/in/fxcat](https://www.linkedin.com/in/fxcat) · [github.com/lazywinadmin](https://github.com/lazywinadmin) · [x.com/lazywinadmin](https://x.com/lazywinadmin)
+United States · [lazywinadmin.com](https://lazywinadmin.com) · [linkedin.com/in/fxcat](https://www.linkedin.com/in/fxcat) · [github.com/lazywinadmin](https://github.com/lazywinadmin)
 
 ## Summary
 
