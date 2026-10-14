@@ -460,4 +460,4 @@ SYNTAX
 ## Download
 
 * [Download on Github (most updated)](https://github.com/lazywinadmin/PowerShell/tree/master/AD-GROUP-Monitor_MemberShip)
-* [Download on Technet Gallery](http://gallery.technet.microsoft.com/Monitor-Active-Directory-4c4e04c7)
+* [Download on Technet Gallery](https://github.com/lazywinadmin/Monitor-ADGroupMembership)

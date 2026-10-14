@@ -205,7 +205,7 @@ $WorkSheet = $WorkBook.sheets.item($SheetName)
 ## Download
 
 * <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Read-ExcelFile" target="_blank">GitHub</a>
-* <a href="http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet Gallery</a>
+* <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Read-ExcelFile" target="_blank">Technet Gallery</a>
 
 ## Other References
 

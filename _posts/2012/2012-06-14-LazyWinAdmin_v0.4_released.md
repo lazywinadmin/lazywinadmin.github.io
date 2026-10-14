@@ -40,5 +40,5 @@ The following tools are not included in the zip file
 
 ## Download
 
-http://gallery.technet.microsoft.com/LazyWinAdmin-04-9da94d7f
+https://github.com/lazywinadmin/LazyWinAdmin_GUI
 

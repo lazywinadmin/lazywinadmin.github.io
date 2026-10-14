@@ -49,6 +49,7 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        {% include older-post-notice.html %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

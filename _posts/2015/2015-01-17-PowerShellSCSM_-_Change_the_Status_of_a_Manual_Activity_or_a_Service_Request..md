@@ -35,7 +35,7 @@ Set-SCSMObject -SMObject $ServiceRequest -Property Status -Value Completed
 
 ## Status Enumerations
 
-If you want to retrieve all the types of Enumerations and Classes, You can use a very neat tool called SCSM Entity Explorer <a href="https://gallery.technet.microsoft.com/SCSM-Entity-Explorer-68b86bd2" target="_blank">available on Technet</a> (for Free) created by <a href="http://blog.dietergasser.com/2014/05/08/scsm-entity-explorer/" target="_blank">Dieter Gasser</a>.
+If you want to retrieve all the types of Enumerations and Classes, You can use a very neat tool called SCSM Entity Explorer <a href="https://web.archive.org/web/20210122104856/https://gallery.technet.microsoft.com/SCSM-Entity-Explorer-68b86bd2" target="_blank">available on Technet</a> (for Free) created by <a href="http://blog.dietergasser.com/2014/05/08/scsm-entity-explorer/" target="_blank">Dieter Gasser</a>.
 
 > <b><u>SCSM Entity Explorer</u></b> is a tool for System Center Service Manager (SCSM) administrators to help them browse and get information about the classes, enumerations and objects stored in the SCSM database.
 <br><br>SCSM Entity Explorer allows you to browse classes and relationships in a easy to use tree view and to get all details about the entity types, such as properties and relationships. Using the built-in search, you can find classes and enums very quickly.<br><br>SCSM Entity Explorer allows you to retrieve a list of all instances of a class and to view the details of a class instance, including all its properties and related objects.  Last but not least you can open the Management Pack which defines your entity type in an XML editor of your choice with one single mouse-click. 

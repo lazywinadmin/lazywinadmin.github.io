@@ -18,7 +18,7 @@ comments: true
 I did not have much time to work on this event, but here is the script I submitted.
 
 Instruction
-<a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!10056&amp;authkey=!AMr75bAbpcKJSxw" target="_blank">Download</a> [Skydrive]
+<a href="https://web.archive.org/web/20171028163317/https://skydrive.live.com/redir?resid=60886DE0176E604A!10056&amp;authkey=!AMr75bAbpcKJSxw" target="_blank">Download</a> [Skydrive]
 
 <blockquote class="tr_bq"><i>Dr. Scripto finds himself in possession of a bunch of IIS log files, much like the one at</i>
 <i><a href="http://morelunches.com/files/powershell3/LogFiles.zip" target="_blank">http://morelunches.com/files/powershell3/LogFiles.zip</a>, if you need one to practice with. He's keeping all of the log files in a folder, and he's left the log files with their default filenames, which he's given a .LOG filename extension. All of the files are for a single Web site, on a single Web server.</i>

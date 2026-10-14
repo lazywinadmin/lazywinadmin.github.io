@@ -1,0 +1,8 @@
+{%- if page.collection == 'posts' and page.date -%}
+{%- assign post_ts = page.date | date: "%s" | plus: 0 -%}
+{%- assign cutoff_ts = "2016-01-01" | date: "%s" | plus: 0 -%}
+{%- if post_ts < cutoff_ts -%}
+<style>@media print{.older-post-notice{display:none!important}}</style>
+<p class="notice--info older-post-notice"><i class="fas fa-history" aria-hidden="true"></i> This post was published in {{ page.date | date: "%Y" }} and may be outdated.</p>
+{%- endif -%}
+{%- endif -%}

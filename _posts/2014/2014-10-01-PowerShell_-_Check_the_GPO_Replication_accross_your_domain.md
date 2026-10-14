@@ -117,4 +117,4 @@ Get-ADGPOReplication -GPOName AZE_Test | Out-GridView -Title "AZE_Test $(Get-Dat
 <a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Get-ADGPOReplication_OutGridView__788289059__-777x301.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Get-ADGPOReplication_OutGridView__788289059__-777x301.png" /></a>
 
 <b>Download on <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">GitHub</a></b>
-<b>Download on <a href="http://gallery.technet.microsoft.com/Get-GPO-Replication-4db47c83" target="_blank">Technet Gallery</a></b>
+<b>Download on <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">Technet Gallery</a></b>

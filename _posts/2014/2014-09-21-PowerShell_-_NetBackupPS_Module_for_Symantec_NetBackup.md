@@ -32,7 +32,7 @@ I still have some materials to work on but unfortunately,I don't have access to 
 
 Anyway, I thought sharing the code could be useful to other people.
 
-It is available on the <a href="http://gallery.technet.microsoft.com/NetBackupPS-Module-for-7be565e5" target="_blank">Technet Gallery</a>.
+It is available on the <a href="https://github.com/lazywinadmin/NetBackupPS" target="_blank">Technet Gallery</a>.
 I also push my last updates to a<a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">Github Repository</a>,<b>contributors are welcome</b>! so feel free to fork the repo :)
 
 <div style="text-align: left;">

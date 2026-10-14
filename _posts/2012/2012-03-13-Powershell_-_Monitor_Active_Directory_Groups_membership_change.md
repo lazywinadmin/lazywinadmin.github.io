@@ -38,7 +38,7 @@ So why not taking advantage of Powershell ? :-)
 This script will first check the members and export the result to a CSV file (if it does not exist yet) If a file already exist, it content will be compared with the result of $Members If different an email is sent to $EmailTo email with the member who has been added or removed.  
 
 <u>Script</u>
-[http://gallery.technet.microsoft.com/Monitor-Active-Directory-4c4e04c7](http://gallery.technet.microsoft.com/Monitor-Active-Directory-4c4e04c7)
+[https://github.com/lazywinadmin/Monitor-ADGroupMembership](https://github.com/lazywinadmin/Monitor-ADGroupMembership)
 
 <pre class="brush: powershell; ruler: true; first-line: 1;gutter: true;">#requires -version 2.0 
 

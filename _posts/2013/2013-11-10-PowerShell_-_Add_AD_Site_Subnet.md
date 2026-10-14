@@ -29,7 +29,7 @@ In some of my previous posts, I learned a lot about ADSI and I thought I could d
 
 I came up with the following function which accept 4 parameters: Subnet, SiteName, Description and <b>Location.
 
-<a href="http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">Download from TechNet Gallery</a>
+<a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">Download from TechNet Gallery</a>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">Download from Github (CSV and PS1)</a>
 
 ```powershell
@@ -69,7 +69,7 @@ PROCESS{
 }#PROCESS Block
 ```
 
-* [Download on TechNet Gallery](http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90)
+* [Download on TechNet Gallery](https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI))
 * [Download from Github (CSV and PS1)](https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI))
 
 # Adding one subnet
@@ -121,7 +121,7 @@ subnets created.</td></tr></tbody></table>
 
 # Download the function
 
-<a href="http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">TechNet Gallery</a>
+<a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">TechNet Gallery</a>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">Github (CSV and PS1)</a>
 
 # Using the new cmdlets in ActiveDirectory module
