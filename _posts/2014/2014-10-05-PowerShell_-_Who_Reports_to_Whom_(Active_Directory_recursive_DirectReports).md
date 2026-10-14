@@ -109,7 +109,7 @@ The full version is available below :-)
 
 # Download
 
-* <a href="http://gallery.technet.microsoft.com/Get-ADDirectReport-962616c6" target="_blank">Technet Gallery</a>
+* <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-USER-Get-ADDirectReport" target="_blank">Technet Gallery</a>
 * <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-USER-Get-ADDirectReport" target="_blank">GitHub</a>
 
 

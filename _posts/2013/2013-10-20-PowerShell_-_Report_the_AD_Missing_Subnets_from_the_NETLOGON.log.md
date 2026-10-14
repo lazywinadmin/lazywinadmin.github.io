@@ -301,7 +301,7 @@ RELATED LINKS
 
 # Download
 
-* [Technet](http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb)
+* [Technet](https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Find_Missing_Subnets)
 * [Github Repository (Most updated version)](https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1)
 
 # Resources

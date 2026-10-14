@@ -62,10 +62,10 @@ Same thing here, we will edit the two following Advance settings
 * <b>isolation.tool.paste.disable</b>
 
 <b>Enable-VMCopyPaste </b>
-<a href="http://gallery.technet.microsoft.com/Enable-VMCopyPaste-39d785a4" target="_blank">Download on Technet Repository</a>
+<a href="https://web.archive.org/web/20210119130118/https://gallery.technet.microsoft.com/Enable-VMCopyPaste-39d785a4" target="_blank">Download on Technet Repository</a>
 
 <b>Disable-VMCopyPaste </b>
-<a href="http://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Download on Technet Repository</a>
+<a href="https://web.archive.org/web/20201204150549/https://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Download on Technet Repository</a>
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><div style="text-align: left;">Using the CmdletNew-AdvancedSettingwe create an Advanced Settings/Specifications that includes the values required for both copy and paste operations into the vSphere client. It then applies it to the VM.
 I used <b>-Confirm:$false</b> to avoid the script to request confirmation and <b>-force:$true</b> to overwrite if a similar entry already exist.

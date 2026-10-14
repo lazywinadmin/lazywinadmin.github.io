@@ -44,7 +44,7 @@ I'm happy to announced that all the articles have been combined into a free eboo
 ## Download
 
 * <a href="https://onedrive.live.com/redir?resid=60886de0176e604a!34914&amp;authkey=!ADjfSNgr1kZSsvE&amp;ithint=file%2cpdf" target="_blank">PDF</a>
-* <a href="https://onedrive.live.com/redir?resid=60886de0176e604a!34912&amp;authkey=!AHItHrejYiXjd_0&amp;ithint=file%2cepub" target="_blank">EPUB</a>
+* <a href="https://web.archive.org/web/20171028152712/https://onedrive.live.com/redir?resid=60886de0176e604a!34912&amp;authkey=!AHItHrejYiXjd_0&amp;ithint=file%2cepub" target="_blank">EPUB</a>
 * <a href="https://onedrive.live.com/redir?resid=60886de0176e604a!34911&amp;authkey=!ADTC4paSWCJ5eJQ&amp;ithint=file%2cmobi" target="_blank">MOBI</a>
 * <a href="https://onedrive.live.com/redir?resid=60886de0176e604a!34913&amp;authkey=!AIeFPmAdEErbNUE&amp;ithint=file%2cazw3" target="_blank">AZW3</a>
 
