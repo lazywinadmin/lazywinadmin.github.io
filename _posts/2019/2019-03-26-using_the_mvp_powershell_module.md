@@ -33,7 +33,7 @@ Here is a recording to demo how you can install, configure and use the MVP Power
 Install-Module -Name MVP -Scope CurrentUser -Verbose
 
 # Configure your connection
-Set-MVPConfiguration -SubscriptionKey 2ed3d4ddf0e948a28caeebba64620d20
+Set-MVPConfiguration -SubscriptionKey '<your-subscription-key>'
 
 # List the commands available
 Get-Command -Module MVP
