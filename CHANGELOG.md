@@ -2,6 +2,86 @@
 
 ## Unreleased
 
+No unreleased changes yet.
+
+## [4.28.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.28.1)
+
+### Enhancements
+
+- Respect custom parameters in yiq-contrast-color function (#5453)
+- Allow specifying `rtl` in both page and layout (#5460)
+- Add title attribute to video iframes for accessibility (#5471)
+- Silence "Sass @import rules are deprecated" warning
+- Allow per-post or per-collection `date_format` values. (#5477)
+- Replace inline style `padding-left` with `padding-inline-start` for RTL support (#5480)
+
+### Bug Fixes
+
+- Fix animations to pass Lighthouse. (#5494)
+
+### Documentation & Maintenance
+
+- Update /docs/javascript/ to reflect changes in `0b8b523`
+- Update bad-pr.yml script from ubuntu-slim to ubuntu-latest (#5483)
+- Use relative paths for README images (#5488)
+
+## [4.28.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.28.0)
+
+### Enhancements
+
+- Updated Traditional Chinese translation (#5250)
+- Add built-in support for jekyll-gfm-admonitions (#5312)
+- Add Latte and Mocha skins from Catppuccin project (#5341)
+- Add support for Swetrix, a GDPR-compliant analytics provider (#5344)
+- Support resolving `ui-text` using `page.locale` when available (#5439)
+- Add `aria-label` to all nav elements for WCAG compliance (#5442)
+- Add IndieWeb microformat support and configurable footer `rel` attribute (#5443)
+- Add `og:image:alt` and `twitter:image:alt` support (#5444)
+- Add `fediverse:creator` meta tag for link preview attribution (#5445)
+- Update hardcoded icon classes for Font Awesome 6 (#5446)
+- Add missing brand-color rules for newer social platforms (#5447)
+- Add custom sidebar content hook (#5448)
+- Add config toggle to suppress taxonomy display on posts (#5449)
+- Minor changes to the PR auto labeling GitHub Actions workflow
+
+Special thanks to @bexelbie for their contributions in this release.
+
+### Bug Fixes
+
+- Fix some social icon colors and missing Korean translations (#5103)
+
+## [4.27.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3)
+
+### Bug Fixes
+
+- Add explicit CSS rules for `.sr-only` following Font Awesome 7's changes. (#5296)
+
+## [4.27.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.2)
+
+### Enhancements
+
+- Hide `.page__footer-follow` if there are no links nor atom feed. (#5279)
+- Add HTML escaping for some titles, labels and metada that was missing. (#5276)
+- Add optional `footer.since` for copyright time range. (#5275)
+
+### Bug Fixes
+
+- Add `escape_once` to gallery title and alt text.
+
+## [4.27.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.1)
+
+### Enhancements
+
+- Add a "Share on Bluesky" button (#5179)
+- Add preset variables for modern font stack (#5033)
+- Update X share button to match brand color (#5245)
+
+### Bug Fixes
+
+- Fix wrong icon and color for X share button.
+
+## [4.27.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.0)
+
 ### Enhancements
 
 - Add RTL Support. [#4886](https://github.com/mmistakes/minimal-mistakes/pull/4886)
@@ -10,11 +90,23 @@
 - Remove unnecessary "type" attribute (#4956)
 - The "if" means the default is never used (#4955)
 - For pages without a title, show the site title only once (#4959)
+- Use `documents-collection.html` partial in `home` layout.
+- Add Bulgarian translation. [#5003](https://github.com/mmistakes/minimal-mistakes/pull/5003)
+- Add provider and comments info to `single.html` layout for non-production. (#5068)
+- Tweak contrast skin $primary-color to adhere to WCAG guidelines. (#5126)
+- Update social share buttons to reflect Twitter rebranding to X (#5210)
 
 ### Bug Fixes
 
 - Replace a redirected link to MadeMistakes in footer. [#4882](https://github.com/mmistakes/minimal-mistakes/pull/4882)
 - Fix wrong float direction for `feature_row` with `type="right"`. [#4061](https://github.com/mmistakes/minimal-mistakes/issues/4061)
+- Fix reset stylesheet overruling `$doc-font-size`. [#4983](https://github.com/mmistakes/minimal-mistakes/issues/4983)
+- Fix JavaScript null error on home and splash layouts. [#4938](https://github.com/mmistakes/minimal-mistakes/issues/4938), [#4939](https://github.com/mmistakes/minimal-mistakes/pull/4939)
+- Fix bad &lt;figure&gt; HTML if "alt" contains quotes.
+- Fix extra newline generated in `_includes/post_pagination.html`.
+- Hide hidden links & remove the overlay when one is clicked. [#5042](https://github.com/mmistakes/minimal-mistakes/pull/5042)
+- Fix typo in "Configuration" (#5106)
+- bundle exec jekyll serve will fail if more than once (#5193)
 
 ### Documentation & Maintenance
 
