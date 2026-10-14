@@ -32,7 +32,7 @@ Cette année l'événement est organisé par Stéphane, Olivier, Laurent et moi-
 Cependant cette année je ne pourrais pas etre présent sur place pour differentes raisons. Je suis certain que le reste de l'équipe et de la communauté rendront cet événement inoubliable. (Prenez plein de photos ! 😸)
 
 <center>
-<img src="https://raw.githubusercontent.com/FrPSUG/media/master/powershellsat/logo/adil/ps-saturday-paris-simple.png" width="40%">
+<img src="/images/2019/ps-saturday-paris-simple.webp" width="40%" alt="PowerShell Saturday Paris logo">
 </center>
 
 ## PowerShell Saturday c'est quoi ?

@@ -73,7 +73,7 @@ Next you need to configure your connection using `Set-MVPConfiguration`
 
 ```powershell
 # Configure your connection
-Set-MVPConfiguration -SubscriptionKey 'abcdef083b5b482f8d99184d318b12f6'
+Set-MVPConfiguration -SubscriptionKey '<your-subscription-key>'
 ```
 
 A user interface will show to authenticate against the Microsoft API "mvpapi.portal.azure-api.net"
