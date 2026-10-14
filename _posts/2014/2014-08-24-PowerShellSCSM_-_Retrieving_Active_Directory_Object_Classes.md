@@ -27,7 +27,7 @@ Finding this information with PowerShell was not easy. Also Users and Groups are
 
 
 Here is an example of Service Request using the SCSM Console:
-<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B8-29-42%252BPM__2120621519__-1028x905.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B8-29-42%252BPM__2120621519__-1028x905.png" height="562" width="640" /></a>
+<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%2B8-29-42%2BPM__2120621519__-1028x905.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%2B8-29-42%2BPM__2120621519__-1028x905.png" height="562" width="640" /></a>
 
 
 See the objects highlighted, those are stored in the CMDB of SCSM and not in AD.
@@ -68,7 +68,7 @@ To work around that, we have to use the method <span style="font-family: Courier
 
 Note that I'm selecting only the first object (Select -first 1), which is a group object.
 
-<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-30-47%252BPM__1329652726__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-30-47%252BPM__1329652726__-772x278.png" /></a>
+<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%2B11-30-47%2BPM__1329652726__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%2B11-30-47%2BPM__1329652726__-772x278.png" /></a>
 You have to look at the property <b><u>Name</u></b> and look for "<b>Microsoft.AD.*</b>" <i>User/Group</i> or <i>Computer</i>, to find the real object class.
 
 
@@ -104,7 +104,7 @@ Select-Object -Property DisplayName, @{
 ```
 
 
-<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-23-42%252BPM__555643882__-772x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%252B11-23-42%252BPM__555643882__-772x218.png" /></a>
+<a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%2B11-23-42%2BPM__555643882__-772x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/8-22-2014%2B11-23-42%2BPM__555643882__-772x218.png" /></a>
 
 
 

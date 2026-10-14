@@ -3,7 +3,7 @@ layout: single
 title: New Version - LazyWinAdmin 0.3c - 2011/10/02
 excerpt: 
 permalink: /2011/10/lazywinadmin-update-20111002.html
-tags: LazyWinAdmin
+tags: lazywinadmin
 published: false
 comments: true
 ---

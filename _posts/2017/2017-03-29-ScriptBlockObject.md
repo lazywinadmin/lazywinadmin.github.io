@@ -6,7 +6,7 @@ permalink:
 tags: 
 - powershell
 - scriptblock
-- powershelltip
+- powershell tip
 categories:
   - powershell
 published: true

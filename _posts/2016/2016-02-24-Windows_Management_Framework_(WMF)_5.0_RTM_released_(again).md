@@ -17,7 +17,7 @@ comments: true
 
 The PowerShell Team previously released WMF 5.0 RTM two months ago but it was pulled-back mainly because of the <a href="https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11148471-bug-wmf5-rtm-psmodulepath" target="_blank">$PSmodulePath issue</a>.
 
-[Download WMF5]("https://www.microsoft.com/en-us/download/details.aspx?id=50395")
+[Download WMF5](https://www.microsoft.com/en-us/download/details.aspx?id=50395)
 
 # ChangeLog
 > ### Changes in the republished packages

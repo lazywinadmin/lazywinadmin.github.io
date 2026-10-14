@@ -33,7 +33,7 @@ SMLets download and documentation can be found here: <a href="https://smlets.cod
 
 Before I start exploring some of the commands, I just wanted to point-out a very neat tool created by Dieter Gasser called <a href="http://gallery.technet.microsoft.com/SCSM-Entity-Explorer-68b86bd2" target="_blank">SCSM Entity Explorer</a>. This allow you to browse SCSM Classes and Enumerations. Because there is not a Smlets for everything, you can use the very flexible Get-SCSMObject and Get-SCSMClass to retrieve additional information.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B10-03-43%252BPM__328577235__-953x487.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B10-03-43%252BPM__328577235__-953x487.png" height="324" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">SCCM Entity Explorer</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B10-03-43%2BPM__328577235__-953x487.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B10-03-43%2BPM__328577235__-953x487.png" height="324" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">SCCM Entity Explorer</td></tr></tbody></table>
 <span style="font-size: x-large;">Get the Service Requests objects
 
 
@@ -41,7 +41,7 @@ Before I start exploring some of the commands, I just wanted to point-out a very
 # Get List of all Service Request
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 ```
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%252B9-52-29%252BPM__226504487__-772x778.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B9-52-29%2BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B9-52-29%2BPM__226504487__-772x778.png" /></a>
 <span style="font-size: x-large;">
 <span style="font-size: x-large;">Get the Service Requests<u>created in the last 2 days</u>
 

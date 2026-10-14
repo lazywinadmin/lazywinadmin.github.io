@@ -1,7 +1,7 @@
 ---
 title: Music for coding
 layout: archive
-permalink: /codingmusic
+permalink: /codingmusic.html
 toc: false
 toc_label: "Table of content"
 ---
@@ -15,4 +15,4 @@ toc_label: "Table of content"
 
 ## Edit the list
 
-Want to add an item to this table ? [Edit this CSV file]("{{ site.github.repository_url }}/blob/master{{ site.branch }}/_data/music-coding.csv")
+Want to add an item to this table ? [Edit this CSV file](https://github.com/lazywinadmin/lazywinadmin.github.io/blob/master/_data/music-coding.csv)

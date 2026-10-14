@@ -22,7 +22,7 @@ I don't work a lot with RegEx but when I do, I use tools like <a href="http://ww
 ## Problem
 
 So here is what he asked:
-Out of the following string `OU=MTL1,OU=CORP,DC=FX,DC=LAB` (Which is a [Distinguished Name]("http://msdn.microsoft.com/en-us/library/windows/desktop/aa366101(v=vs.85).aspx")), he wanted to get the name **MTL1**, (The site code for Montreal).
+Out of the following string `OU=MTL1,OU=CORP,DC=FX,DC=LAB` (Which is a [Distinguished Name](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366101(v=vs.85).aspx)), he wanted to get the name **MTL1**, (The site code for Montreal).
 
 ## Solutions
 

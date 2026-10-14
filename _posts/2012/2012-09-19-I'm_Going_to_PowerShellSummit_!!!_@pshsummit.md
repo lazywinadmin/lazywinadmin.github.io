@@ -4,7 +4,7 @@ title: I'm Going to PowerShellSummit !!! @pshsummit
 excerpt: 
 permalink: /2012/09/im-going-to-powershellsummit-pshsummit.html
 tags:
-  - powerShell
+  - powershell
   - 'powershell summit'
 published: true
 comments: true

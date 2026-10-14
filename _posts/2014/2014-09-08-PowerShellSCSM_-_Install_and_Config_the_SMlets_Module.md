@@ -60,14 +60,14 @@ Get-ChildItem *core*, *service* | Copy-Item -dest C:\Windows\assembly
 <span style="background-color: yellow;">C:\Program Files\Common Files\SMLets\Smlets.psm1
 
 <b><u>Comment the lines 4 to 6:</u></b>
-<a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%252B10-49-30%252BPM__2123744846__-775x613.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%252B10-49-30%252BPM__2123744846__-775x613.png" /></a>
+<a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B10-49-30%2BPM__2123744846__-775x613.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B10-49-30%2BPM__2123744846__-775x613.png" /></a>
 
 <b><u>Comment the line 46 and add the following line</u></b>
 
 ```
 $GLOBAL:smdefaultcomputer = "SCSM_SERVER_FQDN"
 ```
-<a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%252B10-50-10%252BPM__994127369__-775x613.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%252B10-50-10%252BPM__994127369__-775x613.png" /></a>
+<a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B10-50-10%2BPM__994127369__-775x613.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B10-50-10%2BPM__994127369__-775x613.png" /></a>
 
 
 <b><u>Finally we can test to use the SMlets module</u></b>
@@ -82,6 +82,6 @@ Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.Incident$) -filter "D
 
 ```
 
-<a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%252B11-20-49%252BPM__1677607133__-772x318.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%252B11-20-49%252BPM__1677607133__-772x318.png" /></a>
+<a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B11-20-49%2BPM__1677607133__-772x318.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B11-20-49%2BPM__1677607133__-772x318.png" /></a>
 
 

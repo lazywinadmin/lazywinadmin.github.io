@@ -12,7 +12,7 @@ published: true
 comments: true
 ---
 
-Here is my [HomeLab]("{{ site.url }}/p/lab.html") configuration:
+Here is my [HomeLab]({% post_url 2012/2012-12-07-My_Home_Lab_! %}) configuration:
 
 * MotherBoard: ASUS M5A97 R2.0
 * CPU : AMD FX-8350 (8 Cores - 4.0Ghz)

@@ -212,4 +212,4 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
 
 # Music
 
-* [Codingmusic](/codingmusic)
+* [Codingmusic](/codingmusic.html)
