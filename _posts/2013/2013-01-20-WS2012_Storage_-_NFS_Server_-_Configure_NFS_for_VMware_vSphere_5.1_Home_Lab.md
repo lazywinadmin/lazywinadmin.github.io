@@ -36,7 +36,7 @@ In the following post I will talk about the following points:
 
 *Add the NFS datastore to VMware vSphere 5.1
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-fYqKYSXXEBM/UedSdzwh3TI/AAAAAAABa2k/zC4G-LNXSOk/s1600/2013-07-17+10-25-33+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" alt="NFS Storage" border="0" src="http://2.bp.blogspot.com/-fYqKYSXXEBM/UedSdzwh3TI/AAAAAAABa2k/zC4G-LNXSOk/s1600/2013-07-17+10-25-33+PM.png" title="WS2012 NFS Server with VMware ESXi" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><i>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5_1_Home_Lab/2013-07-17_10-25-33_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" alt="NFS Storage" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5_1_Home_Lab/2013-07-17_10-25-33_PM.png" title="WS2012 NFS Server with VMware ESXi" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><i>
 Quick overview of my NFS Service architecture in my Home Lab</i></td></tr></tbody></table>
 
 ### <span style="font-size: x-large;">Terminology

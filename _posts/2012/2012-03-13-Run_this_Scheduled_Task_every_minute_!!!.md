@@ -42,5 +42,5 @@ Verifying your Trigger settings
 
 Here you can see the task repeat every minute.
 
-<a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-b__1604341881__-634x471.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="295" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-b__1209500685__-400x297.png" width="400" /></a><a href="http://4.bp.blogspot.com/-xArIkCG11jE/T1-0Z41YBYI/AAAAAAABCB0/pNHv3gPiNy8/s1600/3-13-2012+4-53-20+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+<a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-b__1604341881__-634x471.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="295" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/TaskScheduler-1Minute-b__1209500685__-400x297.png" width="400" /></a><a href="{{ site.url }}/images/2012/Run_this_Scheduled_Task_every_minute/3-13-2012_4-53-20_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
 </a>

@@ -20,7 +20,7 @@ comments: true
 <span style="font-family: inherit;">Here is the configuration I choose<span style="font-family: inherit;">
 <u>My HomeLab will run on 3 Whiteboxes:</u>-2 HYPERVISOR running <b>VMware ESXi VSphere 5.1</b>-1 STORAGE SERVER running <b>FreeNas 8.3</b>
 
-<a href="http://2.bp.blogspot.com/-T4UoT5yoNTM/UMT0qfFcCxI/AAAAAAABVDY/GzFo04z3cV0/s1600/DSC_0113.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="262" src="http://2.bp.blogspot.com/-T4UoT5yoNTM/UMT0qfFcCxI/AAAAAAABVDY/GzFo04z3cV0/s400/DSC_0113.JPG" width="400" /></a>
+<a href="{{ site.url }}/images/2012/My_Home_Lab/DSC_0113.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="262" src="{{ site.url }}/images/2012/My_Home_Lab/DSC_0113_s400.JPG" width="400" /></a>
 
 <b style="text-decoration: underline;">HYPERVISORS</b> (2 New Whiteboxes)
 <a href="{{ site.url }}/images/2012/20121207_My_Home_Lab_!/ESXi-Servers__591616460__-694x210.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2012/20121207_My_Home_Lab_!/ESXi-Servers__591616460__-694x210.png" /></a>

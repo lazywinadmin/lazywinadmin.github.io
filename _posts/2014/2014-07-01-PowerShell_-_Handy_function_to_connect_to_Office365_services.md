@@ -181,7 +181,7 @@ function Connect-Office365
 
 Here the result in action
 
-<a href="http://3.bp.blogspot.com/-p6i5LnXDInE/U7R69oyeIwI/AAAAAAABl0o/KA052Ymv5Js/s1600/7-2-2014+5-34-23+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-p6i5LnXDInE/U7R69oyeIwI/AAAAAAABl0o/KA052Ymv5Js/s1600/7-2-2014+5-34-23+PM.png" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-34-23_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-34-23_PM.png" /></a>
 
 
 
@@ -197,7 +197,7 @@ The next time you reload your PowerShell, the function<span style="font-family: 
 
 Finally we can see two implicit modules created for Lync and Exchange with a sample of cmdlets available. Those cmdlets contains the prefix we defined in the function ExchCloud and LyncCloud.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-xtr_YLaCnwM/U7R8a4xGwyI/AAAAAAABl00/hepZCSNHjZo/s1600/7-2-2014+5-40-04+PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-xtr_YLaCnwM/U7R8a4xGwyI/AAAAAAABl00/hepZCSNHjZo/s1600/7-2-2014+5-40-04+PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Implicit remoting modules loaded start by a "tmp". You can see a sample of the Cmdlets available
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-40-04_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-40-04_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Implicit remoting modules loaded start by a "tmp". You can see a sample of the Cmdlets available
 with the prefix we included.</td></tr></tbody></table>
 
 

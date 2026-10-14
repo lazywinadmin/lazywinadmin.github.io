@@ -15,7 +15,7 @@ comments: true
 ---
 
 
-<a href="http://3.bp.blogspot.com/-SFE54vcIfl8/UVEXr7bBBkI/AAAAAAABWwg/8wDgKoexhus/s1600/3-25-2013+11-35-36+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image 1 from the post &quot;How to Deploy an OVF Template from a Remote Web Server&quot;" loading="lazy" decoding="async" border="0" height="200" src="http://3.bp.blogspot.com/-SFE54vcIfl8/UVEXr7bBBkI/AAAAAAABWwg/8wDgKoexhus/s200/3-25-2013+11-35-36+PM.png" width="135" /></a>In the following post I am going to explain how to deploy an OVF Template from an URL.
+<a href="{{ site.url }}/images/2013/How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/3-25-2013_11-35-36_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image 1 from the post &quot;How to Deploy an OVF Template from a Remote Web Server&quot;" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/3-25-2013_11-35-36_PM_s200.png" width="135" /></a>In the following post I am going to explain how to deploy an OVF Template from an URL.
 
 
 The VMware vSphere Client allows you to deploy and export virtual machines, virtual appliances, and vApps stored in Open Virtual Machine Format (OVF).

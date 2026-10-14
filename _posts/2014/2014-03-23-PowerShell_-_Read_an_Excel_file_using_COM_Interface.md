@@ -14,7 +14,7 @@ toc: true
 toc_label: "Table of Content"
 ---
 
-<a href="http://2.bp.blogspot.com/-nnDulVPr8nI/Uy4x0oATYuI/AAAAAAABj1s/v8Nky6kakKY/s1600/2014-03-22+8-57-33+PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-nnDulVPr8nI/Uy4x0oATYuI/AAAAAAABj1s/v8Nky6kakKY/s1600/2014-03-22+8-57-33+PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
+<a href="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
 
 Here is the sample Excel file I worked with:
 
@@ -48,7 +48,7 @@ In the second step, we are opening the workbook inside the Excel Instance.
 $WorkBook = $objExcel.Workbooks.Open("C:\VIDEOSERVER01-BuildSpecs.xlsx")
 ```
 
-![A new Excel Instance is created](http://2.bp.blogspot.com/-Bl2QqCRJIVI/Uy4lsp67mKI/AAAAAAABj0g/KjxjtI5nYe4/s1600/2014-03-22+8-06-40+PM.png){: loading="lazy" decoding="async"}
+![A new Excel Instance is created]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-06-40_PM.png){: loading="lazy" decoding="async"}
 
 We can verify that the workbook is opened using the following line
 
@@ -62,7 +62,7 @@ Then see the properties and methods that can be used
 $objExcel.WorkBooks | Get-Member
 ```
 
-![Get-Member](http://1.bp.blogspot.com/-ydMvIBBQYc8/Uy4nAJFXBBI/AAAAAAABj00/Uo106voE_TI/s1600/2014-03-22+8-12-14+PM.png){: loading="lazy" decoding="async"}
+![Get-Member]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-12-14_PM.png){: loading="lazy" decoding="async"}
 
 In the following example, I hold the data inside the $WorkBook variable.
 
@@ -76,7 +76,7 @@ I then look for any member (property, method, or event) that contains the word "
 $WorkBook | Get-Member -Name *sheet*
 ```
 
-![Get-Member_Sheet](http://4.bp.blogspot.com/-22dsI3DX1EQ/Uy4royVEhGI/AAAAAAABj1A/Wn0iy7AtwLw/s1600/2014-03-22+8-22-51+PM.png){: loading="lazy" decoding="async"}
+![Get-Member_Sheet]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-22-51_PM.png){: loading="lazy" decoding="async"}
 
 My WorkBook contains 2 worksheets as you can see in the first image of the article, "BuildSpecs" and "Sheet2", PowerShell can retrieve this information using the "sheets" property.
 
@@ -84,7 +84,7 @@ My WorkBook contains 2 worksheets as you can see in the first image of the artic
 $WorkBook.sheets | Select-Object -Property Name
 ```
 
-![Select Name](http://4.bp.blogspot.com/-X0VcTeIfl0I/Uy4rvJM0q7I/AAAAAAABj1I/3PKCNLPEQSs/s1600/2014-03-22+8-24-02+PM.png){: loading="lazy" decoding="async"}
+![Select Name]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-24-02_PM.png){: loading="lazy" decoding="async"}
 
 **WorkSheet layer**
 We select the sheet BuildSpecs and are now able to start working on the data
@@ -93,7 +93,7 @@ We select the sheet BuildSpecs and are now able to start working on the data
 $WorkSheet = $WorkBook.sheets.item("BuildSpecs")
 ```
 
-![BuildSpecs](http://1.bp.blogspot.com/-AIdNtL3p3d4/Uy4rxFHxaFI/AAAAAAABj1Q/Ggsa5YSmrok/s1600/2014-03-22+8-30-11+PM.png){: loading="lazy" decoding="async"}
+![BuildSpecs]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-30-11_PM.png){: loading="lazy" decoding="async"}
 
 ## Loading and getting the Data
 
@@ -159,7 +159,7 @@ $Output = [pscustomobject][ordered]@{
 }
 ```
 
-![BuildSpecs](http://3.bp.blogspot.com/-0X6m94skkjo/Uy41tyg933I/AAAAAAABj14/ANHlIsQtoa0/s1600/2014-03-22+9-14-51+PM.png){: loading="lazy" decoding="async"}
+![BuildSpecs]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_9-14-51_PM.png){: loading="lazy" decoding="async"}
 
 ## Script example
 

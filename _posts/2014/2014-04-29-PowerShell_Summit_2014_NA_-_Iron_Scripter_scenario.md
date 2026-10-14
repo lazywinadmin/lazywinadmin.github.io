@@ -58,8 +58,8 @@ Create the shortest on-liner possible that produces the following output as exac
 
 <div class="separator" style="clear: both; text-align: left;">Create a function that enables you to exactly reproduce this shell transcript. (It's OK if property values aren't the same on your computer)
 
-<a href="http://2.bp.blogspot.com/-t7xfFPT6pcM/U2LrEChgZlI/AAAAAAABk3w/UDZU5ihIgIA/s1600/SCAN0004.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://2.bp.blogspot.com/-t7xfFPT6pcM/U2LrEChgZlI/AAAAAAABk3w/UDZU5ihIgIA/s1600/SCAN0004.JPG" height="640" width="390" /></a>
-<a href="http://3.bp.blogspot.com/-m2ULI7MWpw0/U2LrEKon_XI/AAAAAAABk30/NyvOL4pIqC8/s1600/SCAN0005.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="http://3.bp.blogspot.com/-m2ULI7MWpw0/U2LrEKon_XI/AAAAAAABk30/NyvOL4pIqC8/s1600/SCAN0005.JPG" height="640" width="456" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0004.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0004.webp" height="640" width="390" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0005.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0005.webp" height="640" width="456" /></a>
 
 
 
