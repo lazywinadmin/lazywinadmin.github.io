@@ -12,8 +12,8 @@ main:
   #   url: /sitemap/
   #- title: "Blog"
   #  url: /
-#  - title: "Tags"
-#    url: /tags
+  - title: "Tags"
+    url: /tags/
   - title: "Projects/Scripts"
     url: /p/scripts.html
   - title: "Resources"
@@ -41,7 +41,7 @@ resources:
       - title: "Débuter (french)"
         url: /resources/powershell/debuter
       - title: "Tips"
-        url: /tags/#powershelltip
+        url: /tags/#tip
       - title: "Resources"
         url: /resources/powershell/resources
   - title: Regular Expression
