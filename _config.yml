@@ -160,6 +160,15 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Archive"
+      icon: "fas fa-fw fa-archive"
+      url: "/archive.html"
+    - label: "Resources"
+      icon: "fas fa-fw fa-book"
+      url: "/p/links.html"
+    - label: "Disclaimer"
+      icon: "fas fa-fw fa-balance-scale"
+      url: "/disclaimer.html"
 
 
 # Reading Files

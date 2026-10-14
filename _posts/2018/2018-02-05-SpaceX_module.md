@@ -16,7 +16,7 @@ author_profile: false
 header:
   teaserlogo:
   teaser: ''
-  image: images/headers/spacex02_1920x500.png
+  image: images/headers/spacex02_1920x500.webp
   caption: 
 gallery:
   - image_path: ''
@@ -106,7 +106,9 @@ summary        : SpaceX designs, manufactures and launches advanced rockets and
 
 This week is a very special one, SpaceX is about to launch the first **Falcon Heavy** rocket!! 🚀🚀🚀
 
-![image-center](/images\2018\2018-02-05-SpaceX_Module/spacex-falcon-heavy.gif)
+<video autoplay loop muted playsinline poster="/images/2018/2018-02-05-SpaceX_Module/spacex-falcon-heavy-poster.webp" style="display:block;margin:0 auto;max-width:100%;height:auto;">
+  <source src="/images/2018/2018-02-05-SpaceX_Module/spacex-falcon-heavy.mp4" type="video/mp4">
+</video>
 
 We can see it is the next up:
 

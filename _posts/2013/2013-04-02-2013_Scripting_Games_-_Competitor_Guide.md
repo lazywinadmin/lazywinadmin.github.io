@@ -23,5 +23,5 @@ Make sure to read the Guidelines and check the different tracks available to you
 
 The Scripting Games is a great event for those who want to learn more or improve their skills with Windows PowerShell. I'm planning myself to participate to the Advanced Event. My Script will be post and explained here.
 
-<a href="{{ site.url }}/images/2013/20130402_2013_Scripting_Games_-_Competitor_Guide/PoshSummit__1676287876__-766x516.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="267" src="{{ site.url }}/images/2013/20130402_2013_Scripting_Games_-_Competitor_Guide/PoshSummit__908655118__-400x269.png" width="400" /></a>
+<a href="{{ site.url }}/images/2013/20130402_2013_Scripting_Games_-_Competitor_Guide/PoshSummit__1676287876__-766x516.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="267" src="{{ site.url }}/images/2013/20130402_2013_Scripting_Games_-_Competitor_Guide/PoshSummit__908655118__-400x269.png" width="400" /></a>
 

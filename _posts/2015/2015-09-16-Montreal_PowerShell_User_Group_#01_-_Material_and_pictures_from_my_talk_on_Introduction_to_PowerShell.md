@@ -42,7 +42,7 @@ The next meeting will probably occur around the end of October.
 
 <a href="http://2.bp.blogspot.com/-IqVDnHDxXj8/VfoqpjL7eII/AAAAAAABxpQ/H51dGvUsNVU/s1600/IMG_3174.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="http://2.bp.blogspot.com/-IqVDnHDxXj8/VfoqpjL7eII/AAAAAAABxpQ/H51dGvUsNVU/s640/IMG_3174.JPG" width="640" /></a>
 
-<a href="{{ site.url }}/images/2015/20150916_Montreal_PowerShell_User_Group_%2301_-_Material_and_pictures_from_my_talk_on_Introduction_to_PowerShell/highres_442036136__660111323__-2448x3264.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2015/20150916_Montreal_PowerShell_User_Group_%2301_-_Material_and_pictures_from_my_talk_on_Introduction_to_PowerShell/highres_442036136__660111323__-2448x3264.jpeg" height="640" width="480" /></a>
+<a href="{{ site.url }}/images/2015/20150916_Montreal_PowerShell_User_Group_%2301_-_Material_and_pictures_from_my_talk_on_Introduction_to_PowerShell/highres_442036136__660111323__-2448x3264.webp" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="{{ site.url }}/images/2015/20150916_Montreal_PowerShell_User_Group_%2301_-_Material_and_pictures_from_my_talk_on_Introduction_to_PowerShell/highres_442036136__660111323__-2448x3264.webp" height="640" width="480" /></a>
 
 Free Pizza covered by <b>SAPIEN Technologies Inc.
 

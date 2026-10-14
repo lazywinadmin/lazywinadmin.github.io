@@ -1,39 +1,16 @@
 # main links
 main:
-#  - title: "Quick-Start Guide"
-#    url: https://mmistakes.github.io/minimal-mistakes/resources/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-  #- title: "Blog"
-  #  url: /
-  - title: "Tags"
+  - title: "Blog"
+    url: /
+  # Topics: this masthead does not render dropdown children, so Topics links to the tags archive.
+  - title: "Topics"
     url: /tags/
-  - title: "Projects/Scripts"
+  - title: "Projects"
     url: /p/scripts.html
-  - title: "Resources"
-    url: /p/links.html
-  - title: "Archive"
-    url: /archive.html
   - title: "CV"
     url: /cv/
   - title: "About"
     url: /about.html
-  - title: "Disclaimer"
-    url: /disclaimer.html
-#  - title: "Categories"
-#    url: /categories/
-#  - title: "Collections"
-#    url: /collection-archive/
-#  - title: "Resources"
-#    url: /resources/powershell/resources
-#  - title: "Old blog"
-#    url: "http://lazywinadmin.com"
 
 resources:
   - title: PowerShell
@@ -57,22 +34,3 @@ resources:
         url: /resources/jekyll/resources
       - title: 'Jemoji'
         url: /resources/jekyll/jemoji
-
-
-projects:
-  - title: Module
-    children:
-      - title: "AdsiPS"
-        url: /resources/powershell/gettingstarted
-    children:
-      - title: "MVP"
-        url: /resources/powershell/gettingstarted
-  - title: UI
-    children:
-      - title: "Getting Started"
-        url: /resources/powershell/gettingstarted
-  - title: Scripts
-    children:
-      - title: "Getting Started"
-        url: /resources/powershell/gettingstarted
-

@@ -15,7 +15,7 @@ author_profile: false
 header:
   teaserlogo:
   teaser: ''
-  image: images/headers/cryptocurrency01_1920x500.png
+  image: images/headers/cryptocurrency01_1920x500.webp
   caption: ''
 gallery:
   - image_path: ''
