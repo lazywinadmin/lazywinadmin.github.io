@@ -20,6 +20,8 @@ main:
     url: /p/links.html
   - title: "Archive"
     url: /archive.html
+  - title: "CV"
+    url: /cv/
   - title: "About"
     url: /about.html
   - title: "Disclaimer"
