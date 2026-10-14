@@ -7,3 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* CV page: clean print output */
+@media print {
+  .masthead, .page__footer, .sidebar, .breadcrumbs, .page__follow,
+  .page__share, .page__related, .page__comments, .search-content,
+  .cv-download, .greedy-nav, .skip-links { display: none !important; }
+  .cv-page .page, .cv-page #main, .cv-page .page__inner-wrap {
+    width: 100% !important; max-width: none !important; padding: 0 !important; margin: 0 !important; float: none !important;
+  }
+  .cv-page a { color: #000; text-decoration: none; }
+}
