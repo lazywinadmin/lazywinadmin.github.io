@@ -31,6 +31,7 @@
     if (t === 'dark') { var l = document.getElementById('theme-css'); l.href = l.getAttribute('data-dark'); }
   })();
 </script>
+{% if page.header.overlay_image %}<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" fetchpriority="high">{% elsif page.header.image %}<link rel="preload" as="image" href="{{ page.header.image | relative_url }}" fetchpriority="high">{% endif %}
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"></noscript>
 
