@@ -15,7 +15,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" height="180" width="180" /></a>It's always a good idea to include help within your functions ! You never know who might benefit from it.
+ <a href="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="windows powershell icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140126_PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/windows_powershell_icon__1887754660__-256x256.png" height="180" width="180" /></a>It's always a good idea to include help within your functions ! You never know who might benefit from it.
 
 With PowerShell adding help to your script, function and module is a really easy thing to do.
 
@@ -78,7 +78,7 @@ This command will only return the Parameters information with the help we added 
 ```
 
 
-<a href="{{ site.url }}/images/2014/PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/2014-01-25_11-32-11_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/2014-01-25_11-32-11_PM.png" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/2014-01-25_11-32-11_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Tip - Adding Help in the PARAM statement&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Tip_-_Adding_Help_in_the_PARAM_statement/2014-01-25_11-32-11_PM.png" /></a>
 Even if this tip is pretty cool, I would still recommend to use the Comment Based Help block to have a centralized place to put all the help !
 
 

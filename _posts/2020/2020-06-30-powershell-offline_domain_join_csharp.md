@@ -37,7 +37,7 @@ What is the `djoin.exe` you may ask ? this is a tool provided by Microsoft that 
 
 The article I wrote at that time was focused on the second phase. I was still using djoin.exe for the first phase.
 
-![](/images/2020/2020-06-30-powershell-offline_domain_join_csharp/ad-offline_domain_join.png){: loading="lazy" decoding="async"}
+![ad offline domain join](/images/2020/2020-06-30-powershell-offline_domain_join_csharp/ad-offline_domain_join.png){: loading="lazy" decoding="async"}
 
 ## Not fast enough...
 
@@ -61,7 +61,7 @@ The high-level flow looked like this:
 
 Here is an high-level flow:
 
-![](/images/2020/2020-06-30-powershell-offline_domain_join_csharp/odj-automation2.png){: loading="lazy" decoding="async"}
+![odj automation2](/images/2020/2020-06-30-powershell-offline_domain_join_csharp/odj-automation2.png){: loading="lazy" decoding="async"}
 
 This was working really well, the whole **Stage** process was taking 3-5 minutes. However one of the tasks that was costly in time was the ODJ part. This automation needed to run very frequently so it started to become a bottleneck for the entire workflow where hundreds machines needed to be deployed at the same time.
 

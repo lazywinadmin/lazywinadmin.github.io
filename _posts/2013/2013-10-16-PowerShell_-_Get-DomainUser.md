@@ -13,7 +13,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20131016_PowerShell_-_Get-DomainUser/1381983944_hand_driller__1606067665__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20131016_PowerShell_-_Get-DomainUser/1381983944_hand_driller__1606067665__-128x128.png" /></a>Today one of my IT coworkers, in another department, sent a couple of emails to the Ops to get the username (SamAccount) from a couple of Active Directory users accounts. This guy, which is not familiar with AD, had only the DisplayName properties information.
+<a href="{{ site.url }}/images/2013/20131016_PowerShell_-_Get-DomainUser/1381983944_hand_driller__1606067665__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="1381983944 hand driller" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20131016_PowerShell_-_Get-DomainUser/1381983944_hand_driller__1606067665__-128x128.png" /></a>Today one of my IT coworkers, in another department, sent a couple of emails to the Ops to get the username (SamAccount) from a couple of Active Directory users accounts. This guy, which is not familiar with AD, had only the DisplayName properties information.
 
 I wrote him back that he could just request RSAT(Remote Server Administration Tools) to be installed on his workstation or just use this small PowerShell that I just wrote in minutes. Since Active Directory does not require any specific permission to access this kind of information. Here is the code, nothing advanced, but it does the work ;-)
 

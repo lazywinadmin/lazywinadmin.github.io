@@ -101,7 +101,7 @@ The following script will show how to Unlock Active Directory User account using
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/AD-USER-Unlocker-02.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="283" src="{{ site.url }}/images/pages/scripts/AD-USER-Unlocker-02.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/AD-USER-Unlocker-02.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="AD USER Unlocker 02" border="0" height="283" src="{{ site.url }}/images/pages/scripts/AD-USER-Unlocker-02.png" width="400" /></a></div>
 <br />
 <br />
 <h1 id="Add-ADSubnet">
@@ -125,7 +125,7 @@ Disable-VMCopyPaste</h1>
 <u>Download:</u><a href="http://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="194" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (1)" border="0" height="194" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" width="400" /></a></div>
 <br />
 <h1 id="Enable-VMCopyPaste">
 Enable-VMCopyPaste</h1>
@@ -137,7 +137,7 @@ Enable-VMCopyPaste</h1>
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-01-55_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="137" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-01-55_PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-01-55_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (2)" border="0" height="137" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-01-55_PM.png" width="400" /></a></div>
 <br />
 <h1 id="Get-ADGPOReplication">
 Get-ADGPOReplication</h1>
@@ -148,7 +148,7 @@ Get-ADGPOReplication</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-GPO-Replication-4db47c83" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="340" src="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADGPOReplication" border="0" height="340" src="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" width="400" /></a></div>
 <br />
 <br />
 <h1 id="Get-ComputerInfo">
@@ -169,7 +169,7 @@ Get-DiskSizeInfo</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-DiskSizeInfo-d60eed65" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="212" src="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="WinterScriptingGames Event1 03" border="0" height="212" src="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" width="400" /></a></div>
 <br />
 <br />
 <br />
@@ -183,7 +183,7 @@ Optionally you can specify a different domain to query and alternate credentials
 <div class="separator" style="clear: both; text-align: center;">
 </div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/technet-2013-10-30_9-45-56_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/technet-2013-10-30_9-45-56_PM.png" height="640" width="372" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/technet-2013-10-30_9-45-56_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="TechNet Gallery screenshot (2013-10-30)" border="0" src="{{ site.url }}/images/pages/scripts/technet-2013-10-30_9-45-56_PM.png" height="640" width="372" /></a></div>
 <br />
 <br />
 <h1 id="GetLocalGroupAllMembers">
@@ -210,7 +210,7 @@ Get-NetStat</h1>
 
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/technet-2014-08-14_23-31-39.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/technet-2014-08-14_23-31-39.png" height="320" width="302" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/technet-2014-08-14_23-31-39.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="TechNet Gallery screenshot (2014-08-14)" border="0" src="{{ site.url }}/images/pages/scripts/technet-2014-08-14_23-31-39.png" height="320" width="302" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
@@ -223,7 +223,7 @@ Get-NetStat Using ConvertFrom-String</h1>
 <u>Download:</u>See blog post<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2014-09-04_23-02-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="218" src="{{ site.url }}/images/pages/scripts/2014-09-04_23-02-37.png" width="320" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2014-09-04_23-02-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (3)" border="0" height="218" src="{{ site.url }}/images/pages/scripts/2014-09-04_23-02-37.png" width="320" /></a></div>
 <br />
 <h1 id="Get-NetStatConvertFrom-StringTemplateFile">
 Get-NetStat Using ConvertFrom-String -TemplateFile</h1>
@@ -233,7 +233,7 @@ Get-NetStat Using ConvertFrom-String -TemplateFile</h1>
 <u>Download:</u> See blog post<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2014-09-06_3-23-30.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/images/pages/scripts/2014-09-06_3-23-30.png" width="201" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2014-09-06_3-23-30.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (4)" border="0" height="320" src="{{ site.url }}/images/pages/scripts/2014-09-06_3-23-30.png" width="201" /></a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
@@ -247,7 +247,7 @@ Get-NetworkLevelAuthentication (NLA)</h1>
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" width="244" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (5)" border="0" height="320" src="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" width="244" /></a></div>
 <div>
 <br />
 <br />
@@ -265,7 +265,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/LazyTS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/LazyTS.png" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/LazyTS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyTS" border="0" src="{{ site.url }}/images/pages/scripts/LazyTS.png" /></a></div>
 <br /></div>
 <h1>
 <a href="https://github.com/lazywinadmin/LazyWinAdmin_GUI" id="LazyWinAdmin" target="_blank">LazyWinAdmin</a></h1>
@@ -285,7 +285,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/lwa-v0.4-main01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="255" src="{{ site.url }}/images/pages/scripts/lwa-v0.4-main01.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/lwa-v0.4-main01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="lwa v0.4 main01" border="0" height="255" src="{{ site.url }}/images/pages/scripts/lwa-v0.4-main01.png" width="400" /></a></div>
 <div>
 <br /></div>
 <h1>
@@ -302,7 +302,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2013-11-25_1-45-27_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-11-25_1-45-27_AM.png" width="362" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-11-25_1-45-27_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (6)" border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-11-25_1-45-27_AM.png" width="362" /></a></div>
 <br />
 <br />
 <h1 id="NetBackupPSModule">
@@ -315,7 +315,7 @@ This module contains cmdlets that parse the output of regular CLI tools.<br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/Get-Command_NetBackupPS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="130" src="{{ site.url }}/images/pages/scripts/Get-Command_NetBackupPS.png" width="320" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/Get-Command_NetBackupPS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get Command NetBackupPS" border="0" height="130" src="{{ site.url }}/images/pages/scripts/Get-Command_NetBackupPS.png" width="320" /></a></div>
 <br />
 <h1 id="ReadExcelFileCOM">
 Read Excel File (Using COM)</h1>
@@ -325,7 +325,7 @@ Read Excel File (Using COM)</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" width="320" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (7)" border="0" height="172" src="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" width="320" /></a></div>
 <br />
 <h1 id="ReportActiveDirectoryMissingsubnets">
 Report Active Directory Missing subnets</h1>
@@ -335,7 +335,7 @@ Report Active Directory Missing subnets</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" width="347" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (8)" border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" width="347" /></a></div>
 <br />
 <br />
 <br />
@@ -370,7 +370,7 @@ Set-NetworkLevelAuthentication (NLA)</h1>
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" width="244" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (9)" border="0" height="320" src="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" width="244" /></a></div>
 <div>
 <br /></div>
 <br />
@@ -391,7 +391,7 @@ Tutorial - Creating a Basic GUI</h1>
 <div style="font-size: medium; font-weight: normal;">
 <br /></div>
 <div class="separator" style="clear: both; font-size: medium; font-weight: normal; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2013-08-08_7-06-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="236" src="{{ site.url }}/images/pages/scripts/2013-08-08_7-06-17_PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-08-08_7-06-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (10)" border="0" height="236" src="{{ site.url }}/images/pages/scripts/2013-08-08_7-06-17_PM.png" width="400" /></a></div>
 <br />
 <br />
 <h1 id="TutorialDataGridViewSorting">
@@ -406,7 +406,7 @@ Tutorial - DataGridView Control- Add Sorting
 <u>Download:</u><a href="https://web.archive.org/web/20210121115031/https://gallery.technet.microsoft.com/Winforms-DataGridView-28f9b521" target="_blank">Technet</a>/ <a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_ColumnHeader_Sorting" target="_blank">GitHub</a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/Datagridview_Sorting_GIF.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/Datagridview_Sorting_GIF.gif" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/Datagridview_Sorting_GIF.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Datagridview Sorting GIF" border="0" src="{{ site.url }}/images/pages/scripts/Datagridview_Sorting_GIF.gif" /></a></div>
 <br />
 <h1 id="TutorialListViewControl">
 Tutorial - ListView Control- Fill my second column</h1>
@@ -429,7 +429,7 @@ Tutorial - ToolMaking (Winform)</h1>
 <u><br /></u>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/2013-10-11_4-19-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="362" src="{{ site.url }}/images/pages/scripts/2013-10-11_4-19-47_PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-10-11_4-19-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripts/Projects&quot; (11)" border="0" height="362" src="{{ site.url }}/images/pages/scripts/2013-10-11_4-19-47_PM.png" width="400" /></a></div>
 </div>
 <br />
 <h1 id="NetBackupPSModule">
@@ -440,7 +440,7 @@ WinFormPS Module</h1>
 <u>Download:</u><a href="https://github.com/lazywinadmin/WinFormPS" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="{{ site.url }}/images/pages/scripts/datagridview2.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/datagridview2.gif" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/datagridview2.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="datagridview2" border="0" src="{{ site.url }}/images/pages/scripts/datagridview2.gif" /></a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>

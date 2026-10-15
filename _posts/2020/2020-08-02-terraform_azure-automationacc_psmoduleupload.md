@@ -44,7 +44,7 @@ However, if you use the Azure Portal, you have the option to upload your module 
 
 This is what you would see in the portal after submitting your file:
 
-![](../../images/2020/2020-08-02/azure_automation_account-upload_module_in_portal.png){: loading="lazy" decoding="async"}
+![azure automation account upload module in portal](../../images/2020/2020-08-02/azure_automation_account-upload_module_in_portal.png){: loading="lazy" decoding="async"}
 
 ## Uploading a PSModule to a Storage Account with Terraform
 
@@ -58,7 +58,7 @@ I used Terraform to replicate the Azure Portal functionality in the following sc
 
 Here is the whole workflow, including the dependencies.
 
-![](../../images/2020/2020-08-02/azure_automation_account-upload_module-flow.png){: loading="lazy" decoding="async"}
+![azure automation account upload module flow](../../images/2020/2020-08-02/azure_automation_account-upload_module-flow.png){: loading="lazy" decoding="async"}
 
 
 ## azurerm_automation_module Terraform resource
@@ -143,11 +143,11 @@ terraform apply "automation.tfplan"
 
 #### terraform plan
 
-![](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_plan2.png){: loading="lazy" decoding="async"}
+![azure automation account upload module terraform plan2](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_plan2.png){: loading="lazy" decoding="async"}
 
 #### terraform apply
 
-![](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_apply.png){: loading="lazy" decoding="async"}
+![azure automation account upload module terraform apply](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_apply.png){: loading="lazy" decoding="async"}
 
 
 

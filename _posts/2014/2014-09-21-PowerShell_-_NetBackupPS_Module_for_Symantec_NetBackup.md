@@ -17,7 +17,7 @@ comments: true
 
  
  
-<a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/9-20-2014%2B12-02-32%2BPM__1269134158__-122x137.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/9-20-2014%2B12-02-32%2BPM__1269134158__-122x137.png" /></a>In my previous job, we used Symantec NetBackup to handle backups and restores. To handle some of the reporting, the storage admins were using the Symantec CLI tools (bunch of Exe).
+<a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/9-20-2014%2B12-02-32%2BPM__1269134158__-122x137.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - NetBackupPS - Module for Symantec NetBackup&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/9-20-2014%2B12-02-32%2BPM__1269134158__-122x137.png" /></a>In my previous job, we used Symantec NetBackup to handle backups and restores. To handle some of the reporting, the storage admins were using the Symantec CLI tools (bunch of Exe).
 <u>Example of usages</u>: Find the scratch tapes in a particular robot... or in a particular site...
 
 I wanted to parse the output and be able to reuse the information for other commands or to report information to the team. I realised that could be a good exercice to improve my parsing skills using PowerShell and decided to work on some more cmdlets and eventually a module.
@@ -60,7 +60,7 @@ Import-Module -Name NetBackupPS
 
 # Cmdlets available
 
-<a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" /></a>
+<a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get Command NetBackupPS" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" /></a>
 
 As an example, here is the help from Get-NetBackupVolume which retrieve volumes information.
 

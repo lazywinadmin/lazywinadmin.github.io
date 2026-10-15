@@ -31,7 +31,7 @@ comments: true
 You can also look at the ADK install/uninstall logs here: `C:\Users\<Account>\AppData\Local\Temp\adk`
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (1)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_01__605578273__-778x579.png
 {% endcapture %}
@@ -62,7 +62,7 @@ Using [`PsExec.exe`](https://technet.microsoft.com/en-us/sysinternals/bb897553.a
 `psexec.exe /sid powershell.exe`
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (2)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PsExec_PowerShell_LocalSystem__125866709__-630x239.png
 {% endcapture %}
@@ -77,7 +77,7 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (3)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/PowerShell_LocalSystem_ADKSetup__214499777__-674x218.png
 {% endcapture %}
@@ -87,7 +87,7 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (4)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Uninstalling_Windows10ADK_02_success__448296844__-780x583.png
 {% endcapture %}
@@ -104,7 +104,7 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 Unfortunately I had the same issue when running the Windows 10 ADK Installer.
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (5)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install01__453172665__-781x579.png
 {% endcapture %}
@@ -171,7 +171,7 @@ Returning status 0x514
 Same solution as above by using `Psexec` and by running `adksetup.exe`
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (6)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install06__230518088__-675x176.png
 {% endcapture %}
@@ -182,7 +182,7 @@ Same solution as above by using `Psexec` and by running `adksetup.exe`
 
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK" (7)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150815_Windows_10_ADK_-_Issues_while_uninstalling_Windows_8.1_ADK_and_installing_Windows_10_ADK/Windows10ADK_Install05__754254663__-766x568.png
 {% endcapture %}

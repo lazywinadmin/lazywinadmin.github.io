@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 1em; text-align: left;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2012/20120922_PowerShell_Resources_-_From_Noob_to_Ninja/ninja__981364980__-576x720.jpg?t=1197633560" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2012/20120922_PowerShell_Resources_-_From_Noob_to_Ninja/ninja__981364980__-576x720.jpg?t=1197633560" width="160" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"></td></tr></tbody></table><b>Videos</b>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 1em; text-align: left;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2012/20120922_PowerShell_Resources_-_From_Noob_to_Ninja/ninja__981364980__-576x720.jpg?t=1197633560" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="ninja" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2012/20120922_PowerShell_Resources_-_From_Noob_to_Ninja/ninja__981364980__-576x720.jpg?t=1197633560" width="160" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"></td></tr></tbody></table><b>Videos</b>
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2011/WSV315" target="_blank">Windows PowerShell for Beginners</a>
 Technet ScriptCenter - Windows PowerShell: Learn It Now Before It's an Emergency (link no longer available)
 

@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-23-52_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-23-52_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-23-52_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Renaming a bunch of folders&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-23-52_PM.png" /></a>
 <a href="{{ site.url }}/2013/10/powershell-organizing-my-scripts.html" target="_blank">In my previous post</a> I talked about Organizing my script directory, naming convention, preferences and bottlenecks... Today let's reorganize some of those script folders.
 
 
@@ -52,7 +52,7 @@ We take a look at the Help of Rename-Item using ShowWindow, just to make sure we
 PS C:\LazyWinAdmin\POSH> Get-Help -Name Rename-Item -ShowWindow
 ```
 
-<a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-26-41_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-26-41_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-26-41_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Renaming a bunch of folders&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-26-41_PM.png" /></a>
 We will need to use the<span style="font-family: Courier New, Courier, monospace;"><b>Path</b>and the<span style="font-family: Courier New, Courier, monospace;"><b>NewName</b>parameters to specify the <b>current name</b>(path) and the <b>new name</b>. I end up with the following line, let's try it using WhatIf switch
 
 
@@ -117,7 +117,7 @@ C:\LazyWinAdmin\POSH\FUNCT-ESX-VM-Enable-CopyPaste Destination:
 C:\LazyWinAdmin\POSH\FUNCT-VMWARE-VM-Enable-CopyPaste".
 ```
 
-<a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_10-41-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_10-41-03_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_10-41-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Renaming a bunch of folders&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_10-41-03_PM.png" /></a>
 Awesome! I love PowerShell!!!
 
 

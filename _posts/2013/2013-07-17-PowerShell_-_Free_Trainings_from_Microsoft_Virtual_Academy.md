@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/1374098910_Courses__595837927__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/1374098910_Courses__595837927__-128x128.png" /></a><u><b>Update:</b></u> <b>Getting Started with PowerShell 3.0</b>and <b>Advanced Tools &amp; Scripting with PowerShell 3.0</b>recorded videosare now available on Microsoft Virtual Academy. Links below.
+<a href="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/1374098910_Courses__595837927__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="1374098910 Courses" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/1374098910_Courses__595837927__-128x128.png" /></a><u><b>Update:</b></u> <b>Getting Started with PowerShell 3.0</b>and <b>Advanced Tools &amp; Scripting with PowerShell 3.0</b>recorded videosare now available on Microsoft Virtual Academy. Links below.
 
 
 I get a lot of questions from my friends and coworkers about PowerShell ... 
@@ -20,7 +20,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 
 
-<a href="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/microsoft-mva__277597002__-460x202.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="140" src="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/microsoft-mva__194022841__-320x141.png" width="320" /></a>
+<a href="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/microsoft-mva__277597002__-460x202.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="microsoft mva" loading="lazy" decoding="async" border="0" height="140" src="{{ site.url }}/images/2013/20130717_PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/microsoft-mva__194022841__-320x141.png" width="320" /></a>
 
 <b>Getting Started with PowerShell 3.0</b>
 <b>When:</b> July 18, 2013 9:00am - 5:00pm (Pacific Time)
@@ -68,8 +68,8 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 <b>About the Instructors</b> 
 
-<a href="https://twitter.com/jsnover" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/2013-07-17_1-01-25_PM.png" /></a>
-<a href="https://twitter.com/theJasonHelmick" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/2013-07-17_1-03-26_PM.png" /></a>
+<a href="https://twitter.com/jsnover" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img alt="Screenshot from &quot;PowerShell - Free Trainings from Microsoft Virtual Academy&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/2013-07-17_1-01-25_PM.png" /></a>
+<a href="https://twitter.com/theJasonHelmick" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img alt="Screenshot from &quot;PowerShell - Free Trainings from Microsoft Virtual Academy&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Free_Trainings_from_Microsoft_Virtual_Academy/2013-07-17_1-03-26_PM.png" /></a>
 
 
 

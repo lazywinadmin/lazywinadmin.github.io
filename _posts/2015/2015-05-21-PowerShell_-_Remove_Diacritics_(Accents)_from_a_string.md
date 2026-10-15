@@ -15,7 +15,7 @@ comments: true
  
 In the last few days, I have been working on a Onboarding automation process that need to handle both French and English and one of the step needed to remove the accents (also knows as Diacritics) from some strings passed by the users.
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell - Remove Diacritics (Accents) from a string" (1)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/aaaaaa-diacritics__873671977__-496x135.png
 {% endcapture %}
@@ -30,7 +30,7 @@ The following approach uses <a href="https://msdn.microsoft.com/en-us/library/sy
 
 > **UPDATE (2016/10/10):** Added an example to replace diacritics in multiple files
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell - Remove Diacritics (Accents) from a string" (2)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell__1063375222__-772x258.png
 {% endcapture %}
@@ -109,7 +109,7 @@ This code is available on my [GitHub Repository](https://github.com/lazywinadmin
 
 ## Method #2 (From Marcin Krzanowicz)
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell - Remove Diacritics (Accents) from a string" (3)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150521_PowerShell_-_Remove_Diacritics_(Accents)_from_a_string/Remove_accents_PowerShell2__774601678__-772x178.png
 {% endcapture %}

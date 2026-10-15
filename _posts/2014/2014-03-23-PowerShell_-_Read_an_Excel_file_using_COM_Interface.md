@@ -14,7 +14,7 @@ toc: true
 toc_label: "Table of Content"
 ---
 
-<a href="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
+<a href="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Read an Excel file using COM Interface&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
 
 Here is the sample Excel file I worked with:
 
