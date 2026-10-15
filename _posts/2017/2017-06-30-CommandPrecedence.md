@@ -33,7 +33,7 @@ Assuming the following scenario:
 
 If I call `Get-Process` which result will I see ?
 
-# Code
+## Code
 
 ```powershell
 # MODULE
@@ -58,7 +58,7 @@ function Get-Process {
 
 <br>
 
-# Calling Get-Process
+## Calling Get-Process
 
 Now if I run the following which output will I see ?
 
@@ -85,7 +85,7 @@ Windows PowerShell uses the following precedence order when it runs commands:
 
 <br>
 
-# Qualified name
+## Qualified name
 
 Well what if I don't want to change anything to my script, how can i launch the `Get-Process` function from the module `mymodule.psm1` ?
 
@@ -104,7 +104,7 @@ Microsoft.PowerShell.Management\Get-Process
 <br>
 What about functions ? __You can't use qualified name for functions declared in the session__
 
-## Retrieving the module name
+### Retrieving the module name
 
 But wait, how did you know the exact module name ?
 
@@ -138,7 +138,7 @@ Microsoft.PowerShell.Management
 
 <br>
 
-# Module Prefix
+## Module Prefix
 
 One technique to prevent name conflict with module is to use `Import-Module` with the parameter `-Prefix`.
 
@@ -161,7 +161,7 @@ Module
 ```
 
 <br>
-# More information
+## More information
 
 You'll find more information of this topic in the following link(s)
 * [about_command_precedence](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_command_precedence)

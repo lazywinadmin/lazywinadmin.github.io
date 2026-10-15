@@ -19,7 +19,7 @@ comments: true
 
 
 
-# Uninstalling the Windows 8.1
+## Uninstalling the Windows 8.1
 
 <b><u>Issue</u></b>
 
@@ -97,7 +97,7 @@ Finally I run the command `adksetup.exe /uninstall` and everything uninstall pro
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
-# Installing Windows 10 ADK
+## Installing Windows 10 ADK
 
 <b><u>Issue</u></b>
 

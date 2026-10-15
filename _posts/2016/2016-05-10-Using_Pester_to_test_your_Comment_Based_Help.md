@@ -32,24 +32,24 @@ Evening event organized by Dave Wyatt on Pester.</i>
 <a href="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1621835198__-892x669.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;Using Pester to test your Comment Based Help&quot; (1)" loading="lazy" decoding="async" border="0" height="240" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/IMG_20141104_223150__1783351507__-320x240.jpg" width="320" /></a>
 </center>
 
-# What is Pester ?
+## What is Pester ?
 
 > Pester is a <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behavior-driven development</a> (BDD) based test runner for PowerShell. Pester provides a framework for running Unit Tests to execute and validate PowerShell commands. Pester follows a file naming convention for naming tests to be discovered by pester at test time and a simple set of functions that expose a Testing DSL for isolating, running, evaluating and reporting the results of PowerShell commands.<br><br>
 > Pester tests can execute any command or script that is accessible to a pester test file. This can include functions, Cmdlets, Modules and scripts. Pester can be run in ad hoc style in a console or it can be integrated into the Build scripts of a Continuous Integration system.<br><br>
 >Pester also contains a powerful set of Mocking Functions that allow tests to mimic and mock the functionality of any command inside of a piece of PowerShell code being tested. See Mocking with Pester.
 
-# My first pester
+## My first pester
 
 So I decided that from now on, I'll do my best to deliver tests with any new scripts or modules.
 At first, It won't be perfect for sure but I have to start somewhere....
 
-## Goal
+### Goal
 
 My first goal is to verify the Comment Based Help for each of the functions included in the module [ADSIPs](https://github.com/lazywinadmin/AdsiPS). I want to make sure that I have a description, parameter description and examples.
 
 I easily see this pester test being expanded to test each of the examples defined in my functions.
 
-## Pester Tests
+### Pester Tests
 
 * <b>Synopsis</b> is not Null or Empty
 * <b>Description</b> is not Null or Empty
@@ -151,14 +151,14 @@ We can see that I already missed a couple of things on the first functions teste
 
 <img alt="Pester CommentBasedHelp02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" />
 
-# Other Pester posts
+## Other Pester posts
 
 * <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">Using Pester to test your Comment Based Help</a>
 * <a href="{{ site.url }}/2016/05/using-pester-to-test-your-manifest-file.html" target="_blank">Using Pester to test your Manifest File</a>
 * <a href="{{ site.url }}/2016/08/powershellpester-make-sure-your-comment.html" target="_blank">Make sure your Comment Based Help is not indented</a>
 * <a href="{{ site.url }}/2016/08/powershellpester-make-sure-your.html" target="_blank">Make sure your parameters are separated by an empty line</a>
 
-# Resources
+## Resources
 
 Some great resources out there helped me to get started:
 

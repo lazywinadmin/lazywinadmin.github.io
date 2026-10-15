@@ -49,7 +49,7 @@ Here is an example of content for the CSV File:
 "120.3.3.0/20","Allow","100","test ip4","test ip4","Default"
 ```
 
-# Usage
+## Usage
 
 If you look at the Comment-based help of the script, there are a few mandatory parameters: `-ResourceGroupName`, `-AppServiceName`, `Subscription` which help defined the scope/target of the change. `Path` to provide the CSV file which contain the IP Address Rules.
 
@@ -86,12 +86,12 @@ Script in action:
 ![script output appservice update restrictionip](../../images/2020/2020-07-05-azure_appservice_restrictions_iprules/script_output-appservice-update_restrictionip.png){: loading="lazy" decoding="async"}
 
 
-## Download
+### Download
 
 [Script available on Github](https://github.com/lazywinadmin/PowerShell/tree/master/AZURE-AppService-Update_RestrictionIP).
 
 
-## Resources
+### Resources
 
 * [Microsoft Docs - Azure App Service access restrictions](https://docs.microsoft.com/en-us/azure/app-service/app-service-ip-restrictions)
 * [Microsoft Docs - Azure Web Application Firewall on Azure Application Gateway](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview)

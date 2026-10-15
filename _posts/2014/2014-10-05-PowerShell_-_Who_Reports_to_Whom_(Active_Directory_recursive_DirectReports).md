@@ -26,7 +26,7 @@ Sounds like a mission for PowerShell :)
 </td></tr></tbody></table>
 In the following post, I will use the above diagram as an example to explain how to retrieve the directreports information and show how to find all the "<b><u>in</u></b>direct reports.
 
-# Get-ADDirectReports function
+## Get-ADDirectReports function
 
 Get-ADDirectReports is PowerShell functionusing the ActiveDirectory module to retrieve the directreports property. If the switch parameter <u><b>-Recurse</b></u> is used, It will report all the <b><u>in</u></b>directreports users under the <u><b>-Identity</b></u>account specified.
 
@@ -42,7 +42,7 @@ Get-ADDirectReports -Identity Test_director -Recurse
 
 <a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Get-ADDirectReport__1896028255__-692x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADDirectReport" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Get-ADDirectReport__1896028255__-692x454.png" /></a>
 
-# Retrieving the DirectReport Property
+## Retrieving the DirectReport Property
 
 Using the MMC Active Directory Users and Computers, this property in under the Organization tab of a user object. For example, here is the information for the Director
 
@@ -66,7 +66,7 @@ Get-ADUser -Identity test_managerA -Properties directreports | Select-Object -Ex
 
 <a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/ManagerA_ManagerB_directreports_powershell_02__454327956__-692x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img alt="ManagerA ManagerB directreports powershell 02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/ManagerA_ManagerB_directreports_powershell_02__454327956__-692x454.png" /></a>
 
-# Translating the output
+## Translating the output
 
 We can notice that all the values returned are DistinguishedName. You'll need to do some extra work to get more information on those accounts. For example let's say you only want the SamAccountName and Mail properties:
 
@@ -80,7 +80,7 @@ Get-ADUser -Identity test_director -Properties directreports |
 <a href="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_SamAccountName_mail__1578705780__-692x220.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Director directreports powershell SamAccountName mail" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141005_PowerShell_-_Who_Reports_to_Whom_(Active_Directory_recursive_DirectReports)/Director_directreports_powershell_SamAccountName_mail__1578705780__-692x220.png" /></a>
 
 
-# Recursive DirectReport
+## Recursive DirectReport
 
 We can now create a small function to loop each time some directreports object are found...
 
@@ -107,13 +107,13 @@ As a final step we want a flexible function who can return DirectReports and Ind
 
 The full version is available below :-)
 
-# Download
+## Download
 
 * <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-USER-Get-ADDirectReport" target="_blank">Technet Gallery</a>
 * <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-USER-Get-ADDirectReport" target="_blank">GitHub</a>
 
 
-# Extra: Wildcard search
+## Extra: Wildcard search
 
 Someone asked in comment how to do a wildcard search when specifying the `-SamAccountName`
 

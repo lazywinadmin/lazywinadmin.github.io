@@ -26,9 +26,9 @@ So I wrote a tiny script to report any expiring user accounts and send it to the
 [ReportExample]: {{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Example__1621226184__-951x506.png
 ![Report Example][ReportExample]
 
-# How does this work ?
+## How does this work ?
 
-## Summary
+### Summary
 
 This script that will retrieve all the users under a specified Organizational Unit and look for any expiring account in the time span specified (by default I set it to 10 days).
 
@@ -36,18 +36,18 @@ If some accounts are found, the script will generate a HTML report and send it v
 
 You will also need to create a scheduled task to run the script at the specific frequency, in my case it runs every Monday at 6 am.
 
-## Step by Step
+### Step by Step
 
 1. Look for user accounts expiring in the next 10 days using the cmdlet [`Search-ADAccount`](https://technet.microsoft.com/en-us/library/hh852292.aspx) (from the Active Directory Module)
 1. If some accounts are found, Continue, else Stop.
 1. Generate a HTML Report,
 1. Send the Report to IT Support team.
 
-## Workflow
+### Workflow
 
 [![Workflow]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)
 
-# Finding Expiring Account
+## Finding Expiring Account
 
 I am using the very neat cmdlet: `Search-ADAccount`. This cmdlet is included with in the Active Directory Module and comes with some very cool parameters.
 
@@ -81,7 +81,7 @@ Search-ADAccount -AccountExpiring -TimeSpan "10.00:00:00"
 
 Ok we got the expiring accounts, now we need to generate a report.
 
-# Creating the report
+## Creating the report
 
 The above output can be easily converted to HTML using the cmdlet `ConvertTo-HTML`, but before we do this, I need to find a nice and simple CSS to make my report looks nice :-)
 
@@ -112,6 +112,6 @@ $body = $Accounts |
 
 The report is ready to be sent!
 
-# Download
+## Download
 
 The script is available on Technet Gallery and <a href="https://github.com/lazywinadmin/PowerShell/blob/master/AD-USER-Report_Expiring_users/AD-USER-Report_Expiring_users.ps1" target="_blank">GitHub</a>

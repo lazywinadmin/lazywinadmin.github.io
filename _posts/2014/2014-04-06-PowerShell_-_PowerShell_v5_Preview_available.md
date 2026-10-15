@@ -24,7 +24,7 @@ DownloadWMF v5<a href="http://www.microsoft.com/en-us/download/details.aspx?id=4
 
 
 
-# <b>What's New?</b>
+## <b>What's New?</b>
 
 This preview release brings the following update/features:<ul>
 * <b>Update of PowerShell Desired State Configuration</b>: performance improvements +bug fixes,
@@ -44,7 +44,7 @@ Once installed, <span style="font-family: Courier New, Courier, monospace;">$PSV
 
 
 
-# New Module: NetworkSwitch
+## New Module: NetworkSwitch
 
 I really like what Microsoft is doing ... Interoperability, pushing for a better ecosystem, ... Microsoft is embracing standards-based management to accelerate the process, Windows PowerShell will now allow us to manage Switches very easily. However your switch will need to be "Certified for Windows Program" and able to support CIM /WSMAN standards. Not sure this will be compatible with my lab Switch Cisco SG300-20 but I will investigate :-)<blockquote class="tr_bq"><b>Jeffrey Snover</b> - "<i>In Windows Server 2012 R2, Microsoft worked with the industry and DMTF (Distributed Management Task Force) to standardize the schema and protocol for managing network switches. We published the Windows Server Logo certification program to ensure interoperability. This effort was part of the Data Center Abstraction (DAL) vision which was led by Microsoft working closely with industry leaders in this space such as: Arista, Cisco and Huawei. Using Windows Server 2012 R2, network switches that pass the Certified for Windows program can now be managed natively by System Center Virtual Machine Manager 2012 R2 (SCVMM) without the need to write custom plugins. You can learn more here</i><i>In July of 2013 we published the blog DAL in action: Managing network switches using PowerShell and CIM which described how to manage the network switch via PowerShell by using the CIM cmdlets.</i><i>In this release, we have added a set of L2 Layer NetworkSwitch management PowerShell cmdlets to manage Certified for Windows network switches.</i>" <a href="http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx" target="_blank">Source</a></blockquote>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/IC666259__278754328__-557x313.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - PowerShell v5 'Preview' available&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/IC666259__278754328__-557x313.jpg" height="223" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Datacenter Abstraction Layer (DAL) Overview - <a href="http://technet.microsoft.com/en-us/library/dn265975.aspx" target="_blank">Technet</a></td></tr></tbody></table>
@@ -85,7 +85,7 @@ Function        Set-NetworkSwitchVlanProperty                      NetworkSwitch
 ```
 
 
-# New Module: Windows PowerShell OneGet
+## New Module: Windows PowerShell OneGet
 
 The coolest news in my opinion is the module OneGet which allow you to install and uninstall packages.<blockquote class="tr_bq"><b>Jeffrey Snover</b> - "... <i>introduces Windows PowerShell OneGet to dramatically simplify finding and installing software on your machines. OneGet works with the community-based software repository called Chocolatey which has over 1,700 unique software packages. Step by step, we are delivering the technologies you need to simplify creating and operating your computing environment..</i>." <a href="http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx" target="_blank">Source</a></blockquote>
 Here is a list of the cmdlets available to us

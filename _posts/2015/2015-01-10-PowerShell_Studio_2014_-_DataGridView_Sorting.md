@@ -23,7 +23,7 @@ In this example, I'm using PowerShell Studio 2014 from SAPIEN, you can download 
 
 
 
-# How to sort DataGridView ?
+## How to sort DataGridView ?
 
 Using PowerShell Studio 2014, let's create a simple GUI and add a DataGridView control
 
@@ -43,7 +43,7 @@ If you try to launch the tool, you'll see the following. At this point we can't 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/2014-12-02_21-24-47__138122398__-394x480.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell Studio 2014 - DataGridView Sorting&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150110_PowerShell_Studio_2014_-_DataGridView_Sorting/2014-12-02_21-24-47__138122398__-394x480.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Basic GUI</td></tr></tbody></table>
 
-# Converting to a Database object
+## Converting to a Database object
 
 One of the requirement to allow the sorting feature is to convert the PowerShell Object to a [System.Data.Datatable] object.
 
@@ -69,7 +69,7 @@ $form1_Load = {
 
 
 
-# Add an event ColumnHeaderMouseClick
+## Add an event ColumnHeaderMouseClick
 
 
 <b><u>
@@ -102,7 +102,7 @@ $datagridview1_ColumnHeaderMouseClick=[System.Windows.Forms.DataGridViewCellMous
 
 
 
-# Sorting in action
+## Sorting in action
 
 Now let's run the tool again and click on "Name" a couple of times for example, It will sort on this property.
 
@@ -110,7 +110,7 @@ Now let's run the tool again and click on "Name" a couple of times for example, 
 
 
 
-# Code Example
+## Code Example
 
 Finally, the code is available on <b><a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_ColumnHeader_Sorting" target="_blank">GitHub</a></b> or <b><a href="https://web.archive.org/web/20210121115031/https://gallery.technet.microsoft.com/Winforms-DataGridView-28f9b521" target="_blank">Technet Gallery</a></b>
 

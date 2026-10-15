@@ -22,22 +22,22 @@ I did not play much with this new feature but I plan to invest more time into it
 
 <b><u style="background-color: yellow;">UPDATE:</u></b> Videos are now available, see links below
 
-# What is Desired State Configuration ?
+## What is Desired State Configuration ?
 
 > DSC is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.
 > DSC provides a set of Windows PowerShell language extensions, new Windows PowerShell cmdlets, and resources that you can use to declaratively specify how you want your software environment to be configured. It also provides a means to maintain and manage existing configurations.
 > <u>Source:</u> <a href="https://technet.microsoft.com/en-ca/library/dn249912.aspx" target="_blank">Technet</a>
 
-# Events details
+## Events details
 
-## Getting Started with PowerShell Desired State Configuration (DSC)
+### Getting Started with PowerShell Desired State Configuration (DSC)
 
 * When: February 25, 2015 9am-5pm PST
 * Video:[http://channel9.msdn.com/Series/Getting-Started-with-PowerShell-Desired-State-Configuration-DSC](http://channel9.msdn.com/Series/Getting-Started-with-PowerShell-Desired-State-Configuration-DSC)
 
 Are you keeping up with PowerShell Desired State Configuration (DSC)? It's one of the fastest-moving technologies today. But more than that, it literally transforms how IT Implementers deploy and manage on-premises resources and those extended to the cloud for both Windows and Linux environments. Get a solid foundation with this course
 
-### Course Outline
+#### Course Outline
 
 * Getting Ready for DSC
 * Performing a Push Deployment
@@ -47,7 +47,7 @@ Are you keeping up with PowerShell Desired State Configuration (DSC)? It's one o
 * Writing Better Configurations
 * DSC and Linux
 
-## Advanced PowerShell Desired State Configuration (DSC) and Custom Resources
+### Advanced PowerShell Desired State Configuration (DSC) and Custom Resources
 
 * When: February 26, 2015 9am-5pm PST
 * Video: [http://www.microsoftvirtualacademy.com/liveevents/advanced-powershell-desired-state-configuration-dsc-and-custom-resources](http://www.microsoftvirtualacademy.com/liveevents/advanced-powershell-desired-state-configuration-dsc-and-custom-resources)
@@ -56,7 +56,7 @@ Are you familiar with the basics of PowerShell Desired State Configuration? Read
 
 Explore implementation and testing of custom resources, along with packaging and deployment. Learn to build composite resources, and take a look at reusable, nested, and partial configurations. Get the skills and information you need to declaratively specify how you want your software environment to be configured, and maintain and manage existing configurations in an automated way.
 
-### Course Outline
+#### Course Outline
 
 * Getting Ready for DSC Custom Resources
 * Implementing and Testing
@@ -66,7 +66,7 @@ Explore implementation and testing of custom resources, along with packaging and
 * Building Composite Resources
 * Advanced Configurations
 
-# Other DSC Resources
+## Other DSC Resources
 
 * Book: <a href="http://www.amazon.ca/Windows-PowerShell-Desired-Configuration-Revealed/dp/1484200179/ref=sr_1_1?ie=UTF8&amp;qid=1424832513&amp;sr=8-1&amp;keywords=windows+powershell+desired+state" target="_blank">Windows PowerShell Desired State Configuration Revealed</a> by <a href="http://www.ravichaganti.com/blog/" target="_blank">Ravikanth Chaganti</a>
 * Book: <a href="https://www.penflip.com/powershellorg/the-dsc-book" target="_blank">DSC Book</a> by PowerShell.org

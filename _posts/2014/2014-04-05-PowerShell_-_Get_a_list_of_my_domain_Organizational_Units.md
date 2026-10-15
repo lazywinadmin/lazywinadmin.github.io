@@ -21,7 +21,7 @@ classes: wide
 
 In the following examples two methods to retrieve the information using<b>Active Directory</b> and <b>ADSI/NET</b>.
 
-## Active Directory Module
+### Active Directory Module
 
 I found two ways to get this information using this module
 
@@ -46,7 +46,7 @@ Get-Command -Module ActiveDirectory -Name *OrganizationalUnit*
 
 ![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png)
 
-## Get-ADOrganizationalUnit
+### Get-ADOrganizationalUnit
 
 The Get-ADOrganizational unit cmdlet gets an organizational unit object or performs a search to retrieve multiple organizational units.
 
@@ -141,7 +141,7 @@ FX.LAB/Winter Scripting Games 2014/Event3/Finance Department
 
 ```
 
-# Get-ADObject
+## Get-ADObject
 
 The `Get-ADObject` cmdlet gets an Active Directory object or performs a search to retrieve multiple objects.
 
@@ -180,7 +180,7 @@ FX.LAB/Winter Scripting Games 2014/Event3/Finance Department
 
 ```
 
-# ADSI/NET
+## ADSI/NET
 
 Finally, the ADSI method! This technique is a bit more complex, but this does not require any module/snapin and can be run from PowerShell without any pre-requisites.
 

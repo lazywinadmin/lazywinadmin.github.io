@@ -19,7 +19,7 @@ I created a small function called `Get-ADGPOReplication` to easily compare the v
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Get-ADGPOReplication_OutGridView__788289059__-777x301.png" imageanchor="1" style="margin-left: auto; margin-right: auto; text-align: center;"><img alt="Get ADGPOReplication OutGridView" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/Get-ADGPOReplication_OutGridView__788289059__-777x301.png" height="153" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Get-ADGPOReplication sent to Out-Gridview</td></tr></tbody></table>
 
-# Retrieving the GPO Version and SysVol Version
+## Retrieving the GPO Version and SysVol Version
 
 As you probably know, you'll find 2 types of configurations inside each GPO: User and Computer.
 The Cmdlet [`Get-GPO`](http://technet.microsoft.com/en-us/library/ee461059.aspx) (From the module [GroupPolicy](http://technet.microsoft.com/en-us/library/ee461027.aspx)) give us some great details on the versions number and the SysVol versions of those configurations.
@@ -55,7 +55,7 @@ Same information is available for the User Configuration.
 
 <a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/User_Computer_GetMember__1676378068__-772x398.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="User Computer GetMember" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/User_Computer_GetMember__1676378068__-772x398.png" /></a>
 
-# Function Get-ADGPOReplication
+## Function Get-ADGPOReplication
 
 `Get-ADGPOReplication` is retrieving the GPO version and Sysvol version accross the domain for one or more Group Policy objects. This can especially helps you troubleshooting replication issues.
 

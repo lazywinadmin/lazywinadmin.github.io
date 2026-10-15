@@ -10,38 +10,38 @@ toc_sticky: true
 **Last update:** 2019/05/03 - Update markdown :thumbsup:
 {: .notice--info}
 
-# PowerShell
+## PowerShell
 
-## Language
+### Language
 
   * [Practices and Styles](https://github.com/PoshCode/PowerShellPracticeAndStyle)
   * [Traps](https://github.com/nightroman/PowerShellTraps)
 
-## Templates
+### Templates
 
   * [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder)
   * [Stucko](https://github.com/devblackops/Stucco)
   * [Plaster](https://github.com/PowerShell/Plaster)
 
-## Continuous Integration / Continous Deployment
+### Continuous Integration / Continous Deployment
 
   * [InvokeBuild](https://github.com/nightroman/Invoke-Build)
   * [PsSake](https://github.com/psake/psake)
   * [PsDepend](https://github.com/RamblingCookieMonster/PSDepend)
 
-## Ebooks
+### Ebooks
 
   * [PowerShell.org Ebooks](https://www.penflip.com/powershellorg)
   * [PowerShell.com Monthly PowerTips Ebooks](http://powershell.com/cs/media/28/default.aspx)
 
-## Blogs/References/Resources
+### Blogs/References/Resources
   * [Windows PowerShell Language Specification Version 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=9706)
   * [Windows PowerShell Language Specification Version 3.0](http://www.microsoft.com/en-ca/download/details.aspx?id=36389)
   * [Windows PowerShell 4.0 and Other Quick Reference Guides](http://www.microsoft.com/en-us/download/details.aspx?id=42554)
   * [PowerShell.org Free Ebooks](http://powershell.org/wp/ebooks/)
   * [Windows PowerShell Survival Guide](http://social.technet.microsoft.com/wiki/contents/articles/183.windows-powershell-survival-guide.aspx)
 
-##  Useful Modules
+###  Useful Modules
 
   * [PSReadLine](https://github.com/lzybkr/PSReadLine) (PowerShell Module)- Syntax Highlighter for PowerShell
   * [PSharp](https://github.com/dfinke/PSharp) (PowerShell ISE Addon)
@@ -55,7 +55,7 @@ toc_sticky: true
   * [ScsmPx](https://github.com/KirkMunro/ScsmPx/releases) (SCSM Module)
   * [Local Account Management Module](https://gallery.technet.microsoft.com/scriptcenter/Local-Account-Management-a777191b)
 
-## Useful script & tools
+### Useful script & tools
 
   * [Show-Object](http://www.powershellcookbook.com/recipe/bpqU/program-interactively-view-and-explore-objects) (Lee Holmes)
   * [Start-Demo](http://blogs.msdn.com/b/powershell/archive/2007/06/03/new-and-improved-start-demo.aspx) (very useful for presentation)
@@ -67,7 +67,7 @@ toc_sticky: true
   * [ConvertFrom-String Buddy](https://gist.github.com/dfinke/7b8197a2d8f914749f20)
   * [ILSpy](http://ilspy.net/)
 
-## Websites
+### Websites
 
   * [PowerShell on UserVoice](http://windowsserver.uservoice.com/forums/301869-powershell/) (reporting bugs)
   * [Powershell.com](http://powershell.com/cs/blogs/tips/default.aspx?Sort=MostViewed&amp;PageIndex=1)
@@ -79,12 +79,12 @@ toc_sticky: true
   * [PoshCode.org](http://poshcode.org/)
   * [Pinvoke.net](http://www.pinvoke.net/) See also the [How to](http://www.leeholmes.com/blog/2009/01/19/powershell-pinvoke-walkthrough/) by Lee Holmes)
 
-## Desired State Configuration (DSC)
+### Desired State Configuration (DSC)
 
   * [Getting Started with PowerShell Desired State Configuration (DSC)](http://channel9.msdn.com/Series/Getting-Started-with-PowerShell-Desired-State-Configuration-DSC) (2015/01)
   * [Advanced PowerShell Desired State Configuration (DSC) and Custom Resources](https://channel9.msdn.com/Series/Advanced-PowerShell-Desired-State-Configuration-DSC-and-Custom-Resources) (2015/01)
 
-## Videos
+### Videos
 
 * Microsoft Virtual Academy
   * [Getting Started with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-3-0-jump-start) (2013/07)
@@ -147,7 +147,7 @@ toc_sticky: true
   * [Turn Command-Line Tools into PowerShell Tools - Jeffery Hicks (2012/03/29)](http://youtu.be/MmGACEX2y3s)
   * [Defcon 21 - PowerPwning: Post-Exploiting By Overpowering PowerShell - Joseph Bialek (2013/11/16)](https://www.youtube.com/watch?v=OAd68_SYQc8)
 
-#  System Center Configuration Manager (SCCM/ConfigMgr)
+##  System Center Configuration Manager (SCCM/ConfigMgr)
 
 * [Technet - Developper Network - Configuration Manager Reference](http://msdn.microsoft.com/en-us/library/hh948405.aspx)
 * [System Center 2012 R2 Configuration Manager Toolkit SDK Released](http://blogs.technet.com/b/configmgr_geek_speak/archive/2013/12/07/system-center-2012-r2-configuration-manager-toolkit-released.aspx)
@@ -156,11 +156,11 @@ toc_sticky: true
 * [Configuration Manager 2012 R2 Developer Excel Sheet](http://cm12sdk.net/?p=2326)
 * [SCCM 2012 SQL Views Documentation](http://eskonr.com/2013/04/download-sccm-2012-sql-views-documentation/)
 
-# Active Directory
+## Active Directory
 
 * [Using PowerShell for Active Directory (2014/11)](http://www.microsoftvirtualacademy.com/training-courses/using-powershell-for-active-directory)
 
-# Tools
+## Tools
 
 * [Sydi](http://sydiproject.com/download/) SYDI Network Documentation  made easy (VBS script) SYDI-Server v.2.3 Server is a tool for documenting Windows computers
 * [vCheck](http://www.virtu-al.net/vcheck-pluginsheaders/vcheck/) is a PowerShell HTML framework script, the script is designed to run as a scheduled task before you get into the office to present you with key information via an email directly to your inbox in a nice easily readable format.
@@ -188,7 +188,7 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
 * [Veeam FastSCP](http://www.veeam.com/vmware-esxi-fastscp.html) - Fast Copy between ESX host
 * [PuttyTray](https://puttytray.goeswhere.com/) - PuTTY Tray is an improved version of PuTTY. It features some cosmetic changes, and a number of addons to make it more useful and much more fun to use.
 
-## Online Tools
+### Online Tools
 
 * Automation
   * [IFTTT.com]
@@ -211,6 +211,6 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
   * [Learn Linux the hard way](http://nixsrv.com/llthw)
   * [Coursera](https://www.coursera.org/)
 
-# Music
+## Music
 
 * [Codingmusic](/codingmusic.html)

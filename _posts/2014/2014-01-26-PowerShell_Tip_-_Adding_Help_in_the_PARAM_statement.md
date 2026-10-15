@@ -20,7 +20,7 @@ comments: true
 With PowerShell adding help to your script, function and module is a really easy thing to do.
 
 
-# Help in the PARAM statements
+## Help in the PARAM statements
 
 
 A very cool way to add some help to your script parameters is to add comments within the <b>PARAM</b> statement block. With this method you do not need to write a <span style="font-family: Courier New, Courier, monospace;"><b>.PARAMETER</b>directive for each paremeters. However you are required to write at least one directive in the Comment Based Help block (<span style="font-family: Courier New, Courier, monospace;"><b>.SYNOPSIS</b>or <span style="font-family: Courier New, Courier, monospace;"><b>.DESCRIPTION</b>) to be able to use it.

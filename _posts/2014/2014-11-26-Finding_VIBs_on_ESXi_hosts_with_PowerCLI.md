@@ -60,6 +60,6 @@ Get-VMHost | Where-Object { $_.ConnectionState -eq "Connected" } | Foreach-Objec
 } | Out-GridView
 ```
 
-# Script Version
+## Script Version
 
 I also wrote a more complete version <a href="https://github.com/lazywinadmin/PowerShell/tree/master/VMWARE-HOST-List_VIB" target="_blank">available on Github</a>

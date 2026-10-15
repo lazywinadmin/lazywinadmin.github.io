@@ -21,7 +21,7 @@ Once this report is generated, you might want to check with your Telecom guy/tea
 
 Today I will show how to add those missing subnets in your Active Directory using PowerShell on Windows Server 2012 and Previous versions via ADSI.
 
-# Using ADSI
+## Using ADSI
 
 <i style="background-color: yellow;">Applies To: Windows XP or higher, Windows PowerShell 2.0 or higher, Windows Server 2003 or higher.</i>
 
@@ -72,7 +72,7 @@ PROCESS{
 * [Download on TechNet Gallery](https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI))
 * [Download from Github (CSV and PS1)](https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI))
 
-# Adding one subnet
+## Adding one subnet
 
 ```powershell
 PS C:\LazyWinAdmin> Add-ADSubnet -Subnet '192.168.10.0/24' -SiteName 'MTL1' -Verbose
@@ -84,7 +84,7 @@ VERBOSE: 192.168.10.0/24 - Subnet added.
 VERBOSE: Script Completed
 ```
 
-# Adding a bunch of subnets from a CSV file
+## Adding a bunch of subnets from a CSV file
 
 We have the following CSV file with a few subnets to add, we can use Import-CSV to create all the subnet at once.
 <a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM_s1600.png" /></a>
@@ -119,17 +119,17 @@ The parameters of my function *Name*, *Location*, *Site* and *Description* will 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-11_12-22-31_AM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-11_12-22-31_AM_s1600.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Management Console: Active Directory Sites and Services. We can see the
 subnets created.</td></tr></tbody></table>
 
-# Download the function
+## Download the function
 
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">TechNet Gallery</a>
 <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet(ADSI)" target="_blank">Github (CSV and PS1)</a>
 
-# Using the new cmdlets in ActiveDirectory module
+## Using the new cmdlets in ActiveDirectory module
 
 <i style="background-color: yellow;">Applies To: Windows 8.1, Windows PowerShell 4.0, Windows Server 2012 R2</i><i>
 </i>
 
-# Finding related cmdlets
+## Finding related cmdlets
 
 ```powershell
 PS C:\LazyWinAdmin> get-command *subnet*
@@ -144,7 +144,7 @@ Cmdlet          Remove-ADReplicationSubnet                         ActiveDirecto
 Cmdlet          Set-ADReplicationSubnet                            ActiveDirectory
 ```
 
-# Get the current subnets
+## Get the current subnets
 
 ```powershell
 PS C:\LazyWinAdmin> Get-ADReplicationSubnet -Filter *
@@ -167,7 +167,7 @@ Site              : CN=MTL1,CN=Sites,CN=Configuration,DC=FX,DC=LAB
 
 ```
 
-# Adding a New subnet
+## Adding a New subnet
 
 ```powershell
 PS C:\LazyWinAdmin> New-ADReplicationSubnet -Name '10.0.0.0/22' -site 'FX3' -Location 'Europe' -PassThru
@@ -182,7 +182,7 @@ ObjectGUID        : b88d7b53-fa96-4454-8978-13ab032a0a16
 Site              : CN=FX3,CN=Sites,CN=Configuration,DC=FX,DC=LAB
 ```
 
-# Adding a bunch of subnets
+## Adding a bunch of subnets
 
 We re-use the same file used in the ADSI example (above) with a few subnets to add:
 <a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM_s1600.png" /></a>

@@ -27,7 +27,7 @@ In this post, I will talk about the last part of this process and how I combine 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/Drawing1__1917794308__-1600x806.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Drawing1" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/Drawing1__1917794308__-1600x806.png" height="321" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
 </td></tr></tbody></table>
 
-# Example of daily report
+## Example of daily report
 
 
 Here is a sample of daily CSV file result after the parsing has done its job:
@@ -39,7 +39,7 @@ So at the end of the month I have a bunch of CSV files that were generated durin
 
 
 
-# One-Liner Magic!
+## One-Liner Magic!
 
 
 To calculate the Sum of each domains for each months I can simply use the following One-Liner:
@@ -64,7 +64,7 @@ Get-ChildItem -Path .\*.csv | # Get each CSV files
 
 <a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-27-49__1938572579__-338x402.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Sum similar entries from multiple CSV files&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_16-27-49__1938572579__-338x402.png" /></a>
 
-# Step by Step
+## Step by Step
 
 
 

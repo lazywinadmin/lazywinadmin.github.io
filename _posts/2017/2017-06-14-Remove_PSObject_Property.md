@@ -25,7 +25,7 @@ Someone at work was recently asking me about the following: <i>How to remove a p
 
 Here is how you can achieve that.
 <br><br>
-# Create a PowerShell Object
+## Create a PowerShell Object
 ```powershell
 $MyObject = New-Object -Typename PSCustomObject -Property @{
     ComputerName = $env:ComputerName
@@ -43,7 +43,7 @@ DESKTOP-HPHHRC5 My Computer 00:11:22:33:44:55
 ```
 <br>
 
-# Remove the property
+## Remove the property
 
 ```powershell
 $MyObject.PSObject.properties.remove('Description')

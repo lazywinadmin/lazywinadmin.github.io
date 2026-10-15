@@ -29,7 +29,7 @@ I did not get a chance to play with package, installer and deployment options, s
 <a href="{{ site.url }}/images/2014/PowerShell_Studio_2014_from_Sapien_released/2014-03-15_10-16-06_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 2 from the post &quot;PowerShell Studio 2014 from Sapien released!&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Studio_2014_from_Sapien_released/2014-03-15_10-16-06_PM.png" /></a>
 
 
-# What's New ? 
+## What's New ? 
 
 Below I listed the new options/tools/features that I noticed.
 

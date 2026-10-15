@@ -30,7 +30,7 @@ In this example I will use the parameter '<b><u>-n</u></b>' which displays activ
 
 
 
-# Parse this
+## Parse this
 
 
 Before we start to write code, we need to :
@@ -46,7 +46,7 @@ Before we start to write code, we need to :
 <a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 3 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-12_23-36-07__1572039118__-691x371.png" /></a>
 
 
-# Getting the Data
+## Getting the Data
 
 In this example we see that all the data we need is below the first 4 lines... until the last line.
 How to remove the first 4 lines ? How to get the total count of lines ? How to get a range of lines ?
@@ -74,7 +74,7 @@ $data[4..$data.count]
 
 
 
-# Defining the separator
+## Defining the separator
 
 We have the data ready to be parse, next we need to separate the different properties.
 Those properties are separated by spaces (also called whitespace characters). Regular expression (regex) can help us for this task. I'm using <a href="http://regexpal.com/" target="_blank">regexpal</a> to show the matches.
@@ -94,7 +94,7 @@ The <b>^</b> sign means that we are looking at the very beginning of the line.
 Let's test the split in PowerShell:
 
 <a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-13-27__200921306__-772x398.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 8 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-13-27__200921306__-772x398.png" /></a>
-# Defining your properties
+## Defining your properties
 
 
 Now we can loop through each lines and output our properties using the new-object Cmdlet.

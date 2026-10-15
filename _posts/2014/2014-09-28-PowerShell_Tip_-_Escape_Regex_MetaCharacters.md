@@ -32,7 +32,7 @@ Straight forward you would think! And at first I was surprised to see the result
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/string_match_string__1798984695__-692x170.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="string match string" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/string_match_string__1798984695__-692x170.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">What !?</td></tr></tbody></table>
 After taking another golp of coffee... I realized that the match operator was interpreting the `:`,`[` and `]` as regex metacharacters.
 
-# Using BackSlash character to ignore metacharacters
+## Using BackSlash character to ignore metacharacters
 
 I could easily escape those characters by placing a backslash `\` character to ignore those
 
@@ -46,7 +46,7 @@ $String1 -match $String2
 <a href="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/2014-09-29_21-40-22__1259397774__-692x170.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Tip - Escape Regex MetaCharacters&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140928_PowerShell_Tip_-_Escape_Regex_MetaCharacters/2014-09-29_21-40-22__1259397774__-692x170.png" /></a>
 
 
-# Using the [Regex]::Escape() method
+## Using the [Regex]::Escape() method
 
 Since my script might received very different type of text inputs with some other metacharacters, another technique is to use the method ESCAPE() that comes with the <a href="http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.regex(v=vs.110).aspx" target="_blank">System.Text.RegularExpressions.Regex</a> class, we can use the [regex] accelerator type to call it.
 

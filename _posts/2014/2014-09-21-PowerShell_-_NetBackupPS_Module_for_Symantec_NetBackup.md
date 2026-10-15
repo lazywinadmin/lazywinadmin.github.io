@@ -25,7 +25,7 @@ I wanted to parse the output and be able to reuse the information for other comm
 
 
 
-# Module NetBackupPS
+## Module NetBackupPS
 
 The module contains a few Cmdlets which are focus on reporting information from the system.
 I still have some materials to work on but unfortunately,I don't have access to NetBackup anymore so I can't really test further from this point on.
