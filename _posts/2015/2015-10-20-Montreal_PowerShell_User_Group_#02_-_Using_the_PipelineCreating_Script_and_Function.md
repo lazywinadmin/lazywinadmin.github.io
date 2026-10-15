@@ -25,11 +25,11 @@ Both presentations will be presented by User Groups members: Martin Lebel and Ga
 
 Hope to see you there! Free Pizza, Pop Corn and some games/movies to win!
 
-# When
+## When
 
 Tuesday, 27th of October 2015 from 6:00pm to 9:00pm
 
-# Agenda
+## Agenda
 
 * 6:00pm - Doors open, Introduction of the User Group, Chat with the audience, Pizza and PopCorn
 * 6:30pm - Welcome message
@@ -39,15 +39,15 @@ Tuesday, 27th of October 2015 from 6:00pm to 9:00pm
 * 8:15pm - Discussion, ideas of topics for the next meeting and Participant prize draw.
 * 8:30pm - End
 
-# Where
+## Where
 
 <a href="https://www.google.ca/maps/place/WB+Games+Montr%C3%A9al/@45.5165241,-73.5612371,17z/data=!3m1!4b1!4m2!3m1!1s0x4cc91bb2589124bb:0x25949bac8df91a78" target="_blank">Warner Brothers Games - 888 Maisonneuve Est</a> - 6th Floor
 Room: Jack Warner (In front of elevators)
 
-# Participant prize draw
+## Participant prize draw
 We will have a draw at the end of the meeting (A couple of Games/Movies) We'll use `Get-Random` of course ;-)
 
-# Sponsors
+## Sponsors
 
 We would like to thank our sponsors for their support:
 
@@ -59,6 +59,6 @@ We would like to thank our sponsors for their support:
 <a href="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/WB_Games_Montreal_logo__347989734__-240x320.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="WB Games Montreal logo" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20151020_Montreal_PowerShell_User_Group_%2302_-_Using_the_PipelineCreating_Script_and_Function/WB_Games_Montreal_logo__347989734__-240x320.png" height="200" width="150" /></a>
 
 
-# RSVP/Register and more info
+## RSVP/Register and more info
 
 <a href="http://www.meetup.com/MontrealPowerShellUserGroup/events/225690798/" target="_blank">http://www.meetup.com/MontrealPowerShellUserGroup/events/225690798/</a></b>

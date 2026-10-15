@@ -24,11 +24,11 @@ Today I will share with you a script that report the Missing Subnets detected in
 **Update** See [my Github repository](https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1) for the most recent version
 {: .notice--info}
 
-# Missing Subnets
+## Missing Subnets
 
 When a computer is joined to a domain It knows for sure of which AD domain it is a member. However once the computer is joined to the domain, It may or may not know which AD site it belongs to. Even if it thinks it knows the AD site, it may not even be in the correct AD site (e.g. because it was moved, AD site was renamed, Subnet not declared, Subnet was removed from a site and add to another...etc.).
 
-## Fixing this issue
+### Fixing this issue
 
 In the Active Directory Sites and Services console, your need to associate create all of your subnets inthese subnets with the appropriate site(s). It is important to note that with Windows Server 2012 R2 some new cmdlets are available with the Active Directory module to manage the Site subnets:
 
@@ -37,7 +37,7 @@ In the Active Directory Sites and Services console, your need to associate creat
 * [Set-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852195.aspx)
 * [Remove-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852303.aspx)
 
-# NETLOGON.log
+## NETLOGON.log
 
 If some subnets are not declared in your Active Directory and/or not assigned to Site, you might start to see those kind of message in your NetLogon.log file.
 
@@ -55,13 +55,13 @@ Path of the NETLOGON.log file on a Domain Controller:
 
 A NetLogon.log exists on all the Domain Controllers of your domain, so you need to check every single of them to have the full list of subnets to add.
 
-# PowerShell Reporting
+## PowerShell Reporting
 
 So I created a PowerShell script to handle this task and report all the Missing subnets automatically (every month in my case). Here is a screenshot of the final report. In my opinion, this does not need to run everyday or every week.
 
 ![image-center]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-15_12-33-20_AM.png){: .align-center}
 
-# How the script work
+## How the script work
 
 ![image-center](/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.webp){: .align-center}
 
@@ -79,13 +79,13 @@ So I created a PowerShell script to handle this task and report all the Missing 
 
 ![image-center]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-20_9-36-27_PM.png){: .align-center}
 
-# Requirement
+## Requirement
 
 1. A Task scheduler to execute the script every x weeks
 1. Permission to Read `\\DC\admin$`, a basic account without specific rights will do it
 1. Permission to write locally in the Output folder ($ScriptPath\Output)
 
-# Running the script
+## Running the script
 
 ```powershell
 PS C:\User\Francois-Xavier> ./TOOL-AD-SITE-Report_Missing_Subnets.ps1 -Verbose -EmailServer mail.fx.lab -EmailTo "catfx@fx.lab" -EmailFrom Reporting@fx.lab -EmailSubject "AD - MIssing Subnets"
@@ -112,7 +112,7 @@ VERBOSE: Script Completed
 
 This will generate the report inserted at the beginning of this article.
 
-## Validating the Email Addresses
+### Validating the Email Addresses
 
 ```powershell
 [Parameter(Mandatory=$true,HelpMessage="You must specify the Sender Email Address")]
@@ -127,7 +127,7 @@ For the email addresses validation, at first I wanted to use the `[mailaddress]`
 
 Note that I also use the `[ValidatePattern]` attribute declaration, which is super useful! Jeffery Hicks wrote [a great article](http://jdhitsolutions.com/blog/2012/04/powershell-scripting-with-validatepattern) about it last year.
 
-## Gathering the info from Netlogon.log files
+### Gathering the info from Netlogon.log files
 
 ```powershell
 # NETLOGON.LOG path for the current Domain Controller
@@ -150,7 +150,7 @@ IF ((Test-Path -Path $path) -and ((Get-Item -Path $path).Length -ne $null))
 }ELSE{Write-Warning -Message "$DCName NETLOGON.log is not reachable"}
 ```
 
-## Combining the logs
+### Combining the logs
 
 ```powershell
 # Combine all the TXT file in one
@@ -170,7 +170,7 @@ if ($FilesToCombine){
     Write-Verbose -Message "Other Error(s) Found: $($OtherErrors.count)"
 ```
 
-## Comment based Help
+### Comment based Help
 
 ```powershell
 PS C:\LazyWinAdmin> Get-help .\AD-Find_missing_subnets_in_ActiveDirectory.ps1 -full
@@ -299,12 +299,12 @@ NOTES
 RELATED LINKS
 ```
 
-# Download
+## Download
 
 * [Technet](https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Find_Missing_Subnets)
 * [Github Repository (Most updated version)](https://github.com/lazywinadmin/PowerShell/blob/master/AD-SITE-Find_Missing_Subnets/AD-Find_missing_subnets_in_ActiveDirectory.ps1)
 
-# Resources
+## Resources
 
 * [TechNet -Get-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852246.aspx)
 * [TechNet - New-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852206.aspx)

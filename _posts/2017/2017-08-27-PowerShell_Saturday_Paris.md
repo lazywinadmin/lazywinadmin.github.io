@@ -31,14 +31,14 @@ L'événement est gratuit et nous avons 6 présentations de planifier. (merci à
 
 Vraiment hate de voir tout le monde! 😀 (en esperant ne pas etre trop affecter par le decalage 😪)
 
-# Inscription
+## Inscription
 
 Voici le lien si vous désirez assister au meeting: [S'INSCRIRE AU POWERSHELL SATURDAY](https://www.meetup.com/fr-FR/FrenchPSUG/events/239169341/)
 **Pour des raison de logistique SVP inscrivez-vous uniquement si vous avez la certitude d'y assister.**
 
 Il ne reste que 6 places 😄 !!!
 
-# Agenda
+## Agenda
 L'agenda comporte 6 sessions, chaque présentation ayant une durée d'environ 45 minutes, 10 minutes réservé au questions, 5 de pause.
 
 Heure | Speaker | Description
@@ -54,11 +54,11 @@ Heure | Speaker | Description
 16h00 | **Florent Appointaire** | Azure Automation: Pourquoi l'adopter en entreprise
 17h00 |  | Discussion / `Get-Apero` / Restaurant pour les intéréssés
 
-# Lieu de l'événement
+## Lieu de l'événement
 
 [Cellenza - 156 Boulevard Haussmann, 75008 Paris, France](https://www.google.fr/maps/place/156+Boulevard+Haussmann,+75008+Paris/@48.8755622,2.3088236,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fc7c0eb09d3:0x9b3b3b5b3007b596!8m2!3d48.8755587!4d2.3110176)
 
 
-# Besoin de plus d'information ?
+## Besoin de plus d'information ?
 
 Voir le site du [French PowerShell User Group](https://frpsug.github.io/) ou utiliser notre Channel #french sur PowerShell.slack.com  (<a href="http://slack.poshcode.org/">S'inscrire</a>).

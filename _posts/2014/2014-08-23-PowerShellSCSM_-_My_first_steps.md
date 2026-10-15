@@ -26,7 +26,7 @@ I really started to play and learn about SCSM 2 months ago with the help of the 
 
 
 
-# Getting Started with SMLets to manage SCSM
+## Getting Started with SMLets to manage SCSM
 
 
 Today I will show a few examples using the SMLets module that I learned in the past weeks.
@@ -120,7 +120,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 <a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject filter AD Obj" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" /></a>
 
 
-# Resources
+## Resources
 
 <ul>
 * <a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">Technet Documentation</a>
@@ -148,7 +148,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 # 
 
 
-# Terminology
+## Terminology
 
 <a href="http://technet.microsoft.com/en-us/library/hh750212.aspx" target="_blank">See extensive SCSM Glossary (technet)</a>
 

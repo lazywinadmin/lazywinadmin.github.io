@@ -22,7 +22,7 @@ This has been present in the Linux world for a very long time, for example with 
 Note that this is a <u>preview</u>, there is no documentation yet, the features and behavior are likely to change before the final release.
 
 
-# OneGet Module ?
+## OneGet Module ?
 
 OneGet is a new way to discover and install software packages from around the web. With OneGet, you can:
 <ul>
@@ -34,7 +34,7 @@ OneGet is a new way to discover and install software packages from around the we
 </ul>
 
 
-# Cmdlets
+## Cmdlets
 
 Here is a list of the Cmdlets coming with this new module
 ```
@@ -71,7 +71,7 @@ Note that we can also expect a new cmdlet called <b><span style="font-family: Co
 
 
 
-# Workflow
+## Workflow
 
 From my understanding this is how the OneGet module interact with the package manager like Chocolatey.
 
@@ -101,7 +101,7 @@ If we look at the files in the module directory, Chocolatey comes with its own s
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-08-19__1267388953__-635x639.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 5 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-08-19__1267388953__-635x639.png" height="400" width="396" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Chocolatey Provider Cmdlets Helpers (Helpers.psm1)</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-09-43__1685468334__-635x754.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 6 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-09-43__1685468334__-635x754.png" height="400" width="336" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Chocolatey Cmdlets (Chocolatey.psd1)</td></tr></tbody></table>
 
-# Using the module
+## Using the module
 
 
 <b><u>Get the packages already installed</u></b>

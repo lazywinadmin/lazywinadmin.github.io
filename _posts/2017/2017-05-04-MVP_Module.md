@@ -30,7 +30,7 @@ The [MVP PowerShell module](https://github.com/lazywinadmin/MVP) is finally out!
 
 This first version is the fruit of a collaboration between [Emin Atac](https://twitter.com/p0w3rsh3ll) and I.
 
-# MVP Award ?
+## MVP Award ?
 
 Each year all the recipients of the Microsoft MVP Award need to submit their community contributions in order to be re-evaluated for the next nomination cycle.
 Until recently the only way to do so was to manually fill up each items using the Microsoft MVP Web portal.
@@ -39,9 +39,9 @@ At the beginning of 2017, Microsoft added a Rest API interface to interact with 
 
 [More information on the MVP program](https://mvp.microsoft.com/)
 
-# MVP Module
+## MVP Module
 
-## Install the module
+### Install the module
 
 Installing the module from the PowerShell Gallery:
 
@@ -50,7 +50,7 @@ Installing the module from the PowerShell Gallery:
 Install-Module -name MVP
 ```
 
-## Configure your connection
+### Configure your connection
 
 You need to register and get a subscription key from Microsoft in order to use the module.
 Fortunately you only need to do this once.
@@ -78,7 +78,7 @@ Set-MVPConfiguration -SubscriptionKey '<your-subscription-key>'
 
 A user interface will show to authenticate against the Microsoft API "mvpapi.portal.azure-api.net"
 
-## Commands
+### Commands
 
 Here is the list of functions available in the module
 
@@ -107,7 +107,7 @@ Function    Set-MVPContribution           0.0.2.0 MVP
 Function    Set-MVPOnlineIdentity         0.0.2.0 MVP
 ```
 
-## Retrieve a MVP Profile
+### Retrieve a MVP Profile
 
 You can retrieve a specific profile (your account being the default one)
 
@@ -164,7 +164,7 @@ NewsHighlights       : {}
 UpcomingEvent        : {}
 ```
 
-## Retrieve your contributions
+### Retrieve your contributions
 
 You can retrieve your contributions by using ```Get-MVPContribution```. The default limit is 5 entries.
 
@@ -180,7 +180,7 @@ You can change the limit using the ```-Limit``` parameter
 Get-MVPContribution -Limit 100 # This will retrieve 100 entries
 ```
 
-## Create a new contribution
+### Create a new contribution
 
 Creating a new contribution with ```New-MVPContribution``` requires a few fields that need to match existing data.
 
@@ -224,7 +224,7 @@ Description            : Description sample
 
 ```
 
-## Create multiple contributions
+### Create multiple contributions
 
 ```New-MVPContribution``` accepts values from the pipeline by property names.
 
@@ -256,13 +256,13 @@ import-csv .\Examples\MultipleEntries.csv | New-MVPContribution
 ```
 
 
-# Source / Contributions
+## Source / Contributions
 
 The source are available in Github [MVP PowerShell module](https://github.com/lazywinadmin/MVP)
 
 Would love contributors, suggestions, feedback, and other help! Feel free to open an Issue ticket on the github repository.
 
-# Documentation
+## Documentation
 
 A more detailed documentation is available on the Github Repository in the README.md  [https://github.com/lazywinadmin/MVP/blob/master/README.md](https://github.com/lazywinadmin/MVP/blob/master/README.md)
 

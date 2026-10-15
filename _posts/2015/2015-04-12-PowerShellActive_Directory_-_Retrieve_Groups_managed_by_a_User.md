@@ -32,7 +32,7 @@ This is nice for one group.... what if the user manage tons of them ?
 
 
 
-# Using the Active Directory Module and some LDAP Filtering
+## Using the Active Directory Module and some LDAP Filtering
 
 Using the PowerShell Cmdlet `Get-ADGroup` (from the Active Directory Module), I am using a LDAP filter to find groups that contain the user `DistinguishedName` in the `ManagedBy` attribute.
 
@@ -61,7 +61,7 @@ Get-ADGroup -LDAPFilter "(ManagedBy=$((Get-ADuser -Identity $env:username).disti
 ```
 
 
-# Using ADSI/LDAP
+## Using ADSI/LDAP
 
 If you don't want to rely on the Active Directory Module, you can also use ADSI.
 Using the same above LDAP filter, we can query Active Directory this way:
@@ -102,7 +102,7 @@ ForEach-Object -Process {
 
 <br>
 
-# Extra: Get all the groups that contains a manager
+## Extra: Get all the groups that contains a manager
 
 ```powershell
 # Retrieve the groups managed by the current user
@@ -110,7 +110,7 @@ Get-ADGroup -LDAPFilter "(ManagedBy=*)" -SearchBase "OU=Groups,DC=FX,DC=Lab" -Pr
 ```
 <br>
 
-# Other Resources
+## Other Resources
 
 * [about_ActiveDirectory_Filter](https://technet.microsoft.com/en-us/library/hh531527%28v=ws.10%29.aspx)
   * Describes the syntax and behavior of the search filter supported by the Active Directory module for Windows PowerShell.

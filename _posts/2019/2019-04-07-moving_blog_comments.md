@@ -29,13 +29,13 @@ toc_sticky: true
 
 In this post I'm documenting my blog comment migration from Disqus to Github Issues using PowerShell. It was stricky... hopefully the diagrams help you to understand what I was trying to resolve.
 
-# Hosting my comments on Disqus
+## Hosting my comments on Disqus
 
 When I initially started to blog on Google Blogger I did not really care where my comments where stored. I was happy with the solution provided by Google which allow the readers to authenticate using different systems or to remain anonymous.
 
 As the traffic on my blog started to rise, the amount of spam comments started to climb as well. Eventually I moved from the built-in comment system provided by Google to Disqus, the most popular (still?) comment system for websites/blog which was external to my blog and was better ot handle spam comments. The advantage being, Disqus handles the spam, the authentication of users and the email notifications when some one reply to their comments.
 
-# Moving my blog to Github Pages
+## Moving my blog to Github Pages
 
 At the beginning of 2017 I decided to move my blog to a Static site, hosted on Github Pages. This allowed me to have the control over the whole blog content, config and layout with the exception of the blog comments, which were still hosted in Disqus. Remapping my Disqus comments was straight forward as I just added the Disqus widget into my static site.
 
@@ -46,7 +46,7 @@ Here is a representation of the setup with Disqus widget:
 
 ![image-center](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Disqus.png){: .align-center}
 
-# Moving my blog comments
+## Moving my blog comments
 
 Having done the move from Blogger to Github pages the actual content of a blog post was accessible in 2 locations and on 3 different addresses:
 
@@ -60,7 +60,7 @@ So I recently decided to clean this mess up and move my blog comments closer to 
 
 A few options were available to me, here are the two that I considered.
 
-## Using Github Issues search API
+### Using Github Issues search API
 
 This method use the Github Issue search API to retrieve the existing comment and use a Github App or a Bot to create new issue on the Github repository.
 
@@ -87,7 +87,7 @@ To comment, users must authorize the utterances app to post on their behalf usin
   * For imported comments, we can't have the comment entries appear with their real author, the import is done by my account
   * Need to be migrated if host is changed
 
-## Using Pull request and comment files stored with your code
+### Using Pull request and comment files stored with your code
 
 This method is using a pull request mechanism with Github App or Bot to add a new comment file (in JSON or YAML for example) to your repository. Once the pull request is approved, your static site is re-generated with the comments for each posts.
 
@@ -106,7 +106,7 @@ Solutions using this approach: [StaticMan App](https://staticman.net/) or [using
   * No support for mention
   * No support for email notifications (however you can subscribe to a provider to take care of it)
 
-# Moving from Disqus to Github Issues
+## Moving from Disqus to Github Issues
 
 After testing both approaches, hosting the comments with Github Issues made more sense to me. Less management and more convenient for the user notifications and authentication.
 
@@ -126,7 +126,7 @@ Diagram of the final state:
 ![Static Site Comment system with Github Issues](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Github_Issues.png){: .align-center}
 
 
-## Get the comments export
+### Get the comments export
 
 Fortunately Disqus made the comments exportation easy. Simply navigate to the [Export Page](https://disqus.com/admin/discussions/export/) and it will be sent to you email address.
 
@@ -136,7 +136,7 @@ Fortunately Disqus made the comments exportation easy. Simply navigate to the [E
 
 Once downloaded you'll need a tool like 7zip to uncompress the Gz file.
 
-## Load the file with PowerShell
+### Load the file with PowerShell
 
 In PowerShell, loading the file can be done using `Get-Content`. Then we can cast the output to XML format:
 
@@ -222,7 +222,7 @@ thread    : thread
 
 Next we can start the work and retrieve the Comments and the threads.
 
-## Parse and format the comments
+### Parse and format the comments
 
 ```powershell
 # Retrieve all Comments
@@ -278,7 +278,7 @@ $AllComments | Foreach-Object -process {
 }
 ```
 
-## Parse and format the threads
+### Parse and format the threads
 
 Next, same exercice for the threads item.
 
@@ -461,7 +461,7 @@ if($CurrentPost.count -gt 1)
 }
 ```
 
-## Combine Comments and Threads
+### Combine Comments and Threads
 
 Finally we can combine all the information together
 
@@ -486,7 +486,7 @@ Where-Object -FilterScript {$_.name}
 
 And that's it, now we are ready to create our Github issues and add the comments.
 
-## Authenticate against Github API
+### Authenticate against Github API
 
 For this part, I'll be using the PowerShell module `PowerShellForGithub`, maintained by some Microsoft folks and [available on github](https://github.com/PowerShell/PowerShellForGitHub).
 
@@ -509,7 +509,7 @@ Set-GitHubAuthentication -Credential $cred
 Set-GitHubConfiguration -DisableLogging -DisableTelemetry
 ```
 
-## Create the comment in github issues
+### Create the comment in github issues
 
 Finally we can start the creation of Github Issues and comments
 
@@ -610,7 +610,7 @@ $($CurrenComment|Select-Object -ExcludeProperty raw|convertTo-Json)
 }
 ```
 
-## Blog configuration
+### Blog configuration
 
 The last step is to update my blog to use Utterances. Lucky for me, my theme already support it, so i just have to target Utterances.
 
@@ -621,11 +621,11 @@ comments:
 
 However if your blog does not, you can find information on the following [page](https://utteranc.es/).
 
-# Final result
+## Final result
 
 Now what does the final result looks like, here are the two perspectives:
 
-## Blog post
+### Blog post
 
 If you look at a blog article, now it will look like this:
 
@@ -635,7 +635,7 @@ You also have a link that send you directly to the Github issue item related to 
 
 ![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues03.png){: .align-center}
 
-## Github Issues
+### Github Issues
 
 On the Github side, it will just look like a regular issue. Note that the title contains the relative path of the blog post. This is how Utterances retrieve the related issue and its comments.
 

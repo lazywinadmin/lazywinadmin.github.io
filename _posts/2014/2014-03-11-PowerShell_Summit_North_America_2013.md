@@ -27,7 +27,7 @@ I thought sharing some details and pictures would be nice :-)
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/seattle_kerry_park__941080560__-700x393.webp" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="seattle kerry park" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/seattle_kerry_park__941080560__-700x393.webp" height="222" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Seattle, WA</td></tr></tbody></table>
 
-# Seattle, Redmond and PowerShell people
+## Seattle, Redmond and PowerShell people
 
 It was my first time on the west coast. From what I heard, Seattle looked like a nice city so I decided to arrive a few days before the summit on Saturday, April 20th to be able to visit a bit.
 
@@ -50,7 +50,7 @@ When we got to the "Get-Together" evening event, I got to meet some of the Power
 
 </td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_194733__1640859123__-1088x816.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 8 from the post &quot;PowerShell Summit North America 2013&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_194733__1640859123__-1088x816.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Don Jones, Mike F Robbins</td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_181148__1397899020__-1088x816.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 9 from the post &quot;PowerShell Summit North America 2013&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130421_181148__1397899020__-1088x816.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Jeff Hicks, Alan Renouf, Jeffrey Snover, Jason Helmick, Richard Siddaway,...</td></tr></tbody></table>
 
-# PowerShell Summit 2013
+## PowerShell Summit 2013
 
 <div style="text-align: center;">
 

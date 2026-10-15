@@ -21,7 +21,7 @@ Thank you guys for following my blog and participating to the comments discussio
 
 I get more and more page views, comments,... every month :-) and I thought It would be nice to give a small Top Five 2013 of the LazyWinAdmin blog posts.
 
-# Top Five 2013 Blog posts
+## Top Five 2013 Blog posts
 
 <b>[WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab]({{ "/2013/01/configure-windows-server-2012-nfs.html"| absolute_url }})</b>
 <i>This article focus on how to configure NFS on Windows Server 2012<b> </b>with</i><b> </b><i>PowerShell for a VMware vSphere 5.1 host.</i><b>

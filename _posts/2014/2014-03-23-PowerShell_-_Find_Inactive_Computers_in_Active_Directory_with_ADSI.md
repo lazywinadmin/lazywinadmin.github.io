@@ -25,7 +25,7 @@ Here are the key element of the script, I want:
 * Return SamAccountName, Name, DN, Operating System, and Description
 * Limit the number of object to return (can be useful for large environment)
 
-# [adsisearcher]
+## [adsisearcher]
 
 I already talked about ADSISearcher<a href="{{ site.url }}/2013/10/powershell-get-domainuser.html" target="_blank"> in a previous post</a>so I won't give too much details about it. [adsisearcher] type accelerator is used to search Active Directory Domain Services (ADDS)
 
@@ -207,7 +207,7 @@ SamAccountName    : LAB1VC02$
 
 That's way better! Neat!
 
-# My previous posts on ADSI
+## My previous posts on ADSI
 
 * <a href="{{ site.url }}/2013/11/powershell-add-ad-site-subnet.html" target="_blank">PowerShell - Add AD Site Subnet</a>
 * <a href="{{ site.url }}/2013/10/powershell-get-domaincomputer-adsi.html" target="_blank">PowerShell - Get-DomainComputer (ADSI)</a>

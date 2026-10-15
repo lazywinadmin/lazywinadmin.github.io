@@ -20,7 +20,7 @@ The PowerShell Team previously released WMF 5.0 RTM two months ago but it was pu
 
 [Download WMF5](https://www.microsoft.com/en-us/download/details.aspx?id=50395)
 
-# ChangeLog
+## ChangeLog
 > ### Changes in the republished packages
 > * The KB numbers of these packages (KB3134758, KB3134759, and KB3134760) are different than previously released WMF 5.0 RTM packages (KB3094174, KB3094175, and KB3094176).
 > * These packages have fixes only for the PSModulePath issue compared to the previously released WMF 5.0 RTM packages.
@@ -40,7 +40,7 @@ The PowerShell Team previously released WMF 5.0 RTM two months ago but it was pu
 
 
 
-# Overview of all scenarios enabled by WMF 5.0
+## Overview of all scenarios enabled by WMF 5.0
 
 * New and updated cmdlets based on community feedback
 * Generate Windows PowerShell cmdlets based on an OData endpoint with ODataUtils
@@ -69,7 +69,7 @@ The PowerShell Team previously released WMF 5.0 RTM two months ago but it was pu
 * Software Inventory Logging.
 
 
-# Resources
+## Resources
 * [PowerShell Team Blog Article](https://blogs.msdn.microsoft.com/powershell/2016/02/24/windows-management-framework-wmf-5-0-rtm-packages-has-been-republished/)
 
 * [Get WMF5 on Microsoft Download](https://www.microsoft.com/en-us/download/details.aspx?id=50395)

@@ -15,13 +15,13 @@ comments: true
 
 I just came back yesterday from the **Microsoft MVP Global Summit 2015** who took place in the beautiful city of Seattle from the 2nd to 5th of November 2015. This was the second time that I attend this event which was really well organized. I really had a blast meeting with all the MVP and Microsoft teams.
 
-# What is the MVP Global Summit ?
+## What is the MVP Global Summit ?
 
 The annual MVP Global Summit is one of the best weeks of the year; there is no other technical event like it. Experts in every Microsoft category converge for training, talks, and events. It provides Microsoft with needed product feedback and helps set the mood for the next release of products.
 
 <a href="{{ site.url }}/images/2015/20151107_Microsoft_MVP_Global_Summit_2015/IMG_20151104_084322__1295672084__-1600x1200.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 1 from the post &quot;Microsoft MVP Global Summit 2015&quot;" loading="lazy" decoding="async" border="0" height="300" src="{{ site.url }}/images/2015/20151107_Microsoft_MVP_Global_Summit_2015/IMG_20151104_084322__2127355685__-400x300.jpg" width="400" /></a>
 
-# Pictures
+## Pictures
 
 Here are some picture of the event and the people I got a chance to hang out with.
 

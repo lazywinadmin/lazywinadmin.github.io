@@ -26,7 +26,7 @@ toc_label: "Table of content"
 toc_sticky: true
 ---
 
-# Summary
+## Summary
 
 In this article I'll describe how you can query data from Youtube by using the Google Apis and PowerShell.
 
@@ -40,7 +40,7 @@ What do we need:
 2. Query the data from Google API
 3. Update the MVP Contributions
 
-# Google API Credentials
+## Google API Credentials
 
 In order to be able to query Google Apis with PowerShell, you will first need to request an API Key.
 
@@ -72,7 +72,7 @@ Then click on **What credential do I need**
 This will give you an API key. Click on **Done**.
 ![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/08.png){: .align-center}
 
-# Using PowerShell to query video data
+## Using PowerShell to query video data
 
 Now we can query Google API for Youtube Data API.
 
@@ -141,7 +141,7 @@ Output:
 140
 ```
 
-# Retrieving Youtube links from my contributions
+## Retrieving Youtube links from my contributions
 
 Now we can retrieve the MVP Contribution that contains Youtube Links.
 
@@ -182,7 +182,7 @@ https://www.youtube.com/watch?v=u05rSvsLTxA
 https://www.youtube.com/watch?v=sO3GaSpLIdE
 ```
 
-# Trimming links
+## Trimming links
 
 However the problem here is that we just need the ID of the video, the part that is after the `v=`. Also we don't care of anything from `&` to the end of the url string.
 
@@ -227,7 +227,7 @@ u05rSvsLTxA
 sO3GaSpLIdE
 ```
 
-# Retrieve the videos data and update MVP contributions
+## Retrieve the videos data and update MVP contributions
 
 Now let's put the pieces together
 

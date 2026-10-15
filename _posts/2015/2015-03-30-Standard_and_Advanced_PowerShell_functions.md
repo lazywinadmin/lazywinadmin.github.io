@@ -38,7 +38,7 @@ Get-WmiObject -class win32_OperatingSystem
 Get-WmiObject -class Win32_BIOS
 ```
 
-# Standard Function
+## Standard Function
 
 A function is a list of statements wrapped into a scriptblock. A function has a name that you assign. You run those statements by simply typing the function name.
 
@@ -98,7 +98,7 @@ Function Get-ComputerInformation
 
 We created a very simple and nice tool that can query different machines by editing the ComputerName parameter. What can we do to make this tool more efficient?
 
-# Advanced Function
+## Advanced Function
 
 Advanced functions allow you to write functions that can act like cmdlets. This means that you can make your functions more robust, handle errors, support Verbose, Debug, Dynamic Parameters, Validate input, ... just to name a few.
 
@@ -228,7 +228,7 @@ In this example, I'm loading a list of machines inside the text file computers.t
 </a>
 
 
-# Resources on Advanced Functions
+## Resources on Advanced Functions
 
 Here are some great resources if you want to learn more on PowerShell Functions:
 
@@ -239,7 +239,7 @@ Here are some great resources if you want to learn more on PowerShell Functions:
 * [about_Functions_Advanced_Parameters](https://technet.microsoft.com/en-us/library/hh847743.aspx)
 * [about_Functions_OutputTypeAttribute](https://technet.microsoft.com/en-us/library/hh847785.aspx)
 
-# PowerShell Blogging Week
+## PowerShell Blogging Week
 
 Follow the hashtag <a href="https://twitter.com/hashtag/PSBlogWeek?src=hash&amp;lang=en" target="_blank">#PSBlogWeek</a> on twitter and make sure to follow the contributors below :-)
 

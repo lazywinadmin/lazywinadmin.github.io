@@ -40,7 +40,7 @@ Here is my setup for the scripting games :-) (Coffee is a huge friend)!
 
 
 
-# Winter Scripting Games 2014
+## Winter Scripting Games 2014
 
 
 Here are the most important Information you will need for the games. Note that the Time is UTC/GMT. For example January 19th 00:00 GMT means 18:00/6:00pm Eastern Time (I was not able to submit <a href="{{ site.url }}/2013/02/winter-scripting-games-2013-practice.html" target="_blank">one of my entry last year just for this reason</a>... silly me..)
@@ -67,7 +67,7 @@ Here are the most important Information you will need for the games. Note that t
 </ul></ul>
 
 
-# Stay Tunned !
+## Stay Tunned !
 
 
 <ul>

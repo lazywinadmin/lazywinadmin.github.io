@@ -42,7 +42,7 @@ Here is a PowerShell function that can just do this job for you: `Get-SCSMWorkIt
 
 
 
-# Get-SCSMWorkItemParent
+## Get-SCSMWorkItemParent
 
 ```powershell
 # Load the function in your PS
@@ -55,7 +55,7 @@ Here is a PowerShell function that can just do this job for you: `Get-SCSMWorkIt
 
 
 
-# Find the Work Item parent from an SMObject
+## Find the Work Item parent from an SMObject
 ```powershell
 # Get a Runbook Activity from SCSM
 $RunbookActivity = Get-SCSMobject -Class (Get-SCSMClass -Name Microsoft.SystemCenter.Orchestrator.RunbookAutomationActivity$) -filter 'ID -eq RB12813'
@@ -66,7 +66,7 @@ Get-SCSMWorkItemParent -WorkItemObject $RunbookActivity
 <img alt="Get SCSMWorkItemParent02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent02__776952508__-776x362.png" />
 
 
-# Find the Work Item parent from a GUID
+## Find the Work Item parent from a GUID
 
 ```powershell
 # Retrieve the runbook Activity GUID
@@ -79,12 +79,12 @@ Get-SCSMWorkItemParent -WorkItemGUID $RunbookActivity.get_id()
 
 
 
-# Download on github
+## Download on github
 
 [Get-SCSMWorkItemParent on GitHub](https://github.com/lazywinadmin/PowerShell/tree/master/SCSM-Get-SCSMWorkItemParent)
 
 
-# Resources
+## Resources
 
 * <a href="{{ site.url }}/2014/09/powershell-scsm-install-and-config.html" target="_blank">PowerShell/SCSM - Install and Config the SMlets Module</a>
 * <a href="{{ site.url }}/2014/08/powershell-scsm-my-first-steps.html" target="_blank">PowerShell/SCSM - Getting Started with Smlets</a>

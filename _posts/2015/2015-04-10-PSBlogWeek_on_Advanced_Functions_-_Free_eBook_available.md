@@ -21,9 +21,9 @@ It seems a lot of people enjoyed the event and I hope a great amount learned som
 
 I'm happy to announced that all the articles have been combined into a free ebook (Thanks to Jeffery Hicks) available in different format.
 
-# PowerShell Blog Week - Advanced Functions
+## PowerShell Blog Week - Advanced Functions
 
-## Authors
+### Authors
 
  * [Adam Bertram](http://twitter.com/adbertram),
  * <a href="http://twitter.com/proxb" target="_blank">Boe Prox</a>,
@@ -33,7 +33,7 @@ I'm happy to announced that all the articles have been combined into a free eboo
  * <a href="http://twitter.com/mikefrobbins" target="_blank">Mike F. Robbins</a>.
 
 
-## Table of Content
+### Table of Content
 
 1. <a href="{{ site.url }}/2015/03/standard-and-advanced-powershell.html" target="_blank">Standard and Advanced PowerShell Functions</a>
 1. <a href="http://mikefrobbins.com/2015/03/31/powershell-advanced-functions-can-we-build-them-better-with-parameter-validation-yes-we-can/" target="_blank">Parameter validation</a>
@@ -42,7 +42,7 @@ I'm happy to announced that all the articles have been combined into a free eboo
 1. <a href="http://www.sapien.com/blog/2015/04/03/advanced-help-for-advanced-functions/" target="_blank">Advanced Help</a>
 1. <a href="http://learn-powershell.net/2015/04/04/a-look-at-trycatch-in-powershell" target="_blank">A Look at Try/Catch</a>
 
-## Download
+### Download
 
 * PDF (link no longer available)
 * <a href="https://web.archive.org/web/20171028152712/https://onedrive.live.com/redir?resid=60886de0176e604a!34912&amp;authkey=!AHItHrejYiXjd_0&amp;ithint=file%2cepub" target="_blank">EPUB</a>

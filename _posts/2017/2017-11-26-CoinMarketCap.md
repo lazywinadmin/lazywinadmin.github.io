@@ -28,7 +28,7 @@ toc_icon: "code"
 toc_sticky: true
 ---
 
-# CoinMarketCap
+## CoinMarketCap
 
 I recently developed an interest for cryptocurrencies. It takes some time to get familiar with all the technologies involved but I'm enjoying the ride so far :rocket:
 
@@ -38,7 +38,7 @@ So I figure, why not make a small PowerShell module wrapped around the [coinmark
 
 The source of the module are available on Github here: [https://github.com/lazywinadmin/CoinMarketCap](https://github.com/lazywinadmin/CoinMarketCap)
 
-## Installation
+### Installation
 
 You can retrieve and install the module from the PowerShell Gallery.
 
@@ -47,9 +47,9 @@ You can retrieve and install the module from the PowerShell Gallery.
 Install-Module -Name CoinMarketCap
 ```
 
-## Usage
+### Usage
 
-### Get a Cryptocurrency information
+#### Get a Cryptocurrency information
 
 ```powershell
 # Retrieve Bitcoin information
@@ -85,7 +85,7 @@ percent_change_7d  : -20.74
 last_updated       : 1510520351
 ```
 
-### Show the Cryptocurrency web page
+#### Show the Cryptocurrency web page
 
 Many things are not available using the API, so I added a switch `-Online` to open the page of the CryptoCurrency you specified.
 This is a bit similar to `Get-Help Get-Process -Online`.
@@ -97,7 +97,7 @@ Get-Coin ada -Online
 
 ![image-center](/images/2017/2017-11-28-CoinMarketCap/CoinMarketCap02.png){: loading="lazy" decoding="async"}
 
-### Retrieve all the existing coins
+#### Retrieve all the existing coins
 
 ```powershell
 Get-CoinID
@@ -210,7 +210,7 @@ monaco                Monaco                  MCO    99
 feathercoin           Feathercoin             FTC    100 
 ```
 
-### Get global market data
+#### Get global market data
 
 ```powershell
 Get-CoinGlobal
@@ -226,7 +226,7 @@ active_markets                   : 6513
 last_updated                     : 1510520660
 ```
 
-### Get the Historical data of a currency
+#### Get the Historical data of a currency
 
 This one was a bit tricky. CoinMarketCap does not offer an API for that. However I noticed that when you search for set of data with a start and end date you get an url that look like this `https://coinmarketcap.com/currencies/cardano/historical-data/?start=20171101&end=20171105`
 

@@ -34,7 +34,7 @@ Retrieving the count of Distribution Groups and an User account in Office 365:
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
 
 
-# Requirement
+## Requirement
 
 You need to be connected to Exchange Online. This can be done using on of the following functions:
 
@@ -42,7 +42,7 @@ You need to be connected to Exchange Online. This can be done using on of the fo
 * [Connect-Office365]({{ site.url }}/2014/07/powershell-handy-function-to-connect-to.html)
 
 
-# Find User's distribution groups with the Where-Object cmdlet
+## Find User's distribution groups with the Where-Object cmdlet
 
 
 This retrieve all the members of each groups, then narrow down the output to only the user I'm looking for. This looks good with the only problem than this one-liner took... 15 minutes to query all the groups memberships, Not really efficient...
@@ -53,7 +53,7 @@ This retrieve all the members of each groups, then narrow down the output to onl
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
 
-# Find User's distribution groups with the Filter parameter
+## Find User's distribution groups with the Filter parameter
 
 What you can do instead is to filter as much as you can on the left side of your command line.
 This is one of the best practice in Powershell because the output of your first function is much smaller compare to the 1800 Distribution Groups we get in the previous example.
@@ -73,7 +73,7 @@ Get-DistributionGroup -Filter "Members -like $($user.distinguishedName)"
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
 
 
-# Exchange Cmdlet Server-Side Opath Filtering
+## Exchange Cmdlet Server-Side Opath Filtering
 
 I don't know if you notice but there is a trick here in the previous example.
 In the Filter I specified the `Members` property.... but there is no `Members` property when you check the `Get-DistributionGroup` members.
@@ -106,7 +106,7 @@ The reason is that you can use `Exchange Opath filters` inside many Exchange Onl
 
 More information on the properties that you can use with Exchange Cmdlets in the `Filter` Parameter : [https://technet.microsoft.com/en-us/library/bb738155(v=exchg.150).aspx](https://technet.microsoft.com/en-us/library/bb738155(v=exchg.150).aspx)
 
-# Additional Information
+## Additional Information
 
 * Exchange Online - <a href="https://technet.microsoft.com/en-us/library/bb124268(v=exchg.150).aspx#OPATH" target="_blank">OPATH Syntax</a>
 * Exchange Online - <a href="https://technet.microsoft.com/en-us/library/bb124268(v=exchg.150).aspx" target="_blank">Filters in recipient Shell commands</a>

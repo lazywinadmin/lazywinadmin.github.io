@@ -31,8 +31,7 @@ KB822158 - Virus scanning recommendations for computers that are running Windows
 
 
 
-The following steps are Server Role specific:
-==========================================================
+## The following steps are Server Role specific:
 1.) If your system is also<strong>a Domain Controller (DC) / DNS / DHCP</strong>also<a class="" href="http://www.blogger.com/post-edit.g?blogID=5118199599906690528&amp;postID=3371138807439705803" name="#h2" title="#h2"></a>exclude the following from Anti-Virus Scanning:
 a.) %systemroot%\Sysvol folder (include all the sub-folders and files)
 b.) %systemroot%\system32\dhcp folder (include all the sub-folders and files)
@@ -122,8 +121,7 @@ KB49500 - List of antivirus software vendors
 KB129972 - Computer viruses: description, prevention, and recovery
 <a href="http://support.microsoft.com/kb/129972" style="color: #006ff7;">http://support.microsoft.com/kb/129972</a>
 
-Small Business Server (SBS):
-========================================
+## Small Business Server (SBS):
 KB885685 - How to troubleshoot the POP3 Connector in Windows Small Business Server 2003
 <a href="http://support.microsoft.com/kb/885685" style="color: #006ff7;">http://support.microsoft.com/kb/885685</a>
 

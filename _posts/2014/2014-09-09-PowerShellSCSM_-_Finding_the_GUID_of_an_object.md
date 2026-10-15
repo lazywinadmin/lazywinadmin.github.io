@@ -24,7 +24,7 @@ And for some other type of objects, such as the DomainUser or Enumeration object
 
 <u>Note</u>: I'm using the module SMlets, available here: <a href="https://smlets.codeplex.com/" target="_blank">https://smlets.codeplex.com/</a>
 
-# Getting the GUID for a WorkItem
+## Getting the GUID for a WorkItem
 
 If you look at the property of an Incident for example, you will notice that there is no property that contains the GUID
 
@@ -101,7 +101,7 @@ $RunbookActivity.get_id()
 
 
 
-# Getting the GUID for other objects
+## Getting the GUID for other objects
 
 
 <b><u>Domain User</u></b>

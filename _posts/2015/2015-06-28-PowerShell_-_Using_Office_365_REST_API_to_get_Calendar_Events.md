@@ -77,7 +77,7 @@ But before we go there, let's see how we can interact with Office 365 API.
 
 
 
-# How to interact with the Office 365 API
+## How to interact with the Office 365 API
 
 The MSDN documentation on how to use the Office365 API is very well done, clear and complete, you can take a look at it here: [https://msdn.microsoft.com/en-us/office/office365/api/api-catalog](https://msdn.microsoft.com/en-us/office/office365/api/api-catalog)
 
@@ -93,7 +93,7 @@ The MSDN documentation on how to use the Office365 API is very well done, clear 
 In our case, we are interested by the Outlook Calendar.
 
  
-## Using the Calendar API
+### Using the Calendar API
 
 In the [Overview Page](https://msdn.microsoft.com/office/office365/APi/calendar-rest-operations), you will find information on how to query this API.
 All Calendar API requests use the following root URL: `https://outlook.office365.com/api/{version}/{user_context}`
@@ -141,7 +141,7 @@ Invoke-RestMethod `
 
 
 
-## Get the Calendar Events
+### Get the Calendar Events
 
 
 <b>We can now retrieve the events using one the following:</b>
@@ -188,7 +188,7 @@ Select-Object -Property subject
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
 
-## Get the Calendars
+### Get the Calendars
 
 The `$ID` variable in the above example can be retrieve using `/Calendars`
 This will list all the calendars present in the mailbox
@@ -211,7 +211,7 @@ Select-Object -Property Name, ID
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{SourceUrl}})
 
  
-### PageResult
+#### PageResult
 You can limit the number of item to output using the `$top` query parameter. If not specified only 10 items will be returned. You can specify up to 50 items to be returned.
 
 This was implemented in the function below using the `-PageResult` parameter.
@@ -219,7 +219,7 @@ For more information about the other filters available see the following page:
 [https://msdn.microsoft.com/office/office365/APi/complex-types-for-mail-contacts-calendar#UseODataqueryparametersPageresults](https://msdn.microsoft.com/office/office365/APi/complex-types-for-mail-contacts-calendar#UseODataqueryparametersPageresults)
 
 
-# Function Get-O365CalendarEvent
+## Function Get-O365CalendarEvent
 
 Finally, here is the function I built to query the calendar events.
 You can find it on my GitHub here: [https://github.com/lazywinadmin/PowerShell/blob/master/O365-Get-O365CalendarEvent/O365-Get-O365CalendarEvent.ps1](https://github.com/lazywinadmin/PowerShell/blob/master/O365-Get-O365CalendarEvent/O365-Get-O365CalendarEvent.ps1)

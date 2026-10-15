@@ -22,7 +22,7 @@ comments: true
 
 This tool is using the module PSTerminalService which relies on the Cassia .NET Library.I used <a href="http://www.sapien.com/software/powershell_studio" target="_blank">Sapien PowerShell Studio 2014</a>to which make life easier if you want to start building WinForms tools and add PowerShell code.
 
-# Legacy Tools
+## Legacy Tools
 
 Once in a while I need to disconnect or close one or more Terminal Sessions on a Windows Server in order to be able to connect via Remote Desktop Protocol or free up a session for someone else.
 You would most likely use handy legacy tools such as<a href="http://technet.microsoft.com/en-us/library/cc731503.aspx" target="_blank">Qwinsta</a>/<a href="http://technet.microsoft.com/en-us/library/cc754785.aspx" target="_blank">Rwinsta</a>,<a href="http://technet.microsoft.com/en-us/library/cc785434.aspx" target="_blank">Query</a>/<a href="http://technet.microsoft.com/en-us/library/cc754256.aspx" target="_blank">Reset Session</a>or<a href="http://technet.microsoft.com/en-us/library/cc754583.aspx" target="_blank">Quser</a>.
@@ -30,7 +30,7 @@ You would most likely use handy legacy tools such as<a href="http://technet.micr
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Quser_Query_Session_Qwinsta_legacy_tools__1513406131__-692x378.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Quser Query Session Qwinsta legacy tools" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Quser_Query_Session_Qwinsta_legacy_tools__1513406131__-692x378.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Legacy tools: Qwinsta/Query Session/Quser</td></tr></tbody></table>
 
 
-# PowerShell Way
+## PowerShell Way
 
 <b><u>PSTerminalServices Module</u></b>
 
@@ -60,14 +60,14 @@ Here is a list of the main feature of this module:
 * <b>Stop-TSProcess</b> - Terminates the process running in a specific session or in all sessions.
 * <b>Stop-TSSession</b> - Logs the session off, disconnecting any user that might be connected.
 
-# LazyTS
+## LazyTS
 
 <b>LazyTS</b>is a PowerShell script to manage Terminal Services<u>Sessions</u>and<u>Processes</u>on local or remote machines. It also allows you to<u>Disconnect/Stop sessions</u>and<u>Send Interactive message</u>to one or more sessions.
 
 <a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyTS" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/LazyTS__2139063917__-665x378.png" /></a>
 
 
-# Version
+## Version
 
 * <b>1.0 Initial version</b>
 * Features
@@ -76,7 +76,7 @@ Here is a list of the main feature of this module:
 * Processes Management: Query/Stop
 * Message : Send message to Session(s)
 
-# Requirements
+## Requirements
 
 * <b>PowerShell 3.0</b>
 * <b>Cassia Library (included in the download)</b>
@@ -89,6 +89,6 @@ If the Cassia.dll is not present, the script won't start:
 <a href="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Cassia.dll_required__1075941985__-692x166.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Cassia.dll required" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141004_PowerShell_GUI_-_LazyTS_(Terminal_Services_Management)/Cassia.dll_required__1075941985__-692x166.png" /></a>
 
 
-# Download and Details
+## Download and Details
 
 * <b><a href="https://github.com/lazywinadmin/LazyTS" target="_blank">LazyTS Page</a></b>
