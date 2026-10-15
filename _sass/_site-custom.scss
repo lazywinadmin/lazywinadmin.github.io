@@ -1,0 +1,29 @@
+/* CV page: clean print output */
+@media print {
+  .masthead, .page__footer, .sidebar, .breadcrumbs, .page__follow,
+  .page__share, .page__related, .page__comments, .search-content,
+  .cv-download, .greedy-nav, .skip-links, .toc, .sidebar__right { display: none !important; }
+  .cv-page .page, .cv-page #main, .cv-page .page__inner-wrap {
+    width: 100% !important; max-width: none !important; padding: 0 !important; margin: 0 !important; float: none !important;
+  }
+  .cv-page a { color: #000; text-decoration: none; }
+}
+
+/* Light/dark theme toggle button */
+.theme__toggle {
+  margin: 0 0 0 1rem;
+  padding: 0 0.5rem;
+  border: 0;
+  background-color: transparent;
+  color: $masthead-link-color;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s;
+  &:hover { color: mix(#000, $masthead-link-color, 25%); }
+  .theme__icon-light { display: none; }
+}
+html[data-theme="dark"] .theme__toggle {
+  .theme__icon-dark { display: none; }
+  .theme__icon-light { display: inline; }
+}
+@media print { .theme__toggle { display: none !important; } }

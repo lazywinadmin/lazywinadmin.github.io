@@ -29,6 +29,19 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+        <button class="theme__toggle" type="button" title="Toggle light/dark theme" aria-label="Toggle light/dark theme">
+          <i class="fas fa-moon theme__icon-dark" aria-hidden="true"></i>
+          <i class="fas fa-sun theme__icon-light" aria-hidden="true"></i>
+        </button>
+        <script>
+          document.currentScript.previousElementSibling.addEventListener('click', function () {
+            var root = document.documentElement, l = document.getElementById('theme-css');
+            var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-theme', t);
+            l.href = l.getAttribute(t === 'dark' ? 'data-dark' : 'data-light');
+            try { localStorage.setItem('theme', t); } catch (e) {}
+          });
+        </script>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
