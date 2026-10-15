@@ -29,7 +29,7 @@ Feel free to comment and send me your critics.
 
 Instruction
 
-<a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" target="_blank">Download the instruction here (skydrive)</a><u><b><a href="https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" target="_blank"> </a></b></u>
+<a href="https://web.archive.org/web/20171028154633/https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" target="_blank">Download the instruction here (skydrive)</a><u><b><a href="https://web.archive.org/web/20171028154633/https://skydrive.live.com/redir?resid=60886DE0176E604A!9966&amp;authkey=!ABapUFHwm9UPuyQ" target="_blank"> </a></b></u>
 <blockquote class="tr_bq"><i>Dr.Scripto is in a tizzy! It seems that someone has allowed a series of application log files to pile up for around two years, and they're starting to put the pinch on free disk space on a server. Your job is to help get the old files off to a new location.
 
 Actually, this happened last week, too. You might as well create a tool to do the archiving.

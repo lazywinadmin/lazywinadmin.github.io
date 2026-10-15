@@ -246,7 +246,7 @@ $buttonShares_Click={
 
 ### Download (PS1 and PFF)
 
-<a href="http://gallery.technet.microsoft.com/PowerShell-Studio-2012-40694250" target="_blank">Download from TechNet Script Repository</a>
+Download from TechNet Script Repository (link no longer available)
 
 
 

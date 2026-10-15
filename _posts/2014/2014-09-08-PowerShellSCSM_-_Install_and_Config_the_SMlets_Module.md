@@ -15,7 +15,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/SCSM_128x128x32__630048673__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/SCSM_128x128x32__630048673__-128x128.png" /></a>If you follow my blog, you might have noticed that I recently started to post <a href="http://www.lazywinadmin.com/search/label/SCSM" target="_blank">about SCSM</a>. We just finished to migrate to a new SCSM environment in Azure (Iaas) while using Cireson Portal as a front end.
+ <a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/SCSM_128x128x32__630048673__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/SCSM_128x128x32__630048673__-128x128.png" /></a>If you follow my blog, you might have noticed that I recently started to post <a href="{{ site.url }}/tags/#scsm" target="_blank">about SCSM</a>. We just finished to migrate to a new SCSM environment in Azure (Iaas) while using Cireson Portal as a front end.
 
 Of course of lot of the automation part is handled by SCORCH in the background which rely on a lot of PowerShell :-) (We don't use SMA yet, but I will soon look into it)
 

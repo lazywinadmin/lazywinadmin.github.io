@@ -90,4 +90,4 @@ If the Cassia.dll is not present, the script won't start:
 
 # Download and Details
 
-* <b><a href="{{ site.url }}/p/lazyts.html" target="_blank">LazyTS Page</a></b>
+* <b><a href="https://github.com/lazywinadmin/LazyTS" target="_blank">LazyTS Page</a></b>

@@ -11,7 +11,7 @@ comments: true
 ---
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 1em; text-align: left;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2012/20120922_PowerShell_Resources_-_From_Noob_to_Ninja/ninja__981364980__-576x720.jpg?t=1197633560" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2012/20120922_PowerShell_Resources_-_From_Noob_to_Ninja/ninja__981364980__-576x720.jpg?t=1197633560" width="160" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"></td></tr></tbody></table><b>Videos</b>
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2011/WSV315" target="_blank">Windows PowerShell for Beginners</a>
-<a href="http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx" target="_blank">Technet ScriptCenter - Windows PowerShell: Learn It Now Before It's an Emergency</a>
+Technet ScriptCenter - Windows PowerShell: Learn It Now Before It's an Emergency (link no longer available)
 
 <a href="http://channel9.msdn.com/Events/BUILD/BUILD2011/SAC-565T" target="_blank">Build2011 - Windows networking with PowerShell: A foundation for data center management</a>
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2011/WSV406" target="_blank">TechEd 2011 - Advanced Automation Using Windows PowerShell 2.0</a>
@@ -35,10 +35,10 @@ More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="
 
 <b>Code repository</b>
 <a href="http://poshcode.com/" target="_blank">PoshCode</a>
-<a href="http://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&amp;f%5B0%5D.Value=PowerShell" target="_blank">Technet Gallery - Script Repository</a>
+<a href="https://web.archive.org/web/20200318040908/https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&amp;f%5B0%5D.Value=PowerShell" target="_blank">Technet Gallery - Script Repository</a>
 
 Powershell sites
-<a href="http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx" target="_blank">http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx</a>
+http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx (link no longer available)
 [http://www.powershell.org](http://www.powershell.org/)
 <a href="http://powershell.com/cs/" target="_blank">http://powershell.com/cs/</a>
 <a href="http://www.powershellmagazine.com/" target="_blank">http://www.powershellmagazine.com</a>

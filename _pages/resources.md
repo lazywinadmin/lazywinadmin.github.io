@@ -1,4 +1,5 @@
 ---
+breadcrumbs: false
 title: "Resources"
 layout: single
 permalink: /p/links.html

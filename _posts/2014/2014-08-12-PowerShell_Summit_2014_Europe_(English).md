@@ -25,6 +25,6 @@ The Summit agenda is available to view at: <a href="http://eventmgr.azurewebsite
 
 Registration is now open via <a href="http://eventmgr.azurewebsites.net/event/home/PSEU14">http://eventmgr.azurewebsites.net/event/home/PSEU14</a>
 
-<a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.jpg" height="213" width="320" /></a>
+<a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(English)/KeizersgrachtReguliersgrachtAmsterdam__572490669__-1600x1066.webp" height="213" width="320" /></a>
 
 

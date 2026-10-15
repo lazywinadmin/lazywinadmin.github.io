@@ -1,4 +1,5 @@
 ---
+breadcrumbs: false
 title: "Scripts/Projects"
 layout: single
 permalink: /p/scripts.html
@@ -65,7 +66,7 @@ toc: true
 </ul>
 <li><b><u>Other Scripts Repositories</u></b></li>
 <ul>
-<li><a href="http://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=User&amp;f%5B0%5D.Value=Fran%C3%A7ois-Xavier%20Cat" target="_blank">Technet Script Repository</a></li>
+<li>Technet Script Repository (link no longer available)</li>
 <li><a href="https://github.com/lazywinadmin/PowerShell" target="_blank">GitHub</a></li>
 <li><a href="http://poshcode.org/?lang=&amp;q=lazywinadmin" target="_blank">Poshcode</a></li>
 </ul>
@@ -100,7 +101,7 @@ The following script will show how to Unlock Active Directory User account using
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://2.bp.blogspot.com/-2qsyjP1QLyY/UVUsp0fv_FI/AAAAAAABW5o/ZzxSyyh_R04/s1600/AD-USER-Unlocker-02.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="283" src="https://2.bp.blogspot.com/-2qsyjP1QLyY/UVUsp0fv_FI/AAAAAAABW5o/ZzxSyyh_R04/s1600/AD-USER-Unlocker-02.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/AD-USER-Unlocker-02.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="283" src="{{ site.url }}/images/pages/scripts/AD-USER-Unlocker-02.png" width="400" /></a></div>
 <br />
 <br />
 <h1 id="Add-ADSubnet">
@@ -112,7 +113,7 @@ Add-ADSubnet (ADSI Function)</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://gallery.technet.microsoft.com/site/view/file/100977/1/2013-11-11%2012-33-41%20AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://gallery.technet.microsoft.com/site/view/file/100977/1/2013-11-11%2012-33-41%20AM.png" height="207" width="400" /></a></div>
+</div>
 <br />
 <br />
 <h1 id="Disable-VMCopyPaste">
@@ -124,7 +125,7 @@ Disable-VMCopyPaste</h1>
 <u>Download:</u><a href="http://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://2.bp.blogspot.com/-EuL9JmA_wSM/UcyS5VL38HI/AAAAAAABaMs/GePuiubx3TY/s1600/2013-06-26+10-03-32+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="194" src="https://2.bp.blogspot.com/-EuL9JmA_wSM/UcyS5VL38HI/AAAAAAABaMs/GePuiubx3TY/s1600/2013-06-26+10-03-32+PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="194" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" width="400" /></a></div>
 <br />
 <h1 id="Enable-VMCopyPaste">
 Enable-VMCopyPaste</h1>
@@ -136,7 +137,7 @@ Enable-VMCopyPaste</h1>
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-Pe27nmJNmMc/UcyS19Z69qI/AAAAAAABaMk/9H59_oTU9mw/s709/2013-06-26+10-01-55+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="137" src="https://4.bp.blogspot.com/-Pe27nmJNmMc/UcyS19Z69qI/AAAAAAABaMk/9H59_oTU9mw/s709/2013-06-26+10-01-55+PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-01-55_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="137" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-01-55_PM.png" width="400" /></a></div>
 <br />
 <h1 id="Get-ADGPOReplication">
 Get-ADGPOReplication</h1>
@@ -147,7 +148,7 @@ Get-ADGPOReplication</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-GPO-Replication-4db47c83" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://2.bp.blogspot.com/-fIRNH9A9_jo/VCTbfSWr7wI/AAAAAAABoTc/lz8_TSOHWz8/s1600/Get-ADGPOReplication.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="340" src="https://2.bp.blogspot.com/-fIRNH9A9_jo/VCTbfSWr7wI/AAAAAAABoTc/lz8_TSOHWz8/s1600/Get-ADGPOReplication.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="340" src="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" width="400" /></a></div>
 <br />
 <br />
 <h1 id="Get-ComputerInfo">
@@ -168,7 +169,7 @@ Get-DiskSizeInfo</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-DiskSizeInfo-d60eed65" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-NXRPhF9hXpA/URf5xW2ic9I/AAAAAAABVuo/6cPniqihGZc/s1600/WinterScriptingGames-Event1-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="212" src="https://4.bp.blogspot.com/-NXRPhF9hXpA/URf5xW2ic9I/AAAAAAABVuo/6cPniqihGZc/s1600/WinterScriptingGames-Event1-03.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="212" src="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" width="400" /></a></div>
 <br />
 <br />
 <br />
@@ -182,7 +183,7 @@ Optionally you can specify a different domain to query and alternate credentials
 <div class="separator" style="clear: both; text-align: center;">
 </div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://gallery.technet.microsoft.com/site/view/file/100530/1/2013-10-30%209-45-56%20PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://gallery.technet.microsoft.com/site/view/file/100530/1/2013-10-30%209-45-56%20PM.png" height="640" width="372" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/technet-2013-10-30_9-45-56_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/technet-2013-10-30_9-45-56_PM.png" height="640" width="372" /></a></div>
 <br />
 <br />
 <h1 id="GetLocalGroupAllMembers">
@@ -209,7 +210,7 @@ Get-NetStat</h1>
 
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://gallery.technet.microsoft.com/site/view/file/123905/1/2014-08-14_23-31-39.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://gallery.technet.microsoft.com/site/view/file/123905/1/2014-08-14_23-31-39.png" height="320" width="302" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/technet-2014-08-14_23-31-39.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/technet-2014-08-14_23-31-39.png" height="320" width="302" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
@@ -222,7 +223,7 @@ Get-NetStat Using ConvertFrom-String</h1>
 <u>Download:</u>See blog post<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-Aj6HiLsNI_8/VAkqr9sFuoI/AAAAAAABn8I/eV7CreT17E0/s1600/2014-09-04_23-02-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="218" src="https://4.bp.blogspot.com/-Aj6HiLsNI_8/VAkqr9sFuoI/AAAAAAABn8I/eV7CreT17E0/s1600/2014-09-04_23-02-37.png" width="320" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2014-09-04_23-02-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="218" src="{{ site.url }}/images/pages/scripts/2014-09-04_23-02-37.png" width="320" /></a></div>
 <br />
 <h1 id="Get-NetStatConvertFrom-StringTemplateFile">
 Get-NetStat Using ConvertFrom-String -TemplateFile</h1>
@@ -232,7 +233,7 @@ Get-NetStat Using ConvertFrom-String -TemplateFile</h1>
 <u>Download:</u> See blog post<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://1.bp.blogspot.com/-4ooyAOB4NGo/VAq2izE5LuI/AAAAAAABn-Q/J6ej6kVaI6E/s1600/2014-09-06_3-23-30.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://1.bp.blogspot.com/-4ooyAOB4NGo/VAq2izE5LuI/AAAAAAABn-Q/J6ej6kVaI6E/s1600/2014-09-06_3-23-30.png" width="201" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2014-09-06_3-23-30.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/images/pages/scripts/2014-09-06_3-23-30.png" width="201" /></a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
@@ -246,7 +247,7 @@ Get-NetworkLevelAuthentication (NLA)</h1>
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-tQvUGQdzo1c/Uz3H2tg6FeI/AAAAAAABj-g/ggNs4JpsSHM/s1600/4-3-2014+4-40-17+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://4.bp.blogspot.com/-tQvUGQdzo1c/Uz3H2tg6FeI/AAAAAAABj-g/ggNs4JpsSHM/s1600/4-3-2014+4-40-17+PM.png" width="244" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" width="244" /></a></div>
 <div>
 <br />
 <br />
@@ -257,26 +258,26 @@ LazyTS</h1>
 <br />
 This tool is using the module PSTerminalService which relies on the Cassia .NET Library.I used Sapien PowerShell Studio 2014 to which make life easier if you want to start building WinForms tools and add PowerShell code.<br />
 <br />
-<u>Dedicated Page</u>: <a href="http://www.lazywinadmin.com/p/lazyts.html" target="_blank">LazyTS</a><br />
+<u>Dedicated Page</u>: <a href="{{ site.url }}/2014/10/powershell-gui-lazyts-terminal-services.html" target="_blank">LazyTS</a><br />
 <u>Blog post(s)</u>: 2014/10/04 <a href="http://www.lazywinadmin.com/2014/10/powershell-gui-lazyts-terminal-services.html" target="_blank">PowerShell GUI - LazyTS (Terminal Services Management)</a><br />
 <br />
 <u>Download</u>: <a href="http://gallery.technet.microsoft.com/LazyTS-d426e01d" target="_blank">Technet Gallery</a> / <a href="https://github.com/lazywinadmin/LazyTS/releases" target="_blank">GitHub</a>/ <a href="http://lazywinadmin.github.io/LazyTS/" target="_blank">GitHubPage</a><br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://2.bp.blogspot.com/-NPXOQcAw34s/VDBunkEZI-I/AAAAAAABojM/UWT2Cbq4Fc8/s1600/LazyTS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-NPXOQcAw34s/VDBunkEZI-I/AAAAAAABojM/UWT2Cbq4Fc8/s1600/LazyTS.png" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/LazyTS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/LazyTS.png" /></a></div>
 <br /></div>
 <h1>
-<a href="http://www.lazywinadmin.com/p/lazywinadmin-04.html" id="LazyWinAdmin" target="_blank">LazyWinAdmin</a></h1>
+<a href="https://github.com/lazywinadmin/LazyWinAdmin_GUI" id="LazyWinAdmin" target="_blank">LazyWinAdmin</a></h1>
 <u>Description:</u>LazyWinAdmin is a PowerShell Script that generates a GUI/WinForms loaded with tons of functions.<br />
 <u>Source/Contribution</u>:<a href="https://github.com/lazywinadmin/LazyWinAdmin_GUI">https://github.com/lazywinadmin/LazyWinAdmin_GUI</a><br />
-<u>Dedicated Page:</u><a href="http://www.lazywinadmin.com/p/lazywinadmin-04.html" target="_blank">LazyWinAdmin</a><br />
+<u>Dedicated Page:</u><a href="https://github.com/lazywinadmin/LazyWinAdmin_GUI" target="_blank">LazyWinAdmin</a><br />
 <u>Blog post(s):</u><br />
 <ul>
 <li><a href="http://www.lazywinadmin.com/2012/06/lazywinadmin-v04-released.html" target="_blank">LazyWinAdmin v0.4 released</a></li>
 <li><a href="http://www.lazywinadmin.com/2012/06/lazywinadmin-v04-sneak-peek.html" target="_blank">LazyWinAdmin v0.4 - Sneak Peek</a></li>
 <li><a href="http://www.lazywinadmin.com/2012/02/new-version-lazywinadmin-0320120220.html" target="_blank">LazyWinAdmin v0.3.20120220</a></li>
-<li><a href="http://www.lazywinadmin.com/2011/10/lazywinadmin-update-20111002.html" target="_blank">LazyWinAdmin v0.3.20111002</a></li>
+<li>LazyWinAdmin v0.3.20111002</li>
 <li><a href="http://www.lazywinadmin.com/2011/05/lazywinadmin-02.html" target="_blank">LazyWinAdmin v0.2</a></li>
 </ul>
 <u>Download:</u><a href="http://gallery.technet.microsoft.com/LazyWinAdmin-04-9da94d7f" target="_blank">Technet</a><br />
@@ -284,7 +285,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://3.bp.blogspot.com/-aht5gyzq-5A/T9a3W9cIDZI/AAAAAAABO5U/BPCWTx716_4/s1600/lwa-v0.4-main01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="255" src="https://3.bp.blogspot.com/-aht5gyzq-5A/T9a3W9cIDZI/AAAAAAABO5U/BPCWTx716_4/s1600/lwa-v0.4-main01.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/lwa-v0.4-main01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="255" src="{{ site.url }}/images/pages/scripts/lwa-v0.4-main01.png" width="400" /></a></div>
 <div>
 <br /></div>
 <h1>
@@ -301,7 +302,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-SRc7VpBPh5Y/UpLyGWLnsMI/AAAAAAABe88/wRx9fVryM8M/s1600/2013-11-25+1-45-27+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://4.bp.blogspot.com/-SRc7VpBPh5Y/UpLyGWLnsMI/AAAAAAABe88/wRx9fVryM8M/s1600/2013-11-25+1-45-27+AM.png" width="362" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-11-25_1-45-27_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-11-25_1-45-27_AM.png" width="362" /></a></div>
 <br />
 <br />
 <h1 id="NetBackupPSModule">
@@ -314,7 +315,7 @@ This module contains cmdlets that parse the output of regular CLI tools.<br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://2.bp.blogspot.com/-VvYGeSMxaW0/VB5XhWRHiGI/AAAAAAABoNo/c3_92LEStPc/s1600/Get-Command_NetBackupPS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="130" src="https://2.bp.blogspot.com/-VvYGeSMxaW0/VB5XhWRHiGI/AAAAAAABoNo/c3_92LEStPc/s1600/Get-Command_NetBackupPS.png" width="320" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/Get-Command_NetBackupPS.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="130" src="{{ site.url }}/images/pages/scripts/Get-Command_NetBackupPS.png" width="320" /></a></div>
 <br />
 <h1 id="ReadExcelFileCOM">
 Read Excel File (Using COM)</h1>
@@ -324,7 +325,7 @@ Read Excel File (Using COM)</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://3.bp.blogspot.com/-0X6m94skkjo/Uy41tyg933I/AAAAAAABj14/ANHlIsQtoa0/s1600/2014-03-22+9-14-51+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="https://3.bp.blogspot.com/-0X6m94skkjo/Uy41tyg933I/AAAAAAABj14/ANHlIsQtoa0/s1600/2014-03-22+9-14-51+PM.png" width="320" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="172" src="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" width="320" /></a></div>
 <br />
 <h1 id="ReportActiveDirectoryMissingsubnets">
 Report Active Directory Missing subnets</h1>
@@ -334,7 +335,7 @@ Report Active Directory Missing subnets</h1>
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://3.bp.blogspot.com/-EPI7odaA76w/UmNYbF7QVKI/AAAAAAABeLw/Ug9v4f60law/s1600/2013-10-15+12-33-20+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://3.bp.blogspot.com/-EPI7odaA76w/UmNYbF7QVKI/AAAAAAABeLw/Ug9v4f60law/s1600/2013-10-15+12-33-20+AM.png" width="347" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" width="347" /></a></div>
 <br />
 <br />
 <br />
@@ -353,7 +354,7 @@ Set-VMChangeBlockTracking</h1>
 Changed Block Tracking (CBT) is a VMware feature that helps perform incremental backups. VMware Data Recovery uses this technology, and so can developers of backup and recovery software.<br />
 <u>Blog post(s):</u>2013/07/02<a href="http://www.lazywinadmin.com/2013/07/enabling-change-block-tracking-cbt-on.html" target="_blank">Enabling Change Block Tracking (CBT) on a vSphere 5.1 VM with PowerShell/PowerCli</a><br />
 <br />
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/Set-VMChangeBlockTracking-b422af9a" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20210118235312/https://gallery.technet.microsoft.com/Set-VMChangeBlockTracking-b422af9a" target="_blank">Technet</a><br />
 <br />
 <h1 id="ListServiceswhereStartModeisAUTOMATICandNOTrunning">
 Services where StartMode is AUTOMATIC and NOT running</h1>
@@ -369,7 +370,7 @@ Set-NetworkLevelAuthentication (NLA)</h1>
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-tQvUGQdzo1c/Uz3H2tg6FeI/AAAAAAABj-g/ggNs4JpsSHM/s1600/4-3-2014+4-40-17+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://4.bp.blogspot.com/-tQvUGQdzo1c/Uz3H2tg6FeI/AAAAAAABj-g/ggNs4JpsSHM/s1600/4-3-2014+4-40-17+PM.png" width="244" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/images/pages/scripts/4-3-2014_4-40-17_PM.png" width="244" /></a></div>
 <div>
 <br /></div>
 <br />
@@ -384,13 +385,13 @@ Tutorial - Creating a Basic GUI</h1>
 <div style="font-size: medium; font-weight: normal;">
 <br /></div>
 <div style="font-size: medium; font-weight: normal;">
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/PowerShell-Studio-2012-ee07484d" target="_blank">Technet</a></div>
+<u>Download:</u>Technet (link no longer available)</div>
 <div style="font-size: medium; font-weight: normal;">
 <br /></div>
 <div style="font-size: medium; font-weight: normal;">
 <br /></div>
 <div class="separator" style="clear: both; font-size: medium; font-weight: normal; text-align: center;">
-<a href="http://3.bp.blogspot.com/-UnYK_kzbpas/UgQmud321OI/AAAAAAABbm0/yiIrykB74HA/s1600/2013-08-08+7-06-17+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="236" src="https://3.bp.blogspot.com/-UnYK_kzbpas/UgQmud321OI/AAAAAAABbm0/yiIrykB74HA/s1600/2013-08-08+7-06-17+PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-08-08_7-06-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="236" src="{{ site.url }}/images/pages/scripts/2013-08-08_7-06-17_PM.png" width="400" /></a></div>
 <br />
 <br />
 <h1 id="TutorialDataGridViewSorting">
@@ -402,10 +403,10 @@ Tutorial - DataGridView Control- Add Sorting
 <div style="font-size: medium; font-weight: normal;">
 <u>Blog post(s):</u><a href="http://www.lazywinadmin.com/2015/01/powershell-studio-2014-datagridview.html" target="_blank">PowerShell Studio 2014 - DataGridView Sorting</a></div>
 <div style="font-size: medium; font-weight: normal;">
-<u>Download:</u><a href="https://gallery.technet.microsoft.com/Winforms-DataGridView-28f9b521" target="_blank">Technet</a>/ <a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_ColumnHeader_Sorting" target="_blank">GitHub</a></div>
+<u>Download:</u><a href="https://web.archive.org/web/20210121115031/https://gallery.technet.microsoft.com/Winforms-DataGridView-28f9b521" target="_blank">Technet</a>/ <a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_ColumnHeader_Sorting" target="_blank">GitHub</a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-FF683wc4laE/VLHRufeoG5I/AAAAAAABrBg/luqrHrouQ8o/s1600/Datagridview_Sorting_GIF.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-FF683wc4laE/VLHRufeoG5I/AAAAAAABrBg/luqrHrouQ8o/s1600/Datagridview_Sorting_GIF.gif" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/Datagridview_Sorting_GIF.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/Datagridview_Sorting_GIF.gif" /></a></div>
 <br />
 <h1 id="TutorialListViewControl">
 Tutorial - ListView Control- Fill my second column</h1>
@@ -424,11 +425,11 @@ Tutorial - ToolMaking (Winform)</h1>
 <u>Blog post(s):</u>2013/10/11<a href="http://www.lazywinadmin.com/2013/10/PowerShellStudio2012ToolMaking.html" target="_blank">PowerShell Studio 2012 - WinForms - GUI ToolMaking</a><br />
 <u>Video:</u><a href="http://www.youtube.com/watch?v=HmcWucxQeQE" target="_blank">Youtube</a><br />
 <br />
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/PowerShell-Studio-2012-40694250" target="_blank">Technet</a><br />
+<u>Download:</u>Technet (link no longer available)<br />
 <u><br /></u>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://1.bp.blogspot.com/-W3J8czlT9N4/UlhdeW-8f7I/AAAAAAABd60/JAWeiJKmt74/s1600/2013-10-11+4-19-47+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="362" src="https://1.bp.blogspot.com/-W3J8czlT9N4/UlhdeW-8f7I/AAAAAAABd60/JAWeiJKmt74/s1600/2013-10-11+4-19-47+PM.png" width="400" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/2013-10-11_4-19-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="362" src="{{ site.url }}/images/pages/scripts/2013-10-11_4-19-47_PM.png" width="400" /></a></div>
 </div>
 <br />
 <h1 id="NetBackupPSModule">
@@ -439,7 +440,7 @@ WinFormPS Module</h1>
 <u>Download:</u><a href="https://github.com/lazywinadmin/WinFormPS" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://1.bp.blogspot.com/-q5gopArKelY/VN144vHGYOI/AAAAAAABrq8/OHMRhUJD48E/s1600/datagridview2.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-q5gopArKelY/VN144vHGYOI/AAAAAAABrq8/OHMRhUJD48E/s1600/datagridview2.gif" /></a></div>
+<a href="{{ site.url }}/images/pages/scripts/datagridview2.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/images/pages/scripts/datagridview2.gif" /></a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>

@@ -112,7 +112,7 @@ Now let's run the tool again and click on "Name" a couple of times for example, 
 
 # Code Example
 
-Finally, the code is available on <b><a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_ColumnHeader_Sorting" target="_blank">GitHub</a></b> or <b><a href="https://gallery.technet.microsoft.com/Winforms-DataGridView-28f9b521" target="_blank">Technet Gallery</a></b>
+Finally, the code is available on <b><a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_ColumnHeader_Sorting" target="_blank">GitHub</a></b> or <b><a href="https://web.archive.org/web/20210121115031/https://gallery.technet.microsoft.com/Winforms-DataGridView-28f9b521" target="_blank">Technet Gallery</a></b>
 
 
 

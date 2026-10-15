@@ -16,7 +16,7 @@ comments: true
 Unfortunately I don't expect a very high score in the Leader board since I did not submit the good version of my script... Shame.... But anyway I learned a bit from this event and wanted to share my solution. Hope this help someone out-there.
 
 <b style="font-size: x-large;">Instruction</b>
-<a href="http://sdrv.ms/10N73hY" target="_blank">Download</a> [SkyDrive]
+Download (link no longer available) [SkyDrive]
 
 
 <blockquote class="tr_bq"><i>Dr. Scripto has been fielding a lot of calls from the Help Desk lately. They've been asking him to look up information about the local hard drives in various servers – mainly size and free space information. He doesn't mind helping, but all the requests have been getting in the way of his naps. He's asked you to write a tool comand that can get the information for the help desk – and theywants the output in an HTML file. The HTML file should look something like this:</i><i>
