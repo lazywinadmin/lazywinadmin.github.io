@@ -1,4 +1,5 @@
 ---
+description: "Have you noticed that you cannot add the desktop icons (Computer, Network, etc.) to your Windows Server 2008 R2 desktop?"
 layout: single
 title: MS Windows Server 2008 R2 - Adding the desktop icons back
 excerpt: 

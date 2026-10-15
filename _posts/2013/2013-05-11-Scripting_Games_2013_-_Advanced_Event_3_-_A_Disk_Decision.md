@@ -1,4 +1,5 @@
 ---
+description: "This is my solution for the Advanced Event #3.Unfortunately I don’t expect a very high score in the Leader board since I did not submit the good version of…"
 layout: single
 title: Scripting Games 2013 - Advanced Event 3 - A Disk Decision
 excerpt: 

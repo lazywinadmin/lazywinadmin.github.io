@@ -1,4 +1,5 @@
 ---
+description: "In the last few days, I have been working on a Onboarding automation process that need to handle both French and English and one of the step needed to remove…"
 layout: single
 title: PowerShell - Remove Diacritics (Accents) from a string
 excerpt: 

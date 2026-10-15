@@ -1,4 +1,5 @@
 ---
+description: "NewSID is retired: when you clone Windows Server 2008 R2 virtual or physical servers, use Sysprep to generalize the image instead."
 layout: single
 title: Cloning Windows Server 2008 R2 - Use Sysprep (no more NewSID)
 excerpt: 

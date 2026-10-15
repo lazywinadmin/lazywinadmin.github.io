@@ -1,4 +1,5 @@
 ---
+description: "With the very exciting upcoming launch of the Falcon Heavy 🚀 this week, I worked on a SpaceX PowerShell module that interacts with the SpaceX-API to retrieve…"
 layout: single
 title: "SpaceX PowerShell module"
 classes: wide

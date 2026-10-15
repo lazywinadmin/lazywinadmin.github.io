@@ -1,4 +1,5 @@
 ---
+description: "A couple of weeks ago I was looking at a way to find the Calendar Events of an Office365 shared mailbox using PowerShell."
 layout: single
 title: PowerShell - Using Office 365 REST API to get Calendar Events
 excerpt: 

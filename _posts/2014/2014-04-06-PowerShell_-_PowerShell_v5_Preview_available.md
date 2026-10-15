@@ -1,4 +1,5 @@
 ---
+description: "Wow that was really fast!! In case you missed it last week,PowerShell 5.0 “Preview” has been released by Microsoft part of Windows Management Framework 5.0…"
 layout: single
 title: PowerShell - PowerShell v5 "Preview" available
 excerpt: 

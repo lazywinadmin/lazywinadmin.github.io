@@ -1,4 +1,5 @@
 ---
+description: "Today one of my IT coworkers, in another department, sent a couple of emails to the Ops to get the username (SamAccount) from a couple of Active Directory…"
 layout: single
 title: PowerShell - Get-DomainUser
 excerpt: 

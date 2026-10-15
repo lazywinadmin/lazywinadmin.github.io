@@ -1,4 +1,5 @@
 ---
+description: "Microsoft recently released a new version of PowerShell, this post is a quick run-through the new features and new cmdlets that I presented at the last…"
 layout: single
 title: "PowerShell 7 - What's new ?"
 excerpt: "Microsoft recently released a new version of PowerShell, this post is a quick run-through the new features and new cmdlets that I presented at the last French PowerShell User Group meeting"

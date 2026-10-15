@@ -1,4 +1,5 @@
 ---
+description: "I found some time over the week-end to fix some bugs and add a few things to LazyTS. You’ll now be able to quickly search though the displayed data using the…"
 layout: single
 title: Update - LazyTS v1.1
 excerpt: 

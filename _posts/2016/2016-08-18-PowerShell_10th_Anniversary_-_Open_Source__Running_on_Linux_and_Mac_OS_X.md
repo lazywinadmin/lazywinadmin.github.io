@@ -1,4 +1,5 @@
 ---
+description: "For its 10th anniversary, PowerShell goes open source and runs on Linux and macOS. What was announced, demos and where to start."
 layout: single
 title: PowerShell 10th Anniversary - Open Source / Running on Linux and Mac OS X
 excerpt: 

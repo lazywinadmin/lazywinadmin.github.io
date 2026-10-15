@@ -1,4 +1,5 @@
 ---
+description: "How to enable VMware DirectPath I/O (IOMMU) on an ASUS M5A97 R2.0 motherboard with an AMD FX-8350 CPU for an ESXi home lab."
 layout: single
 title: DirectPath I/O supported with ASUS M5A97 R2.0/AMD FX-8350
 excerpt: 

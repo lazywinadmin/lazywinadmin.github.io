@@ -1,4 +1,5 @@
 ---
+description: "Video: Tobial Weltner – Regular Expressions in 5 Minutes: One of my favorite lightning talks at the PowerShell Deep Dive in Frankfurt was the one that Tobias…"
 layout: single
 title: Video - Tobial Weltner – Regular Expressions in 5 Minutes
 excerpt: 

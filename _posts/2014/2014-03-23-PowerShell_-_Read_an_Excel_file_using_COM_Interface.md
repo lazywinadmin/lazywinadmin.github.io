@@ -1,4 +1,5 @@
 ---
+description: "Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows."
 layout: single
 title: PowerShell - Read an Excel file using COM Interface
 excerpt: 

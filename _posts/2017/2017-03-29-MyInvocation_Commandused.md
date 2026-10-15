@@ -1,4 +1,5 @@
 ---
+description: "When troubleshooting scripts, it comes handy to be able to log which parameters were used to invoke a script or a function."
 layout: single
 title: "Retrieving the parameters used to run a script"
 excerpt: "When troubleshooting scripts, it comes handy to be able to log which parameters were used to invoke a script or a function. Here is one way to retrieve the information"

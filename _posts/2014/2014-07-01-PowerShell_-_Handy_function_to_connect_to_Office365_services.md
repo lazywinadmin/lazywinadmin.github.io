@@ -1,4 +1,5 @@
 ---
+description: "I just started to play with a Microsoft Office 365 environment (Azure Active Directory, Lync Online and Exchange Online) and I thought I would make it…"
 layout: single
 title: PowerShell - Handy function to connect to Office365 services
 excerpt: 

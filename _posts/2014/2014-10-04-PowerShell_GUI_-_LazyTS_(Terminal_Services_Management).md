@@ -1,4 +1,5 @@
 ---
+description: "LazyTS is a PowerShell script to manage Sessions and Processeson local or remote machines. It allows you to Query/Disconnect/Stop session(s), Query/Stop…"
 layout: single
 title: PowerShell GUI - LazyTS (Terminal Services Management)
 excerpt: 

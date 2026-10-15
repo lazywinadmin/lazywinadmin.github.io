@@ -1,4 +1,5 @@
 ---
+description: "A sneak peek at LazyWinAdmin v0.4, the PowerShell WinForms GUI tool for managing local and remote Windows computers."
 layout: single
 title: LazyWinAdmin v0.4 - Sneak Peek
 excerpt: 

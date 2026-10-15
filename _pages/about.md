@@ -1,4 +1,5 @@
 ---
+description: "About François-Xavier Cat: cloud and DevOps engineer, former Microsoft MVP, and author of the LazyWinAdmin blog on PowerShell, Azure and automation."
 title: About
 layout: archive
 permalink: /about.html

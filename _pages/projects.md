@@ -1,4 +1,5 @@
 ---
+description: "Open source PowerShell modules, scripts and tools by François-Xavier Cat, including AdsiPS, LazyWinAdmin GUI and other projects on GitHub."
 breadcrumbs: false
 title: "Scripts/Projects"
 layout: single

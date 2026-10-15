@@ -1,4 +1,5 @@
 ---
+description: "Next week, from the 30th of March to the 4th of April, I will be participating to the PowerShell Blogging Week with a couple of community well-known…"
 layout: single
 title: PowerShell Blogging Week
 excerpt: 

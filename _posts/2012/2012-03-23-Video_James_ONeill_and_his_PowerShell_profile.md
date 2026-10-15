@@ -1,4 +1,5 @@
 ---
+description: "Video: James O’Neill and his PowerShell profile: Here’s another cool tips and tricks recording from last PowerShell Deep Dive – James O’Neill is sharing the…"
 layout: single
 title: Video - James O'Neill and his PowerShell profile
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "Launch of the French PowerShell User Group (FrPSUG), a community for French-speaking PowerShell users, admins and developers."
 layout: single
 title: Launch of / Lancement du French PowerShell User Group
 excerpt: 

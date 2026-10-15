@@ -1,4 +1,5 @@
 ---
+description: "I went through the migration of all my blog comments from Disqus to Github Issues using PowerShell."
 layout: single
 title: "Moving my blog comments from Disqus to Github issues using PowerShell"
 excerpt: "I went through the migration of all my blog comments from Disqus to Github Issues using PowerShell. Basically it is using Github Issue Search API to retrieve existing comments and leveraging Utterances bot to create new issues on my Github repository"

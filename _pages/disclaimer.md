@@ -1,4 +1,5 @@
 ---
+description: "Disclaimer for LazyWinAdmin.com: opinions are my own, and scripts and code samples are provided as-is, without warranty. Test before using them."
 title: disclaimer
 layout: single
 permalink: /disclaimer.html

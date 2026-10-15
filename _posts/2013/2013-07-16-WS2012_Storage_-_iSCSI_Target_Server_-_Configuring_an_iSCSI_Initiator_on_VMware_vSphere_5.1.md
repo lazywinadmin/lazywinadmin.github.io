@@ -1,4 +1,5 @@
 ---
+description: "I recently switched the backend storage of my VMware vSphere 5.1 Home Lab from FreeNas (OS based on UNIX) to iSCSI (Windows Server 2012 Storage Feature)."
 layout: single
 title: WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1
 excerpt: 

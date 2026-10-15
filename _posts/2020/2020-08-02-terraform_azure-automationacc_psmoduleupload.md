@@ -1,4 +1,5 @@
 ---
+description: "This article demonstrates how to use Terraform to upload a local PowerShell module to an Azure Storage Account and importing it to an Automation Account…"
 layout: single
 title: "Terraform - Uploading a local PowerShell module to an Azure Automation account"
 excerpt: "This article demonstrates how to use Terraform to upload a local PowerShell module to an Azure Storage Account and importing it to an Automation Account using a temporary secret link"

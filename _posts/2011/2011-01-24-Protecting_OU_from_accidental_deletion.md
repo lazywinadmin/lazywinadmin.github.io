@@ -1,4 +1,5 @@
 ---
+description: "When you create new Organizational Units in Active Directory Users And Computers (ADUC) in Server 2008 (or with RSAT on 2003 domains), ADUC gives you the…"
 layout: single
 title: Protecting OU from accidental deletion
 excerpt: 

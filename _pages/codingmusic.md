@@ -1,4 +1,5 @@
 ---
+description: "The music playlists and streaming sources François-Xavier Cat listens to while writing code and scripts."
 title: Music for coding
 layout: archive
 permalink: /codingmusic.html

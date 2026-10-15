@@ -1,4 +1,5 @@
 ---
+description: "Montreal PowerShell User Group #02, October 27 2015 at Warner Bros. Games Studio: using the pipeline and creating scripts and functions."
 layout: single
 title: 'Montreal PowerShell User Group #02 - Using the Pipeline/Creating Script and Function'
 excerpt: 

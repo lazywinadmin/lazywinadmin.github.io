@@ -1,4 +1,5 @@
 ---
+description: "The year 2013 has been a pretty good year for the LazyWinAdmin blog.Thank you guys for following my blog and participating to the comments discussions."
 layout: single
 title: Top Five 2013 LazyWinAdmin Blog Posts
 excerpt: 

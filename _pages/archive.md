@@ -1,4 +1,5 @@
 ---
+description: "Every LazyWinAdmin post since 2010, listed by year: PowerShell, Active Directory, Azure, DevOps and automation articles."
 layout: archive
 permalink: /archive.html
 title: "Archive"

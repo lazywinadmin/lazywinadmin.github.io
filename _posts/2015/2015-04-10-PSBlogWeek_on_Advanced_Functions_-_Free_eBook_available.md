@@ -1,4 +1,5 @@
 ---
+description: "The PowerShell Blogging Week posts on advanced functions are now available as a free eBook. Here's what it covers and where to get it."
 layout: single
 title: PSBlogWeek on Advanced Functions - Free eBook available
 excerpt: 

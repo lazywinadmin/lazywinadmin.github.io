@@ -1,4 +1,5 @@
 ---
+description: "In the last couple of months, I have been busy on some projects involving System Center Service Manager (SCSM), System Center Orchestrator (SCORCH) and…"
 layout: single
 title: PowerShell/SCSM - Get the Work Item parent of an Activity
 excerpt: 

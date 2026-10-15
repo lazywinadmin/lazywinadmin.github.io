@@ -1,4 +1,5 @@
 ---
+description: "A PowerShell script that checks whether all Windows services set to start automatically are actually running, locally or remotely."
 layout: single
 title: Powershell - Check if all the services with StartMode AUTOMATIC are actually Running
 excerpt: 

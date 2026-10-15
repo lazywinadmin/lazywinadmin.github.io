@@ -1,4 +1,5 @@
 ---
+description: "Slides and scripts from my talk on parsing data with PowerShell at the first meetup of the French PowerShell User Group (FrPSUG)."
 layout: single
 title: My presentation at the first meetup of the French PowerShell User Group
 excerpt: 

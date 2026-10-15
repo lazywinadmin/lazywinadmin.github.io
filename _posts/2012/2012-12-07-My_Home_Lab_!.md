@@ -1,4 +1,5 @@
 ---
+description: "I finally ordered my home lab to work on my technicalknowledgeand to help me work on some certifications.My first goal will be to pass my VCP5-DV in February…"
 layout: single
 title: My Home Lab !
 excerpt: 

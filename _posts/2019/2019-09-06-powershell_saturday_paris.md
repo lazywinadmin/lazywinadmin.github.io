@@ -1,4 +1,5 @@
 ---
+description: "En ce mois de Septembre 2019 nous celebrons le troisieme anniversaire du French PowerShell User group."
 layout: single
 title: "PowerShell Saturday Paris 2019/10/12 (french)"
 excerpt: "En ce mois de Septembre 2019 nous celebrons le troisieme anniversaire du French PowerShell User group. Pour cette occasion nous organisons a nouveau un evenement a Paris le Samedi 12 Octobre 2019 a Paris"

@@ -1,4 +1,5 @@
 ---
+description: "I was recently looking at Office365/Exchange Online to retrieve Distribution Group membership."
 layout: single
 title: PowerShell/Office 365 - Get the distribution groups membership
 excerpt: 

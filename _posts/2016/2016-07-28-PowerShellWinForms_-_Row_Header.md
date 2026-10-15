@@ -1,4 +1,5 @@
 ---
+description: "If you are creating Windows Forms (WinForms) using PowerShell with tools such as PowerShell Studio from Sapien, you might have some scenario where you want…"
 layout: single
 title: PowerShell/WinForms - Row Header
 excerpt: 

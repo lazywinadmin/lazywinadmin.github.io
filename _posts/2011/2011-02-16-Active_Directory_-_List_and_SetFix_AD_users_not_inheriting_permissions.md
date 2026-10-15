@@ -1,4 +1,5 @@
 ---
+description: "Find Active Directory users that don't inherit permissions from their parent OU, and re-enable inheritance with PowerShell."
 layout: single
 title: Active Directory - List and Set/Fix AD users not inheriting permissions
 excerpt: 

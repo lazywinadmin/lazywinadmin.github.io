@@ -1,4 +1,5 @@
 ---
+description: "In one of my last post I installed a new SQL Server 2012 in my Home Lab. This was a requirement for a few incoming home lab projects."
 layout: single
 title: Installing Microsoft System Center Orchestrator 2012 SP1
 excerpt: 

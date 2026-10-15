@@ -1,4 +1,5 @@
 ---
+description: "System Center Configuration Manager 2012 SP1 Beta finally ships with its own PowerShell module. A first look at the new cmdlets."
 layout: single
 title: PowerShell Module included in System Center Configuration Manager 2012 SP1 BETA
 excerpt: 

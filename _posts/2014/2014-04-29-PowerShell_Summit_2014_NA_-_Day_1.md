@@ -1,4 +1,5 @@
 ---
+description: "The PowerShell Summit 2014 North America kicked off this morning ! What a day! The organizers really did an Awesome Work!! Great Summit so far!"
 layout: single
 title: PowerShell Summit 2014 NA - Day 1
 excerpt: 

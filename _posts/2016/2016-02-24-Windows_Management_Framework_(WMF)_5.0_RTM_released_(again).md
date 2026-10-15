@@ -1,4 +1,5 @@
 ---
+description: "Microsoft just re-released the new version of Windows Management Framework (WMF) 5.0 RTM for Windows Server 2012 R2, Windows Server 2012, Windows 2008 R2…"
 layout: single
 title: Windows Management Framework (WMF) 5.0 RTM released (again)
 excerpt: 

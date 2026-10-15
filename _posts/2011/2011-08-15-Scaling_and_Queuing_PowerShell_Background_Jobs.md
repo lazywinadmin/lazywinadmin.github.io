@@ -1,4 +1,5 @@
 ---
+description: "Travis Jones on scaling and queuing PowerShell background jobs: how to run many jobs in parallel without overloading your machine."
 layout: single
 title: Scaling and Queuing PowerShell Background Jobs
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "I started to work on a PowerShell module called WinFormPS.This module contains a few functions that let you interact with Windows Form controls such as…"
 layout: single
 title: Introducing WinFormPS - PowerShell module to interact with WinForms controls
 excerpt: 

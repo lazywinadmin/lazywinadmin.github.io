@@ -1,4 +1,5 @@
 ---
+description: "I’m continuing to play with the new ConvertFrom-String cmdlet (available in the last WMF 5.0 September preview released yesterday) which make the parsing job…"
 layout: single
 title: PowerShell - ConvertFrom-String and the TemplateFile parameter
 excerpt: 

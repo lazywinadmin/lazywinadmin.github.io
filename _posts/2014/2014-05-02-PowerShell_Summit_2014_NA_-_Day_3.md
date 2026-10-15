@@ -1,4 +1,5 @@
 ---
+description: "The PowerShell Summit 2014 NA is now over ! The organizers really did an awesome work !! I can’t wait for next year!!"
 layout: single
 title: PowerShell Summit 2014 NA - Day 3
 excerpt: 

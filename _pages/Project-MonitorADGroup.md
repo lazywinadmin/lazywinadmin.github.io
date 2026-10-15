@@ -1,4 +1,5 @@
 ---
+description: "Monitor Active Directory group membership changes with a PowerShell script that emails a report whenever members are added or removed."
 breadcrumbs: false
 title: Monitor Active Directory Group Membership Change
 layout: single

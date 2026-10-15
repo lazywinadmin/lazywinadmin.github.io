@@ -1,4 +1,5 @@
 ---
+description: "Another day of PowerShell Awesomeness !!! Learned a ton of things today !! Made some new PowerShell friends ANDDD met so many PowerShell Team members!!"
 layout: single
 title: PowerShell Summit 2014 NA - Day 2
 excerpt: 

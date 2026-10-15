@@ -1,4 +1,5 @@
 ---
+description: "How to create and organize Saved Queries in Active Directory Users and Computers (dsa.msc) and reuse them on other domain controllers."
 layout: single
 title: Active Directory - Saved Queries (ADUC MMC)
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "The netstat command line utility displays protocol statistics and current TCP/IP network connections."
 layout: single
 title: PowerShell - How to find running processes and their port number
 excerpt: 

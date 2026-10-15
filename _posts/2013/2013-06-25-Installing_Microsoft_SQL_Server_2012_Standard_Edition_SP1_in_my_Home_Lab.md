@@ -1,4 +1,5 @@
 ---
+description: "Currently I’m playing with some products from the Microsoft System Center 2012 Suite in my Home Lab."
 layout: single
 title: Installing Microsoft SQL Server 2012 Standard Edition SP1 in my Home Lab
 excerpt: 

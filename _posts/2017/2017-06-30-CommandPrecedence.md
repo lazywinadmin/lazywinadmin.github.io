@@ -1,4 +1,5 @@
 ---
+description: "If you have a function, a module’s function and a Cmdlet with the same exact name, which command will answer first ?"
 layout: single
 title: "PowerShell Command Precedence"
 excerpt: "If you have a function, a module's function and a Cmdlet with the same exact name, which command will answer first ? This is the role of Command Precedence in PowerShell"

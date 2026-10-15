@@ -1,4 +1,5 @@
 ---
+description: "While playing in my lab I needed to create a bunch of fake Devices in System Center Configuration Manager (SCCM)."
 layout: single
 title: PowerShell Tip - Generate a list of Mac Addresses
 excerpt: 

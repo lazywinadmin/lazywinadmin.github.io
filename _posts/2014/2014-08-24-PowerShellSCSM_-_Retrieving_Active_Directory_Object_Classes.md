@@ -1,4 +1,5 @@
 ---
+description: "Following my previous post, today I continuemy SCSM journey. I had to create a new automation workflow using SCSM and SCORCH to give the ability to a portal…"
 layout: single
 title: PowerShell/SCSM - Retrieving Active Directory Object Classes
 excerpt: 

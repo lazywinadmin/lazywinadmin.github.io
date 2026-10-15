@@ -1,4 +1,5 @@
 ---
+description: "Recently I was lucky enough to attend the PowerShell Summit in Redmond,WA, this was a great opportunity to meet a lot of PowerShell people, MVPs, Writers…"
 layout: single
 title: PowerShell Summit NA 2013 - Recorded Videos
 excerpt: 

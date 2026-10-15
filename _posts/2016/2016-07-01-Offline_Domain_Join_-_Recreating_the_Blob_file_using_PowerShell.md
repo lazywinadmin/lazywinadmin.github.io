@@ -1,4 +1,5 @@
 ---
+description: "When you need to join a machine to the Active Directory It is a pretty straight forward task using either the User Interface or the PowerShell cmdlet…"
 layout: single
 title: Offline Domain Join - Recreating the Blob file using PowerShell
 excerpt: 

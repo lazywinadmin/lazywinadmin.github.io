@@ -1,4 +1,5 @@
 ---
+description: "A few days ago I was in a training class out of the office with one of my work colleague. During the class he tried to connect to work using our Citrix (SRA)…"
 layout: single
 title: PowerShell - Get/Set the Network Level Authentication Remotely (RDP Setting)
 excerpt: 

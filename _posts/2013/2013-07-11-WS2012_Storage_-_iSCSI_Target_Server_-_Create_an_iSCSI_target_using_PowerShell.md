@@ -1,4 +1,5 @@
 ---
+description: "For my Virtual Machines needs, some LUNS are presented to my VMware vSphere 5.1 Servers and until now,my labstorage was handle byFreeNas using iSCSI.For…"
 layout: single
 title: WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell
 excerpt: 

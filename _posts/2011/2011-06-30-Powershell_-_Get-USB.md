@@ -1,4 +1,5 @@
 ---
+description: "function Get-USB { <# .Synopsis Gets USB devices attached to the system .Description Uses WMI to get the USB Devices attached to the system .Example Get-USB…"
 layout: single
 title: Powershell - Get-USB
 excerpt: 

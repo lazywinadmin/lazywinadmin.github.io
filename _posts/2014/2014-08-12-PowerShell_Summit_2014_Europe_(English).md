@@ -1,4 +1,5 @@
 ---
+description: "The first European PowerShell Summit, organized by PowerShell.org, runs September 29 to October 1 2014 in Amsterdam."
 layout: single
 title: PowerShell Summit 2014 Europe (English)
 excerpt: 

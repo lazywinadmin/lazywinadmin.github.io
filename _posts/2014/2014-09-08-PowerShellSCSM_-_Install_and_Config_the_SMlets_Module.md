@@ -1,4 +1,5 @@
 ---
+description: "If you follow my blog, you might have noticed that I recently started to post about SCSM. We just finished to migrate to a new SCSM environment in Azure…"
 layout: single
 title: PowerShell/SCSM - Install and Config the SMlets Module
 excerpt: 

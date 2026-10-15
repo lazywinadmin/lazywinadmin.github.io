@@ -1,4 +1,5 @@
 ---
+description: "Step by step: build a Windows Server 2008 R2 virtual machine template in VMware vSphere for fast, consistent server deployments."
 layout: single
 title: VMware Virtual Machine Template - Windows Server 2008 R2
 excerpt: 

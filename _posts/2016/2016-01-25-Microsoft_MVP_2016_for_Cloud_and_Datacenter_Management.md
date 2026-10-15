@@ -1,4 +1,5 @@
 ---
+description: "Awarded Microsoft MVP for a third year in 2016, now in the Cloud and Datacenter Management category. Thanks to the PowerShell community."
 layout: single
 title: Microsoft MVP 2016 for Cloud and Datacenter Management
 excerpt: 
