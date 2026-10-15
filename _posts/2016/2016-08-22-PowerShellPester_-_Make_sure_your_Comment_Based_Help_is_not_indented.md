@@ -12,7 +12,7 @@ comments: true
 toc: true
 toc_label: "Table of content"
 ---
-<a href="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__1425385033__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="120" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__2058964902__-200x200.png" width="120" /></a>
+<a href="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__1425385033__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="pester logo" loading="lazy" decoding="async" border="0" height="120" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/pester_logo__2058964902__-200x200.png" width="120" /></a>
 While writing some PowerShell Pester tests for my module <a href="https://www.powershellgallery.com/packages/AdsiPS/1.0.0.2" target="_blank">AdsiPS</a>, I wanted to make sure for each functions that all the help keywords of the comment based help were not indented.
 
 Depending of the script editor you are using, the number of spaces or tabs might differ and once published on GitHub the code might looks not so pretty.
@@ -23,11 +23,11 @@ My goal is just to keep my code clean and enforce the same practice across all t
 
 Here for example, <b>I don't want this</b>:
 
-<img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp01__2057622999__-511x384.png" />
+<img alt="PowerShellPester Indented commentbasedhelp01" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp01__2057622999__-511x384.png" />
 
 Instead, <b>I want all the comment based help in that format</b>
 
-<img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp02__99513925__-475x378.png" />
+<img alt="PowerShellPester Indented commentbasedhelp02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp02__99513925__-475x378.png" />
 
 (Help keywords directly at the beginning of the line)
 
@@ -106,7 +106,7 @@ $FunctionContent -split '\r\n' | select-string $Pattern
 line -match "^$Pattern" | Should Be $true
 ```
 
-<img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp03__40354873__-834x329.png"/>
+<img alt="PowerShellPester Indented commentbasedhelp03" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp03__40354873__-834x329.png"/>
 
 ## Related posts
 

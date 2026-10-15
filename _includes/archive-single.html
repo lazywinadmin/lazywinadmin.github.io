@@ -13,9 +13,9 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
-    {% if include.type == "grid" and teaser %}
+    {% if include.type == "grid" and teaser and teaser != "" %}
       <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+        <img src="{{ teaser | relative_url }}" alt="{{ post.title | strip_html | escape }}">
       </div>
     {% endif %}
     <h2 class="archive__item-title no_toc p-name" itemprop="headline">

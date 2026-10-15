@@ -14,7 +14,7 @@ comments: true
 ---
 
 
-<a href="{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__580073936__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="150" src="{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__307945277__-200x200.png" width="150" /></a>
+<a href="{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__580073936__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Outlook 2013 Logo 256x256" loading="lazy" decoding="async" border="0" height="150" src="{{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Outlook-2013-Logo-256x256__307945277__-200x200.png" width="150" /></a>
 
 <a href="{{ site.url }}/2015/08/powershello365-get-distribution-groups.html#more" target="_blank">In my previous post</a> I showed how to retrieve the membership of one or multiple groups. In today's post I want to find the Distribution groups a user belongs to.
 
@@ -46,7 +46,7 @@ You need to be connected to Exchange Online. This can be done using on of the fo
 
 This retrieve all the members of each groups, then narrow down the output to only the user I'm looking for. This looks good with the only problem than this one-liner took... 15 minutes to query all the groups memberships, Not really efficient...
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell/Office 365 - Get an Exchange Online user’s distribution groups efficiently" (1)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-43-40+PM__189355782__-772x649.png
 {% endcapture %}
@@ -65,7 +65,7 @@ Get-DistributionGroup -Filter "Members -like $($user.distinguishedName)"
 ```
 
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell/Office 365 - Get an Exchange Online user’s distribution groups efficiently" (2)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-47-27+PM__1159283031__-772x478.png
 {% endcapture %}
@@ -83,13 +83,13 @@ Get-DistributionGroup -ResultSize 5 | Get-Member -Name "*Member*"
 
 No signs of 'Members' property. If you look at the help of `Get-DistributionGroup`, you see something talking about `Opath filtering` used to filter recipients.
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell/Office 365 - Get an Exchange Online user’s distribution groups efficiently" (3)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Get-Member__164818717__-772x458.png
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
 
-{% assign ImageText = '' %}
+{% assign ImageText = 'Screenshot from "PowerShell/Office 365 - Get an Exchange Online user’s distribution groups efficiently" (4)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Help_Filterparam__2128617403__-772x378.png
 {% endcapture %}

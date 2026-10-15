@@ -122,7 +122,7 @@ My migration plan looked like this:
 
 Diagram of the final state:
 
-![](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Github_Issues.png){: .align-center}
+![Static Site Comment system with Github Issues](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Github_Issues.png){: .align-center}
 
 
 ## Get the comments export
@@ -131,7 +131,7 @@ Fortunately Disqus made the comments exportation easy. Simply navigate to the [E
 
 `Your export has been queued. We will send an email to your registered address when it is available.`
 
-![](/images/2019/2019-04-07-moving_blog_comments/disqus_export_comments.png){: loading="lazy" decoding="async"}
+![disqus export comments](/images/2019/2019-04-07-moving_blog_comments/disqus_export_comments.png){: loading="lazy" decoding="async"}
 
 Once downloaded you'll need a tool like 7zip to uncompress the Gz file.
 

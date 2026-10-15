@@ -14,7 +14,7 @@ comments: true
 ---
 
 
-<a href="{{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="150" src="{{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" width="150" /></a>I was recently looking at Office365/Exchange Online to retrieve Distribution Group membership. This is pretty simple using something like: `Get-DistributionGroupMember -Identity "Marketing"`
+<a href="{{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Outlook 2013 Logo 256x256" loading="lazy" decoding="async" border="0" height="150" src="{{ site.url }}/images/2015/20150824_PowerShellOffice_365_-_Get_the_distribution_groups_membership/Outlook-2013-Logo-256x256__1558078760__-256x256.png" width="150" /></a>I was recently looking at Office365/Exchange Online to retrieve Distribution Group membership. This is pretty simple using something like: `Get-DistributionGroupMember -Identity "Marketing"`
 
 Not that prior to perforce the following command you need to be already connected to Office365, <a href="{{ site.url }}/2014/07/powershell-handy-function-to-connect-to.html" target="_blank">see this post</a>.
 

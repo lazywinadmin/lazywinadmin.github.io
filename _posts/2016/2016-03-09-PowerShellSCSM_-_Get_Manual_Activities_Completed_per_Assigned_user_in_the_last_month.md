@@ -13,7 +13,7 @@ comments: true
 ---
 
  
- <img loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ site.url }}/images/2016/20160309_PowerShellSCSM_-_Get_Manual_Activities_Completed_per_Assigned_user_in_the_last_month/SCSM_128x128x32__1666586661__-128x128.png" /> I wanted to expend a bit on [the previous post]({{ site.url }}/2016/03/powershellscsm-get-manual-activities.html) which retrieved all the Manual Activities completed in the last month.
+ <img alt="SCSM 128x128x32" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ site.url }}/images/2016/20160309_PowerShellSCSM_-_Get_Manual_Activities_Completed_per_Assigned_user_in_the_last_month/SCSM_128x128x32__1666586661__-128x128.png" /> I wanted to expend a bit on [the previous post]({{ site.url }}/2016/03/powershellscsm-get-manual-activities.html) which retrieved all the Manual Activities completed in the last month.
 
 I want to go a step further and get the top Users who closed the most Manual Activities in that period.
 
@@ -60,5 +60,5 @@ Get-SCSMObject -criteria $CriteriaObject|
 
 <i>This gives me the top users who closed Manual Activities</i>
 
-<img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160309_PowerShellSCSM_-_Get_Manual_Activities_Completed_per_Assigned_user_in_the_last_month/SCSM-RA_Completed_Count_Per_AssignedUser_Last30Days__1509159500__-772x438.png" />
+<img alt="SCSM RA Completed Count Per AssignedUser Last30Days" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160309_PowerShellSCSM_-_Get_Manual_Activities_Completed_per_Assigned_user_in_the_last_month/SCSM-RA_Completed_Count_Per_AssignedUser_Last30Days__1509159500__-772x438.png" />
 

@@ -13,7 +13,7 @@ comments: true
 ---
 
  
-<a href="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
+<a href="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Manager icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150412_PowerShellActive_Directory_-_Retrieve_Groups_managed_by_a_User/Manager-icon__1421794936__-96x96.png" /></a>I recently had an interesting request at work:
 <b>Finding a way to list all the groups a specific user was managing.</b>
 
 If you look into the properties of an Active Directory group object, you will find under the tab `ManagedBy` the name of a user or group who is managing the group and possibly its members if the `Manager can update membership list` is checked.

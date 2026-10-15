@@ -14,7 +14,7 @@ toc_label: "Table of content"
 classes: wide
 ---
 
-<img loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/pester_logo__837959368__-320x320.png" width="130" /> In my previous post I got started with Pester and wrote <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">my first test against the Comment Based Help</a> of my module [AdsiPS](https://github.com/lazywinadmin/AdsiPS").
+<img alt="pester logo" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/pester_logo__837959368__-320x320.png" width="130" /> In my previous post I got started with Pester and wrote <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">my first test against the Comment Based Help</a> of my module [AdsiPS](https://github.com/lazywinadmin/AdsiPS").
 
 Next, I wanted to write a Pester test against the Manifest File of AdsiPS module. I want to make sure all the basic information of the module is referenced in this file. Mike Robbins wrote a great article on <a href="http://mikefrobbins.com/2016/04/14/write-dynamic-unit-tests-for-your-powershell-code-with-pester/" target="_blank">Dynamic Unit Tests</a> where he is touching some of the points I want to cover today.
 
@@ -45,7 +45,7 @@ As specified above, I want to test the manifest file for the module <a href="htt
 * <b>Author</b>, <b>Company</b>, <b>Description</b>, <b>Copyright</b>, <b>License URI</b>, <b>Project URI</b>, <b>Tags</b> (used on <a href="https://www.powershellgallery.com/" target="_blank">PowerShell Gallery</a>)
 * <b>Equal number</b> of functions present in the <i>Public folder</i>* vs Those present when you import the module.
 
-<img loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="145" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/2016-05-11_23-40-31__1805837867__-256x186.png" width="200" />*<i>Public Folder</i>: Inside the module folder, I like to organize my module with at least a Public and Private folder. Public is used for Exported functions available to the user, Private are helper functions used only inside the module. This is a model that I adapted [from Warren Frame](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) that help to stay organized and also ease the management when you share your module on Version control solutions such as Github.
+<img alt="Screenshot from &quot;Using Pester to test your Manifest File&quot; (1)" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="145" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/2016-05-11_23-40-31__1805837867__-256x186.png" width="200" />*<i>Public Folder</i>: Inside the module folder, I like to organize my module with at least a Public and Private folder. Public is used for Exported functions available to the user, Private are helper functions used only inside the module. This is a model that I adapted [from Warren Frame](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) that help to stay organized and also ease the management when you share your module on Version control solutions such as Github.
 
 
 ```powershell
@@ -112,7 +112,7 @@ Describe "$ModuleName Module - Testing Manifest File (.psd1)"{
 
 Output of the pester tests against a Manifest File
 
-<img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/Pester_Manifest__1218784296__-790x248.png" />
+<img alt="Pester Manifest" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/Pester_Manifest__1218784296__-790x248.png" />
 
 
 ## Extra: Generating a Manifest file

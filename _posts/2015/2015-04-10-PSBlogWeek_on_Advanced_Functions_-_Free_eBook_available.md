@@ -12,7 +12,7 @@ comments: true
 ---
 
 
-<a href="{{ site.url }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" /></a>
+<a href="{{ site.url }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="PSBlogWeek Ebook Icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150410_PSBlogWeek_on_Advanced_Functions_-_Free_eBook_available/PSBlogWeek-Ebook_Icon__1343875761__-94x116.png" /></a>
 
 Last week I participated to the **PowerShell Blog Week** with a couple of community well-known Bloggers/Enthusiasts/MVP. The topic of the week was Advanced Functions.
 

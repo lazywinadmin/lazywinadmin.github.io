@@ -11,7 +11,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNS__367348001__-450x361.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" height="160" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNS__1762928334__-200x160.jpg" width="200" /></a>
+<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNS__367348001__-450x361.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="DNS" loading="lazy" decoding="async" border="0" height="160" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNS__1762928334__-200x160.jpg" width="200" /></a>
 > Update 2019/06/28: Add example to add the same entries to multiple zones.
 
 Today I needed to create approx. ~50 DNS A entries.
@@ -33,7 +33,7 @@ dnscmd.exe <DNSServer> /RecordAdd <DNSZone> <NewEntryName> /CreatePTR A <IPAddre
 Create a CSV with all the information (in Excel or via PowerShell)
 here is an example, save it as DNSEntries.csv (in my case at the root of the C: drive)
 
-<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__404817523__-637x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__547032139__-637x615.png" /></a>
+<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__404817523__-637x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DNSCMD CSVFILE" loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__547032139__-637x615.png" /></a>
 
 **Second Step:** The PowerShell one-liner:
 
@@ -46,7 +46,7 @@ ForEach-Object {
 
 And the output should look like the following:
 
-<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__1945553717__-692x322.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__866050784__-692x322.png" /></a>
+<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__1945553717__-692x322.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DNSCMD OUTPUT" loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__866050784__-692x322.png" /></a>
 
 
 ## Extra: Adding the same entries to multiple zones.
