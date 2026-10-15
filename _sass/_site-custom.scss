@@ -27,3 +27,16 @@ html[data-theme="dark"] .theme__toggle {
   .theme__icon-light { display: inline; }
 }
 @media print { .theme__toggle { display: none !important; } }
+
+/* Menu toggle icon is now a <span> (valid inside <button>) */
+.greedy-nav__toggle .navicon { display: block; }
+
+/* WCAG AA contrast: disabled pagination/pager links (theme default is 50% opacity) */
+.pagination li a.disabled,
+.pagination li a.current.disabled ~ a.disabled,
+.pagination--pager.disabled {
+  color: mix($background-color, $muted-text-color, 35%);
+}
+
+/* WCAG AA contrast: links inside info notices */
+.notice--info a { color: mix(#000, $info-color, 45%); }
