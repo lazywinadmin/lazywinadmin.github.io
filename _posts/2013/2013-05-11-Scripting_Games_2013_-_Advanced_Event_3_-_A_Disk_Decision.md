@@ -54,7 +54,7 @@ Since we just want the logical disk information, here we can use Win32_LogicalDi
 ```
 
 
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk__316438210__-1013x269.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Win32 logicalDisk" border="0" height="168" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk__86458016__-640x170.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk__316438210__-1013x269.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Win32 logicalDisk" border="0" height="168" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk__86458016__-640x170.png" width="640" /></a>
 Note that FileSystem disk has the "Drive Type" = '3'. We will want to filter our query on this property.
 
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimInstance -ClassName Win32_LogicalDisk -filter "DriveType = '3'"
@@ -66,7 +66,7 @@ Now we don't need all the extra properties so we can add an extra filter using t
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimInstance -ClassName Win32_LogicalDisk -filter "DriveType = '3'" -property DeviceId, Size, Freespace
 ```
 
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_property__1423735931__-899x675.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Win32 logicalDisk property" border="0" height="480" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_property__587499439__-640x481.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_property__1423735931__-899x675.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Win32 logicalDisk property" border="0" height="480" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_property__587499439__-640x481.png" width="640" /></a>
 
 Actually, while writing this post I wassurprised to see that using the Property Parameter is actually slower than using the Pipeline and sending the output to Select-Object...!!
 
@@ -141,7 +141,7 @@ And finally we query the disk information against the computer using the establi
 </b>Now that the hardest part of the work is done, all we need is to output the data as requested.
 In the scenario they request to have only 3 properties DRIVE which is the DeviceID property, SIZE(GB) which is Size (default is in Bytes) converted to GB with 2 decimals and finally the FREESPACE(MB) which is Freespace (default is in Bytes) converted to MB with 2 decimals as well.
 
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/formatting__678769728__-523x237.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="formatting" border="0" height="289" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/formatting__2130112522__-523x237.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/formatting__678769728__-523x237.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="formatting" border="0" height="289" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/formatting__2130112522__-523x237.png" width="640" /></a>
 
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">$Report = $LogicalDiskInfo | Select-Object @{Label="Drive";Expression={$_.DeviceID}},
     @{Label="Size(GB)";Expression={"{0:N2}" -f ($_.Size/1GB)}},
@@ -183,14 +183,14 @@ Here again we use Splatting to specify our ConvertTo-Html parameters. Note that 
 <b>Testing the function</b>
 
 Against a Windows Server 2000 and a fake server (to verify errorhandling)
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Test W2000" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Test W2000" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" /></a>
 With a Windows Server 2012 (WsMan Enabled)
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2012__591643752__-622x171.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Test W2012" border="0" height="174" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2012__1672090311__-622x171.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2012__591643752__-622x171.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Test W2012" border="0" height="174" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2012__1672090311__-622x171.png" width="640" /></a>
 
 
 <b>Final Report</b>
 
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="report" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="report" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" /></a>
 
 Script
 

@@ -121,7 +121,7 @@ Get-Command *user* -Module ActiveDirectory
 ```
 
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" /></a>
 <pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Show the standard output of Get-ADUser
 Get-ADUser -filter *
 
@@ -132,7 +132,7 @@ Get-ADUser -filter *
 Get-ADUser -filter * | Get-Member
 ```
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADUser Filter GetMember" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser Filter GetMember" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" /></a>
 
 <span style="background-color: white;"><u>Why are we only seeing a few properties here ? :-/</u>
 
@@ -158,11 +158,11 @@ From the default output, only UserName (via"<span style="font-family: Courier Ne
 ```
 <i>
 </i>
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Properties__1360629870__-846x263.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Properties" border="0" height="198" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Properties__1699177367__-640x199.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Properties__1360629870__-846x263.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Properties" border="0" height="198" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Properties__1699177367__-640x199.png" width="640" /></a>
 
 <u>Note about LastLogon, LastLogonTimestamp or LastLogonDate property.</u>
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" /></a>
 <a href="http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about <span style="font-family: Courier New, Courier, monospace;">LastLogonTimeStamp and<span style="font-family: Courier New, Courier, monospace;"> LastLogon properties :
 <blockquote class="tr_bq"><i>The reason why most people want to obtain these values is to find out if a user or computer object can be safely deleted. If you want to know when someone logged on to a computer in your network for the exact last time, search for the last logon value. If you want to know when someone last accessed a resource in your network (accessed webmail or one of your file systems etc), search for the last logon timestamp value. <b>If you want to know when someone last used any network resource, search for the most recent of both values.</b></i></blockquote><b style="font-size: x-large;">
 </b><b style="font-size: x-large;">Random User</b>
@@ -260,7 +260,7 @@ CATCH{
 <b>Final Output</b>
 <b>
 </b>
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" /></a><a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="report" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" /></a><a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="report" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" /></a>
 
 <b>Script</b>
 

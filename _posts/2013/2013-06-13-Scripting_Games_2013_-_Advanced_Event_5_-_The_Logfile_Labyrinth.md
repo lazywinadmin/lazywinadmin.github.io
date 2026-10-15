@@ -72,7 +72,7 @@ Using<span style="font-family: Courier New, Courier, monospace;"> Select-String,
  Select-Object -First 1).line.Substring("#Fields: ".Length) -split ' ')
 ```
 
-<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/headers__1380900729__-801x223.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="headers" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/headers__1380900729__-801x223.png" /></a>
+<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/headers__1380900729__-801x223.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="headers" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/headers__1380900729__-801x223.png" /></a>
 
 <b>Working with the Data</b>
 After playing a bit with different Cmdlets to read the logs, I finally decided to use<span style="font-family: Courier New, Courier, monospace;">Import-CSV.
@@ -103,7 +103,7 @@ Get-IISLogClientIPAddress -Path .\
 ```
 <b>
 </b>
-<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output2__243605261__-581x342.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="final output2" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output2__243605261__-581x342.png" /></a>
+<a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output2__243605261__-581x342.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="final output2" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output2__243605261__-581x342.png" /></a>
 <b style="font-size: x-large;">What I Missed</b>
 From the other entries I saw and the comments I got, my script miss the following points.
 
