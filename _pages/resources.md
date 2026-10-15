@@ -54,7 +54,7 @@ toc_sticky: true
   * [Base Class Libraries](http://bcl.codeplex.com/wikipage?title=Long%20Path) (.NET Library for Long Path Support)
   * [SMlets](http://smlets.codeplex.com/) (SCSM Module)
   * [ScsmPx](https://github.com/KirkMunro/ScsmPx/releases) (SCSM Module)
-  * [Local Account Management Module](https://gallery.technet.microsoft.com/scriptcenter/Local-Account-Management-a777191b)
+  * Local Account Management Module
 
 ## Useful script & tools
 

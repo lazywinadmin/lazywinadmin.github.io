@@ -98,7 +98,7 @@ Active Directory User Unlocker</h1>
 The following script will show how to Unlock Active Directory User account using PowerShell The goal is to do something simple and functional, no fancy GUI... No need of Active Directory Module or Quest Active Directory Snapin, in my case I used ADSI: [ADSISearcher]<br />
 <u>Blog post(s):</u>2013/04/02<a href="http://www.lazywinadmin.com/2013/04/powershellwinform-active-directory-user.html" target="_blank">PowerShell/WinForm - Active Directory User Unlocker</a><br />
 <br />
-<u>Download:</u><a href="https://gallery.technet.microsoft.com/WinForm-Active-Directory-a3771370" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150912025806/https://gallery.technet.microsoft.com/WinForm-Active-Directory-a3771370" target="_blank">Technet</a><br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
@@ -207,7 +207,7 @@ Get-NetStat</h1>
 <br />
 <u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-NetStat-872e0776" target="_blank">Technet</a><br />
 <br />
-<a href="https://www.blogger.com/null" name="raptors"></a>
+
 
 <br />
 <div class="separator" style="clear: both; text-align: center;">

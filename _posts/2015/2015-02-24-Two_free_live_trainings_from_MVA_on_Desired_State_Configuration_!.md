@@ -76,18 +76,18 @@ Explore implementation and testing of custom resources, along with packaging and
 
 * Video Training: <a href="http://www.pluralsight.com/courses/powershell-desired-state-configuration-fundamentals" target="_blank">Windows PowerShell Desired State Configuration Fundamentals</a> by <a href="http://jdhitsolutions.com/blog/" target="_blank">Jeffery Hicks</a>
 * Video Training: <a href="http://youtu.be/ZbyyVqTr-es" target="_blank">Desired State Configuration in Windows Server 2012 R2 PowerShell</a> by Kenneth Hansen and Jeffrey Snover (TechEd NA 2013)
-* Video Training: <a href="https://www.youtube.com/watch?v=lP6noSW6Vr4" target="_blank">A Practical Overview of Desired State Configuration</a> by Don Jones (TechEd NA 2014)
-* Video Training: <a href="http://youtu.be/fQI6RZjXlQE" target="_blank">PowerShell Desired State Configuration and DevOps in Microsoft Azure</a> by Hemant Mahawar and Narayanan Lakshmanan (TechEd NA 2014)
+* Video Training: A Practical Overview of Desired State Configuration by Don Jones (TechEd NA 2014)
+* Video Training: PowerShell Desired State Configuration and DevOps in Microsoft Azure by Hemant Mahawar and Narayanan Lakshmanan (TechEd NA 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=hxAlnqnWLC4&amp;list=PLfeA8kIs7Coehjg9cB6foPjBojLHYQGb_" target="_blank">Building DSC Resources</a> by Steve Murawski (PowerShell Summit 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=nkKyfsy-iQA" target="_blank">Building Scalable Configurations With DSC</a> by Steve Murawski (PowerShell Summit 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=JAzjf4sQvro" target="_blank">Patterns For Implementing A DSC PullServer Environment</a> by Steve Murawski (PowerShell Summit 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=BWR2SVXEpXk" target="_blank">The Life and Times of a DSC Resource</a> by Steve Murawski (PowerShell Summit 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=5wk-ZcW9Wmc" target="_blank">PowerShell DSC in the AWS Cloud</a> by Mike Pfeiffer (PowerShell Summit 2014)
 * Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn249918.aspx" target="_blank">Technet - Get Started with Windows PowerShell Desired State Configuration</a>
-* Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn282125.aspx" target="_blank">Technet - Windows PowerShell Desired State Configuration Resources</a>
-* Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn249925.aspx" target="_blank">Technet - Separating Configuration and Environment Data</a>
-* Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn249922.aspx" target="_blank">Technet - Windows PowerShell Desired State Configuration Local Configuration Manager</a>
-* Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn249913.aspx" target="_blank">Technet - Windows PowerShell Desired State Configuration Pull Servers</a>
-* Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn249926.aspx" target="_blank">Technet - Troubleshooting DSC</a>
+* Documentation: Technet - Windows PowerShell Desired State Configuration Resources
+* Documentation: <a href="https://web.archive.org/web/20150911085640/https://technet.microsoft.com/en-us/library/dn249925.aspx" target="_blank">Technet - Separating Configuration and Environment Data</a>
+* Documentation: <a href="https://web.archive.org/web/20151231123340/https://technet.microsoft.com/en-us/library/dn249922.aspx" target="_blank">Technet - Windows PowerShell Desired State Configuration Local Configuration Manager</a>
+* Documentation: Technet - Windows PowerShell Desired State Configuration Pull Servers
+* Documentation: Technet - Troubleshooting DSC
 * Documentation: <a href="http://www.powershellmagazine.com/tag/dsc/" target="_blank">PowerShell Magazine - DSC posts</a>
 * Documentation: <a href="http://blogs.msdn.com/b/powershell/archive/tags/dsc/" target="_blank">PowerShell Team Blog - DSC Posts</a>

@@ -14,7 +14,7 @@ toc_label: "Table of content"
 classes: wide
 ---
 
-<img alt="pester logo" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/pester_logo__837959368__-320x320.png" width="130" /> In my previous post I got started with Pester and wrote <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">my first test against the Comment Based Help</a> of my module [AdsiPS](https://github.com/lazywinadmin/AdsiPS").
+<img alt="pester logo" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" height="130" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/pester_logo__837959368__-320x320.png" width="130" /> In my previous post I got started with Pester and wrote <a href="{{ site.url }}/2016/05/using-pester-to-test-your-comment-based.html" target="_blank">my first test against the Comment Based Help</a> of my module [AdsiPS](https://github.com/lazywinadmin/AdsiPS).
 
 Next, I wanted to write a Pester test against the Manifest File of AdsiPS module. I want to make sure all the basic information of the module is referenced in this file. Mike Robbins wrote a great article on <a href="http://mikefrobbins.com/2016/04/14/write-dynamic-unit-tests-for-your-powershell-code-with-pester/" target="_blank">Dynamic Unit Tests</a> where he is touching some of the points I want to cover today.
 
@@ -25,7 +25,7 @@ But before I get into the code, a small reminder on the Manifest file's role.
 
 
 >A module manifest is a Windows PowerShell data file (.psd1) that describes the contents of a module and determines how a module is processed. The manifest file itself is a text file that contains a hash table of keys and values. You link a manifest file to a module by naming it the same as the module, and placing it in the root of the module directory.
-> <br> For simple modules that contain only a single .psm1 or binary assembly, a module manifest is optional. However, it is recommended that you use a module manifest whenever possible, as they are useful to help you organize your code and to maintain versioning information. <a href="https://msdn.microsoft.com/en-us/library/dd878337(v=vs.85).aspx">More info</a>.<br><br>
+> <br> For simple modules that contain only a single .psm1 or binary assembly, a module manifest is optional. However, it is recommended that you use a module manifest whenever possible, as they are useful to help you organize your code and to maintain versioning information. <a href="https://web.archive.org/web/20170923132918/https://msdn.microsoft.com/en-us/library/dd878337(v=vs.85).aspx">More info</a>.<br><br>
 
 (You'll find at the end of this article the command that I use to generate my manifest.)
 

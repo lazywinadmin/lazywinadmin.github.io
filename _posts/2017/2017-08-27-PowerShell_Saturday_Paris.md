@@ -61,4 +61,4 @@ Heure | Speaker | Description
 
 # Besoin de plus d'information ?
 
-Voir le site du [French PowerShell User Group](https://frpsug.github.io/) ou utiliser notre Channel #french sur <a href="https://powershell.slack.com/Slack">PowerShell.slack.com</a>  (<a href="http://slack.poshcode.org/">S'inscrire</a>).
+Voir le site du [French PowerShell User Group](https://frpsug.github.io/) ou utiliser notre Channel #french sur PowerShell.slack.com  (<a href="http://slack.poshcode.org/">S'inscrire</a>).

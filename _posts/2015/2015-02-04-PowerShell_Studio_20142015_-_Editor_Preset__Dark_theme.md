@@ -22,7 +22,7 @@ So I created my own...
 <b><u>Update:</u></b> Adding details on how to change the PowerShell Studio theme and link to Anonymous Pro font
 
 <u><b>Download from GitHub</b></u>
-<a href="https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets" target="_blank">https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets</a>
+<a href="https://github.com/lazywinadmin/PowerShell" target="_blank">https://github.com/lazywinadmin/PowerShell</a> (the EditorPresets folder has since been removed from the repository)
 
 <a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/PowerShellStudio_EditorPreset_Black__1458837646__-919x871.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="PowerShellStudio EditorPreset Black" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/PowerShellStudio_EditorPreset_Black__1458837646__-919x871.png" height="606" width="640" /></a>
 
@@ -60,11 +60,11 @@ http://www.marksimonson.com/fonts/view/anonymous-pro
 http://sourceforge.net/projects/sourcecodepro.adobe/
 
 
-Those can also be integrated on your blog using <a href="https://www.google.com/fonts#UsePlace:use/Collection:Anonymous+Pro" target="_blank">Google Fonts Api</a>, but it will probably make your blog/website a bit slower for the users.
+Those can also be integrated on your blog using Google Fonts Api, but it will probably make your blog/website a bit slower for the users.
 
 ## Download
 
 <u>Download my preset from my Github</u>
-<a href="https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets" target="_blank">https://github.com/lazywinadmin/PowerShell/tree/master/_PowerShellStudio/EditorPresets</a>
+<a href="https://github.com/lazywinadmin/PowerShell" target="_blank">https://github.com/lazywinadmin/PowerShell</a> (the EditorPresets folder has since been removed from the repository)
 
 <a href="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-31-58__1912926846__-616x330.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2014/2015 - Editor Preset - Dark theme&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150204_PowerShell_Studio_20142015_-_Editor_Preset__Dark_theme/2015-02-28_12-31-58__1912926846__-616x330.png" /></a>

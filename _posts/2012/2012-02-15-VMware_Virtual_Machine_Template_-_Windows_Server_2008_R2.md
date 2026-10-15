@@ -26,7 +26,7 @@ Create, Install and Config
 
 * <a href="http://jeremywaldrop.wordpress.com/2008/10/28/how-to-build-a-windows-2008-vmware-esx-vm-template/" target="_blank">Jeremy Waldrop's Blog</a>-How to Build a Windows 2008 VMware ESX VM Template
 
-* <a href="http://calvaryshawn.blogspot.com/2011/01/creating-windows-server-2008-r2-x64.html" target="_blank">Shawn Ross IT Blog</a>-<i>Creating a Windows Server 2008 R2 (x64) vSphere 4.1 VM Template</i>
+* Shawn Ross IT Blog-<i>Creating a Windows Server 2008 R2 (x64) vSphere 4.1 VM Template</i>
 
 * <a href="http://d3planet.com/rtfb/2010/05/18/creating-an-activated-windows-server-2008-r2-vmware-template-using-microsoft-sysprep/" target="_blank">Effin Blog</a>-<i>Creating an Activated Windows Server 2008 R2 VMware Template using Microsoft Sysprep</i>
 
