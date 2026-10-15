@@ -1,4 +1,5 @@
 ---
+description: "I just came back yesterday from the Microsoft MVP Global Summit 2015 who took place in the beautiful city of Seattle from the 2nd to 5th of November 2015."
 layout: single
 title: Microsoft MVP Global Summit 2015
 excerpt: 

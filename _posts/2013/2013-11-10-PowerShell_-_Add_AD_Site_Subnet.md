@@ -1,4 +1,5 @@
 ---
+description: "Last month I posted a script that report the Missing Subnets from the Active Directory. The script goes on each Domain Controllers and get the last x entries…"
 layout: single
 title: PowerShell - Add AD Site Subnet
 excerpt: 

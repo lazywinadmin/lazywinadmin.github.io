@@ -1,4 +1,5 @@
 ---
+description: "La conférence PowerShell Summit Europe tient sa première édition du 29 septembre au 1er octobre 2014 à Amsterdam."
 layout: single
 title: PowerShell Summit 2014 Europe (Français/French)
 excerpt: 

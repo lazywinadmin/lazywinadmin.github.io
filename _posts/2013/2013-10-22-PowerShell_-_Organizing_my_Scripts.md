@@ -1,4 +1,5 @@
 ---
+description: "With time, the number of PowerShell scripts I write keeps growing and growing, and I feel it is getting more and more difficult to find what I have done in…"
 layout: single
 title: PowerShell - Organizing my Scripts
 excerpt: 

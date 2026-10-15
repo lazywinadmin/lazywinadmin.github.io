@@ -1,4 +1,5 @@
 ---
+description: "In April 2013 I was one of the lucky attendees at the first PowerShell Summit in North America."
 layout: single
 title: PowerShell Summit North America 2013
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "Occasionally an Active Directory account may be automatically locked if the domain’s security policy has been configured to lock accounts after a number of…"
 layout: single
 title: PowerShell/WinForm - Active Directory User Unlocker
 excerpt:

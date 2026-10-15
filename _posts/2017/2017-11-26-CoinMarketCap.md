@@ -1,4 +1,5 @@
 ---
+description: "I recently developed an interest for cryptocurrencies. I created a PowerShell module to interact with CoinMarketCap, a website where you can explore coins…"
 layout: single
 title: "CoinMarketCap PowerShell module"
 excerpt: "I recently developed an interest for cryptocurrencies. I created a PowerShell module to interact with CoinMarketCap, a website where you can explore coins information."

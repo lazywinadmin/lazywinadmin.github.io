@@ -1,4 +1,5 @@
 ---
+description: "Last week I worked on a Scorch PowerShell script that is looking for duplicate Incident Requests inside SCSM by checking new incoming request and existing…"
 layout: single
 title: PowerShell Tip - Escape Regex MetaCharacters
 excerpt: 

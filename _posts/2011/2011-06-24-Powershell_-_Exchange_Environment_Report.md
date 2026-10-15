@@ -1,4 +1,5 @@
 ---
+description: "Exchange Environment ReportA quick post on Exchange fellow Steve Goodman who created a nice PowerShell script which generates a basic HTML report on your…"
 layout: single
 title: Powershell - Exchange Environment Report
 excerpt: 

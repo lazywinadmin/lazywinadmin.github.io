@@ -1,4 +1,5 @@
 ---
+description: "What an amazing way to start the year !!! It is a great pleasure and honor to announce that on the 1st of January I was awarded the Microsoft Most Valuable…"
 layout: single
 title: Microsoft MVP 2014 for PowerShell !
 excerpt: 

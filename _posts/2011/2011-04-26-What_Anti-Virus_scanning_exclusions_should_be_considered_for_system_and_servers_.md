@@ -1,4 +1,5 @@
 ---
+description: "The files and folders to exclude from antivirus scanning on Windows systems and servers, starting with the print spooler folder."
 layout: single
 title: What Anti-Virus scanning exclusions should be considered for system and servers ?
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "In my previous post, I explain my PowerShell function to retrieve the local administrators group membership.Today I will go a bit further and find the nested…"
 layout: single
 title: PowerShell - Retrieve a local group membership
 excerpt:

@@ -1,4 +1,5 @@
 ---
+description: "How to query Active Directory with ADSI in PowerShell using alternate credentials, without the Active Directory module."
 layout: single
 title: PowerShell - Using ADSI with alternate Credentials
 excerpt:

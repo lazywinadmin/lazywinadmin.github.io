@@ -1,4 +1,5 @@
 ---
+description: "Comparing two Group Policy Objects is tricky with native tools. Use PowerShell and GPO reports as a starting point to compare GPOs."
 layout: single
 title: Using PowerShell as a Starting Point for Comparing GPOs
 excerpt: 

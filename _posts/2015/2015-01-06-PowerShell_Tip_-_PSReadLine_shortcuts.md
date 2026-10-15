@@ -1,4 +1,5 @@
 ---
+description: "If you are using PowerShell everyday like me, you probably started to populate you profile with some neat tools that make you like easier."
 layout: single
 title: PowerShell Tip - PSReadLine shortcuts
 excerpt: 

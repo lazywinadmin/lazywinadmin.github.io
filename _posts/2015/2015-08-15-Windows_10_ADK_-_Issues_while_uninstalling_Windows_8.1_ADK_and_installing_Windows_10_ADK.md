@@ -1,4 +1,5 @@
 ---
+description: "Installing Windows 10 Assessment and Deployment Kit (ADK) on SCCM 2012 R2 SP1 was a bit tricky."
 layout: single
 title: Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing Windows 10 ADK
 excerpt: 

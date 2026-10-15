@@ -1,4 +1,5 @@
 ---
+description: "Video Awesomeness - VMware has released 3 hours of free online training: <iframe frameborder=\"0\" height=\"360\"…"
 layout: single
 title: Video Awesomeness - VMware has released 3 hours of free online training
 excerpt: 

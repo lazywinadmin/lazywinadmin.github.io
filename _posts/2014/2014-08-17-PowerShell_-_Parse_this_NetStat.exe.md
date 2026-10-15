@@ -1,4 +1,5 @@
 ---
+description: "In the last couple of months I had to parse different types of output using PowerShell and I thought it would be a cool idea to explain how this can be done."
 layout: single
 title: PowerShell - Parse this - NetStat.exe
 excerpt: 

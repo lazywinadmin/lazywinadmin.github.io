@@ -1,4 +1,5 @@
 ---
+description: "A PowerShell script to quickly look up a user's BlackBerry Enterprise Server information without opening the BES management console."
 layout: single
 title: BlackBerry and Powershell
 excerpt: 

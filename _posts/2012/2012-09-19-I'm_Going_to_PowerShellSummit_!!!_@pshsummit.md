@@ -1,4 +1,5 @@
 ---
+description: "Seattle here I come !!!I cannot wait to meet all my fellow PowerShell enthousiasts !The PowerShell Summit will be held at Microsoft in Redmond April 22-24…"
 layout: single
 title: I'm Going to PowerShellSummit !!! @pshsummit
 excerpt: 

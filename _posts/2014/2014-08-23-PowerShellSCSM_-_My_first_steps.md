@@ -1,4 +1,5 @@
 ---
+description: "I recently started to work withSystem Center Service Manager 2012 R2(also known as SCSM) which provides provides an integrated platform for automating and…"
 layout: single
 title: PowerShell/SCSM - My first steps
 excerpt: 

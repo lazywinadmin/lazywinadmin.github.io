@@ -1,4 +1,5 @@
 ---
+description: "Having written SYDI from scratch, I know it inside and out. The readme file included in SYDI is far from perfect."
 layout: single
 title: How to Document Servers with SYDI
 excerpt: 

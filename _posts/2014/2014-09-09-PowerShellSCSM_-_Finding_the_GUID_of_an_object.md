@@ -1,4 +1,5 @@
 ---
+description: "Retrieving the GUID of an object in SCSM using PowerShell is sometime a bit challenging. For the WorkItems, this piece of information is not present in any…"
 layout: single
 title: PowerShell/SCSM - Finding the GUID of an object
 excerpt: 

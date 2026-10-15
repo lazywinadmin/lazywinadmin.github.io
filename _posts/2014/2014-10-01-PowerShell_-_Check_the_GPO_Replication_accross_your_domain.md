@@ -1,4 +1,5 @@
 ---
+description: "A couple of days ago we had to troubleshoot some SYSVOL replication issues throughout the domain."
 layout: single
 title: PowerShell - Check the GPO Replication accross your domain
 excerpt: 

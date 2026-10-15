@@ -1,4 +1,5 @@
 ---
+description: "Slides, scripts and pictures from the second Montreal PowerShell User Group meeting on the pipeline and writing scripts and functions."
 layout: single
 title: 'Montreal PowerShell User Group #02 - Materials and pictures'
 excerpt: 

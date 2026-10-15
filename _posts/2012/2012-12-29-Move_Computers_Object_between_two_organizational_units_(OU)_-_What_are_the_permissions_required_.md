@@ -1,4 +1,5 @@
 ---
+description: "Today I was playing a bit in my lab with PowerShell and AD Computer Objects.I automate the daily cleanup of Inactive Computer Object and move them to a…"
 layout: single
 title: Move Computers Object between two organizational units (OU) - What are the permissions required ?
 excerpt: 

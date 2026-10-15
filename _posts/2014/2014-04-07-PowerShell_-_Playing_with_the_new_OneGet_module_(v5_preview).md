@@ -1,4 +1,5 @@
 ---
+description: "One very cool thing in the last Windows Management Framework V5 Preview release is the new module OneGet which allow us to manage a list of software…"
 layout: single
 title: PowerShell - Playing with the new OneGet module (v5 preview)
 excerpt: 

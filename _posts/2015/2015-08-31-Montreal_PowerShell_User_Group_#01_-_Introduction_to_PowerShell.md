@@ -1,4 +1,5 @@
 ---
+description: "Announcing the first Montreal PowerShell User Group meeting, starting with a presentation on the basics of PowerShell."
 layout: single
 title: "Montreal PowerShell User Group #01 - Introduction to PowerShell"
 excerpt: 

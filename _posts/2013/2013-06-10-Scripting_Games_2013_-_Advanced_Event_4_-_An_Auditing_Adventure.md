@@ -1,4 +1,5 @@
 ---
+description: "This is my solution for the Advanced Event 4 of the Scripting Games 2013.This event was a bit challenging for me… In the past, I played with Quest Active…"
 layout: single
 title: Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure
 excerpt: 

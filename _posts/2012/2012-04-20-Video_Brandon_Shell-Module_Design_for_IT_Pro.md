@@ -1,4 +1,5 @@
 ---
+description: "Video: Brandon Shell – Module Design for IT Pro: Here’s another great recording from previous PowerShell Deep Dive – Brandon’s session on module design."
 layout: single
 title: Video - Brandon Shell – Module Design for IT Pro
 excerpt: 

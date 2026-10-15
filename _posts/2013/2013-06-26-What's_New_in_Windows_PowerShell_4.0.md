@@ -1,4 +1,5 @@
 ---
+description: "Microsoft just updated the page “What’s New in PowerShell” to include information about Windows PowerShell 4.0."
 layout: single
 title: What's New in Windows PowerShell 4.0
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "CV of François-Xavier Cat: cloud, DevOps and automation engineer with experience at Ares, Morgan Stanley and WB Games; Microsoft MVP 2014–2022."
 title: "CV"
 layout: single
 permalink: /cv/

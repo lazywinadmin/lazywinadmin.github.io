@@ -1,4 +1,5 @@
 ---
+description: "Curated PowerShell, Azure and DevOps resources: blogs, podcasts, books, communities and learning links recommended by LazyWinAdmin."
 breadcrumbs: false
 title: "Resources"
 layout: single

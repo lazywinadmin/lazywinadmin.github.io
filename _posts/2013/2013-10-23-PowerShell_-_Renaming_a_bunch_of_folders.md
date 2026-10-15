@@ -1,4 +1,5 @@
 ---
+description: "In my previous post I talked about Organizing my script directory, naming convention, preferences and bottlenecks… Today let’s reorganize some of those…"
 layout: single
 title: PowerShell - Renaming a bunch of folders
 excerpt: 

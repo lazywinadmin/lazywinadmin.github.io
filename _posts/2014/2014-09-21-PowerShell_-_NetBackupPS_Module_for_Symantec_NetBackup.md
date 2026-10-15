@@ -1,4 +1,5 @@
 ---
+description: "In my previous job, we used Symantec NetBackup to handle backups and restores. To handle some of the reporting, the storage admins were using the Symantec…"
 layout: single
 title: PowerShell - NetBackupPS - Module for Symantec NetBackup
 excerpt: 

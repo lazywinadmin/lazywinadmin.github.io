@@ -1,4 +1,5 @@
 ---
+description: "How to find and remove the SIDHistory attribute from Active Directory users and groups with PowerShell after a domain migration."
 layout: single
 title: Active Directory - How to remove SID History with Powershell ?
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "Montreal PowerShell User Group #03, May 24 2016 at Warner Bros. Games Studio: a meeting on the future of our user group."
 layout: single
 title: Montreal PowerShell User Group 03 - Future of our user group
 excerpt: 

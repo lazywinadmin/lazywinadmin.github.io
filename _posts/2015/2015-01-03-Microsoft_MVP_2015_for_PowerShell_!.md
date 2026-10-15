@@ -1,4 +1,5 @@
 ---
+description: "What an Amazing way to start the year !!! It is a great pleasure and honor to receive the Microsoft Most Valuable Professional (MVP) Award for a second year…"
 layout: single
 title: Microsoft MVP 2015 for PowerShell !
 excerpt: 

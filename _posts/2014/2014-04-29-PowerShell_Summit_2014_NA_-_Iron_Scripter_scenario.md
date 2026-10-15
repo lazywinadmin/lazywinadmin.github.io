@@ -1,4 +1,5 @@
 ---
+description: "Monday evening, the PowerShell Summit 2014 NA organized an Iron Scripter competition. The goal was to fix/create 3 scripts and to get them rated by 3 juges."
 layout: single
 title: PowerShell Summit 2014 NA - Iron Scripter scenario
 excerpt: 

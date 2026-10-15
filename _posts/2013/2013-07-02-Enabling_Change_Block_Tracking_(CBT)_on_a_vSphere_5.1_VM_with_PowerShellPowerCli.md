@@ -1,4 +1,5 @@
 ---
+description: "In one of my previous post, I created two PowerShell functions to enable Copy/Paste operations on VMware vSphere 5.1 between a Guest OS and the vSphere…"
 layout: single
 title: Enabling Change Block Tracking (CBT) on a vSphere 5.1 VM with PowerShell/PowerCli
 excerpt: 

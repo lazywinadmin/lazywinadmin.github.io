@@ -1,4 +1,5 @@
 ---
+description: "In approximately 1 month I will be attending the PowerShell Summit 2014 North America. This is the second edition of this event organized by the…"
 layout: single
 title: PowerShell Summit North America 2014
 excerpt: 

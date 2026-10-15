@@ -1,4 +1,5 @@
 ---
+description: "In a previous post I talked about parsing NetStat.exe using PowerShell and some regex, It is a fun exercice but require some knowledge to figure out how the…"
 layout: single
 title: PowerShell - Playing with the new ConvertFrom-String cmdlet
 excerpt: 

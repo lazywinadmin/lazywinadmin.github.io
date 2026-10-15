@@ -1,4 +1,5 @@
 ---
+description: "Update 2019/07/26: It seems that the AST to Help content parameter comparison doesn’t work in PowerShell Core.See the example suggested by @mgeorgebrown89…"
 layout: single
 title: Using Pester to test your Comment Based Help
 excerpt: 

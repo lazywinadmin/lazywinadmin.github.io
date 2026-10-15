@@ -1,4 +1,5 @@
 ---
+description: "In the following post I demonstrate how you can retrieve all the rejected Review Activities from the last 60 days."
 layout: single
 title: PowerShell/SCSM - Get Review Activities Rejected in the last 60 days
 excerpt: 

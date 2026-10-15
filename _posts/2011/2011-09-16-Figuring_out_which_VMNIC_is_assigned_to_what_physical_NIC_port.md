@@ -1,4 +1,5 @@
 ---
+description: "How to work out which ESXi vmnic maps to which physical NIC port on a host, using esxcfg-nics and the vSphere client."
 layout: single
 title: Figuring out which VMNIC is assigned to what physical NIC port
 excerpt: 

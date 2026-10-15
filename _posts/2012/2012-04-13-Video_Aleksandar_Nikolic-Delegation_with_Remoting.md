@@ -1,4 +1,5 @@
 ---
+description: "Video: Aleksandar Nikolic – Delegation with Remoting: Here’s recording of @alexandair – PowerShell MVP, constrained runspaces guru and editor of PowerShell…"
 layout: single
 title: Video - Aleksandar Nikolic – Delegation with Remoting
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "While playing with PowerShell ISE today, I just found out about this little nice trick to navigate between brackets !!! I did not know about this!"
 layout: single
 title: PowerShell ISE Tip - Navigate between curly brackets
 excerpt: 

@@ -1,4 +1,5 @@
 ---
+description: "@DSotnikov just released the video recording of the session from the PowerShell Deep Dive in Frankfurt (last year)."
 layout: single
 title: Leveraging Proxy Functions in PowerShell
 excerpt: 

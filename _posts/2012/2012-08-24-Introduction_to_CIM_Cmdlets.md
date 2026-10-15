@@ -1,4 +1,5 @@
 ---
+description: "An introduction to the new CIM cmdlets in PowerShell 3.0 from the PowerShell team blog, and how they compare to the WMI cmdlets."
 layout: single
 title: Introduction to CIM Cmdlets
 excerpt: 

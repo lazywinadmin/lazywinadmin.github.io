@@ -1,4 +1,5 @@
 ---
+description: "While writing some PowerShell Pester tests for my module AdsiPS, I wanted to make sure for each functions that all the help keywords of the comment based…"
 layout: single
 title: PowerShell/Pester - Make sure your Comment Based Help is not indented
 excerpt: 

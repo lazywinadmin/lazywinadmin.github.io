@@ -1,4 +1,5 @@
 ---
+description: "Get Ready! The Winter Scripting Games 2014 are starting very soon !! The Event 1 is scheduled to start this week-end (Jan 19th 2014)!"
 layout: single
 title: Winter Scripting Games 2014
 excerpt: 

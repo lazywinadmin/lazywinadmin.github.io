@@ -1,4 +1,5 @@
 ---
+description: "PowerShell uses .NET objects everywhere. .NET objects come with some useful built-in methods."
 layout: single
 title: Powershell - Using String methods
 excerpt: 

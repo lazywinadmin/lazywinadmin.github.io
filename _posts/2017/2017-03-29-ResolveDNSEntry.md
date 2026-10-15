@@ -1,4 +1,5 @@
 ---
+description: "A quick and dirty way to resolve a DNS entry in PowerShell with the .NET System.Net.Dns class, in a single line of code."
 layout: single
 title: "Resolve a DNS Entry with PowerShell"
 excerpt: "Quick and dirty way to resolve a DNS entry"

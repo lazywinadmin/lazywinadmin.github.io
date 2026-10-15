@@ -1,4 +1,5 @@
 ---
+description: "In this post I will describe how I installed and configured vCSA in my Home Lab from the vSphere Client."
 layout: single
 title: Deploying and Configuring vCenter Server Appliance 5.1
 excerpt:

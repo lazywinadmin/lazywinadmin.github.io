@@ -1,4 +1,5 @@
 ---
+description: "Update: Getting Started with PowerShell 3.0and Advanced Tools & Scripting with PowerShell 3.0recorded videosare now available on Microsoft Virtual Academy."
 layout: single
 title: PowerShell - Free Trainings from Microsoft Virtual Academy
 excerpt: 
