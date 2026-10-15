@@ -39,7 +39,7 @@ I founded and organized these user groups:
 | Most Valuable Professional (MVP), Cloud and Datacenter Management, 2016 to 2019-2020 | Microsoft |
 | Most Valuable Professional (MVP), Windows PowerShell, 2014 and 2015 | Microsoft |
 | [SAPIEN MVP 2015](https://www.sapien.com/blog/2015/01/16/sapien-technologies-mvps-for-2015-2/) | SAPIEN Technologies |
-| [PowerShell Hero 2014](https://powershell.org/2014/01/08/announcing-our-2014-powershell-heroes/) | PowerShell.org |
+| [PowerShell Hero 2014](https://web.archive.org/web/20160407040927/http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/) | PowerShell.org |
 
 ## Open source
 

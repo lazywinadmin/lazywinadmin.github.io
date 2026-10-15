@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-[Video: Brandon Shell – Module Design for IT Pro](http://feedproxy.google.com/%7Er/DmitrysPowerblog/%7E3/dAwC4ChKKXY/): 
+Video: Brandon Shell – Module Design for IT Pro: 
 Here's another great recording from previous PowerShell Deep Dive – [Brandon](http://bsonposh.com/)'s session on module design. Brandon has experience designing PowerShell modules for Splunk and other companies – so there's a lot to learn from him!
 <i>In this session we will deep dive into the thought process behind production module design. The presenter will explain the reason for choices made for the Splunk Module and his own BSonPosh module.</i>
 <iframe frameborder="0" height="312" src="http://www.youtube.com/embed/69JSWHD0RHg?version=3&amp;rel=1&amp;fs=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" width="500"></iframe>

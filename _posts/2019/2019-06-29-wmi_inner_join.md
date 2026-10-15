@@ -120,4 +120,4 @@ This will contains all the information about the device such as `IPAddresses`, `
 
 ℹ️ **Note**: Yes I'm aware the `CIM` module should be used here instead of *wmiObject* cmdlets, just needed a quick query 🚀
 
-If you want to learn more about Using WMI with PowerShell, I highly recommend the free book written by Ravikanth Chaganti [WMI Query Language via PowerShell](https://www.ravichaganti.com/blog/ebook-wmi-query-language-via-powershell/)
+If you want to learn more about Using WMI with PowerShell, I highly recommend the free book written by Ravikanth Chaganti [WMI Query Language via PowerShell](https://web.archive.org/web/20161017175511/http://www.ravichaganti.com/blog/ebook-wmi-query-language-via-powershell/)

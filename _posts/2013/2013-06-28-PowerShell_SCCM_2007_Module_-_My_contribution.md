@@ -17,7 +17,7 @@ comments: true
 
 Take a look at it on GitHub here:[https://github.com/andrebocchini/sccm-powershell-automation-module](https://github.com/andrebocchini/sccm-powershell-automation-module)Andre really did an awesome job on this module!
 
-This Module for SCCM 2007 (which does not come with a set of PowerShell Cmdlets) allows you to query Computers, Collections, Advertisements etc... (<a href="https://github.com/lazyadmin/sccm-powershell-automation-module" target="_blank">Check the Full list of Cmdlets</a>)
+This Module for SCCM 2007 (which does not come with a set of PowerShell Cmdlets) allows you to query Computers, Collections, Advertisements etc... (Check the Full list of Cmdlets)
 
 However against <u>big SCCM environment</u> I notice some functions queries were <u>very slow</u> to report object.
 After inspecting the code, I tweaked some parts of the code, especially on the<span style="font-family: Courier New, Courier, monospace;">Get-WmiObject queries.

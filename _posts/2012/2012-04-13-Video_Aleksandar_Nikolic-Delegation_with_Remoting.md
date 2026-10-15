@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-[Video: Aleksandar Nikolic – Delegation with Remoting](http://feedproxy.google.com/%7Er/DmitrysPowerblog/%7E3/A9jd0NDq7Ao/): 
+Video: Aleksandar Nikolic – Delegation with Remoting: 
 Here's recording of [@alexandair](https://twitter.com/#%21/alexandair) – PowerShell MVP, [constrained runspaces guru](http://dmitrysotnikov.wordpress.com/2011/08/08/deep-dive-video-constrained-powershell-endpoints-aleksandar-nikolic/) and editor of [PowerShell Magazine](http://www.powershellmagazine.com/) – talking about delegation in PowerShell remoting. I bet not that many of you tried this feature before – so check out this talk that Aleksandar did at the last PowerShell Deep Dive in Frankfurt!
 <i>In this session you will learn how to set up a fan-in PowerShell endpoint, and then use it to assign specific administrative tasks to the appropriate users and groups without changing the membership of local Administrators group. By using just the IIS configuration files and PowerShell scripts we will enable dynamic creation of customized automation environments.</i>
 <iframe frameborder="0" height="312" src="http://www.youtube.com/embed/QAexR_jZmVU?version=3&amp;rel=1&amp;fs=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" width="500"></iframe>

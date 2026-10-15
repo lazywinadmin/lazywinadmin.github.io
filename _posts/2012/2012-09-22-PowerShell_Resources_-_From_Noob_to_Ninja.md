@@ -15,12 +15,12 @@ Technet ScriptCenter - Windows PowerShell: Learn It Now Before It's an Emergency
 
 <a href="http://channel9.msdn.com/Events/BUILD/BUILD2011/SAC-565T" target="_blank">Build2011 - Windows networking with PowerShell: A foundation for data center management</a>
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2011/WSV406" target="_blank">TechEd 2011 - Advanced Automation Using Windows PowerShell 2.0</a>
-<a href="https://www.youtube.com/watch?v=NI_8sJOu_fo" target="_blank">TechEd 2011 -Windows PowerShell Remoting: Definitely NOT Just for Servers</a>
+TechEd 2011 -Windows PowerShell Remoting: Definitely NOT Just for Servers
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2012/WSV321" target="_blank">TechEd 2012 - Windows PowerShell Crash Course</a>
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2012/WSV414" target="_blank">TechEd 2012 - Advanced Automation Using Windows PowerShell 3.0</a>
 <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2012/DBI331" target="_blank">TechEd 2012 -The Dirty Dozen: Windows PowerShell Scripts for the Busy DBA</a>
-<a href="http://www.youtube.com/watch?v=hDFEAN45tLA&amp;feature=plcp" target="_blank">TechEd 2012 -Inside Windows Server 2012 Multi-Server Management Capabilities</a>
-<a href="http://www.youtube.com/watch?v=PmoFN2P0Y24&amp;feature=plcp" target="_blank">TechEd 2012 -Group Policy Reporting and Analysis with Windows PowerShell</a>
+TechEd 2012 -Inside Windows Server 2012 Multi-Server Management Capabilities
+TechEd 2012 -Group Policy Reporting and Analysis with Windows PowerShell
 <a href="http://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-IT-Time-The-Scripting-Guys-Top-5-PowerShell-30-Tips-and-Tricks" target="_blank">Technet Radio -The Scripting Guy's Top 5 PowerShell 3.0 Tips and Tricks</a>
 More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="_blank">http://channel9.msdn.com</a>
 

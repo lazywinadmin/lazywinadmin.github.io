@@ -20,7 +20,7 @@ This User Group is organized by a couple of Francophone PowerShell MVPs, includi
 
 Below are the presentation, the scripts and the recording of the meeting. Even if you don't speak the language of Molière you should be able to follow along with the PowerShell language.
 
-<b><u>Presentation (PPTX) and Scripts</u></b> : <a href="https://github.com/FrPSUG/Presentations/tree/master/20160920-Analyse%20Syntaxique%20de%20donnees%20(Francois-Xavier%20Cat)" target="_blank">Github Repository of FRPSUG</a>
+<b><u>Presentation (PPTX) and Scripts</u></b> : <a href="https://github.com/FrPSUG/Presentations" target="_blank">Github Repository of FRPSUG</a>
 
 
 <center> <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/sCd8YufeyUI" width="560"></iframe></center>

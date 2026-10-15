@@ -17,7 +17,7 @@ I used SAPIEN PrimalForms to create the GUI.
 <div style="line-height: 13.5pt;"><span style="font-size: x-small;">This tool requires Powershell 2.0 and permissions on local or remote computers to be able to manage those.<div style="line-height: 13.5pt;"><span style="font-size: x-small;"><b style="background-color: white;"><u>LazyWinAdmin 0.3.20120220</u></b>
 
 <span style="font-size: x-small;">Download
-<iframe frameborder="0" height="120px" marginheight="0" marginwidth="0" scrolling="no" src="https://skydrive.live.com/embed?cid=60886DE0176E604A&amp;resid=60886DE0176E604A%21776&amp;authkey=AJ5LigZs9gcMXX8" style="background-color: #fcfcfc; padding: 0;" title="Preview" width="98px"></iframe>
+
 
 
 <a href="{{ site.url }}/images/2012/20120220_New_version__LazyWinAdmin_0.3.20120220/LazyWinAdmin-0.3.20120220-Main_console__1433848672__-1089x648.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin 0.3.20120220 Main console" loading="lazy" decoding="async" border="0" height="379" src="{{ site.url }}/images/2012/20120220_New_version__LazyWinAdmin_0.3.20120220/LazyWinAdmin-0.3.20120220-Main_console__613029217__-640x381.png" width="640" /></a>

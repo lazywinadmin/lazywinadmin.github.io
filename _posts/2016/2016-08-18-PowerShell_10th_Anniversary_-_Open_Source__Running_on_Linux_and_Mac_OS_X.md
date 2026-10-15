@@ -48,18 +48,18 @@ In addition to Windows Client and Server, PowerShell is now available on the fol
 
 The source are located on Github on the following repository <a href="https://github.com/PowerShell/PowerShell">https://github.com/PowerShell/PowerShell</a>
 
-It also worth to note that the PowerShell Team is also providing some nice examples/demos on their GitHub repository:<a href="https://github.com/PowerShell/PowerShell/tree/master/demos" target="_blank">https://github.com/PowerShell/PowerShell/tree/master/demos</a>
+It also worth to note that the PowerShell Team is also providing some nice examples/demos on their GitHub repository:<a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos" target="_blank">https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos</a>
 
 <u>Some of the examples available:</u>
 
-* <a href="https://github.com/PowerShell/PowerShell/tree/master/demos/Apache" target="_blank"><b>Managing Apache</b></a>
-* <b><a href="https://github.com/PowerShell/PowerShell/tree/master/demos/DSC" target="_blank">Desired State Configuration (DSC) to set an Apache web Server</a></b>
+* <a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/Apache" target="_blank"><b>Managing Apache</b></a>
+* <b><a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/DSC" target="_blank">Desired State Configuration (DSC) to set an Apache web Server</a></b>
 * <a href="https://github.com/Microsoft/PowerShell-DSC-for-Linux/releases" target="_blank">More information on DSC for Linux</a>
-* <b><a href="https://github.com/PowerShell/PowerShell/blob/master/demos/Docker-PowerShell/Docker-PowerShell.ps1" target="_blank">Managing Docker</a></b>
-* <a href="https://github.com/PowerShell/PowerShell/tree/master/demos/crontab" target="_blank"><b>Managing Cron jobs via CronTab</b></a>
-* <a href="https://github.com/PowerShell/PowerShell/tree/master/demos/powershellget" target="_blank"><b>Using PowerShellGet</b></a>
-* <b><a href="https://github.com/PowerShell/PowerShell/tree/master/demos/python" target="_blank">Using PowerShell and Python</a></b> including how to use <u>JSON</u> to exchange structured objects between Python and PowerShell.
-* <a href="https://github.com/PowerShell/PowerShell/tree/master/demos/rest" target="_blank"><b>Invoke-WebRequest</b></a>
+* <b><a href="https://github.com/PowerShell/PowerShell/blob/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/Docker-PowerShell/Docker-PowerShell.ps1" target="_blank">Managing Docker</a></b>
+* <a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/crontab" target="_blank"><b>Managing Cron jobs via CronTab</b></a>
+* <a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/powershellget" target="_blank"><b>Using PowerShellGet</b></a>
+* <b><a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/python" target="_blank">Using PowerShell and Python</a></b> including how to use <u>JSON</u> to exchange structured objects between Python and PowerShell.
+* <a href="https://github.com/PowerShell/PowerShell/tree/4dc09f504cdd64bafdc8314f84c315627c56228b/demos/rest" target="_blank"><b>Invoke-WebRequest</b></a>
 Some of those are also demoed in a video here:
 
 <a href="https://www.youtube.com/watch?v=2WZwv7TxqZ0" target="_blank"><img alt="Youtube Snover" loading="lazy" decoding="async" border="0" height="169" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Youtube_Snover__1633438665__-320x169.png" width="320" /></a>
@@ -67,7 +67,7 @@ Some of those are also demoed in a video here:
 
 ## Installing PowerShell Core on Linux and Mac
 
-Here is the documentation on how to proceed with the installation of PowerShell Core on Linux and Mac.<a href="https://github.com/PowerShell/PowerShell/blob/master/docs/installation">https://github.com/PowerShell/PowerShell/blob/master/docs/installation</a>
+Here is the documentation on how to proceed with the installation of PowerShell Core on Linux and Mac.<a href="https://github.com/PowerShell/PowerShell/blob/4dc09f504cdd64bafdc8314f84c315627c56228b/docs/installation">https://github.com/PowerShell/PowerShell/blob/4dc09f504cdd64bafdc8314f84c315627c56228b/docs/installation</a>
 
 At the time I'm writing this, I only see documentation on how to install PowerShell Core on Linux
 
@@ -88,7 +88,7 @@ At the time I'm writing this, I only see documentation on how to install PowerSh
 * <a href="https://www.youtube.com/watch?v=2WZwv7TxqZ0" target="_blank">PowerShell on Linux and Open Source</a> - Jeffery Snover (Video)
 * <a href="https://www.youtube.com/watch?v=1uGyswOOPdA" target="_blank">PowerShell Open Sourcing Launch </a>- PowerShell Team (Video)
 * <a href="http://www.powershellmagazine.com/2016/08/18/open-source-powershell-on-windows-linux-and-osx/" target="_blank">Open source PowerShell on Windows, Linux, and OS X!</a>- PowerShell Magazine
-* <a href="https://powershell.org/2016/08/19/why-powershell-on-linux-is-such-an-accomplishment/" target="_blank">Why PowerShell on Linux is Such an Accomplishment ?</a>- PowerShell.org
+* Why PowerShell on Linux is Such an Accomplishment ?- PowerShell.org
 
 
 ## RECAP : 2006 PowerShell v1 > 2016 PowerShell v5
