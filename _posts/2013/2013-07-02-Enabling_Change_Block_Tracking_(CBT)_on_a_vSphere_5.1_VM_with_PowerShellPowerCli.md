@@ -106,7 +106,7 @@ Again, Once your enabled CBT, your VM will need to go through a<b>stun-unstun</b
 
 
 <span style="font-size: x-large;"><b>Download</b>
-<a href="http://gallery.technet.microsoft.com/Set-VMChangeBlockTracking-b422af9a" target="_blank">Technet Repository </a>
+<a href="https://web.archive.org/web/20210118235312/https://gallery.technet.microsoft.com/Set-VMChangeBlockTracking-b422af9a" target="_blank">Technet Repository </a>
 
 
 <span style="font-size: x-large;"><b>Resources</b>

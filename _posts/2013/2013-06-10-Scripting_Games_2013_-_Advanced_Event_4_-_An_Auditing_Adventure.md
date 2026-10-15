@@ -26,7 +26,7 @@ Let's see how I solved it.
 
 
 <b>Instruction</b>
-<a href="http://sdrv.ms/13DgigU" target="_blank">Download</a> [Skydrive]
+Download (link no longer available) [Skydrive]
 
 <blockquote class="tr_bq"><i>Dr. Scripto isn't saying he dislikes auditors, but they do seem to show up at the most inconvenient times, and with the oddest requests. So he's tossing this particular auditor request over to you.
 

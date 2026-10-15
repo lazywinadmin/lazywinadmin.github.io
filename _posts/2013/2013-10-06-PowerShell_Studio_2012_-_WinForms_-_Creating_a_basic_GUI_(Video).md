@@ -14,7 +14,7 @@ comments: true
 
 <u><b>Update:</b></u>See also the second part of this post:<a href="{{ site.url }}/2013/10/PowerShellStudio2012ToolMaking.html" target="_blank">PowerShell Studio 2012 - WinForms - GUI ToolMaking</a>
 
-Last year I released a PowerShell script called<a href="{{ site.url }}/p/lazywinadmin-04.html" target="_blank">LazyWinAdmin 0.4</a> which is a script that generate a Graphical User Interface. I used SAPIEN PowerShell Studio 2012 to create this Interface and write my PowerShell code.
+Last year I released a PowerShell script called<a href="https://github.com/lazywinadmin/LazyWinAdmin_GUI" target="_blank">LazyWinAdmin 0.4</a> which is a script that generate a Graphical User Interface. I used SAPIEN PowerShell Studio 2012 to create this Interface and write my PowerShell code.
 
 LazyWinAdmin script allows SysAdmins/IT Pros to Query Information on their Workstation / Servers and to Perform some actions like :
 
@@ -152,7 +152,7 @@ $buttonAddBlueText_Click={
 
 ### <b>DOWNLOAD</b>
 
-<b><a href="http://gallery.technet.microsoft.com/PowerShell-Studio-2012-ee07484d" target="_blank">Technet Script Repository</a></b>
+<b>Technet Script Repository (link no longer available)</b>
 <b>
 </b>
 

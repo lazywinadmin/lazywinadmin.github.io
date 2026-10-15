@@ -14,7 +14,7 @@ comments: true
  
  <a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/PowerShell-Scripting-Games-Logo__838019398__-300x350.png" height="200" width="171" /></a>Get Ready! The Winter Scripting Games 2014 are starting very soon !! The Event 1 is scheduled to start this week-end (Jan 19th 2014)! The Games are an amazing opportunity to learn more about PowerShell. This is the kind of thing you don't want to miss !!! 
 
-Last year I jumped in for the first time in the 2013 edition and this was really a lot of fun !!! It gave me a huge boost to my PowerShell Skills and so much more confidence in my scripting style !!! <a href="http://www.lazywinadmin.com/search/label/2013%20Scripting%20Games" target="_blank">You can refer to my old blog posts for each Scripting Games 2013 events were I tried to analyze each of my solutions.</a>
+Last year I jumped in for the first time in the 2013 edition and this was really a lot of fun !!! It gave me a huge boost to my PowerShell Skills and so much more confidence in my scripting style !!! <a href="{{ site.url }}/tags/#2013-scripting-games" target="_blank">You can refer to my old blog posts for each Scripting Games 2013 events were I tried to analyze each of my solutions.</a>
 
 
 

@@ -45,12 +45,12 @@ You will be awarded 1-5 points in each of four categories: Presentation (formati
 Create the shortest on-liner possible that produces the following output as exactly as possible. No Semicolons permitted. Property values may differ on your computer. Alias and all other syntactically legal shortuts are allowed
 
 
-<a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%255B1%255D__89717336__-1600x601.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%255B1%255D__89717336__-1600x601.jpg" height="240" width="640" /></a>
+<a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%5B1%5D__89717336__-1600x601.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001051%5B1%5D__89717336__-1600x601.jpg" height="240" width="640" /></a>
 
 # Dessert Course
 
 <div class="separator" style="clear: both; text-align: left;">Debug and fix this function so that it runs properly.<div class="separator" style="clear: both; text-align: left;">Save room for you main course, on the other side of this page.
-<a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%255B1%255D__413306252__-1600x610.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%255B1%255D__413306252__-1600x610.jpg" height="243" width="640" /></a>
+<a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%5B1%5D__413306252__-1600x610.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%5B1%5D__413306252__-1600x610.jpg" height="243" width="640" /></a>
 
 
 
