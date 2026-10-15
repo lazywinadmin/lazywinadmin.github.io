@@ -1,0 +1,17 @@
+---
+# Dark variant of main.css, selected by the masthead theme toggle
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/dark"; // skin
+@import "minimal-mistakes"; // main partials
+@import "site-custom"; // site overrides
+
+/* Always print in light colors */
+@media print {
+  html, body, .page, .page__content, .initial-content { background: #fff !important; color: #000 !important; }
+  a { color: #000 !important; }
+  pre, code, .highlight { background: #f5f5f5 !important; color: #000 !important; }
+}
