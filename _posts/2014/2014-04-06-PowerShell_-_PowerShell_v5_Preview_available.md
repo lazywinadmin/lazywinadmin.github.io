@@ -116,7 +116,7 @@ There is no documentation so far. But some PowerShellers out there already found
 
 
 <center><blockquote class="twitter-tweet" lang="en">I have a working internal nuget server that works great with <a href="https://twitter.com/search?q=%23OneGet&amp;src=hash">#OneGet</a>. <a href="https://twitter.com/search?q=%23PowerShell&amp;src=hash">#PowerShell</a> /cc <a href="https://twitter.com/jsnover">@jsnover</a> <a href="https://twitter.com/_organicit">@_organicit</a> <a href="http://t.co/PgOp6YrTZ4">pic.twitter.com/PgOp6YrTZ4</a>
-â€” Boe Prox (@proxb) <a href="https://twitter.com/proxb/statuses/452295588432711681">April 5, 2014</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script></center>
+â€” Boe Prox (@proxb) <a href="https://twitter.com/proxb/statuses/452295588432711681">April 5, 2014</a></blockquote><script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></center>
 
 
 
