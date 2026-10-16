@@ -5,6 +5,7 @@ search: false
 
 @charset "utf-8";
 
+@import "site-variables"; // site variable overrides
 @import "minimal-mistakes/skins/dark"; // skin
 @import "minimal-mistakes"; // main partials
 @import "site-custom"; // site overrides

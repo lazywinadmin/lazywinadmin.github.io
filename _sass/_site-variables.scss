@@ -1,0 +1,10 @@
+/* Site variable overrides, imported before the skin and theme partials */
+
+/* Modern system font stacks */
+$sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$monospace: ui-monospace, SFMono-Regular, "Cascadia Code", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+
+/* Slightly narrower right rail = wider (~74ch) post column on large screens */
+$right-sidebar-width: 270px;
