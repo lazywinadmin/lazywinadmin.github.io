@@ -1,0 +1,71 @@
+name: pages
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch: {}
+  # cv-pdf commits "Update CV PDF [skip ci]" with GITHUB_TOKEN, which never
+  # triggers other workflows, so redeploy when cv-pdf finishes on master.
+  workflow_run:
+    workflows: [cv-pdf]
+    types: [completed]
+    branches: [master]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'deploy' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && 'master' || '' }}
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Check internal links and HTML (external links skipped)
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-external \
+            --ignore-missing-alt \
+            --allow-missing-href \
+            --no-enforce-https \
+            --checks Links,Images,Scripts
+        continue-on-error: ${{ github.event_name != 'pull_request' }}
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

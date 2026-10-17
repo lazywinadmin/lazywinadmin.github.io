@@ -18,7 +18,7 @@ comments: true
 ---
 
 
-<a href="https://draft.blogger.com/blogger.g?blogID=5118199599906690528" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Summit North America 2013&quot; (1)" loading="lazy" decoding="async" border="0" src="" /></a><a href="{{ site.url }}/images/2014/PowerShell_Summit_North_America_2013/2014-03-11_6-43-32_PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image 1 from the post &quot;PowerShell Summit North America 2013&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_North_America_2013/2014-03-11_6-43-32_PM.jpg" height="120" width="120" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_Summit_North_America_2013/2014-03-11_6-43-32_PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image 1 from the post &quot;PowerShell Summit North America 2013&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_North_America_2013/2014-03-11_6-43-32_PM.jpg" height="120" width="120" /></a>
 In April 2013 I was one of the lucky attendees at the first PowerShell Summit in North America. The event was organized by the PowerShell.org team and was held in Redmond, WA between the 22nd and 25th of April 2013.
 
 I thought sharing some details and pictures would be nice :-)
