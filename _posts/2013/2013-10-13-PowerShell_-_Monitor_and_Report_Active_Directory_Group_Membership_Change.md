@@ -86,11 +86,11 @@ Basically, the script will monitor the Active Directory groups that you specify 
 <span style="font-weight: normal;">Group name like '<b>DOMAIN</b><span style="font-weight: normal;">\<b>GROUPNAME</b><span style="font-weight: normal;">' will also work.
 <b>
 </b><b>Comparing</b>
-The membership of each group is saved in a CSV file "<span style="color: #38761d; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>DOMAIN_GROUPNAME-membership.csv</b>"
+The membership of each group is saved in a CSV file "<b>DOMAIN_GROUPNAME-membership.csv</b>"
 If the file does not exist, the script will create one, so the next time it will be able to compare the membership with this file.
 <b>
 </b><b>Change History</b>
-Each time a change is detected (<b>Add</b> or <b>Remove</b> an Account (Nested or Not)) a CSV file will be generated with the following name: "<span style="color: #38761d; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>DOMAIN_GROUPNAME-ChangesHistory-yyyyMMdd-hhmmss.csv</b>"
+Each time a change is detected (<b>Add</b> or <b>Remove</b> an Account (Nested or Not)) a CSV file will be generated with the following name: "<b>DOMAIN_GROUPNAME-ChangesHistory-yyyyMMdd-hhmmss.csv</b>"
 <span style="font-weight: normal;">
 When generating the HTML Report, the script will add this Change History to the Email (if there is one to add)
 
@@ -237,7 +237,7 @@ since no previous changes were detected</td></tr></tbody></table>
 Again, I changed the membership of the group FX\<b>FXGROUP</b>,
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_8-08-37_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 11 from the post &quot;PowerShell - Monitor and Report Active Directory Group Membership Change&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_8-08-37_PM_s1600.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">A second Change History file is created by the script</td></tr></tbody></table>
 
-You will notice that the email you receive is a bit different. It will contains the Change History of the first file (the previous change made at first) "<span style="color: #38761d; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><b>FX_FXGROUP-ChangeHistory-20131013_185831.csv</b>"
+You will notice that the email you receive is a bit different. It will contains the Change History of the first file (the previous change made at first) "<b>FX_FXGROUP-ChangeHistory-20131013_185831.csv</b>"
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_7-16-48_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 12 from the post &quot;PowerShell - Monitor and Report Active Directory Group Membership Change&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_7-16-48_PM_s1600.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">This time the Email Report is a bit different, the script <u>did detect some previous change</u>

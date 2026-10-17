@@ -13,8 +13,8 @@ comments: true
 [source](http://stackoverflow.com/questions/2025989/what-is-the-recommended-coding-style-for-powershell)
 Here are someRecommended coding style for powershell byRichard Berg
 
-```
-<span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace; font-size: x-small;"><#
+```powershell
+<#
 .SYNOPSIS
 Cmdlet help is awesome.  Autogenerate via template so I never forget.
 
