@@ -14,6 +14,9 @@ $(function() {
   var $logoImg = $('nav.greedy-nav .site-logo img');
   var $title = $("nav.greedy-nav .site-title");
   var $search = $('nav.greedy-nav button.search__toggle');
+  // Site customization: the light/dark theme toggle also sits in the masthead,
+  // so its width must be reserved too or the last visible link gets clipped.
+  var $theme = $('nav.greedy-nav button.theme__toggle');
 
   var numOfItems, totalSpace, closingTime, breakWidths;
 
@@ -71,6 +74,7 @@ $(function() {
                    - /* logo */ ($logo.length !== 0 ? $logo.outerWidth(true) : 0)
                    - /* title */ $title.outerWidth(true)
                    - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
+                   - /* theme */ ($theme.length !== 0 ? $theme.outerWidth(true) : 0)
                    - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0);
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 
