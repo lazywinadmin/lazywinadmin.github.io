@@ -57,7 +57,7 @@ Here is a very handy function that you can include to your PowerShell Profil to 
 
 
 
-```
+```powershell
 function Connect-Office365
 {
 <#
@@ -88,31 +88,31 @@ function Connect-Office365
         TRY
         {
             #Modules
-            IF (-not (<span style="color: blue; font-size: 12px; font-weight: bold;">Get-Module -Name MSOnline -ListAvailable))
+            IF (-not (Get-Module -Name MSOnline -ListAvailable))
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "BEGIN - Import module Azure Active Directory"
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Import-Module -Name MSOnline -ErrorAction Stop -ErrorVariable ErrorBeginIpmoMSOnline
+                Write-Verbose -Message "BEGIN - Import module Azure Active Directory"
+                Import-Module -Name MSOnline -ErrorAction Stop -ErrorVariable ErrorBeginIpmoMSOnline
             }
             
-            IF (-not (<span style="color: blue; font-size: 12px; font-weight: bold;">Get-Module -Name LyncOnlineConnector -ListAvailable))
+            IF (-not (Get-Module -Name LyncOnlineConnector -ListAvailable))
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "BEGIN - Import module Lync Online"
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Import-Module -Name LyncOnlineConnector -ErrorAction Stop -ErrorVariable ErrorBeginIpmoLyncOnline
+                Write-Verbose -Message "BEGIN - Import module Lync Online"
+                Import-Module -Name LyncOnlineConnector -ErrorAction Stop -ErrorVariable ErrorBeginIpmoLyncOnline
             }
         }
         CATCH
         {
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "BEGIN - Something went wrong!"
+            Write-Warning -Message "BEGIN - Something went wrong!"
             IF ($ErrorBeginIpmoMSOnline)
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "BEGIN - Error while importing MSOnline module"
+                Write-Warning -Message "BEGIN - Error while importing MSOnline module"
             }
             IF ($ErrorBeginIpmoLyncOnline)
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "BEGIN - Error while importing LyncOnlineConnector module"
+                Write-Warning -Message "BEGIN - Error while importing LyncOnlineConnector module"
             }
             
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message $error[0].exception.message
+            Write-Warning -Message $error[0].exception.message
         }
     }
     PROCESS
@@ -121,50 +121,50 @@ function Connect-Office365
         {
             
             # CREDENTIAL
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Ask for Office365 Credential"
-            $O365cred = <span style="color: blue; font-size: 12px; font-weight: bold;">Get-Credential -ErrorAction Stop -ErrorVariable ErrorCredential
+            Write-Verbose -Message "PROCESS - Ask for Office365 Credential"
+            $O365cred = Get-Credential -ErrorAction Stop -ErrorVariable ErrorCredential
             
             # AZURE ACTIVE DIRECTORY (MSOnline)
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Connect to Azure Active Directory"
+            Write-Verbose -Message "PROCESS - Connect to Azure Active Directory"
             Connect-MsolService -Credential $O365cred -ErrorAction Stop -ErrorVariable ErrorConnectMSOL
             
             # EXCHANGE ONLINE (Implicit Remoting module)
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Create session to Exchange online"
+            Write-Verbose -Message "PROCESS - Create session to Exchange online"
             $ExchangeURL = "https://ps.outlook.com/powershell/"
-            $O365PS = <span style="color: blue; font-size: 12px; font-weight: bold;">New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri $ExchangeURL -Credential $O365cred -Authentication Basic -AllowRedirection -ErrorAction Stop -ErrorVariable ErrorConnectExchange
+            $O365PS = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri $ExchangeURL -Credential $O365cred -Authentication Basic -AllowRedirection -ErrorAction Stop -ErrorVariable ErrorConnectExchange
             
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Open session to Exchange online (Prefix: Cloud)"
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Import-PSSession -Session $O365PS –Prefix ExchCloud
+            Write-Verbose -Message "PROCESS - Open session to Exchange online (Prefix: Cloud)"
+            Import-PSSession -Session $O365PS –Prefix ExchCloud
             
             # LYNC ONLINE (LyncOnlineConnector)
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Verbose -Message "PROCESS - Create session to Lync online"
+            Write-Verbose -Message "PROCESS - Create session to Lync online"
             $lyncsession = New-CsOnlineSession –Credential $O365cred -ErrorAction Stop -ErrorVariable ErrorConnectExchange
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Import-PSSession -Session $lyncsession -Prefix LyncCloud
+            Import-PSSession -Session $lyncsession -Prefix LyncCloud
             
             # SHAREPOINT ONLINE (Implicit Remoting module)
             #Connect-SPOService -Url https://contoso-admin.sharepoint.com –credential $O365cred
         }
         CATCH
         {
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "PROCESS - Something went wrong!"
+            Write-Warning -Message "PROCESS - Something went wrong!"
             IF ($ErrorCredential)
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "PROCESS - Error while gathering credential"
+                Write-Warning -Message "PROCESS - Error while gathering credential"
             }
             IF ($ErrorConnectMSOL)
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "PROCESS - Error while connecting to Azure AD"
+                Write-Warning -Message "PROCESS - Error while connecting to Azure AD"
             }
             IF ($ErrorConnectExchange)
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "PROCESS - Error while connecting to Exchange Online"
+                Write-Warning -Message "PROCESS - Error while connecting to Exchange Online"
             }
             IF ($ErrorConnectLync)
             {
-                <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message "PROCESS - Error while connecting to Lync Online"
+                Write-Warning -Message "PROCESS - Error while connecting to Lync Online"
             }
             
-            <span style="color: blue; font-size: 12px; font-weight: bold;">Write-Warning -Message $error[0].exception.message
+            Write-Warning -Message $error[0].exception.message
         }
     }
 }
@@ -176,9 +176,8 @@ function Connect-Office365
 
 <b><u>Running the function</u></b>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" /></a>```
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" /></a>
 
-```
 
 Here the result in action
 
@@ -190,9 +189,8 @@ Here the result in action
 
 <b><u>Adding the function to your PowerShell profile</u></b>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" /></a>```
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" /></a>
 
-```
 <a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" /></a>
 The next time you reload your PowerShell, the function<span style="font-family: Courier New, Courier, monospace;"> Connect-Office365 will be available to your PowerShell.
 

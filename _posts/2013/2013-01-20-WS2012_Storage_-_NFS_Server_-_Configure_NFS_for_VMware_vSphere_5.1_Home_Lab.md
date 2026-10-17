@@ -47,7 +47,7 @@ Before I start, if you are not familiar with NFS, W2012or vSphere 5.1, please ch
 * <a href="http://blogs.technet.com/b/filecab/archive/2012/09/14/server-for-nfs-in-windows-server-2012.aspx" target="_blank">Windows Server 2012 - Server for NFS</a>
 * <a href="http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Storage-Technical-Whitepaper.pdf" target="_blank">What's New in vSphere 5.1 - Storage</a>
 
-### <span style="color: #0b5394; font-size: x-large;">Using PowerShell
+### Using PowerShell
 Adding the "Server for NFS" Role on Windows Server 2012
 
 First you will need to add the Windows Feature to handle the NFS Service and shares.
