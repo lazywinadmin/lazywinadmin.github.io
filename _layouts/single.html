@@ -81,10 +81,9 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-    {% include page__related.html locale=locale posts=site.related_posts %}
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+  {% comment %}<!-- related posts ranked by shared tags (_plugins/related_by_tags.rb), falling back to recent posts -->{% endcomment %}
+  {% if page.id and page.related and page.related_by_tags.size > 0 %}
+    {% include page__related.html locale=locale posts=page.related_by_tags %}
   {% elsif page.id and page.related %}
     {% include page__related.html locale=locale posts=site.posts %}
   {% endif %}
