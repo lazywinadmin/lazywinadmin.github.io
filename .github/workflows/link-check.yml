@@ -1,0 +1,106 @@
+name: link-check
+
+# Weekly check of every link in the built site (external links included).
+# On failure, opens or updates one issue labeled "link-rot" with the report;
+# closes it again once all links pass. On PRs that change the check itself it
+# only reports (job summary), without touching issues or failing the PR.
+on:
+  schedule:
+    - cron: "23 14 * * 1" # Mondays 14:23 UTC
+  workflow_dispatch: {}
+  pull_request:
+    paths:
+      - .github/workflows/link-check.yml
+      - .github/lychee.toml
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
+jobs:
+  lychee:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Restore lychee cache
+        uses: actions/cache@v6
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.run_id }}
+          restore-keys: lychee-
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --config .github/lychee.toml
+            --root-dir "${{ github.workspace }}/_site"
+            --no-progress
+            '_site/**/*.html'
+          output: lychee/report.md
+          format: markdown
+          fail: false
+          jobSummary: true
+
+      # lychee exit codes: 0 = all good, 2 = broken links, 1/3 = runtime/config error
+      - name: Open or update the link-rot issue
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create link-rot --color B60205 --description "Broken links found by the weekly link check" 2>/dev/null || true
+          {
+            echo "The weekly link check found broken links. Run: $RUN_URL"
+            echo
+            cat lychee/report.md
+          } > lychee/issue.md
+          # GitHub issue bodies are limited to 65536 characters
+          if [ "$(wc -c < lychee/issue.md)" -gt 65000 ]; then
+            head -c 64000 lychee/issue.md > lychee/issue.trim.md
+            printf '\n\n…report truncated, see the full output in the run: %s\n' "$RUN_URL" >> lychee/issue.trim.md
+            mv lychee/issue.trim.md lychee/issue.md
+          fi
+          number=$(gh issue list --label link-rot --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file lychee/issue.md
+            echo "Updated issue #$number"
+          else
+            gh issue create --title "Broken links found by weekly link check" --label link-rot --body-file lychee/issue.md
+          fi
+
+      - name: Close the link-rot issue when all links pass
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          number=$(gh issue list --label link-rot --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue close "$number" --comment "All links pass as of $RUN_URL"
+          fi
+
+      - name: Mark the run as failed when links are broken or lychee errored
+        if: steps.lychee.outputs.exit_code != '0' && (github.event_name != 'pull_request' || steps.lychee.outputs.exit_code != '2')
+        run: |
+          echo "lychee exit code: ${{ steps.lychee.outputs.exit_code }}"
+          exit 1
