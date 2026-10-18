@@ -1,6 +1,7 @@
 ---
 layout: single
 title: WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab
+seo_title: "WS2012 NFS Server: Configure NFS for a vSphere 5.1 Lab"
 excerpt: 
 permalink: /2013/01/configure-windows-server-2012-nfs.html
 tags: 

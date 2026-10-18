@@ -2,6 +2,7 @@
 description: "Last week I was one of the lucky PowerShell Summit attendees and had the chance to assist to the official launch of the Scripting Games 2013 !!"
 layout: single
 title: Scripting Games 2013 - Advanced Event 1 - An Archival Atrocity
+seo_title: "Scripting Games 2013 Advanced 1: An Archival Atrocity"
 excerpt:
 permalink: /2013/04/scripting-games-2013-advanced-event-1.html
 tags:

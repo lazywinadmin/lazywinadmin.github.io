@@ -2,6 +2,7 @@
 description: "Video Awesomeness - VMware has released 3 hours of free online training: <iframe frameborder=\"0\" height=\"360\"…"
 layout: single
 title: Video Awesomeness - VMware has released 3 hours of free online training
+seo_title: "VMware Releases 3 Hours of Free Online Training (Video)"
 excerpt: 
 permalink: /2012/04/video-awesomeness-vmware-has-released-3.html
 tags: 

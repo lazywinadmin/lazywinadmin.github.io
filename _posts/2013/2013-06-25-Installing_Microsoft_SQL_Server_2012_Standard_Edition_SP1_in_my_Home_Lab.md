@@ -2,6 +2,7 @@
 description: "Currently I’m playing with some products from the Microsoft System Center 2012 Suite in my Home Lab."
 layout: single
 title: Installing Microsoft SQL Server 2012 Standard Edition SP1 in my Home Lab
+seo_title: "Install SQL Server 2012 Standard SP1 in a Home Lab"
 excerpt: 
 permalink: /2013/06/installing-microsoft-sql-server-2012.html
 tags: 

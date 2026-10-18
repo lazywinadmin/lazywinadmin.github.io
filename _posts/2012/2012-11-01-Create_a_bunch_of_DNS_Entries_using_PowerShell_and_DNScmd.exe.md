@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Create a bunch of DNS Entries using PowerShell and DNScmd.exe
+seo_title: "PowerShell: Create DNS Entries in Bulk with DNSCmd.exe"
 excerpt: 
 permalink: /2012/10/create-dns-entries-using-powershell-and.html
 tags: 

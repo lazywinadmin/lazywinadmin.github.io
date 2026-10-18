@@ -2,6 +2,7 @@
 description: "Slides and scripts from my talk on parsing data with PowerShell at the first meetup of the French PowerShell User Group (FrPSUG)."
 layout: single
 title: My presentation at the first meetup of the French PowerShell User Group
+seo_title: "My Talk at the First French PowerShell User Group Meetup"
 excerpt: 
 permalink: /2016/09/my-presentation-at-first-meetup-of.html
 tags: 

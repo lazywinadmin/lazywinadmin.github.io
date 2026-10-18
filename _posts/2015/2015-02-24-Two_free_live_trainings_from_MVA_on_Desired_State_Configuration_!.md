@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Two free live trainings from MVA on Desired State Configuration !
+seo_title: "Two Free Live MVA Trainings on Desired State Configuration"
 excerpt: PowerShell DSC is a technology you do not want to skip! Microsoft Virtual Academy is offering those two trainings online
 permalink: /2015/02/two-free-live-trainings-from-mva-on.html
 tags: 

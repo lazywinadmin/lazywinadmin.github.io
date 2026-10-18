@@ -2,6 +2,7 @@
 description: "During an onboarding process, I had to create some accounts on a remote site where the Exchange Role is installed. There, the account can be mail-enabled."
 layout: single
 title: Active Directory - How to grant an account to use Sync-ADObject ?
+seo_title: "Active Directory: Grant an Account Use of Sync-ADObject"
 excerpt: 
 permalink: /2016/03/active-directory-how-to-grant-account.html
 tags: 

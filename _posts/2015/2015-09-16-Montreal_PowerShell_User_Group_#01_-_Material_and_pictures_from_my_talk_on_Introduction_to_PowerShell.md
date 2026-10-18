@@ -2,6 +2,7 @@
 description: "Slides, demos and pictures from my Introduction to PowerShell talk at the first Montreal PowerShell User Group meeting."
 layout: single
 title: 'Montreal PowerShell User Group #01 - Material and pictures from my talk on Introduction to PowerShell'
+seo_title: "Montreal PowerShell UG #01: Talk Materials and Pictures"
 excerpt: 
 permalink: /2015/09/montreal-powershell-user-group-01.html
 tags: 

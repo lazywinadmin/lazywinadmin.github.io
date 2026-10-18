@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - How to use a config file (ini, conf,...) with a Powershell Script ?
+seo_title: "PowerShell: Use a Config File (INI, CONF) in a Script"
 excerpt: 
 permalink: /2010/08/powershell-how-to-use-config-file-ini.html
 tags:

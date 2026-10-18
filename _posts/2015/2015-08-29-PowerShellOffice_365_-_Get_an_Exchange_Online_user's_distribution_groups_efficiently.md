@@ -2,6 +2,7 @@
 description: "How to efficiently find all the distribution groups an Exchange Online user belongs to with PowerShell in Office 365."
 layout: single
 title: PowerShell/Office 365 - Get an Exchange Online user's distribution groups efficiently
+seo_title: "PowerShell: Get Exchange Online User's Distribution Groups"
 excerpt: 
 permalink: /2015/08/powershelloffice-365-get-exchange.html
 tags: 

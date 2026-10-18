@@ -2,6 +2,7 @@
 description: "Video: Jeffery Hicks – Turn Command-Line Tools into PowerShell Tools: Here’s recording of @jeffhicks – PowerShell MVP, book author and trainer – Jeffery…"
 layout: single
 title: Video - Jeffery Hicks - Turn Command-Line Tools into PowerShell Tools
+seo_title: "Jeffery Hicks: Turn Command-Line Tools into PowerShell Tools"
 excerpt: 
 permalink: /2012/04/video-jeffery-hicks-turn-command-line.html
 tags: 

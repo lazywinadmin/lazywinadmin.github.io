@@ -2,6 +2,7 @@
 description: "A PowerShell script that checks whether all Windows services set to start automatically are actually running, locally or remotely."
 layout: single
 title: Powershell - Check if all the services with StartMode AUTOMATIC are actually Running
+seo_title: "PowerShell: Check That All Automatic Services Are Running"
 excerpt: 
 permalink: /2011/06/powershell-check-if-all-services-with.html
 tags: 

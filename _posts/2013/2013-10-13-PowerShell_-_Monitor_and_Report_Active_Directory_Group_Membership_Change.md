@@ -2,6 +2,7 @@
 description: "UPDATE 2016/05/03:The most recent update is availableon GithubSee also the related…"
 layout: single
 title: PowerShell - Monitor and Report Active Directory Group Membership Change
+seo_title: "PowerShell: Monitor and Report AD Group Membership Changes"
 excerpt: 
 permalink: /2013/10/powershell-monitor-and-report-active.html
 tags: 

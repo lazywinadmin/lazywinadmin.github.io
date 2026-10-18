@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Scripting Games 2013 - Advanced Event 5 - The Logfile Labyrinth
+seo_title: "Scripting Games 2013 Advanced 5: The Logfile Labyrinth"
 excerpt: 
 permalink: /2013/06/scripting-games-2013-advanced-event-5.html
 tags: 

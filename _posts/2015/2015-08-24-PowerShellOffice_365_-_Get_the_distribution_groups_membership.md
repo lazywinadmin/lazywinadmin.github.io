@@ -2,6 +2,7 @@
 description: "I was recently looking at Office365/Exchange Online to retrieve Distribution Group membership."
 layout: single
 title: PowerShell/Office 365 - Get the distribution groups membership
+seo_title: "PowerShell/Office 365: Get Distribution Group Membership"
 excerpt: 
 permalink: /2015/08/powershello365-get-distribution-groups.html
 tags: 

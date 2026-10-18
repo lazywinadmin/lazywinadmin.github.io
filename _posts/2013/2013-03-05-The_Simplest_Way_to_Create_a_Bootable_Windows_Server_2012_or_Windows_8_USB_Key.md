@@ -1,6 +1,7 @@
 ---
 layout: single
 title: The Simplest Way to Create a Bootable Windows Server 2012 or Windows 8 USB Key
+seo_title: "Create a Bootable Windows Server 2012 or Windows 8 USB Key"
 excerpt: 
 permalink: /2013/03/the-simplest-way-to-create-bootable.html
 tags: 

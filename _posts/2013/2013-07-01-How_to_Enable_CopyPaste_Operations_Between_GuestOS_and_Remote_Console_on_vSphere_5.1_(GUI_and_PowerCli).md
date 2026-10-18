@@ -2,6 +2,7 @@
 description: "In this blogpost I will explain how to enable Copy/Paste operations between the Guest Operating System and the Remote Console on VMware vSphere 5.1 via the…"
 layout: single
 title: How to Enable Copy/Paste Operations Between GuestOS and Remote Console on vSphere 5.1 (GUI and PowerCli)
+seo_title: "vSphere 5.1: Enable Copy/Paste Between Guest OS and Console"
 excerpt: 
 permalink: /2013/07/how-to-enable-copypaste-operations.html
 tags: 
