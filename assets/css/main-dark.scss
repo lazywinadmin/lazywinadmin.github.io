@@ -9,6 +9,7 @@ search: false
 @import "minimal-mistakes/skins/dark"; // skin
 @import "minimal-mistakes"; // main partials
 @import "site-custom"; // site overrides
+@import "site-code-header"; // code block language header + copy button
 
 /* Always print in light colors */
 @media print {
