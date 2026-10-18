@@ -12,6 +12,8 @@
   {%- case search_provider -%}
     {%- when "lunr" -%}
       {% include_cached search/lunr-search-scripts.html locale=locale %}
+    {%- when "pagefind" -%}
+      {% include_cached search/pagefind-search-scripts.html locale=locale %}
     {%- when "google" -%}
       {% include_cached search/google-search-scripts.html %}
     {%- when "algolia" -%}

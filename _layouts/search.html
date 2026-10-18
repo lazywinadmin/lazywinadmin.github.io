@@ -28,6 +28,9 @@ layout: default
       {%- when "lunr" -%}
         <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[locale].search_placeholder_text | default: 'Enter your search term...' }}" />
         <div id="results" class="results"></div>
+      {%- when "pagefind" -%}
+        <div id="pagefind-page" class="pagefind-search" role="search" aria-label="{{ site.data.ui-text[locale].search_label_text | default: 'Search posts' }}"></div>
+        <noscript><p>Search needs JavaScript. Browse <a href="{{ '/archive/' | relative_url }}">all posts</a> instead.</p></noscript>
       {%- when "google" -%}
         <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
         <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[locale].search_placeholder_text | default: 'Enter your search term...' }}" />

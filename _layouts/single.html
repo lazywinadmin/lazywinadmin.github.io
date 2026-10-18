@@ -22,7 +22,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html locale=locale %}
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}{% if page.collection == "posts" %} data-pagefind-body{% endif %}>
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
@@ -36,25 +36,25 @@ layout: default
             <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>
           {%- endif %}
-          {% include page__meta.html locale=locale %}
+          <div data-pagefind-ignore="all">{% include page__meta.html locale=locale %}</div>
         </header>
       {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+          <aside data-pagefind-ignore="all" class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc" aria-label="Table of contents">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
             </nav>
           </aside>
         {% endif %}
-        {% include older-post-notice.html %}
+        <div data-pagefind-ignore="all">{% include older-post-notice.html %}</div>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      <footer class="page__meta">
+      <footer class="page__meta" data-pagefind-ignore="all">
         {% if site.data.ui-text[locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[locale].meta_label }}</h4>
         {% endif %}
@@ -62,14 +62,16 @@ layout: default
         {% include page__date.html locale=locale %}
       </footer>
 
+      <div data-pagefind-ignore="all">
       {% if page.collection == "posts" %}{% include post-follow.html %}{% endif %}
 
       {% if page.share %}{% include social-share.html locale=locale %}{% endif %}
 
       {% include post_pagination.html locale=locale %}
+      </div>
     </div>
 
-    {% if site.comments.provider and page.comments %}
+    {% if site.comments.provider and page.comments %}<div data-pagefind-ignore="all">
       {% if jekyll.environment == 'production' %}
         {% include comments.html locale=locale %}
       {% else %}
@@ -78,7 +80,7 @@ layout: default
           but are disabled in non-production environments.
         </p>
       {% endif %}
-    {% endif %}
+    </div>{% endif %}
   </article>
 
   {% comment %}<!-- related posts ranked by shared tags (_plugins/related_by_tags.rb), falling back to recent posts -->{% endcomment %}

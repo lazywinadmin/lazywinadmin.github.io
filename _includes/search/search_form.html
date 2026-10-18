@@ -10,6 +10,9 @@
     <input type="search" id="search" class="search-input" tabindex="-1" placeholder="{{ site.data.ui-text[locale].search_placeholder_text | default: 'Enter your search term...' }}" />
   </form>
   <div id="results" class="results"></div>
+  {%- when "pagefind" -%}
+  <div id="pagefind-overlay" class="pagefind-search" role="search" aria-label="{{ site.data.ui-text[locale].search_label_text | default: 'Search posts' }}"></div>
+  <noscript><p>Search needs JavaScript. Browse <a href="{{ '/archive/' | relative_url }}">all posts</a> instead.</p></noscript>
   {%- when "google" -%}
   <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
     <label class="sr-only" for="cse-search-input-box-id">
