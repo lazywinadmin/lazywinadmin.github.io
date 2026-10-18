@@ -1,0 +1,61 @@
+/* Code block header: language label + copy button (added by assets/js/_main.js) */
+div.highlighter-rouge.has-code-header,
+figure.highlight.has-code-header {
+  > .highlight,
+  > pre {
+    border-start-start-radius: 0;
+    border-start-end-radius: 0;
+  }
+}
+.code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  padding: 0.3em 0.5em 0.3em 1em;
+  background: mix(#fff, $base00, 7%);
+  color: $base05;
+  border-bottom: 1px solid mix(#fff, $base00, 12%);
+  border-start-start-radius: $border-radius;
+  border-start-end-radius: $border-radius;
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  line-height: 1.5;
+
+  &__lang {
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: mix($base05, $base00, 85%);
+  }
+
+  &__copy {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    margin: 0;
+    padding: 0.2em 0.6em;
+    border: 1px solid transparent;
+    border-radius: $border-radius;
+    background: transparent;
+    color: $base05;
+    font: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+
+    &:hover { background: mix(#fff, $base00, 10%); border-color: mix(#fff, $base00, 20%); }
+    &:focus-visible { outline: 2px solid $base0d; outline-offset: 1px; }
+
+    .copied, .code-header__copied-text { display: none; }
+    &.copied {
+      color: $base0b;
+      .copied, .code-header__copied-text { display: inline; }
+      .fa-copy, .code-header__copy-text { display: none; }
+    }
+  }
+}
+pre .clipboard-copy-button:focus-visible { opacity: 1; outline: 2px solid $base0d; }
+@media print {
+  .code-header, .clipboard-copy-button { display: none !important; }
+  div.highlighter-rouge.has-code-header > .highlight { border-radius: $border-radius; }
+}
