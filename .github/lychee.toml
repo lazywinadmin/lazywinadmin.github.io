@@ -1,0 +1,52 @@
+# lychee config for .github/workflows/link-check.yml (weekly external link check of the built _site)
+# Docs: https://lychee.cli.rs/guides/config/
+
+# Cache results between runs (.lycheecache is restored by actions/cache)
+cache = true
+max_cache_age = "3d"
+# Don't cache failures, so a fixed link is re-checked next run
+cache_exclude_status = ["400..=599"]
+
+max_concurrency = 16
+host_concurrency = 4
+max_retries = 2
+retry_wait_time = 5
+timeout = 20
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36"
+
+# 429 Too Many Requests means the page exists; we were just rate limited
+accept = ["100..=103", "200..=299", "429"]
+
+include_mail = false
+exclude_private = true
+exclude_loopback = true
+exclude_link_local = true
+
+exclude = [
+  # Bot-hostile sites that answer 403/999 to any automated request
+  '^https?://([a-z]+\.)?linkedin\.com',
+  '^https?://(www\.|mobile\.)?(twitter|x)\.com',
+  '^https?://t\.co/',
+  '^https?://(www\.)?google\.[a-z.]+/maps',
+  # Share buttons on every post (intent URLs, not content links)
+  '^https?://(www\.)?facebook\.com/sharer',
+  '^https?://bsky\.app/intent/',
+  # The site itself: internal links are checked as local files here and by
+  # htmlproofer on every PR, so skip ~1,400 live requests to our own host
+  '^https?://(www\.)?lazywinadmin\.com',
+  # Archived copies: slow and flaky, and they don't rot
+  '^https?://web\.archive\.org/',
+  # Placeholders / docs examples
+  '^https?://([a-z0-9-]+\.)?example\.(com|org|net)',
+  '^https?://(localhost|127\.0\.0\.1)',
+  # Resource hints (preconnect/dns-prefetch), not real pages
+  '^https?://fonts\.(googleapis|gstatic)\.com/?$',
+  '^https?://cdn\.jsdelivr\.net/?$',
+]
+
+# Generated pages that only repeat links found elsewhere
+exclude_path = [
+  '_site/feed\.xml',
+  '_site/sitemap\.xml',
+  '_site/pagefind/',
+]
