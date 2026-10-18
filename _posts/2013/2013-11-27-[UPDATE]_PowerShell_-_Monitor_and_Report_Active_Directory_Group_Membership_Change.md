@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "[UPDATE] PowerShell - Monitor and Report Active Directory Group Membership Change"
+seo_title: "Update: Monitor and Report AD Group Membership Changes"
 excerpt:
 permalink: /2013/11/update-powershell-monitor-and-report.html
 tags:

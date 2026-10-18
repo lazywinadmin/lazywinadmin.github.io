@@ -3,10 +3,21 @@
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
+{%- comment -%}
+  Search/social title. `seo_title` front matter overrides the page title for
+  <title>, og:title and twitter:title only; the visible H1 still uses `title`.
+  The " - LazyWinAdmin" suffix is added only when the result stays within
+  60 characters, so long titles are not cut off in search results.
+{%- endcomment -%}
+{%- assign page_title = page.seo_title | default: page_title | replace: '|', '&#124;' -%}
 {%- if page_title contains site.title -%}
-  {%- assign seo_title = page_title | replace: '|', '&#124;' -%}
+  {%- assign seo_title = page_title -%}
 {%- else -%}
-  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title -%}
+  {%- assign seo_title_length = seo_title | replace: '&#124;', '|' | strip_html | strip | size -%}
+  {%- if seo_title_length > 60 -%}
+    {%- assign seo_title = page_title -%}
+  {%- endif -%}
 {%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}

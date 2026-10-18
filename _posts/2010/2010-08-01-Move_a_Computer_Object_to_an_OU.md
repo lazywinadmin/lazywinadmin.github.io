@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Move a Computer Object to another Organizational Unit (OU) using DSMove
+seo_title: "Move a Computer Object to Another OU with DSMove"
 excerpt: 
 permalink: /2010/12/how-to-find-computer-serial-number.html
 tags: 

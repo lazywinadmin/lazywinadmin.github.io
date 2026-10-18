@@ -2,6 +2,7 @@
 description: "A TechNet video by Don Jones on automating Active Directory administration tasks with Windows PowerShell."
 layout: single
 title: Automating Active Directory Administration with Windows PowerShell
+seo_title: "Automating Active Directory Administration with PowerShell"
 excerpt: 
 permalink: /2011/05/automating-active-directory.html
 tags: 

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Scripting Games 2013 - Advanced Event 2 - An Inventory Intervention
+seo_title: "Scripting Games 2013 Advanced 2: An Inventory Intervention"
 excerpt: 
 permalink: /2013/05/scripting-games-2013-advanced-event-2.html
 tags: 

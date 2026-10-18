@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Remove special characters from a string using Regular Expression (Regex)
+seo_title: "PowerShell: Remove Special Characters from a String (Regex)"
 excerpt: 
 permalink: /2015/08/powershell-remove-special-characters.html
 tags: 

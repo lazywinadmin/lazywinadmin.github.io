@@ -2,6 +2,7 @@
 description: "Montreal PowerShell User Group #02, October 27 2015 at Warner Bros. Games Studio: using the pipeline and creating scripts and functions."
 layout: single
 title: 'Montreal PowerShell User Group #02 - Using the Pipeline/Creating Script and Function'
+seo_title: "Montreal PowerShell UG #02: Pipeline, Scripts and Functions"
 excerpt: 
 permalink: /2015/10/montreal-powershell-user-group-02-using.html
 tags: 

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/SCCM - Create a Dynamic Variable list during the task sequence
+seo_title: "PowerShell/SCCM: Dynamic Variable List in a Task Sequence"
 excerpt: 
 permalink: /2015/09/powershellsccm-create-dynamic-variable.html
 tags: 

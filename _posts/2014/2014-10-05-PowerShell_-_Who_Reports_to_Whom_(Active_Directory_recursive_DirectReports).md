@@ -2,6 +2,7 @@
 description: "Update 2019/06/29: Added an example to do wildcard searchI’ve been working in the video games industry for a bit more than 3 months now."
 layout: single
 title: PowerShell - Who Reports to Whom? (Active Directory recursive DirectReports)
+seo_title: "PowerShell: Who Reports to Whom? (AD DirectReports)"
 excerpt: 
 permalink: /2014/10/powershell-who-reports-to-whom-active.html
 tags: 

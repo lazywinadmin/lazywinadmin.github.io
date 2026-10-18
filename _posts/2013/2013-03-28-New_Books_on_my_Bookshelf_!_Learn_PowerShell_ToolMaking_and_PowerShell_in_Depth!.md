@@ -1,6 +1,7 @@
 ---
 layout: single
 title: New Books on my Bookshelf ! Learn PowerShell ToolMaking and PowerShell in Depth!
+seo_title: "New Books: Learn PowerShell Toolmaking, PowerShell in Depth"
 excerpt: 
 permalink: /2013/03/new-books-on-my-bookshelf-learn.html
 tags: 

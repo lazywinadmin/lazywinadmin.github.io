@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/SCSM - Get Manual Activities Completed per Assigned user in the last month
+seo_title: "PowerShell/SCSM: Manual Activities Completed per User"
 excerpt: 
 permalink: /2016/03/powershellscsm-get-manual-activities_9.html
 tags: 

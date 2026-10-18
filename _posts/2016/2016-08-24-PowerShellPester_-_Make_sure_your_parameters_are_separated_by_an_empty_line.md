@@ -2,6 +2,7 @@
 description: "A Pester test that checks every parameter declared in a function's PARAM() block is separated by an empty line, for cleaner PowerShell code."
 layout: single
 title: PowerShell/Pester - Make sure your parameters are separated by an empty line
+seo_title: "Pester: Make Sure Parameters Are Separated by an Empty Line"
 excerpt: 
 permalink: /2016/08/powershellpester-make-sure-your.html
 tags: 
