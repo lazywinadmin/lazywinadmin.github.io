@@ -177,19 +177,32 @@ $(document).ready(function () {
     }
   };
 
-  var copyButtonEventListener = function (event) {
-    var thisButton = event.target;
+  // Language labels for code block headers (Rouge "language-*" class -> label).
+  // Plain text and unknown languages get no label.
+  var codeLanguageLabels = {
+    powershell: "PowerShell", posh: "PowerShell", ps1: "PowerShell", pwsh: "PowerShell", psm1: "PowerShell",
+    hcl: "HCL", terraform: "Terraform", tf: "Terraform", tfvars: "Terraform",
+    bash: "Bash", sh: "Shell", shell: "Shell", zsh: "Zsh", console: "Console", shell_session: "Console",
+    yaml: "YAML", yml: "YAML", json: "JSON", jsonc: "JSON", xml: "XML", html: "HTML", css: "CSS", scss: "SCSS",
+    javascript: "JavaScript", js: "JavaScript", typescript: "TypeScript", ts: "TypeScript",
+    python: "Python", py: "Python", ruby: "Ruby", rb: "Ruby", go: "Go", rust: "Rust", java: "Java",
+    csharp: "C#", cs: "C#", "c#": "C#", vb: "VB.NET", vbnet: "VB.NET", vbscript: "VBScript", vbs: "VBScript",
+    batch: "Batch", bat: "Batch", cmd: "Batch", batchfile: "Batch", dosbatch: "Batch",
+    sql: "SQL", tsql: "T-SQL", kusto: "KQL", kql: "KQL", dockerfile: "Dockerfile", docker: "Dockerfile",
+    ini: "INI", toml: "TOML", diff: "Diff", markdown: "Markdown", md: "Markdown", liquid: "Liquid",
+    csv: "CSV", make: "Makefile", makefile: "Makefile", nginx: "Nginx", bicep: "Bicep", graphql: "GraphQL"
+  };
+  var codeLanguageLabel = function (element) {
+    var holder = element.closest("[class*='language-']");
+    if (!holder) return null;
+    var match = holder.className.match(/(?:^|\s)language-([\w#+-]+)/);
+    if (!match) return null;
+    return codeLanguageLabels[match[1].toLowerCase()] || null;
+  };
 
-    // Locate the <code> element
-    var codeBlock = thisButton.nextElementSibling;
-    while (codeBlock && codeBlock.tagName.toLowerCase() !== "code") {
-      codeBlock = codeBlock.nextElementSibling;
-    }
-    if (!codeBlock) {
-      // No <code> found - wtf?
-      console.warn(thisButton);
-      throw new Error("No code block found for this button.");
-    }
+  var copyButtonEventListener = function (event) {
+    var thisButton = event.currentTarget;
+    var codeBlock = thisButton.codeElement;
 
     // Skip line numbers if present (i.e. {% highlight lineno %})
     var realCodeBlock = codeBlock.querySelector("td.code, td.rouge-code");
@@ -200,13 +213,14 @@ $(document).ready(function () {
     // Restore the focus to the button
     thisButton.focus();
     if (result) {
-      if (thisButton.interval !== null) {
-        clearInterval(thisButton.interval);
+      if (thisButton.interval) {
+        clearTimeout(thisButton.interval);
       }
-      thisButton.classList.add('copied');
+      thisButton.classList.add("copied");
+      if (thisButton.statusElement) thisButton.statusElement.textContent = "Copied!";
       thisButton.interval = setTimeout(function () {
-        thisButton.classList.remove('copied');
-        clearInterval(thisButton.interval);
+        thisButton.classList.remove("copied");
+        if (thisButton.statusElement) thisButton.statusElement.textContent = "";
         thisButton.interval = null;
       }, 1500);
     }
@@ -215,20 +229,51 @@ $(document).ready(function () {
 
   if (window.enable_copy_code_button) {
     document
-      .querySelectorAll(".page__content pre.highlight > code")
-      .forEach(function (element, index, parentList) {
-        // Locate the <pre> element
-        var container = element.parentElement;
+      .querySelectorAll(".page__content pre.highlight > code, .page__content figure.highlight > pre > code")
+      .forEach(function (element) {
+        var pre = element.parentElement;
         // Sanity check - don't add an extra button if there's already one
-        if (container.firstElementChild.tagName.toLowerCase() !== "code") {
+        if (pre.dataset.copyReady) {
           return;
         }
+        pre.dataset.copyReady = "true";
+        var label = codeLanguageLabel(element);
+
         var copyButton = document.createElement("button");
-        copyButton.title = "Copy to clipboard";
+        copyButton.type = "button";
         copyButton.className = "clipboard-copy-button";
-        copyButton.innerHTML = '<span class="sr-only">Copy code</span><i class="far fa-fw fa-copy"></i><i class="fas fa-fw fa-check copied"></i>';
+        copyButton.setAttribute("aria-label", label ? "Copy " + label + " code to clipboard" : "Copy code to clipboard");
+        copyButton.title = "Copy to clipboard";
+        copyButton.codeElement = element;
         copyButton.addEventListener("click", copyButtonEventListener);
-        container.prepend(copyButton);
+
+        var status = document.createElement("span");
+        status.className = "code-header__status sr-only";
+        status.setAttribute("role", "status");
+        status.setAttribute("aria-live", "polite");
+        copyButton.statusElement = status;
+
+        if (label) {
+          // Header bar above the block: language label + copy button
+          var block = pre.closest("div.highlighter-rouge, figure.highlight") || pre;
+          var header = document.createElement("div");
+          header.className = "code-header";
+          var lang = document.createElement("span");
+          lang.className = "code-header__lang";
+          lang.textContent = label;
+          copyButton.classList.add("code-header__copy");
+          copyButton.innerHTML = '<i class="far fa-fw fa-copy" aria-hidden="true"></i><i class="fas fa-fw fa-check copied" aria-hidden="true"></i><span class="code-header__copy-text" aria-hidden="true">Copy</span><span class="code-header__copied-text" aria-hidden="true">Copied!</span>';
+          header.appendChild(lang);
+          header.appendChild(status);
+          header.appendChild(copyButton);
+          block.classList.add("has-code-header");
+          block.insertBefore(header, block.firstChild);
+        } else {
+          // No language: keep the small floating copy button
+          copyButton.innerHTML = '<i class="far fa-fw fa-copy" aria-hidden="true"></i><i class="fas fa-fw fa-check copied" aria-hidden="true"></i>';
+          pre.prepend(copyButton);
+          pre.appendChild(status);
+        }
       });
   }
 });
