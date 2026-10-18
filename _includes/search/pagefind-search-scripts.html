@@ -1,0 +1,68 @@
+{% assign locale = include.locale | default: site.locale %}
+<script>
+  /* Pagefind search (index built by `npx pagefind --site _site` in .github/workflows/pages.yml).
+     The UI bundle is loaded only when search is opened, so normal page loads stay light. */
+  (function () {
+    var bundle = "{{ '/pagefind/' | relative_url }}";
+    var options = {
+      showSubResults: true,
+      showImages: false,
+      excerptLength: 24,
+      bundlePath: bundle,
+      /* the post title (h1#page-title) is already the result heading; drop its duplicate sub-result */
+      processResult: function (result) {
+        if (result.sub_results) {
+          result.sub_results = result.sub_results.filter(function (r) { return !/#page-title$/.test(r.url); });
+        }
+        return result;
+      },
+      translations: { placeholder: {{ site.data.ui-text[locale].search_placeholder_text | default: "Search posts..." | jsonify }} }
+    };
+    var loading = null;
+    function load() {
+      if (loading) return loading;
+      loading = new Promise(function (resolve, reject) {
+        var css = document.createElement("link");
+        css.rel = "stylesheet";
+        css.href = bundle + "pagefind-ui.css";
+        document.head.appendChild(css);
+        var js = document.createElement("script");
+        js.src = bundle + "pagefind-ui.js";
+        js.onload = resolve;
+        js.onerror = reject;
+        document.head.appendChild(js);
+      });
+      return loading;
+    }
+    function mount(id) {
+      var el = document.getElementById(id);
+      if (!el) return Promise.resolve(null);
+      if (el._pagefind) return Promise.resolve(el._pagefind);
+      return load().then(function () {
+        if (!el._pagefind) el._pagefind = new PagefindUI(Object.assign({ element: "#" + id }, options));
+        return el._pagefind;
+      });
+    }
+    function focusInput(id) {
+      var input = document.querySelector("#" + id + " input");
+      if (input) input.focus();
+    }
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest || !e.target.closest(".search__toggle")) return;
+      mount("pagefind-overlay").then(function () { setTimeout(function () { focusInput("pagefind-overlay"); }, 100); });
+    });
+    var toggle = document.querySelector(".search__toggle");
+    if (toggle) {
+      ["mouseenter", "focus", "touchstart"].forEach(function (ev) {
+        toggle.addEventListener(ev, function () { load(); }, { once: true, passive: true });
+      });
+    }
+    if (document.getElementById("pagefind-page")) {
+      mount("pagefind-page").then(function (ui) {
+        var q = new URLSearchParams(window.location.search).get("q");
+        if (ui && q) ui.triggerSearch(q);
+        focusInput("pagefind-page");
+      });
+    }
+  })();
+</script>

@@ -44,6 +44,15 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Build Pagefind search index
+        run: npx --yes pagefind@${PAGEFIND_VERSION} --site _site
+        env:
+          PAGEFIND_VERSION: "1.5.2"
+
       - name: Check internal links and HTML (external links skipped)
         run: |
           bundle exec htmlproofer ./_site \

@@ -59,3 +59,32 @@ pre, .highlight pre { line-height: 1.5; }
   .page__content { line-height: 1.5; }
   .page__content h1, .page__content h2, .page__content h3 { break-after: avoid; }
 }
+
+/* Pagefind search UI: theme colors (compiled separately for main.css and main-dark.css) */
+.pagefind-search {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: #{$link-color};
+  --pagefind-ui-text: #{$text-color};
+  --pagefind-ui-background: #{$background-color};
+  --pagefind-ui-border: #{$border-color};
+  --pagefind-ui-tag: #{mix($background-color, $border-color, 40%)};
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 6px;
+  --pagefind-ui-font: inherit;
+  max-width: 50em;
+  .pagefind-ui__result-link { color: $link-color; }
+  .pagefind-ui__result-excerpt, .pagefind-ui__message { color: $text-color; }
+  .pagefind-ui__result-excerpt mark, .pagefind-ui__result-title mark {
+    background-color: mix($background-color, $link-color, 75%);
+    color: inherit;
+  }
+  .pagefind-ui__search-input { color: $text-color; }
+  .pagefind-ui__search-input::placeholder { color: $muted-text-color; opacity: 1; }
+  .pagefind-ui__button {
+    color: $text-color;
+    background: $background-color;
+    border-color: $border-color;
+  }
+}
+.search-content .pagefind-search { margin-inline: auto; }
+@media print { .pagefind-search { display: none !important; } }
