@@ -111,7 +111,7 @@ Add-ADSubnet (ADSI Function)</h2>
 <u>Description:</u>This function allow you to add a subnet object in your active directory using ADSI<br />
 <u>Blog post(s):</u> 2013/11/11<a href="http://www.lazywinadmin.com/2013/11/powershell-add-ad-site-subnet.html" target="_blank">PowerShell - Add AD Site Subnet</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20150911044847/http://gallery.technet.microsoft.com/Add-ADSISubnet-ADSI-d3f86e90" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Add-ADSubnet%28ADSI%29" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>
@@ -123,7 +123,7 @@ Disable-VMCopyPaste</h2>
 <u>Description:</u>This function allows you to DISABLE Copy Paste operation between a Virtual Machine and your local machine.<br />
 <u>Blog post(s):</u>2013/07/01<a href="http://www.lazywinadmin.com/2013/07/how-to-enable-copypaste-operations.html" target="_blank">How to Enable Copy/Paste Operations Between GuestOS and Remote Console on vSphere 5.1 (GUI and PowerCli)</a><br />
 <br />
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150919080330/http://gallery.technet.microsoft.com/Disable-VMCopyPaste-b7e770b6" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Screenshot from &quot;Scripts/Projects&quot; (1)" border="0" height="194" src="{{ site.url }}/images/pages/scripts/2013-06-26_10-03-32_PM.png" width="400" /></a></div>
@@ -134,7 +134,7 @@ Enable-VMCopyPaste</h2>
 <u>Description:</u> This function allows you to ENABLE Copy Paste operation between a Virtual Machine and your local machine.<br />
 <u>Blog post(s):</u>2013/07/01<a href="http://www.lazywinadmin.com/2013/07/how-to-enable-copypaste-operations.html" target="_blank">How to Enable Copy/Paste Operations Between GuestOS and Remote Console on vSphere 5.1 (GUI and PowerCli)</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Enable-VMCopyPaste-39d785a4" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20151001015401/http://gallery.technet.microsoft.com/Enable-VMCopyPaste-39d785a4" target="_blank">Technet</a><br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
@@ -146,7 +146,7 @@ Get-ADGPOReplication</h2>
 <u>Description:</u>Get-ADGPOReplication is retrieving the GPO version and Sysvol version accross the domain for one ore more Group Policy. This can help you troubleshoot replication issues.<br />
 <u>Blog post(s):</u> 2014/10/01<a href="http://www.lazywinadmin.com/2014/10/powershell-check-gpo-replication.html" target="_blank">PowerShell - Check the GPO Replication accross your domain</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-GPO-Replication-4db47c83" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">GitHub</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20151230035455/http://gallery.technet.microsoft.com/Get-GPO-Replication-4db47c83" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADGPOReplication" border="0" height="340" src="{{ site.url }}/images/pages/scripts/Get-ADGPOReplication.png" width="400" /></a></div>
@@ -159,7 +159,7 @@ Get-ComputerInfo</h2>
 Description:This small function will return information about: Operating System Name Operating System Version Memory (GB) Number of Processors Number of Sockets Number of Cores<br />
 <u>Blog post(s):</u> 2013/05/08<a href="http://www.lazywinadmin.com/2013/05/scripting-games-2013-advanced-event-2.html" target="_blank">Scripting Games 2013 - Advanced Event 2 - An Inventory Intervention</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-ComputerInformation-ecaa5cc9" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20151005120127/http://gallery.technet.microsoft.com/Get-ComputerInformation-ecaa5cc9" target="_blank">Technet</a><br />
 <br />
 <br />
 <h2 id="Get-DiskSizeInfo">
@@ -167,7 +167,7 @@ Get-DiskSizeInfo</h2>
 <u>Description:</u>Winter Scripting Games - Practice Event #1 - Sizing up the Disks - You have been asked to create a Windows PowerShell advanced function named Get-DiskSizeInfo. It must accept one or more computer names, and use WMI or CIM to query each computer...<br />
 <u>Blog post(s):</u>2013/02/10<a href="http://www.lazywinadmin.com/2013/02/winter-scripting-games-2013-practice.html" target="_blank">Winter Scripting Games 2013 - Practice Event 1</a><br />
 <u><br /></u>
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-DiskSizeInfo-d60eed65" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20151014213107/http://gallery.technet.microsoft.com/Get-DiskSizeInfo-d60eed65" target="_blank">Technet</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="WinterScriptingGames Event1 03" border="0" height="212" src="{{ site.url }}/images/pages/scripts/WinterScriptingGames-Event1-03.png" width="400" /></a></div>
@@ -179,7 +179,7 @@ Get-DomainComputer (ADSI Function)</h2>
 <u>Description:</u>The following function use ADSI to query Computer objects from the Active Directory. You can specify one or multiple names/patterns to search.<br />
 Optionally you can specify a different domain to query and alternate credentials to use.<br />
 <u>Blog post(s):</u>2013/10/31<a href="http://www.lazywinadmin.com/2013/10/powershell-get-domaincomputer-adsi.html" target="_blank">PowerShell - Get-DomainComputer (ADSI)</a><br />
-<u><br /></u><u>Download:</u><a href="http://gallery.technet.microsoft.com/Get-DomainComputer-ADSI-3d531db7" target="_blank">Technet</a><br />
+<u><br /></u><u>Download:</u><a href="https://web.archive.org/web/20150915165958/http://gallery.technet.microsoft.com/Get-DomainComputer-ADSI-3d531db7" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-COMPUTER-Get-DomainComputer" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>
@@ -191,21 +191,21 @@ Optionally you can specify a different domain to query and alternate credentials
 Get-LocalGroupAllMembers</h2>
 <u>Description:</u>The following functions query a localgroup on the localhost or a remote computer, and gather all the local and domain members (direct and nested,users and groups).<br />
 <u>Blog post(s):</u>2013/01/07<a href="http://www.lazywinadmin.com/2013/01/get-localgroupallmembers.html" target="_blank">Get-LocalGroupAllMembers</a><br />
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/Get-LocalGroupAllMembers-835c67cd" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150919173033/http://gallery.technet.microsoft.com/Get-LocalGroupAllMembers-835c67cd" target="_blank">Technet</a><br />
 <br />
 <h2 id="GetLocalGroupMembership">
 Get-LocalGroupMembership</h2>
 <u>Description:</u>This function get the local group membership on a local or remote computer using ADSI/WinNT.<br />
 <u>Blog post(s):</u>2012/12/31<a href="http://www.lazywinadmin.com/2012/12/get-localgroupmembership-using-adsiwinnt.html" target="_blank">Get-LocalGroupMembership (Using ADSI/WinNT)</a><br />
 <u><br /></u>
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-LocalGroupMembership-87d10dd8" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20150920001045/http://gallery.technet.microsoft.com/Get-LocalGroupMembership-87d10dd8" target="_blank">Technet</a><br />
 <br />
 <h2 id="Get-NetStat">
 Get-NetStat</h2>
 <u>Description:</u>This function parse the output of the tool NETSTAT.EXE. The purpose of this function is to show how to parse standard tools to allow usage inside Powershell.<br />
 <u>Blog post(s):</u>2014/08/17 <a href="http://www.lazywinadmin.com/2014/08/powershell-parse-this-netstatexe.html" target="_blank">PowerShell - Parse this: NetStat.exe</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Get-NetStat-872e0776" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20150919173146/http://gallery.technet.microsoft.com/Get-NetStat-872e0776" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Get-NetStat" target="_blank">GitHub</a><br />
 <br />
 
 
@@ -244,7 +244,7 @@ Get-NetStat Using ConvertFrom-String -TemplateFile</h2>
 Get-NetworkLevelAuthentication (NLA)</h2>
 <u>Description:</u>Get the Network Level Authentication setting on one or more computers using CIM Cmldets/WMI (DCOM or WSMAN protocol)<br />
 <u>Blog post(s):</u>2014/04/04<a href="http://www.lazywinadmin.com/2014/04/powershell-getset-network-level.html" target="_blank">PowerShell - Get/Set the Network Level Authentication Remotely (RDP Setting)</a><br />
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150919082042/http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Get-NetworkLevelAuthentication" target="_blank">GitHub</a><br />
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
@@ -262,7 +262,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <u>Dedicated Page</u>: <a href="{{ site.url }}/2014/10/powershell-gui-lazyts-terminal-services.html" target="_blank">LazyTS</a><br />
 <u>Blog post(s)</u>: 2014/10/04 <a href="http://www.lazywinadmin.com/2014/10/powershell-gui-lazyts-terminal-services.html" target="_blank">PowerShell GUI - LazyTS (Terminal Services Management)</a><br />
 <br />
-<u>Download</u>: <a href="http://gallery.technet.microsoft.com/LazyTS-d426e01d" target="_blank">Technet Gallery</a> / <a href="https://github.com/lazywinadmin/LazyTS/releases" target="_blank">GitHub</a>/ <a href="http://lazywinadmin.github.io/LazyTS/" target="_blank">GitHubPage</a><br />
+<u>Download</u>: <a href="https://web.archive.org/web/20150912232706/http://gallery.technet.microsoft.com/LazyTS-d426e01d" target="_blank">Technet Gallery</a> / <a href="https://github.com/lazywinadmin/LazyTS/releases" target="_blank">GitHub</a>/ <a href="http://lazywinadmin.github.io/LazyTS/" target="_blank">GitHubPage</a><br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
@@ -281,7 +281,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <li>LazyWinAdmin v0.3.20111002</li>
 <li><a href="http://www.lazywinadmin.com/2011/05/lazywinadmin-02.html" target="_blank">LazyWinAdmin v0.2</a></li>
 </ul>
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/LazyWinAdmin-04-9da94d7f" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150906102621/http://gallery.technet.microsoft.com/LazyWinAdmin-04-9da94d7f" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/LazyWinAdmin_GUI" target="_blank">GitHub</a><br />
 <u>Screenshot(s):</u><br />
 <br />
 <br />
@@ -299,7 +299,7 @@ This tool is using the module PSTerminalService which relies on the Cassia .NET 
 <li>2013/10/13<a href="http://www.lazywinadmin.com/2013/10/powershell-monitor-and-report-active.html" target="_blank">PowerShell - Monitor and Report Active Directory Group Membership Change</a></li>
 <li>2012/03/14<a href="http://www.lazywinadmin.com/2012/03/powershell-monitor-membership-change-to.html" target="_blank">Powershell - Monitor Active Directory Groups membership change</a></li>
 </ul>
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/Monitor-Active-Directory-4c4e04c7" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150914175853/http://gallery.technet.microsoft.com/Monitor-Active-Directory-4c4e04c7" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GROUP-Monitor_MemberShip" target="_blank">GitHub</a><br />
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
@@ -323,7 +323,7 @@ Read Excel File (Using COM)</h2>
 <u>Description:</u>This is a sample file that show how to use PowerShell and COM Interface to read an Excel file. Note that the machine that will run the script need Excel installed.<br />
 <u>Blog post(s)</u>: 2014/03/23<a href="http://www.lazywinadmin.com/2014/03/powershell-read-excel-file-using-com.html" target="_blank">PowerShell - Read an Excel file using COM Interface</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20150912010122/http://gallery.technet.microsoft.com/Read-Excel-File-using-COM-809deb32" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Read-ExcelFile" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Screenshot from &quot;Scripts/Projects&quot; (7)" border="0" height="172" src="{{ site.url }}/images/pages/scripts/2014-03-22_9-14-51_PM.png" width="320" /></a></div>
@@ -333,7 +333,7 @@ Report Active Directory Missing subnets</h2>
 <u>Description:</u>This script report the Active Directory Missing Subnets detected in the NetLogon file(s) of each Domain Controller(s)<br />
 <u>Blog post(s):</u> 2013/10/21<a href="http://www.lazywinadmin.com/2013/10/powershell-report-ad-missing-subnets.html" target="_blank">PowerShell - Report the AD Missing Subnets from the NETLOGON.log</a><br />
 <br />
-<u>Download:</u> <a href="http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb" target="_blank">Technet</a><br />
+<u>Download:</u> <a href="https://web.archive.org/web/20150919113409/http://gallery.technet.microsoft.com/Report-Active-Directory-008cd9eb" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-SITE-Find_Missing_Subnets" target="_blank">GitHub</a><br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Screenshot from &quot;Scripts/Projects&quot; (8)" border="0" height="400" src="{{ site.url }}/images/pages/scripts/2013-10-15_12-33-20_AM.png" width="347" /></a></div>
@@ -361,13 +361,13 @@ Changed Block Tracking (CBT) is a VMware feature that helps perform incremental 
 Services where StartMode is AUTOMATIC and NOT running</h2>
 <u>Description:</u>This Powershell script will list all the services from a local or remote computer where the StartMode property is set to "Automatic" and where the state property is different from "RUNNING" (so mostly where the state is NOT RUNNING).<br />
 <u>Blog post(s):</u>n/a<br />
-<u><br /></u><u>Download:</u><a href="http://gallery.technet.microsoft.com/dba0a313-5a74-464a-a98a-fac57ed28105" target="_blank">Technet</a><br />
+<u><br /></u><u>Download:</u><a href="https://web.archive.org/web/20190919174540/http://gallery.technet.microsoft.com/dba0a313-5a74-464a-a98a-fac57ed28105" target="_blank">Technet</a><br />
 <br />
 <h2 id="Set-NetworkLevelAuthentication">
 Set-NetworkLevelAuthentication (NLA)</h2>
 <u>Description:</u>Set the Network Level Authentication setting on one or more computers using CIM Cmldets/WMI (DCOM or WSMAN protocol)<br />
 <u>Blog post(s):</u>2014/04/04<a href="http://www.lazywinadmin.com/2014/04/powershell-getset-network-level.html" target="_blank">PowerShell - Get/Set the Network Level Authentication Remotely (RDP Setting)</a><br />
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet</a><br />
+<u>Download:</u><a href="https://web.archive.org/web/20150919082042/http://gallery.technet.microsoft.com/Get-and-Set-NetworkLevelAut-fc8b6361" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/TOOL-Set-NetworkLevelAuthentication" target="_blank">GitHub</a><br />
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
@@ -417,7 +417,7 @@ Tutorial - ListView Control- Fill my second column</h2>
 <div style="font-size: medium; font-weight: normal;">
 <u>Blog post(s):</u>n/a</div>
 <div style="font-size: medium; font-weight: normal;">
-<u>Download:</u><a href="http://gallery.technet.microsoft.com/WinForm-ListView-Control-995fa0eb" target="_blank">Technet</a></div>
+<u>Download:</u><a href="https://web.archive.org/web/20190919174621/http://gallery.technet.microsoft.com/WinForm-ListView-Control-995fa0eb" target="_blank">Technet</a></div>
 <div style="font-size: medium; font-weight: normal;">
 <br /></div>
 <h2 id="TutorialToolMaking">
