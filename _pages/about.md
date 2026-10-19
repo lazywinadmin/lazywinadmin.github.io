@@ -30,7 +30,7 @@ I founded and organized these user groups:
 
 | Name | Type | Role |
 |---|:---:|:---:|
-| [French PowerShell User Group](https://frpsug.github.io/) | Online | Founder/Organizer |
+| [French PowerShell User Group](https://web.archive.org/web/20190606032016/https://frpsug.com/) | Online | Founder/Organizer |
 | [Montreal PowerShell User Group](https://www.meetup.com/MontrealPowerShellUserGroup) | In person | Founder/Organizer |
 
 ## Awards
