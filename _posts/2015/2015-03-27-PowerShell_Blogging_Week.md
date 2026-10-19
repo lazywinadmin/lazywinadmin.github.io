@@ -4,9 +4,9 @@ layout: single
 title: PowerShell Blogging Week
 excerpt: 
 permalink: /2015/03/powershell-blogging-week.html
-tags: 
+tags:
 - powershell
-- powershell blogging week
+- community
 published: true
 comments: true
 ---

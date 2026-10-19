@@ -4,14 +4,10 @@ layout: single
 title: PowerShell/SCSM - Get the Work Item parent of an Activity
 excerpt: 
 permalink: /2016/02/powershellscsm-get-work-item-parent-of.html
-tags: 
+tags:
 - orchestrator
 - powershell
-- scorch
 - scsm
-- smlets
-- system center 2012 orchestrator
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

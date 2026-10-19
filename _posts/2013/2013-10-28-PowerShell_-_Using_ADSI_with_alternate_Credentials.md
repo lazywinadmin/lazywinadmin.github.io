@@ -7,8 +7,8 @@ permalink: /2013/10/powershell-using-adsi-with-alternate.html
 tags:
 - active directory
 - adsi
-- credentials
-- function
+- security
+- functions
 - powershell
 published: true
 comments: true

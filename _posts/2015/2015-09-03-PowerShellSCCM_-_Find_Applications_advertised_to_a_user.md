@@ -3,13 +3,9 @@ layout: single
 title: PowerShell/SCCM - Find Applications advertised to a user
 excerpt: 
 permalink: /2015/09/powershellsccm-find-applications.html
-tags: 
-- configmgr
-- powershell
+tags:
 - sccm
-- sccm osd
-- sccm task sequence
-- sccm2012r2
+- powershell
 published: true
 comments: true
 ---

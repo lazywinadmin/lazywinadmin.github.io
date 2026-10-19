@@ -5,13 +5,11 @@ title: PowerShell - Get/Set the Network Level Authentication Remotely (RDP Setti
 seo_title: "PowerShell: Get/Set Network Level Authentication Remotely"
 excerpt: 
 permalink: /2014/04/powershell-getset-network-level.html
-tags: 
-- cim
-- powershell
-- rdp
-- remote
-- remote desktop
+tags:
 - wmi
+- powershell
+- remote desktop
+- remoting
 published: true
 comments: true
 toc: true

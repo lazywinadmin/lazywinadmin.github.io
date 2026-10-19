@@ -4,12 +4,11 @@ layout: single
 title: Update - LazyTS v1.1
 excerpt: 
 permalink: /2015/03/lazyts-11-update.html
-tags: 
-- gui
-- lazyts
+tags:
+- winforms
+- tools
 - powershell
-- sapien
-- sapien powershell studio 2015
+- powershell studio
 published: true
 comments: true
 ---

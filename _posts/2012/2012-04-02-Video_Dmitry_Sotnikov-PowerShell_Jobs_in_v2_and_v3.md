@@ -3,10 +3,9 @@ layout: single
 title: Video - Dmitry Sotnikov – PowerShell Jobs in v2 and v3
 excerpt: 
 permalink: /2012/04/video-dmitry-sotnikov-powershell-jobs.html
-tags: 
-- background jobs
+tags:
+- performance
 - powershell
-- powershell 3.0
 - video
 published: false
 comments: true

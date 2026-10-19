@@ -5,9 +5,7 @@ title: PowerShell 10th Anniversary - Open Source / Running on Linux and Mac OS X
 seo_title: "PowerShell 10th Anniversary: Open Source, on Linux and macOS"
 excerpt: 
 permalink: /2016/08/powershell-10th-anniversary-open-source.html
-tags: 
-- linux
-- max os x
+tags:
 - open source
 - powershell
 published: true

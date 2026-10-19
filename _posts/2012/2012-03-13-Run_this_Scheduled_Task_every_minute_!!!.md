@@ -3,9 +3,10 @@ layout: single
 title: Run this Scheduled Task every minute !!!
 excerpt: 
 permalink: /2012/03/run-this-task-every-minute.html
-tags: 
-- task scheduler
-- windows server 2008 r2
+tags:
+- windows server
+- tips
+- automation
 published: true
 comments: true
 ---

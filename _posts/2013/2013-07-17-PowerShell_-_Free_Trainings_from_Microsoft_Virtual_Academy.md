@@ -4,11 +4,9 @@ layout: single
 title: PowerShell - Free Trainings from Microsoft Virtual Academy
 excerpt: 
 permalink: /2013/07/powershell-free-trainings-from.html
-tags: 
-- microsoft virtual academy
+tags:
+- learning resources
 - powershell
-- powershell 3.0
-- training
 published: true
 comments: true
 ---

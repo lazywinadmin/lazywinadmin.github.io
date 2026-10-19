@@ -4,15 +4,11 @@ layout: single
 title: PowerShell GUI - LazyTS (Terminal Services Management)
 excerpt: 
 permalink: /2014/10/powershell-gui-lazyts-terminal-services.html
-tags: 
-- gui
+tags:
+- winforms
 - powershell
-- qwinsta
-- sapien powershell studio 2014
-- terminal process
-- terminal services manager
-- terminal session
-- winform
+- remote desktop
+- powershell studio
 published: true
 comments: true
 ---

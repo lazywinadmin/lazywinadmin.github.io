@@ -4,8 +4,8 @@ layout: single
 title: Using Pester to test your Comment Based Help
 excerpt: 
 permalink: /2016/05/using-pester-to-test-your-comment-based.html
-tags: 
-- adsips
+tags:
+- adsi
 - pester
 - powershell
 published: true

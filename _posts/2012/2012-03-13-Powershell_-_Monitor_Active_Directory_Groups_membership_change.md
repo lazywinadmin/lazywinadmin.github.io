@@ -4,9 +4,9 @@ title: Powershell - Monitor Active Directory Groups membership change
 seo_title: "PowerShell: Monitor Active Directory Group Changes"
 excerpt: 
 permalink: /2012/03/powershell-monitor-membership-change-to.html
-tags: 
+tags:
 - active directory
-- monitoring
+- reporting
 - powershell
 published: true
 comments: true

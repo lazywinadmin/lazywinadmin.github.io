@@ -5,7 +5,8 @@ title: MS Windows Server 2008 R2 - Adding the desktop icons back
 excerpt: 
 permalink: /2010/12/ms-windows-server-2008-r2-desktop-icons.html
 tags:
-  - 'windows server 2008 r2'
+- windows server
+- tips
 published: true
 comments: true
 ---

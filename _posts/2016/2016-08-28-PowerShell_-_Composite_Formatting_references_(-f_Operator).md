@@ -3,9 +3,8 @@ layout: single
 title: PowerShell - Composite Formatting references (-f Operator)
 excerpt: 
 permalink: /2016/08/powershell-composite-formatting.html
-tags: 
-- composite formatting
-- -f operator
+tags:
+- powershell language
 - powershell
 published: true
 comments: true

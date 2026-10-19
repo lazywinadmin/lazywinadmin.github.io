@@ -5,8 +5,8 @@ title: PowerShell/Pester - Make sure your Comment Based Help is not indented
 seo_title: "Pester: Make Sure Comment-Based Help Is Not Indented"
 excerpt: 
 permalink: /2016/08/powershellpester-make-sure-your-comment.html
-tags: 
-- adsips
+tags:
+- adsi
 - pester
 - powershell
 published: true

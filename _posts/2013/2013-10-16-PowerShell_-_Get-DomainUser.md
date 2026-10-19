@@ -4,13 +4,11 @@ layout: single
 title: PowerShell - Get-DomainUser
 excerpt: 
 permalink: /2013/10/powershell-get-domainuser.html
-tags: 
+tags:
 - active directory
 - adsi
-- function
-- ldap
+- functions
 - powershell
-- user account
 published: true
 comments: true
 ---

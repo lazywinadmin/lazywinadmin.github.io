@@ -3,9 +3,10 @@ layout: single
 title: Video - Powershell V3 Guru Don Jones
 excerpt: 
 permalink: /2012/05/video-powershell-v3-guru-don-jones.html
-tags: 
-- powershell 3.0
+tags:
 - video
+- powershell
+- powershell versions
 published: true
 comments: true
 ---

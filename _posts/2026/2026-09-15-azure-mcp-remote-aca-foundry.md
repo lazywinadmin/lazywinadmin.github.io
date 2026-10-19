@@ -5,12 +5,9 @@ seo_title: "Remote MCP Server on Azure Container Apps for Foundry Agents"
 excerpt: "Warm-up: deploy Azure MCP Server on Azure Container Apps with azd and managed identity, then connect a Microsoft Foundry agent over HTTPS"
 permalink:
 tags:
-  - azure
-  - mcp
-  - foundry
-  - containerapps
-  - agents
-  - devops
+- azure
+- ai
+- devops
 categories:
 published: true
 comments: true

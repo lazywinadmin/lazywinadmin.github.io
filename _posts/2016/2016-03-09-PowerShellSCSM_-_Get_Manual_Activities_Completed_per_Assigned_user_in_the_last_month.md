@@ -4,11 +4,9 @@ title: PowerShell/SCSM - Get Manual Activities Completed per Assigned user in th
 seo_title: "PowerShell/SCSM: Manual Activities Completed per User"
 excerpt: 
 permalink: /2016/03/powershellscsm-get-manual-activities_9.html
-tags: 
+tags:
 - powershell
 - scsm
-- smlets
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

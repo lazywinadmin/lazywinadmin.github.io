@@ -4,10 +4,9 @@ title: PowerShell/Active Directory - Compare two users accounts membership
 seo_title: "PowerShell: Compare Two AD Users' Group Membership"
 excerpt: 
 permalink: /2011/01/compare-two-users-accounts.html
-tags: 
+tags:
 - active directory
 - powershell
-- scripting
 categories:
 - powershell
 published: true

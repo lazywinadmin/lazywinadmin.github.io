@@ -4,7 +4,8 @@ title: Tool - mRemoteNG 1.67 RC3
 excerpt: 
 permalink: /2011/05/tool-mremoteng-167-rc3.html
 tags:
-  - tool
+- tools
+- remote desktop
 published: false
 comments: true
 ---

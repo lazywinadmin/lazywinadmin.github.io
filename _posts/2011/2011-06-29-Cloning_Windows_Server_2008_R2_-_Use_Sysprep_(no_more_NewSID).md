@@ -5,13 +5,9 @@ title: Cloning Windows Server 2008 R2 - Use Sysprep (no more NewSID)
 seo_title: "Cloning Windows Server 2008 R2 with Sysprep (No NewSID)"
 excerpt: 
 permalink: /2011/06/cloning-windows-server-2008-r2-use.html
-tags: 
-- cloning
-- microsoft
-- newsid
-- sysprep
-- virtualization
-- windows server 2008 r2
+tags:
+- windows server
+- vmware
 published: true
 comments: true
 ---

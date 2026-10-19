@@ -4,10 +4,9 @@ layout: single
 title: PowerShell Summit 2014 Europe (English)
 excerpt: 
 permalink: /2014/08/powershell-summit-2014-europe-english.html
-tags: 
+tags:
 - powershell
-- powershell summit 2014
-- powershell summit 2014 europe
+- powershell summit
 published: true
 comments: true
 ---

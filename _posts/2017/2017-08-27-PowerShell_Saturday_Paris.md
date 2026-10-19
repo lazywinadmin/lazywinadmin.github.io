@@ -4,9 +4,11 @@ layout: single
 title: "PowerShell Saturday Paris 2017/09/16"
 excerpt: "Septembre 2016 represente le premier anniversaire du French PowerShell User group. Pour cette occasion nour organisons un evenement le Samedi 16 Septembre 2017 a Paris"
 permalink:
-tags: 
-  - powershell
-  - frpsug
+tags:
+- powershell
+- frpsug
+- community
+- french
 categories:
 published: true
 comments: true

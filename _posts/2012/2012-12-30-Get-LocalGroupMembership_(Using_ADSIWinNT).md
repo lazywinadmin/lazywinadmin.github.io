@@ -3,11 +3,10 @@ layout: single
 title: Get-LocalGroupMembership (Using ADSI/WinNT)
 excerpt: 
 permalink: /2012/12/get-localgroupmembership-using-adsiwinnt.html
-tags: 
-- audit
-- function
+tags:
+- reporting
+- functions
 - group membership
-- local administrators
 - powershell
 published: true
 comments: true

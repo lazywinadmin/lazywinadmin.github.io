@@ -3,11 +3,10 @@ layout: single
 title: Finding VIBs on ESXi hosts with PowerCLI
 excerpt: 
 permalink: /2014/11/finding-vibs-on-esxi-hosts-with-powercli.html
-tags: 
-- oneliner
+tags:
+- tips
 - powercli
 - powershell
-- vib
 - vmware
 published: true
 comments: true

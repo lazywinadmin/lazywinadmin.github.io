@@ -4,8 +4,7 @@ layout: single
 title: Microsoft MVP 2014 for PowerShell !
 excerpt: 
 permalink: /2014/01/im-powershell-mvp.html
-tags: 
-- achievement
+tags:
 - mvp
 - powershell
 published: true

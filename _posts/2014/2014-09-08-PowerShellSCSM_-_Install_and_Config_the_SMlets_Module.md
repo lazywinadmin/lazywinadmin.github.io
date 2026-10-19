@@ -4,13 +4,10 @@ layout: single
 title: PowerShell/SCSM - Install and Config the SMlets Module
 excerpt: 
 permalink: /2014/09/powershell-scsm-install-and-config.html
-tags: 
+tags:
 - powershell
-- scorch
+- orchestrator
 - scsm
-- smlets
-- system center 2012 r2
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

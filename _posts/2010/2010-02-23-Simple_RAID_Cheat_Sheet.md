@@ -3,9 +3,9 @@ layout: single
 title: Simple RAID Cheat Sheet
 excerpt: 
 permalink: /2010/02/simple-raid-cheat-sheet.html
-tags: 
-- cheat sheet
-- raid
+tags:
+- learning resources
+- storage
 published: true
 comments: true
 ---

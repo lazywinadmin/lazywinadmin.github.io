@@ -4,12 +4,9 @@ title: PowerShell/SCSM - Change the Status of a Manual Activity or a Service Req
 seo_title: "PowerShell/SCSM: Change a Manual Activity or SR Status"
 excerpt: 
 permalink: /2015/01/powershellscsm-change-status-of-manual.html
-tags: 
+tags:
 - powershell
 - scsm
-- smlets
-- system center 2012
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

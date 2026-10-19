@@ -3,10 +3,10 @@ layout: single
 title: mRemoteNG - External Applications
 excerpt: 
 permalink: /2010/08/mremoteng-external-applications.html
-tags: 
-- mremote
+tags:
 - productivity
-- scripting
+- tools
+- remote desktop
 published: true
 comments: true
 toc: true

@@ -4,9 +4,9 @@ layout: single
 title: Launch of / Lancement du French PowerShell User Group
 excerpt: 
 permalink: /2016/08/launch-of-lancement-du-french.html
-tags: 
+tags:
 - french
-- french powershell user group
+- frpsug
 - powershell
 published: true
 comments: true

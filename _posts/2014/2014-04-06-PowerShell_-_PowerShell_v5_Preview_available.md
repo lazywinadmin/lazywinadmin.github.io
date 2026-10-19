@@ -4,14 +4,11 @@ layout: single
 title: PowerShell - PowerShell v5 "Preview" available
 excerpt: 
 permalink: /2014/04/powershell-powershell-v5-preview.html
-tags: 
+tags:
 - dsc
-- module
-- networkswitch module
-- oneget module
+- modules
 - powershell
-- powershell 5.0
-- wmf 5
+- powershell versions
 published: true
 comments: true
 ---

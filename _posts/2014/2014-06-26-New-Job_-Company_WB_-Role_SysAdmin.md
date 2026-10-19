@@ -3,11 +3,9 @@ layout: single
 title: New-Job -Company WB -Role SysAdmin
 excerpt: 
 permalink: /2014/06/new-job-company-wb-role-sysadmin.html
-tags: 
-- domtar
-- montreal
-- personal update
-- warner brothers
+tags:
+- personal
+- community
 published: true
 comments: true
 ---

@@ -4,14 +4,11 @@ layout: single
 title: PowerShell - Sum similar entries from multiple CSV files
 excerpt: 
 permalink: /2014/09/powershell-sum-similar-entries-from.html
-tags: 
+tags:
 - csv
-- import-csv
-- log
-- microsoft excel
 - parsing
 - powershell
-- proxy
+- functions
 published: true
 comments: true
 ---

@@ -4,10 +4,9 @@ layout: single
 title: Leveraging Proxy Functions in PowerShell
 excerpt: 
 permalink: /2012/04/leveraging-proxy-functions-in.html
-tags: 
-- function
+tags:
+- functions
 - powershell
-- proxy
 - video
 published: true
 comments: true

@@ -3,11 +3,9 @@ layout: single
 title: The PowerShell Certification
 excerpt: 
 permalink: /2013/02/the-powershell-certification.html
-tags: 
+tags:
 - powershell
-- powershell 3.0
-- powershell certification
-- verified effective
+- learning resources
 published: true
 comments: true
 ---

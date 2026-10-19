@@ -5,12 +5,10 @@ title: Active Directory - List and Set/Fix AD users not inheriting permissions
 seo_title: "AD: List and Fix Users Not Inheriting Permissions"
 excerpt: 
 permalink: /2011/02/list-and-set-ad-users-not-inheriting.html
-tags: 
+tags:
 - active directory
 - powershell
-- scripting
 - security
-- user account
 published: true
 comments: true
 ---

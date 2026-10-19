@@ -4,9 +4,10 @@ layout: single
 title: "Hacktoberfest PowerShell @FrPSUG"
 excerpt: "Dans le cadre du Hacktoberfest qui se tient pendant le mois d'Octobre, nous organisons un mini-meetup pour démontrer les différentes façons de contribuer à des projets Open Sources sur Github."
 permalink:
-tags: 
-  - powershell
-  - hacktoberfest
+tags:
+- powershell
+- open source
+- frpsug
 categories:
   - powershell
 published: true

@@ -5,10 +5,9 @@ title: "SpaceX PowerShell module"
 classes: wide
 excerpt: "With the very exciting upcoming launch of the Falcon Heavy 🚀 this week, I worked on a SpaceX PowerShell module that interacts with the SpaceX-API to retrieve data regarding company info, vehicles, launch sites, and launch data."
 permalink:
-tags: 
-  - module
-  - powershell
-  - spacex
+tags:
+- modules
+- powershell
 categories:
   - powershell
 published: true

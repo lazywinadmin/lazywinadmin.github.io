@@ -3,11 +3,8 @@ layout: single
 title: Inventory - SYDI - Commands
 excerpt: 
 permalink: /2010/12/inventory-sydi-commands.html
-tags: 
-- documentation
+tags:
 - inventory
-- scripting
-- sydi
 - vbscript
 published: true
 comments: true

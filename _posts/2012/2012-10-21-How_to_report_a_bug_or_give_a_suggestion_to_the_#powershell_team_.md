@@ -4,7 +4,9 @@ title: "How to report a bug or give a suggestion to the #powershell team ?"
 seo_title: "How to Report a Bug or Suggestion to the PowerShell Team"
 excerpt: 
 permalink: /2012/10/how-to-report-bug-or-give-suggestion-to.html
-tags: 
+tags:
+- powershell
+- community
 published: true
 comments: true
 ---

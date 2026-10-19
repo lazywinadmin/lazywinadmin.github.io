@@ -4,14 +4,12 @@ layout: single
 title: PowerShell - Parse this - NetStat.exe
 excerpt: 
 permalink: /2014/08/powershell-parse-this-netstatexe.html
-tags: 
-- cli
-- netstat
-- parser
+tags:
+- command line
 - parsing
 - powershell
-- substring
-- toolmaking
+- strings
+- functions
 published: true
 comments: true
 ---

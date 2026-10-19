@@ -4,15 +4,12 @@ layout: single
 title: PowerShell - Playing with the new ConvertFrom-String cmdlet
 excerpt: 
 permalink: /2014/09/powershell-playing-with-new-convertfrom.html
-tags: 
-- convertfrom-string
-- netstat
-- parser
+tags:
 - parsing
+- command line
 - powershell
-- powershell 5.0
+- powershell versions
 - regex
-- regular expressions
 published: true
 comments: true
 ---

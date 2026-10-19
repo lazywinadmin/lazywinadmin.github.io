@@ -4,13 +4,10 @@ layout: single
 title: PowerShell - Organizing my Scripts
 excerpt: 
 permalink: /2013/10/powershell-organizing-my-scripts.html
-tags: 
-- folder
-- naming convention
-- organizing
+tags:
+- best practices
 - powershell
-- skydrive
-- version control
+- github
 published: true
 comments: true
 ---

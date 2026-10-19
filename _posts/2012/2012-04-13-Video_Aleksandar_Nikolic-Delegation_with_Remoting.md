@@ -4,9 +4,10 @@ layout: single
 title: Video - Aleksandar Nikolic – Delegation with Remoting
 excerpt: 
 permalink: /2012/04/video-aleksandar-nikolic-delegation.html
-tags: 
+tags:
 - powershell
 - video
+- remoting
 published: true
 comments: true
 ---

@@ -4,14 +4,10 @@ layout: single
 title: Top Five 2013 LazyWinAdmin Blog Posts
 excerpt: 
 permalink: /2014/01/top-five-2013-lazywinadmin-blog-posts.html
-tags: 
-- active directory
-- blog posts
-- group membership
+tags:
+- blogging
 - powershell
-- regex
-- top five 2013
-- windows server 2012
+- personal
 published: true
 comments: true
 ---

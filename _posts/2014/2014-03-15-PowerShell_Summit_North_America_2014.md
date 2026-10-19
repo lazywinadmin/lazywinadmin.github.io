@@ -4,12 +4,9 @@ layout: single
 title: PowerShell Summit North America 2014
 excerpt: 
 permalink: /2014/03/powershell-summit-north-america-2014.html
-tags: 
+tags:
 - powershell summit
-- powershell summit 2014
-- powershell summit 2014 north america
-- powershell team
-- seattle
+- powershell
 published: true
 comments: true
 ---

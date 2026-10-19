@@ -4,10 +4,9 @@ title: Winter Scripting Games 2013 - Practice Event 1
 excerpt:
 permalink: /2013/02/winter-scripting-games-2013-practice.html
 tags:
-- 2013 winter scripting games
-- function
-- powershell
 - scripting games
+- functions
+- powershell
 published: true
 comments: true
 ---

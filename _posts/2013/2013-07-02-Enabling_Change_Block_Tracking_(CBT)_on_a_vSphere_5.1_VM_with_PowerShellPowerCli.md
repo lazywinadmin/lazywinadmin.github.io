@@ -5,13 +5,10 @@ title: Enabling Change Block Tracking (CBT) on a vSphere 5.1 VM with PowerShell/
 seo_title: "Enable CBT on a vSphere 5.1 VM with PowerShell/PowerCLI"
 excerpt: 
 permalink: /2013/07/enabling-change-block-tracking-cbt-on.html
-tags: 
-- cbt
-- change block tracking
-- function
-- powercli
-- powershell 3.0
+tags:
 - vmware
+- functions
+- powercli
 published: true
 comments: true
 ---

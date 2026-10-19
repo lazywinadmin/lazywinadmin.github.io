@@ -4,9 +4,9 @@ layout: single
 title: PowerShell Summit NA 2013 - Recorded Videos
 excerpt: 
 permalink: /2013/05/powershell-summit-na-2013-recorded.html
-tags: 
+tags:
 - powershell
-- powershell summit 2013
+- powershell summit
 - video
 published: true
 comments: true

@@ -5,9 +5,8 @@ seo_title: "PowerShell: Use a Config File (INI, CONF) in a Script"
 excerpt: 
 permalink: /2010/08/powershell-how-to-use-config-file-ini.html
 tags:
-- ini
+- parsing
 - powershell
-- scripting
 categories:
 - powershell
 published: true

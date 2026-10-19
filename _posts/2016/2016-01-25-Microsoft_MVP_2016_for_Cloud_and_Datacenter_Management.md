@@ -4,10 +4,7 @@ layout: single
 title: Microsoft MVP 2016 for Cloud and Datacenter Management
 excerpt: 
 permalink: /2016/01/microsoft-mvp-2016-for-cloud-and.html
-tags: 
-- achievement
-- cloud and datacenter management
-- microsoft
+tags:
 - mvp
 - powershell
 published: true

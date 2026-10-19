@@ -4,8 +4,10 @@ classes: wide
 title: "PowerShell Tip: Parse a date inside a string"
 excerpt: "I was recently parsing a bunch of logs where the date and time were in a format that Get-Date couldn't interprete..."
 permalink:
-tags: 
-  - powershell
+tags:
+- powershell
+- tips
+- parsing
 categories:
   - powershell
 published: true

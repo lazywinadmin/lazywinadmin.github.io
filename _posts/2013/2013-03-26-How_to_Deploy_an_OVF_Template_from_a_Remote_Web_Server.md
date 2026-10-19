@@ -3,13 +3,9 @@ layout: single
 title: How to Deploy an OVF Template from a Remote Web Server
 excerpt: 
 permalink: /2013/03/how-to-deploy-ovf-template-from-remote.html
-tags: 
-- ovf template
-- url
-- vcenter
-- vcsa
+tags:
 - vmware
-- web server
+- tips
 published: true
 comments: true
 ---

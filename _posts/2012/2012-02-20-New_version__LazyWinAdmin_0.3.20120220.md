@@ -3,9 +3,9 @@ layout: single
 title: New version - LazyWinAdmin 0.3.20120220
 excerpt: 
 permalink: /2012/02/new-version-lazywinadmin-0320120220.html
-tags: 
-- gui
-- lazywinadmin
+tags:
+- winforms
+- tools
 - powershell
 published: true
 comments: true

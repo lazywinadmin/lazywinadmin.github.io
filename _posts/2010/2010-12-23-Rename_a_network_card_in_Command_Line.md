@@ -3,9 +3,9 @@ layout: single
 title: Rename a network card in Command Line
 excerpt: 
 permalink: /2010/12/rename-network-card-in-command-line.html
-tags: 
-- batch
-- scripting
+tags:
+- command line
+- networking
 published: true
 comments: true
 ---

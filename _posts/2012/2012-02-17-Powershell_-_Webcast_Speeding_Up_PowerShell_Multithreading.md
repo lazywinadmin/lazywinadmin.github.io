@@ -3,8 +3,7 @@ layout: single
 title: Powershell - Webcast Speeding Up PowerShell - Multithreading
 excerpt: 
 permalink: /2012/02/powershell-webcast-speeding-up.html
-tags: 
-- multithreading
+tags:
 - performance
 - powershell
 published: true

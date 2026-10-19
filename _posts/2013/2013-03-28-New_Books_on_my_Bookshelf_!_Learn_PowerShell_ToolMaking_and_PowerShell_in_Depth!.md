@@ -4,10 +4,10 @@ title: New Books on my Bookshelf ! Learn PowerShell ToolMaking and PowerShell in
 seo_title: "New Books: Learn PowerShell Toolmaking, PowerShell in Depth"
 excerpt: 
 permalink: /2013/03/new-books-on-my-bookshelf-learn.html
-tags: 
-- book
-- powershell 3.0
-- powershell summit 2013
+tags:
+- learning resources
+- powershell summit
+- powershell
 published: true
 comments: true
 ---

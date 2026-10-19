@@ -3,10 +3,9 @@ layout: single
 title: Microsoft Windows 7 and Windows Server 2008 R2 Online Videos
 excerpt: 
 permalink: /2011/02/microsoft-windows-7-and-windows-server.html
-tags: 
+tags:
 - video
-- windows 7
-- windows server 2008 r2
+- windows server
 published: false
 comments: true
 ---

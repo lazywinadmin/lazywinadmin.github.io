@@ -4,10 +4,10 @@ layout: single
 title: Introduction to CIM Cmdlets
 excerpt: 
 permalink: /2012/08/introduction-to-cim-cmdlets.html
-tags: 
-- powershell 3.0
-- windows 8
-- windows server 2012
+tags:
+- powershell
+- wmi
+- powershell versions
 published: true
 comments: true
 ---

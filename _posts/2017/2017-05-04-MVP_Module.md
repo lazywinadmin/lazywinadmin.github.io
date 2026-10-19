@@ -4,8 +4,10 @@ title: "MVP PowerShell module"
 excerpt: "The MVP PowerShell module allow you to interact with the Microsoft MVP portal to maintain and update a profile"
 permalink:
 tags:
-  - powershell
-  - 'Microsoft MVP'
+- powershell
+- mvp
+- modules
+- rest api
 categories:
   - powershell
   - 'MVP Module'

@@ -4,13 +4,10 @@ layout: single
 title: Powershell - Exchange Environment Report
 excerpt: 
 permalink: /2011/06/exchange-environment-report.html
-tags: 
-- exchange 2007
-- exchange 2010
-- monitoring
+tags:
+- exchange
+- reporting
 - powershell
-- report
-- scripting
 published: true
 comments: true
 ---

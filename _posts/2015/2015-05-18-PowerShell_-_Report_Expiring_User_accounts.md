@@ -3,12 +3,10 @@ layout: single
 title: PowerShell - Report Expiring User accounts
 excerpt: Script to report expired Active Directory accounts to the assigned manager.
 permalink: /2015/05/powershell-report-expiring-user-accounts.html
-tags: 
+tags:
 - active directory
-- expiring
 - powershell
-- report
-- user account
+- reporting
 published: true
 comments: true
 toc: true

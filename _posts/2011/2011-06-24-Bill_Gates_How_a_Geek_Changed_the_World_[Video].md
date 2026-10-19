@@ -4,9 +4,9 @@ title: Bill Gates - How a Geek Changed the World /[Video\/]
 seo_title: "Bill Gates: How a Geek Changed the World (Video)"
 excerpt: 
 permalink: /2011/06/bill-gates-how-geek-changed-world-video.html
-tags: 
-- microsoft
+tags:
 - video
+- learning resources
 published: true
 comments: true
 ---

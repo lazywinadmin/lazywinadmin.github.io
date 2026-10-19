@@ -4,10 +4,9 @@ layout: single
 title: PowerShell Summit 2014 NA - Day 1
 excerpt: 
 permalink: /2014/04/powershell-summit-2014-na-day-1.html
-tags: 
+tags:
 - powershell
-- powershell summit 2014
-- powershell summit 2014 north america
+- powershell summit
 published: true
 comments: true
 ---

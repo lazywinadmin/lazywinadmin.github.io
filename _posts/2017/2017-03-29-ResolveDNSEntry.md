@@ -4,9 +4,10 @@ layout: single
 title: "Resolve a DNS Entry with PowerShell"
 excerpt: "Quick and dirty way to resolve a DNS entry"
 permalink:
-tags: 
+tags:
 - powershell
-- powershell tip
+- tips
+- networking
 categories:
 - powershell
 published: true

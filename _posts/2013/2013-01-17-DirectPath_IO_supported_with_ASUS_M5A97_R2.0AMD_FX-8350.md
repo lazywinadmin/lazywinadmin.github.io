@@ -4,11 +4,9 @@ layout: single
 title: DirectPath I/O supported with ASUS M5A97 R2.0/AMD FX-8350
 excerpt: 
 permalink: /2013/01/directpath-io-supported-with-asus.html
-tags: 
-- directpathio
-- esxi
-- homelab
+tags:
 - vmware
+- homelab
 published: true
 comments: true
 ---

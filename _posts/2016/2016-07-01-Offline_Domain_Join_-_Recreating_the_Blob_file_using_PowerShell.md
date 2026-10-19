@@ -5,10 +5,8 @@ title: Offline Domain Join - Recreating the Blob file using PowerShell
 seo_title: "Offline Domain Join: Recreate the Blob File with PowerShell"
 excerpt: 
 permalink: /2016/07/offline-domain-join-recreating-blob.html
-tags: 
+tags:
 - active directory
-- djoin
-- offline domain join
 - powershell
 published: true
 comments: true

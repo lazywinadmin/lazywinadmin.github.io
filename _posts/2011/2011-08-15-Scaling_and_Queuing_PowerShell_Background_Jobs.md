@@ -4,9 +4,9 @@ layout: single
 title: Scaling and Queuing PowerShell Background Jobs
 excerpt: 
 permalink: /2011/08/scaling-and-queuing-powershell.html
-tags: 
-- background jobs
-- scripting
+tags:
+- performance
+- powershell
 published: true
 comments: true
 ---

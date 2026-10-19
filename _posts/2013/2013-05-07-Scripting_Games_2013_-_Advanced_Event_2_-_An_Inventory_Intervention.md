@@ -4,12 +4,9 @@ title: Scripting Games 2013 - Advanced Event 2 - An Inventory Intervention
 seo_title: "Scripting Games 2013 Advanced 2: An Inventory Intervention"
 excerpt: 
 permalink: /2013/05/scripting-games-2013-advanced-event-2.html
-tags: 
-- 2013 scripting games
-- inventory
-- powershell 3.0
-- psh2013
+tags:
 - scripting games
+- inventory
 - wmi
 published: true
 comments: true

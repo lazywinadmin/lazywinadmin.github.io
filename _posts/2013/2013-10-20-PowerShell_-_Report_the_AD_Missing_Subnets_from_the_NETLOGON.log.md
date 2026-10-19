@@ -4,17 +4,12 @@ title: PowerShell - Report the AD Missing Subnets from the NETLOGON.log
 seo_title: "PowerShell: Report AD Missing Subnets from NETLOGON.log"
 excerpt: 
 permalink: /2013/10/powershell-report-ad-missing-subnets.html
-tags: 
-- .net
+tags:
 - active directory
-- automation
-- log
-- missing subnet
-- netlogon
+- parsing
 - powershell
 - regex
-- report
-- subnet
+- reporting
 published: true
 comments: true
 toc: true

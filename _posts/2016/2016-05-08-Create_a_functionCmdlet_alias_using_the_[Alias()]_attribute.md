@@ -3,10 +3,9 @@ layout: single
 title: "Create a Function/Cmdlet Alias using the [Alias()] attribute"
 excerpt: 
 permalink: /2016/05/create-functioncmdlet-alias-using-alias.html
-tags: 
+tags:
 - powershell
-- powershell 4.0
-- powershell tip
+- tips
 published: true
 comments: true
 ---

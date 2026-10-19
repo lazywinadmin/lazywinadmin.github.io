@@ -3,10 +3,9 @@ layout: single
 title: Powershell - Recommended coding style
 excerpt: 
 permalink: /2011/06/powershell-recommended-coding-style.html
-tags: 
-- coding
+tags:
+- best practices
 - powershell
-- scripting
 published: true
 comments: true
 ---

@@ -4,9 +4,8 @@ layout: single
 title: Microsoft MVP Global Summit 2015
 excerpt: 
 permalink: /2015/11/microsoft-mvp-global-summit-2015.html
-tags: 
-- microsoft mvp global summit
-- microsoft mvp global summit 2015
+tags:
+- community
 - powershell
 published: true
 comments: true

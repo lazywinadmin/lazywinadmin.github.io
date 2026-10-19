@@ -4,7 +4,9 @@ title: LazyWinAdmin v0.4 released
 excerpt: 
 permalink: /2012/06/lazywinadmin-v04-released.html
 tags:
-  - lazywinadmin
+- tools
+- winforms
+- powershell
 published: true
 comments: true
 ---

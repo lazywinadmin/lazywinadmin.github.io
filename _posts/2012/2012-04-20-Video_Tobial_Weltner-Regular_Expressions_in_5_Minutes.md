@@ -4,9 +4,9 @@ layout: single
 title: Video - Tobial Weltner – Regular Expressions in 5 Minutes
 excerpt: 
 permalink: /2012/04/video-tobial-weltner-regular.html
-tags: 
+tags:
 - powershell
-- regular expressions
+- regex
 - video
 published: true
 comments: true

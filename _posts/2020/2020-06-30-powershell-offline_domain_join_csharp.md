@@ -3,10 +3,8 @@ layout: single
 title: Offline Domain Join using PowerShell and c#
 excerpt: 
 permalink:
-tags: 
+tags:
 - active directory
-- djoin
-- offline domain join
 - powershell
 - sccm
 categories:

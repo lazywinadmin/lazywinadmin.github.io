@@ -4,10 +4,10 @@ layout: single
 title: PSBlogWeek on Advanced Functions - Free eBook available
 excerpt: 
 permalink: /2015/04/psblogweek-on-advanced-functions-free.html
-tags: 
-- ebook
+tags:
+- learning resources
 - powershell
-- powershell blogging week
+- community
 published: true
 comments: true
 ---

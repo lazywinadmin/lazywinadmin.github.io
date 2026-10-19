@@ -4,13 +4,10 @@ layout: single
 title: PowerShell Tip - Escape Regex MetaCharacters
 excerpt: 
 permalink: /2014/09/powershell-tip-escape-regex.html
-tags: 
-- .net
+tags:
 - powershell
-- powershell tip
+- tips
 - regex
-- regular expressions
-- tip
 published: true
 comments: true
 ---

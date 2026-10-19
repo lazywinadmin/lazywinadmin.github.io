@@ -4,12 +4,10 @@ title: Enabling Change Block Tracking (CBT) on a Virtual Machine (VMware vSphere
 seo_title: "Enable Change Block Tracking (CBT) on a vSphere 5.1 VM"
 excerpt: 
 permalink: /2013/01/enabling-change-block-tracking-cbt-on.html
-tags: 
-- backup
-- cbt
+tags:
+- vmware
 - powercli
 - powershell
-- vmware
 published: true
 comments: true
 ---

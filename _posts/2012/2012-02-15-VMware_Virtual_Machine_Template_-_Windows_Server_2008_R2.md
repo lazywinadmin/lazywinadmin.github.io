@@ -4,10 +4,9 @@ layout: single
 title: VMware Virtual Machine Template - Windows Server 2008 R2
 excerpt: 
 permalink: /2012/02/vmware-vsphere-template-windows-2008-r2.html
-tags: 
-- virtualization
+tags:
 - vmware
-- windows server 2008 r2
+- windows server
 published: true
 comments: true
 ---

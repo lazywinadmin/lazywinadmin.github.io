@@ -3,8 +3,8 @@ layout: single
 title: Application command name for Windows
 excerpt: 
 permalink: /2010/09/application-command-name-for-windows.html
-tags: 
-- cli
+tags:
+- command line
 - productivity
 published: true
 comments: true

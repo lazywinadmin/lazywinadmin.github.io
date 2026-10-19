@@ -4,13 +4,9 @@ layout: single
 title: Active Directory - Saved Queries (ADUC MMC)
 excerpt: 
 permalink: /2010/09/active-directory-saved-queries-aduc-mmc.html
-tags: 
+tags:
 - active directory
-- aduc
-- ldap
-- mmc
-- query
-- scripting
+- tips
 published: true
 comments: true
 toc: true

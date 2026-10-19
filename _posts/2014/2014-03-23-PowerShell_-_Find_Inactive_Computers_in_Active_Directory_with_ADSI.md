@@ -4,10 +4,9 @@ title: PowerShell - Find Inactive Computers in Active Directory with ADSI
 seo_title: "PowerShell: Find Inactive AD Computers with ADSI"
 excerpt: Leveraging ADSI to retrieve inactive machine accounts in your domain.
 permalink: /2014/03/powershell-find-inactive-computers-in.html
-tags: 
+tags:
 - active directory
 - adsi
-- computer object
 - powershell
 published: true
 comments: true

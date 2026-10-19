@@ -4,11 +4,10 @@ layout: single
 title: PowerShell/WinForms - Row Header
 excerpt: 
 permalink: /2016/07/powershellwinforms-row-header.html
-tags: 
-- datagridview
-- powershell
-- winformps
+tags:
 - winforms
+- powershell
+- modules
 published: true
 comments: true
 toc: true

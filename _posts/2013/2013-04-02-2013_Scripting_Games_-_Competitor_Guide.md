@@ -3,12 +3,9 @@ layout: single
 title: 2013 Scripting Games - Competitor Guide
 excerpt: 
 permalink: /2013/04/2013-scripting-games-competitor-guide.html
-tags: 
-- 2013 scripting games
-- powershell
-- psh2013
-- scripting
+tags:
 - scripting games
+- powershell
 published: true
 comments: true
 ---

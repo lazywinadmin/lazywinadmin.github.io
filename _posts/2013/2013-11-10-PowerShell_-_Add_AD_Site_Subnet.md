@@ -4,14 +4,11 @@ layout: single
 title: PowerShell - Add AD Site Subnet
 excerpt: 
 permalink: /2013/11/powershell-add-ad-site-subnet.html
-tags: 
+tags:
 - active directory
 - adsi
-- import-csv
-- missing subnet
+- csv
 - powershell
-- powershell 4.0
-- subnet
 published: true
 comments: true
 ---

@@ -3,10 +3,10 @@ layout: single
 title: "MVP Module - Backing up all your contributions"
 excerpt: "In this post I'll describe how to quickly retrieve your contributions and back them up into a file (Json format)"
 permalink:
-tags: 
-  - module
-  - powershell
-  - mvp
+tags:
+- modules
+- powershell
+- mvp
 categories:
   - powershell
   - 'MVP Module'

@@ -3,9 +3,9 @@ layout: single
 title: Powershell - Get-ClipBoard Set-Clipboard
 excerpt: 
 permalink: /2010/06/powershell-get-clipboard-set-clipboard.html
-tags: 
+tags:
 - powershell
-- scripting
+- productivity
 categories:
 - powershell
 published: true

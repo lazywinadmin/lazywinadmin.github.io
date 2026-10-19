@@ -5,9 +5,10 @@ title: Automating Active Directory Administration with Windows PowerShell
 seo_title: "Automating Active Directory Administration with PowerShell"
 excerpt: 
 permalink: /2011/05/automating-active-directory.html
-tags: 
+tags:
 - powershell
 - video
+- active directory
 published: true
 comments: true
 ---
