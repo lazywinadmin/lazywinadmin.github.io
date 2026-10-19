@@ -43,11 +43,11 @@ comments: true
 
 * LAB:<a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-H315#fbid=o7rk9O5rx58" target="_blank">Microsoft System Center 2012 - Orchestrator: Overview and Automation of IT Process</a>
 
-* LAB:<a href="http://www.microsoftvirtualacademy.com/training-courses/system-center-2012-orchestrator-service-manager" target="_blank">System Center 2012: Orchestrator (SCO) &amp; Service Manager (SCSM)</a>
+* LAB:<a href="https://web.archive.org/web/20130704231557/http://www.microsoftvirtualacademy.com/training-courses/system-center-2012-orchestrator-service-manager" target="_blank">System Center 2012: Orchestrator (SCO) &amp; Service Manager (SCSM)</a>
 
-* CODEPLEX: <a href="http://orchestrator.codeplex.com/" target="_blank">System Center 2012 Orchestrator Community Releases</a>
+* CODEPLEX: <a href="https://web.archive.org/web/20130811090820/http://orchestrator.codeplex.com/" target="_blank">System Center 2012 Orchestrator Community Releases</a>
 
-* CODEPLEX:<a href="http://scorch.codeplex.com/" target="_blank">Community Project for System Center Orchestrator (SCORCH) Integration Packs and Utilities</a>
+* CODEPLEX:<a href="https://web.archive.org/web/20130721030243/http://scorch.codeplex.com/" target="_blank">Community Project for System Center Orchestrator (SCORCH) Integration Packs and Utilities</a>
 <div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">
 </b><div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Deployment</b><div class="" style="clear: both;"><u>
 </u><div class="" style="clear: both;"><u>Server Names and Roles:</u><div class="" style="clear: both;"><b>LAB1OR01</b>- System Center 2012 Orchestrator SP1<div class="" style="clear: both;">Operating System : Windows Server 2012 Standard<div class="" style="clear: both;">Joined to Domain<div class="" style="clear: both;">

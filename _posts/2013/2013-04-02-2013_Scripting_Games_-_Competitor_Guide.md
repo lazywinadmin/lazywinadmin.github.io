@@ -19,7 +19,7 @@ This year the Games will be hosted by PowerShell.org (Previous ones where organi
 
 Make sure to read the Guidelines and check the different tracks available to you (Beginner or Advanced).
 
-<a href="http://powershell.org/wp/wp-content/uploads/2013/04/2013CompetitorGuide.pdf" target="_blank">Download the Competitor Guide [PDF]</a>
+<a href="https://web.archive.org/web/20130512183008/http://powershell.org/wp/wp-content/uploads/2013/04/2013CompetitorGuide.pdf" target="_blank">Download the Competitor Guide [PDF]</a>
 
 The Scripting Games is a great event for those who want to learn more or improve their skills with Windows PowerShell. I'm planning myself to participate to the Advanced Event. My Script will be post and explained here.
 

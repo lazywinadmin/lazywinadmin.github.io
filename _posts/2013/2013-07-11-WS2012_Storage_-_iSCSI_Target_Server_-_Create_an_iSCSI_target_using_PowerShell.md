@@ -105,7 +105,7 @@ Windows Server 2012 comes with a complete set of PowerShell cmdlets for iSCSI. B
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-06_1-30-50_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 8 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-06_1-30-50_PM.png" /></a>
 The module<b>iSCSI</b>is used for all iSCSI<u>Initiator-specific Cmdlets</u>and the<b>iSCSITarget</b>for all iSCSI<u>target service-specific cmdlets</u>.
 <u>More Info:</u>
-<a href="http://technet.microsoft.com/en-us/library/hh826099.aspx" target="_blank">iSCSI Cmdlets in Windows PowerShell</a><a href="http://technet.microsoft.com/en-us/library/jj612803.aspx" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
+<a href="http://technet.microsoft.com/en-us/library/hh826099.aspx" target="_blank">iSCSI Cmdlets in Windows PowerShell</a><a href="https://learn.microsoft.com/en-us/powershell/module/iscsitarget/" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
 
 
 
@@ -278,17 +278,17 @@ Once a virtual disk has been assigned to a target, and after the iSCSi initiator
 
 * <a href="http://technet.microsoft.com/en-us/library/hh826099.aspx" target="_blank">iSCSI Cmdlets in Windows PowerShell</a>
 
-* <a href="http://technet.microsoft.com/en-us/library/jj612803.aspx" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
+* <a href="https://learn.microsoft.com/en-us/powershell/module/iscsitarget/" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
 
-* <a href="http://www.van-lieshout.com/2011/01/esxcli-powercli/" target="_blank">PowerCLI - Using Get-ESXCLI</a>
+* <a href="https://web.archive.org/web/20130413020806/http://www.van-lieshout.com/2011/01/esxcli-powercli/" target="_blank">PowerCLI - Using Get-ESXCLI</a>
 
 * <a href="http://blogs.technet.com/b/josebda/archive/2010/09/29/powershell-cmdlets-for-the-microsoft-iscsi-target-3-3-included-in-windows-storage-server-2008-r2.aspx" target="_blank">PowerShell Cmdlets for iSCSI Target</a>
 
 * <a href="http://blogs.technet.com/b/filecab/archive/2012/05/21/introduction-of-iscsi-target-in-windows-server-2012.aspx" target="_blank">Introduction of iSCSI Target in Windows Server 2012</a>
 
-* <a href="http://blogs.msdn.com/b/san/archive/2012/07/31/managing-iscsi-initiator-connections-with-windows-powershell-on-windows-server-2012.aspx" target="_blank">Managing iSCSI Initiator connections with Windows PowerShell on Windows Server 2012</a>
+* <a href="https://learn.microsoft.com/en-us/archive/blogs/san/managing-iscsi-initiator-connections-with-windows-powershell-on-windows-server-2012" target="_blank">Managing iSCSI Initiator connections with Windows PowerShell on Windows Server 2012</a>
 
-* <a href="http://www.itbully.com/articles/setting-windows-server-2012-storage-virtualization-software-raid-solution-or-more" target="_blank">Setting up windows server 2012 storage virtualization. A software RAID solution or more</a>
+* <a href="https://web.archive.org/web/20130616000203/http://www.itbully.com/articles/setting-windows-server-2012-storage-virtualization-software-raid-solution-or-more" target="_blank">Setting up windows server 2012 storage virtualization. A software RAID solution or more</a>
 
 * <a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">Configure Windows Server 2012 as a ISCSI Storage Server</a>
 

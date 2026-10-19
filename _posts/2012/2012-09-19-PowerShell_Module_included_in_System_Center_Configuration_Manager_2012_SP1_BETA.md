@@ -13,9 +13,9 @@ tags:
 published: true
 comments: true
 ---
-<a href="http://www.david-obrien.de/www/blog/?p=442" target="_blank">Source</a>
+Source: David O'Brien's blog (post no longer online)
 
-<a href="http://i.technet.microsoft.com/dynimg/IC540864.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Module included in System Center Configuration Manager 2012 SP1 BETA&quot; (1)" loading="lazy" decoding="async" border="0" height="121" src="http://i.technet.microsoft.com/dynimg/IC540864.png" width="200" /></a>Microsoft just released the Service Pack 1 for System Center Configuration Manager 2012.
+<a href="{{ site.url }}/images/2012/20120919_PowerShell_Module_SCCM_2012_SP1_BETA/IC540864.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Module included in System Center Configuration Manager 2012 SP1 BETA&quot; (1)" loading="lazy" decoding="async" border="0" height="121" src="{{ site.url }}/images/2012/20120919_PowerShell_Module_SCCM_2012_SP1_BETA/IC540864.png" width="200" /></a>Microsoft just released the Service Pack 1 for System Center Configuration Manager 2012.
 AND!! FINALLY comes with its own PowerShell Module !!! Woot Woot :-)
 Once the SP1 installed, all you need is PowerShell 3.0.Already included in Windows Server 2012 or can be installed on Windows Server 2008<a href="http://www.microsoft.com/en-us/download/details.aspx?id=34595" target="_blank">Windows Management Framework 3.0</a>
 <u>

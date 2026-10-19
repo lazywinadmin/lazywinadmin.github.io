@@ -19,11 +19,11 @@ I recently had to enable CBT in my VMware vSphere environment, on a good amount 
 
 What is Change Block Tracking (CBT) ? If you are not familiar with CBT, checkout the following articles:
 
-* Eric Siebert:<a href="http://itknowledgeexchange.techtarget.com/virtualization-pro/what-is-changed-block-tracking-in-vsphere" target="_blank">What is Change Block Tracking (CBT) ?</a>
+* Eric Siebert:<a href="https://web.archive.org/web/20130629164240/http://itknowledgeexchange.techtarget.com/virtualization-pro/what-is-changed-block-tracking-in-vsphere" target="_blank">What is Change Block Tracking (CBT) ?</a>
 
-* VMware KB:<a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=1020128" target="_blank">Changed Block Tracking (CBT) on virtual machines</a>
+* VMware KB:<a href="https://knowledge.broadcom.com/external/article?legacyId=1020128" target="_blank">Changed Block Tracking (CBT) on virtual machines</a>
 
-* VMware Documentation: <a href="http://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vddk.pg.doc_50%2FvddkBkupVadp.9.3.html" target="_blank">Low Level Backup Procedures</a>
+* VMware Documentation: <a href="https://web.archive.org/web/20140527030939/http://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vddk.pg.doc_50%2FvddkBkupVadp.9.3.html" target="_blank">Low Level Backup Procedures</a>
 
 
 <b>How to implement CBT, what do you need ?</b>

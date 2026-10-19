@@ -34,7 +34,7 @@ An appliance is a pre-configured virtual machine that typically includes a prein
 
 * Shared network drives
 
-* <a href="http://www.vmware.com/support/developer/ovf/" target="_blank">OVFTool</a>(Command-line utility from VMware that allows you to import and export OVF packages to and from a wide variety of VMware platform products.)
+* <a href="https://web.archive.org/web/20130628231059/http://www.vmware.com/support/developer/ovf/" target="_blank">OVFTool</a>(Command-line utility from VMware that allows you to import and export OVF packages to and from a wide variety of VMware platform products.)
 
 In most cases, Administrators would probably browse their Local Disks or Network Shares.
 However, In my case I want to deploy a template using the local datastore of my ESXi host, using an URL.
@@ -74,6 +74,6 @@ Typically, in the following example I will use the built-in Web Server of my VMw
 <a href="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/OVF_ESXi-Local-10__1897334863__-744x708.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="OVF ESXi Local 10" loading="lazy" decoding="async" border="0" height="380" src="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/OVF_ESXi-Local-10__472802979__-400x381.png" width="400" /></a>
 <a href="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/vCSA-08__957380208__-409x210.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;How to Deploy an OVF Template from a Remote Web Server&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130326_How_to_Deploy_an_OVF_Template_from_a_Remote_Web_Server/vCSA-08__957380208__-409x210.png" /></a>
 VMware Documentation
-You can find more information here :<a href="http://pubs.vmware.com/vsphere-51/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-51-virtual-machine-admin-guide.pdf" target="_blank">vSphere Virtual Machine Administrator Guide 5.1</a>[page 93]
+You can find more information here :<a href="https://web.archive.org/web/20130507113435/http://pubs.vmware.com/vsphere-51/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-51-virtual-machine-admin-guide.pdf" target="_blank">vSphere Virtual Machine Administrator Guide 5.1</a>[page 93]
 
 

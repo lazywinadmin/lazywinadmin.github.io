@@ -15,7 +15,7 @@ tags:
 published: true
 comments: true
 ---
-<a href="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/PowerShell-Scripting-Games-Logo__1502568632__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="PowerShell Scripting Games Logo" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/PowerShell-Scripting-Games-Logo__1155158921__-171x200.png" width="171" /></a>Last week I was one of the lucky PowerShell Summit attendees and had the chance to assist to the official launch of the Scripting Games 2013 !! (with a special video created by <a href="http://www.youtube.com/watch?v=H-b27safDVw&amp;feature=player_embedded" target="_blank">Sean</a> ;-)
+<a href="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/PowerShell-Scripting-Games-Logo__1502568632__-300x350.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="PowerShell Scripting Games Logo" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/PowerShell-Scripting-Games-Logo__1155158921__-171x200.png" width="171" /></a>Last week I was one of the lucky PowerShell Summit attendees and had the chance to assist to the official launch of the Scripting Games 2013 !! (with a special video created by Sean ;-)
 
 Apart from the PowerShell stars like Ed Wilson, Don Jones, Bruce Payette, Alan Renouf, Lee Holmes, Richard Siddaway, Jeffery Snover.... I met some awesome people there and It was really cool to talk about our passion for PowerShell, How this amazing tool is saving our life each days!
 <a href="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/IMG_20130422_084939__1277293287__-1600x1200.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Scripting Games 2013 - Advanced Event 1 - An Archival Atrocity&quot; (1)" loading="lazy" decoding="async" border="0" height="300" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/IMG_20130422_084939__1808215418__-400x300.jpg" width="400" /></a>
@@ -55,7 +55,7 @@ You want to ensure that any errors that happen during the move are clearly displ
 VOTE<b> :-)</b><u><b></b></u>
 Anybody can vote even if you do not participate to the Scripting Games<u><b>
 </b></u>
-<a href="http://scriptinggames.org/entrylist.php?entryid=295" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" target="_blank"><img alt="vote" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/vote__1420710892__-120x116.png" /></a>
+<img alt="vote" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/vote__1420710892__-120x116.png" />
 
 
 

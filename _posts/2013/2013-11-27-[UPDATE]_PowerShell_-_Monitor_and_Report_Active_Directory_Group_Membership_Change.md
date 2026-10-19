@@ -64,7 +64,7 @@ See also my previous blogposts:
 ## Requirements
 
 * PowerShell v3.0
-* PowerShell Snapin from [Quest : ActiveRoles Management Shell for Active Directory](http://software.dell.com/products/activeroles-server/powershell.aspx)
+* PowerShell Snapin from [Quest : ActiveRoles Management Shell for Active Directory](https://web.archive.org/web/20150315190720/http://software.dell.com/products/activeroles-server/powershell.aspx)
 * A Scheduled Task to run every X minutes
 * Permission to Read Group(s) Membership in AD
 * Permission to write CSV files locally

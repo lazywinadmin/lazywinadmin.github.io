@@ -17,7 +17,7 @@ comments: true
 
 I get a lot of questions from my friends and coworkers about PowerShell ... 
 <blockquote class="tr_bq">"<i>Hey FX, How can i get all the process that start by... and then kill them all in PowerShell ?</i>"</blockquote><blockquote class="tr_bq">"<i>How can I add a Windows Feature in W2012 in PowerShell ?</i>"</blockquote><blockquote class="tr_bq">"<i>How can I get the list of programs installed on those 50 computers using PowerShell ?</i>"</blockquote><blockquote class="tr_bq">"<i>How can I change the Multipath policy of all my LUNs in VMware vSphere using PowerShell (PowerCli) ?</i>"</blockquote>
-Well if you are just like them, you'll be happy to hear that <a href="http://www.microsoftvirtualacademy.com/" target="_blank">Microsoft Virtual Academy</a> will offer not one, but <b>Two free PowerShell trainings</b> !! Here are the details.
+Well if you are just like them, you'll be happy to hear that <a href="https://web.archive.org/web/20130702234654/http://www.microsoftvirtualacademy.com/" target="_blank">Microsoft Virtual Academy</a> will offer not one, but <b>Two free PowerShell trainings</b> !! Here are the details.
 
 
 
@@ -43,7 +43,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 
 * The Power in the Shell - Automation, Remoting, Scripting &amp; Toolmaking 
 
-<a href="http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-3-0-jump-start" style="background-color: yellow;" target="_blank">Watch it now on Microsoft Virtual Academy</a>
+<a href="https://web.archive.org/web/20130802032748/http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-3-0-jump-start" style="background-color: yellow;" target="_blank">Watch it now on Microsoft Virtual Academy</a>
 
 
 
@@ -64,7 +64,7 @@ Well if you are just like them, you'll be happy to hear that <a href="http://www
 * Tools and workflows
 
 
-<a href="http://www.microsoftvirtualacademy.com/training-courses/advanced-tools-scripting-with-powershell-3-0-jump-start#fbid=wdBipBJLtCB" style="background-color: yellow;" target="_blank">Watch it now on Microsoft Virtual Academy</a>
+<a href="https://web.archive.org/web/20130815213536/http://www.microsoftvirtualacademy.com/training-courses/advanced-tools-scripting-with-powershell-3-0-jump-start#fbid=wdBipBJLtCB" style="background-color: yellow;" target="_blank">Watch it now on Microsoft Virtual Academy</a>
 
 
 <b>About the Instructors</b> 

@@ -17,7 +17,7 @@ The Winter Scripting Games 2013 started last week with the first practice event.
 
 Unfortunately for me, I was not able to post my script on time. The first Practice event was due on the Tuesday, 5th of February... 11:59 PM GMT! I assume I had until midnight my time..... (My timezone is East GMT-5) 😆
 
-If you want to join the Winter Scripting Games, check the following <a href="http://thescriptinggames.com/" target="_blank">TheScriptingGames</a> website for more information and the<a href="http://powershell.org/games/Sg2013Guide.pdf" target="_blank">The Competitor Guide</a>.
+If you want to join the Winter Scripting Games, check the following <a href="http://thescriptinggames.com/" target="_blank">TheScriptingGames</a> website for more information and the Competitor Guide (no longer online).
 
 ## Summary: Practice Event 1 - Sizing up the Disks
 

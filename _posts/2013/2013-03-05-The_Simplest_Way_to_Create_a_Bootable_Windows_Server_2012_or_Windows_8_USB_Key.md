@@ -28,7 +28,7 @@ I wassurpriseto see how easy it is to create a Bootable Windows Server 2012 (R1 
 <u>What do you need:</u>
 
 
-* <a href="https://wudt.codeplex.com/" target="_blank">Windows 7 USB/Download Tool</a>(2MB)
+* <a href="https://web.archive.org/web/20130703024013/https://wudt.codeplex.com/" target="_blank">Windows 7 USB/Download Tool</a>(2MB)
 
 * ISO of Windows Server 2012 or Windows 8 (Mine is from TechNet)
 

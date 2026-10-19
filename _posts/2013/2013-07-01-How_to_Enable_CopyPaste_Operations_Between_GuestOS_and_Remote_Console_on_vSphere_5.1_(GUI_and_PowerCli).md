@@ -80,9 +80,9 @@ You might want to check the following links
 
 * <a href="{{ site.url }}/2013/01/enabling-change-block-tracking-cbt-on.html" target="_blank">Enabling Change Block Tracking (CBT) on a Virtual Machine (VMware vSphere 5.1)</a>
 
-* <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=1026437" target="_blank">Clipboard Copy and Paste does not work in vSphere Client 4.1 and later (1026437)</a>
+* <a href="https://web.archive.org/web/20130703061726/http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=1026437" target="_blank">Clipboard Copy and Paste does not work in vSphere Client 4.1 and later (1026437)</a>
 
-* <a href="http://pubs.vmware.com/vsphere-51/topic/com.vmware.vsphere.security.doc/GUID-367D02C1-B71F-4AC3-AA05-85033136A667.html" target="_blank">Enable Copy and Paste Operations Between the Guest Operating System and Remote Console</a>
+* <a href="https://web.archive.org/web/20130811000658/http://pubs.vmware.com/vsphere-51/topic/com.vmware.vsphere.security.doc/GUID-367D02C1-B71F-4AC3-AA05-85033136A667.html" target="_blank">Enable Copy and Paste Operations Between the Guest Operating System and Remote Console</a>
 
 
 

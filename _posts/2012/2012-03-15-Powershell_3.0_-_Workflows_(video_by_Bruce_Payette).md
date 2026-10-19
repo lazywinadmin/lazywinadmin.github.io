@@ -13,7 +13,7 @@ comments: true
 This is a live recording from European TEC 2011 PowerShell Deep Dive conference.
 Bruce Payette givesa tour of PowerShell Workflows.
 
-  <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/qeV4Qmce2Dk" width="480"></iframe>
+  <p><em>(This video is no longer available on YouTube.)</em></p>
 
 
 What is Workflow
