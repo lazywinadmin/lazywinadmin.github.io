@@ -28,7 +28,7 @@ Below are the presentation, the scripts and the recording of the meeting. Even i
 <center> <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/sCd8YufeyUI" width="560"></iframe></center>
 <u>Registration to our next events</u>: <a href="http://www.meetup.com/FrenchPSUG/" target="_blank">Meetup.com</a>
 
-<u>Slack:</u> Feel free to drop by on our channel <b>#french</b> on <u>powershell.slack.com</u> (<a href="http://slack.poshcode.org/" target="_blank">register first</a>)
+<u>Slack:</u> Feel free to drop by on our channel <b>#french</b> on <u>powershell.slack.com</u> (<a href="https://web.archive.org/web/20160708102836/http://slack.poshcode.org/" target="_blank">register first</a>)
 
 
 

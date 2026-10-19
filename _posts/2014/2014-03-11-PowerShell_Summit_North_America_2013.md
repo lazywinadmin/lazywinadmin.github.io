@@ -95,7 +95,7 @@ Really nice and easy to follow</td></tr></tbody></table>
 
 # Assessment
 
-To summarize, the organizers of this event (the<a href="http://powershell.org/">PowerShell.org</a>Team) did an awesome job!!!! Everything was timed well, Great Speakers, Great Sessions, Great food, Great Location (4 min walk from my hotel !!) and even Great Weather!! ;-)
+To summarize, the organizers of this event (the<a href="https://powershell.org/">PowerShell.org</a>Team) did an awesome job!!!! Everything was timed well, Great Speakers, Great Sessions, Great food, Great Location (4 min walk from my hotel !!) and even Great Weather!! ;-)
 
 I got to meet a lot of great people (PowerShell Teams, MVPs, IT Pro, ...).
 I left with a huge amount of information and I feel it really gave a boost to my PowerShell knowledge!

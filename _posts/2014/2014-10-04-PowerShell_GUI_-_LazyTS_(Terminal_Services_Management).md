@@ -34,7 +34,7 @@ You would most likely use handy legacy tools such as<a href="http://technet.micr
 
 <b><u>PSTerminalServices Module</u></b>
 
-While those legacy tools are great, I was looking for a PowerShell way to deal with what the command line tools had to offer and there was nothing around. Finally I found something very interesting called "<a href="http://psterminalservices.codeplex.com/" target="_blank">PSTerminalServices</a>", a module created by the <b>PowerShell MVP Shay Levy</b>.
+While those legacy tools are great, I was looking for a PowerShell way to deal with what the command line tools had to offer and there was nothing around. Finally I found something very interesting called "<a href="https://web.archive.org/web/20140904104213/http://psterminalservices.codeplex.com/" target="_blank">PSTerminalServices</a>", a module created by the <b>PowerShell MVP Shay Levy</b>.
 
 This module is based on a<a href="https://code.google.com/p/cassia/" target="_blank">.NET library called Cassia</a>which focus on Terminal Session (Remote Desktop) Management Tasks. So basically Shay created some wrappers around it in the form of advanced functions.
 

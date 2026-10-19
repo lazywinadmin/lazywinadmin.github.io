@@ -20,7 +20,7 @@ comments: true
  <a href="{{ site.url }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_22-04-15__926260955__-154x111.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - PowerShell v5 'Preview' available&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_22-04-15__926260955__-154x111.png" /></a>
 Wow that was really fast!! In case you missed it last week,<b>PowerShell 5.0</b> <span style="background-color: yellow;">"Preview" has been released by Microsoft part of Windows Management Framework 5.0 (WMF 5.0) <u>Preview</u>. The release of the version 4 <a href="{{ site.url }}/2013/10/powershell-40-is-now-available.html" target="_blank">was not so long ago (October 2013)</a>, Microsoft is definitely increasing the pace of releases.
 
-DownloadWMF v5<a href="http://www.microsoft.com/en-us/download/details.aspx?id=42316" target="_blank">here</a>.
+Download WMF v5 here (no longer available from Microsoft).
 
 
 
@@ -109,7 +109,7 @@ Cmdlet          Uninstall-Package                                  OneGet
 ```
 
 The packages available in this module are the ones from Chocolatey repository.
-<a href="https://chocolatey.org/packages">https://chocolatey.org/packages</a>
+<a href="https://community.chocolatey.org/packages">https://community.chocolatey.org/packages</a>
 
 <a href="{{ site.url }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_21-55-52__1628079001__-1024x1034.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - PowerShell v5 'Preview' available&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140406_PowerShell_-_PowerShell_v5_Preview_available/2014-04-04_21-55-52__1628079001__-1024x1034.png" height="400" width="395" /></a>
 There is no documentation so far. But some PowerShellers out there already found a way to define their own repository. <a class="g-profile" href="https://plus.google.com/100797865397105871021" target="_blank">+Boe Prox</a>and<a class="g-profile" href="https://plus.google.com/116113824901529664420" target="_blank">+Eric Courville</a>are already working on that :-) ! Can't wait to see what they come with.

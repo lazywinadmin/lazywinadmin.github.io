@@ -30,7 +30,7 @@ I really started to play and learn about SCSM 2 months ago with the help of the 
 
 
 Today I will show a few examples using the SMLets module that I learned in the past weeks.
-SMLets download and documentation can be found here: <a href="https://smlets.codeplex.com/">https://smlets.codeplex.com/</a>
+SMLets download and documentation can be found here: <a href="https://github.com/SMLets/SMLets">https://github.com/SMLets/SMLets</a>
 
 Before I start exploring some of the commands, I just wanted to point-out a very neat tool created by Dieter Gasser called <a href="https://web.archive.org/web/20210122104856/https://gallery.technet.microsoft.com/SCSM-Entity-Explorer-68b86bd2" target="_blank">SCSM Entity Explorer</a>. This allow you to browse SCSM Classes and Enumerations. Because there is not a Smlets for everything, you can use the very flexible Get-SCSMObject and Get-SCSMClass to retrieve additional information.
 
@@ -135,9 +135,9 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 
 * Microsoft Virtual Academy
 <ul>
-* <a href="http://www.microsoftvirtualacademy.com/training-courses/system-center-2012-orchestrator-service-manager" target="_blank">System Center 2012: Orchestrator (SCO) &amp; Service Manager (SCSM)</a>
+* <a href="https://web.archive.org/web/20130704231557/http://www.microsoftvirtualacademy.com/training-courses/system-center-2012-orchestrator-service-manager" target="_blank">System Center 2012: Orchestrator (SCO) &amp; Service Manager (SCSM)</a>
 
-* <a href="http://www.microsoftvirtualacademy.com/training-courses/automation-self-service-with-system-center-2012-r2" target="_blank">Automation &amp; Self-Service with System Center 2012 R2</a>
+* <a href="https://web.archive.org/web/20140701081716/http://www.microsoftvirtualacademy.com/training-courses/automation-self-service-with-system-center-2012-r2" target="_blank">Automation &amp; Self-Service with System Center 2012 R2</a>
 </ul>
 * Technet Blog
 <ul>

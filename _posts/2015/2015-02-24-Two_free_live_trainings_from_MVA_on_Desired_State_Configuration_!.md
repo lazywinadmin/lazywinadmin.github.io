@@ -51,7 +51,7 @@ Are you keeping up with PowerShell Desired State Configuration (DSC)? It's one o
 ### Advanced PowerShell Desired State Configuration (DSC) and Custom Resources
 
 * When: February 26, 2015 9am-5pm PST
-* Video: [http://www.microsoftvirtualacademy.com/liveevents/advanced-powershell-desired-state-configuration-dsc-and-custom-resources](http://www.microsoftvirtualacademy.com/liveevents/advanced-powershell-desired-state-configuration-dsc-and-custom-resources)
+* Video: [www.microsoftvirtualacademy.com/liveevents/advanced-powershell-desired-state-configuration-dsc-and-custom-resources](https://web.archive.org/web/20150704132033/http://www.microsoftvirtualacademy.com/liveevents/advanced-powershell-desired-state-configuration-dsc-and-custom-resources)
 
 Are you familiar with the basics of PowerShell Desired State Configuration? Ready for a deep dive into how you can use DSC for automated deployment and management of resources? Join us for another exciting session with Jeffrey Snover, Microsoft Distinguished Engineer and inventor of PowerShell, along with Windows PowerShell MVP Jason Helmick. These top experts offer an in-depth discussion of DSC custom resources and advanced configurations.
 
@@ -70,9 +70,9 @@ Explore implementation and testing of custom resources, along with packaging and
 ## Other DSC Resources
 
 * Book: <a href="http://www.amazon.ca/Windows-PowerShell-Desired-Configuration-Revealed/dp/1484200179/ref=sr_1_1?ie=UTF8&amp;qid=1424832513&amp;sr=8-1&amp;keywords=windows+powershell+desired+state" target="_blank">Windows PowerShell Desired State Configuration Revealed</a> by <a href="http://www.ravichaganti.com/blog/" target="_blank">Ravikanth Chaganti</a>
-* Book: <a href="https://www.penflip.com/powershellorg/the-dsc-book" target="_blank">DSC Book</a> by PowerShell.org
-* Virtual Lab: <a href="https://vlabs.holsystems.com/vlabs/technet?eng=VLabs&amp;auth=none&amp;src=vlabs&amp;altadd=true&amp;labid=13208" target="_blank">Implementing Desired State Configuration</a> (Technet Virtual Labs)
-* Virtual Lab: <a href="https://vlabs.holsystems.com/vlabs/technet?eng=VLabs&amp;auth=none&amp;src=microsoft.holsystems.com&amp;altadd=true&amp;labid=10846" target="_blank">Windows Server 2012 R2 - Windows PowerShell Desired State Configuration</a> (Technet Virtual Labs)
+* Book: <a href="https://web.archive.org/web/20150608012224/https://www.penflip.com/powershellorg/the-dsc-book" target="_blank">DSC Book</a> by PowerShell.org
+* Virtual Lab: Implementing Desired State Configuration (Technet Virtual Labs)
+* Virtual Lab: <a href="https://web.archive.org/web/20150508001103/https://vlabs.holsystems.com/vlabs/technet?eng=VLabs&amp;auth=none&amp;src=microsoft.holsystems.com&amp;altadd=true&amp;labid=10846" target="_blank">Windows Server 2012 R2 - Windows PowerShell Desired State Configuration</a> (Technet Virtual Labs)
 
 
 * Video Training: <a href="http://www.pluralsight.com/courses/powershell-desired-state-configuration-fundamentals" target="_blank">Windows PowerShell Desired State Configuration Fundamentals</a> by <a href="http://jdhitsolutions.com/blog/" target="_blank">Jeffery Hicks</a>
@@ -90,5 +90,5 @@ Explore implementation and testing of custom resources, along with packaging and
 * Documentation: <a href="https://web.archive.org/web/20151231123340/https://technet.microsoft.com/en-us/library/dn249922.aspx" target="_blank">Technet - Windows PowerShell Desired State Configuration Local Configuration Manager</a>
 * Documentation: Technet - Windows PowerShell Desired State Configuration Pull Servers
 * Documentation: Technet - Troubleshooting DSC
-* Documentation: <a href="http://www.powershellmagazine.com/tag/dsc/" target="_blank">PowerShell Magazine - DSC posts</a>
-* Documentation: <a href="http://blogs.msdn.com/b/powershell/archive/tags/dsc/" target="_blank">PowerShell Team Blog - DSC Posts</a>
+* Documentation: <a href="https://web.archive.org/web/20150611110523/http://www.powershellmagazine.com/tag/dsc/" target="_blank">PowerShell Magazine - DSC posts</a>
+* Documentation: <a href="https://devblogs.microsoft.com/powershell/tag/dsc/" target="_blank">PowerShell Team Blog - DSC Posts</a>

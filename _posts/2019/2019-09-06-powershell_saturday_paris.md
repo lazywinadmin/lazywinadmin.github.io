@@ -38,7 +38,7 @@ Cependant cette année je ne pourrais pas etre présent sur place pour different
 
 ## PowerShell Saturday c'est quoi ?
 
-* 12 présentations de speakers venant de toute l'Europe ([voir l'agenda](https://frpsug.com/powershellsat-2019/#agenda))
+* 12 présentations de speakers venant de toute l'Europe ([voir l'agenda](https://web.archive.org/web/20190822214751/https://frpsug.com/powershellsat-2019/#agenda))
 * Des Démo éclairs (lightning demos) auront lieu pendant la pause déjeuner.
 * Repas et boissons (Café de bienvenue / déjeuner / gouter)
 * T-shirt French PowerShell Saturday (ticket régulier uniquement)
