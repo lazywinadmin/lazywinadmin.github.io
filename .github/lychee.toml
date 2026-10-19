@@ -28,8 +28,17 @@ exclude = [
   '^https?://(www\.|mobile\.)?(twitter|x)\.com',
   '^https?://t\.co/',
   '^https?://(www\.)?google\.[a-z.]+/maps',
-  # Share buttons on every post (intent URLs, not content links)
-  '^https?://(www\.)?facebook\.com/sharer',
+  # Pages that work in a browser but block or reset requests from CI runners
+  # (checked by hand 2026-10-19, see issue #332)
+  '^https?://(www\.)?stackoverflow\.com/',    # Cloudflare bot check (403)
+  '^https?://(www\.)?pinvoke\.net/',          # resets connections from datacenter IPs
+  '^https?://(www\.)?mcpmag\.com/',           # 1105 Media sites answer 403 to CI
+  '^https?://(www\.)?redmondmag\.com/',
+  '^https?://(www\.)?textfixer\.com/',        # 403 to CI
+  '^https?://(www\.)?nssm\.cc/',              # frequent 503s from an overloaded host
+  # Share buttons on every post (intent URLs, not content links); Facebook
+  # also answers 400 to any automated request
+  '^https?://(www\.)?facebook\.com/',
   '^https?://bsky\.app/intent/',
   # The site itself: internal links are checked as local files here and by
   # htmlproofer on every PR, so skip ~1,400 live requests to our own host
