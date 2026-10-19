@@ -3,11 +3,10 @@ layout: single
 title: Powershell - SYDI - Convert all my XML to DOC Files
 excerpt: 
 permalink: /2011/01/powershell-sydi-convert-all-my-xml-to.html
-tags: 
+tags:
 - automation
 - powershell
-- scripting
-- sydi
+- inventory
 published: true
 comments: true
 ---

@@ -4,12 +4,10 @@ layout: single
 title: PowerShell Summit 2014 Europe (Français/French)
 excerpt: 
 permalink: /2014/08/powershell-summit-2014-europe.html
-tags: 
-- francais
+tags:
 - french
 - powershell
-- powershell summit 2014
-- powershell summit 2014 europe
+- powershell summit
 published: true
 comments: true
 ---

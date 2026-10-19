@@ -3,9 +3,10 @@ layout: single
 title: PowerShell - Working with SID
 excerpt: 
 permalink: /2011/02/working-with-sid.html
-tags: 
+tags:
 - powershell
-- scripting
+- active directory
+- security
 published: true
 comments: true
 categories:

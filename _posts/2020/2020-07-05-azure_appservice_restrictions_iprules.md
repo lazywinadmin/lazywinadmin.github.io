@@ -4,9 +4,10 @@ title: "PowerShell/Azure - Update App Service Access Restriction IP Rules"
 seo_title: "PowerShell: Update Azure App Service IP Restriction Rules"
 excerpt: "Quick PowerShell script to append or overwrite the Network IP Rules restriction of an App Service"
 permalink:
-tags: 
-  - powershell
-  - azure
+tags:
+- powershell
+- azure
+- security
 categories:
 published: true
 comments: true

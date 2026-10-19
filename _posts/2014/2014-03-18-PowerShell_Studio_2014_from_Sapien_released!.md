@@ -3,12 +3,11 @@ layout: single
 title: PowerShell Studio 2014 from Sapien released!
 excerpt: 
 permalink: /2014/03/powershell-studio-2014-from-sapien.html
-tags: 
-- gui
-- ise
+tags:
+- winforms
+- productivity
 - powershell
-- sapien
-- sapien powershell studio 2014
+- powershell studio
 published: true
 comments: true
 ---

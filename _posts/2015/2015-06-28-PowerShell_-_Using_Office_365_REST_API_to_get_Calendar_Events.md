@@ -5,13 +5,10 @@ title: PowerShell - Using Office 365 REST API to get Calendar Events
 seo_title: "PowerShell: Get Calendar Events with the Office 365 REST API"
 excerpt: 
 permalink: /2015/06/powershell-using-office-365-rest-api-to.html
-tags: 
-- exchange online
-- office 365 api
-- office365
-- powershell
-- rest
+tags:
+- office 365
 - rest api
+- powershell
 published: true
 comments: true
 ---

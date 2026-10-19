@@ -3,13 +3,11 @@ layout: single
 title: PowerShell Tip - Adding Help in the PARAM statement
 excerpt: 
 permalink: /2014/01/powershell-tip-adding-help-in-param.html
-tags: 
+tags:
 - powershell
-- powershell 3.0
-- powershell 4.0
-- powershell ise
-- sapien powershell studio 2012
-- tip
+- productivity
+- powershell studio
+- tips
 published: true
 comments: true
 ---

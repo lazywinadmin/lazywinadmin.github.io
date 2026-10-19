@@ -4,11 +4,9 @@ title: PowerShell/SCSM - Get Manual Activities Completed in the last month
 seo_title: "PowerShell/SCSM: Manual Activities Completed Last Month"
 excerpt: 
 permalink: /2016/03/powershellscsm-get-manual-activities.html
-tags: 
+tags:
 - powershell
 - scsm
-- smlets
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

@@ -3,11 +3,9 @@ layout: single
 title: Powershell and Windows updates
 excerpt: 
 permalink: /2011/06/powershell-and-windows-updates.html
-tags: 
-- com
+tags:
 - powershell
-- scripting
-- windows update
+- windows server
 published: true
 comments: true
 ---

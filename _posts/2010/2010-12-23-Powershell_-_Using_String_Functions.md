@@ -4,9 +4,9 @@ layout: single
 title: Powershell - Using String methods
 excerpt: 
 permalink: /2010/12/powershell-using-string-functions.html
-tags: 
+tags:
 - powershell
-- scripting
+- strings
 caterogies:
 - powershell
 published: true

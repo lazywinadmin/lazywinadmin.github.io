@@ -4,12 +4,11 @@ layout: single
 title: LazyWinAdmin v0.4 - Sneak Peek
 excerpt: 
 permalink: /2012/06/lazywinadmin-v04-sneak-peek.html
-tags: 
-- gui
-- lazywinadmin
+tags:
+- winforms
+- tools
 - powershell
-- sapien powershell studio 2012
-- winform
+- powershell studio
 published: true
 comments: true
 ---

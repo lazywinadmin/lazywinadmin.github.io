@@ -3,7 +3,10 @@ layout: single
 title: New Version - LazyWinAdmin 0.3c - 2011/10/02
 excerpt: 
 permalink: /2011/10/lazywinadmin-update-20111002.html
-tags: lazywinadmin
+tags:
+- tools
+- winforms
+- powershell
 published: false
 comments: true
 ---

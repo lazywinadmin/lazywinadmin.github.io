@@ -3,9 +3,10 @@ layout: single
 title: Windows PowerShell Language Specification
 excerpt: 
 permalink: /2013/01/windows-powershell-language.html
-tags: 
-- documentation
+tags:
 - powershell
+- powershell language
+- learning resources
 published: true
 comments: true
 ---

@@ -4,8 +4,8 @@ layout: single
 title: Video - Brandon Shell – Module Design for IT Pro
 excerpt: 
 permalink: /2012/04/video-brandon-shell-module-design-for.html
-tags: 
-- module
+tags:
+- modules
 - powershell
 - video
 published: true

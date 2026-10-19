@@ -5,15 +5,12 @@ title: PowerShell - ConvertFrom-String and the TemplateFile parameter
 seo_title: "PowerShell: ConvertFrom-String and -TemplateFile"
 excerpt: 
 permalink: /2014/09/powershell-convertfrom-string-and.html
-tags: 
-- convertfrom-string
-- netstat
-- parser
+tags:
 - parsing
+- command line
 - powershell
-- powershell 5.0
+- powershell versions
 - regex
-- regular expressions
 published: true
 comments: true
 toc: true

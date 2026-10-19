@@ -3,11 +3,9 @@ layout: single
 title: PowerShell - WMF 5.0 July preview uninstallation fails
 excerpt: 
 permalink: /2014/09/powershell-wmf-50-july-preview.html
-tags: 
-- fail
+tags:
 - powershell
-- powershell 5.0
-- wmf 5
+- powershell versions
 published: true
 comments: true
 ---

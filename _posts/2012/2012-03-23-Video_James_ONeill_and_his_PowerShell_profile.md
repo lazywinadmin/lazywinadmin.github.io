@@ -4,9 +4,9 @@ layout: single
 title: Video - James O'Neill and his PowerShell profile
 excerpt: 
 permalink: /2012/03/video-james-oneill-and-his-powershell.html
-tags: 
+tags:
 - powershell
-- powershell profil
+- productivity
 - video
 published: true
 comments: true

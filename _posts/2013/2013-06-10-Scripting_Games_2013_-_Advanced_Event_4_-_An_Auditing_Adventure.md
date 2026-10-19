@@ -5,16 +5,12 @@ title: Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure
 seo_title: "Scripting Games 2013 Advanced 4: An Auditing Adventure"
 excerpt: 
 permalink: /2013/06/scripting-games-2013-advanced-event-4.html
-tags: 
-- 2013 scripting games
+tags:
+- scripting games
 - active directory
 - adsi
-- audit
-- function
-- html
-- module
+- reporting
 - powershell
-- scripting games
 published: true
 comments: true
 ---

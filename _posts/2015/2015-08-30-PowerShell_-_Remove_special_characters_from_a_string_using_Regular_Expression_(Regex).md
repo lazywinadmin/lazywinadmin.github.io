@@ -4,11 +4,10 @@ title: PowerShell - Remove special characters from a string using Regular Expres
 seo_title: "PowerShell: Remove Special Characters from a String (Regex)"
 excerpt: 
 permalink: /2015/08/powershell-remove-special-characters.html
-tags: 
+tags:
 - powershell
 - regex
-- regular expressions
-- string
+- strings
 published: true
 comments: true
 toc: true

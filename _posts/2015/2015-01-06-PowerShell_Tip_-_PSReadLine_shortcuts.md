@@ -4,11 +4,10 @@ layout: single
 title: PowerShell Tip - PSReadLine shortcuts
 excerpt: 
 permalink: /2015/01/powershell-tip-psreadline-shortcuts.html
-tags: 
+tags:
 - powershell
-- powershell tip
-- psreadline
-- tip
+- tips
+- productivity
 published: true
 comments: true
 ---

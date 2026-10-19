@@ -5,18 +5,12 @@ title: WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on 
 seo_title: "WS2012 iSCSI Target: Configure a vSphere 5.1 iSCSI Initiator"
 excerpt: 
 permalink: /2013/07/configuring-iscsi-initiator-on-vmware.html
-tags: 
-- datastore
-- homelab
-- iscsi
-- lab
-- lun
-- powercli
-- powershell
+tags:
 - storage
+- homelab
+- powershell
 - vmware
-- vsphere 5.1
-- windows server 2012
+- windows server
 published: true
 comments: true
 ---

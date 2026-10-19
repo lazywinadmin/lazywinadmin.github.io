@@ -4,10 +4,9 @@ layout: single
 title: PowerShell - Check the GPO Replication accross your domain
 excerpt: 
 permalink: /2014/10/powershell-check-gpo-replication.html
-tags: 
+tags:
 - active directory
-- activedirectory module
-- group policy object
+- group policy
 - powershell
 published: true
 comments: true

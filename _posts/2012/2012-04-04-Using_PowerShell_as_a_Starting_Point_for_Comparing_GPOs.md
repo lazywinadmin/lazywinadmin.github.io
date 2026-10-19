@@ -4,10 +4,9 @@ layout: single
 title: Using PowerShell as a Starting Point for Comparing GPOs
 excerpt: 
 permalink: /2012/04/using-powershell-as-starting-point-for.html
-tags: 
+tags:
 - active directory
-- audit
-- gpmc
+- reporting
 - group policy
 - powershell
 - video

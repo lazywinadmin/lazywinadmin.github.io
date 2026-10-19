@@ -4,10 +4,8 @@ layout: single
 title: PowerShell - Read an Excel file using COM Interface
 excerpt: 
 permalink: /2014/03/powershell-read-excel-file-using-com.html
-tags: 
-- com
-- microsoft excel
-- microsoft office
+tags:
+- csv
 - powershell
 published: true
 comments: true

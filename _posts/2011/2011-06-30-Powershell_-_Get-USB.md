@@ -4,10 +4,9 @@ layout: single
 title: Powershell - Get-USB
 excerpt: 
 permalink: /2011/06/powershell-get-usb.html
-tags: 
+tags:
 - powershell
-- scripting
-- usb
+- inventory
 published: true
 comments: true
 ---

@@ -4,11 +4,10 @@ layout: single
 title: PowerShell ISE Tip - Navigate between curly brackets
 excerpt: 
 permalink: /2014/01/powershell-ise-tip-navigate-between.html
-tags: 
-- ise
-- powershell ise
-- sapien powershell studio 2012
-- tip
+tags:
+- productivity
+- powershell studio
+- tips
 published: true
 comments: true
 ---

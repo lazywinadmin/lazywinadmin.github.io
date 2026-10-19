@@ -3,9 +3,9 @@ layout: single
 title: "Creating a PowerShell Remoting session in PowerShell v2"
 excerpt: "The following method allows you to create a PowerShell remoting session in v2 even if the remote host is running v3+"
 permalink:
-tags: 
+tags:
 - powershell
-- powershell-remoting
+- remoting
 categories:
 - powershell
 published: true

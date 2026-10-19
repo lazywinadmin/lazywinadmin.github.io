@@ -4,18 +4,11 @@ title: WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual
 seo_title: "WS2012: Create a Storage Pool and Space Using PowerShell"
 excerpt: 
 permalink: /2013/08/ws2012-storage-creating-storage-pool.html
-tags: 
-- datastore
-- homelab
-- lab
-- lun
-- powershell
-- powershell 3.0
-- raid
+tags:
 - storage
-- storage pool
-- virtual disk
-- windows server 2012
+- homelab
+- powershell
+- windows server
 published: true
 comments: true
 ---

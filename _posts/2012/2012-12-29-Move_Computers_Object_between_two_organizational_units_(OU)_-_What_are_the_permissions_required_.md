@@ -5,12 +5,9 @@ title: Move Computers Object between two organizational units (OU) - What are th
 seo_title: "Permissions Required to Move Computers Between OUs"
 excerpt: 
 permalink: /2012/12/move-computers-object-between-two.html
-tags: 
+tags:
 - active directory
 - automation
-- computer object
-- delegation
-- permission
 - security
 published: true
 comments: true

@@ -6,10 +6,8 @@ excerpt:
 permalink: /2013/01/get-localgroupallmembers.html
 tags:
 - active directory
-- audit
+- reporting
 - group membership
-- local administrators
-- nested groups
 - powershell
 published: true
 comments: true

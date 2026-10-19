@@ -3,9 +3,9 @@ layout: single
 title: What Can I Do With Windows PowerShell?
 excerpt: 
 permalink: /2012/05/what-can-i-do-with-windows-powershell.html
-tags: 
+tags:
 - powershell
-- ressource
+- learning resources
 published: true
 comments: true
 ---

@@ -3,12 +3,11 @@ layout: single
 title: PowerShell SCCM 2007 Module - My contribution
 excerpt: 
 permalink: /2013/06/powershell-sccm-2007-module-my.html
-tags: 
+tags:
 - performance
 - powershell
-- powershell module
+- modules
 - sccm
-- sccm2007
 - wmi
 published: true
 comments: true

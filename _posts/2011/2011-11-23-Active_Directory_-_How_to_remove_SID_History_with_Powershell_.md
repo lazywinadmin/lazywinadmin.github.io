@@ -5,9 +5,8 @@ title: Active Directory - How to remove SID History with Powershell ?
 seo_title: "Active Directory: Remove SID History with PowerShell"
 excerpt: 
 permalink: /2011/11/active-directory-how-to-remove-sid.html
-tags: 
+tags:
 - active directory
-- cleanup
 - powershell
 published: true
 comments: true

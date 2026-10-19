@@ -3,11 +3,10 @@ layout: single
 title: PowerShell Studio 2014 - DataGridView Sorting
 excerpt: 
 permalink: /2015/01/powershell-studio-2014-datagridview.html
-tags: 
-- datagridview
+tags:
+- winforms
 - powershell
-- sapien powershell studio 2014
-- winform
+- powershell studio
 published: true
 comments: true
 ---

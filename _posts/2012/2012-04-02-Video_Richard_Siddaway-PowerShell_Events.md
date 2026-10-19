@@ -3,9 +3,8 @@ layout: single
 title: Video - Richard Siddaway – PowerShell Events
 excerpt: 
 permalink: /2012/04/video-richard-siddaway-powershell.html
-tags: 
+tags:
 - powershell
-- system events
 - video
 published: false
 comments: true

@@ -3,8 +3,8 @@ layout: single
 title: Using Pester to test your Manifest File
 excerpt: 
 permalink: /2016/05/using-pester-to-test-your-manifest-file.html
-tags: 
-- adsips
+tags:
+- adsi
 - pester
 - powershell
 published: true

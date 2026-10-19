@@ -4,11 +4,9 @@ layout: single
 title: Windows Management Framework (WMF) 5.0 RTM released (again)
 excerpt: 
 permalink: /2016/02/windows-management-framework-wmf-50-rtm.html
-tags: 
-- microsoft
+tags:
 - powershell
-- powershell 5.0
-- powershell team
+- powershell versions
 published: true
 comments: true
 ---

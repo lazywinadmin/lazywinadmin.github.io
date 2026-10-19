@@ -3,9 +3,9 @@ layout: single
 title: Powershell - My Script Template
 excerpt: 
 permalink: /2012/03/powershell-my-script-template.html
-tags: 
+tags:
 - powershell
-- template
+- best practices
 published: true
 comments: true
 ---

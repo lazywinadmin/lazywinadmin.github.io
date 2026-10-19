@@ -4,15 +4,10 @@ layout: single
 title: PowerShell Summit North America 2013
 excerpt: 
 permalink: /2014/03/powershell-summit-north-america-2013.html
-tags: 
+tags:
 - mvp
 - powershell
 - powershell summit
-- powershell summit 2013
-- powershell summit 2013 north america
-- powershell team
-- redmond
-- seattle
 published: true
 comments: true
 ---

@@ -4,9 +4,9 @@ layout: single
 title: "Using $$, $^, $?"
 excerpt: "As requested by some of the User Group members, here are some of the variables that store state information for PowerShell. These variables are created and maintained by PowerShell."
 permalink:
-tags: 
-  - powershell
-  - exitcode
+tags:
+- powershell
+- powershell language
 categories:
   - powershell
 published: true

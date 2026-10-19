@@ -20,7 +20,7 @@ resources:
       - title: "Débuter (french)"
         url: /resources/powershell/debuter
       - title: "Tips"
-        url: /tags/#tip
+        url: /tags/#tips
       - title: "Resources"
         url: /resources/powershell/resources
   - title: Regular Expression

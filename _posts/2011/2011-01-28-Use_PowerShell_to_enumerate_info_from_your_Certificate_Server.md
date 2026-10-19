@@ -3,10 +3,9 @@ layout: single
 title: PowerShell - Gather information from your Certificate Server
 excerpt: 
 permalink: /2011/01/se-powershell-to-enumerate-info-from.html
-tags: 
-- certificate
+tags:
+- security
 - powershell
-- scripting
 categories:
 - powershell
 published: true

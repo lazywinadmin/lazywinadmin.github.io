@@ -5,13 +5,10 @@ title: Introducing WinFormPS - PowerShell module to interact with WinForms contr
 seo_title: "WinFormPS: PowerShell Module for WinForms Controls"
 excerpt: 
 permalink: /2015/02/introducing-winformps-powershell-module.html
-tags: 
-- module
+tags:
+- modules
 - powershell
-- winform
-- winformps
 - winforms
-- winforms controls
 published: true
 comments: true
 ---

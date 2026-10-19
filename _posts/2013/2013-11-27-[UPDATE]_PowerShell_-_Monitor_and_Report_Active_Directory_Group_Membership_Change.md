@@ -7,10 +7,8 @@ permalink: /2013/11/update-powershell-monitor-and-report.html
 tags:
 - active directory
 - group membership
-- monitoring
-- organizational unit
+- reporting
 - powershell
-- report
 published: true
 comments: true
 toc: true

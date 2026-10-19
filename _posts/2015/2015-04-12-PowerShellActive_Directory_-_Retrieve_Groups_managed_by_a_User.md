@@ -4,9 +4,8 @@ title: PowerShell/Active Directory - Retrieve Groups managed by a User
 seo_title: "PowerShell/AD: Retrieve Groups Managed by a User"
 excerpt: 
 permalink: /2015/04/powershellactive-directory-retrieving.html
-tags: 
+tags:
 - active directory
-- activedirectory module
 - adsi
 - powershell
 published: true

@@ -3,9 +3,9 @@ layout: single
 title: Google+ Invitations
 excerpt: 
 permalink: /2011/08/google-invitations.html
-tags: 
-- google
-- social network
+tags:
+- personal
+- blogging
 published: true
 comments: true
 ---

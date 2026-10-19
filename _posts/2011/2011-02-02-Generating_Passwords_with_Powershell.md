@@ -3,11 +3,9 @@ layout: single
 title: Generating Passwords with Powershell
 excerpt: 
 permalink: /2011/02/generating-passwords-with-powershell.html
-tags: 
-- password
-- powershell
-- scripting
+tags:
 - security
+- powershell
 categories:
 - powershell
 published: true

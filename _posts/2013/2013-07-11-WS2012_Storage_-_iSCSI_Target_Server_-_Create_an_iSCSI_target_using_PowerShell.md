@@ -5,17 +5,12 @@ title: WS2012 Storage - iSCSI Target Server - Create an iSCSI target using Power
 seo_title: "WS2012: Create an iSCSI Target Using PowerShell"
 excerpt: 
 permalink: /2013/07/create-iscsi-target-using-powershell-on.html
-tags: 
-- datastore
-- homelab
-- iscsi
-- lab
-- powercli
-- powershell
-- powershell 3.0
+tags:
 - storage
-- vsphere 5.1
-- windows server 2012
+- homelab
+- powershell
+- vmware
+- windows server
 published: true
 comments: true
 ---

@@ -6,12 +6,8 @@ excerpt:
 permalink: /2013/04/powershellwinform-active-directory-user.html
 tags:
 - active directory
-- gui
+- winforms
 - powershell
-- scripting
-- unlock
-- user account
-- winform
 published: true
 comments: true
 ---

@@ -5,8 +5,7 @@ title: 'Montreal PowerShell User Group #02 - Using the Pipeline/Creating Script 
 seo_title: "Montreal PowerShell UG #02: Pipeline, Scripts and Functions"
 excerpt: 
 permalink: /2015/10/montreal-powershell-user-group-02-using.html
-tags: 
-- montreal
+tags:
 - montreal powershell user group
 - powershell
 published: true

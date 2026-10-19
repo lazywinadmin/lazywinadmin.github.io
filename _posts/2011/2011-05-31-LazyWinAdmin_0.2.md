@@ -3,9 +3,10 @@ layout: single
 title: LazyWinAdmin 0.2
 excerpt: 
 permalink: /2011/05/lazywinadmin-02.html
-tags: 
-- lazywinadmin
-- tool
+tags:
+- tools
+- winforms
+- powershell
 published: true
 comments: true
 ---

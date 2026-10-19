@@ -3,10 +3,10 @@ layout: single
 title: "Create and reuse a powershell scriptblock"
 excerpt: "Passing multiple arguments to a scriptblock is sometimes a bit complexe, but not with this approach..."
 permalink:
-tags: 
+tags:
 - powershell
-- scriptblock
-- powershell tip
+- powershell language
+- tips
 categories:
   - powershell
 published: true

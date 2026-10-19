@@ -4,11 +4,10 @@ layout: single
 title: BlackBerry and Powershell
 excerpt: 
 permalink: /2010/12/blackberry-and-powershell.html
-tags: 
-- blackberry server
+tags:
+- exchange
 - powershell
-- scripting
-- sql 2008
+- sql server
 published: true
 comments: true
 toc: true

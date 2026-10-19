@@ -4,10 +4,10 @@ layout: single
 title: "CoinMarketCap PowerShell module"
 excerpt: "I recently developed an interest for cryptocurrencies. I created a PowerShell module to interact with CoinMarketCap, a website where you can explore coins information."
 permalink:
-tags: 
-  - bitcoin
-  - cryptocurrencies
-  - coinmarketcap
+tags:
+- modules
+- powershell
+- rest api
 categories:
   - powershell
 published: true

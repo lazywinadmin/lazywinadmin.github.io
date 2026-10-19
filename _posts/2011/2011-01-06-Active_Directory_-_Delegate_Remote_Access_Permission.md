@@ -3,10 +3,8 @@ layout: single
 title: Active Directory - Delegate Remote Access Permission
 excerpt: 
 permalink: /2011/01/active-directory-delegate-remote-access.html
-tags: 
+tags:
 - active directory
-- aduc
-- mmc
 - security
 published: true
 comments: true

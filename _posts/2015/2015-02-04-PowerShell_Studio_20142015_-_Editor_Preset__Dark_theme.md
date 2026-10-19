@@ -3,10 +3,9 @@ layout: single
 title: PowerShell Studio 2014/2015 - Editor Preset - Dark theme
 excerpt: 
 permalink: /2015/02/powershell-studio-20142015-editor.html
-tags: 
-- sapien
-- sapien powershell studio 2014
-- sapien powershell studio 2015
+tags:
+- powershell studio
+- productivity
 published: true
 comments: true
 ---

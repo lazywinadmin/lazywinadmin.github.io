@@ -4,12 +4,10 @@ layout: single
 title: PowerShell - Playing with the new OneGet module (v5 preview)
 excerpt: 
 permalink: /2014/04/powershell-playing-with-new-oneget.html
-tags: 
-- module
-- oneget module
+tags:
+- modules
 - powershell
-- powershell 5.0
-- wmf 5
+- powershell versions
 published: true
 comments: true
 ---

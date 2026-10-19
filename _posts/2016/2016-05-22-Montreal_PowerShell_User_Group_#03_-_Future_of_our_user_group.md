@@ -4,8 +4,7 @@ layout: single
 title: Montreal PowerShell User Group 03 - Future of our user group
 excerpt: 
 permalink: /2016/05/montreal-powershell-user-group-03.html
-tags: 
-- montreal
+tags:
 - montreal powershell user group
 - powershell
 published: true

@@ -3,15 +3,10 @@ layout: single
 title: Blogger - Adding PowerShell code in your blog post
 excerpt: 
 permalink: /2013/10/blogger-adding-powershell-code-in-your.html
-tags: 
-- css
-- embed
-- gist
+tags:
+- blogging
 - github
-- html
 - powershell
-- sapien powershell studio 2012
-- syntax highlighter
 published: false
 comments: true
 ---

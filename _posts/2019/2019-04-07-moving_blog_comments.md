@@ -5,10 +5,10 @@ title: "Moving my blog comments from Disqus to Github issues using PowerShell"
 seo_title: "Moving Blog Comments from Disqus to GitHub Issues"
 excerpt: "I went through the migration of all my blog comments from Disqus to Github Issues using PowerShell. Basically it is using Github Issue Search API to retrieve existing comments and leveraging Utterances bot to create new issues on my Github repository"
 permalink:
-tags: 
-  - disqus
-  - powershell
-  - github
+tags:
+- blogging
+- powershell
+- github
 categories:
   - powershell
 published: true

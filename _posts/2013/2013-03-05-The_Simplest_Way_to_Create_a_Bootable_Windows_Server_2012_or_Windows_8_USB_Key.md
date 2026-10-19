@@ -4,16 +4,9 @@ title: The Simplest Way to Create a Bootable Windows Server 2012 or Windows 8 US
 seo_title: "Create a Bootable Windows Server 2012 or Windows 8 USB Key"
 excerpt: 
 permalink: /2013/03/the-simplest-way-to-create-bootable.html
-tags: 
-- bootable
+tags:
 - homelab
-- lab
-- usb
-- windows 7
-- windows 8
-- windows 8.1
-- windows server 2012
-- windows server 2012 r2
+- windows server
 published: true
 comments: true
 ---

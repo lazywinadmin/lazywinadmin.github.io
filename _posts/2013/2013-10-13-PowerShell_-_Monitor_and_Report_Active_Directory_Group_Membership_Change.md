@@ -5,14 +5,11 @@ title: PowerShell - Monitor and Report Active Directory Group Membership Change
 seo_title: "PowerShell: Monitor and Report AD Group Membership Changes"
 excerpt: 
 permalink: /2013/10/powershell-monitor-and-report-active.html
-tags: 
+tags:
 - active directory
-- compare
+- reporting
 - csv
-- html
-- monitoring
 - powershell
-- report
 published: true
 comments: true
 ---

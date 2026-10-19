@@ -5,10 +5,9 @@ title: PowerShell - How to find running processes and their port number
 seo_title: "PowerShell: Find Running Processes and Their Port Number"
 excerpt: 
 permalink: /2011/02/how-to-find-running-processes-and-their.html
-tags: 
+tags:
 - networking
 - powershell
-- scripting
 published: true
 comments: true
 ---

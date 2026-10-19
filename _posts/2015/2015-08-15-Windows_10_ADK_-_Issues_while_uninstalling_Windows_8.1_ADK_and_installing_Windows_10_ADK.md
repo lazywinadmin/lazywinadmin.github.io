@@ -5,13 +5,9 @@ title: Windows 10 ADK - Issues while uninstalling Windows 8.1 ADK and installing
 seo_title: "Windows 10 ADK: Issues Replacing the Windows 8.1 ADK"
 excerpt: 
 permalink: /2015/08/windows-10-adk-issues-while.html
-tags: 
+tags:
 - powershell
 - sccm
-- sccm2012r2
-- windows 10
-- windows 8.1
-- windows adk
 published: true
 comments: true
 ---

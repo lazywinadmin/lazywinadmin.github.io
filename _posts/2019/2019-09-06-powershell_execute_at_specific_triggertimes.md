@@ -3,8 +3,10 @@ layout: single
 title: "PowerShell - Executing code at specific times"
 excerpt: "Someone recently asked me how to trigger code at specific times without leveraging the scheduled tasks"
 permalink:
-tags: 
-  - powershell
+tags:
+- powershell
+- tips
+- automation
 categories:
   - powershell
 published: true

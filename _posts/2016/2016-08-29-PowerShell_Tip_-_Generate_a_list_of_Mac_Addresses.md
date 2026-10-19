@@ -4,12 +4,11 @@ layout: single
 title: PowerShell Tip - Generate a list of Mac Addresses
 excerpt: 
 permalink: /2016/08/powershell-tip-generate-list-of-mac.html
-tags: 
-- composite formatting
-- -f operator
+tags:
+- powershell language
 - powershell
 - sccm
-- macaddress
+- networking
 published: true
 comments: true
 ---

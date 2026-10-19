@@ -5,11 +5,10 @@ title: PowerShell Module included in System Center Configuration Manager 2012 SP
 seo_title: "PowerShell Module in System Center ConfigMgr 2012 SP1 Beta"
 excerpt: 
 permalink: /2012/09/powershell-module-included-in-system.html
-tags: 
-- configmgr
-- module
+tags:
+- sccm
+- modules
 - powershell
-- powershell 3.0
 published: true
 comments: true
 ---

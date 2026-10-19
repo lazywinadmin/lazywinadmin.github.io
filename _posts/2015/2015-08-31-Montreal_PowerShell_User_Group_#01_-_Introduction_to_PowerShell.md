@@ -5,12 +5,10 @@ title: "Montreal PowerShell User Group #01 - Introduction to PowerShell"
 seo_title: "Montreal PowerShell User Group #01: Intro to PowerShell"
 excerpt: 
 permalink: /2015/08/montreal-powershell-user-group-01.html
-tags: 
-- montreal
+tags:
 - montreal powershell user group
 - powershell
-- sapien
-- warner brothers
+- powershell studio
 published: true
 commment: true
 ---

@@ -4,12 +4,11 @@ title: Use PowerShell to Identify Non-Standard Windows Service Accounts
 seo_title: "PowerShell: Identify Non-Standard Windows Service Accounts"
 excerpt: 
 permalink: /2011/04/use-powershell-to-identify-non-standard.html
-tags: 
-- function
+tags:
+- functions
 - powershell
-- scripting
 - security
-- services
+- windows server
 published: true
 comments: true
 ---

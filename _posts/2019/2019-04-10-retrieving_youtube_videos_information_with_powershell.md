@@ -4,11 +4,10 @@ title: "Retrieving Youtube video information from Google APIs using PowerShell"
 seo_title: "PowerShell: Get YouTube Video Info from the Google API"
 excerpt: "In this article, I'm using Google APIs to retrieve Youtube public videos data with PowerShell in order to update Microsoft MVP Contributions"
 permalink:
-tags: 
-  - powershell
-  - mvp
-  - youtube
-  - google api
+tags:
+- powershell
+- mvp
+- rest api
 categories:
   - powershell
   - 'MVP Module'

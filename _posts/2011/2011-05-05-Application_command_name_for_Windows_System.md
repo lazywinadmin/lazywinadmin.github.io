@@ -4,11 +4,10 @@ layout: single
 title: Application command name for Windows System
 excerpt: 
 permalink: /2011/05/application-command-name-for-windows.html
-tags: 
-- cli
+tags:
+- command line
 - productivity
-- shortcuts
-- tool
+- tools
 published: true
 comments: true
 ---

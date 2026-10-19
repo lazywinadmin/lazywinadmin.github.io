@@ -3,9 +3,8 @@ layout: single
 title: Video - Bartosz Bielawski – Tracing in PowerShell
 excerpt: 
 permalink: /2012/04/video-bartosz-bielawski-tracing-in.html
-tags: 
+tags:
 - powershell
-- tracing
 - video
 published: false
 comments: true

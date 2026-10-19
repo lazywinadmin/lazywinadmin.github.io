@@ -4,12 +4,9 @@ layout: single
 title: PowerShell/SCSM - Finding the GUID of an object
 excerpt: 
 permalink: /2014/09/powershellscsm-finding-guid-of-object.html
-tags: 
+tags:
 - powershell
 - scsm
-- smlets
-- system center 2012 r2
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

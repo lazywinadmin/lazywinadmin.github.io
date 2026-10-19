@@ -4,12 +4,9 @@ layout: single
 title: Installing Microsoft System Center Orchestrator 2012 SP1
 excerpt: 
 permalink: /2013/06/installing-microsoft-system-center.html
-tags: 
-- automate
+tags:
 - automation
 - orchestrator
-- system center 2012
-- system center 2012 orchestrator
 published: true
 comments: true
 ---

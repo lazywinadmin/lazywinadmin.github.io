@@ -3,9 +3,9 @@ layout: single
 title: Standard and Advanced PowerShell functions
 excerpt: 
 permalink: /2015/03/standard-and-advanced-powershell.html
-tags: 
+tags:
 - powershell
-- powershell blogging week
+- community
 published: true
 comments: true
 ---

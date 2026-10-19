@@ -4,15 +4,12 @@ layout: single
 title: PowerShell - Handy function to connect to Office365 services
 excerpt: 
 permalink: /2014/07/powershell-handy-function-to-connect-to.html
-tags: 
+tags:
 - active directory
 - azure
-- azure active directory
-- exchange online
-- lync online
-- office365
+- office 365
 - powershell
-- powershell profil
+- productivity
 published: true
 comments: true
 ---

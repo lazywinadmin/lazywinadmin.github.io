@@ -3,10 +3,10 @@ layout: single
 title: "MVP Module - Adding multiple contributions"
 excerpt: "Uploading your contributions in batch to the Microsoft MVP portal using the MVP PowerShell module."
 permalink:
-tags: 
-  - module
-  - powershell
-  - mvp
+tags:
+- modules
+- powershell
+- mvp
 categories:
   - powershell
   - 'MVP Module'

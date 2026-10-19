@@ -5,8 +5,8 @@ title: Video - Jeffery Hicks - Turn Command-Line Tools into PowerShell Tools
 seo_title: "Jeffery Hicks: Turn Command-Line Tools into PowerShell Tools"
 excerpt: 
 permalink: /2012/04/video-jeffery-hicks-turn-command-line.html
-tags: 
-- command-line tools
+tags:
+- command line
 - powershell
 - video
 published: true

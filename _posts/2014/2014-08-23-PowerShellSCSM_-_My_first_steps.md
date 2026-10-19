@@ -4,12 +4,9 @@ layout: single
 title: PowerShell/SCSM - My first steps
 excerpt: 
 permalink: /2014/08/powershell-scsm-my-first-steps.html
-tags: 
+tags:
 - powershell
 - scsm
-- scsm service request
-- smlets
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

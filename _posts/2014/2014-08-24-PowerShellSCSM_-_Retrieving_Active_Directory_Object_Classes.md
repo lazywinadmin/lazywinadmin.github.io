@@ -4,15 +4,11 @@ layout: single
 title: PowerShell/SCSM - Retrieving Active Directory Object Classes
 excerpt: 
 permalink: /2014/08/powershell-scsm-retrieving-active.html
-tags: 
+tags:
 - active directory
 - powershell
-- sco
-- scorch
+- orchestrator
 - scsm
-- scsm2012r2
-- smlets
-- system center 2012 service manager r2
 published: true
 comments: true
 ---

@@ -3,9 +3,9 @@ layout: single
 title: PowerShell 4.0 is now available
 excerpt: 
 permalink: /2013/10/powershell-40-is-now-available.html
-tags: 
+tags:
 - powershell
-- powershell 4.0
+- powershell versions
 published: true
 comments: true
 ---

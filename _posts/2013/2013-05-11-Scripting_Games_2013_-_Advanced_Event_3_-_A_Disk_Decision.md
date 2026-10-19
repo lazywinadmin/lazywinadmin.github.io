@@ -4,12 +4,9 @@ layout: single
 title: Scripting Games 2013 - Advanced Event 3 - A Disk Decision
 excerpt: 
 permalink: /2013/05/scripting-games-2013-advanced-event-3.html
-tags: 
-- 2013 scripting games
-- powershell
-- powershell 3.0
-- psh2013
+tags:
 - scripting games
+- powershell
 published: true
 comments: true
 ---

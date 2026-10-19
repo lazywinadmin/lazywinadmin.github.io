@@ -5,11 +5,9 @@ title: PowerShell - Who Reports to Whom? (Active Directory recursive DirectRepor
 seo_title: "PowerShell: Who Reports to Whom? (AD DirectReports)"
 excerpt: 
 permalink: /2014/10/powershell-who-reports-to-whom-active.html
-tags: 
+tags:
 - active directory
-- activedirectory module
-- directreports
-- function
+- functions
 - powershell
 published: true
 comments: true

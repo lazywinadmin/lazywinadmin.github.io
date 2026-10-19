@@ -3,10 +3,9 @@ layout: single
 title: "Updating my blog theme with git"
 excerpt: "My blog is a static site hosted with Github Pages. I initially forked a theme that I liked and now I need to fetch the latest updates..."
 permalink:
-tags: 
-  - github
-  - git
-  - jekyll
+tags:
+- github
+- blogging
 categories:
 published: true
 header:

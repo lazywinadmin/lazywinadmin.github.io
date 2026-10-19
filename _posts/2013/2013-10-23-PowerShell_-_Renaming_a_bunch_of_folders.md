@@ -4,11 +4,9 @@ layout: single
 title: PowerShell - Renaming a bunch of folders
 excerpt: 
 permalink: /2013/10/powershell-renaming-bunch-of-folders.html
-tags: 
-- directory
-- folder
+tags:
 - powershell
-- rename
+- tips
 published: true
 comments: true
 ---

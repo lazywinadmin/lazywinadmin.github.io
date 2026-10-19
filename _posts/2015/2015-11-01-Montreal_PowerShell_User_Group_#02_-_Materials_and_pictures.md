@@ -4,10 +4,7 @@ layout: single
 title: 'Montreal PowerShell User Group #02 - Materials and pictures'
 excerpt: 
 permalink: /2015/11/montreal-powershell-user-group-02.html
-tags: 
-- gary szabo
-- martin lebel
-- montreal
+tags:
 - montreal powershell user group
 - powershell
 published: true

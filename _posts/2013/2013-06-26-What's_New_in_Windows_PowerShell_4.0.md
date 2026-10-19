@@ -4,13 +4,11 @@ layout: single
 title: What's New in Windows PowerShell 4.0
 excerpt: 
 permalink: /2013/06/whats-new-in-windows-powershell-40.html
-tags: 
-- desired state configuration
-- documentation
+tags:
+- dsc
 - powershell
-- powershell 4.0
-- technet
-- windows server 2012
+- windows server
+- powershell versions
 published: true
 comments: true
 ---

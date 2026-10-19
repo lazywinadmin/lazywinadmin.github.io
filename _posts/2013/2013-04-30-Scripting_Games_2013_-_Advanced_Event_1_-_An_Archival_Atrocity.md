@@ -6,12 +6,9 @@ seo_title: "Scripting Games 2013 Advanced 1: An Archival Atrocity"
 excerpt:
 permalink: /2013/04/scripting-games-2013-advanced-event-1.html
 tags:
-- 2013 scripting games
-- function
-- powershell 3.0
-- powershell summit 2013
-- psh2013
 - scripting games
+- functions
+- powershell summit
 published: true
 comments: true
 ---

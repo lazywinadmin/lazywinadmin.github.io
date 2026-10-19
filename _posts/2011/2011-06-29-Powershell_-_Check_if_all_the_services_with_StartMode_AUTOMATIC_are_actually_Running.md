@@ -5,9 +5,9 @@ title: Powershell - Check if all the services with StartMode AUTOMATIC are actua
 seo_title: "PowerShell: Check That All Automatic Services Are Running"
 excerpt: 
 permalink: /2011/06/powershell-check-if-all-services-with.html
-tags: 
+tags:
 - powershell
-- services
+- windows server
 published: true
 comments: true
 ---

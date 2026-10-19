@@ -3,10 +3,9 @@ layout: single
 title: I'm a PowerShell Hero ! Thank you guys !
 excerpt: 
 permalink: /2014/01/im-powershell-hero-thank-you-guys.html
-tags: 
-- achievement
+tags:
+- mvp
 - powershell
-- powershell heroes 2014
 published: true
 comments: true
 ---

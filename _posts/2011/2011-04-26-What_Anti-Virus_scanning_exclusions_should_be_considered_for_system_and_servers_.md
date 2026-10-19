@@ -5,12 +5,9 @@ title: What Anti-Virus scanning exclusions should be considered for system and s
 seo_title: "Antivirus Scanning Exclusions for Systems and Servers"
 excerpt: 
 permalink: /2011/04/what-anti-virus-scanning-exclusions.html
-tags: 
-- anti-virus
-- scan
-- sccm
+tags:
 - security
-- virus
+- sccm
 - windows server
 published: true
 comments: true

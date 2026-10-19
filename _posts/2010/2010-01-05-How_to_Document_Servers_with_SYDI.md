@@ -4,10 +4,8 @@ layout: single
 title: How to Document Servers with SYDI
 excerpt: 
 permalink: /2010/12/how-to-document-servers-with-sydi_23.html
-tags: 
-- documentation
+tags:
 - inventory
-- sydi
 - vbscript
 published: true
 comments: true

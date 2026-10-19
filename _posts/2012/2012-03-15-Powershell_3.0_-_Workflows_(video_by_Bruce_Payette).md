@@ -3,10 +3,11 @@ layout: single
 title: Powershell 3.0 - Workflows (video by Bruce Payette)
 excerpt: 
 permalink: /2012/03/powershell-30-workflows-video-by-bruce.html
-tags: 
-- powershell 3.0
+tags:
 - video
-- workflow
+- automation
+- powershell
+- powershell versions
 published: true
 comments: true
 ---

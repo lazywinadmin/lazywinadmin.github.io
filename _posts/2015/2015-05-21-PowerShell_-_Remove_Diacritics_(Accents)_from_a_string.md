@@ -4,11 +4,9 @@ layout: single
 title: PowerShell - Remove Diacritics (Accents) from a string
 excerpt: 
 permalink: /2015/05/powershell-remove-diacritics-accents.html
-tags: 
-- accents
-- diacritics
+tags:
+- strings
 - powershell
-- string
 published: true
 comments: true
 ---

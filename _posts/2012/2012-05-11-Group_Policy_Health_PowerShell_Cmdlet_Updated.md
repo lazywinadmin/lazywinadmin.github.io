@@ -3,11 +3,10 @@ layout: single
 title: Group Policy Health PowerShell Cmdlet Updated
 excerpt: 
 permalink: /2012/05/group-policy-health-powershell-cmdlet.html
-tags: 
+tags:
 - active directory
-- gpo
 - group policy
-- module
+- modules
 - powershell
 published: true
 comments: true

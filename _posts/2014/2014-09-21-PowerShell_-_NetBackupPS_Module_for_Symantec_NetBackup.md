@@ -4,12 +4,10 @@ layout: single
 title: PowerShell - NetBackupPS - Module for Symantec NetBackup
 excerpt: 
 permalink: /2014/09/powershell-netbackupps-module-for.html
-tags: 
-- cli
+tags:
+- command line
 - github
-- module
-- netbackupps
-- parser
+- modules
 - parsing
 - powershell
 published: true

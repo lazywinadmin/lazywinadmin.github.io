@@ -5,11 +5,9 @@ title: PowerShell/Office 365 - Get the distribution groups membership
 seo_title: "PowerShell/Office 365: Get Distribution Group Membership"
 excerpt: 
 permalink: /2015/08/powershello365-get-distribution-groups.html
-tags: 
-- distribution group
-- exchange online
-- o365 distribution group
-- office365
+tags:
+- group membership
+- office 365
 - powershell
 published: true
 comments: true

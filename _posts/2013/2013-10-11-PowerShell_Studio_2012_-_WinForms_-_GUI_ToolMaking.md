@@ -3,14 +3,11 @@ layout: single
 title: PowerShell Studio 2012 - WinForms - GUI ToolMaking
 excerpt: 
 permalink: /2013/10/PowerShellStudio2012ToolMaking.html
-tags: 
-- gui
+tags:
+- winforms
 - powershell
-- sapien powershell studio 2012
-- tool
-- toolmaking
+- powershell studio
 - video
-- winform
 published: true
 comments: true
 ---

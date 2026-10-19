@@ -4,13 +4,9 @@ layout: single
 title: My Home Lab !
 excerpt: 
 permalink: /2012/12/my-home-lab.html
-tags: 
-- esxi
-- hardware
-- homelab
-- lab
+tags:
 - vmware
-- vsphere 5.1
+- homelab
 published: true
 comments: true
 ---

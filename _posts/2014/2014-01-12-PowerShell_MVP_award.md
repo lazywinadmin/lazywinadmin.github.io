@@ -3,8 +3,7 @@ layout: single
 title: PowerShell MVP award
 excerpt: 
 permalink: /2014/01/powershell-mvp-award.html
-tags: 
-- achievement
+tags:
 - mvp
 - powershell
 published: true

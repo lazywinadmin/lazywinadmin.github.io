@@ -3,9 +3,9 @@ layout: single
 title: VMware - Direct Download to VMtools
 excerpt: 
 permalink: /2012/05/vmware-direct-download-to-vmtools.html
-tags: 
-- vmtools
+tags:
 - vmware
+- tips
 published: true
 comments: true
 ---

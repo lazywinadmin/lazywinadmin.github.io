@@ -5,12 +5,8 @@ title: Deploying and Configuring vCenter Server Appliance 5.1
 excerpt:
 permalink: /2013/03/deploying-and-configuring-vcenter.html
 tags:
-- appliance
-- linux
-- vcenter
-- vcenter server appliance
-- vcsa
 - vmware
+- homelab
 published: true
 comments: true
 ---

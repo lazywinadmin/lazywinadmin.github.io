@@ -3,10 +3,8 @@ layout: single
 title: PowerShell - Get a list of my domain Organizational Units
 excerpt: This article shows how to list organization unit in your Active Directory using the AD Module and ADSI
 permalink: /2014/04/powershell-get-list-of-my-domain.html
-tags: 
-- .net
+tags:
 - active directory
-- activedirectory module
 - adsi
 - csv
 - powershell

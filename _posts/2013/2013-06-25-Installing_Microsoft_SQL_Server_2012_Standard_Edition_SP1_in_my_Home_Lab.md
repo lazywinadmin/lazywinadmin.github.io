@@ -5,10 +5,9 @@ title: Installing Microsoft SQL Server 2012 Standard Edition SP1 in my Home Lab
 seo_title: "Install SQL Server 2012 Standard SP1 in a Home Lab"
 excerpt: 
 permalink: /2013/06/installing-microsoft-sql-server-2012.html
-tags: 
-- database
-- microsoft sql server 2012
-- sql 2012
+tags:
+- sql server
+- homelab
 published: true
 comments: true
 ---

@@ -3,13 +3,11 @@ layout: single
 title: PowerShell - Get a SubString out of a String using RegEx
 excerpt: 
 permalink: /2013/10/powershell-get-substring-out-of-string.html
-tags: 
-- operators
+tags:
+- powershell language
 - powershell
 - regex
-- regular expressions
-- split
-- substring
+- strings
 published: true
 comments: true
 toc: true

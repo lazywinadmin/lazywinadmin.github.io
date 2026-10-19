@@ -4,9 +4,9 @@ layout: single
 title: "PowerShell 7 - What's new ?"
 excerpt: "Microsoft recently released a new version of PowerShell, this post is a quick run-through the new features and new cmdlets that I presented at the last French PowerShell User Group meeting"
 permalink:
-tags: 
-  - powershell7
-  - powershell
+tags:
+- powershell versions
+- powershell
 categories:
 published: true
 comments: true
