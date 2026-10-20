@@ -10,6 +10,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "A Get-LocalGroupMembership function that uses ADSI/WinNT to list the members of a local group (Administrators by default) on local or remote computers, for example to audit local admins across many servers. It was written because WMI didn't return some domain groups on Windows Server 2003. A 2013 update added error handling and support for multiple computer names."
 ---
 <b style="text-decoration: underline;">Updated (2013/06/03):</b> I added some error handeling/verbose/testing. You are now able to pass multiple computers to the ComputerName parameter.
 

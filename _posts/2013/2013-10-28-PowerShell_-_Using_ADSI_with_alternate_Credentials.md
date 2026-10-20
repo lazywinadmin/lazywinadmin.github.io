@@ -13,6 +13,7 @@ tags:
 published: true
 comments: true
 toc: true
+tldr: "Shows how to query Active Directory through ADSI with alternate credentials. It builds a DirectorySearcher (in the example, group objects limited to 50 results) with a DirectoryEntry created from the domain path and the username and password from Get-Credential."
 ---
 
 ![image-center]({{ site.url }}/images/2013/20131028_PowerShell_-_Using_ADSI_with_alternate_Credentials/022__2014673127__-128x128.png){: .align-center}

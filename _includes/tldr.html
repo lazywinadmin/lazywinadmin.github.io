@@ -1,0 +1,5 @@
+{%- if page.tldr -%}
+<aside class="notice--info tldr" aria-label="Summary">
+  <p><strong>TL;DR:</strong> {{ page.tldr | strip | escape }}</p>
+</aside>
+{%- endif -%}

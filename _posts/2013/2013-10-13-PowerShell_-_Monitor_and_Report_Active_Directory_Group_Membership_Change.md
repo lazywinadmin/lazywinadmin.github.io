@@ -12,6 +12,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "A PowerShell script that monitors the Active Directory groups you specify and tells you when their membership changed since the last check. This version updates the 2012 script with lessons from the 2013 Scripting Games, and it builds an HTML report and sends it by email. The latest version is on GitHub."
 ---
 <a href="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_10-11-52_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image 1 from the post &quot;PowerShell - Monitor and Report Active Directory Group Membership Change&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_10-11-52_PM_s1600.png" /></a>
 <b><u>UPDATE 2016/05/03:</u></b><span style="background-color: yellow;">The most recent update is available<a href="https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip" target="_blank">on Github</a>

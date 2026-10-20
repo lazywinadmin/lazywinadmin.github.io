@@ -14,6 +14,7 @@ tags:
 published: true
 comments: true
 toc: true
+tldr: "Shows the example-driven parsing mode of ConvertFrom-String (WMF 5.0 September 2014 preview), which is based on Microsoft Research's FlashExtract. Using netstat -na output, it builds a template file that marks the values to extract with {Property:value} and uses an asterisk to mark repeating records. The post is based on pre-release software, so details may have changed."
 ---
 
 <a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - ConvertFrom-String and the TemplateFile parameter&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-04_20-28-34__43357578__-144x125.png" /></a>I'm continuing to play with the new `ConvertFrom-String` cmdlet (<a href="https://devblogs.microsoft.com/powershell/windows-management-framework-5-0-preview-september-2014-is-now-available/" target="_blank">available in the last WMF 5.0 September preview released yesterday</a>) which make the parsing job really easy for simple or complex output.
