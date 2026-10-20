@@ -309,5 +309,5 @@ RELATED LINKS
 * [Using Catch-All Subnets in Active Directory](http://technet.microsoft.com/en-us/magazine/2009.06.subnets.aspx)
 * [DC Locator – What Does "NO_CLIENT_SITE" Mean In Netlogon.log](http://jorgequestforknowledge.wordpress.com/2011/01/27/dc-locator-what-does-quot-no-client-site-quot-mean-in-netlogon-log/)
 * [Ask the Directory Services Team - Sites Sites Everywhere...](http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx)
-* [How Domain Controllers Are Located in Windows XP](http://support.microsoft.com/kb/314861/en-us)
+* [How Domain Controllers Are Located in Windows XP](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-security/enable-debug-logging-netlogon-service)
 * [Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)](http://technet.microsoft.com/en-us/library/cc733142(v=ws.10).aspx)

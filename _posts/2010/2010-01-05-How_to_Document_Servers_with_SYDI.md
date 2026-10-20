@@ -15,7 +15,7 @@ Having written SYDI from scratch, I know it inside and out. The readme file incl
 
 ## Getting the Software
 
-You probably have the software already, but just in case. Download it from the <a href="http://sydi.sourceforge.net/" title="Home of SYDI"><u>SYDI website</u></a>, or if you love this site and don't want to leave it no matter what: you can download it from <a href="http://ogenstad.net/software/sydi/" title="SYDI"><u>here</u></a>. This guide is written for SYDI-Server 2.0, if there is a newer version when you read this, don't worry; it should be useful anyway. Just be sure to check the changelog.txt file for new features.Unzip the file to your target directory.
+You probably have the software already, but just in case. Download it from the <a href="https://sydiproject.com/" title="Home of SYDI"><u>SYDI website</u></a>, or if you love this site and don't want to leave it no matter what: you can download it from <a href="http://ogenstad.net/software/sydi/" title="SYDI"><u>here</u></a>. This guide is written for SYDI-Server 2.0, if there is a newer version when you read this, don't worry; it should be useful anyway. Just be sure to check the changelog.txt file for new features.Unzip the file to your target directory.
 
 ## Running SYDI in default mode
 

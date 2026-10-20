@@ -93,7 +93,7 @@ FOREACH ($Proc in $Processors){
 Vote for me! And Comment!
 Please vote for me and let me know what you liked or not. I'm still learning and want to improve my code.
 Thank you!
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://scriptinggames.org/entrylist.php?entryid=537" imageanchor="1" style="margin-left: auto; margin-right: auto;" target="_blank"><img alt="voting" loading="lazy" decoding="async" border="0" height="120" src="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/voting__1862195796__-400x123.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>You will need to be Logged On first on [http://scriptinggames.org](http://scriptinggames.org/)</b></td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><img alt="voting" loading="lazy" decoding="async" border="0" height="120" src="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/voting__1862195796__-400x123.png" width="400" /></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>You will need to be Logged On first on [http://scriptinggames.org](https://web.archive.org/web/20130708165221/http://scriptinggames.org/)</b></td></tr></tbody></table>
 <div class="separator" style="clear: both; text-align: left;">
 Script
 

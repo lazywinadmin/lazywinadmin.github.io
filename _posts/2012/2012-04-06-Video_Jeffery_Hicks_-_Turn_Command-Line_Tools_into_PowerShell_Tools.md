@@ -17,7 +17,7 @@ Here's recording of [@jeffhicks](https://twitter.com/#!/jeffhicks) – PowerShel
 You can find Jeff's slides and demo scripts [here](http://jdhitsolutions.com/blog/2011/10/turning-cli-tools-into-powershell-tools-deep-dive-demos/).
 The abstract and video recording are below:
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/MmGACEX2y3s" width="640"></iframe>
+<p><em>(This video is no longer available on YouTube.)</em></p>
 
 <em>PowerShell is everywhere but there are still many command line tools in the IT Pro's toolbox, In this session we'll look at how to turn just about any command line based tool into a PowerShell tool so that you can incorporate it into your PowerShell scripts and daily management tasks. The power of objects in the pipeline is amazing and there's no reason not to include tools like NETSTAT.EXE or NBTSTAT.EXE.</em>
 

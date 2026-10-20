@@ -12,9 +12,9 @@ tags:
 published: true
 comments: true
 ---
-Microsoft just updated the page "<a href="http://technet.microsoft.com/en-us/hh857339.aspx" target="_blank">What's New in PowerShell</a>" to include information about Windows PowerShell 4.0. They also added a page about <a href="http://technet.microsoft.com/en-us/dn249918" target="_blank">Desired State Configuration</a>.
+Microsoft just updated the page "<a href="https://web.archive.org/web/20130630034510/http://technet.microsoft.com/en-us/hh857339.aspx" target="_blank">What's New in PowerShell</a>" to include information about Windows PowerShell 4.0. They also added a page about <a href="http://technet.microsoft.com/en-us/dn249918" target="_blank">Desired State Configuration</a>.
 
-You can try PowerShell 4.0 by either downloading the <a href="http://technet.microsoft.com/en-sg/evalcenter/dn205292.aspx" target="_blank">Windows Server 2012 R2 </a>Preview which has been release just a few hours ago, or by doing the <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-H310" target="_blank">Desired State Configuration Lab</a> from Channel9.
+You can try PowerShell 4.0 by either downloading the <a href="https://web.archive.org/web/20130702231509/http://technet.microsoft.com/en-us/evalcenter/dn205292.aspx" target="_blank">Windows Server 2012 R2 </a>Preview which has been release just a few hours ago, or by doing the <a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-H310" target="_blank">Desired State Configuration Lab</a> from Channel9.
 
 I highly encourage you to check-out this documentation. From my point of view, the following features are very interesting:
 
@@ -41,6 +41,6 @@ I highly encourage you to check-out this documentation. From my point of view, t
 
 * A <b>UserName</b> property has been added to <b>Get-Process </b>output objects.
 
-* <a href="http://technet.microsoft.com/en-us/hh857339.aspx" target="_blank">Check-out the Complete list...</a> 
+* <a href="https://web.archive.org/web/20130630034510/http://technet.microsoft.com/en-us/hh857339.aspx" target="_blank">Check-out the Complete list...</a> 
 
 

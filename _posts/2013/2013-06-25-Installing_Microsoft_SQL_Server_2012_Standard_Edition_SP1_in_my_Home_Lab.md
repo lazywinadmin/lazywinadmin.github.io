@@ -21,7 +21,7 @@ I used a dedicated VM that will be used to host the database of Configuration Ma
 
 * <a href="http://technet.microsoft.com/en-us/sqlserver/ff898410.aspx" target="_blank">Documentation - Microsoft SQL Server 2012 - Technet</a>
 
-* <a href="http://www.microsoft.com/en-us/sqlserver/editions/2012-editions/standard.aspx" target="_blank">Download - Microsoft SQL Server 2012 - Technet</a>
+* <a href="https://web.archive.org/web/20130629092526/http://www.microsoft.com/en-us/sqlserver/editions/2012-editions/standard.aspx" target="_blank">Download - Microsoft SQL Server 2012 - Technet</a>
 
 * <a href="http://technet.microsoft.com/en-us/library/bb500469.aspx" target="_blank">Plan, Install, Upgrade, Uninstall, Failover Cluster - Technet</a>
 

@@ -193,10 +193,10 @@ $matches["MTL1"]
 * <a href="http://technet.microsoft.com/en-us/library/hh847759.aspx" target="_blank">TechNet - about_Comparaison_operators</a>
 * <a href="http://technet.microsoft.com/en-us/library/hh847811.aspx" target="_blank">TechNet - about_split</a>
 * <a href="http://technet.microsoft.com/en-us/library/hh847757.aspx" target="_blank">TechNet - about_join</a>
-* <a href="http://www.powershellcookbook.com/recipe/qAxK/appendix-b-regular-expression-reference" target="_blank">PowerShell Cookbook - Appendix B - Regular Expression Reference</a>
+* <a href="https://web.archive.org/web/20130821012817/http://www.powershellcookbook.com/recipe/qAxK/appendix-b-regular-expression-reference" target="_blank">PowerShell Cookbook - Appendix B - Regular Expression Reference</a>
 * <a href="http://msdn.microsoft.com/en-us/library/az24scfc(v=vs.110).aspx" target="_blank">MSDN - Regular Expression Language - Quick Reference</a>(Thanks Jay)
 * <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2009/04/13/how-can-i-create-a-phone-directory-from-files-with-varying-text-formats.aspx" target="_blank">Scripting Guys Blog - How Can I Create a Phone Directory from Files with Varying Text Formats?</a>
 * <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2009/04/14/how-can-i-convert-a-tab-delimited-file-to-a-comma-separated-value-file.aspx" target="_blank">Scripting Guys Blog - How Can I Convert a Tab-Delimited File to a Comma-Separated Value File?</a>
 * <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2009/04/15/how-can-i-see-which-packets-are-being-dropped-by-windows-firewall.aspx" target="_blank">Scripting Guys Blog -How Can I See Which Packets Are Being Dropped by Windows Firewall?</a>
 * <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2011/03/03/use-powershell-regular-expressions-to-format-numbers.aspx" target="_blank">Scripting Guys Blog -Use PowerShell Regular Expressions to Format Numbers</a>
-* <a href="http://blogs.technet.com/b/heyscriptingguy/archive/tags/windows+powershell/regular+expressions/" target="_blank">Scripting Guys Blog - Articles about RegEx</a>
+* <a href="https://devblogs.microsoft.com/scripting/tag/regular-expressions/" target="_blank">Scripting Guys Blog - Articles about RegEx</a>

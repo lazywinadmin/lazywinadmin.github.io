@@ -68,7 +68,7 @@ Once enabled, the three following entries will appear in the "<b>Configuration P
 
 <span style="font-size: x-large;"><b>PowerShell</b>
 Obviously you will need VMware PowerCli ; Here I used PowerCli version 5.1 with PowerShell 3.0.
-<a href="https://my.vmware.com/web/vmware/details?productId=285&amp;downloadGroup=VSP510-PCLI-510" target="_blank">Download VMware PowerCli</a>
+<a href="https://web.archive.org/web/20130511235535/https://my.vmware.com/web/vmware/details?productId=285&amp;downloadGroup=VSP510-PCLI-510" target="_blank">Download VMware PowerCli</a>
 <a href="http://www.microsoft.com/en-ca/download/details.aspx?id=34595" target="_blank">Download PowerShell 3.0</a>
 
 <b>Set-VMChangeBlockTracking</b>
@@ -111,7 +111,7 @@ Again, Once your enabled CBT, your VM will need to go through a<b>stun-unstun</b
 <span style="font-size: x-large;"><b>Resources</b>
 
 
-* VMware:<a href="http://kb.vmware.com/selfservice/documentLinkInt.do?micrositeID=&amp;popup=true&amp;languageId=&amp;externalID=1031873" target="_blank">Enabling Changed Block Tracking (CBT) on virtual machines (1031873)</a>
+* VMware:<a href="https://knowledge.broadcom.com/external/article?legacyId=1031873" target="_blank">Enabling Changed Block Tracking (CBT) on virtual machines (1031873)</a>
 
 * LazyWinAdmin:<a href="{{ site.url }}/2013/01/enabling-change-block-tracking-cbt-on.html" target="_blank">Enabling Change Block Tracking (CBT) on a Virtual Machine (VMware vSphere 5.1)</a>
 

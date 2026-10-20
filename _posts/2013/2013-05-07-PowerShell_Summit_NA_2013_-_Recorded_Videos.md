@@ -58,6 +58,6 @@ Find bellow the list of session available on <a href="https://www.youtube.com/ch
 
 * <a href="http://youtu.be/GXkLtEOM-DM" target="_blank">Build Your Demo Environment with Windows PowerShell – Aleksandar Nikolic</a>
 
-You can also download the <a href="http://powershell.org/wp/2013/04/22/summit-downloads/" target="_blank">materials used by the presenters</a> and the <a href="http://powershell.org/wp/2012/11/02/powershell-summit-community-sessions-list/" target="_blank">list of sessions</a> on PowerShell.org.
+You can also download the <a href="https://web.archive.org/web/20130607101503/http://powershell.org/wp/2013/04/22/summit-downloads/" target="_blank">materials used by the presenters</a> and the <a href="https://web.archive.org/web/20130811163327/http://powershell.org/wp/2012/11/02/powershell-summit-community-sessions-list/" target="_blank">list of sessions</a> on PowerShell.org.
 
 

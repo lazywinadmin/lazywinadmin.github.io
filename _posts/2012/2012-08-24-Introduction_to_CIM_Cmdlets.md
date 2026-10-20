@@ -13,7 +13,7 @@ comments: true
 ---
 Great article from the Powershell team blog:
 
-<a href="http://blogs.msdn.com/b/powershell/archive/2012/08/24/introduction-to-cim-cmdlets.aspx" target="_blank">Introduction to CIM Cmdlets</a>
+<a href="https://devblogs.microsoft.com/powershell/introduction-to-cim-cmdlets/" target="_blank">Introduction to CIM Cmdlets</a>
 
 PowerShell 3.0 shipping with Windows server 2012 and Windows 8 brings a new set of Cmdlets to manage any server or device that complies with CIM and WS-Man standards defined by DMTF. In this blog post we will explore these new Cmdlets and how can they help IT Pros in managing a datacenter.
 The list of new Cmdlets is given in the table below:    
@@ -28,6 +28,6 @@ If you are already familiar with terms like WMI, CIM, WinRM and WS-Man, you can 
 <b>WinRM:</b> Windows Remote Management (WinRM) is the Microsoft implementation of the WS-Man protocol on Windows.
 
 
-### <a href="http://blogs.msdn.com/b/powershell/archive/2012/08/24/introduction-to-cim-cmdlets.aspx" style="font-size: medium; font-weight: normal;" target="_blank">Introduction to CIM Cmdlets</a> 
+### <a href="https://devblogs.microsoft.com/powershell/introduction-to-cim-cmdlets/" style="font-size: medium; font-weight: normal;" target="_blank">Introduction to CIM Cmdlets</a> 
 
 

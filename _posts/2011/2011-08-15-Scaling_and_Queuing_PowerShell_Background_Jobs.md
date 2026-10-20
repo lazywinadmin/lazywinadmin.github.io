@@ -11,7 +11,7 @@ published: true
 comments: true
 ---
 
-<b>Great article from Travis Jones [[Source](http://blogs.msdn.com/b/powershell/archive/2011/04/04/scaling-and-queuing-powershell-background-jobs.aspx)]</b>
+<b>Great article from Travis Jones [[Source](https://devblogs.microsoft.com/powershell/scaling-and-queuing-powershell-background-jobs/)]</b>
 
 A couple of months ago I had asked the PowerShell MVPs for  suggestions on blog topics. Karl Prosser, one of our awesome MVPs,  brought up the topic of scaling and queuing background jobs.
 The scenario is familiar: You have a file containing a bunch of input  that you want to process and you don't want to overburden your computer  by starting up hundreds of instances of PowerShell at once to process  them.

@@ -25,7 +25,7 @@ TechEd 2012 -Group Policy Reporting and Analysis with Windows PowerShell
 More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="_blank">http://channel9.msdn.com</a>
 
 <b>Guides</b>
-<a href="http://social.technet.microsoft.com/wiki/contents/articles/183.windows-powershell-survival-guide-en-us.aspx" target="_blank">Windows PowerShell Survival Guide (en-US) Extensive list of resources on PowerShell</a>
+<a href="https://web.archive.org/web/20120622111950/http://social.technet.microsoft.com/wiki/contents/articles/183.windows-powershell-survival-guide-en-us.aspx" target="_blank">Windows PowerShell Survival Guide (en-US) Extensive list of resources on PowerShell</a>
 <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30002" target="_blank">Windows PowerShell 3.0 and Server Manager Quick Reference Guides</a>
 <a href="http://www.ravichaganti.com/blog/?p=1979" target="_blank">Ravikanth Chaganti - WMI Query Language via PowerShell</a>
 <a href="http://powershellbooks.com/" target="_blank">Don Jones - Secrets of PowerShell Remoting</a>
@@ -34,13 +34,13 @@ More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="
 
 
 <b>Code repository</b>
-<a href="http://poshcode.com/" target="_blank">PoshCode</a>
+<a href="https://web.archive.org/web/20120718053405/http://poshcode.com/" target="_blank">PoshCode</a>
 <a href="https://web.archive.org/web/20200318040908/https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&amp;f%5B0%5D.Value=PowerShell" target="_blank">Technet Gallery - Script Repository</a>
 
 Powershell sites
 http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx (link no longer available)
 [http://www.powershell.org](http://www.powershell.org/)
-<a href="http://powershell.com/cs/" target="_blank">http://powershell.com/cs/</a>
+<a href="https://web.archive.org/web/20120701113617/http://powershell.com/cs/" target="_blank">powershell.com/cs/</a>
 <a href="http://www.powershellmagazine.com/" target="_blank">http://www.powershellmagazine.com</a>
 [http://www.powershellpro.com](http://www.powershellpro.com/)
 [http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx](http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx)
