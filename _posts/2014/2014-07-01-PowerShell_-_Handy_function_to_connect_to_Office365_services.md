@@ -12,6 +12,7 @@ tags:
 - productivity
 published: true
 comments: true
+tldr: "A Connect-Office365 function for your PowerShell profile that connects to Azure Active Directory, Exchange Online and Lync Online in one go, instead of loading modules and signing in to each one. Exchange uses implicit remoting. SharePoint Online wasn't tested and isn't included."
 ---
 
  

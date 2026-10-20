@@ -14,6 +14,7 @@ published: true
 comments: true
 toc: true
 toc_sticky: true
+tldr: "Explains why computers whose subnet isn't defined in AD Sites and Services can end up without a site (NO_CLIENT_SITE entries in NETLOGON.log). It shares a PowerShell script that reports these missing subnets from the NETLOGON.log files on your domain controllers. Windows Server 2012 R2 also adds *-ADReplicationSubnet cmdlets for managing subnets, and the latest version of the script is on GitHub."
 ---
 Today I will share with you a script that report the Missing Subnets detected in the NetLogon file(s) of your Active Directory Domain Controller(s).
 

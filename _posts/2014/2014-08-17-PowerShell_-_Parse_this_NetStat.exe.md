@@ -12,6 +12,7 @@ tags:
 - functions
 published: true
 comments: true
+tldr: "A step-by-step walkthrough of turning netstat -n text output into PowerShell objects. It skips the header lines, splits each line on whitespace, and maps the columns to properties such as Protocol and Local Address."
 ---
 
  

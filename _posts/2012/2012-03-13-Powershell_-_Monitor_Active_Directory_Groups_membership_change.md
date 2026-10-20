@@ -10,6 +10,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "A simple PowerShell script, run every minute from a scheduled task, that watches AD groups such as Domain Admins and Enterprise Admins. It exports the members to a CSV file, compares the next run against that file, and emails who was added or removed. Newer versions are linked from the post and on GitHub (Monitor-ADGroupMembership)."
 ---
 <span style="background-color: yellow;"><b><u>UPDATE:</u></b>The most recent update is available<a href="https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip" target="_blank">on Github</a>
 <b><u style="background-color: yellow;">
