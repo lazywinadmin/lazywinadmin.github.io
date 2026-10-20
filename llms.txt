@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+About: Blog by François-Xavier Cat covering PowerShell, Azure, Terraform, DevOps and AI platform engineering. This file follows the proposed llms.txt convention (https://llmstxt.org).
+
+## Pages
+
+- [About]({{ '/about.html' | absolute_url }}): About the author
+- [CV]({{ '/cv/' | absolute_url }}): Curriculum vitae
+- [Scripts and projects]({{ '/p/scripts.html' | absolute_url }}): PowerShell scripts and open-source projects
+- [Archive]({{ '/archive.html' | absolute_url }}): All posts by date
+
+## Posts
+{% for post in site.posts %}{% assign t = post.title | strip_html | strip_newlines | replace: '[', '(' | replace: ']', ')' | strip %}{% assign e = post.excerpt | strip_html | strip_newlines | replace: '[', '(' | replace: ']', ')' | normalize_whitespace | truncate: 160 %}
+- [{{ t }}]({{ post.url | absolute_url }}){% if e != "" %}: {{ e }}{% endif %}{% endfor %}
