@@ -15,6 +15,7 @@ toc_label: "Table of content"
 toc_sticky: true
 toc_icon: "terminal"
 classes: wide
+tldr: "A function that uses ADSI to query Active Directory computer objects, optionally with alternate credentials or another domain, so it works without RSAT. It was written to pull each workstation's primary user, which was stored in the description attribute. More ADSI functions are in the ADSIPS module."
 ---
 
 **Note:** FYI, more ADSI functions are available in the ADSIPS PowerShell module here: https://github.com/lazywinadmin/adsips

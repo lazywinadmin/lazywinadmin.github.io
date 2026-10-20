@@ -9,6 +9,7 @@ tags:
 - scsm
 published: true
 comments: true
+tldr: "First steps managing System Center Service Manager 2012 R2 with the SMLets module, for example getting Service Requests and filtering by last-modified date and status with Get-SCSMObject. It also points to Dieter Gasser's SCSM Entity Explorer for browsing classes and enumerations."
 ---
 
  

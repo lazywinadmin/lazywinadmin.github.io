@@ -12,6 +12,7 @@ tags:
 - vmware
 published: true
 comments: true
+tldr: "Enables copy/paste between the guest OS and the remote console on vSphere 5.1 by setting isolation.tool.copy.disable and isolation.tool.paste.disable to FALSE. The GUI method needs the VM powered off, while PowerCLI can apply the setting live, though a stun/unstun is needed for it to take effect. VMware doesn't recommend this because of clipboard data exposure."
 ---
 <a href="{{ site.url }}/images/2013/20130701_How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5.1_(GUI_and_PowerCli)/copypaste__164375054__-256x256.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="copypaste" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/20130701_How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5.1_(GUI_and_PowerCli)/copypaste__405764048__-200x200.jpeg" width="200" /></a>In this blogpost I will explain how to enable Copy/Paste operations between the Guest Operating System and the Remote Console on VMware vSphere 5.1 <u>via the GUI</u> and <u>PowerCli</u> (PowerShell for VMware).
 

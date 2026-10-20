@@ -12,6 +12,7 @@ published: true
 comments: true
 toc: true
 toc_label: "Table of Content"
+tldr: "Shows two ways to pull MTL1 out of the distinguished name OU=MTL1,OU=CORP,DC=FX,DC=LAB: splitting on commas and using Substring(3), or splitting with the regex ',*..='. It then walks through how the plain PowerShell solution was found with Get-Member."
 ---
 <a href="{{ site.url }}/images/2013/PowerShell_-_Get_a_SubString_out_of_a_String_using_RegEx/2013-10-19_4-20-29_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Get a SubString out of a String using RegEx&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Get_a_SubString_out_of_a_String_using_RegEx/2013-10-19_4-20-29_PM.png" /></a>Last week one of my colleague asked me if I could help him with some Regular Expression (Regex) to select some text inside a String.
 

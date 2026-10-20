@@ -9,6 +9,7 @@ tags:
 - automation
 published: true
 comments: true
+tldr: "Windows Server 2008 R2's Task Scheduler only offers repeat intervals of 5 minutes or more. You can run a task every minute with schtasks /create /sc minute /mo 1, or in the GUI by typing \"1 minutes\" into the editable Repeat task every box."
 ---
 <a href="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/Task-Scheduler__1187729876__-129x141.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Task Scheduler" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2012/20120313_Run_this_Scheduled_Task_every_minute_!!!/Task-Scheduler__1187729876__-129x141.png" /></a>
 Description

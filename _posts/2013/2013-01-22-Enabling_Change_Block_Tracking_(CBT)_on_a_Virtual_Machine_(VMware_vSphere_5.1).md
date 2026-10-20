@@ -10,6 +10,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "Explains how to enable Changed Block Tracking (CBT) on VMware vSphere 5.1 virtual machines. Requirements are VM hardware version 7 or later, no snapshots, and a stun/unstun cycle before the change takes effect. It shows the GUI method (VM powered off) and PowerShell/PowerCLI, which works while the VM is running."
 ---
 <a href="{{ site.url }}/images/2013/20130122_Enabling_Change_Block_Tracking_(CBT)_on_a_Virtual_Machine_(VMware_vSphere_5.1)/images__1605460790__-213x236.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="images" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130122_Enabling_Change_Block_Tracking_(CBT)_on_a_Virtual_Machine_(VMware_vSphere_5.1)/images__1605460790__-213x236.jpg" height="180" width="162" /></a><b><u>Update:</u> <a href="{{ site.url }}/2013/07/enabling-change-block-tracking-cbt-on.html" target="_blank">2013/07/02 I wrote another post about CBT and create a re-usable PowerShell function </a></b>
 

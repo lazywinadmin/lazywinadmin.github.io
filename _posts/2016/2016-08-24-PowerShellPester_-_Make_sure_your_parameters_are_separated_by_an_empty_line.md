@@ -12,6 +12,7 @@ published: true
 comments: true
 toc: true
 toc_label: "Table of content"
+tldr: "Another Pester test for the ADSIPS module, this one checking that each parameter in a function's PARAM() block is separated by an empty line. The goal is cleaner code that is easier for other people to read."
 ---
 
  <a href="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__1746910156__-400x400.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="pester logo" loading="lazy" decoding="async" border="0" height="120" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/pester_logo__454921558__-200x200.png" width="120" /></a>

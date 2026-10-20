@@ -10,6 +10,7 @@ tags:
 - homelab
 published: true
 comments: true
+tldr: "A step-by-step walkthrough of installing SQL Server 2012 Standard Edition on a dedicated home-lab VM that will host the Configuration Manager 2012 and Orchestrator 2012 databases. It starts with the System Configuration Checker and goes through the setup wizard steps, including the setup support rules."
 ---
 <a href="{{ site.url }}/images/2013/20130625_Installing_Microsoft_SQL_Server_2012_Standard_Edition_SP1_in_my_Home_Lab/SQL-Server-2012__189173740__-256x256.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SQL Server 2012" loading="lazy" decoding="async" border="0" height="130" src="{{ site.url }}/images/2013/20130625_Installing_Microsoft_SQL_Server_2012_Standard_Edition_SP1_in_my_Home_Lab/SQL-Server-2012__447326219__-200x200.jpg" width="130" /></a>Currently I'm playing with some products from the Microsoft System Center 2012 Suite in my Home Lab. I'm Starting the whole installation by installing a new Virtual Machine with Microsoft SQL Server 2012 (Standard Edition).
 

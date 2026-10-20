@@ -9,6 +9,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "A Remove-StringDiacritic function, written for a French/English onboarding automation, that strips accents using String.Normalize and keeps only the base characters. A second method from a reader also handles Polish characters, and a 2016 update adds an example for replacing diacritics across multiple files."
 ---
 
  
