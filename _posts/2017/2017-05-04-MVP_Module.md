@@ -59,7 +59,7 @@ Fortunately you only need to do this once.
 
 __Steps__
 
-1. Go to the [Microsoft MVP API Developer Portal](https://mvpapi.portal.azure-api.net/)
+1. Go to the [Microsoft MVP API Developer Portal](https://web.archive.org/web/20190109053852/https://mvpapi.portal.azure-api.net/)
 1. Click the `Sign In` button and sign in with your Microsoft Account. It must be the same Microsoft Account as you use for your Microsoft MVP Site access.
 1. Subscribe to the `MVP Production` product.
 1. Go to the `PRODUCTS` tab, and choose `MVP Production`.

@@ -44,13 +44,13 @@ Here is my setup for the scripting games :-) (Coffee is a huge friend)!
 
 Here are the most important Information you will need for the games. Note that the Time is UTC/GMT. For example January 19th 00:00 GMT means 18:00/6:00pm Eastern Time (I was not able to submit <a href="{{ site.url }}/2013/02/winter-scripting-games-2013-practice.html" target="_blank">one of my entry last year just for this reason</a>... silly me..)
 <ul>
-* <a href="http://scriptinggames.org/" target="_blank">Scripting Games Website</a>
+* <a href="https://web.archive.org/web/20130708165221/http://scriptinggames.org/" target="_blank">Scripting Games Website</a>
 
-* <a href="http://scriptinggames.org/games/2014WinterSGPlayersGuide.pdf" target="_blank">Scripting Games Guide</a>
+* <a href="https://web.archive.org/web/20150420022911/http://scriptinggames.org/games/2014WinterSGPlayersGuide.pdf" target="_blank">Scripting Games Guide</a>
 
-* <a href="http://powershell.org/wp/2014/01/03/scripting-games-winter-2014-understanding-the-scoring/" target="_blank">Understand the Scoring</a>
+* <a href="https://web.archive.org/web/20140111182628/http://powershell.org/wp/2014/01/03/scripting-games-winter-2014-understanding-the-scoring/" target="_blank">Understand the Scoring</a>
 
-* <a href="http://scriptinggames.org/events.php?game_id=4" target="_blank">Events Schedule</a>
+* Events Schedule
 <ul>
 * EVENT #1 <b>Pairs</b> - <u>From:</u> 2014/01/18 00:00 GMT <u>To:</u> 2014/01/26 00:00 GMT<u>
 </u>
@@ -70,7 +70,7 @@ Here are the most important Information you will need for the games. Note that t
 
 
 <ul>
-* <a href="http://powershell.org/wp/category/announcements/scripting-games/" target="_blank">PowerShell.org posts</a>
+* <a href="https://web.archive.org/web/20140701200104/http://powershell.org/wp/category/announcements/scripting-games/" target="_blank">PowerShell.org posts</a>
 
 * Twitter Tag <a href="https://twitter.com/search?q=%23pshgames&amp;src=typd" target="_blank">#pshgames</a>
 
@@ -84,7 +84,7 @@ Here are the most important Information you will need for the games. Note that t
 
 * <a href="http://p0w3rsh3ll.wordpress.com/" target="_blank">Emin Atac</a> - <a href="http://twitter.com/p0w3rsh3ll" target="_blank">@p0w3rsh3ll</a> - <a class="g-profile" href="https://plus.google.com/108295229459530996948" target="_blank">+Emin Atac</a>
 </ul><ul>
-* <a href="http://blog.powershell.no/" target="_blank">Jan Egil Ring</a> - <a href="http://twitter.com/JanEgilRing" target="_blank">@JanEgilRing</a> - <a class="g-profile" href="https://plus.google.com/100183891046488829989" target="_blank">+Jan Egil Ring</a> 
+* <a href="https://web.archive.org/web/20140702143123/http://blog.powershell.no/" target="_blank">Jan Egil Ring</a> - <a href="http://twitter.com/JanEgilRing" target="_blank">@JanEgilRing</a> - <a class="g-profile" href="https://plus.google.com/100183891046488829989" target="_blank">+Jan Egil Ring</a> 
 
 * <a href="http://jeffwouters.nl/" target="_blank">Jeff Wouters</a> - <a href="http://twitter.com/JeffWouters" target="_blank">@JeffWouters</a> -  <a class="g-profile" href="https://plus.google.com/101369284574988073420" target="_blank">+Jeff Wouters</a>
 
@@ -92,13 +92,13 @@ Here are the most important Information you will need for the games. Note that t
 
 * <a href="http://paglia.org/" target="_blank">Lido Paglia</a> - <a href="https://twitter.com/nicemarmot" target="_blank">@nicemarmot</a> -  <a class="g-profile" href="https://plus.google.com/116690272698204785457" target="_blank">+Lido Paglia</a>
 
-* <a href="http://sgitpro.com/" target="_blank">Matt Hitchcock</a> - <a href="http://twitter.com/hitchysg" target="_blank">@hitchysg</a>
+* <a href="https://web.archive.org/web/20140623194740/http://sgitpro.com/" target="_blank">Matt Hitchcock</a> - <a href="http://twitter.com/hitchysg" target="_blank">@hitchysg</a>
 
 * <a href="http://mjolinor.wordpress.com/" target="_blank">Rob Campbell</a> - <a href="http://twitter.com/mjolinor" target="_blank">@mjolinor</a>
 
 * <a href="http://rohnspowershellblog.wordpress.com/" target="_blank">Rohn Edwards</a> - <a href="http://twitter.com/magicrohn" target="_blank">@magicrohn</a>
 
-* <a href="http://www.get-exchange.info/" target="_blank">Sahal Omer </a>- <a href="http://twitter.com/GetExchange" target="_blank">@GetExchange</a>
+* <a href="https://web.archive.org/web/20140620173726/http://www.get-exchange.info/" target="_blank">Sahal Omer </a>- <a href="http://twitter.com/GetExchange" target="_blank">@GetExchange</a>
 <span id="goog_1290977216"><span id="goog_1290977217"><span id="goog_1290977214"><span id="goog_1290977215">
 * <a href="http://stevenmurawski.com/" target="_blank">Steve Murawski</a> - <a href="http://twitter.com/StevenMurawski" target="_blank">@StevenMurawski</a> -<a class="g-profile" href="https://plus.google.com/105260700993333567300" target="_blank">+Steve Murawski</a>
 </ul>
@@ -106,9 +106,9 @@ Here are the most important Information you will need for the games. Note that t
 <ul>
 * <a href="http://blogs.technet.com/b/heyscriptingguy/" target="_blank">Ed Wilson</a> - <a href="https://twitter.com/ScriptingGuys" target="_blank">@ScriptingGuys</a>
 
-* <a href="http://www.concentratedtech.com/" target="_blank">Don Jones</a> - <a href="https://twitter.com/concentrateddon" target="_blank">@concentrateddon</a> -<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a> 
+* <a href="https://web.archive.org/web/20140219002138/http://www.concentratedtech.com/" target="_blank">Don Jones</a> - <a href="https://twitter.com/concentrateddon" target="_blank">@concentrateddon</a> -<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a> 
 
-* <a href="http://www.jasonhelmick.com/" target="_blank">Jason Helmick</a> - <a href="https://twitter.com/theJasonHelmick" target="_blank">@TheJasonHelmicks</a> -  <a class="g-profile" href="https://plus.google.com/115305321045759000895" target="_blank">+Jason Helmick</a>
+* <a href="https://web.archive.org/web/20140329131104/http://www.jasonhelmick.com/" target="_blank">Jason Helmick</a> - <a href="https://twitter.com/theJasonHelmick" target="_blank">@TheJasonHelmicks</a> -  <a class="g-profile" href="https://plus.google.com/115305321045759000895" target="_blank">+Jason Helmick</a>
 
 * <a href="http://jdhitsolutions.com/blog/" target="_blank">Jeffery Hicks</a> - <a href="https://twitter.com/JeffHicks" target="_blank">@JeffHicks</a> -<a class="g-profile" href="https://plus.google.com/109354722869529171746" target="_blank">+Jeffery Hicks</a>
 </ul></ul>
@@ -120,9 +120,9 @@ Here are the most important Information you will need for the games. Note that t
 <ul>
 * <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">Get-Help of course :-) <span style="background-color: yellow;">(don't forget to <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">Update-Help before!) 
 
-* PowerShell.com <a href="http://powershell.com/cs/media/28/default.aspx" target="_blank">released a great set of free ebooks on different PowerShell topics</a>, Check those out!
+* PowerShell.com <a href="https://web.archive.org/web/20140703030025/http://powershell.com/cs/media/28/default.aspx" target="_blank">released a great set of free ebooks on different PowerShell topics</a>, Check those out!
 
-* PowerShell.org also<a href="http://powershell.org/wp/newsletter/" target="_blank"> released some great and neat (and FREE) ebooks too</a> !! I highly recommend those, especially the "The Community Book of PowerShell Practices" result of the Great Debate 2013.
+* PowerShell.org also<a href="https://web.archive.org/web/20140630095244/http://powershell.org/wp/newsletter/" target="_blank"> released some great and neat (and FREE) ebooks too</a> !! I highly recommend those, especially the "The Community Book of PowerShell Practices" result of the Great Debate 2013.
 </ul>
 
 # Team Work

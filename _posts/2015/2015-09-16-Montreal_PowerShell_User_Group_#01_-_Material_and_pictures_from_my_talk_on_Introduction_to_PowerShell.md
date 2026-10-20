@@ -22,7 +22,7 @@ The Powerpoint presentation and PowerShell code is available on the meetup group
 
 * [https://github.com/lazywinadmin/MTLPUG/tree/master/MTLPUG_01](https://github.com/lazywinadmin/MTLPUG/tree/master/MTLPUG_01)
 
-* [http://www.meetup.com/MontrealPowerShellUserGroup/files/](http://www.meetup.com/MontrealPowerShellUserGroup/files/)
+* [www.meetup.com/MontrealPowerShellUserGroup/files/](https://web.archive.org/web/20151107213824/http://www.meetup.com/MontrealPowerShellUserGroup/files/)
 
 
 Even thought I was a bit stress to present, I really loved the experience and I can't wait for the next meeting! We had a great group (17 people) who showed great interest and asked tons of questions!!

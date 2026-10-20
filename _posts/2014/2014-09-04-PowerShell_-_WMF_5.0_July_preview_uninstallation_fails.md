@@ -12,7 +12,7 @@ comments: true
 
  
  <a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="powershell logo" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" /></a>
-Today the <a href="http://blogs.msdn.com/b/powershell/archive/2014/09/04/windows-management-framework-5-0-preview-september-2014-is-now-available.aspx" target="_blank">PowerShell Team released a new version of the WMF : v5 September preview</a>, I really like the faster beta cycle !
+Today the <a href="https://devblogs.microsoft.com/powershell/windows-management-framework-5-0-preview-september-2014-is-now-available/" target="_blank">PowerShell Team released a new version of the WMF : v5 September preview</a>, I really like the faster beta cycle !
 
 Having the beta preview already installed (July version), I first open Add/Remove Programs (appwiz.cpl) and start to uninstall this version (KB2969050).
 
@@ -24,7 +24,7 @@ Once the uninstallation is completed, Windows ask to reboot. However at the next
 Once rebooted, the WMF 5.0 July preview was still there.
 
 <a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_18-03-05__1274619236__-956x391.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - WMF 5.0 July preview uninstallation fails&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_18-03-05__1274619236__-956x391.png" height="260" width="640" /></a>
-Fortunately, the PowerShell Team is already aware of this issue and documented this behavior in <a href="http://www.microsoft.com/en-us/download/details.aspx?id=44070&amp;utm_content=bufferd26ed&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" target="_blank">the September previous release notes</a>.
+Fortunately, the PowerShell Team is already aware of this issue and documented this behavior in <a href="https://web.archive.org/web/20140909103038/http://www.microsoft.com/en-us/download/details.aspx?id=44070&amp;utm_content=bufferd26ed&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" target="_blank">the September previous release notes</a>.
 
 
 > <b><u>Resolution:</u></b> Delete the <b>\\root\microsoft\windows\desiredstateconfiguration</b> namespace in WMI before uninstalling WMF 5.0 Experimental Release July 2014.

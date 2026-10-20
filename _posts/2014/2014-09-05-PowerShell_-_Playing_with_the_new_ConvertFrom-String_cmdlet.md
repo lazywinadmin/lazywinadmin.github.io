@@ -16,7 +16,7 @@ comments: true
 
 <a href="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Playing with the new ConvertFrom-String cmdlet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" /></a>In a previous post I talked about <a href="{{ site.url }}/2014/08/powershell-parse-this-netstatexe.html" target="_blank">parsing NetStat.exe using PowerShell and some regex</a>, It is a fun exercice but require some knowledge to figure out how the parsing should happen.
 
-Today, It got way easier ! The PowerShell Team just released a new version of the WMF : <a href="http://blogs.msdn.com/b/powershell/archive/2014/09/04/windows-management-framework-5-0-preview-september-2014-is-now-available.aspx" target="_blank">v5 September preview !</a> And One of the coolest feature is the new <b>ConvertFrom-String</b>cmdlet.
+Today, It got way easier ! The PowerShell Team just released a new version of the WMF : <a href="https://devblogs.microsoft.com/powershell/windows-management-framework-5-0-preview-september-2014-is-now-available/" target="_blank">v5 September preview !</a> And One of the coolest feature is the new <b>ConvertFrom-String</b>cmdlet.
 
 <b><u style="background-color: yellow;">EDIT (2014/10/02):</u></b> See also my post about <a href="{{ site.url }}/2014/09/powershell-convertfrom-string-and.html" target="_blank">using ConvertFrom-String and the param -TemplateFile against Netstat.exe</a>
 

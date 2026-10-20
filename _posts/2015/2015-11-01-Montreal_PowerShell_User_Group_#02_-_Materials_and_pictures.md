@@ -20,7 +20,7 @@ The Powerpoint presentations and PowerShell codes is available on the meetup gro
 
 [https://github.com/lazywinadmin/MTLPUG/tree/master/MTLPUG_02](https://github.com/lazywinadmin/MTLPUG/tree/master/MTLPUG_02)
 
-[http://www.meetup.com/MontrealPowerShellUserGroup/files/](http://www.meetup.com/MontrealPowerShellUserGroup/files/)
+[www.meetup.com/MontrealPowerShellUserGroup/files/](https://web.archive.org/web/20151107213824/http://www.meetup.com/MontrealPowerShellUserGroup/files/)
 
 
 

@@ -38,7 +38,7 @@ Cependant cette année je ne pourrais pas etre présent sur place pour different
 
 ## PowerShell Saturday c'est quoi ?
 
-* 12 présentations de speakers venant de toute l'Europe ([voir l'agenda](https://frpsug.com/powershellsat-2019/#agenda))
+* 12 présentations de speakers venant de toute l'Europe ([voir l'agenda](https://web.archive.org/web/20190822214751/https://frpsug.com/powershellsat-2019/#agenda))
 * Des Démo éclairs (lightning demos) auront lieu pendant la pause déjeuner.
 * Repas et boissons (Café de bienvenue / déjeuner / gouter)
 * T-shirt French PowerShell Saturday (ticket régulier uniquement)
@@ -51,7 +51,7 @@ Les inscriptions sur [meetup.com](https://www.meetup.com/fr-FR/FrenchPSUG/) <u>N
 
 ## Agenda, Lieu et autre détails
 
-[Voir la page dédiée](http://frpsug.com/powershellsat-2019/) sur le site du frpsug.com
+[Voir la page dédiée](https://web.archive.org/web/20190822214751/http://frpsug.com/powershellsat-2019/) sur le site du frpsug.com
 
 ## Enregistrements ?
 
@@ -98,4 +98,4 @@ Un énorme travail de fond a été fait pour organiser cet événement. Merci a 
 
 ## Besoin de plus d'information ?
 
-Utiliser le [Channel #french sur Slack.com](http://frpsug.com/slack/) et [contacter un des organisateurs du groupe](http://frpsug.com/organisateurs/).
+Utiliser le [Channel #french sur Slack.com](https://web.archive.org/web/20190822214708/http://frpsug.com/slack/) et [contacter un des organisateurs du groupe](https://web.archive.org/web/20190822214722/http://frpsug.com/organisateurs/).

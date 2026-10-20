@@ -52,7 +52,7 @@ Get-ChildItem *core*, *service* | Copy-Item -dest C:\Windows\assembly
 <a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/Smlets_register_dlls__1557911730__-896x255.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Smlets register dlls" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/Smlets_register_dlls__1557911730__-896x255.png" /></a>
 
 <b><u>Download and Install the SMlets module from the following link</u></b>:
-<a href="https://smlets.codeplex.com/">https://smlets.codeplex.com/</a>
+<a href="https://github.com/SMLets/SMLets">https://github.com/SMLets/SMLets</a>
 
 <b><u>Once installed, Edit the following file</u></b> (<b><i>make sure you do Run As Admin</i></b>)
 <span style="background-color: yellow;">C:\Program Files\Common Files\SMLets\Smlets.psm1

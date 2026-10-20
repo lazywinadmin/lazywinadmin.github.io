@@ -25,11 +25,11 @@ Pour avoir participé aux deux premiÃ¨res Ã‰ditions Nord Amérique en avril
 
 
 
-Le PowerShell Summit Europe est organisé par <a href="http://powershell.org/">PowerShell.org</a> et se tiendra <u>Ã  Amsterdam au Park HÃ´tel</u>.
+Le PowerShell Summit Europe est organisé par <a href="https://powershell.org/">PowerShell.org</a> et se tiendra <u>Ã  Amsterdam au Park HÃ´tel</u>.
 
-<b style="text-decoration: underline;">Détails</b> : <a href="http://powershell.org/wp/community-events/summit/">http://powershell.org/wp/community-events/summit/</a>
-<b style="text-decoration: underline;">Agenda</b> : <a href="http://eventmgr.azurewebsites.net/event/agenda/PSEU14">http://eventmgr.azurewebsites.net/event/agenda/PSEU14</a>
-<b><u>Inscription</u></b> : <a href="http://eventmgr.azurewebsites.net/event/home/PSEU14">http://eventmgr.azurewebsites.net/event/home/PSEU14</a>
+<b style="text-decoration: underline;">Détails</b> : <a href="https://web.archive.org/web/20140701205435/http://powershell.org/wp/community-events/summit/">web.archive.org/web/20140701205435/http://powershell.org/wp/community-events/summit/</a>
+<b style="text-decoration: underline;">Agenda</b> : <a href="https://web.archive.org/web/20140913234856/http://eventmgr.azurewebsites.net/event/agenda/PSEU14">web.archive.org/web/20140913234856/http://eventmgr.azurewebsites.net/event/agenda/PSEU14</a>
+<b><u>Inscription</u></b> : <a href="https://web.archive.org/web/20140726154019/http://eventmgr.azurewebsites.net/event/home/PSEU14">web.archive.org/web/20140726154019/http://eventmgr.azurewebsites.net/event/home/PSEU14</a>
 
 <a href="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(Fran%c3%83%c2%a7aisFrench)/KeizersgrachtReguliersgrachtAmsterdam__1887950468__-1600x1066.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="KeizersgrachtReguliersgrachtAmsterdam" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140812_PowerShell_Summit_2014_Europe_(Fran%c3%83%c2%a7aisFrench)/KeizersgrachtReguliersgrachtAmsterdam__1887950468__-1600x1066.jpg" height="213" width="320" /></a>
 

@@ -19,7 +19,7 @@ There is an 'ID' property which is misleading, it contains the number of the req
 And for some other type of objects, such as the DomainUser or Enumeration objects the GUID is the..... ID property.
 
 
-<u>Note</u>: I'm using the module SMlets, available here: <a href="https://smlets.codeplex.com/" target="_blank">https://smlets.codeplex.com/</a>
+<u>Note</u>: I'm using the module SMlets, available here: <a href="https://github.com/SMLets/SMLets" target="_blank">https://github.com/SMLets/SMLets</a>
 
 ## Getting the GUID for a WorkItem
 

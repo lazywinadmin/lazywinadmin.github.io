@@ -16,7 +16,7 @@ comments: true
 
 Join us for the <b>Montreal PowerShell User Group #03</b> meeting on the <u>Tuesday 24th of May 2016 from 6:00pm to 8:00pm</u> at the <u>Warner Brothers Games Studio.</u>
 
-<b><u>Registration:</u></b> <a href="http://meetu.ps/2XdvNQ" target="_blank">Seats are limited, please RSVP on Meetup.com</a>
+<b><u>Registration:</u></b> Seats are limited, please RSVP on Meetup.com
 
 This will be a social event, a bit different from the previous ones. We will discuss the future of the user group and gather your feedback.
 
@@ -24,7 +24,7 @@ There is no technical presentation planned but if the time permits it, you are w
 
 We plan to have some Pizza/Pop Corn!
 
-<a href="http://meetu.ps/2XdvNQ" target="_blank">More details on meetup.com</a>
+More details on meetup.com
 
 Hope to see you there!
 
@@ -57,6 +57,6 @@ We would like to thank our sponsors for their support:
 
 ### RSVP/Register and more information
 
-[http://meetu.ps/2XdvNQ](http://meetu.ps/2XdvNQ)
+Meetup.com event page (no longer online)
 
 <b><i>The meeting will not be recorded or broadcasted</i></b>

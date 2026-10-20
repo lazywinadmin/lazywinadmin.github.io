@@ -58,8 +58,8 @@ Pour trouver des issues reliées à l'événement Hacktoberfest, vous pouvez fai
 
 Deux options, Rejoindre notre chat et assister a notre meeting en ligne:
 
-* Le canal [#french sur Slack](https://frpsug.com/slack/)
-* Le [FrPSUG](https://frpsug.com) organise une rencontre en ligne pour discuter du Hacktoberfest et des differentes facons de participer. Details et inscription: [Meetup.com](https://www.meetup.com/FrenchPSUG/events/263263437/)
+* Le canal [#french sur Slack](https://web.archive.org/web/20190822214708/https://frpsug.com/slack/)
+* Le [FrPSUG](https://web.archive.org/web/20190606032016/https://frpsug.com/) organise une rencontre en ligne pour discuter du Hacktoberfest et des differentes facons de participer. Details et inscription: [Meetup.com](https://www.meetup.com/FrenchPSUG/events/263263437/)
   * (Avertissement: Pendant cette rencontre tous les écrans partagés sont enregistrés ainsi que tout ce que disent les participants)
 
 ## Code de conduite
