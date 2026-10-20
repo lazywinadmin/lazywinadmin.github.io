@@ -24,6 +24,7 @@ gallery:
   - image_path: ''
     url: ''
     title: ''
+last_modified_at: 2020-07-09
 ---
 
 **Last update:** 2020/07/09 - High level diagram of the ConfigMgr implementation

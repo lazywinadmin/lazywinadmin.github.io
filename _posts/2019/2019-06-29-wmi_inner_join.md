@@ -21,6 +21,7 @@ gallery:
     title: ''
 toc: true
 toc_label: "Table of content"
+last_modified_at: 2026-09-03
 ---
 
 ## Quick tip - How to do a JOIN between two WMI classes ?
