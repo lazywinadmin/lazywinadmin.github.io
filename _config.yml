@@ -204,6 +204,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - mcp # Cloudflare Worker (blog MCP server), not part of the site
 keep_files:
   - .git
   - .svn

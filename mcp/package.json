@@ -1,0 +1,19 @@
+{
+  "name": "lazywinadmin-blog-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only remote MCP server (Streamable HTTP) for lazywinadmin.com, as a Cloudflare Worker",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test/smoke.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.86.0"
+  }
+}
