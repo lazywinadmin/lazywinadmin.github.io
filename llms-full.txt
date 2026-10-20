@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /llms-full.txt
+sitemap: false
+---
+{%- capture nl %}
+{% endcapture -%}
+{%- capture nl2 %}{{ nl }}{{ nl }}{% endcapture -%}
+{%- capture prenl %}{{ nl }}<pre{% endcapture -%}
+{%- capture nl3 %}{{ nl }}{{ nl }}{{ nl }}{% endcapture -%}
+# {{ site.title }} (full content)
+
+> {{ site.description }}
+
+About: Blog by François-Xavier Cat covering PowerShell, Azure, Terraform, DevOps and AI platform engineering. This file follows the proposed llms.txt convention (https://llmstxt.org); the index is at {{ '/llms.txt' | absolute_url }}. It contains the plain-text content of every post, newest first.
+{% for post in site.posts %}
+---
+
+## {{ post.title | strip_html | strip_newlines }}
+
+URL: {{ post.url | absolute_url }}
+Date: {{ post.date | date: "%Y-%m-%d" }}{% if post.last_modified_at %}
+Updated: {{ post.last_modified_at | date: "%Y-%m-%d" }}{% endif %}{% if post.tags.size > 0 %}
+Tags: {{ post.tags | join: ", " }}{% endif %}
+
+{{ post.content | replace: '</p>', nl2 | replace: '<br>', nl | replace: '<br />', nl | replace: '</li>', nl | replace: '<li>', '- ' | replace: '</h2>', nl2 | replace: '</h3>', nl2 | replace: '</h4>', nl2 | replace: '<pre', prenl | replace: '</pre>', nl2 | strip_html | replace: '&lt;', '<' | replace: '&gt;', '>' | replace: '&quot;', '"' | replace: '&#39;', "'" | replace: '&amp;', '&' | replace: nl3, nl2 | replace: nl3, nl2 | replace: nl3, nl2 | replace: nl3, nl2 | strip }}
+{% endfor %}
