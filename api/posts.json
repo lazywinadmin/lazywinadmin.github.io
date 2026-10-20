@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /api/posts.json
+sitemap: false
+---
+{%- capture nl %}
+{% endcapture -%}
+{%- capture nl2 %}{{ nl }}{{ nl }}{% endcapture -%}
+{%- capture nl3 %}{{ nl }}{{ nl }}{{ nl }}{% endcapture -%}
+{%- capture prenl %}{{ nl }}<pre{% endcapture -%}
+{
+  "site": {{ site.title | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "generated": {{ site.time | date_to_xmlschema | jsonify }},
+  "count": {{ site.posts.size }},
+  "posts": [
+{%- for post in site.posts %}
+    {
+      "title": {{ post.title | strip_html | strip_newlines | jsonify }},
+      "url": {{ post.url | absolute_url | jsonify }},
+      "slug": {{ post.slug | jsonify }},
+      "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+      "last_modified_at": {% if post.last_modified_at %}{{ post.last_modified_at | date: "%Y-%m-%d" | jsonify }}{% else %}null{% endif %},
+      "tags": {{ post.tags | jsonify }},
+      "tldr": {% if post.tldr %}{{ post.tldr | jsonify }}{% else %}null{% endif %},
+      "excerpt": {{ post.excerpt | strip_html | normalize_whitespace | strip | jsonify }},
+      "content": {{ post.content | replace: '</p>', nl2 | replace: '<br>', nl | replace: '<br />', nl | replace: '</li>', nl | replace: '<li>', '- ' | replace: '</h2>', nl2 | replace: '</h3>', nl2 | replace: '</h4>', nl2 | replace: '<pre', prenl | replace: '</pre>', nl2 | strip_html | replace: '&lt;', '<' | replace: '&gt;', '>' | replace: '&quot;', '"' | replace: '&#39;', "'" | replace: '&amp;', '&' | replace: nl3, nl2 | replace: nl3, nl2 | replace: nl3, nl2 | replace: nl3, nl2 | strip | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+  ]
+}
