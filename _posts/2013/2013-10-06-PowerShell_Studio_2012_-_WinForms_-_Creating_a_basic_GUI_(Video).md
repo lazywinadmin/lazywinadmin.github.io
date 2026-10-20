@@ -10,6 +10,7 @@ tags:
 - video
 published: true
 comments: true
+tldr: "A video and step-by-step demo of building a basic WinForms GUI in SAPIEN PowerShell Studio 2012. It adds buttons and a RichTextBox, then wires button events that write into the text box. The post grew out of reader questions about the LazyWinAdmin 0.4 GUI tool."
 ---
 <div class="separator" style="clear: both; text-align: left;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" /></a>The following post will demo how to create a basic Graphical User Interface with SAPIEN PowerShell Studio 2012.
 

@@ -13,6 +13,7 @@ tags:
 - windows server
 published: true
 comments: true
+tldr: "Uses the PowerShell iSCSI modules on Windows Server 2012 to replace FreeNAS as the iSCSI storage for a VMware vSphere 5.1 home lab. It covers iSCSI terminology, installing the iSCSI Target Server feature, creating an iSCSI virtual disk (LUN), creating a target for one or more initiators, finding the initiator IQN with the vSphere Client or PowerCLI, and mapping the LUN to the target."
 ---
 <a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/Ethernet-Cable-icon__744673510__-256x256.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Ethernet Cable icon" loading="lazy" decoding="async" border="0" height="110" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/Ethernet-Cable-icon__1284204291__-200x200.png" width="110" /></a>For my Virtual Machines needs, some LUNS are presented to my VMware vSphere 5.1 Servers and until now,<a href="{% post_url 2012/2012-12-07-My_Home_Lab_! %}">my lab</a>storage was handle by<a href="{{ site.url }}/2012/12/freenas-83-creating-raid-volume-and.html" target="_blank">FreeNas using iSCSI</a>.
 For tests purposes, I replaced this FreeNas by Windows Server 2012 to take care of that part.

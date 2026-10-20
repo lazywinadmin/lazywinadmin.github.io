@@ -11,6 +11,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "The follow-up to the missing-subnets report. It adds Active Directory site subnets with an ADSI-based PowerShell function that takes Subnet, SiteName, Description and Location, and works on Windows Server 2003 and later with PowerShell 2.0 or later. The post covers Windows Server 2012 and earlier versions, and the code and a CSV example are on GitHub."
 ---
 ![image-left](/images/2013/20131110_PowerShell_-_Add_AD_Site_Subnet/Add_subnet2__1291922575__-142x124.png){: .align-left} Last month I posted [a script that report the Missing Subnets](/2013/10/powershell-report-ad-missing-subnets.html) from the Active Directory. The script goes on each Domain Controllers and get the last x entries from the NETLOGON.log file.
 Once this report is generated, you might want to check with your Telecom guy/team to get the correct network mask, correct site of each entries and fix this situation.

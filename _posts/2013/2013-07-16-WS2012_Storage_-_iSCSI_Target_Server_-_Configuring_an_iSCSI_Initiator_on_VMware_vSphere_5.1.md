@@ -13,6 +13,7 @@ tags:
 - windows server
 published: true
 comments: true
+tldr: "The follow-up to creating an iSCSI target on Windows Server 2012. It uses PowerCLI to turn on the VMware vSphere 5.1 software iSCSI adapter, add the iSCSI target address, rescan the HBAs and datastores, and create a datastore on the LUN."
 ---
 
 <a href="{{ site.url }}/images/2013/20130716_WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5.1/1374031693_data-center-px-png__1670533526__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130716_WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5.1/1374031693_data-center-px-png__1670533526__-128x128.png" /></a>I recently switched the backend storage of my VMware vSphere 5.1 Home Lab from FreeNas (OS based on UNIX) to iSCSI (Windows Server 2012 Storage Feature). The reason is that I wanted to play with the PowerShell iSCSI modules and do some tests with SMB v3.0.

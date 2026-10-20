@@ -11,6 +11,7 @@ tags:
 - powershell
 published: true
 comments: true
+tldr: "A small Get-DomainUser function that uses the [adsisearcher] type accelerator to find Active Directory users by DisplayName (wildcards work) and return their username and description, without needing RSAT. The post then explores the DirectorySearcher object behind the accelerator."
 ---
 <a href="{{ site.url }}/images/2013/20131016_PowerShell_-_Get-DomainUser/1381983944_hand_driller__1606067665__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="1381983944 hand driller" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20131016_PowerShell_-_Get-DomainUser/1381983944_hand_driller__1606067665__-128x128.png" /></a>Today one of my IT coworkers, in another department, sent a couple of emails to the Ops to get the username (SamAccount) from a couple of Active Directory users accounts. This guy, which is not familiar with AD, had only the DisplayName properties information.
 

@@ -13,6 +13,7 @@ published: true
 comments: true
 toc: true
 toc_sticky: true
+tldr: "Version 1.6 of the script that monitors Active Directory group membership and emails a report only when something changes. It adds support for organizational units (SearchRoot, SearchScope, GroupScope, GroupType), for reading the groups to monitor from a file, and updated parameter sets. The latest version is on GitHub."
 ---
 **Update** The most recent update is available [on Github](https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip)
 {: .notice}

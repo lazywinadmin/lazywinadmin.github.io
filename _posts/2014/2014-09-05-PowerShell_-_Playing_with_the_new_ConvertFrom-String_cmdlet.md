@@ -12,6 +12,7 @@ tags:
 - regex
 published: true
 comments: true
+tldr: "A first look at ConvertFrom-String from the WMF 5.0 September 2014 preview, used to parse netstat.exe -n output. It splits on whitespace by default, names the columns with -PropertyNames, and removes leading spaces with -replace '^\\s+'. The post is based on pre-release software."
 ---
 
 <a href="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Playing with the new ConvertFrom-String cmdlet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" /></a>In a previous post I talked about <a href="{{ site.url }}/2014/08/powershell-parse-this-netstatexe.html" target="_blank">parsing NetStat.exe using PowerShell and some regex</a>, It is a fun exercice but require some knowledge to figure out how the parsing should happen.

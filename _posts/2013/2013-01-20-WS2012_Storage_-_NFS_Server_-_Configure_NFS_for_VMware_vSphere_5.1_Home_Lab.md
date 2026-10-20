@@ -12,6 +12,7 @@ tags:
 - windows server
 published: true
 comments: true
+tldr: "Sets up a Windows Server 2012 NFS server as backend storage for a VMware vSphere 5.1 home lab. It covers both PowerShell (Add-WindowsFeature FS-NFS-Service) and the GUI: adding the Server for NFS role, creating the share, setting the NFS permissions, and adding the NFS datastore in vSphere."
 ---
 
 <a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/1374031693_data-center-px-png__1246874727__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Image from the post &quot;WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/1374031693_data-center-px-png__1246874727__-128x128.png" /></a>The following procedure show how to setup aNFS Server hosted on <u>Windows Server 2012</u> forbackend storage of my<a href="{% post_url 2012/2012-12-07-My_Home_Lab_! %}">VMware vSphere Server 5.1 Home Lab</a>.
