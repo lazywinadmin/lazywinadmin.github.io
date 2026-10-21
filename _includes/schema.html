@@ -1,16 +1,19 @@
 <script type="application/ld+json">
+{% if site.social.type == "Organization" -%}
 {
   "@context": "https://schema.org",
-  {% if site.social.type == "Organization" -%}
-    "@type": "Organization",
-    "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
-    "logo": {{ site_og_image | jsonify }}{% endif %}{% if site.social.links %},
-    "sameAs": {{ site.social.links | jsonify }}{% endif %}
-  {%- else -%}
-    "@type": "Person",
-    "name": {{ site.social.name | default: site.name | jsonify }},
-    "url": {{ '/' | absolute_url | jsonify }}{% if site.social.links %},
-    "sameAs": {{ site.social.links | jsonify }}{% endif %}
-  {%- endif %}
+  "@type": "Organization",
+  "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
+  "logo": {{ site.og_image | absolute_url | jsonify }}{% endif %}{% if site.social.links %},
+  "sameAs": {{ site.social.links | jsonify }}{% endif %}
 }
+{%- else -%}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% include jsonld-person.html %},
+    { "@type": "WebSite", "@id": {{ '/#website' | absolute_url | jsonify }}, "name": {{ site.title | jsonify }}, "description": {{ site.description | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}, "inLanguage": {{ site.locale | default: "en" | jsonify }}, "author": { "@id": {{ '/about.html#person' | absolute_url | jsonify }} }, "publisher": { "@id": {{ '/about.html#person' | absolute_url | jsonify }} } }
+  ]
+}
+{%- endif %}
 </script>
