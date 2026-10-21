@@ -8,7 +8,7 @@
   "description": {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 200 | jsonify }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
-  "author": { "@type": "Person", "name": "François-Xavier Cat", "url": {{ site.url | append: '/about.html' | jsonify }} },
+  "author": {% include jsonld-person.html %},
   "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "logo": { "@type": "ImageObject", "url": {{ site.logo | absolute_url | jsonify }} } },
   "image": {{ ld_image | absolute_url | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},

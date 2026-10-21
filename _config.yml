@@ -97,9 +97,13 @@ og_image                 : "/assets/images/og-default.png" # Open Graph/Twitter 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "François-Xavier Cat" # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles (JSON-LD sameAs; keep in sync with author.links)
+    - "https://github.com/lazywinadmin"
+    - "https://x.com/lazywinadmin"
+    - "https://www.linkedin.com/in/fxcat/"
+    - "https://lazywinadmin.com/cv/"
 
 # Analytics
 analytics:
@@ -114,6 +118,7 @@ author:
   name             : "François-Xavier Cat"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Staff Engineer, AI Platform Engineering"
+  job_title        : "Staff Engineer, AI Platform Engineering" # used in JSON-LD Person.jobTitle (matches the CV)
   location         : "Colorado"
   email            :
   links:
@@ -129,9 +134,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lazywinadmin"
-    - label: "Linkedin"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/fxcat/"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/cv/"
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
       url: "/feed.xml"
@@ -142,9 +150,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/lazywinadmin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/fxcat/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
