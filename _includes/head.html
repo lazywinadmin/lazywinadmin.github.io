@@ -32,8 +32,10 @@
   })();
 </script>
 {% if page.header.overlay_image %}<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" fetchpriority="high">{% elsif page.header.image %}<link rel="preload" as="image" href="{{ page.header.image | relative_url }}" fetchpriority="high">{% endif %}
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"></noscript>
+<!-- Font Awesome Free 6.7.2 subset (icons used by the site only), self-hosted. Rebuild: .github/fontawesome-subset/README.md -->
+<link rel="preload" href="{{ '/assets/fonts/fontawesome/fa-solid-900.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/fontawesome/fa-brands-400.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/fontawesome-subset.css' | relative_url }}">
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
