@@ -25,7 +25,9 @@ Here are a few methods that I found useful for Blogger: (those can probably be a
 
 
 <u>Preview:</u>
-<pre class="brush: powershell;collapse:false;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Get the list of command with 'Get'
+
+```powershell
+# Get the list of command with 'Get'
 Get-Command -Verb Get
 # Get the list of service with dependent services
 Get-service -DependentServices
@@ -50,7 +52,8 @@ $Params = @{
 
 * Find the </head> tag and insert the following lines just before and save it:
 
-<pre class="brush: css;collapse:false;toolbar:false; ruler: true; first-line: 1;gutter: true;"><link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css"></link>
+```html
+<link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css"></link>
 <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css"></link>
 <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript">
 <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPowerShell.js' type='text/javascript'/>
@@ -83,7 +86,8 @@ The above example is for PowerShell hence the "brush:powershell". <a href="http:
 
 would give the following output:
 
-<pre class="brush: powershell;collapse:false;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-Process
+```powershell
+Get-Process
 ```
 
 
@@ -94,7 +98,8 @@ Double click anywhere inside the code window and use Ctrl+C to copy it.
 <u>Tips - Adjusting the font size</u>
 The initial font size was a bit too big for me, so I did the following changes in the HTML configuration to make it smaller (<span style="background-color: #cccccc;">see highlighted lines)
 
-<pre class="brush: css;collapse:false;highlight:[8,9,10,11,14];toolbar:false; ruler: true; first-line: 1;gutter: true;"><link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css"></link>
+```html
+<link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css"></link>
 <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript">
 <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPowerShell.js' type='text/javascript'/>
 <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCSharp.js' type='text/javascript'/>
@@ -156,7 +161,7 @@ Select your code and right click, select Copy HTML.
 <a href="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-10-57_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Blogger - Adding PowerShell code in your blog post&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-10-57_PM.png" /></a>
 Now you are ready to insert the HTML code in your blog post.
 <a href="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-13-49_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Blogger - Adding PowerShell code in your blog post&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-13-49_PM.png" /></a>
-<div class="separator" style="clear: both; text-align: left;">Back to "COMPOSE" you can see the html is translated<a href="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-15-28_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Blogger - Adding PowerShell code in your blog post&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-15-28_PM.png" /></a>
+<div class="separator" style="clear: both; text-align: left;">Back to "COMPOSE" you can see the html is translated<a href="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-15-28_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Blogger - Adding PowerShell code in your blog post&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/Blogger_-_Adding_PowerShell_code_in_your_blog_post/2013-10-06_12-15-28_PM.png" /></a></div>
 
 
 
@@ -234,7 +239,8 @@ PS C:\Users\Xavier>
 
 <u>CSS Code</u>
 
-<pre class="brush: css;collapse:false;toolbar:false; ruler: true; first-line: 1;gutter: true;">.PoshConsole {
+```css
+.PoshConsole {
   color: #EEEDF0;
   background-color: #012456;
   font-family: consolas;

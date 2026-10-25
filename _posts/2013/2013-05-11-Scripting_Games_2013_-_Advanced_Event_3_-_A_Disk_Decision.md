@@ -34,10 +34,13 @@ Download (link no longer available) [SkyDrive]
 We'll have to use WMI/CIM to get this information on the remote computers.
 To find which class to use, I typed the following commands:
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimClass *disk*
+```powershell
+Get-CimClass *disk*
 
 ```
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimClass *disk* -PropertyName *size*
+
+```powershell
+Get-CimClass *disk* -PropertyName *size*
 ```
 
 
@@ -47,7 +50,8 @@ To find which class to use, I typed the following commands:
 Since we just want the logical disk information, here we can use Win32_LogicalDisk or CIM_LogicalDisk
 
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimInstance -ClassName Win32_LogicalDisk
+```powershell
+Get-CimInstance -ClassName Win32_LogicalDisk
 
 ```
 
@@ -55,20 +59,23 @@ Since we just want the logical disk information, here we can use Win32_LogicalDi
 <a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk__316438210__-1013x269.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Win32 logicalDisk" border="0" height="168" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk__86458016__-640x170.png" width="640" /></a>
 Note that FileSystem disk has the "Drive Type" = '3'. We will want to filter our query on this property.
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimInstance -ClassName Win32_LogicalDisk -filter "DriveType = '3'"
+```powershell
+Get-CimInstance -ClassName Win32_LogicalDisk -filter "DriveType = '3'"
 ```
 
 <a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_filter__1682305068__-884x69.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Win32 logicalDisk filter" loading="lazy" decoding="async" border="0" height="49" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_filter__1736385386__-640x50.png" width="640" /></a>
 Now we don't need all the extra properties so we can add an extra filter using the parameter "-Property"
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-CimInstance -ClassName Win32_LogicalDisk -filter "DriveType = '3'" -property DeviceId, Size, Freespace
+```powershell
+Get-CimInstance -ClassName Win32_LogicalDisk -filter "DriveType = '3'" -property DeviceId, Size, Freespace
 ```
 
 <a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_property__1423735931__-899x675.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Win32 logicalDisk property" border="0" height="480" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_property__587499439__-640x481.png" width="640" /></a>
 
 Actually, while writing this post I wassurprised to see that using the Property Parameter is actually slower than using the Pipeline and sending the output to Select-Object...!!
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">(Measure-Command {Get-CimInstance -ClassName Win32_logicaldisk -filter "DriveType = '3'" -Property DeviceID,Size,Freespace}).milliseconds
+```powershell
+(Measure-Command {Get-CimInstance -ClassName Win32_logicaldisk -filter "DriveType = '3'" -Property DeviceID,Size,Freespace}).milliseconds
 (Measure-Command {Get-CimInstance -ClassName Win32_logicaldisk -filter "DriveType = '3'" | select-object -property DeviceID,Size,Freespace}).milliseconds
 
 ```
@@ -91,7 +98,8 @@ I decided to use CIMSession since I did not get to work with those that much sin
 At the PowerShell Summit I learned that CIMSession uses WSMan by default. However you can also specify to CIMSession to use the protocol DCOM using the Cmdlet <a href="http://technet.microsoft.com/en-us/library/jj590764(v=wps.620).aspx" target="_blank">New-CimSessionOption</a>
 I liked the approach of<a class="g-profile" href="http://plus.google.com/110276222213807732733" target="_blank">+Mike Robbins</a>on this in the Event 2 for this part and I decided to do my own from it.
 
-<pre class="brush: powershell;toolbar:false;highlight: [2, 11, 15, 18, 28];ruler: true; first-line: 1;gutter: true;"># Building Splatting for CIM Sessions
+```powershell
+# Building Splatting for CIM Sessions
 $CIMSessionParams = @{
     ComputerName  = $Computer
     ErrorAction   = 'Stop'
@@ -141,7 +149,8 @@ In the scenario they request to have only 3 properties DRIVE which is the Device
 
 <a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/formatting__678769728__-523x237.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="formatting" border="0" height="289" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/formatting__2130112522__-523x237.png" width="640" /></a>
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">$Report = $LogicalDiskInfo | Select-Object @{Label="Drive";Expression={$_.DeviceID}},
+```powershell
+$Report = $LogicalDiskInfo | Select-Object @{Label="Drive";Expression={$_.DeviceID}},
     @{Label="Size(GB)";Expression={"{0:N2}" -f ($_.Size/1GB)}},
     @{Label="FreeSpace(MB)";Expression={"{0:N2}" -f ($_.FreeSpace/1MB)}}| 
     ConvertTo-Html -Fragment
@@ -163,7 +172,8 @@ Finally there are some requirements for the HTML Report:
 
 
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Building Splatting for the HTML Report Sessions
+```powershell
+# Building Splatting for the HTML Report Sessions
 $HTMLParams = @{
     Head  = "<title>Disk Free Space Report</title><h2>$Computer - Local Fixed Disk Report</h2>"
     As    = "Table"

@@ -97,7 +97,8 @@ I found some nice resources here: <a href="http://www.selfadsi.org/user-attribut
 <u>Installation</u>
 The Active Directory module can be installed as part of the RSAT feature from Windows 7 and 2008 R2 server (or by default, with the AD DS or AD LDS server roles.)
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Import-Module ServerManager
+```powershell
+Import-Module ServerManager
 Add-WindowsFeature RSAT-AD-Tools
 
 ```
@@ -105,7 +106,8 @@ Add-WindowsFeature RSAT-AD-Tools
 <u>Loading the module</u>
 After the reboot, Load the Active Directory module from Windows Powershell using
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Import-Module ActiveDirectory
+```powershell
+Import-Module ActiveDirectory
 
 ```
 
@@ -113,20 +115,26 @@ After the reboot, Load the Active Directory module from Windows Powershell using
 </b><b>Finding Active Directory User accounts</b>
 <b>
 </b>
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Find the command available to manage AD user accounts
+
+```powershell
+# Find the command available to manage AD user accounts
 Get-Command *user* -Module ActiveDirectory
 
 ```
 
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" /></a>
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Show the standard output of Get-ADUser
+
+```powershell
+# Show the standard output of Get-ADUser
 Get-ADUser -filter *
 
 ```
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter__1118658123__-542x374.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADUser Filter" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter__1118658123__-542x374.png" /></a>
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Using Get-Member we see that not all the properties are returned
+
+```powershell
+# Using Get-Member we see that not all the properties are returned
 Get-ADUser -filter * | Get-Member
 ```
 
@@ -135,9 +143,11 @@ Get-ADUser -filter * | Get-Member
 <span style="background-color: white;"><u>Why are we only seeing a few properties here ? :-/</u>
 
 The documentation on Technet about<a href="http://technet.microsoft.com/en-us/library/ee617241.aspx" target="_blank">Get-ADUser</a>specify the following:
-<blockquote class="tr_bq"><i>This cmdlet retrieves a default set of user object properties. <span style="background-color: #fff2cc;">To retrieve additional properties use the Properties parameter. For more information about the how to determine the properties for user objects, see the Properties parameter description.</i></blockquote>Properties parameter description:
-<blockquote class="tr_bq"><i><b>Properties</b></i></blockquote><blockquote class="tr_bq"><i>Specifies the properties of the output object to retrieve from the server. Use this parameter to retrieve properties that are not included in the default set.</i></blockquote><blockquote class="tr_bq"><i>Specify properties for this parameter as a comma-separated list of names. <span style="background-color: #fff2cc;">To display all of the attributes that are set on the object, specify * (asterisk).</i></blockquote>
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;"># Using the parameter properties with an asterisk
+<blockquote class="tr_bq"><i>This cmdlet retrieves a default set of user object properties. <span style="background-color: #fff2cc;">To retrieve additional properties use the Properties parameter. For more information about the how to determine the properties for user objects, see the Properties parameter description.</span></i></blockquote>Properties parameter description:
+<blockquote class="tr_bq"><i><b>Properties</b></i></blockquote><blockquote class="tr_bq"><i>Specifies the properties of the output object to retrieve from the server. Use this parameter to retrieve properties that are not included in the default set.</i></blockquote><blockquote class="tr_bq"><i>Specify properties for this parameter as a comma-separated list of names. <span style="background-color: #fff2cc;">To display all of the attributes that are set on the object, specify * (asterisk).</span></i></blockquote>
+
+```powershell
+# Using the parameter properties with an asterisk
 Get-ADUser -identify admcatfx -properties *
 ```
 
@@ -152,8 +162,10 @@ From the default output, only UserName (via"<span style="font-family: Courier Ne
 <span style="background-color: yellow; font-family: Courier New, Courier, monospace;">Enabled
 <span style="background-color: yellow; font-family: Courier New, Courier, monospace;">LockedOut
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,passwordlastset,lockedout
+```powershell
+Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,passwordlastset,lockedout
 ```
+
 <i>
 </i>
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Properties__1360629870__-846x263.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Properties" border="0" height="198" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Properties__1699177367__-640x199.png" width="640" /></a>
@@ -168,7 +180,9 @@ PowerShell comes with a Cmdlet called <span style="font-family: Courier New, Cou
 Check more information here<a href="http://technet.microsoft.com/en-us/library/ff730929.aspx" target="_blank">Get-Random (TechNet)</a>and <a href="http://blogs.msdn.com/b/powershell/archive/2008/04/27/get-random.aspx" target="_blank">PowerShell Team Blog</a>.
 
 This is exactly what I need!
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-ADUser -filter * | Get-Random -Count 5 
+
+```powershell
+Get-ADUser -filter * | Get-Random -Count 5 
 ```
 
 
@@ -187,7 +201,6 @@ I like to build my function that way.
 ```
 <u style="font-family: 'Times New Roman'; white-space: normal;">
 </u>
-```
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function explained" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" /></a>
 Help about <a href="http://technet.microsoft.com/en-us/library/hh847766.aspx" target="_blank">Throw</a> and <a href="http://technet.microsoft.com/en-us/library/hh847793.aspx" target="_blank">Try/Catch/Finally</a>
 Article about Error Handling<a href="http://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell" target="_blank">here</a>.
@@ -196,8 +209,11 @@ Article about Error Handling<a href="http://www.vexasoft.com/blogs/powershell/72
 <b>What I missed ?</b>
 
 <u>Check if Active Directory module is installed</u>, I should add the following line
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">#Requires -Modules ActiveDirectory
+
+```powershell
+#Requires -Modules ActiveDirectory
 ```
+
 <u>
 </u><u>Out-File Error Handling</u>
 I got some comments on the fact that I did not put Error Handling on the Out-File Cmdlet, which is part of the error handling itself in my script...<span style="background-color: yellow;"><u>see below the part Highlighted</u>
@@ -262,7 +278,8 @@ CATCH{
 
 <b>Script</b>
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">#requires -Version 3
+```powershell
+#requires -Version 3
 
 function Get-ADUserAudit {
 <#

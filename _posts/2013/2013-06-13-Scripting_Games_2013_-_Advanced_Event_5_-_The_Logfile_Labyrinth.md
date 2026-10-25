@@ -58,7 +58,7 @@ In my script I only focused on the W3C format, but here is the list of formats s
 <ul style="color: #666666; font-family: Calibri, 'Lucida Sans Unicode', Arial, sans-serif; font-size: 16px; line-height: 18px; list-style-image: initial; list-style-position: initial; margin: 0px 0px 9px 25px; padding: 0px;">
 * <b>Centralized Binary Logging</b>– Centralized binary logging is used when multiple web sites running on a server to write binary, unformatted log data to a single log file. Each web server running IIS creates one log file for all sites on that server. The IIS writes log files in binary format and uses a single file there by making it memory efficient. This type of logging is not supported at web site level.
 <ul style="color: #666666; font-family: Calibri, 'Lucida Sans Unicode', Arial, sans-serif; font-size: 16px; line-height: 18px; list-style-image: initial; list-style-position: initial; margin: 0px 0px 9px 25px; padding: 0px;">
-* <b>ODBC log file format</b>– This method is used when you want to log access information directly to a database. Enabling ODBC logging will disable the kernel-mode cache so this may affect the server performance. Only supported at site level.
+* <b>ODBC log file format</b>– This method is used when you want to log access information directly to a database. Enabling ODBC logging will disable the kernel-mode cache so this may affect the server performance. Only supported at site level.</ul></ul></ul></ul></ul>
 </blockquote><blockquote class="tr_bq"><u>Source:</u>[http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/](http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/)</blockquote>
 <b>Header</b>
 The header of the W3C Log format stats by the "#fields: " pattern.
@@ -66,7 +66,8 @@ Let's use that to find our properties.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="W3C IISlog format" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">IIS Log - W3C Format</td></tr></tbody></table>
 Using<span style="font-family: Courier New, Courier, monospace;"> Select-String, I find the line with the pattern '<span style="font-family: Courier New, Courier, monospace;">#fields: '. Then I use the <span style="font-family: Courier New, Courier, monospace;">SubString() Method to get the rest of the line. Finally I use <span style="font-family: Courier New, Courier, monospace;">-split to have all my different property names.
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">((Select-String -path .\W3SVC1\u_ex120420.log -Pattern "#fields: " | 
+```powershell
+((Select-String -path .\W3SVC1\u_ex120420.log -Pattern "#fields: " | 
  Select-Object -First 1).line.Substring("#Fields: ".Length) -split ' ')
 ```
 
@@ -78,7 +79,8 @@ That's super lazy since this Cmdlet already has a "<span style="font-family: Cou
 
 In the following code, I use Import-Csv with the header previously determined and delimite the data on white space ' '. I also ignore any lines starting by "#"
 
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">$header = ((Select-String -path .\W3SVC1\u_ex120420.log -Pattern "#fields: " | 
+```powershell
+$header = ((Select-String -path .\W3SVC1\u_ex120420.log -Pattern "#fields: " | 
  Select-Object -First 1).line.Substring("#Fields: ".Length) -split ' ')
 
 Import-Csv '.\W3SVC1\u_ex120420.log' -Header $header -Delimiter ' ' | 
@@ -95,10 +97,13 @@ Check-out the references below,<b>Emin Atac </b>did an awesome work on this even
 <b>Processing the final Data</b>
 <a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output__1959247186__-683x254.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="final output" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output__1959247186__-683x254.png" /></a>
 <b>Outputting</b>
-<pre class="brush: powershell;toolbar:false; ruler: true; first-line: 1;gutter: true;">Get-IISLogClientIPAddress -Path .\ -Pattern *55.2*
+
+```powershell
+Get-IISLogClientIPAddress -Path .\ -Pattern *55.2*
 Get-IISLogClientIPAddress -Path .\
 
 ```
+
 <b>
 </b>
 <a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output2__243605261__-581x342.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="final output2" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/final_output2__243605261__-581x342.png" /></a>
