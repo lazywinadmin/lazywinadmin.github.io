@@ -45,7 +45,7 @@ Here is a representation of the setup with Disqus widget:
 1. Github re-generated the static site for me at each commit
 1. The Disqus widget is loaded in the browser when a user browse the page and this shows the comments for the current blog post url.
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Disqus.png){: .align-center}
+![Diagram of the previous setup: GitHub Pages generates the site from the repository, and a Disqus widget in the browser loads the comments matching the page URL](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Disqus.png){: .align-center}
 
 ## Moving my blog comments
 
@@ -630,11 +630,11 @@ Now what does the final result looks like, here are the two perspectives:
 
 If you look at a blog article, now it will look like this:
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/blogpost01.png){: .align-center}
+![Blog post comment section using the Utterances widget, with two imported comments and a sign-in box](/images/2019/2019-04-07-moving_blog_comments/blogpost01.png){: .align-center}
 
 You also have a link that send you directly to the Github issue item related to the Blogpost
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues03.png){: .align-center}
+![Comments link of a blog post reading 11 Comments - powered by utteranc.es, with an arrow labelled Github issue link, above a reader comment](/images/2019/2019-04-07-moving_blog_comments/githubissues03.png){: .align-center}
 
 ### Github Issues
 
@@ -642,8 +642,8 @@ On the Github side, it will just look like a regular issue. Note that the title 
 
 List of issues related to blog posts:
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues01.png){: .align-center}
+![GitHub issues list of closed issues labelled blog comments, each titled with a blog post path](/images/2019/2019-04-07-moving_blog_comments/githubissues01.png){: .align-center}
 
 Comments for a particular blog post:
 
-![image-center](/images/2019/2019-04-07-moving_blog_comments/githubissues02.png){: .align-center}
+![GitHub issue 260 for the MVPModule-AddingMyContributions post, showing its imported comments](/images/2019/2019-04-07-moving_blog_comments/githubissues02.png){: .align-center}

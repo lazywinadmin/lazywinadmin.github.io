@@ -45,7 +45,7 @@ Here is a replay of the launch:
 
 <br>
 
-![image-center](/images/2018/2018-02-05-SpaceX_Module/falcon-heavy-rocket-hangar-cape-canaveral-spacex-elon-musk-twitter-rotated.jpg){: loading="lazy" decoding="async"}
+![Three white SpaceX Falcon Heavy rocket cores lying side by side in a hangar, seen from above](/images/2018/2018-02-05-SpaceX_Module/falcon-heavy-rocket-hangar-cape-canaveral-spacex-elon-musk-twitter-rotated.jpg){: .align-center loading="lazy" decoding="async"}
 
 ## Install the module
 

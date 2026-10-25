@@ -15,19 +15,19 @@ categories:
 
 When you create new Organizational Units in Active Directory Users And Computers (ADUC) in Server 2008 (or with RSAT on 2003 domains), ADUC gives you the option to protect the OU from accidental deletion.
 
-![image-center]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/ou_thumb_43BA9F4B__774877284__-426x363.png){: .align-center}
+![New Object - Organizational Unit dialog in ADUC with the Protect container from accidental deletion box checked]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/ou_thumb_43BA9F4B__774877284__-426x363.png){: .align-center}
 
 When this option is selected, ADUC updates the security descriptor of the object and, potentially, its parent, with Deny ACE for the Everyone domain group, which denies all administrators or users of this domain and domain controller the ability to delete this object.
 
-![image-center]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/deny_thumb_6B316BB5__1853938117__-583x161.png){: .align-center}
+![Advanced Security Settings for OUTest showing a Deny permission entry for Everyone]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/deny_thumb_6B316BB5__1853938117__-583x161.png){: .align-center}
 
 **Note:** This setting does not provide protection against accidental deletion of a subtree that contains the protected object. Therefore, it is recommend that you enable this setting for all the protected object's containers up to the domain naming context head. If you try to delete the OU you'll get the following dialog:
 
-![image-center]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/outest_thumb_683C0702__756729131__-447x160.png){: .align-center}
+![Active Directory Domain Services error saying you do not have sufficient privileges to delete OUTest, or the object is protected from accidental deletion]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/outest_thumb_683C0702__756729131__-447x160.png){: .align-center}
 
 To unprotect a container uncheck the value from the object's *Object* tab in ADUC. The *Object* tab is visible only when*Advanced Features *is selected on the *View* menu.
 
-![image-center]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/object_thumb_5A894AFA__1822522698__-384x426.png){: .align-center}
+![OUTest Properties dialog, Object tab, with Protect object from accidental deletion checked]({{ site.url }}/images/2011/20110124_Protecting_OU_from_accidental_deletion/object_thumb_5A894AFA__1822522698__-384x426.png){: .align-center}
 
 With [PowerShell](http://www.microsoft.com/powershell) and [Quest AD cmdlets](http://www.quest.com/powershell/activeroles-server.aspx) we can enable or disable OU protection with a single line of code!
 
