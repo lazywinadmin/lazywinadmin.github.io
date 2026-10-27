@@ -18,7 +18,7 @@ Here is my [HomeLab]({% post_url 2012/2012-12-07-My_Home_Lab_! %}) configuration
 
 ## What is DirectPath IO ?
 
-![image-center](/images/2013/20130117_DirectPath_IO_supported_with_ASUS_M5A97_R2.0AMD_FX-8350/3785268304_1ba845523e__879896625__-300x479.jpg){: .align-center}
+![Diagram of DirectPath I/O: the operating system is connected directly to the I/O device through the I/O MMU, next to the virtualization layer](/images/2013/20130117_DirectPath_IO_supported_with_ASUS_M5A97_R2.0AMD_FX-8350/3785268304_1ba845523e__879896625__-300x479.jpg){: .align-center}
 
 ## How to configure it with an ASUS M5A97 R2.0
 
@@ -26,10 +26,10 @@ Here is my [HomeLab]({% post_url 2012/2012-12-07-My_Home_Lab_! %}) configuration
 1. Under North Bridge Configuration
 1. `IOMMU` is set to "Disabled" by default, set it to "Enabled"
 
-![image-center](/images/2013/20130117_DirectPath_IO_supported_with_ASUS_M5A97_R2.0AMD_FX-8350/1-17-2013 10-26-22 PM__975122703__-640x278.png){: .align-center}
+![ASUS UEFI BIOS Utility, North Bridge Configuration, with IOMMU Mode set to Disabled](/images/2013/20130117_DirectPath_IO_supported_with_ASUS_M5A97_R2.0AMD_FX-8350/1-17-2013 10-26-22 PM__975122703__-640x278.png){: .align-center}
 
 Now save the configuration and boot under ESXi.
 
 And you're done :slightly_smiling_face:
 
-![image-center](/images/2013/20130117_DirectPath_IO_supported_with_ASUS_M5A97_R2.0AMD_FX-8350/DirectPathIO__17619342__-673x106.png){: .align-center}
+![vSphere client showing DirectPath I/O: Supported](/images/2013/20130117_DirectPath_IO_supported_with_ASUS_M5A97_R2.0AMD_FX-8350/DirectPathIO__17619342__-673x106.png){: .align-center}

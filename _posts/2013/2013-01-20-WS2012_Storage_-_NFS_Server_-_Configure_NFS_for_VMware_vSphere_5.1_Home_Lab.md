@@ -103,7 +103,7 @@ New-Datastore `
   -path $NFSSharename
 ```
 
-![image-center](/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell02__1916855805__-677x283.png){: .align-center}
+![VMware vSphere PowerCLI session running Get-VMHost piped to Get-Datastore, then New-Datastore -Nfs to mount an NFS datastore from FILESERVER01](/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell02__1916855805__-677x283.png){: .align-center}
 
 ### Using the User Interface
 

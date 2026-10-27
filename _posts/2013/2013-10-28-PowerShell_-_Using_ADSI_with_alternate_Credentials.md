@@ -16,7 +16,7 @@ toc: true
 tldr: "Shows how to query Active Directory through ADSI with alternate credentials. It builds a DirectorySearcher (in the example, group objects limited to 50 results) with a DirectoryEntry created from the domain path and the username and password from Get-Credential."
 ---
 
-![image-center]({{ site.url }}/images/2013/20131028_PowerShell_-_Using_ADSI_with_alternate_Credentials/022__2014673127__-128x128.png){: .align-center}
+![Icon of a user ID card next to a gear]({{ site.url }}/images/2013/20131028_PowerShell_-_Using_ADSI_with_alternate_Credentials/022__2014673127__-128x128.png){: .align-center}
 
 The following PowerShell code will show you how to run ADSI with alternate credentials to get information from the Active Directory.
 
@@ -115,15 +115,15 @@ LDAP://CN=Test Jonathan Group,CN=Users,DC=FX,D... {usnchanged, distinguishedname
 
 The key here to pass the credentials is the .NET Class [System.DirectoryServices.DirectoryEntry](http://msdn.microsoft.com/en-us/library/system.directoryservices.directoryentry.aspx)
 
-![image-center]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-33-37_PM.png){: .align-center}
+![MSDN page for the DirectoryEntry class open in a browser]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-33-37_PM.png){: .align-center}
 
 If you inspect each of the constructors below, you will notice one accept a path, a username and a password `DirectoryEntry(String,String,String)`
 
-![image-center]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-36-51_PM.png){: .align-center}
+![Constructors table of the DirectoryEntry class with DirectoryEntry(String, String, String) highlighted]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-36-51_PM.png){: .align-center}
 
 Which mean : `DirectoryEntry(path,username,password)`
 
-![image-center]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-37-59_PM.png){: .align-center}
+![DirectoryEntry(String, String, String) constructor page with the path, username and password parameters highlighted]({{ site.url }}/images/2013/PowerShell_-_Using_ADSI_with_alternate_Credentials/2013-10-28_11-37-59_PM.png){: .align-center}
 
 That's exactly what I used in the following line
 

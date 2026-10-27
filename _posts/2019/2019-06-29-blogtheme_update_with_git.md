@@ -42,13 +42,13 @@ We can summarize the workflow described above like this:
 1. Create custom content locally and commit back to your fork
 1. Static website gets regenerated each time you commit to your fork
 
-![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/step1.png){: .align-center}
+![Diagram: Blog theme source v1.0 feeds a fork v1.0 with custom content, which publishes to the blog and is also cloned to a local copy](/images/2019/2019-06-29-blogtheme_update_with_git/step1.png){: .align-center}
 
 ## Blog theme update
 
 However, when the Blog theme author release a new version, **how to you pull the latest changes ?**
 
-![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/step2.png){: .align-center}
+![Same diagram with the blog theme source now at v1.1 while the fork is still at v1.0](/images/2019/2019-06-29-blogtheme_update_with_git/step2.png){: .align-center}
 
 One of the great advantage of having my blog content hosted on git is that I can easily use git to pull the last updates from the jekyll theme used.
 
@@ -65,8 +65,8 @@ In my case I'm using the [Minimal Mistakes](https://github.com/mmistakes/minimal
 
 When pulling the changes from the Upstream (as see above) you might see some conflicts, example during my last upgrade:
 
-[![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.webp){: .align-center}](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.webp)
+[![Terminal running git remote and git pull upstream master, ending with merge conflicts, annotated to list the remote repositories, pull the changes from upstream and use Visual Studio Code to fix the conflicts](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.webp){: .align-center}](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts.webp)
 
 You resolved these issues using Visual Studio, here is an example:
 
-![image-center](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts-vscode.png){: .align-center}
+![Visual Studio Code showing a merge conflict with the Current Change and Incoming Change sections highlighted](/images/2019/2019-06-29-blogtheme_update_with_git/git_conflicts-vscode.png){: .align-center}

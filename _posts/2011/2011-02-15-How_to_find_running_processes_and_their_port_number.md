@@ -13,7 +13,7 @@ comments: true
 ---
 The *netstat* command line utility displays protocol statistics and current TCP/IP network connections. If we want to display the associated process identifier (PID) of each process we add the `-o` parameter.
 
-![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_2576CA4D__161054948__-720x365.png){: .align-center}
+![Command prompt output of netstat -ano listing active TCP connections with their PIDs]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_2576CA4D__161054948__-720x365.png){: .align-center}
 
 This filter the result we need to pipe to the `Find.exe` utility and again, the result is text!.
 
@@ -84,12 +84,12 @@ New-ObjectPSObject -Property @{
 Get-NetworkStatistics |Format-Table
 ```
 
-![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_147D9573__300040902__-722x413.webp){: .align-center}
+![Get-NetworkStatistics output in PowerShell: a table of protocol, local and remote address, state, process name and PID]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_147D9573__300040902__-722x413.webp){: .align-center}
 
 To get all processes running on a local port 80:
 
-![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_45EDE432__1624800143__-717x114.png){: .align-center}
+![Get-NetworkStatistics filtered on local port 80, showing one listening entry owned by the System process]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_45EDE432__1624800143__-717x114.png){: .align-center}
 
 Or find a connection information by filtering on ProcessName:
 
-![image-center]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_5DB11380__591248035__-724x139.png){: .align-center}
+![Get-NetworkStatistics filtered on the OUTLOOK process, showing its established TCP and UDP connections]({{ site.url }}/images/2011/20110215_How_to_find_running_processes_and_their_port_number/image_thumb_5DB11380__591248035__-724x139.png){: .align-center}

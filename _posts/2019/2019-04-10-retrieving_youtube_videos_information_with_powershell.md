@@ -46,31 +46,31 @@ In order to be able to query Google Apis with PowerShell, you will first need to
 
 Navigate to <https://console.developers.google.com/apis/dashboard> and Create a new Project and give it a Name.
 
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/01.png){: .align-center}
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/02.png){: .align-center}
+![Google Cloud console project selector with the New Project button highlighted](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/01.png){: .align-center}
+![Google Cloud New Project form with the project name YoutubeData and the Create button highlighted](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/02.png){: .align-center}
 
 Then click on `Enable APIs and Services`. We will need to search for the Youtube API to specify the scope of access.
 
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/03.png){: .align-center}
+![Google APIs and Services dashboard with the Enable APIs and Services button highlighted](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/03.png){: .align-center}
 
 Search for **Youtube** and select **Youtube Data API v3**, then select **ENABLE**.
 
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/04.png){: .align-center}
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/05.png){: .align-center}
+![API library search for Youtube with YouTube Data API v3 highlighted](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/04.png){: .align-center}
+![YouTube Data API v3 page with the Enable button](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/05.png){: .align-center}
 
 Finally, click on **Credentials** on the left side, then select **Create Credential**
 
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/06.png){: .align-center}
+![Credentials page of the YouTube Data API v3 with the Create Credential button](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/06.png){: .align-center}
 
 "*Where will be calling the API From?*", select **Other UI**
 
 "*What data will you be accessing?*", select **Public Data**
 
 Then click on **What credential do I need**
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/07.png){: .align-center}
+![Add credentials to your project, step 1: YouTube Data API v3, Other UI, Public data, with the What credentials do I need button highlighted](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/07.png){: .align-center}
 
 This will give you an API key. Click on **Done**.
-![image-center](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/08.png){: .align-center}
+![Add credentials to your project, step 2: the generated API key and the Done button](/images/2019/2019-04-10-retrieving_youtube_videos_information_with_powershell/08.png){: .align-center}
 
 ## Using PowerShell to query video data
 

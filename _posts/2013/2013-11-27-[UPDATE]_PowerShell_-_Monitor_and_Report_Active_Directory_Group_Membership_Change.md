@@ -18,7 +18,7 @@ tldr: "Version 1.6 of the script that monitors Active Directory group membership
 **Update** The most recent update is available [on Github](https://github.com/lazywinadmin/AD-GROUP-Monitor_MemberShip)
 {: .notice}
 
-![image-left]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_10-11-52_PM.png){: .align-left} I found some time to update the script *Monitor Active Directory Membership changes*. This is now the version 1.6.
+![Icon of a green radar-style magnifying glass with a PowerShell logo]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_10-11-52_PM.png){: .align-left} I found some time to update the script *Monitor Active Directory Membership changes*. This is now the version 1.6.
 
 As a reminder, this script allows you to monitor Active Directory groups membership changes. It will send you a report via email only when a change occur. I explained in details [in my last post how the script work](/2013/10/powershell-monitor-and-report-active.html).
 
@@ -80,24 +80,24 @@ Changes:
 * Columns in Membership Change and Change History now matche
 * New Columns DisplayName and DateTime
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-23_8-44-52_PM.png){: .align-center}
+![Email report for group FX\FXGROUP02 with a Membership Change table and a Change History table]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-23_8-44-52_PM.png){: .align-center}
 
 ## Using the script
 
 In the following example I'm playing with two test groups: *FXGROUP01* and *FXGROUP02*
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-03-33_AM.png){: .align-center}
+![List of two domain local security groups, FXGROUP01 and FXGROUP02, both described as Example Group]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-03-33_AM.png){: .align-center}
 
 For my test, I placed the script in the directory `C:\LazyWinAdmin\Tool-Monitor-AD_Groups`
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-07-07_AM.png){: .align-center}
+![Windows Explorer window open on C:\LazyWinAdmin\TOOL-MONITOR-AD_Group, containing TOOL-MONITOR-AD_Group.ps1]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-07-07_AM.png){: .align-center}
 
 ### Running the script the first time
 
 You will notice that the script is creating folders and files.
 At this point you won't get any email report.
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-08-50_AM.png){: .align-center}
+![First run of TOOL-MONITOR-AD_Group.ps1 with -Verbose in PowerShell, creating the Output and ChangeHistory folders and exporting the membership of FXGroup01 and FXGroup02]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-08-50_AM.png){: .align-center}
 
 ```powershell
 PS C:\LazyWinAdmin\TOOL-MONITOR-AD_Group> .\TOOL-MONITOR-AD_Group.ps1 -group "FXGroup01","FXGroup02" -Emailfrom Reporting@fx.lab -Emailto "Catfx@fx.lab" -EmailServer 192.168.1.10 -Verbose
@@ -130,22 +130,22 @@ VERBOSE: Script Completed
 * *CHANGEHISTORY Directory* contains the list of changes observed by the script. One file per Group per domain, if multiple changes occur, the script will append the change in the same file.
 *Output Directory*contains the 2 files for each monitored groups
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-22-00_AM.png){: .align-center}
+![Output folder in Explorer containing FX_FXGROUP01-membership.csv and FX_FXGROUP02-membership.csv]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-22-00_AM.png){: .align-center}
 
 Each file contains the current membership of each groups. Since these are empty the script just create the following file with two properties* SamAccountName* and *Name* with the value "No User or Group"
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-24-11_AM.png){: .align-center}
+![Notepad showing FX_FXGROUP01-membership.csv with the SamAccountName and Name columns and a single No User or Group row]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-24-11_AM.png){: .align-center}
 
 The *ChangeHistory Directory* is empty at this point since no change was observed by the script.
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-22-22_AM.png){: .align-center}
+![Empty ChangeHistory folder in Explorer]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-22-22_AM.png){: .align-center}
 
 ### Running the script a second time (without change on the groups)
 
 If I re-run the script we will get the following output.
 The script does not see any change in the membership by comparing the content of the file *FX_FXGROUP01-membership.csv* and the current membership in Active Directory for this group.
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-27-29_AM.png){: .align-center}
+![Second run of the script in PowerShell; the run highlighted in red finds the existing membership files and reports no change]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-27-29_AM.png){: .align-center}
 
 ### Running the script after a change
 
@@ -190,7 +190,7 @@ VERBOSE: Script Completed
 
 As you can see One account was added "*fxtest*" and the default "*No User or Group*" was removed by the script
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-45-19_AM.png){: .align-center}
+![Email report for group FX\FXGROUP01 with a Membership Change table showing fxtest added and No User or Group removed]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-45-19_AM.png){: .align-center}
 
 Let's make another change to this group, add another user.
 
@@ -230,7 +230,7 @@ VERBOSE: Script Completed
 
 <u>Here is the report generated</u>
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-45-27_AM.png){: .align-center}
+![Email report for group FX\FXGROUP01 with a Membership Change section and a Change History section]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-45-27_AM.png){: .align-center}
 
 Notice this time, the report contains a section called "Change History" so you'll be able to know which previous changes were made.
 
@@ -259,7 +259,7 @@ VERBOSE: Script Completed
 
 ### Using the File parameter
 
-![image-center]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-50-39_AM.png){: .align-center}
+![Explorer window on the TOOL-MONITOR-AD_Group folder with groupslist.txt open in Notepad, listing a group distinguished name and FXGROUP02]({{ site.url }}/images/2013/UPDATE_PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-11-25_1-50-39_AM.png){: .align-center}
 
 ```powershell
 PS C:\LazyWinAdmin\TOOL-MONITOR-AD_Group> .\TOOL-MONITOR-AD_Group.ps1 -file .\groupslist.txt -Emailfrom Reporting@fx.lab -Emailto "Catfx@fx.lab" -EmailServer 192.168.1.10 -Verbose

@@ -307,7 +307,7 @@ The function generate the following output
 PS C:\> Get-DomainComputer -ComputerName "lab1*"
 ```
 
-![image-center]({{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/example.png){: loading="lazy" decoding="async"}
+![Get-DomainComputer output in PowerShell listing lab computers with Name, WhenCreated, Description, OperatingSystem, DnsHostName and DistinguishedName]({{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/example.png){: .align-center loading="lazy" decoding="async"}
 
 
 ```
