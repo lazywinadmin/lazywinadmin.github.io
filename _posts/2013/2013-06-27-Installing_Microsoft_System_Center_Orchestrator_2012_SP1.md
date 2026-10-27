@@ -15,8 +15,8 @@ comments: true
 <div class="" style="clear: both; text-align: left;">Opalis was recently renamed Orchestrator and integrated into the System Center suite.<div class="" style="clear: both; text-align: left;">
 <div class="" style="clear: both; text-align: left;">The following procedure will cover a basic/generic install of System Center Orchestrator 2012. This is to be used as a template or POC only.<div class="" style="clear: both; text-align: left;">
 
-<div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Resources</b><div class="" style="clear: both; text-align: left;">
-* <a href="http://technet.microsoft.com/en-us/library/hh237242.aspx" target="_blank">Technet Documentation</a>
+<div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Resources</span></b><div class="" style="clear: both; text-align: left;">
+* <a href="http://technet.microsoft.com/en-us/library/hh237242.aspx" target="_blank">Technet Documentation</a></div></div>
 
 * <a href="http://technet.microsoft.com/en-US/evalcenter/hh505660.aspx?wt.mc_id=TEC_103_1_5" target="_blank">Download</a>
 
@@ -46,9 +46,9 @@ comments: true
 
 * CODEPLEX:<a href="https://web.archive.org/web/20130721030243/http://scorch.codeplex.com/" target="_blank">Community Project for System Center Orchestrator (SCORCH) Integration Packs and Utilities</a>
 <div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">
-</b><div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Deployment</b><div class="" style="clear: both;"><u>
+</span></b><div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Deployment</span></b><div class="" style="clear: both;"><u>
 </u><div class="" style="clear: both;"><u>Server Names and Roles:</u><div class="" style="clear: both;"><b>LAB1OR01</b>- System Center 2012 Orchestrator SP1<div class="" style="clear: both;">Operating System : Windows Server 2012 Standard<div class="" style="clear: both;">Joined to Domain<div class="" style="clear: both;">
-* Orchestrator Roles:
+* Orchestrator Roles:</div></div></div></div></div></div></div></div>
 
 * Management Server
 
@@ -85,7 +85,7 @@ comments: true
 * Add DOMAIN\svc-scorch and DOMAIN\ScorchUsers to the Local Administrators Group.
 
 
-<div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Installation</b><div class="" style="clear: both; text-align: left;">
+<div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Installation</span></b><div class="" style="clear: both; text-align: left;">
 <div class="" style="clear: both; text-align: left;">
 <div class="" style="clear: both; text-align: left;">1 - Click on Install.<a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-10-20_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 2 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" height="613" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-10-20_PM_s640.png" width="640" /></a>If you did not install .Net Framework 3.5 yet, you'll get the following warning
 <a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-12-16_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 3 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-12-16_PM.png" /></a>
@@ -95,7 +95,7 @@ comments: true
 <div class="separator" style="clear: both; text-align: left;">3 - In the next screen enter your information and Product Key (if you have one). Click <b>Next</b>.<a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-19-54_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 6 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" height="488" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-19-54_PM_s640.png" width="640" /></a>
 <div class="separator" style="clear: both; text-align: left;">4 - Read and Accept the license terms.Click<b>Next</b>.<a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-21-44_PM.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 7 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" height="488" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-21-44_PM_s640.webp" width="640" /></a>
 5 - Select the System Center 2012 Orchestrator features to install. Here I leave the default selection.Click<b>Next</b>.
-<a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-22-16_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 8 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" height="488" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-22-16_PM_s640.png" width="640" /></a>
+<a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-22-16_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 8 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" height="488" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-22-16_PM_s640.png" width="640" /></a></div></div></div></div></div></div>
 
 6 - The Setup wizard will check if you have all the prerequisites.Click<b>Next</b>.
 <a href="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-22-35_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 9 from the post &quot;Installing Microsoft System Center Orchestrator 2012 SP1&quot;" loading="lazy" decoding="async" border="0" height="488" src="{{ site.url }}/images/2013/Installing_Microsoft_System_Center_Orchestrator_2012_SP1/2013-06-23_6-22-35_PM_s640.png" width="640" /></a>

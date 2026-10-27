@@ -52,10 +52,10 @@ Phase 4: Configure Servers</td></tr></tbody></table>
 Josh showed us some script he created within the last years to monitor and
 report different information like:
 
-<ul><li style="text-align: left;">Patching Status
-<li style="text-align: left;">Disks usage report
-<li style="text-align: left;">Ping a bunch of servers
-<li style="text-align: left;">etc...
+<ul><li style="text-align: left;">Patching Status</li>
+<li style="text-align: left;">Disks usage report</li>
+<li style="text-align: left;">Ping a bunch of servers</li>
+<li style="text-align: left;">etc...</li>
 </ul></td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_123837__910992843__-1600x1200.webp" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 9 from the post &quot;PowerShell Summit 2014 NA - Day 3&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_123837__910992843__-1600x1200.webp" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">View from the Meydenbauer Center Bellevue</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_125738__2127028788__-1600x1200.webp" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 10 from the post &quot;PowerShell Summit 2014 NA - Day 3&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_125738__2127028788__-1600x1200.webp" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Detailing your objects</b> with<u>Kirk Freiheit</u>
@@ -63,28 +63,20 @@ Kirk talked about formatting objects, creating views, serialization-deserializat
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_140158__701708206__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 11 from the post &quot;PowerShell Summit 2014 NA - Day 3&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_140158__701708206__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Scripting PowerShell Best Practices</b> with <u>Ed Wilson (Scripting Guy)</u>
 
 <div style="text-align: left;"><ul>
-* Don't write templates, write snippets
-
-* Do not format your output (Format-*)
-
-* Do not use Backtick
-
-* Avoid huge indent (Use spaces instead of tabs) to avoid horizontal scroll
-
-* Learn to use the Debugger
-
-* Use Appropriate technologies
+<li>Don't write templates, write snippets</li>
+<li>Do not format your output (Format-*)</li>
+<li>Do not use Backtick</li>
+<li>Avoid huge indent (Use spaces instead of tabs) to avoid horizontal scroll</li>
+<li>Learn to use the Debugger</li>
+<li>Use Appropriate technologies
 <ul>
-* Don't do the mistake to use Command line tools, if COM is available
-
-* Don't do the mistake to use COM, if NET is available
-
-* Don't do the mistake to use NET, if a Cmdlet is available
-</ul>
-* Don't do the mistake to do more work that you have to do to get the job done
-
-* Use available Cmdlets if Available, If those do the job
-</ul><div style="text-align: left;">
+<li>Don't do the mistake to use Command line tools, if COM is available</li>
+<li>Don't do the mistake to use COM, if NET is available</li>
+<li>Don't do the mistake to use NET, if a Cmdlet is available</li>
+</ul></li>
+<li>Don't do the mistake to do more work that you have to do to get the job done</li>
+<li>Use available Cmdlets if Available, If those do the job</li>
+</ul></div>
 
 </td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_145954__1091225052__-1600x1200.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 12 from the post &quot;PowerShell Summit 2014 NA - Day 3&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140502_PowerShell_Summit_2014_NA_-_Day_3/IMG_20140430_145954__1091225052__-1600x1200.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><b>Monad Manifesto Revisited </b>- <u>Jeffrey Snover</u>

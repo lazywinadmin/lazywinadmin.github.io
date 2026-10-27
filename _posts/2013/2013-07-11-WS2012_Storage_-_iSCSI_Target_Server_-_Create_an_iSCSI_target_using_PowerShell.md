@@ -37,7 +37,7 @@ In the following post I will talk about the following points:
 
 * <b>Creating a iSCSI Target and assigning it to one or more initiator(s) </b>(PowerShell)
 
-* <b>Finding the </b><b><span style="white-space: pre-wrap;">iSCSI Qualified Name (IQN)</b> (vSphere Client and PowerCLI) 
+* <b>Finding the </b><b><span style="white-space: pre-wrap;">iSCSI Qualified Name (IQN)</span></b> (vSphere Client and PowerCLI) 
 
 * <b>Assigning a iSCSI Virtual Disk (LUN) to a iSCSI Target</b> (PowerShell) 
 
@@ -66,7 +66,7 @@ iSCSI is used to facilitate data transfers over a network (LAN, WAN or Internet)
 <b>IQN:</b><span style="white-space: pre-wrap;">iSCSI Qualified Name. It is a unique identifier of the Target or Initiator. The Target IQN is shown when it is created on the Server. The initiator IQN can be found by typing a simple "<span style="font-family: Courier New, Courier, monospace;">iscsicli" cmd in the command window or using <span style="font-family: Courier New, Courier, monospace;">Get-InitiatorPort in PowerShell
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-06_5-36-23_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 3 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-06_5-36-23_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>iscsicli</b></td></tr></tbody></table>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_9-57-20_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 4 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_9-57-20_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>PowerShell (</b>module <b>iSCSI</b>) with the Cmdlet <span style="font-family: Courier New, Courier, monospace;">Get-InitiatorPort</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_9-57-20_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 4 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_9-57-20_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Using <b>PowerShell (</b>module <b>iSCSI</b>) with the Cmdlet <span style="font-family: Courier New, Courier, monospace;">Get-InitiatorPort</span></td></tr></tbody></table>
 
 <u>Briefly, the fields are:</u>
 
@@ -248,8 +248,8 @@ Here we assign a virtual disk to an iSCSI target.
 Add-IscsiVirtualDiskTargetMapping -TargetName TestTarget1 -Path C:\test\Lun1.vhd
 ```
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_9-12-09_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 15 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_9-12-09_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">No output will be generated. 
-There is no <span style="font-family: Courier New, Courier, monospace;"><b>Passthru</b> parameter either :-(</td></tr></tbody></table>
-<u style="background-color: yellow;">Optionally:</u><span style="background-color: white;">You can specify the Logical Unit Number (LUN) associated with the virtual disk. By default, the lowest available LUN number will be assigned.
+There is no <span style="font-family: Courier New, Courier, monospace;"><b>Passthru</b> parameter either :-(</span></td></tr></tbody></table>
+<u style="background-color: yellow;">Optionally:</u><span style="background-color: white;">You can specify the Logical Unit Number (LUN) associated with the virtual disk. By default, the lowest available LUN number will be assigned.</span>
 
 
 ```

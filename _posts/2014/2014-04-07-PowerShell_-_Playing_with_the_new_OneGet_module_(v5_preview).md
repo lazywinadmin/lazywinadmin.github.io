@@ -62,7 +62,7 @@ For now, there is not much information in the help but the naming convention is 
 
 <b><u>Additional Cmdlet Get-PackageProvider ?</u></b>
 
-Note that we can also expect a new cmdlet called <b><span style="font-family: Courier New, Courier, monospace;">Get-PackageProvider</b>in the final version from what we see in the manifest.
+Note that we can also expect a new cmdlet called <b><span style="font-family: Courier New, Courier, monospace;">Get-PackageProvider</span></b>in the final version from what we see in the manifest.
 
 <a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_21-52-10__2031314686__-763x429.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 3 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_21-52-10__2031314686__-763x429.png" /></a>
 
@@ -104,7 +104,7 @@ If we look at the files in the module directory, Chocolatey comes with its own s
 
 <b><u>Get the packages already installed</u></b>
 
-Since I've been using chocolatey for a while, Using <b><span style="font-family: Courier New, Courier, monospace;">Get-Package</b>, OneGet is able to retrieve the all the package I installed on this PC.
+Since I've been using chocolatey for a while, Using <b><span style="font-family: Courier New, Courier, monospace;">Get-Package</span></b>, OneGet is able to retrieve the all the package I installed on this PC.
 
 
 <a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_18-28-17__741707556__-852x362.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 7 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_18-28-17__741707556__-852x362.png" height="271" width="640" /></a>
@@ -113,7 +113,7 @@ Since I've been using chocolatey for a while, Using <b><span style="font-family:
 
 <b><u>Find and install a new package</u></b>
 
-Now if I want to install a package, that's very easy: <b><span style="font-family: Courier New, Courier, monospace;">Install-Package</b>
+Now if I want to install a package, that's very easy: <b><span style="font-family: Courier New, Courier, monospace;">Install-Package</span></b>
 We first search for the package
 
 

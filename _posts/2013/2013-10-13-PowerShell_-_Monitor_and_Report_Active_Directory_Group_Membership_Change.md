@@ -145,8 +145,8 @@ The script is a bit complex to understand, so I created a small workflow that ex
 
 <h4>PowerShell v3.0 
 
-You will need PowerShell version 3.0 to take advantage <span style="background-color: yellow;"><b><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">[mailaddress]</b> which make a validation on the Source and Destination Email addresses.
-<h4>Quest Active Directory PowerShell Snappin
+You will need PowerShell version 3.0 to take advantage <span style="background-color: yellow;"><b><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">[mailaddress]</span></b> which make a validation on the Source and Destination Email addresses.
+<h4>Quest Active Directory PowerShell Snappin</h4></span>
 
 I used the Quest Active Directory Snapin to do my queries, <a href="http://www.quest.com/powershell/activeroles-server.aspx" target="_blank">get it here</a>
 In the next update I plan to add support for the Active Directory module (maybe ADSI too).
@@ -178,7 +178,7 @@ This PowerShell script will need some rights, it will:
 ### 
 
 
-### <u>Running the Script <span style="background-color: yellow;">the first time</u>
+### <u>Running the Script <span style="background-color: yellow;">the first time</span></u>
 
 In this example I run the script against 2 Active Directory Groups with the verbose parameter so it will let me know what it's doing.
 ```
@@ -216,7 +216,7 @@ At this point the <b>ChangeHistory</b> is empty.
 
 
 
-### <u>Running the script after making <span style="background-color: yellow;">a first change on a group</u>
+### <u>Running the script after making <span style="background-color: yellow;">a first change on a group</span></u>
 
 I changed the membership of the group FX\<b>FXGROUP</b>
 
@@ -231,7 +231,7 @@ since no previous changes were detected</td></tr></tbody></table>
 
 
 
-### <u>Running the script after making <span style="background-color: yellow;">a second change on a group</u>
+### <u>Running the script after making <span style="background-color: yellow;">a second change on a group</span></u>
 
 Again, I changed the membership of the group FX\<b>FXGROUP</b>,
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_8-08-37_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 11 from the post &quot;PowerShell - Monitor and Report Active Directory Group Membership Change&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Monitor_and_Report_Active_Directory_Group_Membership_Change/2013-10-13_8-08-37_PM_s1600.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">A second Change History file is created by the script</td></tr></tbody></table>

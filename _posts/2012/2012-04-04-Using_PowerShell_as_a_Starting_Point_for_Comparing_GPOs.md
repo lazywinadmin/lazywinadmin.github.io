@@ -13,10 +13,10 @@ tags:
 published: true
 comments: true
 ---
-<a href="http://www.scriptlogic.com/smbit/video/using-powershell-as-a-starting-point-for-comparing-gpos?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+smbit+%28ScriptLogic+SMBIT%29" target="_blank"><span style="font-family: inherit;">source</a>
-<span style="font-family: inherit;">
+<a href="http://www.scriptlogic.com/smbit/video/using-powershell-as-a-starting-point-for-comparing-gpos?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+smbit+%28ScriptLogic+SMBIT%29" target="_blank"><span style="font-family: inherit;">source</span></a>
+<span style="font-family: inherit;"></span>
 
-<span style="font-family: inherit;"><iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/qoocEgmHUEg" width="640"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/qoocEgmHUEg" width="640"></iframe>
 <span style="font-family: inherit;">
 
 

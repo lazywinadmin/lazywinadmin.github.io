@@ -102,5 +102,6 @@ The event was happening in Redmond, close to Seattle... personally I live in Mon
 * Conference PowerShell Summit 2013: 500$USD
 * Montreal to Seattle round trip Airplane Tickets: 600$USD
 * Hotel (99$/night), 3 nights With taxes: 350$USD
-</ul>Excluding the food, transportation, attractions and small expenses... the total was approx <b>1450$ USD </b>whichis pretty cheap for a conference.
+
+Excluding the food, transportation, attractions and small expenses... the total was approx <b>1450$ USD </b>whichis pretty cheap for a conference.
 I initially purchased everything by myself, but lucky for me, my company Domtar paid for all of my fees :-) !!!

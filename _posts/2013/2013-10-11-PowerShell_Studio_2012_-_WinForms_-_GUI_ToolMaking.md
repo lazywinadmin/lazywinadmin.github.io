@@ -68,7 +68,7 @@ Rename your button text properties and rename the textbox control (Design Name p
 ### Adding your PowerShell Code
 
 Here is the code I used for each of my events.
-I basically do some basic <span style="font-family: Courier New, Courier, monospace;"><b>Get-WmiObject</b> queries on different classes related to the Services/Processes and Shared. Note the Output is sent to the pipeline to <b><span style="font-family: Courier New, Courier, monospace;">Out-GridView.</b>
+I basically do some basic <span style="font-family: Courier New, Courier, monospace;"><b>Get-WmiObject</b> queries on different classes related to the Services/Processes and Shared. Note the Output is sent to the pipeline to <b><span style="font-family: Courier New, Courier, monospace;">Out-GridView.</span></b></span>
 
 
 ```
@@ -127,7 +127,6 @@ You can define all sort of Events for each control, take a look below
 
 Expend your Form and add a DataGridView control.
 
-### <div style="font-size: medium; font-weight: normal;">
 <div class="separator" style="clear: both; font-size: medium; font-weight: normal; text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (7)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" /></a>
 
 
@@ -196,7 +195,6 @@ function Load-DataGridView
 ```
 
 
-### <div style="font-size: medium; font-weight: normal;">
 
 
 

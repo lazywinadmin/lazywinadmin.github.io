@@ -17,7 +17,7 @@ comments: true
 
 
 
-By positioning your cursor on one of the brackets, you can navigate to its opening/closing one by pressing <b><span style="font-size: x-large;">CTRL</b> + <span style="font-size: x-large;"><b>]</b>
+By positioning your cursor on one of the brackets, you can navigate to its opening/closing one by pressing <b><span style="font-size: x-large;">CTRL</span></b> + <span style="font-size: x-large;"><b>]</b></span>
 
 
 <b><u>Update:</u></b>Looks like you can actually do the same thing with<b>SAPIEN</b><b>PowerShell Studio 2012</b>

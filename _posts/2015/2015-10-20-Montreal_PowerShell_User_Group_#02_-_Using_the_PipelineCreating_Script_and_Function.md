@@ -61,4 +61,4 @@ We would like to thank our sponsors for their support:
 
 ## RSVP/Register and more info
 
-<a href="http://www.meetup.com/MontrealPowerShellUserGroup/events/225690798/" target="_blank">http://www.meetup.com/MontrealPowerShellUserGroup/events/225690798/</a></b>
+<a href="http://www.meetup.com/MontrealPowerShellUserGroup/events/225690798/" target="_blank">http://www.meetup.com/MontrealPowerShellUserGroup/events/225690798/</a>

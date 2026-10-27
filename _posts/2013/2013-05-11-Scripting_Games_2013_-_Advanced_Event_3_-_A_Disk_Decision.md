@@ -18,7 +18,9 @@ Download (link no longer available) [SkyDrive]
 
 
 <blockquote class="tr_bq"><i>Dr. Scripto has been fielding a lot of calls from the Help Desk lately. They've been asking him to look up information about the local hard drives in various servers – mainly size and free space information. He doesn't mind helping, but all the requests have been getting in the way of his naps. He's asked you to write a tool comand that can get the information for the help desk – and theywants the output in an HTML file. The HTML file should look something like this:</i><i>
-</i></blockquote><a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__1927095938__-661x424.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="instruction" loading="lazy" decoding="async" border="0" height="256" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__5237119__-400x257.png" width="400" /></a><blockquote class="tr_bq"><i></i><i>The Doctor says you should parameterize your command – he wants to be able to pipe in one or more computer names as strings.The resulting HTML does need to go into an HTML file on disk someplace, and that file should have the computer name (e.g., the computer SERVER1 should have Server1.html, SERVER2 should have server2.html, and so on). A parameter should let him indicate the path (directory) to write the files to. Also, he wants you to pay special attention to the following:</i>
+</i></blockquote><a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__1927095938__-661x424.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="instruction" loading="lazy" decoding="async" border="0" height="256" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/instruction__5237119__-400x257.png" width="400" /></a>
+
+<blockquote class="tr_bq" markdown="1"><i></i><i>The Doctor says you should parameterize your command – he wants to be able to pipe in one or more computer names as strings.The resulting HTML does need to go into an HTML file on disk someplace, and that file should have the computer name (e.g., the computer SERVER1 should have Server1.html, SERVER2 should have server2.html, and so on). A parameter should let him indicate the path (directory) to write the files to. Also, he wants you to pay special attention to the following:</i>
 
 * <i>The browser displays "Disk Free Space Report" in the page tab when viewing the report.</i>
 
@@ -27,7 +29,9 @@ Download (link no longer available) [SkyDrive]
 * <i>The report ends with an HTML horizontal rule and the date and time that the report was generated.</i>
 
 * <i>The size and free space values are shown as gigabytes (GB) and megabytes (MB) respectively, each to two decimal places.</i>
-<i>The command you write can assume that both WMI and CIM are available on the remote computers, and that all the necessary firewall rules and authentication have already been taken care of.</i></blockquote>
+
+<i>The command you write can assume that both WMI and CIM are available on the remote computers, and that all the necessary firewall rules and authentication have already been taken care of.</i>
+</blockquote>
 <b>Solution</b>
 
 <b>Finding the disk information</b>

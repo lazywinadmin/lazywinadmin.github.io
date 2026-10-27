@@ -21,7 +21,7 @@ Something that might be useful to anyone that uses poweshell alot. I wrote this 
 
 1. Install Quest Powershell Cmdlets "http://www.quest.com/powershell/activeroles-server.aspx" and make sure the snapin is loaded in powershell. I usually load it in my profile.ps1 file.
 
-2. To use the new functions you need to follow the following install instructions. Install these components in the following order from this web site "http://www.microsoft.com/downloads/details.aspx?FamilyId=228DE03F-3B5A-428A-923F-58A033D316E1&amp;displaylang=en" <<b>This allows you to take advantage of the SQL 2008 cmdlets from Microsoft></b>
+2. To use the new functions you need to follow the following install instructions. Install these components in the following order from this web site "http://www.microsoft.com/downloads/details.aspx?FamilyId=228DE03F-3B5A-428A-923F-58A033D316E1&amp;displaylang=en" &lt;<b>This allows you to take advantage of the SQL 2008 cmdlets from Microsoft&gt;</b>
 
 * Microsoft SQL Server System CLR Types
 * Microsoft Core XML Services (MSXML) 6.0 (Note: This component is already part of SQL Server 2005, it will likely not need to be installed. I provide it here for completeness of prerequisites).
