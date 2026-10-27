@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-Source: [Expert Solution for the 2011 Scripting Games Beginner Event 4](http://blogs.technet.com/b/heyscriptingguy/archive/2011/04/21/expert-solution-for-the-2011-scripting-games-beginner-event-4-use-powershell-to-identify-non-standard-windows-service-accounts.aspx)
+Source: [Expert Solution for the 2011 Scripting Games Beginner Event 4](https://web.archive.org/web/20150319032123/http://blogs.technet.com/b/heyscriptingguy/archive/2011/04/21/expert-solution-for-the-2011-scripting-games-beginner-event-4-use-powershell-to-identify-non-standard-windows-service-accounts.aspx)
 
 ```powershell
 <#

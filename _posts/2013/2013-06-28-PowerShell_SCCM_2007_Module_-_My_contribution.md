@@ -89,7 +89,7 @@ All I did is really filtering on the <span style="font-family: Courier New, Cour
 
 <b>In Powershell you should <u>Always Always Always ALWAYSS</u>try to filter before sending the output to the pipeline, and this apply to all the Cmdlets...</b>
 <b>
-</b>This was well resumed by the Scripting Guy, Ed Wilson [<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2012/06/18/the-top-ten-powershell-best-practices-for-it-pros.aspx" target="_blank">Top Ten PowerShell Best Practices</a>]:
+</b>This was well resumed by the Scripting Guy, Ed Wilson [<a href="https://devblogs.microsoft.com/scripting/the-top-ten-powershell-best-practices-for-it-pros/" target="_blank">Top Ten PowerShell Best Practices</a>]:
 <blockquote class="tr_bq"><i>Filter on the left. It is more efficient to filter returning data as close to the source of data as possible. For example, you do not want to return the entire contents of the system event log across the network to your work station, and then filter events for a specific event ID. Instead, you want to filter the system event log on the server, and then return the data.</i></blockquote><a href="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Speed-and-Performance__1452023694__-800x528.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Speed and Performance" loading="lazy" decoding="async" border="0" height="420" src="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Speed-and-Performance__801324726__-640x422.png" width="640" /></a>
 <span style="font-size: x-large;"><b>Resources</b>
 

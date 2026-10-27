@@ -165,6 +165,6 @@ We can see that I already missed a couple of things on the first functions teste
 Some great resources out there helped me to get started:
 
 * [Pester (Github)](https://github.com/pester/Pester/wiki)
-* [Dave Wyatt series on Pester on Scripting Guy Blog](https://blogs.technet.microsoft.com/heyscriptingguy/2015/12/14/what-is-pester-and-why-should-i-care/)
+* [Dave Wyatt series on Pester on Scripting Guy Blog](https://devblogs.microsoft.com/scripting/what-is-pester-and-why-should-i-care/)
 * [Test Driven Development with Pester (June Blender)](https://www.youtube.com/watch?v=jvvh9cpD_LM&amp;list=PLfeA8kIs7Coc1Jn5hC4e_XgbFUaS5jY2i&amp;index=19)
 * [Mike F Robbins Pester articles](http://mikefrobbins.com/tag/pester/)

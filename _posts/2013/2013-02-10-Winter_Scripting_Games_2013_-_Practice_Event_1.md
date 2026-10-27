@@ -157,4 +157,4 @@ Get-DiskSizeInfo -ComputerName XAVIER -Verbose
 {: .full}
 
 The verbose switch is available since we use the `[CmdletBinding()]` at the line 41.
-Check the nice article from the scripting guy: <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2012/07/07/weekend-scripter-cmdletbinding-attribute-simplifies-powershell-functions.aspx" target="_blank">CmdletBinding Attribute Simplifies PowerShell Functions</a>
+Check the nice article from the scripting guy: <a href="https://devblogs.microsoft.com/scripting/weekend-scripter-cmdletbinding-attribute-simplifies-powershell-functions/" target="_blank">CmdletBinding Attribute Simplifies PowerShell Functions</a>

@@ -173,4 +173,4 @@ The <a href="http://msdn.microsoft.com/en-us/library/aa383441%28v=vs.85%29.aspx"
 ## References
 
 * <a href="https://devblogs.microsoft.com/powershell/introduction-to-cim-cmdlets/" target="_blank">PowerShell Team Blog - Introduction to CIM Cmdlets</a>
-* <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2014/01/30/invoking-cim-methods-with-powershell.aspx" target="_blank">Scripting Guy Blog -Invoking CIM Methods with PowerShell</a>
+* <a href="https://devblogs.microsoft.com/scripting/invoking-cim-methods-with-powershell/" target="_blank">Scripting Guy Blog -Invoking CIM Methods with PowerShell</a>
