@@ -53,7 +53,7 @@ and you are done! :-)
 Now how to do this with PowerShell ? ...
 
 
-<b><span style="font-size: x-large;">Using the PowerCli 5.1 (PowerShell with VMware Core PSSnapin) </b>
+<b><span style="font-size: x-large;">Using the PowerCli 5.1 (PowerShell with VMware Core PSSnapin) </span></b>
 
 Now that's the fun part!! I created two functions to ease the work against multiple VMs.
 Same thing here, we will edit the two following Advance settings
@@ -71,9 +71,9 @@ Same thing here, we will edit the two following Advance settings
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><div style="text-align: left;">Using the CmdletNew-AdvancedSettingwe create an Advanced Settings/Specifications that includes the values required for both copy and paste operations into the vSphere client. It then applies it to the VM.
 I used <b>-Confirm:$false</b> to avoid the script to request confirmation and <b>-force:$true</b> to overwrite if a similar entry already exist.
 After running the script, It must go through a <b>stun-unstun cycle</b> (power on, resume after suspend, migrate, or snapshot create/delete/revert) before the reconfiguration takes effect. In my case, I did a snapshot and deleted it, and that's it ... We are in business!!!
-<a href="{{ site.url }}/images/2013/How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5_1_(GUI_and_PowerCli)/2013-06-26_10-01-55_PM_s709.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;How to Enable Copy/Paste Operations Between GuestOS and Remote Console on vSphere 5.1 (GUI and PowerCli)&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5_1_(GUI_and_PowerCli)/2013-06-26_10-01-55_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Running<b> Enable-VMCopyPaste</b> against one VM with the Verbose parameter</td></tr></tbody></table>
+<a href="{{ site.url }}/images/2013/How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5_1_(GUI_and_PowerCli)/2013-06-26_10-01-55_PM_s709.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;How to Enable Copy/Paste Operations Between GuestOS and Remote Console on vSphere 5.1 (GUI and PowerCli)&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5_1_(GUI_and_PowerCli)/2013-06-26_10-01-55_PM.png" /></a></div></td></tr><tr><td class="tr-caption" style="text-align: center;">Running<b> Enable-VMCopyPaste</b> against one VM with the Verbose parameter</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5_1_(GUI_and_PowerCli)/2013-06-26_10-03-32_PM_s733.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;How to Enable Copy/Paste Operations Between GuestOS and Remote Console on vSphere 5.1 (GUI and PowerCli)&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/How_to_Enable_CopyPaste_Operations_Between_GuestOS_and_Remote_Console_on_vSphere_5_1_(GUI_and_PowerCli)/2013-06-26_10-03-32_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Running<b>Disable-VMCopyPaste</b>against two VMs with the Verbose parameter</td></tr></tbody></table><b><span style="font-size: x-large;">
-</b><b><span style="font-size: x-large;">Resources</b>
+</span></b><b><span style="font-size: x-large;">Resources</span></b>
 You might want to check the following links
 
 

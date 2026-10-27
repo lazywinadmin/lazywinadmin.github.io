@@ -24,7 +24,7 @@ Those modifications are now part of the module.
 
 
 
-<u><span style="font-size: x-large;">Here is an example :</u>
+<u><span style="font-size: x-large;">Here is an example :</span></u>
 
 ```
 # In the module we have the following query 
@@ -58,7 +58,7 @@ TotalMilliseconds : 42273.5527
 <b>It took 42 seconds to finish this command</b>, that's pretty long... 
 Basically the command has to gather ALLLLLL the objects from the class <span style="font-family: Courier New, Courier, monospace;">SMS_R_Systemand then send it throught the pipe to <span style="font-family: Courier New, Courier, monospace;">Where-Object to filter on the <span style="font-family: Courier New, Courier, monospace;">ResourceID property.
 
-<u><span style="font-size: x-large;">Let's try to improve this and use some filtering! </u>
+<u><span style="font-size: x-large;">Let's try to improve this and use some filtering! </span></u>
 
 ```
 

@@ -14,18 +14,22 @@ comments: true
 <a href="{{ site.url }}/images/2013/Winter_Scripting_Games_2013_-_Practice_Event_2/PowerShell-Scripting-Games-Logo_1.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="PowerShell Scripting Games Logo 1" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/Winter_Scripting_Games_2013_-_Practice_Event_2/PowerShell-Scripting-Games-Logo_1-s200.png" width="171" /></a>Just a quick post on the script I submit for the second practice event of the Winter Scripting Games 2013 (last week).
 
 
-<div style="background-color: white;"><b style="font-family: 'Trebuchet MS', Trebuchet, sans-serif; line-height: 18px;"><u>Practice Event 2 -</u></b><span style="background-color: transparent; line-height: 18px;"><span style="font-family: Trebuchet MS, Trebuchet, sans-serif;"><b><u>Covering Your Assets</u></b><div style="background-color: white;"><blockquote class="tr_bq"><span style="font-family: Trebuchet MS, Trebuchet, sans-serif;"><span style="line-height: 18px;"><i>Your organization is preparing to renew maintenance contracts on all of your server computers. You need to provide management with a report that details each inventory information for each server. Most of the servers do not have Windows PowerShell installed. None of the servers a separated from your client computer by a firewall. Computer names may be specified by a variety of means; your function must accept any collection of strings as computer names.</i></blockquote>
-<blockquote class="tr_bq"><i style="line-height: 18px;"><b>Minimum Requirements</b></i></blockquote><blockquote class="tr_bq"><i style="line-height: 18px;"><b>Optional Criteria</b></i></blockquote><blockquote class="tr_bq">
-* <span style="line-height: 22px;"><i>Display optional verbose output showing the computer name being contacted</i>
+<div style="background-color: white;"><b><u>Practice Event 2 -</u></b><span style="font-family: Trebuchet MS, Trebuchet, sans-serif;"><b><u>Covering Your Assets</u></b></span></div>
 
-* <span style="line-height: 22px;"><i>Prompt for computer names if none are specified when the function is run</i>
+<blockquote><i>Your organization is preparing to renew maintenance contracts on all of your server computers. You need to provide management with a report that details each inventory information for each server. Most of the servers do not have Windows PowerShell installed. None of the servers a separated from your client computer by a firewall. Computer names may be specified by a variety of means; your function must accept any collection of strings as computer names.</i></blockquote>
 
-* <span style="line-height: 22px;"><i>Accept computer names as strings from the pipeline</i>
-</blockquote><blockquote class="tr_bq"><span style="line-height: 18px;"><b><i>Desired Output</i></b></blockquote><blockquote class="tr_bq">
-* <i>ComputerName Model Manufacturer LogicalProcs PhysicalRAM BIOSSerial</i>
-</blockquote><i style="font-family: 'Trebuchet MS', Trebuchet, sans-serif; line-height: 18px;"><b>
-</b></i><div style="background-color: white; font-family: 'Trebuchet MS', Trebuchet, sans-serif; line-height: 18px;"><b><u>My Script</u></b><b><u>
-</u></b>
+<blockquote><i><b>Minimum Requirements</b></i></blockquote>
+
+<blockquote><i><b>Optional Criteria</b></i></blockquote>
+
+<blockquote><ul><li><i>Display optional verbose output showing the computer name being contacted</i></li><li><i>Prompt for computer names if none are specified when the function is run</i></li><li><i>Accept computer names as strings from the pipeline</i></li></ul></blockquote>
+
+<blockquote><i><b>Desired Output</b></i></blockquote>
+
+<blockquote><ul><li><i>ComputerName Model Manufacturer LogicalProcs PhysicalRAM BIOSSerial</i></li></ul></blockquote>
+
+<div style="background-color: white;"><b><u>My Script</u></b></div>
+
 ```
 # NAME  : Get-ComputerInventory
 # AUTHOR: Francois-Xavier Cat

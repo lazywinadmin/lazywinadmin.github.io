@@ -99,7 +99,7 @@ All Calendar API requests use the following root URL: `https://outlook.office365
 `{user_context}` is the current user, as Calendar API requests are always performed on behalf of the current user.
 
 
-<b>You can specify the user context in one of <u>two ways</u>:</b
+<b>You can specify the user context in one of <u>two ways</u>:</b>
 * <b><u>Current User</u>:</b> With the `me` shortcut: `/api/v1.0/me`
 
 ```powershell

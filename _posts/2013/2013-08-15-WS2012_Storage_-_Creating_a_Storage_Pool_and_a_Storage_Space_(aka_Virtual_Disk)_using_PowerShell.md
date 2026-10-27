@@ -82,7 +82,6 @@ In order to understand the deployment model of a Storage Space, I created the fo
 
 <a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/WS2012_Storage_Workflow__1252811681__-1125x1600.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="WS2012 Storage Workflow" loading="lazy" decoding="async" border="0" height="640" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/WS2012_Storage_Workflow__849051994__-450x640.png" width="450" /></a>
 
-### <div style="font-size: medium; font-weight: normal;">
 
 
 
@@ -237,11 +236,11 @@ A Storage Space is created from an existing Storage pool. The Storage Space (als
 
 Creating a Storage Space requires the following information:
 
-* The <b><span style="font-family: Courier New, Courier, monospace;">Name, <span style="font-family: Courier New, Courier, monospace;">UniqueID or <span style="font-family: Courier New, Courier, monospace;">FriendlyName</b>of the Storage Pool that was created, here "<b>LUN-1TB</b>"
+* The <b><span style="font-family: Courier New, Courier, monospace;">Name, <span style="font-family: Courier New, Courier, monospace;">UniqueID or <span style="font-family: Courier New, Courier, monospace;">FriendlyName</span></span></span></b>of the Storage Pool that was created, here "<b>LUN-1TB</b>"
 
-* A <b><span style="font-family: Courier New, Courier, monospace;">FriendlyName</b> to use for the Storage Space to create
+* A <b><span style="font-family: Courier New, Courier, monospace;">FriendlyName</span></b> to use for the Storage Space to create
 
-* The <b><span style="font-family: Courier New, Courier, monospace;">Size</b> of the Storage Space to create (you can also use the <span style="font-family: Courier New, Courier, monospace;">-<b>UseMaximumSize</b> parameter)
+* The <b><span style="font-family: Courier New, Courier, monospace;">Size</span></b> of the Storage Space to create (you can also use the <span style="font-family: Courier New, Courier, monospace;">-<b>UseMaximumSize</b> parameter)</span>
 
 * <i>(Optionally)</i> Use of advanced settings when creating the Storage Space, such as
 

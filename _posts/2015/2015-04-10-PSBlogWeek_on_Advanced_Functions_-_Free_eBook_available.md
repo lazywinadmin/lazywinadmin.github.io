@@ -38,7 +38,7 @@ I'm happy to announced that all the articles have been combined into a free eboo
 1. <a href="{{ site.url }}/2015/03/standard-and-advanced-powershell.html" target="_blank">Standard and Advanced PowerShell Functions</a>
 1. <a href="http://mikefrobbins.com/2015/03/31/powershell-advanced-functions-can-we-build-them-better-with-parameter-validation-yes-we-can/" target="_blank">Parameter validation</a>
 1. <a href="https://web.archive.org/web/20150707082033/http://www.adamtheautomator.com/psbloggingweek-dynamic-parameters-and-parameter-validation/" target="_blank">Dynamic Parameters and Parameter Validation</a>
-1. <a href="http://bit.ly/1GlVVff" target="_blank">Supporting WhatIf and Confirm</b></a>
+1. <a href="http://bit.ly/1GlVVff" target="_blank">Supporting WhatIf and Confirm</a>
 1. <a href="http://www.sapien.com/blog/2015/04/03/advanced-help-for-advanced-functions/" target="_blank">Advanced Help</a>
 1. <a href="http://learn-powershell.net/2015/04/04/a-look-at-trycatch-in-powershell" target="_blank">A Look at Try/Catch</a>
 

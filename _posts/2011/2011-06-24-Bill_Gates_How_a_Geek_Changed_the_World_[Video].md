@@ -11,6 +11,6 @@ published: true
 comments: true
 ---
 Bill Gates: How a Geek Changed the World [Video]
-<embed allowfullscreen="true" allowscriptaccess="never" height="517" src="http://www.youtube.com/v/bQ2C3umgN6M?version=3&amp;hl=en_GB&amp;rel=0" type="application/x-shockwave-flash" width="650" wmode="transparent"></embed>
+<iframe allowfullscreen="" frameborder="0" height="517" src="https://www.youtube.com/embed/bQ2C3umgN6M?version=3&amp;hl=en_GB&amp;rel=0" width="650"></iframe>
 
 Just before he stepped down from Microsoft, BBC2's "The Money Programme" put together a special on Bill Gates and how he made the company into a money making machine. Those of you who love geek history will definitely enjoy this hour long documentary video.
