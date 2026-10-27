@@ -75,7 +75,8 @@ Annotations
 Script
 
 
-<pre class="brush: powershell;collapse: true;highlight:[75, 76, 85, 92, 110, 125]; ruler: true; first-line: 1;gutter: true;">function Move-Log {
+```powershell
+function Move-Log {
 <#
  .SYNOPSIS
   Move logs between two specified locations.

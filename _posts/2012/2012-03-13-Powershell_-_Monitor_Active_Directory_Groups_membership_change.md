@@ -42,7 +42,8 @@ This script will first check the members and export the result to a CSV file (if
 <u>Script</u>
 [https://github.com/lazywinadmin/Monitor-ADGroupMembership](https://github.com/lazywinadmin/Monitor-ADGroupMembership)
 
-<pre class="brush: powershell; ruler: true; first-line: 1;gutter: true;">#requires -version 2.0 
+```powershell
+#requires -version 2.0 
 
 # ############################################################################# 
 # NAME: TOOL-Monitor-AD_DomainAdmins_EnterpriseAdmins.ps1 

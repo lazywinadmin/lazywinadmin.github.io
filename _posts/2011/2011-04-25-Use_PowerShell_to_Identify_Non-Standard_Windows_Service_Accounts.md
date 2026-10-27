@@ -14,7 +14,8 @@ comments: true
 ---
 Source: [Expert Solution for the 2011 Scripting Games Beginner Event 4](http://blogs.technet.com/b/heyscriptingguy/archive/2011/04/21/expert-solution-for-the-2011-scripting-games-beginner-event-4-use-powershell-to-identify-non-standard-windows-service-accounts.aspx)
 
-<pre class="brush: powershell; ruler: true; first-line: 1; highlight: [2, 4, 6]"><#
+```powershell
+<#
 
 .SYNOPSIS
    Identifies services with nonstandard accounts

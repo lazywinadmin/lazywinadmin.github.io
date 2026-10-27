@@ -13,7 +13,8 @@ Here is my powershell script template.
 Hope that's help someone out there.
 
 
-<pre class="brush: powershell; ruler: true; first-line: 1;gutter: true;"># #############################################################################
+```powershell
+# #############################################################################
 # COMPANY INC - SCRIPT - POWERSHELL
 # NAME: script.ps1
 # 
