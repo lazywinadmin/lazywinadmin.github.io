@@ -321,11 +321,11 @@ Where to go from here ? Check out my previous storage posts:
 <span style="font-size: x-large;">Resources
 
 <a href="http://technet.microsoft.com/en-us/evalcenter/hh670538.aspx" target="_blank">Download - Windows Server 2012</a>
-<a href="http://technet.microsoft.com/en-us/evalcenter/dn205286.aspx" target="_blank">Download - Windows Server 2012 R2 Preview</a><a href="http://blogs.technet.com/b/yungchou/archive/2012/08/31/windows-server-2012-storage-virtualization-explained.aspx" target="_blank">TechNet - Windows Server 2012 Storage Virtualization Explained</a><a href="http://download.microsoft.com/download/A/B/E/ABE02B78-BEC7-42B0-8504-C880A1144EE1/WS%202012%20White%20Paper_Storage.pdf" target="_blank">Download - Windows Server 2012 White Paper Storage.pdf</a>
+<a href="http://technet.microsoft.com/en-us/evalcenter/dn205286.aspx" target="_blank">Download - Windows Server 2012 R2 Preview</a><a href="https://web.archive.org/web/20160301200146/http://blogs.technet.com/b/yungchou/archive/2012/08/31/windows-server-2012-storage-virtualization-explained.aspx" target="_blank">TechNet - Windows Server 2012 Storage Virtualization Explained</a><a href="http://download.microsoft.com/download/A/B/E/ABE02B78-BEC7-42B0-8504-C880A1144EE1/WS%202012%20White%20Paper_Storage.pdf" target="_blank">Download - Windows Server 2012 White Paper Storage.pdf</a>
 <a href="http://blogs.msdn.com/b/san/archive/2012/06/26/an-introduction-to-storage-management-in-windows-server-2012.aspx" target="_blank">MSDN - An Introduction to Storage Management in Windows Server 2012</a>
 <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30125" target="_blank">Download - Deploy and Manage Storage Spaces with PowerShell.docx</a>
 <a href="http://www.techrepublic.com/blog/data-center/diy-san-windows-server-2012-storage-spaces-and-iscsi-target/" target="_blank">TechRepublic - DIY SAN: Windows Server 2012 Storage Spaces and iSCSI target</a>
-<a href="http://social.technet.microsoft.com/wiki/contents/articles/7807.windows-server-2012-test-lab-guides.aspx" target="_blank">TechNet - Windows Server 2012 Test Lab Guides</a>
+<a href="https://learn.microsoft.com/en-us/archive/technet-wiki/7807.windows-server-2012-test-lab-guides" target="_blank">TechNet - Windows Server 2012 Test Lab Guides</a>
 
 
 

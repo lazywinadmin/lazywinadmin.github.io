@@ -52,7 +52,7 @@ In the following post I will talk about the following points:
 It's an Internet Protocol (IP)-based storage networking standard for linking data storage facilities.
 iSCSI is used to facilitate data transfers over a network (LAN, WAN or Internet) and transferring data by carrying SCSI commands over IP networks. iSCSI leverages the Ethernet network and does not require any specialized hardware
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="4265.image" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">source:[http://blogs.technet.com/b/filecab/](http://blogs.technet.com/b/filecab/)</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="4265.image" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130711_WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/4265.image_30150E08__1566633119__-699x243.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">source:[http://blogs.technet.com/b/filecab/](https://web.archive.org/web/20160126153552/http://blogs.technet.com/b/filecab/)</td></tr></tbody></table>
 <b>iSCSI Target Server:</b> is the server that shares the storage, it runs the iSCSI Target. The server (machine) consumes the storage is called iSCSI initiator.
 
 <b>iSCSI Initiator:</b>Typically, it is an application server. For example, iSCSI Target provides storage to a SQL server, the SQL server will be the iSCSI initiator in this deployment.
@@ -131,7 +131,7 @@ Add-WindowsFeature-Name FS-iSCSITarget-Server
 
 ```
 <u style="background-color: yellow;">Optionally</u>
-You might also want to install the iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="http://blogs.technet.com/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">more info</a>)
+You might also want to install the iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="https://web.archive.org/web/20151225130716/http://blogs.technet.com:80/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">more info</a>)
 
 
 ```
@@ -278,9 +278,9 @@ Once a virtual disk has been assigned to a target, and after the iSCSi initiator
 
 * <a href="https://web.archive.org/web/20130413020806/http://www.van-lieshout.com/2011/01/esxcli-powercli/" target="_blank">PowerCLI - Using Get-ESXCLI</a>
 
-* <a href="http://blogs.technet.com/b/josebda/archive/2010/09/29/powershell-cmdlets-for-the-microsoft-iscsi-target-3-3-included-in-windows-storage-server-2008-r2.aspx" target="_blank">PowerShell Cmdlets for iSCSI Target</a>
+* <a href="https://web.archive.org/web/20150516143129/http://blogs.technet.com/b/josebda/archive/2010/09/29/powershell-cmdlets-for-the-microsoft-iscsi-target-3-3-included-in-windows-storage-server-2008-r2.aspx" target="_blank">PowerShell Cmdlets for iSCSI Target</a>
 
-* <a href="http://blogs.technet.com/b/filecab/archive/2012/05/21/introduction-of-iscsi-target-in-windows-server-2012.aspx" target="_blank">Introduction of iSCSI Target in Windows Server 2012</a>
+* <a href="https://web.archive.org/web/20160113220340/http://blogs.technet.com/b/filecab/archive/2012/05/21/introduction-of-iscsi-target-in-windows-server-2012.aspx" target="_blank">Introduction of iSCSI Target in Windows Server 2012</a>
 
 * <a href="https://learn.microsoft.com/en-us/archive/blogs/san/managing-iscsi-initiator-connections-with-windows-powershell-on-windows-server-2012" target="_blank">Managing iSCSI Initiator connections with Windows PowerShell on Windows Server 2012</a>
 
@@ -288,7 +288,7 @@ Once a virtual disk has been assigned to a target, and after the iSCSi initiator
 
 * <a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">Configure Windows Server 2012 as a ISCSI Storage Server</a>
 
-* <a href="http://blogs.technet.com/b/storageserver/archive/2009/12/11/six-uses-for-the-microsoft-iscsi-software-target.aspx" target="_blank">Six Uses for the Microsoft iSCSI Software Target</a>
+* <a href="https://web.archive.org/web/20160301032422/http://blogs.technet.com/b/storageserver/archive/2009/12/11/six-uses-for-the-microsoft-iscsi-software-target.aspx" target="_blank">Six Uses for the Microsoft iSCSI Software Target</a>
 
 
 

@@ -309,6 +309,6 @@ RELATED LINKS
 * [TechNet - Remove-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852303.aspx)
 * [Using Catch-All Subnets in Active Directory](http://technet.microsoft.com/en-us/magazine/2009.06.subnets.aspx)
 * [DC Locator – What Does "NO_CLIENT_SITE" Mean In Netlogon.log](http://jorgequestforknowledge.wordpress.com/2011/01/27/dc-locator-what-does-quot-no-client-site-quot-mean-in-netlogon-log/)
-* [Ask the Directory Services Team - Sites Sites Everywhere...](http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx)
+* [Ask the Directory Services Team - Sites Sites Everywhere...](https://web.archive.org/web/20160122122043/http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx)
 * [How Domain Controllers Are Located in Windows XP](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-security/enable-debug-logging-netlogon-service)
 * [Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)](http://technet.microsoft.com/en-us/library/cc733142(v=ws.10).aspx)

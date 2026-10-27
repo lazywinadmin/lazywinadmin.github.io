@@ -35,7 +35,7 @@ The GUI was created using PowerShell Studio from SAPIEN. You can try this tool b
 The beautiful part of it is that no Active Directory Module or Quest Active Directory Snapin are required
 In my case I used <b>ADSI</b>: <b>[ADSISearcher]</b>
 
-If you want to know more about `ADSISearcher` check this [article from the Scripting Guy](http://blogs.technet.com/b/heyscriptingguy/archive/2010/08/24/use-the-powershell-adsisearcher-type-accelerator-to-search-active-directory.aspx)
+If you want to know more about `ADSISearcher` check this [article from the Scripting Guy](https://devblogs.microsoft.com/scripting/use-the-powershell-adsisearcher-type-accelerator-to-search-active-directory/)
 
 
 ### User Interface

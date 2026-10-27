@@ -104,7 +104,7 @@ Here are the most important Information you will need for the games. Note that t
 </ul>
 * <u>Judges</u>
 <ul>
-* <a href="http://blogs.technet.com/b/heyscriptingguy/" target="_blank">Ed Wilson</a> - <a href="https://twitter.com/ScriptingGuys" target="_blank">@ScriptingGuys</a>
+* <a href="https://devblogs.microsoft.com/scripting/" target="_blank">Ed Wilson</a> - <a href="https://twitter.com/ScriptingGuys" target="_blank">@ScriptingGuys</a>
 
 * <a href="https://web.archive.org/web/20140219002138/http://www.concentratedtech.com/" target="_blank">Don Jones</a> - <a href="https://twitter.com/concentrateddon" target="_blank">@concentrateddon</a> -<a class="g-profile" href="https://plus.google.com/110561082583864292900" target="_blank">+Don Jones</a> 
 

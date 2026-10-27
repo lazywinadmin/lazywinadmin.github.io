@@ -120,7 +120,7 @@ Small list of the interesting blog articles/documentations I found.
 
 * <a href="http://p0w3rsh3ll.wordpress.com/2013/05/28/2013-scripting-games-event-5/" target="_blank"><b>Emin Atac</b>who did an awesome job on this event</a>
 
-* <u><a href="http://blogs.technet.com/b/heyscriptingguy/archive/2012/03/03/use-powershell-to-collect-store-and-parse-iis-log-data.aspx" target="_blank">Use PowerShell to Collect, Store, and Parse IIS Log Data<b> using SQL</b></a></u>
+* <u><a href="https://devblogs.microsoft.com/scripting/use-powershell-to-collect-store-and-parse-iis-log-data/" target="_blank">Use PowerShell to Collect, Store, and Parse IIS Log Data<b> using SQL</b></a></u>
 
 * <u><a href="http://www.w3.org/TR/WD-logfile.html" target="_blank">W3C Logging - W3.org</a></u>
 

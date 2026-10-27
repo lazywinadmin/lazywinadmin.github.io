@@ -208,7 +208,7 @@ $WorkSheet = $WorkBook.sheets.item($SheetName)
 
 ## Other References
 
-* <a href="http://blogs.technet.com/b/heyscriptingguy/archive/2008/09/11/how-can-i-read-from-excel-without-using-excel.aspx" style="font-family: '';" target="_blank">Hey, Scripting Guy! How Can I Read from Excel Without Using Excel?</a>
+* <a href="https://web.archive.org/web/20160125135641/http://blogs.technet.com/b/heyscriptingguy/archive/2008/09/11/how-can-i-read-from-excel-without-using-excel.aspx" style="font-family: '';" target="_blank">Hey, Scripting Guy! How Can I Read from Excel Without Using Excel?</a>
 * <a href="http://import-powershell.blogspot.ca/2012/03/excel-part-1.html" style="font-family: '';" target="_blank">Josh Miller - Excel part1</a>
 * <a href="http://import-powershell.blogspot.ca/2012/04/excel-part-2-import-excel.html" target="_blank">Josh Miller - Excel part2</a>
 * <a href="http://msdn.microsoft.com/en-us/library/bb149081.aspx" target="_blank">Excel Automation Model</a>

@@ -42,7 +42,7 @@ Quick overview of my NFS Service architecture in my Home Lab</i></td></tr></tbod
 Before I start, if you are not familiar with NFS, W2012or vSphere 5.1, please check the following links:
 
 * NFS stands fo Networ FileSystem <a href="http://en.wikipedia.org/wiki/Network_File_System" target="_blank">Wikipedia</a>
-* <a href="http://blogs.technet.com/b/filecab/archive/2012/09/14/server-for-nfs-in-windows-server-2012.aspx" target="_blank">Windows Server 2012 - Server for NFS</a>
+* <a href="https://web.archive.org/web/20160112031001/http://blogs.technet.com/b/filecab/archive/2012/09/14/server-for-nfs-in-windows-server-2012.aspx" target="_blank">Windows Server 2012 - Server for NFS</a>
 * <a href="https://web.archive.org/web/20130808151150/http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Storage-Technical-Whitepaper.pdf" target="_blank">What's New in vSphere 5.1 - Storage</a>
 
 ### Using PowerShell

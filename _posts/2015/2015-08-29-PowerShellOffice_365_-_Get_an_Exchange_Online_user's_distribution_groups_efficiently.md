@@ -101,7 +101,7 @@ The reason is that you can use `Exchange Opath filters` inside many Exchange Onl
 
 > ## Exchange Opath filters
 <i>OPATH is basis for the filtering syntax used by PowerShell, and is therefore the filtering syntax used by Exchange 2007. It replaces the complicated syntax of LDAP used in Exchange 2003, and will allow for filters which are easier to create and interpret. For native PowerShell filters, all work is done client-side in the Powershell host. In Exchange 2007, however, various cmdlets provide "server-side" filters using the same syntax as their client-side counterparts. These server-side filters provide higher performance and added scenarios that are specific to Exchange Server.</i>
-> [http://blogs.technet.com/b/exchange/archive/2007/01/10/3397707.aspx](http://blogs.technet.com/b/exchange/archive/2007/01/10/3397707.aspx)
+> [http://blogs.technet.com/b/exchange/archive/2007/01/10/3397707.aspx](https://web.archive.org/web/20160301162206/http://blogs.technet.com/b/exchange/archive/2007/01/10/3397707.aspx)
 
 More information on the properties that you can use with Exchange Cmdlets in the `Filter` Parameter : [https://technet.microsoft.com/en-us/library/bb738155(v=exchg.150).aspx](https://technet.microsoft.com/en-us/library/bb738155(v=exchg.150).aspx)
 

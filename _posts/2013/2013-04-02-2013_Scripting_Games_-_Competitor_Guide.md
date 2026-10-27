@@ -12,7 +12,7 @@ comments: true
 <a href="https://twitter.com/concentrateddon" target="_blank"> </a>
 <a href="{{ site.url }}/images/2013/2013_Scripting_Games_-_Competitor_Guide/PowerShell-Scripting-Games-Logo_1.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="PowerShell Scripting Games Logo 1" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2013/2013_Scripting_Games_-_Competitor_Guide/PowerShell-Scripting-Games-Logo_1-s200.png" width="171" /></a>Don Jones just released the Competitor Guide for the 2013 Scripting Games online.
 
-This year the Games will be hosted by PowerShell.org (Previous ones where organize by the <a href="http://blogs.technet.com/b/heyscriptingguy/" target="_blank">Scripting Guy Ed Wilson</a>). This event is scheduled to start during the <a href="http://powershell.org/summit/" target="_blank">PowerShell Summit</a> in Seattle (between the 22nd and the 24th of April).
+This year the Games will be hosted by PowerShell.org (Previous ones where organize by the <a href="https://devblogs.microsoft.com/scripting/" target="_blank">Scripting Guy Ed Wilson</a>). This event is scheduled to start during the <a href="http://powershell.org/summit/" target="_blank">PowerShell Summit</a> in Seattle (between the 22nd and the 24th of April).
 
 Make sure to read the Guidelines and check the different tracks available to you (Beginner or Advanced).
 

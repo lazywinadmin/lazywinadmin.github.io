@@ -13,7 +13,7 @@ comments: true
 ---
 
  
- Installing Windows 10 Assessment and Deployment Kit (ADK) on SCCM 2012 R2 SP1 was a bit tricky. To "upgrade" the Windows ADK from 8.1 to 10, <a href="http://blogs.technet.com/b/configmgrteam/archive/2015/08/05/windows-10-adk-and-configuration-manager.aspx" target="_blank">Microsoft recommend</a> to remove Windows 8.1 ADK prior to the installation of Windows 10 ADK. We had some issue uninstalling Windows 8.1 ADK and installing the Windows 10 ADK
+ Installing Windows 10 Assessment and Deployment Kit (ADK) on SCCM 2012 R2 SP1 was a bit tricky. To "upgrade" the Windows ADK from 8.1 to 10, <a href="https://web.archive.org/web/20160130095000/http://blogs.technet.com/b/configmgrteam/archive/2015/08/05/windows-10-adk-and-configuration-manager.aspx" target="_blank">Microsoft recommend</a> to remove Windows 8.1 ADK prior to the installation of Windows 10 ADK. We had some issue uninstalling Windows 8.1 ADK and installing the Windows 10 ADK
 
 
 

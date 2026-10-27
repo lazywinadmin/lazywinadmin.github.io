@@ -127,7 +127,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 
 * Technet Videos
 <ul>
-* <a href="http://blogs.technet.com/b/servicemanager/archive/2011/11/10/demo-automating-service-request-fulfillment-from-the-scsm-service-catalog-with-orchestrator-real-world-examples.aspx#3464611" target="_blank">Demo: Automating Service Request Fulfillment from the SCSM Service Catalog with Orchestrator–Real World Examples</a>
+* <a href="https://web.archive.org/web/20150421071829/http://blogs.technet.com/b/servicemanager/archive/2011/11/10/demo-automating-service-request-fulfillment-from-the-scsm-service-catalog-with-orchestrator-real-world-examples.aspx#3464611" target="_blank">Demo: Automating Service Request Fulfillment from the SCSM Service Catalog with Orchestrator–Real World Examples</a>
 </ul>
 * <a href="http://technet.microsoft.com/en-ca/virtuallabs/bb467605.aspx" target="_blank">Technet Virtual Labs</a> (Search for 'Service Manager')
 
@@ -139,9 +139,9 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 </ul>
 * Technet Blog
 <ul>
-* <a href="http://blogs.technet.com/b/antoni/archive/2014/04/09/system-center-2012-service-manager-and-orchestrator-integration-example-walkthrough-start-to-finish-new-hire-provisioning-service-request.aspx" target="_blank">System Center 2012 Service Manager and Orchestrator Integration Example Walkthrough Start-to-Finish - New Hire Provisioning Service Request</a>
+* <a href="https://web.archive.org/web/20160302184516/http://blogs.technet.com/b/antoni/archive/2014/04/09/system-center-2012-service-manager-and-orchestrator-integration-example-walkthrough-start-to-finish-new-hire-provisioning-service-request.aspx" target="_blank">System Center 2012 Service Manager and Orchestrator Integration Example Walkthrough Start-to-Finish - New Hire Provisioning Service Request</a>
 
-* <a href="http://blogs.technet.com/b/antoni/archive/2012/06/06/how-to-raise-an-incident-on-behalf-of-a-different-user.aspx" target="_blank">How to Raise an Incident on Behalf of a different person in the portal, using System Center 2012 Service Manager and Orchestrator</a>
+* <a href="https://web.archive.org/web/20150522100340/http://blogs.technet.com/b/antoni/archive/2012/06/06/how-to-raise-an-incident-on-behalf-of-a-different-user.aspx" target="_blank">How to Raise an Incident on Behalf of a different person in the portal, using System Center 2012 Service Manager and Orchestrator</a>
 </ul></ul>
 # 
 
