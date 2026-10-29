@@ -16,16 +16,16 @@ comments: true
  <a href="{{ site.url }}/images/2014/PowerShell_Summit_2014_Europe_(Fran_aisFrench)/2014-03-11_6-43-32_PM.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Summit 2014 Europe (Français/French)&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_2014_Europe_(Fran_aisFrench)/2014-03-11_6-43-32_PM.jpg" height="200" width="192" /></a>
 <a href="{{ site.url }}/2014/08/powershell-summit-2014-europe-english.html" target="_blank">English version</a>.
 
-La conférence PowerShell Summit Europe organisera sa premiÃ¨re édition <u>du 29 septembre au 1er octobre 2014</u>.
+La conférence PowerShell Summit Europe organisera sa première édition <u>du 29 septembre au 1er octobre 2014</u>.
 Trois jours de sessions PowerShell par les membres de l'équipe PowerShell, MVPs et d'autres experts PowerShell.
 
-C'est le lieu de rassemblement pour des tous enthousiastes et utilisateurs PowerShell ; l'endroit pour faire de nouvelles connexions, apprendre de nouvelles techniques et offrir quelque chose Ã  vos pairs et collÃ¨gues.
+C'est le lieu de rassemblement pour des tous enthousiastes et utilisateurs PowerShell ; l'endroit pour faire de nouvelles connexions, apprendre de nouvelles techniques et offrir quelque chose à vos pairs et collègues.
 
-Pour avoir participé aux deux premiÃ¨res Ã‰ditions Nord Amérique en avril 2013 et avril 2014 Ã  Seattle, si vous voulez développer vos connaissances et découvrir comment d'autres professionnel TI utilisent PowerShell dans leur environement... c'est la conférence de prédilection auxquel vous devez assister!!!!
+Pour avoir participé aux deux premières Éditions Nord Amérique en avril 2013 et avril 2014 à Seattle, si vous voulez développer vos connaissances et découvrir comment d'autres professionnel TI utilisent PowerShell dans leur environement... c'est la conférence de prédilection auxquel vous devez assister!!!!
 
 
 
-Le PowerShell Summit Europe est organisé par <a href="https://powershell.org/">PowerShell.org</a> et se tiendra <u>Ã  Amsterdam au Park HÃ´tel</u>.
+Le PowerShell Summit Europe est organisé par <a href="https://powershell.org/">PowerShell.org</a> et se tiendra <u>à Amsterdam au Park Hôtel</u>.
 
 <b style="text-decoration: underline;">Détails</b> : <a href="https://web.archive.org/web/20140701205435/http://powershell.org/wp/community-events/summit/">web.archive.org/web/20140701205435/http://powershell.org/wp/community-events/summit/</a>
 <b style="text-decoration: underline;">Agenda</b> : <a href="https://web.archive.org/web/20140913234856/http://eventmgr.azurewebsites.net/event/agenda/PSEU14">web.archive.org/web/20140913234856/http://eventmgr.azurewebsites.net/event/agenda/PSEU14</a>

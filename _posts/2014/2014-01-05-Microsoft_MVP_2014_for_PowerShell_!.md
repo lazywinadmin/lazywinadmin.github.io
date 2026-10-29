@@ -18,7 +18,7 @@ comments: true
 
 <blockquote class="tr_bq"><i>Dear Francois-Xavier Cat,</i></blockquote>
 
-<blockquote class="tr_bq"><i>Congratulations! We are pleased to present you with the 2014 MicrosoftÂ® MVP Award! This award is given to exceptional technical community leaders who actively share their high quality, real world expertise with others. We appreciate your outstanding contributions in PowerShell technical communities during the past year.</i></blockquote>
+<blockquote class="tr_bq"><i>Congratulations! We are pleased to present you with the 2014 Microsoft® MVP Award! This award is given to exceptional technical community leaders who actively share their high quality, real world expertise with others. We appreciate your outstanding contributions in PowerShell technical communities during the past year.</i></blockquote>
 
 I would like to take this opportunity to thank especially Vivian for her support and motivation, Simran and Joel from Microsoft Canada (who first contacted me back in September), Andrey from Domtar and Jean-Philippe from Akilon.
 
