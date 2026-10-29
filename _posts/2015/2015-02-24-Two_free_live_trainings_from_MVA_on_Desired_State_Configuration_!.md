@@ -40,7 +40,7 @@ Are you keeping up with PowerShell Desired State Configuration (DSC)? It's one o
 
 * Getting Ready for DSC
 * Performing a Push Deployment
-* Configuring Pull Servers for Deploymentâ€‹
+* Configuring Pull Servers for Deployment
 * Deploying Configurations Using a Pull Server
 * Resource Roundup
 * Writing Better Configurations

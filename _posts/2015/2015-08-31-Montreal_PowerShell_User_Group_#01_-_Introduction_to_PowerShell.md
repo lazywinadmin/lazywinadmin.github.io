@@ -63,7 +63,7 @@ We would like to thank our sponsors for their support:
 
 ## -Francais-
 
-Ceci est notre premiere rencontre du groupe d'utilisateurs PowerShell Ã  Montreal ! Nous commencons doucement avec une presentation sur les bases de PowerShell ! Pizza, PopCorn et quelques jeux a gagner!
+Ceci est notre premiere rencontre du groupe d'utilisateurs PowerShell à Montreal ! Nous commencons doucement avec une presentation sur les bases de PowerShell ! Pizza, PopCorn et quelques jeux a gagner!
 
 
 ### Quand
@@ -77,7 +77,7 @@ Warner Brothers Games - 888 Maisonneuve Est - 6eme Etage
 Salle: Jack Warner (En face des ascenceurs)
 
 * 18:00 - Ouverture des portes, Introduction du groupe d'utilisateur, discussion avec l'audience, Pizza and popcorn
-* 18:30 - Presentation: "Introduction Ã  PowerShell" + Q/A
+* 18:30 - Presentation: "Introduction à PowerShell" + Q/A
 * 19:30 - Discussion, idee de sujets pour les prochaines rencontres + Tirage au sort
 * 20:00 - End
 

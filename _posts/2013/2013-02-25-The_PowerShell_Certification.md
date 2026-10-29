@@ -13,7 +13,7 @@ comments: true
 
 Don Jones just <a href="https://web.archive.org/web/20140227170349/http://powershell.org/wp/2013/02/24/verified-effective-for-powershell-3-0-toolmaking-now-live/" target="_blank">announced the creation of the PowerShell "Certification"!!</a>
 
-This is available for anybody who want to test their PowerShell scripting knowledge. The PowerShell "certification" is under the VERIFIED EFFECTIVEâ„¢ brand.
+This is available for anybody who want to test their PowerShell scripting knowledge. The PowerShell "certification" is under the VERIFIED EFFECTIVE™ brand.
 
 The certification name:<b>Windows PowerShell 3.0 Toolmaking.</b>
 
