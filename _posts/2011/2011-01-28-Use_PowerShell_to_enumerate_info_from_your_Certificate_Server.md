@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Gather information from your Certificate Server
+description: "A quick PowerShell tip, with a VBScript version, to retrieve information from your Active Directory Certificate Authority (Certificate Server)."
 excerpt: 
 permalink: /2011/01/se-powershell-to-enumerate-info-from.html
 tags:

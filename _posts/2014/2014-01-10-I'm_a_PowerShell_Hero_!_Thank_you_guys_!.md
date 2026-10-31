@@ -1,6 +1,7 @@
 ---
 layout: single
 title: I'm a PowerShell Hero ! Thank you guys !
+description: "I'm one of the five people who received the first PowerShell Heroes recognition from PowerShell.org for community work, just after my first MVP award."
 excerpt: 
 permalink: /2014/01/im-powershell-hero-thank-you-guys.html
 tags:

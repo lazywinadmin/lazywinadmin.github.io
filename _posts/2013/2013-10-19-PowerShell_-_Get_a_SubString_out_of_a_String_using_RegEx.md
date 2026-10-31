@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Get a SubString out of a String using RegEx
+description: "How to extract a substring, such as the site code MTL1 from an OU distinguished name, using a regular expression in PowerShell, plus non-regex options."
 excerpt: 
 permalink: /2013/10/powershell-get-substring-out-of-string.html
 tags:

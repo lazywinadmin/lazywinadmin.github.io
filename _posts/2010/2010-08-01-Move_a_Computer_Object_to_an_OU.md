@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Move a Computer Object to another Organizational Unit (OU) using DSMove
+description: "How to use DSMove to move a computer object to the right Active Directory OU automatically, based on the site name and number in the server name."
 seo_title: "Move a Computer Object to Another OU with DSMove"
 excerpt: 
 permalink: /2010/12/how-to-find-computer-serial-number.html

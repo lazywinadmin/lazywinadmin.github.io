@@ -1,6 +1,7 @@
 ---
 layout: single
 title: LazyWinAdmin 0.2
+description: "Release note for LazyWinAdmin 0.2, my PowerShell GUI tool for sysadmins, with the download link and requirements: PowerShell 2.0 and remote permissions."
 excerpt: 
 permalink: /2011/05/lazywinadmin-02.html
 tags:

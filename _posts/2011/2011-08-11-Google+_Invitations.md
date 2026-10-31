@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Google+ Invitations
+description: "A 2011 post sharing my invitation link for up to 150 people to join Google+, the Google social network that was invitation-only at the time it launched."
 excerpt: 
 permalink: /2011/08/google-invitations.html
 tags:

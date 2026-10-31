@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Resources - From Noob to Ninja
+description: "A list of PowerShell learning resources from beginner to advanced, mainly TechEd, Build and TechNet videos and webcasts on scripting and automation."
 excerpt: 
 permalink: /2012/09/powershell-ressources-from-noob-to-ninja.html
 tags: 

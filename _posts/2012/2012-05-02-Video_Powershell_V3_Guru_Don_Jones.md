@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Video - Powershell V3 Guru Don Jones
+description: "Channel 9 video from MMS 2012 where Rick Claus interviews Don Jones about PowerShell v3 and how PowerShell underpins management of Windows Server 2012."
 excerpt: 
 permalink: /2012/05/video-powershell-v3-guru-don-jones.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/SCCM - Find Applications advertised to a user
+description: "A PowerShell function that queries SCCM via WMI for every application deployed to a user, used during OS deployment to know what to install on a PC."
 excerpt: 
 permalink: /2015/09/powershellsccm-find-applications.html
 tags:

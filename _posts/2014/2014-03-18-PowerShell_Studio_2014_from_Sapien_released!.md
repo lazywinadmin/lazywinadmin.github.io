@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Studio 2014 from Sapien released!
+description: "SAPIEN released PowerShell Studio 2014, an editor and toolmaking environment for PowerShell scripts and GUIs. What it offers and how it is licensed."
 excerpt: 
 permalink: /2014/03/powershell-studio-2014-from-sapien.html
 tags:

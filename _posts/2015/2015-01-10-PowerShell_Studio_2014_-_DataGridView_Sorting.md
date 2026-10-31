@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Studio 2014 - DataGridView Sorting
+description: "How to sort a DataGridView in a PowerShell Studio 2014 GUI by binding it to a DataTable through a DataView, with a step-by-step example."
 excerpt: 
 permalink: /2015/01/powershell-studio-2014-datagridview.html
 tags:

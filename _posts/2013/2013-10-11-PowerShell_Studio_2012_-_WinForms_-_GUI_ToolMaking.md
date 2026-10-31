@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Studio 2012 - WinForms - GUI ToolMaking
+description: "Building a PowerShell Studio 2012 GUI tool that queries services, processes and shares on a remote computer and shows results in a DataGridView."
 excerpt: 
 permalink: /2013/10/PowerShellStudio2012ToolMaking.html
 tags:

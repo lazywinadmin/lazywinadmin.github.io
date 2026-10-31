@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Studio 2014/2015 - Editor Preset - Dark theme
+description: "A dark editor preset I created for SAPIEN PowerShell Studio 2014/2015, plus how to switch the application to a dark theme and use the Anonymous Pro font."
 excerpt: 
 permalink: /2015/02/powershell-studio-20142015-editor.html
 tags:

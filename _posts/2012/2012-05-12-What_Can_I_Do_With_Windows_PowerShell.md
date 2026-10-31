@@ -1,6 +1,7 @@
 ---
 layout: single
 title: What Can I Do With Windows PowerShell?
+description: "A pointer to the TechNet What Can I Do With Windows PowerShell? series, with topics from dates and files to security, sessions, aliases and drives."
 excerpt: 
 permalink: /2012/05/what-can-i-do-with-windows-powershell.html
 tags:

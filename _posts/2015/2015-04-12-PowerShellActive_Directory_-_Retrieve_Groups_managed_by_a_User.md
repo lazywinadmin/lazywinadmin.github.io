@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/Active Directory - Retrieve Groups managed by a User
+description: "How to list all the Active Directory groups managed by a specific user, through the ManagedBy attribute, using PowerShell and the ActiveDirectory module."
 seo_title: "PowerShell/AD: Retrieve Groups Managed by a User"
 excerpt: 
 permalink: /2015/04/powershellactive-directory-retrieving.html

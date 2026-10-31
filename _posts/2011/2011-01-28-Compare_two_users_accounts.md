@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/Active Directory - Compare two users accounts membership
+description: "PowerShell tip to compare the group memberships of two Active Directory user accounts, using either the ActiveDirectory module or the Quest cmdlets."
 seo_title: "PowerShell: Compare Two AD Users' Group Membership"
 excerpt: 
 permalink: /2011/01/compare-two-users-accounts.html

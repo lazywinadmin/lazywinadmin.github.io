@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Generating Passwords with Powershell
+description: "A PowerShell script by Derek Mangrum that generates new random passwords based on the parameters you choose, with the full code and usage examples."
 excerpt: 
 permalink: /2011/02/generating-passwords-with-powershell.html
 tags:

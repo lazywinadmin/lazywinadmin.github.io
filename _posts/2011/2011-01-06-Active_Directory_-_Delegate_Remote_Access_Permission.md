@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Active Directory - Delegate Remote Access Permission
+description: "Steps to delegate Remote Access (dial-in) permission in Active Directory through ADUC, including the DSSEC.DAT edit that unhides the needed rights."
 excerpt: 
 permalink: /2011/01/active-directory-delegate-remote-access.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - Get-ClipBoard Set-Clipboard
+description: "PowerShell code to read the current content of the Windows clipboard and set a new value, written for a GUI tool that needed both operations."
 excerpt: 
 permalink: /2010/06/powershell-get-clipboard-set-clipboard.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - Recommended coding style
+description: "Recommended coding style for PowerShell scripts, as described by Richard Berg in an answer on Stack Overflow, reproduced here with a link to the source."
 excerpt: 
 permalink: /2011/06/powershell-recommended-coding-style.html
 tags:

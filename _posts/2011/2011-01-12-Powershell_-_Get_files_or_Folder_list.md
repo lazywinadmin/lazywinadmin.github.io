@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - Get files or Folder list
+description: "How to list only files or only folders recursively in PowerShell, with the PowerShell v2 approach and the -File and -Directory parameters of v3+."
 excerpt: 
 permalink: /2011/01/powershell-get-files-or-folder-list.html
 tags:

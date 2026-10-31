@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Winter Scripting Games 2013 - Practice Event 2
+description: "My script for Winter Scripting Games 2013 Practice Event 2, a function that builds a hardware inventory report for servers without PowerShell installed."
 excerpt:
 permalink: /2013/02/winter-scripting-games-2013-practice_18.html
 tags:

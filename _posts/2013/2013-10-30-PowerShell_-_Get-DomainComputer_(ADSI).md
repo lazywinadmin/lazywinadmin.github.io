@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Get-DomainComputer (ADSI)
+description: "Get-DomainComputer, a PowerShell function that uses ADSI to query computer objects in Active Directory, optionally with other credentials or domain."
 excerpt:
 permalink: /2013/10/powershell-get-domaincomputer-adsi.html
 tags:

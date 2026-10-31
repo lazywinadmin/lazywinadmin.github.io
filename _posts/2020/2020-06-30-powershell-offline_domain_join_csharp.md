@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Offline Domain Join using PowerShell and c#
+description: "How to do an Offline Domain Join with djoin.exe, rebuilding the djoin blob with PowerShell and C#, and how I implemented it with ConfigMgr."
 excerpt: 
 permalink:
 tags:

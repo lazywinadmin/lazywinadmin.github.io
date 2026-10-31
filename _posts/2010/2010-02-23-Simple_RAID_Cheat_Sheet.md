@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Simple RAID Cheat Sheet
+description: "A quick reference table comparing RAID 0, RAID 1, RAID 5, RAID 10 and JBOD by redundancy, number of disks required, and read and write speed."
 excerpt: 
 permalink: /2010/02/simple-raid-cheat-sheet.html
 tags:

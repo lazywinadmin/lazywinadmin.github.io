@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Standard and Advanced PowerShell functions
+description: "My #PSBlogWeek post explaining the difference between standard and advanced PowerShell functions, CmdletBinding, and how to write advanced functions."
 excerpt: 
 permalink: /2015/03/standard-and-advanced-powershell.html
 tags:

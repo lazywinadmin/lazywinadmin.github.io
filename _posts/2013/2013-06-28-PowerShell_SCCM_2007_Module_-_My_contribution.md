@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell SCCM 2007 Module - My contribution
+description: "My contribution to Andre Bocchini's SCCM 2007 PowerShell automation module: tweaks to make some slow functions faster against large SCCM environments."
 excerpt: 
 permalink: /2013/06/powershell-sccm-2007-module-my.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - WMF 5.0 July preview uninstallation fails
+description: "Uninstalling the WMF 5.0 July preview (KB2969050) failed and rolled back. The fix: delete the DSC namespace in WMI first, per the release notes."
 excerpt: 
 permalink: /2014/09/powershell-wmf-50-july-preview.html
 tags:

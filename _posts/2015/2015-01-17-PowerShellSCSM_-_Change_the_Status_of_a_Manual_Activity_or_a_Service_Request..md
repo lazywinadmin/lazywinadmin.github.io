@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/SCSM - Change the Status of a Manual Activity or a Service Request.
+description: "How to change the status of a Manual Activity or a Service Request in System Center Service Manager with the SMlets module, and find status enums."
 seo_title: "PowerShell/SCSM: Change a Manual Activity or SR Status"
 excerpt: 
 permalink: /2015/01/powershellscsm-change-status-of-manual.html

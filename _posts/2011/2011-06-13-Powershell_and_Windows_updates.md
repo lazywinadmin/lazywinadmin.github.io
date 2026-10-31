@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell and Windows updates
+description: "A PowerShell function, found on Richard Siddaway's blog, that retrieves the list of Windows updates installed on a computer. Quick post with the code."
 excerpt: 
 permalink: /2011/06/powershell-and-windows-updates.html
 tags:

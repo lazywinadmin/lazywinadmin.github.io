@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Remove special characters from a string using Regular Expression (Regex)
+description: "How to remove special characters from a string in PowerShell with a regular expression while keeping letters with accents or diacritics, and numbers."
 seo_title: "PowerShell: Remove Special Characters from a String (Regex)"
 excerpt: 
 permalink: /2015/08/powershell-remove-special-characters.html

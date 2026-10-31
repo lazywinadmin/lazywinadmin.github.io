@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell 3.0 - Workflows (video by Bruce Payette)
+description: "A recording from the European TEC 2011 PowerShell Deep Dive where Bruce Payette tours PowerShell 3.0 Workflows: what they are, architecture and editor."
 excerpt: 
 permalink: /2012/03/powershell-30-workflows-video-by-bruce.html
 tags:

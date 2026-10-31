@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Winter Scripting Games 2013 - Practice Event 1
+description: "My PowerShell solution to Winter Scripting Games 2013 Practice Event 1: Get-DiskSizeInfo, an advanced function that queries disk size via WMI or CIM."
 excerpt:
 permalink: /2013/02/winter-scripting-games-2013-practice.html
 tags:

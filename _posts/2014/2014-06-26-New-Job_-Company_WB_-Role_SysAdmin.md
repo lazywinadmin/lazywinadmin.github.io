@@ -1,6 +1,7 @@
 ---
 layout: single
 title: New-Job -Company WB -Role SysAdmin
+description: "I'm leaving Domtar after five years to join the Warner Brothers Games studio in Montreal as a Senior Microsoft System Administrator."
 excerpt: 
 permalink: /2014/06/new-job-company-wb-role-sysadmin.html
 tags:

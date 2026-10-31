@@ -1,6 +1,7 @@
 ---
 layout: single
 title: 2013 Scripting Games - Competitor Guide
+description: "Don Jones released the Competitor Guide for the 2013 Scripting Games, hosted by PowerShell.org and starting during the PowerShell Summit in Seattle."
 excerpt: 
 permalink: /2013/04/2013-scripting-games-competitor-guide.html
 tags:

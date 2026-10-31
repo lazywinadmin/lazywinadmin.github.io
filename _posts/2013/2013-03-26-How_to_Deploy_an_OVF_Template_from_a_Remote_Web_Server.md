@@ -1,6 +1,7 @@
 ---
 layout: single
 title: How to Deploy an OVF Template from a Remote Web Server
+description: "How to deploy an OVF template in VMware vSphere Client directly from a URL on a remote web server, with an overview of the other deployment methods."
 excerpt: 
 permalink: /2013/03/how-to-deploy-ovf-template-from-remote.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: mRemoteNG - External Applications
+description: "A list of external applications to add to mRemoteNG, such as Computer Management and Zenmap, with the filename and arguments to use for each one."
 excerpt: 
 permalink: /2010/08/mremoteng-external-applications.html
 tags:

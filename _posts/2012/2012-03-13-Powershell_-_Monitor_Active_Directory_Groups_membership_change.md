@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - Monitor Active Directory Groups membership change
+description: "A PowerShell script, run as a scheduled task, that monitors membership changes on Active Directory groups such as Domain Admins and emails a report."
 seo_title: "PowerShell: Monitor Active Directory Group Changes"
 excerpt: 
 permalink: /2012/03/powershell-monitor-membership-change-to.html
