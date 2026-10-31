@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell MVP award
+description: "A quick post with photos of the Microsoft MVP Welcome Kit I received after getting my first PowerShell MVP award in January 2014."
 excerpt: 
 permalink: /2014/01/powershell-mvp-award.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)
+description: "Video demo of creating a basic PowerShell GUI with SAPIEN PowerShell Studio 2012, with a button that appends colored text to a RichTextBox control."
 seo_title: "PowerShell Studio 2012: Create a Basic WinForms GUI (Video)"
 excerpt: 
 permalink: /2013/10/powershell-studio-2012-winforms.html

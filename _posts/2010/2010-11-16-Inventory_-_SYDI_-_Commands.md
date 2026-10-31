@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Inventory - SYDI - Commands
+description: "The SYDI VBScript commands I use most to inventory servers and computers, generating Word, XML, Excel and HTML reports and converting between them."
 excerpt: 
 permalink: /2010/12/inventory-sydi-commands.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Composite Formatting references (-f Operator)
+description: "A reference for PowerShell composite formatting with the -f operator: format item syntax, alignment, and the standard and custom format strings."
 excerpt: 
 permalink: /2016/08/powershell-composite-formatting.html
 tags:

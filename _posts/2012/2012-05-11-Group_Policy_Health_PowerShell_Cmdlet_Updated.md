@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Group Policy Health PowerShell Cmdlet Updated
+description: "SDM Software updated its Group Policy Health PowerShell cmdlet to version 1.2. How to import the SDM-GPHealth module and the full Get-SDMGPHealth help."
 excerpt: 
 permalink: /2012/05/group-policy-health-powershell-cmdlet.html
 tags:

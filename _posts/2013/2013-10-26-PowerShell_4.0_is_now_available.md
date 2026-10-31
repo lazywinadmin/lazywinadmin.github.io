@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell 4.0 is now available
+description: "PowerShell 4.0 is released as part of Windows Management Framework 4.0. An overview of what Windows PowerShell is, and where to download and install it."
 excerpt: 
 permalink: /2013/10/powershell-40-is-now-available.html
 tags:

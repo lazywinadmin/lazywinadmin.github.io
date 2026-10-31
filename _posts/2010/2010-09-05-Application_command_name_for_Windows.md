@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Application command name for Windows
+description: "A quick reference of command names for Windows programs and Control Panel tools, such as appwiz.cpl and compmgmt.msc, to launch from the Run dialog."
 excerpt: 
 permalink: /2010/09/application-command-name-for-windows.html
 tags:

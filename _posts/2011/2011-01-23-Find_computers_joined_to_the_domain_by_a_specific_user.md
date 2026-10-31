@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Find computers joined to the domain by a specific user
+description: "Find the computers that a specific user joined to the Active Directory domain using PowerShell, with ADSI, the ActiveDirectory module or Quest cmdlets."
 excerpt:
 permalink: /2011/01/find-computers-joined-to-domain-by.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - My Script Template
+description: "The PowerShell script template I use as a starting point for new scripts, shared in full in case it helps someone else structure their own scripts."
 excerpt: 
 permalink: /2012/03/powershell-my-script-template.html
 tags:

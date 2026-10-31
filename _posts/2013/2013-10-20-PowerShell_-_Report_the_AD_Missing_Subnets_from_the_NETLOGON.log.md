@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Report the AD Missing Subnets from the NETLOGON.log
+description: "A PowerShell script that reports the missing subnets logged in the NETLOGON.log files of your Active Directory domain controllers and emails the result."
 seo_title: "PowerShell: Report AD Missing Subnets from NETLOGON.log"
 excerpt: 
 permalink: /2013/10/powershell-report-ad-missing-subnets.html

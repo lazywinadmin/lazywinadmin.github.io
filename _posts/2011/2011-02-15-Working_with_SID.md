@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell - Working with SID
+description: "How to convert between account names and SIDs in PowerShell for local and Active Directory accounts, using .NET, WMI, LDAP or the ActiveDirectory module."
 excerpt: 
 permalink: /2011/02/working-with-sid.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Run this Scheduled Task every minute !!!
+description: "How to make a Windows Server 2008 R2 scheduled task run every minute, both with schtasks.exe on the command line and through the Task Scheduler GUI."
 excerpt: 
 permalink: /2012/03/run-this-task-every-minute.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Get-LocalGroupMembership (Using ADSI/WinNT)
+description: "Get-LocalGroupMembership, a PowerShell function that uses ADSI and WinNT to list the members of a local group, such as Administrators, on remote computers."
 excerpt: 
 permalink: /2012/12/get-localgroupmembership-using-adsiwinnt.html
 tags:

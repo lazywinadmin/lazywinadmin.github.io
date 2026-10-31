@@ -1,6 +1,7 @@
 ---
 layout: single
 title: New version - LazyWinAdmin 0.3.20120220
+description: "Release notes for LazyWinAdmin 0.3.20120220, my PowerShell GUI tool built with PrimalForms: uptime and service fixes, a restart button, hosts file views."
 excerpt: 
 permalink: /2012/02/new-version-lazywinadmin-0320120220.html
 tags:

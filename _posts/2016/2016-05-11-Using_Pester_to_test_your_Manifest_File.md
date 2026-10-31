@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Using Pester to test your Manifest File
+description: "How to write Pester tests that check the module manifest (.psd1) of my AdsiPS module contains all the basic information it should reference."
 excerpt: 
 permalink: /2016/05/using-pester-to-test-your-manifest-file.html
 tags:

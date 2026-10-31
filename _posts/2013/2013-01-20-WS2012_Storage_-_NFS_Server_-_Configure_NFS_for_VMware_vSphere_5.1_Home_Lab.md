@@ -1,6 +1,7 @@
 ---
 layout: single
 title: WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab
+description: "How to set up an NFS server on Windows Server 2012 as storage for a VMware vSphere 5.1 home lab, using PowerShell or the GUI, and add the NFS datastore."
 seo_title: "WS2012 NFS Server: Configure NFS for a vSphere 5.1 Lab"
 excerpt: 
 permalink: /2013/01/configure-windows-server-2012-nfs.html

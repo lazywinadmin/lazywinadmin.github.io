@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Create a Function/Cmdlet Alias using the [Alias()] attribute"
+description: "A PowerShell tip from Kirk Munro: declare an alias for a function or cmdlet with the [Alias()] attribute, supported since PowerShell v4.0."
 excerpt: 
 permalink: /2016/05/create-functioncmdlet-alias-using-alias.html
 tags:

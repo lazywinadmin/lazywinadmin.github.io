@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Bill Gates - How a Geek Changed the World /[Video\/]
+description: "Bill Gates: How a Geek Changed the World, an hour-long BBC2 Money Programme documentary on how he built Microsoft, aired just before he stepped down."
 seo_title: "Bill Gates: How a Geek Changed the World (Video)"
 excerpt: 
 permalink: /2011/06/bill-gates-how-geek-changed-world-video.html

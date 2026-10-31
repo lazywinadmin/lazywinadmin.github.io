@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Scripting Games 2013 - Advanced Event 5 - The Logfile Labyrinth
+description: "My solution to Scripting Games 2013 Advanced Event 5, a PowerShell tool that scans a folder of IIS log files and lists the client IP addresses in them."
 seo_title: "Scripting Games 2013 Advanced 5: The Logfile Labyrinth"
 excerpt: 
 permalink: /2013/06/scripting-games-2013-advanced-event-5.html

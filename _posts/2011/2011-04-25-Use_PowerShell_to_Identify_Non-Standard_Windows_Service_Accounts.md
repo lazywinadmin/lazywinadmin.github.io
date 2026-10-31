@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Use PowerShell to Identify Non-Standard Windows Service Accounts
+description: "A PowerShell script, from an expert solution to the 2011 Scripting Games Beginner Event 4, that identifies Windows services using non-standard accounts."
 seo_title: "PowerShell: Identify Non-Standard Windows Service Accounts"
 excerpt: 
 permalink: /2011/04/use-powershell-to-identify-non-standard.html

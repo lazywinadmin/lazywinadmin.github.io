@@ -1,6 +1,7 @@
 ---
 layout: single
 title: VMware - Direct Download to VMtools
+description: "A useful link to download VMware Tools packages directly from the VMware package repository, now pointing to an archived copy of the repository page."
 excerpt: 
 permalink: /2012/05/vmware-direct-download-to-vmtools.html
 tags:

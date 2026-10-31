@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/SCSM - Get Manual Activities Completed in the last month
+description: "How to get all the Manual Activities completed in the last 30 days in System Center Service Manager with SMlets, using a single criteria filter."
 seo_title: "PowerShell/SCSM: Manual Activities Completed Last Month"
 excerpt: 
 permalink: /2016/03/powershellscsm-get-manual-activities.html

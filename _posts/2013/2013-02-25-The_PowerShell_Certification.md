@@ -1,6 +1,7 @@
 ---
 layout: single
 title: The PowerShell Certification
+description: "Don Jones announced a Windows PowerShell 3.0 Toolmaking certification under the Verified Effective brand. How it works, its cost and later changes."
 excerpt: 
 permalink: /2013/02/the-powershell-certification.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "How to report a bug or give a suggestion to the #powershell team ?"
+description: "A short reminder of the Microsoft Connect link where you could report a bug or send a suggestion to the PowerShell team, as it was in 2012."
 seo_title: "How to Report a Bug or Suggestion to the PowerShell Team"
 excerpt: 
 permalink: /2012/10/how-to-report-bug-or-give-suggestion-to.html

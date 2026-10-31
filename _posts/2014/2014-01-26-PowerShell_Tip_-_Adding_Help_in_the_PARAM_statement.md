@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell Tip - Adding Help in the PARAM statement
+description: "How to document script and function parameters by writing comments inside the PARAM block, so Get-Help shows them without a .PARAMETER directive."
 excerpt: 
 permalink: /2014/01/powershell-tip-adding-help-in-param.html
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Windows PowerShell Language Specification
+description: "Microsoft published the Windows PowerShell Language Specification for versions 2.0 and 3.0, documents that define every aspect of the language."
 excerpt: 
 permalink: /2013/01/windows-powershell-language.html
 tags:

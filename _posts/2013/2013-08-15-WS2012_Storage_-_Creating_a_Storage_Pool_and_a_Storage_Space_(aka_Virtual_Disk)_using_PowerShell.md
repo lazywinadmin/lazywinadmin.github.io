@@ -1,6 +1,7 @@
 ---
 layout: single
 title: WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell
+description: "How to set up physical disks, create a Storage Pool and create a Storage Space (virtual disk) on Windows Server 2012 using PowerShell, for a home lab."
 seo_title: "WS2012: Create a Storage Pool and Space Using PowerShell"
 excerpt: 
 permalink: /2013/08/ws2012-storage-creating-storage-pool.html

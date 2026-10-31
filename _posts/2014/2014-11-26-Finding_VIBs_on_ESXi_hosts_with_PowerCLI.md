@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Finding VIBs on ESXi hosts with PowerCLI
+description: "How to find a VIB such as net-e1000e on all your VMware ESXi hosts with PowerCLI, with a one-liner sent to Out-GridView and a fuller script version."
 excerpt: 
 permalink: /2014/11/finding-vibs-on-esxi-hosts-with-powercli.html
 tags:

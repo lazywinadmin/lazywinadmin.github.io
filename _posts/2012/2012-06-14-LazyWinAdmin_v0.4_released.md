@@ -1,6 +1,7 @@
 ---
 layout: single
 title: LazyWinAdmin v0.4 released
+description: "LazyWinAdmin v0.4, a PowerShell script built with PowerShell Studio 2012 that creates a WinForms GUI to check, query and manage local or remote computers."
 excerpt: 
 permalink: /2012/06/lazywinadmin-v04-released.html
 tags:

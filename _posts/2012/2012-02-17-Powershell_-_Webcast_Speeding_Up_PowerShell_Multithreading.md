@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Powershell - Webcast Speeding Up PowerShell - Multithreading
+description: "Announcement of a February 2012 webcast where PowerShell MVP Dr. Tobias Weltner shows how to speed up scripts by running lightweight threads in parallel."
 excerpt: 
 permalink: /2012/02/powershell-webcast-speeding-up.html
 tags:

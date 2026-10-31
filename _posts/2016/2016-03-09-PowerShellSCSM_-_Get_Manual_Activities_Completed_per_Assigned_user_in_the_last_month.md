@@ -1,6 +1,7 @@
 ---
 layout: single
 title: PowerShell/SCSM - Get Manual Activities Completed per Assigned user in the last month
+description: "Building on the previous post, a PowerShell snippet that lists which users closed the most Service Manager Manual Activities in the last month."
 seo_title: "PowerShell/SCSM: Manual Activities Completed per User"
 excerpt: 
 permalink: /2016/03/powershellscsm-get-manual-activities_9.html

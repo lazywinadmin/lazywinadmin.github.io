@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Rename a network card in Command Line
+description: "How to rename a network interface from the default Local Area Connection to a custom name such as VLAN10 with netsh, for automated server deployment."
 excerpt: 
 permalink: /2010/12/rename-network-card-in-command-line.html
 tags:
