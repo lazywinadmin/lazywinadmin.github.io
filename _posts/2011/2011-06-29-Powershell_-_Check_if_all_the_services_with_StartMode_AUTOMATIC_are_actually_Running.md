@@ -11,4 +11,13 @@ tags:
 published: true
 comments: true
 ---
-<script src="http://PoshCode.org/embed/2759" type="text/javascript"></script>download | new post
+Check if all the services with StartMode AUTOMATIC are actually Running:
+
+```powershell
+Get-WmiObject Win32_Service -ComputerName . |`
+	where 	{($_.startmode -like "*auto*") -and `
+		($_.state -notlike "*running*")}|`
+	select DisplayName,Name,StartMode,State|ft -AutoSize
+```
+
+*Originally published on PoshCode (now offline); [archived copy](https://web.archive.org/web/20151020070254/http://poshcode.org/2759).*
