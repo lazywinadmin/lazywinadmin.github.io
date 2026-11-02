@@ -11,8 +11,8 @@ tags:
 published: true
 comments: true
 ---
-Source : <a href="http://channel9.msdn.com/posts/PowerShell-V3-Guru-Don-Jones" target="_blank">http://channel9.msdn.com/posts/PowerShell-V3-Guru-Don-Jones</a>
+Source : <a href="https://web.archive.org/web/20211108193423/https://channel9.msdn.com/Posts/PowerShell-V3-Guru-Don-Jones" target="_blank">Channel 9 - PowerShell V3 Guru Don Jones (archived)</a>
 
 Rick Claus interviewsPowerShell guru Don Jones while at MMS 2012. They chat  about Powershell V3. cool things that are under represented and how everything  is underpinned by PowerShell in Windows Server 2012.
 
-<iframe frameborder="0" scrolling="no" src="http://channel9.msdn.com/posts/PowerShell-V3-Guru-Don-Jones/player?w=512&amp;h=288" style="height: 288px; width: 512px;"></iframe>
+*The embedded Channel 9 player was retired with Channel 9. The [archived Channel 9 page](https://web.archive.org/web/20211108193423/https://channel9.msdn.com/Posts/PowerShell-V3-Guru-Don-Jones) is the remaining copy.*
