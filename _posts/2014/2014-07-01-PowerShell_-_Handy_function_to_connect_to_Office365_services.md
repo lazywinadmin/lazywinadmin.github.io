@@ -15,6 +15,14 @@ comments: true
 tldr: "A Connect-Office365 function for your PowerShell profile that connects to Azure Active Directory, Exchange Online and Lync Online in one go, instead of loading modules and signing in to each one. Exchange uses implicit remoting. SharePoint Online wasn't tested and isn't included."
 ---
 
+<div class="notice--warning" markdown="1">
+**Update 2026:** This post is from 2014, and the function below no longer works as written. It's kept here as history.
+
+- **Azure AD (`Connect-MsolService`):** the MSOnline module was [retired on May 30, 2025](https://learn.microsoft.com/en-us/powershell/azure/active-directory/migration-faq?view=azureadps-2.0). Use [Microsoft Graph PowerShell](https://learn.microsoft.com/en-us/powershell/microsoftgraph/overview) or [Microsoft Entra PowerShell](https://learn.microsoft.com/en-us/powershell/entra-powershell/overview) instead.
+- **Lync Online:** Skype for Business Online was [retired on July 31, 2021](https://learn.microsoft.com/en-us/microsoftteams/skype-for-business-online-retirement). Use the [MicrosoftTeams module](https://learn.microsoft.com/en-us/microsoftteams/teams-powershell-overview) and [`Connect-MicrosoftTeams`](https://learn.microsoft.com/en-us/powershell/module/microsoftteams/connect-microsoftteams).
+- **Exchange Online:** remote PowerShell sessions to `ps.outlook.com/powershell` with a username and password (Basic authentication) are [no longer supported](https://learn.microsoft.com/en-us/powershell/exchange/connect-to-exchange-online-powershell). Use `Connect-ExchangeOnline` from the [ExchangeOnlineManagement module](https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2).
+</div>
+
  
  
 <a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="office 365 cloud" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/office-365-cloud__582500915__-281x172.png" height="97.6" width="160" /></a>I just started to play with a Microsoft Office 365 environment (Azure Active Directory, Lync Online and Exchange Online) and I thought I would make it through PowerShell obviously :-)
