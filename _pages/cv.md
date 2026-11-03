@@ -15,3 +15,26 @@ toc_icon: "file-alt"
 
 {% capture cv %}{% include cv.md %}{% endcapture %}
 {{ cv | markdownify }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://lazywinadmin.com/cv/#profilepage",
+  "url": "https://lazywinadmin.com/cv/",
+  "name": "CV of François-Xavier Cat",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://lazywinadmin.com/about.html#person",
+    "name": "François-Xavier Cat",
+    "url": "https://lazywinadmin.com/about.html",
+    "image": "https://lazywinadmin.com/images/avatar/bio03.jpg",
+    "jobTitle": "Staff Engineer, AI Platform Engineering",
+    "sameAs": [
+      "https://github.com/lazywinadmin",
+      "https://www.linkedin.com/in/fxcat/",
+      "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
+    ]
+  }
+}
+</script>
