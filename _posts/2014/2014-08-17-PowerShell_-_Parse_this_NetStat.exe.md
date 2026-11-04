@@ -126,7 +126,9 @@ FOREACH ($line in $data)
 
 And here is the Output! Magnifique! :-)
 
-<a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 9 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" /></a>```
+<a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 9 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" /></a>
+
+```
 
 ```
 ```

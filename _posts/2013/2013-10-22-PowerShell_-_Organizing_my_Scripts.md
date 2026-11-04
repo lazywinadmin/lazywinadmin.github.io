@@ -24,19 +24,31 @@ Today I will talk about my scripts directory, how I maintain it, which naming co
 ### <b>Naming Convention</b>
 
 Personally I organize my directories this way:
-<span style="font-family: Courier New, Courier, monospace;"><TECHNOLOGY>-<CATEGORY>-<EXPLICIT_TITLE>
+
+```text
+<TECHNOLOGY>-<CATEGORY>-<EXPLICIT_TITLE>
+```
+
 <b>
 </b><b><u>For example, you would get those kind of folders for my scripts</u>:</b>
-<span style="font-family: Courier New, Courier, monospace;">AD-SITE-Find_Missing_subnets
-<span style="font-family: Courier New, Courier, monospace;">AD-COMPUTER-Windows_Server_2012
-<span style="font-family: Courier New, Courier, monospace;">VMWARE-HOSTS-Resources_Report
-<span style="font-family: Courier New, Courier, monospace;">EXCHANGE-MAILBOX-Top_100_user
+
+```text
+AD-SITE-Find_Missing_subnets
+AD-COMPUTER-Windows_Server_2012
+VMWARE-HOSTS-Resources_Report
+EXCHANGE-MAILBOX-Top_100_user
+```
+
 
 <b><u>For my functions</u></b> I have different standard, I had the prefix FUNCT, so those can be reused in other scripts (Dot Sourcing, mostly).
-<span style="font-family: Courier New, Courier, monospace;">FUNCT-AD-SITE-Get-Subnets
-<span style="font-family: Courier New, Courier, monospace;">FUNCT-AD-SITE-Set-Subnets
-<span style="font-family: Courier New, Courier, monospace;">FUNCT-VMWARE-VM-Enable-CopyPaste
-<span style="font-family: Courier New, Courier, monospace;">FUNCT-VMWARE-VM-Disable-CopyPaste
+
+```powershell
+FUNCT-AD-SITE-Get-Subnets
+FUNCT-AD-SITE-Set-Subnets
+FUNCT-VMWARE-VM-Enable-CopyPaste
+FUNCT-VMWARE-VM-Disable-CopyPaste
+```
+
 
 
 ### <b>Other preferences</b>

@@ -16,7 +16,7 @@ tldr: "Windows Server 2008 R2's Task Scheduler only offers repeat intervals of 5
 Description
 This is a weird one... This post will show you how to configure a Scheduled task every single minute.
 
-By default on Microsoft Windows Server 2008 R2, You have the options to run a task every:<span style="font-family: 'Courier New', Courier, monospace;">"5 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"10 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"15 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"30 minutes",<span style="font-family: 'Courier New', Courier, monospace;">"1 hour".
+By default on Microsoft Windows Server 2008 R2, You have the options to run a task every:"5 minutes","10 minutes","15 minutes","30 minutes","1 hour".
 
 How to Schedule a task to run every minute ?
 Today I was configuring a new<i> Scheduled task</i> on Windows Server 2008 R2. In my case i wanted the task to run every minute...
@@ -25,7 +25,11 @@ Today I was configuring a new<i> Scheduled task</i> on Windows Server 2008 R2. I
 I know this is easily possible using the tool <i><b>Schtasks.exe </b></i>
 The command would look like something like that
 
-<span style="font-family: Courier New, Courier, monospace;">schtasks /create /sc minute /mo 1 /tn "Hello World" /tr \\Server\scripts\helloworld.vbs
+
+```text
+schtasks /create /sc minute /mo 1 /tn "Hello World" /tr \\Server\scripts\helloworld.vbs
+```
+
 <i><b>
 </b></i><i>See Technet: <a href="http://technet.microsoft.com/en-us/library/cc725744%28v=ws.10%29.aspx" target="_blank">Schtasks.exe</a>for more details.</i>
 

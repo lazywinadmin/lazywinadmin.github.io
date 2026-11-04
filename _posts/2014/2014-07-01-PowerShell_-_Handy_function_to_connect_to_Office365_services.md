@@ -198,7 +198,7 @@ Here the result in action
 <a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" /></a>
 
 <a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" /></a>
-The next time you reload your PowerShell, the function<span style="font-family: Courier New, Courier, monospace;"> Connect-Office365 will be available to your PowerShell.
+The next time you reload your PowerShell, the function`Connect-Office365` will be available to your PowerShell.
 
 Finally we can see two implicit modules created for Lync and Exchange with a sample of cmdlets available. Those cmdlets contains the prefix we defined in the function ExchCloud and LyncCloud.
 

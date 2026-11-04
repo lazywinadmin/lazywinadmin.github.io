@@ -88,3 +88,6 @@ pre, .highlight pre { line-height: 1.5; }
 }
 .search-content .pagefind-search { margin-inline: auto; }
 @media print { .pagefind-search { display: none !important; } }
+
+/* "Get new posts" box: clear the floated post content/footer so its background does not paint behind the whole post */
+.page__inner-wrap .post-follow { clear: both; }
