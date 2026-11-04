@@ -88,3 +88,9 @@ pre, .highlight pre { line-height: 1.5; }
 }
 .search-content .pagefind-search { margin-inline: auto; }
 @media print { .pagefind-search { display: none !important; } }
+
+/* Hide Bluesky button in the "Share on" bar */
+.page__share .btn--bluesky { display: none; }
+
+/* X share button: show the logo only (label duplicated the logo); aria-label keeps it accessible */
+.page__share .btn--x span { display: none; }
