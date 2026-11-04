@@ -34,7 +34,7 @@ This preview release brings the following update/features:
 
 In my opinion, the coolest feature is the module<b><u>OneGet</u></b>which allows you manage/install/uninstall packages, (Linux world has something similar called<b>Apt-Get</b>for a very long time). I think this is a very good news and it will had more flexibility to the sysadmin work.
 
-Once installed, <span style="font-family: Courier New, Courier, monospace;">$PSVersionTablewill report the following result :-) <span style="font-family: Courier New, Courier, monospace;">PSVersion: 5.0.9701.0
+Once installed, $PSVersionTablewill report the following result :-) `PSVersion:` 5.0.9701.0
 
 
 

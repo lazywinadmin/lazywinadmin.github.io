@@ -62,7 +62,7 @@ For now, there is not much information in the help but the naming convention is 
 
 <b><u>Additional Cmdlet Get-PackageProvider ?</u></b>
 
-Note that we can also expect a new cmdlet called <b><span style="font-family: Courier New, Courier, monospace;">Get-PackageProvider</span></b>in the final version from what we see in the manifest.
+Note that we can also expect a new cmdlet called <b>`Get-PackageProvider`</b>in the final version from what we see in the manifest.
 
 <a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_21-52-10__2031314686__-763x429.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 3 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_21-52-10__2031314686__-763x429.png" /></a>
 
@@ -94,7 +94,11 @@ From my understanding this is how the OneGet module interact with the package ma
 
 <b><u>Chocolatey Cmdlets</u></b>
 If we look at the files in the module directory, Chocolatey comes with its own set of Cmdlets. (<a href="https://github.com/chocolatey/chocolatey/wiki/HelpersReference" target="_blank">Available on the Chocolatey GitHub repo</a>)
-<span style="font-family: Courier New, Courier, monospace;">C:\Windows\System32\WindowsPowerShell\v1.0\Modules\OneGet
+
+```text
+C:\Windows\System32\WindowsPowerShell\v1.0\Modules\OneGet
+```
+
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-08-19__1267388953__-635x639.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 5 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-08-19__1267388953__-635x639.png" height="400" width="396" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Chocolatey Provider Cmdlets Helpers (Helpers.psm1)</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-09-43__1685468334__-635x754.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 6 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_23-09-43__1685468334__-635x754.png" height="400" width="336" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Chocolatey Cmdlets (Chocolatey.psd1)</td></tr></tbody></table>
@@ -104,7 +108,7 @@ If we look at the files in the module directory, Chocolatey comes with its own s
 
 <b><u>Get the packages already installed</u></b>
 
-Since I've been using chocolatey for a while, Using <b><span style="font-family: Courier New, Courier, monospace;">Get-Package</span></b>, OneGet is able to retrieve the all the package I installed on this PC.
+Since I've been using chocolatey for a while, Using <b>`Get-Package`</b>, OneGet is able to retrieve the all the package I installed on this PC.
 
 
 <a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_18-28-17__741707556__-852x362.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 7 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-06_18-28-17__741707556__-852x362.png" height="271" width="640" /></a>
@@ -113,7 +117,7 @@ Since I've been using chocolatey for a while, Using <b><span style="font-family:
 
 <b><u>Find and install a new package</u></b>
 
-Now if I want to install a package, that's very easy: <b><span style="font-family: Courier New, Courier, monospace;">Install-Package</span></b>
+Now if I want to install a package, that's very easy: <b>`Install-Package`</b>
 We first search for the package
 
 

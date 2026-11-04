@@ -65,7 +65,7 @@ In my script I only focused on the W3C format, but here is the list of formats s
 The header of the W3C Log format stats by the "#fields: " pattern.
 Let's use that to find our properties.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="W3C IISlog format" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/W3C_IISlog_format__1402478162__-795x292.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">IIS Log - W3C Format</td></tr></tbody></table>
-Using<span style="font-family: Courier New, Courier, monospace;"> Select-String, I find the line with the pattern '<span style="font-family: Courier New, Courier, monospace;">#fields: '. Then I use the <span style="font-family: Courier New, Courier, monospace;">SubString() Method to get the rest of the line. Finally I use <span style="font-family: Courier New, Courier, monospace;">-split to have all my different property names.
+Using`Select-String`, I find the line with the pattern '`#fields:` '. Then I use the `SubString(`) Method to get the rest of the line. Finally I use `-split` to have all my different property names.
 
 ```powershell
 ((Select-String -path .\W3SVC1\u_ex120420.log -Pattern "#fields: " | 
@@ -75,8 +75,8 @@ Using<span style="font-family: Courier New, Courier, monospace;"> Select-String,
 <a href="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/headers__1380900729__-801x223.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="headers" border="0" src="{{ site.url }}/images/2013/20130613_Scripting_Games_2013_-_Advanced_Event_5_-_The_Logfile_Labyrinth/headers__1380900729__-801x223.png" /></a>
 
 <b>Working with the Data</b>
-After playing a bit with different Cmdlets to read the logs, I finally decided to use<span style="font-family: Courier New, Courier, monospace;">Import-CSV.
-That's super lazy since this Cmdlet already has a "<span style="font-family: Courier New, Courier, monospace;">Delimiter" Parameter<b>:-)</b>! Exactly what I need!
+After playing a bit with different Cmdlets to read the logs, I finally decided to use`Import-CSV`.
+That's super lazy since this Cmdlet already has a "`Delimiter`" Parameter<b>:-)</b>! Exactly what I need!
 
 In the following code, I use Import-Csv with the header previously determined and delimite the data on white space ' '. I also ignore any lines starting by "#"
 
@@ -113,9 +113,9 @@ From the other entries I saw and the comments I got, my script miss the followin
 
 * Handling massive log files
 
-* <span style="font-family: Courier New, Courier, monospace;">Test-Path with <span style="font-family: Courier New, Courier, monospace;">-container switch on the Path parameter ( in the <span style="font-family: Courier New, Courier, monospace;">PARAM() block)
+* `Test-Path` with `-container` switch on the Path parameter ( in the `PARAM(`) block)
 
-* <span style="font-family: Courier New, Courier, monospace;">Try/Catch on the <span style="font-family: Courier New, Courier, monospace;">Out-File (in the <span style="font-family: Courier New, Courier, monospace;">Process{Catch{}} part)
+* Try/Catch on the `Out-File` (in the Process{Catch{}} part)
 <b style="font-size: x-large;">References</b>
 Small list of the interesting blog articles/documentations I found.
 

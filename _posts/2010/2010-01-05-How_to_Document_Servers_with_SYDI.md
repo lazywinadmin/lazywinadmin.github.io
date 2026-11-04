@@ -114,11 +114,11 @@ In order to view this file with a browser you will need the `serverhtml.xsl` and
 
 ## What Other Options do you have?
 
-To be honest, you don't have that many. The options that are left are ```-v to check the version of your script; this will check the SYDI website and see if a later version is available (I might remove this option).The last option is -d for debug, if something fails to run as you expect it might be because of a bug in SYDI. The ```-d option is useful to troubleshoot these scenarios.
+To be honest, you don't have that many. The options that are left are `-v` to check the version of your script; this will check the SYDI website and see if a later version is available (I might remove this option).The last option is -d for debug, if something fails to run as you expect it might be because of a bug in SYDI. The `-d` option is useful to troubleshoot these scenarios.
 
 ## What if You Have More Than One computer?
 
-So you want to run SYDI against multiple computers, it's easy enough to write a batch file that does it for you. However, in the Tools directory there is a script called ```sydi-wrapper.vbs. A little "gotcha" is that you have to edit the script for it to work, but don't panic; there isn't any voodoo involved. Just open the script in notepad and scroll down to this section:
+So you want to run SYDI against multiple computers, it's easy enough to write a batch file that does it for you. However, in the Tools directory there is a script called `sydi-wrapper.vbs.` A little "gotcha" is that you have to edit the script for it to work, but don't panic; there isn't any voodoo involved. Just open the script in notepad and scroll down to this section:
 
 ```vb
 ' Gathering Options
@@ -171,7 +171,7 @@ I might have said there was at some time, but it was a white lie. What you can d
 Cscript.exe sydi-transform.vbs -xServer.xml -sServerhtml.xsl -oServer.html
 ```
 
-Running this script will require that `Server.xml` and ```Serverhtml.xsl` **and** `sydi-html-stylex.xsl` are located in the same directory. If you have created private xsl files you can use the sydi-transform to convert it.
+Running this script will require that `Server.xml` and `Serverhtml.xsl` **and** `sydi-html-stylex.xsl` are located in the same directory. If you have created private xsl files you can use the sydi-transform to convert it.
 
 ## Hey, Wasn’t This about Documentation?
 

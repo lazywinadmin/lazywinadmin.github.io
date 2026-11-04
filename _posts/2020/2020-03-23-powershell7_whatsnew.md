@@ -60,7 +60,7 @@ I wanted to highlight some of the new features mentioned during this presentatio
 
 PowerShell can be installed using different methods:
 
-- Windows: `iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"``
+- Windows: `iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"`
 - Linux: `'wget https://aka.ms/install-powershell.sh; sudo bash install-powershell.sh; rm install-powershell.sh'`
 - MacOS: `brew cask install powershell`
 - Using the .NET SDK: `dotnet tool install --global PowerShell`

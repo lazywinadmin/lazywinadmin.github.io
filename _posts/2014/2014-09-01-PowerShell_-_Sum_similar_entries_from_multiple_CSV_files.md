@@ -68,7 +68,9 @@ Get-ChildItem -Path .\*.csv | # Get each CSV files
 
 <u>Get all the CSV File</u>
 
-<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Sum similar entries from multiple CSV files&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" /></a>```
+<a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Sum similar entries from multiple CSV files&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" /></a>
+
+```
 
 ```
 

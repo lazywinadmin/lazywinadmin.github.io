@@ -48,14 +48,14 @@ Create the shortest on-liner possible that produces the following output as exac
 
 ## Dessert Course
 
-<div class="separator" style="clear: both; text-align: left;">Debug and fix this function so that it runs properly.<div class="separator" style="clear: both; text-align: left;">Save room for you main course, on the other side of this page.
+<div markdown="1" class="separator" style="clear: both; text-align: left;">Debug and fix this function so that it runs properly.<div markdown="1" class="separator" style="clear: both; text-align: left;">Save room for you main course, on the other side of this page.
 <a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%5B1%5D__413306252__-1600x610.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Summit 2014 NA - Iron Scripter scenario&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/IMG_20140429_001022%5B1%5D__413306252__-1600x610.jpg" height="243" width="640" /></a>
 
 
 
 # Main Course
 
-<div class="separator" style="clear: both; text-align: left;">Create a function that enables you to exactly reproduce this shell transcript. (It's OK if property values aren't the same on your computer)
+<div markdown="1" class="separator" style="clear: both; text-align: left;">Create a function that enables you to exactly reproduce this shell transcript. (It's OK if property values aren't the same on your computer)
 
 <a href="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0004.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SCAN0004" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0004.webp" height="640" width="390" /></a>
 <a href="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0005.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SCAN0005" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/SCAN0005.webp" height="640" width="456" /></a>

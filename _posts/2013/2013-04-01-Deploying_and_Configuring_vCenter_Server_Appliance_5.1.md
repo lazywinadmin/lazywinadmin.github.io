@@ -47,7 +47,7 @@ More information :
 
 * vSphere Client on your workstation (It can be downloaded from http://<ip of your ESXi host>)
 
-* vCSA <span style="font-family: Courier New, Courier, monospace;">*.OVA file (<a href="https://web.archive.org/web/20130630200043/https://my.vmware.com/web/vmware/downloads" target="_blank">Download from VMware</a>)
+* vCSA *.OVA file (<a href="https://web.archive.org/web/20130630200043/https://my.vmware.com/web/vmware/downloads" target="_blank">Download from VMware</a>)
 
 <b><span style="font-size: x-large;">Deploying vCenter Server Appliance (vCSA)</span></b>
 
