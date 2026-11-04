@@ -13,7 +13,7 @@ published: true
 comments: true
 tldr: "A video and step-by-step demo of building a basic WinForms GUI in SAPIEN PowerShell Studio 2012. It adds buttons and a RichTextBox, then wires button events that write into the text box. The post grew out of reader questions about the LazyWinAdmin 0.4 GUI tool."
 ---
-<div class="separator" style="clear: both; text-align: left;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" /></a>The following post will demo how to create a basic Graphical User Interface with SAPIEN PowerShell Studio 2012.
+<div markdown="1" class="separator" style="clear: both; text-align: left;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_10-12-49_PM.png" /></a>The following post will demo how to create a basic Graphical User Interface with SAPIEN PowerShell Studio 2012.
 
 <u><b>Update:</b></u>See also the second part of this post:<a href="{{ site.url }}/2013/10/PowerShellStudio2012ToolMaking.html" target="_blank">PowerShell Studio 2012 - WinForms - GUI ToolMaking</a>
 
@@ -61,9 +61,9 @@ The following post will demo how to create a basic Graphical User Interface with
 
 We will simply add a couple of controls (Buttons and a Richtextbox), and add a few events to write in the Richtextbox when pressing the buttons.
 
-<div style="text-align: center;">
-<div style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/UeYGapCK78g" width="480"></iframe><div style="text-align: center;">
-<div style="text-align: center;"><b>
+<div markdown="1" style="text-align: center;">
+<div markdown="1" style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/UeYGapCK78g" width="480"></iframe><div markdown="1" style="text-align: center;">
+<div markdown="1" style="text-align: center;"><b>
 </b><b>
 </b><b>
 </b>
@@ -86,7 +86,7 @@ Sapien also has a free version: <b><a href="http://www.sapien.com/blog/topics/so
 
 Select <b>File</b> / <b>New</b> / <b>New Form</b>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-28-17_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-28-17_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
-</td></tr></tbody></table><div class="separator" style="clear: both; text-align: left;">In the <b>Form Template</b> selection, select the <b>Empty Form</b>.<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-29-21_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-29-21_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
+</td></tr></tbody></table><div markdown="1" class="separator" style="clear: both; text-align: left;">In the <b>Form Template</b> selection, select the <b>Empty Form</b>.<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-29-21_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-10-06_1-29-21_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
 </td></tr></tbody></table>
 
 
@@ -98,7 +98,7 @@ Select <b>File</b> / <b>New</b> / <b>New Form</b>
 
 Arrange the Form so it does not look too weird :-)
 <a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-23-11_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-23-11_PM.png" /></a>
-<div class="separator" style="clear: both; text-align: left;">Select one of the button and edit the property TEXT to change the name of it.<div class="separator" style="clear: both; text-align: left;">Repeat this step for each buttons<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-24-23_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (6)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-24-23_PM.png" /></a>
+<div markdown="1" class="separator" style="clear: both; text-align: left;">Select one of the button and edit the property TEXT to change the name of it.<div markdown="1" class="separator" style="clear: both; text-align: left;">Repeat this step for each buttons<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-24-23_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (6)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-24-23_PM.png" /></a>
 
 
 

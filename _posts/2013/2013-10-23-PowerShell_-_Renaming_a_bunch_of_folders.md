@@ -16,8 +16,8 @@ comments: true
 
 ### Renaming a bunch of folders
 
-At my work, all the scripts related to VMware are named ESX-<Category>-<Explicit Title>. And I use the same naming convention at home for my own scripts. So let's say I want to rename all those *ESX* folders by VMWARE instead.
-Something like this:<span style="font-family: Courier New, Courier, monospace;">VMWARE-<Category>-<Explicit Title>
+At my work, all the scripts related to VMware are named `ESX-<Category>-<Explicit Title>`. And I use the same naming convention at home for my own scripts. So let's say I want to rename all those *ESX* folders by VMWARE instead.
+Something like this:`VMWARE-<Category>-<Explicit Title>`
 
 
 
@@ -52,7 +52,7 @@ PS C:\LazyWinAdmin\POSH> Get-Help -Name Rename-Item -ShowWindow
 ```
 
 <a href="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-26-41_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Renaming a bunch of folders&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Renaming_a_bunch_of_folders/2013-10-22_9-26-41_PM.png" /></a>
-We will need to use the<span style="font-family: Courier New, Courier, monospace;"><b>Path</b>and the<span style="font-family: Courier New, Courier, monospace;"><b>NewName</b>parameters to specify the <b>current name</b>(path) and the <b>new name</b>. I end up with the following line, let's try it using WhatIf switch
+We will need to use the<b>Path</b>and the<b>NewName</b>parameters to specify the <b>current name</b>(path) and the <b>new name</b>. I end up with the following line, let's try it using WhatIf switch
 
 
 ```

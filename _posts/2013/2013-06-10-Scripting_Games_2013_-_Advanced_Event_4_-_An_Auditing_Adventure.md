@@ -153,14 +153,18 @@ Get-ADUser -identify admcatfx -properties *
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_AllProperties__2074471089__-789x854.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADUser AllProperties" loading="lazy" decoding="async" border="0" height="400" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_AllProperties__762608611__-370x400.png" width="368" /></a><i>
 </i><b>Properties required by Dr Scripto</b>
-From the default output, only UserName (via"<span style="font-family: Courier New, Courier, monospace;"><b style="background-color: lime;">SamAccountName</b>") and Disabled/Enabled information (via "<span style="font-family: Courier New, Courier, monospace;"><b style="background-color: lime;">Enabled</b>") can be retrieved. The other required property need to be specified.
+From the default output, only UserName (via"<b style="background-color: lime;">SamAccountName</b>") and Disabled/Enabled information (via "<b style="background-color: lime;">Enabled</b>") can be retrieved. The other required property need to be specified.
 
-<span style="background-color: yellow; font-family: Courier New, Courier, monospace;">Department
-<span style="background-color: yellow; font-family: Courier New, Courier, monospace;">Title
-<span style="background-color: yellow; font-family: Courier New, Courier, monospace;">LastLogonDate
-<span style="background-color: yellow; font-family: Courier New, Courier, monospace;">PasswordLastSet
-<span style="background-color: yellow; font-family: Courier New, Courier, monospace;">Enabled
-<span style="background-color: yellow; font-family: Courier New, Courier, monospace;">LockedOut
+
+```text
+Department
+Title
+LastLogonDate
+PasswordLastSet
+Enabled
+LockedOut
+```
+
 
 ```powershell
 Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,passwordlastset,lockedout
@@ -173,10 +177,10 @@ Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,password
 <u>Note about LastLogon, LastLogonTimestamp or LastLogonDate property.</u>
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" /></a>
-<a href="http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about <span style="font-family: Courier New, Courier, monospace;">LastLogonTimeStamp and<span style="font-family: Courier New, Courier, monospace;"> LastLogon properties :
+<a href="http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about `LastLogonTimeStamp` and`LastLogon` properties :
 <blockquote class="tr_bq"><i>The reason why most people want to obtain these values is to find out if a user or computer object can be safely deleted. If you want to know when someone logged on to a computer in your network for the exact last time, search for the last logon value. If you want to know when someone last accessed a resource in your network (accessed webmail or one of your file systems etc), search for the last logon timestamp value. <b>If you want to know when someone last used any network resource, search for the most recent of both values.</b></i></blockquote><b style="font-size: x-large;">
 </b><b style="font-size: x-large;">Random User</b>
-PowerShell comes with a Cmdlet called <span style="font-family: Courier New, Courier, monospace;">Get-Randomsince the version 2.
+PowerShell comes with a Cmdlet called `Get-Randomsince` the version 2.
 Check more information here<a href="http://technet.microsoft.com/en-us/library/ff730929.aspx" target="_blank">Get-Random (TechNet)</a>and <a href="http://blogs.msdn.com/b/powershell/archive/2008/04/27/get-random.aspx" target="_blank">PowerShell Team Blog</a>.
 
 This is exactly what I need!
@@ -195,7 +199,9 @@ I like to build my function that way.
 <span style="font-family: 'Times New Roman';">It got everything I need: Help, BEGIN/PROCESS/BLOCK and Error Handling.
 
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function sample" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" /></a>```
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function sample" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" /></a>
+
+```
 <u style="font-family: 'Times New Roman'; white-space: normal;">Error Handling</u>
 ```
 ```

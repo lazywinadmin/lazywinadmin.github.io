@@ -47,7 +47,7 @@ When we got to the "Get-Together" evening event, I got to meet some of the Power
 
 ## PowerShell Summit 2013
 
-<div style="text-align: center;">
+<div markdown="1" style="text-align: center;">
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130422_074933__980749444__-1523x1586.webp" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 10 from the post &quot;PowerShell Summit North America 2013&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130422_074933__442515174__-307x320.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">PowerShell Summit 2013 NA was organized in the
 Microsoft Building 40 &amp; 41</td></tr></tbody></table>

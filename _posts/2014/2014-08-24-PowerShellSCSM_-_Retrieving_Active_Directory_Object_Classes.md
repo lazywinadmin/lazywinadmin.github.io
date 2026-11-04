@@ -55,7 +55,7 @@ In the output, we have 2 groups, 1 user and 1 computer. But It looks like we can
 
 ### Finding the real class of an object
 
-To work around that, we have to use the method <span style="font-family: Courier New, Courier, monospace;">GetClasses() which reveal more information.
+To work around that, we have to use the method `GetClasses(`) which reveal more information.
 
 
 ```

@@ -20,7 +20,9 @@ Once the SP1 installed, all you need is PowerShell 3.0.Already included in Windo
 <u>
 </u><u>IMPORT THE MODULE</u>
 <u>
-</u>```
+</u>
+
+```
 Import-Module "C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\ConfigurationManager.psd1"
 ```
 

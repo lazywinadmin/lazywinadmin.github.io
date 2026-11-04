@@ -20,7 +20,7 @@ Take a look at it on GitHub here:[https://github.com/andrebocchini/sccm-powershe
 This Module for SCCM 2007 (which does not come with a set of PowerShell Cmdlets) allows you to query Computers, Collections, Advertisements etc... (Check the Full list of Cmdlets)
 
 However against <u>big SCCM environment</u> I notice some functions queries were <u>very slow</u> to report object.
-After inspecting the code, I tweaked some parts of the code, especially on the<span style="font-family: Courier New, Courier, monospace;">Get-WmiObject queries.
+After inspecting the code, I tweaked some parts of the code, especially on the`Get-WmiObject` queries.
 Those modifications are now part of the module.
 
 
@@ -57,7 +57,7 @@ TotalSeconds      : 42.2735527
 TotalMilliseconds : 42273.5527
 ```
 <b>It took 42 seconds to finish this command</b>, that's pretty long... 
-Basically the command has to gather ALLLLLL the objects from the class <span style="font-family: Courier New, Courier, monospace;">SMS_R_Systemand then send it throught the pipe to <span style="font-family: Courier New, Courier, monospace;">Where-Object to filter on the <span style="font-family: Courier New, Courier, monospace;">ResourceID property.
+Basically the command has to gather ALLLLLL the objects from the class `SMS_R_Systemand` then send it throught the pipe to `Where-Object` to filter on the `ResourceID` property.
 
 <u><span style="font-size: x-large;">Let's try to improve this and use some filtering! </span></u>
 
@@ -85,7 +85,7 @@ TotalMilliseconds : 202.6858
 
 ```
 WOW! This time <b>Only 200 Milliseconds!!</b> Pretty Awesome! Filtering is definitely the way to go! ;-)  
-All I did is really filtering on the <span style="font-family: Courier New, Courier, monospace;">ResourceID property with <span style="font-family: Courier New, Courier, monospace;">Get-WmiObject, I don't need to retrieve all the data.
+All I did is really filtering on the `ResourceID` property with `Get-WmiObject`, I don't need to retrieve all the data.
 <a href="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Apps preferences system performance icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" /></a>
 
 <b>In Powershell you should <u>Always Always Always ALWAYSS</u>try to filter before sending the output to the pipeline, and this apply to all the Cmdlets...</b>

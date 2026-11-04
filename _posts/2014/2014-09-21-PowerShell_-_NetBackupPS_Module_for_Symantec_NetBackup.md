@@ -34,7 +34,7 @@ Anyway, I thought sharing the code could be useful to other people.
 It is available on the <a href="https://github.com/lazywinadmin/NetBackupPS" target="_blank">Technet Gallery</a>.
 I also push my last updates to a<a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">Github Repository</a>,<b>contributors are welcome</b>! so feel free to fork the repo :)
 
-<div style="text-align: left;">
+<div markdown="1" style="text-align: left;">
 
 # Using the module
 

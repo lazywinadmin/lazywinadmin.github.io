@@ -71,16 +71,14 @@ In the following post I will cover the following points:
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130716_WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5.1/VMFS-image-body2__962670580__-868x786.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;" target=""><img loading="lazy" decoding="async" alt="VMFS" border="0" height="361" src="{{ site.url }}/images/2013/20130716_WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5.1/VMFS-image-body2__1961390__-400x362.jpg" title="VMFS Virtual Machine File System" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://web.archive.org/web/20130703073511/http://www.vmware.com/products/datacenter-virtualization/vsphere/vmfs.html" target="_blank">source</a></td></tr></tbody></table>
 
-<span style="font-size: x-large;">
 
-<span style="font-size: x-large;">
 
 ### <span style="font-size: x-large;"><u>Using POWERCLI</u>
 
 
 ### <span style="font-size: x-large;">Configuring the iSCSI Initiator on VMware vSphere 5.1<span style="font-weight: normal;"> (PowerCli)
 
-<h4>Pre-requisites
+#### Pre-requisites
 
 In order to work with the PowerCli cmdlets, you will need to load the PowerShell Snapin <b>VMware.VimAutomation.Core.</b>
 
@@ -129,7 +127,6 @@ Add a new iSCSI Target Address
 
 ```
 ```
-<span style="font-family: 'Times New Roman'; white-space: normal;">
 
 ```
 
@@ -165,13 +162,12 @@ Get-VMHostStorage -VMHost lab1vh02.fx.lab -RescanVmfs
 
 ### <span style="font-size: x-large;">Creating a new Datastore on the presented iSCSI LUN (PowerCli)
 
-<h4>Find the Lun Canonical Name
+#### Find the Lun Canonical Name
 
 ```
-<span style="font-family: 'Times New Roman'; white-space: normal;">To create a datastore using the <span style="white-space: normal;"><span style="font-family: Courier New, Courier, monospace;">New-Datastore<span style="font-family: 'Times New Roman'; white-space: normal;"> cmdlet you will need to get the <span style="white-space: normal;"><span style="font-family: Courier New, Courier, monospace;">CanonicalName<span style="font-family: 'Times New Roman'; white-space: normal;"> property from the Lun you want to use.
+<span style="font-family: 'Times New Roman'; white-space: normal;">To create a datastore using the <span style="white-space: normal;">`New-Datastore`<span style="font-family: 'Times New Roman'; white-space: normal;"> cmdlet you will need to get the <span style="white-space: normal;">`CanonicalName`<span style="font-family: 'Times New Roman'; white-space: normal;"> property from the Lun you want to use.
 ```
 ```
-<span style="font-family: 'Times New Roman'; white-space: normal;">
 
 ```
 
@@ -220,7 +216,7 @@ New-Datastore -Vmfs -Path $lun.CanonicalName -Name Lun1
 
 ### <span style="font-size: x-large;">Configuring the iSCSI Initiator on VMware vSphere 5.1<span style="font-weight: normal;">
 
-<div class="separator" style="clear: both;">1 - On your VMware Host, select the tab <b>Configuration</b>, <b>Storage Adapters</b> and click on <b>Add...</b><a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_7-20-04_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 10 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_7-20-04_PM.png" /></a>
+<div markdown="1" class="separator" style="clear: both;">1 - On your VMware Host, select the tab <b>Configuration</b>, <b>Storage Adapters</b> and click on <b>Add...</b><a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_7-20-04_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 10 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_7-20-04_PM.png" /></a>
 2 - Here leave the "<b>Add Software iSCSI Adapter</b>" option and click <b>OK</b>
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_7-20-33_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 11 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_7-20-33_PM.png" /></a>3 - A warning message will show, click <b>OK</b> :
 "<i>A new software iSCSI adapter will be added to the Storage Adapters list. After it had been added, select the software iSCSI adapter in the list and click on Properties to complete the configuration.</i>"
@@ -245,7 +241,7 @@ Enter the <b>iSCSI Server</b> (which is my Windows Server 2012 Server (192.168.1
 In my previous post I created a 1GB Lun which was too small for the following procedure.
 If you do, you'll get the following error message on the final step. <b><u>To</u></b><b style="background-color: white;"><u>work-around this problem, use PowerCli ! Refer to "Creating a new datastore" above in this post.</u></b>
 
-<div style="text-align: center;"><i><b>Error: The Capacity value must be at least 1.3 GB. Enter another value.</b></i>
+<div markdown="1" style="text-align: center;"><i><b>Error: The Capacity value must be at least 1.3 GB. Enter another value.</b></i>
 
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-14_10-47-15_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 21 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-14_10-47-15_PM.png" /></a>
 So I used a 10GB LUN for the following steps...
