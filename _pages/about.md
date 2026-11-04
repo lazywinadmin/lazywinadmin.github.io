@@ -55,3 +55,27 @@ Most of my public projects are on [GitHub](https://github.com/lazywinadmin). A s
 ## Corrections and contributions
 
 Spotted an error or have a suggestion? Please [open an issue](https://github.com/lazywinadmin/lazywinadmin.github.io/issues) on the blog's GitHub repository.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://lazywinadmin.com/about.html#profilepage",
+  "url": "https://lazywinadmin.com/about.html",
+  "name": "About François-Xavier Cat",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://lazywinadmin.com/about.html#person",
+    "name": "François-Xavier Cat",
+    "url": "https://lazywinadmin.com/about.html",
+    "image": "https://lazywinadmin.com/images/avatar/bio03.jpg",
+    "jobTitle": "Staff Engineer, AI Platform Engineering",
+    "sameAs": [
+      "https://github.com/lazywinadmin",
+      "https://www.linkedin.com/in/fxcat/",
+      "https://mvp.microsoft.com/en-us/PublicProfile/5000475",
+      "https://x.com/lazywinadmin"
+    ]
+  }
+}
+</script>
