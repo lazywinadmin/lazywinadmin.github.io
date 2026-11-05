@@ -7,9 +7,6 @@ tags:
 - modules
 - powershell
 - mvp
-categories:
-  - powershell
-  - 'MVP Module'
 published: true
 comments: true
 author_profile: false

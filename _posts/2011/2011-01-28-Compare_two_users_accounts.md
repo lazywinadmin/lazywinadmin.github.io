@@ -8,8 +8,6 @@ permalink: /2011/01/compare-two-users-accounts.html
 tags:
 - active directory
 - powershell
-categories:
-- powershell
 published: true
 comments: true
 ---

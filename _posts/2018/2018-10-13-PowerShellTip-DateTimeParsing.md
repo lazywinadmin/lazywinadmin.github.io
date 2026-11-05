@@ -8,8 +8,6 @@ tags:
 - powershell
 - tips
 - parsing
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

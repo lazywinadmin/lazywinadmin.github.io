@@ -8,7 +8,6 @@ tags:
   - powershell
   - frpsug
   - french
-categories:
 published: true
 comments: true
 author_profile: false

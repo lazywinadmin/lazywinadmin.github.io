@@ -10,8 +10,6 @@ tags:
 - security
 published: true
 comments: true
-categories:
-- powershell
 toc: true
 ---
 

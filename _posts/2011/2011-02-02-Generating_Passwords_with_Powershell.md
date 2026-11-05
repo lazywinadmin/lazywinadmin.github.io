@@ -7,8 +7,6 @@ permalink: /2011/02/generating-passwords-with-powershell.html
 tags:
 - security
 - powershell
-categories:
-- powershell
 published: true
 comments: true
 classes: wide

@@ -8,8 +8,6 @@ permalink: /2010/08/powershell-how-to-use-config-file-ini.html
 tags:
 - parsing
 - powershell
-categories:
-- powershell
 published: true
 comments: true
 ---

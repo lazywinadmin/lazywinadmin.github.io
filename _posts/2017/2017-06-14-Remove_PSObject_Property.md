@@ -6,8 +6,6 @@ permalink:
 tags:
 - powershell
 - tips
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

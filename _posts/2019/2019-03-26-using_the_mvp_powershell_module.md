@@ -7,9 +7,6 @@ tags:
   - video
   - powershell
   - mvp
-categories:
-  - powershell
-  - 'MVP Module'
 published: true
 header:
   teaserlogo:

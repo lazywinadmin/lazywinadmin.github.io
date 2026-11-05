@@ -9,8 +9,6 @@ tags:
 - powershell
 published: true
 comments: true
-categories:
-- powershell
 ---
 
 When you create new Organizational Units in Active Directory Users And Computers (ADUC) in Server 2008 (or with RSAT on 2003 domains), ADUC gives you the option to protect the OU from accidental deletion.

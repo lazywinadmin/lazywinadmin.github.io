@@ -8,8 +8,6 @@ tags:
 - powershell
 - tips
 - networking
-categories:
-- powershell
 published: true
 comments: true
 author_profile: false

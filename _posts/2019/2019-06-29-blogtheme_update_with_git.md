@@ -6,7 +6,6 @@ permalink:
 tags:
 - github
 - blogging
-categories:
 published: true
 header:
   teaserlogo:

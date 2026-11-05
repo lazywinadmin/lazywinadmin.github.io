@@ -8,8 +8,6 @@ permalink: /2010/12/how-to-find-computer-serial-number.html
 tags:
 - active directory
 - vbscript
-categories:
-- powershell
 published: true
 comments: true
 ---

@@ -8,8 +8,6 @@ tags:
 - modules
 - powershell
 - rest api
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

@@ -11,7 +11,6 @@ tags:
 - powershell
 - devops
 - automation
-categories:
 published: true
 comments: true
 header:

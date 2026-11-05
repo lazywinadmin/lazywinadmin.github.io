@@ -7,8 +7,6 @@ permalink: /2011/01/se-powershell-to-enumerate-info-from.html
 tags:
 - security
 - powershell
-categories:
-- powershell
 published: true
 comments: true
 classes: wide

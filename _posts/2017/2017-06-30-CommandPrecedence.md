@@ -7,8 +7,6 @@ permalink:
 tags:
 - powershell
 - powershell language
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

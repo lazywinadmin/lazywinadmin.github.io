@@ -8,7 +8,6 @@ tags:
 - azure
 - ai
 - devops
-categories:
 published: true
 comments: true
 header:

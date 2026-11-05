@@ -7,8 +7,6 @@ permalink: /2011/01/find-computers-joined-to-domain-by.html
 tags:
 - powershell
 - active directory
-categories:
-- powershell
 published: true
 comments: true
 ---
