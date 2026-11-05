@@ -7,8 +7,6 @@ permalink: /2010/06/powershell-get-clipboard-set-clipboard.html
 tags:
 - powershell
 - productivity
-categories:
-- powershell
 published: true
 comments: true
 classes: wide

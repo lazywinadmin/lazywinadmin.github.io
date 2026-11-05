@@ -7,8 +7,6 @@ tags:
 - powershell
 - powershell language
 - tips
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

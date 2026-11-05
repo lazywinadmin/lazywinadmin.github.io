@@ -8,8 +8,6 @@ tags:
 - powershell
 - open source
 - frpsug
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

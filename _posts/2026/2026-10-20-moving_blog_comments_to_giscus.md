@@ -8,7 +8,6 @@ permalink:
 tags:
 - blogging
 - github
-categories:
 published: true
 comments: true
 header:

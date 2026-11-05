@@ -7,7 +7,6 @@ permalink:
 tags:
 - powershell versions
 - powershell
-categories:
 published: true
 comments: true
 header:

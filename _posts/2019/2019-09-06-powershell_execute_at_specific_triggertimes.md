@@ -7,8 +7,6 @@ tags:
 - powershell
 - tips
 - automation
-categories:
-  - powershell
 published: true
 header:
   teaserlogo:

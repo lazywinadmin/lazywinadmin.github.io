@@ -7,8 +7,6 @@ permalink: /2011/01/powershell-get-files-or-folder-list.html
 tags:
 - powershell
 - tips
-categories:
-- powershell
 published: true
 comments: true
 ---

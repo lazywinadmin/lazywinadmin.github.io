@@ -8,7 +8,6 @@ tags:
 - powershell
 - azure
 - security
-categories:
 published: true
 comments: true
 header:

@@ -1,7 +1,9 @@
 ---
-description: "Browse LazyWinAdmin posts by category, from PowerShell and Active Directory to Azure, DevOps, VMware and community events."
+description: "Categories on LazyWinAdmin are retired. Browse posts by topic on the Tags page instead."
 title: "Categories"
-layout: categories
+layout: single
 permalink: /categories/
 author_profile: true
 ---
+
+This site no longer uses Jekyll categories. Browse posts by topic on the [Tags](/tags/) page instead.

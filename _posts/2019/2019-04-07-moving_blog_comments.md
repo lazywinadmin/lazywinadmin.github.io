@@ -9,8 +9,6 @@ tags:
 - blogging
 - powershell
 - github
-categories:
-  - powershell
 published: true
 header:
   teaserlogo:

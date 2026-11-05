@@ -8,8 +8,6 @@ permalink:
 tags:
 - modules
 - powershell
-categories:
-  - powershell
 published: true
 comments: true
 author_profile: false

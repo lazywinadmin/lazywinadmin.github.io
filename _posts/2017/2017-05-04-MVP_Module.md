@@ -8,9 +8,6 @@ tags:
 - mvp
 - modules
 - rest api
-categories:
-  - powershell
-  - 'MVP Module'
 published: true
 comments: true
 author_profile: false

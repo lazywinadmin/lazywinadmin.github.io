@@ -7,8 +7,6 @@ tags:
   - powershell
   - sccm
   - wmi
-categories:
-  - powershell
 published: true
 header:
   teaserlogo:

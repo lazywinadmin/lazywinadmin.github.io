@@ -8,7 +8,6 @@ tags:
 - active directory
 - powershell
 - sccm
-categories:
 published: true
 comments: true
 toc: true
