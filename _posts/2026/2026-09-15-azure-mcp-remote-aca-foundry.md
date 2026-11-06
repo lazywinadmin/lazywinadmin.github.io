@@ -30,6 +30,8 @@ toc_icon: "terminal"
 {% endcapture %}
 {{mynote}}{: .notice--info}
 
+**Update 2026/11:** Azure MCP Server [3.0 stable](https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/) shipped on 2026-10-12. It builds on 2.0 remote hosting and adds Terraform tools (provider docs, Azure Verified Modules, export, policy validation). The walkthrough below still matches the 2.0-beta-era sample; I have not re-tested this ACA pattern on 3.0.
+
 Model Context Protocol (MCP) is how agents discover and call tools over a standard interface. Most demos run MCP **locally** next to the model. That is fine for a laptop. Production agents need a **remote** MCP endpoint over HTTPS, with identity you can audit.
 
 This post is a short warm-up for that pattern on Azure, using **azd** and **managed identity**:
