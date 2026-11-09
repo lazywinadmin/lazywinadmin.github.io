@@ -14,7 +14,10 @@ toc: true
 toc_label: "Table of content"
 ---
 
+
 <a href="{{ site.url }}/images/2016/20160820_Launch_of__Lancement_du_French_PowerShell_User_Group/image__2146177198__-600x453.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;Launch of / Lancement du French PowerShell User Group&quot; (1)" loading="lazy" decoding="async" border="0" height="150" src="{{ site.url }}/images/2016/20160820_Launch_of__Lancement_du_French_PowerShell_User_Group/image__555044452__-200x151.png" width="200" /></a>
+
+<div lang="fr" markdown="1">
 
 ## French
 
@@ -25,7 +28,7 @@ Nous avons tous une famille, un travail, des loisirs et organisé un évènement
 Donc, il y a quelques semaines j'ai commencé une conversation avec quelques personnes impliquées dans ce domaine et lancer l'idée d'un groupe d'utilisateurs uniquement en ligne (pour le moment) en utilisant Meetup.com / Google Hangout On Air/Youtube Live/Skype for Business. Cela facilite énormément l'organisation, permet l'enregistrement du meeting automatiquement et à tous d'assister au meeting peu importe l'endroit.
 
 
-### Et bien voilà nous y sommes
+### Et bien voilà nous y sommes {#et-bien-voilà-nous-y-sommes}
 
 Je suis content de vous annoncer le lancement du French PowerShell User Group (Groupe d'utilisateurs Francophone PowerShell). Ce groupe est pour tout francophone désireux d'apprendre et d'étendre ses connaissances.
 
@@ -50,7 +53,7 @@ Il est important de choisir l'option '<b><i>J'y vais</i></b>' si vous planifiez 
 Cependant une fois le meeting démarrer, celui-ci devrait apparaître sur notre chaine Youtube.
 
 
-### Présenteurs
+### Présenteurs {#présenteurs}
 
 SVP nous contactez sur notre courriel ou par twitter si vous souhaitez faire une presentation.
 
@@ -62,6 +65,9 @@ SVP nous contactez sur notre courriel ou par twitter si vous souhaitez faire une
 * <b>Github</b> -  <a href="https://github.com/FrPSUG">https://github.com/FrPSUG</a>
 * <b>Email</b> - frpsug at gmail.com
 
+</div>
+
+<div lang="en" markdown="1">
 
 ## English
 
@@ -107,3 +113,5 @@ We are looking for Speaker French preferably and we might open to have English s
 * <b>Facebook</b> - https://www.facebook.com/frpsug/
 * <b>Github</b> -  https://github.com/FrPSUG
 * <b>Email</b> - frpsug at gmail.com
+
+</div>
