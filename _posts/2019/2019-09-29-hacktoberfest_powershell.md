@@ -26,6 +26,9 @@ toc: true
 toc_label: "Table of content"
 ---
 
+<div lang="fr" markdown="1">
+
+
 Dans le cadre du Hacktoberfest qui se tient pendant le mois d'Octobre, nous organisons un mini-meetup pour discuter les différentes façons de contribuer à des projets Open Sources sur Github.
 
 Les démos seront évidemment concentrées sur les projets PowerShell de la communauté.
@@ -46,7 +49,7 @@ A l'aide de votre compte Github, dirigez-vous vers [Hacktoberfest](https://hackt
 
 En plus d'apprendre en contribuant, vous pouvez vous qualifier pour gagner un t-shirt "Hacktoberfest 2019". Celui ci sera offert aux premier 50 000 personnes ayant soumis au moins 4 pull requests sur des dépôts publics Github (avec ou sans label `Hacktoberfest`).
 
-### Trouver et Contribuer à des dépôts publics
+### Trouver et Contribuer à des dépôts publics {#trouver-et-contribuer-à-des-dépôts-publics}
 
 Pour trouver des issues reliées à l'événement Hacktoberfest, vous pouvez faire une recherche sur Github, exemples:
 
@@ -63,4 +66,10 @@ Deux options, Rejoindre notre chat et assister a notre meeting en ligne:
 
 ## Code de conduite
 
+</div>
+
+<div lang="en" markdown="1">
+
 Please read our Events Code of Conduct (http://do.co/hacktoberconduct) before attending. Happy hacking!
+
+</div>

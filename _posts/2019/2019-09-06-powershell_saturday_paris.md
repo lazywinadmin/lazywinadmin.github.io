@@ -25,6 +25,9 @@ toc_label: "Table of content"
 toc_icon: "code"
 ---
 
+<div lang="fr" markdown="1">
+
+
 Notre événement **PowerShell Saturday Paris** aura lieu dans quelques semaines, le 12 octobre 2019 à partir de 9h00 chez Cellenza.
 
 Cette année l'événement est organisé par Stéphane, Olivier, Laurent et moi-meme. Un enorme merci pour a toute l'equipe pour leurs efforts.
@@ -48,7 +51,7 @@ Cependant cette année je ne pourrais pas etre présent sur place pour different
 
 Les inscriptions sur [meetup.com](https://www.meetup.com/fr-FR/FrenchPSUG/) <u>NE seront PAS prise en compte</u>.
 
-## Agenda, Lieu et autre détails
+## Agenda, Lieu et autre détails {#agenda-lieu-et-autre-détails}
 
 [Voir la page dédiée](https://web.archive.org/web/20190822214751/http://frpsug.com/powershellsat-2019/) sur le site du frpsug.com
 
@@ -98,3 +101,5 @@ Un énorme travail de fond a été fait pour organiser cet événement. Merci a 
 ## Besoin de plus d'information ?
 
 Utiliser le [Channel #french sur Slack.com](https://web.archive.org/web/20190822214708/http://frpsug.com/slack/) et [contacter un des organisateurs du groupe](https://web.archive.org/web/20190822214722/http://frpsug.com/organisateurs/).
+
+</div>

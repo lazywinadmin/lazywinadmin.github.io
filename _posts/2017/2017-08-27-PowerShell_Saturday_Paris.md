@@ -26,6 +26,9 @@ toc_label: "Table of content"
 toc_icon: "code"
 ---
 
+<div lang="fr" markdown="1">
+
+
 Le Samedi 16 Septembre 2017, nous organisons un **PowerShell Saturday** à Paris à partir de 9h00 chez [Cellenza](https://www.google.fr/maps/place/156+Boulevard+Haussmann,+75008+Paris/@48.8755622,2.3088236,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fc7c0eb09d3:0x9b3b3b5b3007b596!8m2!3d48.8755587!4d2.3110176).
 
 L'événement est gratuit et nous avons 6 présentations de planifier. (merci à tous les speakers!)
@@ -55,7 +58,7 @@ Heure | Speaker | Description
 16h00 | **Florent Appointaire** | Azure Automation: Pourquoi l'adopter en entreprise
 17h00 |  | Discussion / `Get-Apero` / Restaurant pour les intéréssés
 
-## Lieu de l'événement
+## Lieu de l'événement {#lieu-de-lévénement}
 
 [Cellenza - 156 Boulevard Haussmann, 75008 Paris, France](https://www.google.fr/maps/place/156+Boulevard+Haussmann,+75008+Paris/@48.8755622,2.3088236,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fc7c0eb09d3:0x9b3b3b5b3007b596!8m2!3d48.8755587!4d2.3110176)
 
@@ -63,3 +66,5 @@ Heure | Speaker | Description
 ## Besoin de plus d'information ?
 
 Voir le site du [French PowerShell User Group](https://web.archive.org/web/20190606032016/https://frpsug.com/) ou utiliser notre Channel #french sur PowerShell.slack.com  (<a href="https://web.archive.org/web/20160708102836/http://slack.poshcode.org/">S'inscrire</a>).
+
+</div>
