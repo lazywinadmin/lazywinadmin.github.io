@@ -113,7 +113,7 @@ Here are the most important Information you will need for the games. Note that t
 
 
 
-# PowerShell Resources
+## PowerShell Resources
 
 
 * <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">Get-Help of course :-) <span style="background-color: yellow;">(don't forget to <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">Update-Help before!) 
@@ -123,7 +123,7 @@ Here are the most important Information you will need for the games. Note that t
 * PowerShell.org also<a href="https://web.archive.org/web/20140630095244/http://powershell.org/wp/newsletter/" target="_blank"> released some great and neat (and FREE) ebooks too</a> !! I highly recommend those, especially the "The Community Book of PowerShell Practices" result of the Great Debate 2013.
 
 
-# Team Work
+## Team Work
 
 
 This is probably the most challenging part of the game,  working all together, split the work, organize a few meetings (via  Hangout) and stay up to date with who is doing what.
@@ -152,7 +152,7 @@ We tested a couple of tools like SkyDrive, GitHub, GoogleDocs, PiratePad, ... an
 
 
 
-# Team Posh Monks
+## Team Posh Monks
 
 
 Finally, I want to introduce the team I will work with for the Winter Scripting Games 2014, the<u></u> <b>Posh Monks</b> team!!<b>

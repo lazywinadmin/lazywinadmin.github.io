@@ -36,7 +36,7 @@ I also push my last updates to a<a href="https://github.com/lazywinadmin/NetBack
 
 <div markdown="1" style="text-align: left;">
 
-# Using the module
+## Using the module
 
 
 After <a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">downloading the last version from the repo</a>, unblock and extract the zip in the modules directory, most likely one of those directories:
@@ -57,14 +57,14 @@ Import-Module -Name NetBackupPS
 
 
 
-# Cmdlets available
+## Cmdlets available
 
 <a href="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get Command NetBackupPS" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140921_PowerShell_-_NetBackupPS_Module_for_Symantec_NetBackup/Get-Command_NetBackupPS__345176186__-692x282.png" /></a>
 
 As an example, here is the help from Get-NetBackupVolume which retrieve volumes information.
 
 
-# Get-NetBackupVolume
+### Get-NetBackupVolume
 
 
 ```

@@ -140,7 +140,7 @@ And here is the Output! Magnifique! :-)
 
 
 
-# <u>Extra step:</u> Splitting IPAddress and Port number inside the LocalAddress and the ForeignAddress properties
+## <u>Extra step:</u> Splitting IPAddress and Port number inside the LocalAddress and the ForeignAddress properties
 
 
 If you want the ports information in a separated fields, we can simply split on the ":", this does not require a lot of additional work.
@@ -183,7 +183,7 @@ FOREACH ($line in $data)
 </b></u>
 ```
 <a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-31-39__373841716__-772x818.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 11 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-31-39__373841716__-772x818.png" /></a>
-#  <u>Extra step:</u> Building a function
+##  <u>Extra step:</u> Building a function
 
 
 Finally we can wrap this powershell code inside a function to create a re-usable tool.

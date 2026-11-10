@@ -88,14 +88,14 @@ Redmond offers some nice runner tracks to follow)</td></tr></tbody></table>
 Really nice and easy to follow</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1627179313__-1600x1200.webp" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 37 from the post &quot;PowerShell Summit North America 2013&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140311_PowerShell_Summit_North_America_2013/IMG_20130424_161619__1223311732__-320x240.jpg" height="240" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">My Redmond hotel "Extended Stay America" - cheap, convenient and close to the summit</td></tr></tbody></table>
 
-# Assessment
+## Assessment
 
 To summarize, the organizers of this event (the<a href="https://powershell.org/">PowerShell.org</a>Team) did an awesome job!!!! Everything was timed well, Great Speakers, Great Sessions, Great food, Great Location (4 min walk from my hotel !!) and even Great Weather!! ;-)
 
 I got to meet a lot of great people (PowerShell Teams, MVPs, IT Pro, ...).
 I left with a huge amount of information and I feel it really gave a boost to my PowerShell knowledge!
 
-# Total Costs
+## Total Costs
 
 The event was happening in Redmond, close to Seattle... personally I live in Montreal, QC, Canada that's on the other side of the continent, almost 5000 km away (~3100 miles)!
 
