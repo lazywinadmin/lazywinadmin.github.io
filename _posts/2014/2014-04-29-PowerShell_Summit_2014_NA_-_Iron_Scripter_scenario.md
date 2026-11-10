@@ -53,7 +53,7 @@ Create the shortest on-liner possible that produces the following output as exac
 
 
 
-# Main Course
+## Main Course
 
 <div markdown="1" class="separator" style="clear: both; text-align: left;">Create a function that enables you to exactly reproduce this shell transcript. (It's OK if property values aren't the same on your computer)
 

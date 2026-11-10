@@ -41,7 +41,7 @@ It provides:
 <b><a href="https://github.com/lzybkr/PSReadLine/releases" target="_blank">Download on Github</a></b>
 
 
-### CTRL+SPACE
+## CTRL+SPACE
 
 Other than the Syntax coloring and the Error Notification, one of the coolest trick in this module is the Ctrl+Space which list the possible completions! This is just awesome!
 
@@ -61,7 +61,7 @@ Also work if you are looking for a properties with Select-Object,  `Where-Object
 <a href="{{ site.url }}/images/2015/20150106_PowerShell_Tip_-_PSReadLine_shortcuts/2015-01-06_20-50-20__1222405251__-692x906.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Tip - PSReadLine shortcuts&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150106_PowerShell_Tip_-_PSReadLine_shortcuts/2015-01-06_20-50-20__1222405251__-692x906.png" /></a>
 <div markdown="1" class="separator" style="clear: both; text-align: left;">Methods will only show where it make sense, where you can actually use them, here for example GetType(), ToString()are available.<a href="{{ site.url }}/images/2015/20150106_PowerShell_Tip_-_PSReadLine_shortcuts/2015-01-06_21-03-57__1115254386__-692x522.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Tip - PSReadLine shortcuts&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150106_PowerShell_Tip_-_PSReadLine_shortcuts/2015-01-06_21-03-57__1115254386__-692x522.png" /></a>
 
-# Other Shortcuts
+## Other Shortcuts
 
 You can easily access the list of other shortcuts using Get-PSReadLineKeyHandler.
 
