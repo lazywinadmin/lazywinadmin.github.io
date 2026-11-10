@@ -177,11 +177,11 @@ Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,password
 <u>Note about LastLogon, LastLogonTimestamp or LastLogonDate property.</u>
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" /></a>
-<a href="http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about `LastLogonTimeStamp` and`LastLogon` properties :
+<a href="https://web.archive.org/web/20131006015929/http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about `LastLogonTimeStamp` and`LastLogon` properties :
 <blockquote class="tr_bq"><i>The reason why most people want to obtain these values is to find out if a user or computer object can be safely deleted. If you want to know when someone logged on to a computer in your network for the exact last time, search for the last logon value. If you want to know when someone last accessed a resource in your network (accessed webmail or one of your file systems etc), search for the last logon timestamp value. <b>If you want to know when someone last used any network resource, search for the most recent of both values.</b></i></blockquote><b style="font-size: x-large;">
 </b><b style="font-size: x-large;">Random User</b>
 PowerShell comes with a Cmdlet called `Get-Randomsince` the version 2.
-Check more information here<a href="http://technet.microsoft.com/en-us/library/ff730929.aspx" target="_blank">Get-Random (TechNet)</a>and <a href="http://blogs.msdn.com/b/powershell/archive/2008/04/27/get-random.aspx" target="_blank">PowerShell Team Blog</a>.
+Check more information here<a href="http://technet.microsoft.com/en-us/library/ff730929.aspx" target="_blank">Get-Random (TechNet)</a>and <a href="https://devblogs.microsoft.com/powershell/get-random/" target="_blank">PowerShell Team Blog</a>.
 
 This is exactly what I need!
 

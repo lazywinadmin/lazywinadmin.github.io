@@ -60,7 +60,7 @@ In my script I only focused on the W3C format, but here is the list of formats s
 * <b>Centralized Binary Logging</b>– Centralized binary logging is used when multiple web sites running on a server to write binary, unformatted log data to a single log file. Each web server running IIS creates one log file for all sites on that server. The IIS writes log files in binary format and uses a single file there by making it memory efficient. This type of logging is not supported at web site level.
 <ul style="color: #666666; font-family: Calibri, 'Lucida Sans Unicode', Arial, sans-serif; font-size: 16px; line-height: 18px; list-style-image: initial; list-style-position: initial; margin: 0px 0px 9px 25px; padding: 0px;">
 * <b>ODBC log file format</b>– This method is used when you want to log access information directly to a database. Enabling ODBC logging will disable the kernel-mode cache so this may affect the server performance. Only supported at site level.</ul></ul></ul></ul></ul>
-</blockquote><blockquote class="tr_bq"><u>Source:</u>[http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/](http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/)</blockquote>
+</blockquote><blockquote class="tr_bq"><u>Source:</u>[https://web.archive.org/web/20130928020443/http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/](https://web.archive.org/web/20130928020443/http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/)</blockquote>
 <b>Header</b>
 The header of the W3C Log format stats by the "#fields: " pattern.
 Let's use that to find our properties.
@@ -127,13 +127,13 @@ Small list of the interesting blog articles/documentations I found.
 
 * <u><a href="http://msdn.microsoft.com/en-us/library/windows/desktop/aa814385(v=vs.85).aspx" target="_blank">W3C Logging - MSDN</a></u>
 
-* <a href="http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/" target="_blank">IIS Log format overview</a>
+* <a href="https://web.archive.org/web/20130928020443/http://www.surfray.com/blog/2009/08/11/iis-log-file-formats-overview/" target="_blank">IIS Log format overview</a>
 
-* <u><a href="http://poshcode.org/2574" target="_blank">Import-IIS-Log by Mark Shevchenko</a></u>
+* <u><a href="https://web.archive.org/web/20170430094952/http://poshcode.org/2574" target="_blank">Import-IIS-Log by Mark Shevchenko</a></u>
 
 * <u><a href="http://stackoverflow.com/questions/11253184/powershell-iis-log-analasys" target="_blank">Powershell IIS Log Analasys<b>using Import-CSV</b></a></u>
 
-* <u><a href="http://www.gfi.com/blog/windows-powershell-extracting-strings-using-regular-expressions/" target="_blank">Windows PowerShell: Extracting Strings Using Regular Expressions</a></u>
+* <u><a href="https://web.archive.org/web/20160413123319/http://www.gfi.com/blog/windows-powershell-extracting-strings-using-regular-expressions/" target="_blank">Windows PowerShell: Extracting Strings Using Regular Expressions</a></u>
 
 * <a href="http://technet.microsoft.com/en-us/magazine/2008.09.windowspowershell.aspx" target="_blank">Don Jones - Select-Strin</a>g
 

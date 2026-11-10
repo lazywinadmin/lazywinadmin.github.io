@@ -13,7 +13,7 @@ comments: true
 ---
 New version of LazyWinAdmin 0.2 (see the download section)
 
-[Download now](http://cid-60886de0176e604a.office.live.com/embedicon.aspx/Public/LazyWinAdmin/Releases/LazyWinAdmin%5E_20110530.exe)
+Download no longer available (the original Office Live host is gone, and no verified archive of the 0.2 executable was found).
 
 requires:
 -PowerShell 2.0 on local machine

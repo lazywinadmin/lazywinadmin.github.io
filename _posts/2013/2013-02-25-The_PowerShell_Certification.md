@@ -24,16 +24,16 @@ The certification name:<b>Windows PowerShell 3.0 Toolmaking.</b>
 
 * <b><a href="http://donjones.com/verified/" target="_blank">Official </a><a href="http://donjones.com/verified/" target="_blank">Website</a></b>
 
-* Certification<b><a href="http://donjones.com/verified/Psh3ToolGuide.pdf" target="_blank">Program Guide</a>(PDF File)</b>.
+* Certification <b>Program Guide (PDF file, no longer available)</b>.
 
 
-To pass the certification you will need to pay the <b>Examination cost (150$)</b> and <b>complete/return the <a href="http://donjones.com/verified/ProgramGuide.pdf" target="_blank">Program License Agreement</a></b>file. Once those steps complete you will then receive your scenario.
+To pass the certification you will need to pay the <b>Examination cost (150$)</b> and <b>complete/return the Program License Agreement (PDF no longer available)</b> file. Once those steps complete you will then receive your scenario.
 
 
 
 <blockquote class="tr_bq"><i>On your scheduled examination date, you will receive via e-mail an examination</i><i>packet. The packet will include your assignment. You will also be given a cutoff time,</i><i>and you must complete your exam and return the results via e-mail no later than</i><i>that cutoff time. Generally, you will be given from 8 to 24 hours to complete your</i><i>assignment.</i></blockquote>
 
-Here are the <b>Pre-Requisite Skills</b> information from the <a href="http://donjones.com/verified/Psh3ToolGuide.pdf" target="_blank">Program Guide.</a>
+Here are the <b>Pre-Requisite Skills</b> information from the Program Guide (PDF no longer available).
 
 <blockquote><i><b>Pre-Requisite Skills</b></i></blockquote><blockquote><i>Before attempting this exam, candidates should possess strong, practical experience
 with the following:</i>
