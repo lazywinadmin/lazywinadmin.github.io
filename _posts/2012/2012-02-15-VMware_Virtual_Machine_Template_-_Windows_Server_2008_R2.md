@@ -21,7 +21,7 @@ Create, Install and Config
 
 * <a href="https://web.archive.org/web/20120608065246/http://www.jasonsamuel.com/2010/05/07/how-to-build-a-vmware-vsphere-vm-template-for-windows-server-2008-r2/" target="_blank">Jason Samuel</a>-<i>How to Build a VMware vSphere VM Template for Windows Server 2008 R2</i>
 
-* <a href="http://blog.vmpros.nl/2011/01/17/vmware-my-favorite-windows-2008r2-template-configuration/" target="_blank">VMPros Blog</a>-<i>VMware: My favorite Windows 2008R2 template configuration</i>
+* <a href="https://web.archive.org/web/20220927045229/http://blog.vmpros.nl/2011/01/17/vmware-my-favorite-windows-2008r2-template-configuration/" target="_blank">VMPros Blog</a>-<i>VMware: My favorite Windows 2008R2 template configuration</i>
 
 * <a href="http://jeremywaldrop.wordpress.com/2008/10/28/how-to-build-a-windows-2008-vmware-esx-vm-template/" target="_blank">Jeremy Waldrop's Blog</a>-How to Build a Windows 2008 VMware ESX VM Template
 

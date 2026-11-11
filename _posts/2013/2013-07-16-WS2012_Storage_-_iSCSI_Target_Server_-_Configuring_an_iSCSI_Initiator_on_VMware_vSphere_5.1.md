@@ -281,7 +281,7 @@ So I used a 10GB LUN for the following steps...
 
 
 
-* <b>VMFS -</b>[http://www.vmware.com/files/pdf/VMware-vStorage-VMFS-DS-EN.pd](http://www.vmware.com/files/pdf/VMware-vStorage-VMFS-DS-EN.pdf)
+* <b>VMFS -</b>[http://www.vmware.com/files/pdf/VMware-vStorage-VMFS-DS-EN.pd](https://web.archive.org/web/20150905230429/http://www.vmware.com/files/pdf/VMware-vStorage-VMFS-DS-EN.pdf)
 
 
 
