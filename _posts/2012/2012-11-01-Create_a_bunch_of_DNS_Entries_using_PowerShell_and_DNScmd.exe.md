@@ -34,7 +34,7 @@ dnscmd.exe <DNSServer> /RecordAdd <DNSZone> <NewEntryName> /CreatePTR A <IPAddre
 Create a CSV with all the information (in Excel or via PowerShell)
 here is an example, save it as DNSEntries.csv (in my case at the root of the C: drive)
 
-<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__404817523__-637x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DNSCMD CSVFILE" loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__547032139__-637x615.png" /></a>
+<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__404817523__-637x615.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DNSCMD CSVFILE" loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-CSVFILE__547032139__-637x615.png" width="637" height="615" /></a>
 
 **Second Step:** The PowerShell one-liner:
 
@@ -47,7 +47,7 @@ ForEach-Object {
 
 And the output should look like the following:
 
-<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__1945553717__-692x322.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DNSCMD OUTPUT" loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__866050784__-692x322.png" /></a>
+<a href="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__1945553717__-692x322.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DNSCMD OUTPUT" loading="lazy" decoding="async" border="0" qea="true" src="{{ site.url }}/images/2012/20121101_Create_a_bunch_of_DNS_Entries_using_PowerShell_and_DNScmd.exe/DNSCMD-OUTPUT__866050784__-692x322.png" width="692" height="322" /></a>
 
 
 ## Extra: Adding the same entries to multiple zones.

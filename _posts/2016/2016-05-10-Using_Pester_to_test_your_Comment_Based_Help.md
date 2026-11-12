@@ -151,7 +151,7 @@ Here is the code in action:
 
 We can see that I already missed a couple of things on the first functions tested ... :-/
 
-<img alt="Pester CommentBasedHelp02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" />
+<img alt="Pester CommentBasedHelp02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160510_Using_Pester_to_test_your_Comment_Based_Help/Pester_CommentBasedHelp02__42317191__-754x477.png" width="754" height="477" />
 
 ## Other Pester posts
 

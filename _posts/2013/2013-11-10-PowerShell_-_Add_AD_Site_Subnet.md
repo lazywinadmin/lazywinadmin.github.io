@@ -13,7 +13,7 @@ published: true
 comments: true
 tldr: "The follow-up to the missing-subnets report. It adds Active Directory site subnets with an ADSI-based PowerShell function that takes Subnet, SiteName, Description and Location, and works on Windows Server 2003 and later with PowerShell 2.0 or later. The post covers Windows Server 2012 and earlier versions, and the code and a CSV example are on GitHub."
 ---
-![Icon of a computer monitor with a green plus sign](/images/2013/20131110_PowerShell_-_Add_AD_Site_Subnet/Add_subnet2__1291922575__-142x124.png){: .align-left} Last month I posted [a script that report the Missing Subnets](/2013/10/powershell-report-ad-missing-subnets.html) from the Active Directory. The script goes on each Domain Controllers and get the last x entries from the NETLOGON.log file.
+![Icon of a computer monitor with a green plus sign](/images/2013/20131110_PowerShell_-_Add_AD_Site_Subnet/Add_subnet2__1291922575__-142x124.png){: .align-left width="142" height="124"} Last month I posted [a script that report the Missing Subnets](/2013/10/powershell-report-ad-missing-subnets.html) from the Active Directory. The script goes on each Domain Controllers and get the last x entries from the NETLOGON.log file.
 Once this report is generated, you might want to check with your Telecom guy/team to get the correct network mask, correct site of each entries and fix this situation.
 
 <u>Reminder:</u> Subnet objects (class subnet) define network subnets in Active Directory. A network subnet is a segment of a TCP/IP network to which a set of logical IP addresses is assigned. Subnets group computers in a way that identifies their physical proximity on the network. Subnet objects in Active Directory are used to map computers to sites.
@@ -86,7 +86,7 @@ VERBOSE: Script Completed
 ## Adding a bunch of subnets from a CSV file
 
 We have the following CSV file with a few subnets to add, we can use Import-CSV to create all the subnet at once.
-<a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM_s1600.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM_s1600.png" width="412" height="221" /></a>
 
 ```powershell
 PS C:\LazyWinAdmin> Import-csv .\subnets.csv | Add-ADSubnet -Verbose
@@ -115,7 +115,7 @@ VERBOSE: Script Completed
 
 The parameters of my function *Name*, *Location*, *Site* and *Description* will match theproperties in the CSV file so the cmdlet will be able to interpret them. This is possible thanks to the parameter `ValueFromPipelineByPropertyName`.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-11_12-22-31_AM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-11_12-22-31_AM_s1600.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Management Console: Active Directory Sites and Services. We can see the
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-11_12-22-31_AM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-11_12-22-31_AM_s1600.png" width="448" height="193" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Management Console: Active Directory Sites and Services. We can see the
 subnets created.</td></tr></tbody></table>
 
 ## Download the function
@@ -184,7 +184,7 @@ Site              : CN=FX3,CN=Sites,CN=Configuration,DC=FX,DC=LAB
 ## Adding a bunch of subnets
 
 We re-use the same file used in the ADSI example (above) with a few subnets to add:
-<a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM_s1600.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_6-35-03_PM_s1600.png" width="412" height="221" /></a>
 
 *Name*, *Location*, *Site* and *Description* properties are in the CSV file so the cmdlet will be able to interpret them.
 
@@ -192,7 +192,7 @@ We re-use the same file used in the ADSI example (above) with a few subnets to a
     <tbody>
     <tr>
     <td style="text-align: center;">
-    <a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_7-49-16_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_7-49-16_PM_s1600.png" /></a>
+    <a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_7-49-16_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_7-49-16_PM_s1600.png" width="561" height="308" /></a>
     </td>
     </tr>
     <tr>
@@ -273,4 +273,4 @@ VERBOSE: Performing operation "New" on Target
 DistinguishedName : CN=192.168.8.0/24,CN=Subnets,CN=Sites,CN=Configuration,DC=FX,DC=LAB Location          : Paris Name              : 192.168.8.0/24 ObjectClass       : subnet ObjectGUID        : 494113f6-ac7a-4398-a155-2b1d3b400c15 Site              : CN=FX2,CN=Sites,CN=Configuration,DC=FX,DC=LAB 
 ```
 
-<a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_8-34-25_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_8-34-25_PM_s1600.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_8-34-25_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Add AD Site Subnet&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Add_AD_Site_Subnet/2013-11-10_8-34-25_PM_s1600.png" width="706" height="427" /></a>

@@ -22,7 +22,7 @@ So I wrote a tiny script to report any expiring user accounts and send it to the
 <b><u>Report Example</u></b>
 
 [ReportExample]: {{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Example__1621226184__-951x506.png
-![Report Example][ReportExample]
+![Report Example][ReportExample]{: width="951" height="506"}
 
 ## How does this work ?
 
@@ -43,23 +43,23 @@ You will also need to create a scheduled task to run the script at the specific 
 
 ### Workflow
 
-[![Workflow]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)
+[![Workflow]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png){: width="809" height="1600"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Report-Expiring_accounts2__601171038__-809x1600.png)
 
 ## Finding Expiring Account
 
 I am using the very neat cmdlet: `Search-ADAccount`. This cmdlet is included with in the Active Directory Module and comes with some very cool parameters.
 
-[![Finding Expiring Account]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)
+[![Finding Expiring Account]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png){: width="566" height="313"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount__1339633875__-566x313.png)
 
 Notice the `-AccountExpiring` parameter, that's what we need for our little script.
 
 We can get more information by checking out the help
 
-[![Checking out the help]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)
+[![Checking out the help]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png){: width="802" height="547"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Get-Help_Search-ADAccount__1391296234__-802x547.png)
 
 With the `-AccountExpiring` parameter we can use either `-DateTime` or `TimeSpan` parameter to specify the time range.
 
-[![AccountExpiring]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)
+[![AccountExpiring]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png){: width="864" height="253"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example__1428049022__-864x253.png)
 
 Search for account Expiring before 2015/05/26
 
@@ -67,15 +67,15 @@ Search for account Expiring before 2015/05/26
 Search-ADAccount -AccountExpiring -DateTime "2015/05/26"
 ```
 
-[![Search-ADAccount]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)
+[![Search-ADAccount]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png){: width="772" height="278"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+5-07-18+PM__397010592__-772x278.png)
 
-[![Search-ADAccount2]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)
+[![Search-ADAccount2]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png){: width="864" height="306"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/Search-ADAccount_Example2__1309512313__-864x306.png)
 
 ```powershell
 Search-ADAccount -AccountExpiring -TimeSpan "10.00:00:00"
 ```
 
-[![Search-ADAccount3]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)
+[![Search-ADAccount3]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png){: width="772" height="278"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/2015-05-16+4-14-16+PM__1637767674__-772x278.png)
 
 Ok we got the expiring accounts, now we need to generate a report.
 
@@ -88,7 +88,7 @@ A quick Google search lead me to this little piece of code below (found on <http
 I'm adding this piece of code into the variable `$CSS` using the here-string construction method.
 Here-String construction lets you bypass the complexities involved in assigning a multi-line string value to a variable.
 
-[![Example using the TimeSpan parameter]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)
+[![Example using the TimeSpan parameter]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png){: width="539" height="769"}]({{ site.url }}/images/2015/20150518_PowerShell_-_Report_Expiring_User_accounts/CSS__1757120316__-539x769.png)
 
 Almost there! The next step is to add a Title above our report and a Foot Note to display the source and generated date/time.
 

@@ -29,7 +29,7 @@ I recently released a PowerShell module called MeetupPS. This module is a wrappe
 * Get Meetup events for a specific group (past and upcoming)
 * Create events
 
-![Meetup logo: the word Meetup in white script on a red circle](/images/2018/2018-04-30-MeetupPS_Module/Meetup3.png){: .align-center .align-left}
+![Meetup logo: the word Meetup in white script on a red circle](/images/2018/2018-04-30-MeetupPS_Module/Meetup3.png){: .align-center .align-left width="256" height="256"}
 
 The initial reason behind the creation of this module is that I needed to gather the list of all the meetings from the last year (Title, link, attendees) and needed to submit them to the MVP Portal [using the MVP Module](/2017/05/MVP_Module.html). A long process if you do this manually.
 
@@ -57,11 +57,11 @@ Register a new Oauth Consumer on the [Meetup API Oauth Consumer portal](https://
 * `Redirect URI` Can be pretty much anything, here i used `https://github.com/lazywinadmin/MeetupPS`
 * Agree with terms
 
-![Meetup Register OAuth Consumer form](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer01.png){: .align-center loading="lazy" decoding="async"}
+![Meetup Register OAuth Consumer form](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer01.png){: .align-center loading="lazy" decoding="async" width="772" height="880"}
 
 Once the Oauth Consumer is created, copy the Key and the Secret. This will be used to authenticate against the API
 
-![Meetup Your OAuth Consumers page showing the PowerShell consumer with its key, secret, website and redirect URI](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer02.png){: .align-center loading="lazy" decoding="async"}
+![Meetup Your OAuth Consumers page showing the PowerShell consumer with its key, secret, website and redirect URI](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-RegisterOauthConsumer02.png){: .align-center loading="lazy" decoding="async" width="772" height="567"}
 
 <a name="Authentication"/>
 
@@ -74,7 +74,7 @@ $Secret = '<Your Oauth Consumer Secret>'
 Set-MeetupConfiguration -ClientID $Key -Secret $Secret
 ```
 
-![PowerShell window setting $Key and $Secret, then running Set-MeetupConfiguration -ClientID $Key -Secret $Secret](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration01.png){: .align-center loading="lazy" decoding="async"}
+![PowerShell window setting $Key and $Secret, then running Set-MeetupConfiguration -ClientID $Key -Secret $Secret](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration01.png){: .align-center loading="lazy" decoding="async" width="919" height="183"}
 
 Note: This will leverage two private functions of the module:
 
@@ -83,7 +83,7 @@ Note: This will leverage two private functions of the module:
 
 This will then prompt you to connect to Meetup.
 
-![Meetup log-in page asking to log in and grant access](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration02.png){: .align-center loading="lazy" decoding="async"}
+![Meetup log-in page asking to log in and grant access](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Set-MeetupConfiguration02.png){: .align-center loading="lazy" decoding="async" width="423" height="631"}
 
 <a name="GetGroupInfo"/>
 
@@ -95,7 +95,7 @@ Retrieve a Meetup group information
 Get-MeetupGroup -Groupname FrenchPSUG
 ```
 
-![Get-MeetupGroup -GroupName FrenchPSUG output in PowerShell: the French PowerShell User Group id, name, status, link and description](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupGroup01.png){: .align-center loading="lazy" decoding="async"}
+![Get-MeetupGroup -GroupName FrenchPSUG output in PowerShell: the French PowerShell User Group id, name, status, link and description](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupGroup01.png){: .align-center loading="lazy" decoding="async" width="919" height="482"}
 
 <a name="GetEventInfo"/>
 
@@ -121,14 +121,14 @@ Retrieve past event(s) for a Meetup group
 Get-MeetupEvent -GroupName FrenchPSUG -status past -page 2
 ```
 
-![Get-MeetupEvent -GroupName FrenchPSUG -Status past -page 2 output in PowerShell, showing the properties of a past event](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent03.png){: .align-center loading="lazy" decoding="async"}
+![Get-MeetupEvent -GroupName FrenchPSUG -Status past -page 2 output in PowerShell, showing the properties of a past event](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent03.png){: .align-center loading="lazy" decoding="async" width="919" height="482"}
 
 ```powershell
 Get-MeetupEvent -GroupName FrenchPSUG -status past |
 Format-List -property Name,local_date,link, yes_rsvp_count
 ```
 
-![Get-MeetupEvent output piped to Format-List in PowerShell, showing the name, local_date, link and yes_rsvp_count of past events](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent04.png){: .align-center loading="lazy" decoding="async"}
+![Get-MeetupEvent output piped to Format-List in PowerShell, showing the name, local_date, link and yes_rsvp_count of past events](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-Get-MeetupEvent04.png){: .align-center loading="lazy" decoding="async" width="919" height="482"}
 
 <a name="CreateEvent"/>
 
@@ -143,11 +143,11 @@ New-MeetupEvent `
     -PublishStatus draft
 ```
 
-![New-MeetupEvent running in PowerShell to create a draft event, followed by the properties of the created event](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent01.png){: .full}
+![New-MeetupEvent running in PowerShell to create a draft event, followed by the properties of the created event](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent01.png){: .full width="919" height="609"}
 
 Here is the event created in Meetup
 
-![Meetup group page, Drafts tab, showing the draft event New Event from MeetupPS](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent02.png){: .full}
+![Meetup group page, Drafts tab, showing the draft event New Event from MeetupPS](/images/2018/2018-04-30-MeetupPS_Module/MeetupPS-New-MeetupEvent02.png){: .full width="1184" height="498"}
 
 <a name="APIPermissionScopes"/>
 

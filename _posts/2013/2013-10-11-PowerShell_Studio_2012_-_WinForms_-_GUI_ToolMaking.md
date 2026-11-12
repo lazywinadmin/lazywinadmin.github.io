@@ -60,11 +60,11 @@ One cool thing to mention when using PowerShell Studio 2012 is, if you add some 
 ### Creating and Editing the GUI
 
 Insert your controls. Here I used 3 buttons and one TextBox
-<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-42-52_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-42-52_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-42-52_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-42-52_PM.png" width="330" height="138" /></a>
 Rename your button text properties and rename the textbox control (Design Name property) so it will be easier to find it when writing the PowerShell code.
-<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-10_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-10_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-10_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-10_PM.png" width="555" height="272" /></a>
 
-<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-26_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-26_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-26_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-26_PM.png" width="288" height="61" /></a>
 
 ### Adding your PowerShell Code
 
@@ -117,18 +117,18 @@ $buttonProcesses_Click
 $buttonShares_Click
 ```
 
-<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-08-59_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-08-59_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-08-59_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-08-59_PM.png" width="301" height="607" /></a>
 
 You can define all sort of Events for each control, take a look below
 
-<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_5-33-20_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (6)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_5-33-20_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_5-33-20_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (6)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_5-33-20_PM.png" width="323" height="480" /></a>
 
 ### Replacing the Out-Gridview by a DataGridView Control
 
 
 Expend your Form and add a DataGridView control.
 
-<div markdown="1" class="separator" style="clear: both; font-size: medium; font-weight: normal; text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (7)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" /></a>
+<div markdown="1" class="separator" style="clear: both; font-size: medium; font-weight: normal; text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (7)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" width="739" height="483" /></a>
 
 
 When you add the DataGridView to your form, you will notice that PowerShell Studio 2012 automatically add one ore more functions that can interact with this kind of control, you can write your own of course but this make things simpler for people who don't know which properties to modify or methods to invoke.
@@ -237,7 +237,7 @@ $buttonShares_Click={
 
 
 
-<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-19-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (8)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-19-47_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-19-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (8)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-19-47_PM.png" width="486" height="440" /></a>
 
 
 ### Download (PS1 and PFF)

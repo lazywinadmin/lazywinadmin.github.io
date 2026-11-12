@@ -14,7 +14,7 @@ comments: true
 ---
 
  
-<img alt="Site Map" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ site.url }}/images/2016/20160319_Active_Directory_-_How_to_grant_an_account_to_use_Sync-ADObject_/Site_Map__1914663504__-96x96.png" />During an onboarding process, I had to create some accounts on a remote site where the Exchange Role is installed. There, the account can be mail-enabled. We do this because the information will get replicated to Office365 faster and we will be able to proceed with other automated tasks.
+<img alt="Site Map" loading="lazy" decoding="async" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" border="0" src="{{ site.url }}/images/2016/20160319_Active_Directory_-_How_to_grant_an_account_to_use_Sync-ADObject_/Site_Map__1914663504__-96x96.png" width="96" height="96" />During an onboarding process, I had to create some accounts on a remote site where the Exchange Role is installed. There, the account can be mail-enabled. We do this because the information will get replicated to Office365 faster and we will be able to proceed with other automated tasks.
 
 Once the account is created, mail-enabled, sync to Office365, added to a couple of DLs, I needed to sync back the account to my local Domain Controller.
 
@@ -26,7 +26,7 @@ Of course you will need to give explicit permission to an account to perform thi
 
 To grant permission, you'll need to launch the ADSIEdit tool and grant permission at the root of the domain for ```Replication Synchronisation```
 
-<img alt="replication synchronization permission" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160319_Active_Directory_-_How_to_grant_an_account_to_use_Sync-ADObject_/replication_synchronization_permission__1889655891__-637x581.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" />
+<img alt="replication synchronization permission" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160319_Active_Directory_-_How_to_grant_an_account_to_use_Sync-ADObject_/replication_synchronization_permission__1889655891__-637x581.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" width="637" height="581" />
 
 Once the permission granted, you'll see the following
 

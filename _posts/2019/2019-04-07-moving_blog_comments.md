@@ -43,7 +43,7 @@ Here is a representation of the setup with Disqus widget:
 1. Github re-generated the static site for me at each commit
 1. The Disqus widget is loaded in the browser when a user browse the page and this shows the comments for the current blog post url.
 
-![Diagram of the previous setup: GitHub Pages generates the site from the repository, and a Disqus widget in the browser loads the comments matching the page URL](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Disqus.png){: .align-center}
+![Diagram of the previous setup: GitHub Pages generates the site from the repository, and a Disqus widget in the browser loads the comments matching the page URL](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Disqus.png){: .align-center width="960" height="720"}
 
 ## Moving my blog comments
 
@@ -122,7 +122,7 @@ My migration plan looked like this:
 
 Diagram of the final state:
 
-![Static Site Comment system with Github Issues](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Github_Issues.png){: .align-center}
+![Static Site Comment system with Github Issues](/images/2019/2019-04-07-moving_blog_comments/Static_Site_-_Comment_system_with_Github_Issues.png){: .align-center width="960" height="720"}
 
 
 ### Get the comments export
@@ -131,7 +131,7 @@ Fortunately Disqus made the comments exportation easy. Simply navigate to the [E
 
 `Your export has been queued. We will send an email to your registered address when it is available.`
 
-![disqus export comments](/images/2019/2019-04-07-moving_blog_comments/disqus_export_comments.png){: loading="lazy" decoding="async"}
+![disqus export comments](/images/2019/2019-04-07-moving_blog_comments/disqus_export_comments.png){: loading="lazy" decoding="async" width="614" height="200"}
 
 Once downloaded you'll need a tool like 7zip to uncompress the Gz file.
 
@@ -628,11 +628,11 @@ Now what does the final result looks like, here are the two perspectives:
 
 If you look at a blog article, now it will look like this:
 
-![Blog post comment section using the Utterances widget, with two imported comments and a sign-in box](/images/2019/2019-04-07-moving_blog_comments/blogpost01.png){: .align-center}
+![Blog post comment section using the Utterances widget, with two imported comments and a sign-in box](/images/2019/2019-04-07-moving_blog_comments/blogpost01.png){: .align-center width="621" height="700"}
 
 You also have a link that send you directly to the Github issue item related to the Blogpost
 
-![Comments link of a blog post reading 11 Comments - powered by utteranc.es, with an arrow labelled Github issue link, above a reader comment](/images/2019/2019-04-07-moving_blog_comments/githubissues03.png){: .align-center}
+![Comments link of a blog post reading 11 Comments - powered by utteranc.es, with an arrow labelled Github issue link, above a reader comment](/images/2019/2019-04-07-moving_blog_comments/githubissues03.png){: .align-center width="620" height="295"}
 
 ### Github Issues
 
@@ -640,8 +640,8 @@ On the Github side, it will just look like a regular issue. Note that the title 
 
 List of issues related to blog posts:
 
-![GitHub issues list of closed issues labelled blog comments, each titled with a blog post path](/images/2019/2019-04-07-moving_blog_comments/githubissues01.png){: .align-center}
+![GitHub issues list of closed issues labelled blog comments, each titled with a blog post path](/images/2019/2019-04-07-moving_blog_comments/githubissues01.png){: .align-center width="943" height="633"}
 
 Comments for a particular blog post:
 
-![GitHub issue 260 for the MVPModule-AddingMyContributions post, showing its imported comments](/images/2019/2019-04-07-moving_blog_comments/githubissues02.png){: .align-center}
+![GitHub issue 260 for the MVPModule-AddingMyContributions post, showing its imported comments](/images/2019/2019-04-07-moving_blog_comments/githubissues02.png){: .align-center width="735" height="696"}

@@ -16,7 +16,7 @@ comments: true
 
 LazyWinAdmin is a PowerShell Script that generates a GUI/WinForms loaded with a tons of tools
 
-![LazyWinAdmin v0.4 GUI window with a toolbar of admin tool buttons and a console output pane](/images/2012/20120614_LazyWinAdmin_v0.4_released/14-06-2012%208-38-47%20pm__1893929869__-720x462.png){: .align-center}
+![LazyWinAdmin v0.4 GUI window with a toolbar of admin tool buttons and a console output pane](/images/2012/20120614_LazyWinAdmin_v0.4_released/14-06-2012%208-38-47%20pm__1893929869__-720x462.png){: .align-center width="720" height="462"}
 
 The Form was created using [Sapien Powershell Studio 2012](http://www.sapien.com/software/powershell_studio).
 

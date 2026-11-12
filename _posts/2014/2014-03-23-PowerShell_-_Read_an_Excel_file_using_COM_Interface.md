@@ -13,11 +13,11 @@ toc: true
 toc_label: "Table of Content"
 ---
 
-<a href="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Read an Excel file using COM Interface&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
+<a href="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Read an Excel file using COM Interface&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-57-33_PM.png" width="131" height="145" /></a>Last week, I worked on a small PowerShell script to read a custom excel file sheet with a lot of information in different columns and rows. Unfortunately, you'll have to adapt the script to your needs. However I thought this might be helpful to understand how this work.
 
 Here is the sample Excel file I worked with:
 
-![SampleExcel]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/VIDEOSERVER02__918066707__-691x852.png)
+![SampleExcel]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/VIDEOSERVER02__918066707__-691x852.png){: width="691" height="852"}
 
 ## COM interface: Excel.Application
 
@@ -25,7 +25,7 @@ Here is the sample Excel file I worked with:
 To access an Excel file data, you have to be aware of the hierarchy of each elements/layers.
 The first element will be the <u>application class</u> (at the the top) that contains <u>one or more workbooks</u>, each workbooks contains<u> one or more worksheets</u>, inside each of the worksheet you can access <u>ranges</u>. Each element can access down to some of the other layers.
 
-![Read_an_Excel_file_using_COM_Interface01]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/Excel_layers__1122444821__-672x596.png)
+![Read_an_Excel_file_using_COM_Interface01]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/Excel_layers__1122444821__-672x596.png){: width="672" height="596"}
 
 **Application layer**
 This will open a new instance of excel on my computer as you can see below:
@@ -36,7 +36,7 @@ $objExcel = New-Object -ComObject Excel.Application
 
 MSDN reference: [Microsoft.Office.Interop.Excel.ApplicationClass](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.excel.applicationclass(v=office.11).aspx)
 
-![A new Excel Instance is created]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/Microsoft.Office.Interop.Excel.ApplicationClass__1553930306__-852x394.png)
+![A new Excel Instance is created]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/Microsoft.Office.Interop.Excel.ApplicationClass__1553930306__-852x394.png){: width="852" height="394"}
 
 A new Excel Instance is created.
 
@@ -47,7 +47,7 @@ In the second step, we are opening the workbook inside the Excel Instance.
 $WorkBook = $objExcel.Workbooks.Open("C:\VIDEOSERVER01-BuildSpecs.xlsx")
 ```
 
-![A new Excel Instance is created]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-06-40_PM.png){: loading="lazy" decoding="async"}
+![A new Excel Instance is created]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-06-40_PM.png){: loading="lazy" decoding="async" width="852" height="538"}
 
 We can verify that the workbook is opened using the following line
 
@@ -61,7 +61,7 @@ Then see the properties and methods that can be used
 $objExcel.WorkBooks | Get-Member
 ```
 
-![Get-Member]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-12-14_PM.png){: loading="lazy" decoding="async"}
+![Get-Member]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-12-14_PM.png){: loading="lazy" decoding="async" width="852" height="458"}
 
 In the following example, I hold the data inside the $WorkBook variable.
 
@@ -75,7 +75,7 @@ I then look for any member (property, method, or event) that contains the word "
 $WorkBook | Get-Member -Name *sheet*
 ```
 
-![Get-Member_Sheet]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-22-51_PM.png){: loading="lazy" decoding="async"}
+![Get-Member_Sheet]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-22-51_PM.png){: loading="lazy" decoding="async" width="852" height="570"}
 
 My WorkBook contains 2 worksheets as you can see in the first image of the article, "BuildSpecs" and "Sheet2", PowerShell can retrieve this information using the "sheets" property.
 
@@ -83,7 +83,7 @@ My WorkBook contains 2 worksheets as you can see in the first image of the artic
 $WorkBook.sheets | Select-Object -Property Name
 ```
 
-![Select Name]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-24-02_PM.png){: loading="lazy" decoding="async"}
+![Select Name]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-24-02_PM.png){: loading="lazy" decoding="async" width="837" height="203"}
 
 **WorkSheet layer**
 We select the sheet BuildSpecs and are now able to start working on the data
@@ -92,7 +92,7 @@ We select the sheet BuildSpecs and are now able to start working on the data
 $WorkSheet = $WorkBook.sheets.item("BuildSpecs")
 ```
 
-![BuildSpecs]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-30-11_PM.png){: loading="lazy" decoding="async"}
+![BuildSpecs]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_8-30-11_PM.png){: loading="lazy" decoding="async" width="852" height="298"}
 
 ## Loading and getting the Data
 
@@ -119,7 +119,7 @@ $WorkSheet = $WorkBook.sheets.item($SheetName)
 Let's get the ComputerName value which is `VIDEOSERVER01` is this example.
 If you look at the sheet "<b>BuildSpecs</b>" below, you'll see the ComputerName information in the C3 cell. We can also refer to it using the coordinate-systems: Third column/third row.
 
-![BuildSpecs]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/VIDEOSERVER03__186302990__-691x852.png)
+![BuildSpecs]({{ site.url }}{{ site.baseurl }}/images/2014/20140323_PowerShell_-_Read_an_Excel_file_using_COM_Interface/VIDEOSERVER03__186302990__-691x852.png){: width="691" height="852"}
 
 Different methods are possible to retrieve the information from the sheet, I found the following ones:
 
@@ -158,7 +158,7 @@ $Output = [pscustomobject][ordered]@{
 }
 ```
 
-![BuildSpecs]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_9-14-51_PM.png){: loading="lazy" decoding="async"}
+![BuildSpecs]({{ site.url }}/images/2014/PowerShell_-_Read_an_Excel_file_using_COM_Interface/2014-03-22_9-14-51_PM.png){: loading="lazy" decoding="async" width="852" height="458"}
 
 ## Script example
 

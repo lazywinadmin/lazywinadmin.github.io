@@ -12,7 +12,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="powershell logo" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" /></a>
+ <a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" imageanchor="1" style="clear: left; display: inline !important; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="powershell logo" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/powershell_logo__396363731__-144x109.png" width="144" height="109" /></a>
 Today the <a href="https://devblogs.microsoft.com/powershell/windows-management-framework-5-0-preview-september-2014-is-now-available/" target="_blank">PowerShell Team released a new version of the WMF : v5 September preview</a>, I really like the faster beta cycle !
 
 Having the beta preview already installed (July version), I first open Add/Remove Programs (appwiz.cpl) and start to uninstall this version (KB2969050).
@@ -37,7 +37,7 @@ $dscNamespace = Get-CimInstance -Namespace root\microsoft\windows -Query "select
 $dscNamespace | Remove-CimInstance
 ```
 
-<a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_18-08-18__1005654604__-772x202.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - WMF 5.0 July preview uninstallation fails&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_18-08-18__1005654604__-772x202.png" /></a>
+<a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_18-08-18__1005654604__-772x202.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - WMF 5.0 July preview uninstallation fails&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_18-08-18__1005654604__-772x202.png" width="772" height="202" /></a>
 Once I ran this command, ran the uninstall again and reboot, the update was gone.
 
 <a href="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_19-09-20__983448032__-877x472.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - WMF 5.0 July preview uninstallation fails&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140904_PowerShell_-_WMF_5.0_July_preview_uninstallation_fails/2014-09-04_19-09-20__983448032__-877x472.png" height="344" width="640" /></a>

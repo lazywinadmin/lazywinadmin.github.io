@@ -57,11 +57,11 @@ A NetLogon.log exists on all the Domain Controllers of your domain, so you need 
 
 So I created a PowerShell script to handle this task and report all the Missing subnets automatically (every month in my case). Here is a screenshot of the final report. In my opinion, this does not need to run everyday or every week.
 
-![Email report titled AD Missing Subnets with a table of missing subnets and a list of other errors from the NETLOGON.log]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-15_12-33-20_AM.png){: .align-center}
+![Email report titled AD Missing Subnets with a table of missing subnets and a list of other errors from the NETLOGON.log]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-15_12-33-20_AM.png){: .align-center width="601" height="692"}
 
 ## How the script work
 
-![Diagram of the report workflow: a scheduled task runs PowerShell, which gets the domain controller list, reads each NETLOGON.log, processes the logs, exports the missing subnets to CSV and sends an email report](/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.webp){: .align-center}
+![Diagram of the report workflow: a scheduled task runs PowerShell, which gets the domain controller list, reads each NETLOGON.log, processes the logs, exports the missing subnets to CSV and sends an email report](/images/2013/20131020_PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON.log/AD-Site-Report_missing_subnets__158952238__-1600x1380.webp){: .align-center width="1600" height="1380"}
 
 1. Get the list of Domain Controllers in the Domain using .NET
 1. Get the Last 200 Lines from the NETLOGON.log on each Domain controllers (200 is default)
@@ -75,7 +75,7 @@ So I created a PowerShell script to handle this task and report all the Missing 
 * One table with the Missings Subnets from all the Domain Controllers
 * The other error(s) found in the last 200 lines of each NETLOGON.log on each Domain Controllers(200 is default)
 
-![AD Missing Subnets email report annotated with the missing subnets from all DCs, the domain controller name, and the other errors found for each DC]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-20_9-36-27_PM.png){: .align-center}
+![AD Missing Subnets email report annotated with the missing subnets from all DCs, the domain controller name, and the other errors found for each DC]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-20_9-36-27_PM.png){: .align-center width="509" height="370"}
 
 ## Requirement
 

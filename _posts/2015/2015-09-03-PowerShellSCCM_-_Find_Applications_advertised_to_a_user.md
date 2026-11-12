@@ -103,13 +103,13 @@ This works perfectly inside a Task Sequence during the OSD.
 ## Function in Action
 
 Default Output:
-![Default Output]({{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollectionb__387352672__-718x262.jpg)
+![Default Output]({{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollectionb__387352672__-718x262.jpg){: width="718" height="262"}
 
 
 Using `Select-Object` to only show `TargetName`, `TargetSubname` and `DeploymentIntent`
 You can also filter on the collection name if you just want a specific set of application.
 
-![alt]({{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollection2b__291576827__-718x380.jpg)
+![alt]({{ site.url }}/images/2015/20150903_PowerShellSCCM_-_Find_Applications_advertised_to_a_user/Get-SCCMUserCollection2b__291576827__-718x380.jpg){: width="718" height="380"}
 
 
 ## Download

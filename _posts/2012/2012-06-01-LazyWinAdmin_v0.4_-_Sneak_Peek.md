@@ -37,7 +37,7 @@ And some non-built-in: Psexec, ADExplorer, SYDI-Server.vbs etc...
 <em>
 </em>
 <em>
-</em><a href="{{ site.url }}/images/2012/20120601_LazyWinAdmin_v0.4_-_Sneak_Peek/lazywinadmin-v0.4-003__198888757__-247x182.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="lazywinadmin v0.4 003" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2012/20120601_LazyWinAdmin_v0.4_-_Sneak_Peek/lazywinadmin-v0.4-003__198888757__-247x182.png" /></a>
+</em><a href="{{ site.url }}/images/2012/20120601_LazyWinAdmin_v0.4_-_Sneak_Peek/lazywinadmin-v0.4-003__198888757__-247x182.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="lazywinadmin v0.4 003" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2012/20120601_LazyWinAdmin_v0.4_-_Sneak_Peek/lazywinadmin-v0.4-003__198888757__-247x182.png" width="247" height="182" /></a>
 
 <span style="display: block; text-align: center;"><em>Autocomplete of the ComputerName.</em>
 <em>The script run a Get-Content on a Computers.txt when the form is loading.</em></span>

@@ -32,7 +32,7 @@ Recently I had to parse a bunch of log files for one of my projects, but the dat
 
 As an example, here is one of the log format.
 
-![Notepad showing a log file where each line starts with a timestamp such as 20181002134401 followed by INF](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing01.jpg){: .align-center}
+![Notepad showing a log file where each line starts with a timestamp such as 20181002134401 followed by INF](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing01.jpg){: .align-center width="801" height="278"}
 
 ## Parsing the file using Import-CSV
 
@@ -60,7 +60,7 @@ Date           Type Message
 ```
 
 <!---
-![Import-Csv of the log file with a semicolon delimiter and custom headers, showing the Date column still as the raw 20181002134401 value](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing02.jpg){: .align-center}--->
+![Import-Csv of the log file with a semicolon delimiter and custom headers, showing the Date column still as the raw 20181002134401 value](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing02.jpg){: .align-center width="979" height="288"}--->
 
 ## Problem and Solution
 
@@ -131,4 +131,4 @@ Date                  Type Message
 
 Screenshot in action:
 
-![Import-Csv of the log file piped to Select-Object with a calculated Date property using ParseExact, showing real dates such as 2018-10-02 1:44:01 PM](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing03.jpg){: .align-center}
+![Import-Csv of the log file piped to Select-Object with a calculated Date property using ParseExact, showing real dates such as 2018-10-02 1:44:01 PM](/images/2018/2018-10-13-PowerShellTip-DateTimeParsing/PowerShellTip-DateTimeParsing03.jpg){: .align-center width="979" height="326"}

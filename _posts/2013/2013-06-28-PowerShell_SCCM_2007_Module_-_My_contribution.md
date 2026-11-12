@@ -86,7 +86,7 @@ TotalMilliseconds : 202.6858
 ```
 WOW! This time <b>Only 200 Milliseconds!!</b> Pretty Awesome! Filtering is definitely the way to go! ;-)  
 All I did is really filtering on the `ResourceID` property with `Get-WmiObject`, I don't need to retrieve all the data.
-<a href="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Apps preferences system performance icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" /></a>
+<a href="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Apps preferences system performance icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" width="128" height="128" /></a>
 
 <b>In Powershell you should <u>Always Always Always ALWAYSS</u>try to filter before sending the output to the pipeline, and this apply to all the Cmdlets...</b>
 <b>

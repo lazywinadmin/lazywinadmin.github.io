@@ -49,14 +49,14 @@ Each of those variables value must contain the name of the Application you want 
 
 Now let's focus on PowerShell. Assuming you have following list of application targeted to a user:
 
-<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin DynamicVariableList04" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin DynamicVariableList04" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList04__963896766__-772x438.png" width="772" height="438" /></a>
 
 ## Creating a list of variable with a specific pattern
 
 
 First we need to work on the variable incrementation, this can easily be done with a counter, the list of application and some Composite Formatting.
 
-<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin DynamicVariableList05" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin DynamicVariableList05" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList05__1056007837__-772x698.png" width="772" height="698" /></a>
 
 ```powershell
 # Create a Counter
@@ -86,7 +86,7 @@ The format operator `-f` places the composite formatting with the format item on
 
 This also work with multiple values:
 
-<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin DynamicVariableList06" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" /></a>
+<a href="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="LazyWinAdmin DynamicVariableList06" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150904_PowerShellSCCM_-_Create_a_Dynamic_Variable_list_during_the_task_sequence/LazyWinAdmin-DynamicVariableList06__1911094798__-772x98.png" width="772" height="98" /></a>
 
 ## Creating Variable in the SCCM Task Sequence Environment
 

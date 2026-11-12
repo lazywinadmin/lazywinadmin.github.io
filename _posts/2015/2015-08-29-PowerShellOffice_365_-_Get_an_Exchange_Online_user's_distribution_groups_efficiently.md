@@ -30,7 +30,7 @@ Retrieving the count of Distribution Groups and an User account in Office 365:
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-17-33+PM__333558129__-772x178.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async" width="772" height="178"}]({{ImageUrl}})
 
 
 ## Requirement
@@ -50,7 +50,7 @@ This retrieve all the members of each groups, then narrow down the output to onl
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-43-40+PM__189355782__-772x649.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async" width="772" height="649"}]({{ImageUrl}})
 
 ## Find User's distribution groups with the Filter parameter
 
@@ -69,7 +69,7 @@ Get-DistributionGroup -Filter "Members -like $($user.distinguishedName)"
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/2015-08-25+9-47-27+PM__1159283031__-772x478.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async" width="772" height="478"}]({{ImageUrl}})
 
 
 ## Exchange Cmdlet Server-Side Opath Filtering
@@ -87,13 +87,13 @@ No signs of 'Members' property. If you look at the help of `Get-DistributionGrou
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Get-Member__164818717__-772x458.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async" width="772" height="458"}]({{ImageUrl}})
 
 {% assign ImageText = 'Screenshot from "PowerShell/Office 365 - Get an Exchange Online user’s distribution groups efficiently" (4)' %}
 {% capture ImageUrl %}
 {{ site.url }}/images/2015/20150829_PowerShellOffice_365_-_Get_an_Exchange_Online_user%27s_distribution_groups_efficiently/Get-DistributionGroup_Help_Filterparam__2128617403__-772x378.png
 {% endcapture %}
-[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async"}]({{ImageUrl}})
+[![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async" width="772" height="378"}]({{ImageUrl}})
 
 `Get-Help` on `Get-DistributionGroup` for the `-Filter` Parameter.
 

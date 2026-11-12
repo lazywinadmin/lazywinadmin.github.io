@@ -13,7 +13,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/SCSM_128x128x32__859657984__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/SCSM_128x128x32__109657511__-128x128.png" /></a>
+ <a href="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/SCSM_128x128x32__859657984__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/SCSM_128x128x32__109657511__-128x128.png" width="128" height="128" /></a>
 In the last couple of months, I have been busy on some projects involving System Center Service Manager (SCSM), System Center Orchestrator (SCORCH) and Cireson Portal/Asset Management and I had to script a couple of repetitive tasks using PowerShell.
 
 The following solution allows you to retrieve the parent Work Item of an Activity.
@@ -47,7 +47,7 @@ Here is a PowerShell function that can just do this job for you: `Get-SCSMWorkIt
 # Or just copy the function in your powershell
 ```
 
-<img alt="Get SCSMWorkItemParent01" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent01__1014006979__-774x260.png" />
+<img alt="Get SCSMWorkItemParent01" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent01__1014006979__-774x260.png" width="774" height="260" />
 
 
 
@@ -59,7 +59,7 @@ $RunbookActivity = Get-SCSMobject -Class (Get-SCSMClass -Name Microsoft.SystemCe
 Get-SCSMWorkItemParent -WorkItemObject $RunbookActivity
 ```
 
-<img alt="Get SCSMWorkItemParent02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent02__776952508__-776x362.png" />
+<img alt="Get SCSMWorkItemParent02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent02__776952508__-776x362.png" width="776" height="362" />
 
 
 ## Find the Work Item parent from a GUID
@@ -71,7 +71,7 @@ $RunbookActivity.get_id()
 Get-SCSMWorkItemParent -WorkItemGUID $RunbookActivity.get_id()
 ```
 
-<img alt="Get SCSMWorkItemParent03" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent03__774232314__-773x400.png" />
+<img alt="Get SCSMWorkItemParent03" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160223_PowerShellSCSM_-_Get_the_Work_Item_parent_of_an_Activity/Get-SCSMWorkItemParent03__774232314__-773x400.png" width="773" height="400" />
 
 
 
