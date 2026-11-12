@@ -19,7 +19,7 @@ This event was a bit challenging for me... In the past, I played with Quest Acti
 
 Let's see how I solved it.
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report2__1380945527__-600x261.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="report2" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report2__1380945527__-600x261.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report2__1380945527__-600x261.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="report2" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report2__1380945527__-600x261.png" width="600" height="261" /></a>
 
 
 
@@ -123,7 +123,7 @@ Get-Command *user* -Module ActiveDirectory
 ```
 
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-CommandADUser__1296630472__-675x144.png" width="675" height="144" /></a>
 
 ```powershell
 # Show the standard output of Get-ADUser
@@ -131,14 +131,14 @@ Get-ADUser -filter *
 
 ```
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter__1118658123__-542x374.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADUser Filter" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter__1118658123__-542x374.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter__1118658123__-542x374.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ADUser Filter" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter__1118658123__-542x374.png" width="542" height="374" /></a>
 
 ```powershell
 # Using Get-Member we see that not all the properties are returned
 Get-ADUser -filter * | Get-Member
 ```
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser Filter GetMember" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser Filter GetMember" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_Filter_GetMember__2067354034__-466x356.png" width="466" height="356" /></a>
 
 <span style="background-color: white;"><u>Why are we only seeing a few properties here ? :-/</u>
 
@@ -176,7 +176,7 @@ Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,password
 
 <u>Note about LastLogon, LastLogonTimestamp or LastLogonDate property.</u>
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" width="507" height="98" /></a>
 <a href="https://web.archive.org/web/20131006015929/http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about `LastLogonTimeStamp` and`LastLogon` properties :
 <blockquote class="tr_bq"><i>The reason why most people want to obtain these values is to find out if a user or computer object can be safely deleted. If you want to know when someone logged on to a computer in your network for the exact last time, search for the last logon value. If you want to know when someone last accessed a resource in your network (accessed webmail or one of your file systems etc), search for the last logon timestamp value. <b>If you want to know when someone last used any network resource, search for the most recent of both values.</b></i></blockquote><b style="font-size: x-large;">
 </b><b style="font-size: x-large;">Random User</b>
@@ -190,7 +190,7 @@ Get-ADUser -filter * | Get-Random -Count 5
 ```
 
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/RandomUsers__1738084707__-549x733.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="RandomUsers" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/RandomUsers__1738084707__-549x733.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/RandomUsers__1738084707__-549x733.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="RandomUsers" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/RandomUsers__1738084707__-549x733.png" width="549" height="733" /></a>
 
 <b style="font-size: x-large;">Building the function around the command</b>
 
@@ -199,7 +199,7 @@ I like to build my function that way.
 <span style="font-family: 'Times New Roman';">It got everything I need: Help, BEGIN/PROCESS/BLOCK and Error Handling.
 
 
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function sample" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function sample" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" width="418" height="637" /></a>
 
 ```
 <u style="font-family: 'Times New Roman'; white-space: normal;">Error Handling</u>
@@ -280,7 +280,7 @@ CATCH{
 <b>Final Output</b>
 <b>
 </b>
-<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" /></a><a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="report" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" /></a>
+<a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image from the post &quot;Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure&quot;" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report_cmd__89472155__-372x32.png" width="372" height="32" /></a><a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="report" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/report__1967434758__-604x287.png" width="604" height="287" /></a>
 
 <b>Script</b>
 

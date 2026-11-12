@@ -59,7 +59,7 @@ Function Get-ComputerInformation
 
 It can be used this way:
 
-<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ComputerInformation2" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" /></a>
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Get ComputerInformation2" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation2__928055762__-797x512.png" width="797" height="512" /></a>
 
 Now we can make our function more versatile by including a parameter that accepts different computer names. In the following example I'm adding the parameter `$ComputerName` and some extra code on the WMI queries to pass the machine name.
 
@@ -94,7 +94,7 @@ Function Get-ComputerInformation
 ```
 
 <a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-  <img alt="Get ComputerInformation5" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" />
+  <img alt="Get ComputerInformation5" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" width="810" height="218" />
 </a>
 
 We created a very simple and nice tool that can query different machines by editing the ComputerName parameter. What can we do to make this tool more efficient?
@@ -147,12 +147,12 @@ If you take a look at the parameters available with and without the CmdletBindin
 
 <b>Standard Function</b> (Without `CmdletBinding`)
 
-<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="FunctionParams3" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" /></a>
+<a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="FunctionParams3" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/FunctionParams3__691243369__-637x95.png" width="637" height="95" /></a>
 
 <b>Advanced Function</b> (With `CmdletBinding`)
 
 <a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-  <img alt="AdvancedFunctionParams3" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" />
+  <img alt="AdvancedFunctionParams3" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/AdvancedFunctionParams3__1105038008__-661x353.png" width="661" height="353" />
 </a>
 
 The common parameters are available with any cmdlet and on advanced functions that use the CmdletBinding attribute or the Parameter attribute. They can, for example, help you handle different types of error, warnings or show some programmer-level details about the operation performed.
@@ -225,7 +225,7 @@ In this example, I'm loading a list of machines inside the text file computers.t
 
 
 <a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-  <img alt="Get ComputerInformation8" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" />
+  <img alt="Get ComputerInformation8" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation8__39775431__-822x454.png" width="822" height="454" />
 </a>
 
 

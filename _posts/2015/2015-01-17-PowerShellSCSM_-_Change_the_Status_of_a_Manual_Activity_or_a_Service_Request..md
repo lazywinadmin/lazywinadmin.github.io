@@ -13,7 +13,7 @@ comments: true
 ---
 
 
-<a href="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/SCSM_128x128x32.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/SCSM_128x128x32.png" /></a>Using the PowerShell module <a href="https://github.com/SMLets/SMLets" target="_blank">SMlets</a> you can easily change the Status of a Ticket inside System Center Service Manager.
+<a href="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/SCSM_128x128x32.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/SCSM_128x128x32.png" width="128" height="128" /></a>Using the PowerShell module <a href="https://github.com/SMLets/SMLets" target="_blank">SMlets</a> you can easily change the Status of a Ticket inside System Center Service Manager.
 
 Here are the small bits of code to change the Status of a Manual Activity and a Service Request.
 
@@ -50,7 +50,7 @@ Then you can retrieve the different status available using Get-SCSMEnumeration
 Get-SCSMEnumeration -Name ActivityStatusEnum
 ```
 
-<a href="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_Activity_Status.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="PowerShell SCSM Enumeration Activity Status" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_Activity_Status.png" /></a>
+<a href="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_Activity_Status.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="PowerShell SCSM Enumeration Activity Status" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_Activity_Status.png" width="772" height="338" /></a>
 
 Same thing for the Service Request
 
@@ -59,4 +59,4 @@ Same thing for the Service Request
 Get-SCSMEnumeration -Name ServiceRequestStatusEnum
 ```
 
-<a href="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_ServiceRequest_Status.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="PowerShell SCSM Enumeration ServiceRequest Status" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_ServiceRequest_Status.png" /></a>
+<a href="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_ServiceRequest_Status.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="PowerShell SCSM Enumeration ServiceRequest Status" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2015/PowerShellSCSM_-_Change_the_Status_of_a_Manual_Activity_or_a_Service_Request/PowerShell_SCSM-Enumeration_ServiceRequest_Status.png" width="772" height="338" /></a>

@@ -182,12 +182,12 @@ function Connect-Office365
 
 <b><u>Running the function</u></b>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" /></a>
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-19-49__362315941__-772x106.png" width="772" height="106" /></a>
 
 
 Here the result in action
 
-<a href="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-34-23_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-34-23_PM.png" /></a>
+<a href="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-34-23_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-34-23_PM.png" width="772" height="1002" /></a>
 
 
 
@@ -195,14 +195,14 @@ Here the result in action
 
 <b><u>Adding the function to your PowerShell profile</u></b>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" /></a>
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-13-55__1698217232__-772x122.png" width="772" height="122" /></a>
 
-<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" /></a>
+<a href="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140701_PowerShell_-_Handy_function_to_connect_to_Office365_services/2014-07-01_21-15-05__243530005__-740x458.png" width="740" height="458" /></a>
 The next time you reload your PowerShell, the function`Connect-Office365` will be available to your PowerShell.
 
 Finally we can see two implicit modules created for Lync and Exchange with a sample of cmdlets available. Those cmdlets contains the prefix we defined in the function ExchCloud and LyncCloud.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-40-04_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-40-04_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Implicit remoting modules loaded start by a "tmp". You can see a sample of the Cmdlets available
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-40-04_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell - Handy function to connect to Office365 services&quot; (5)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/PowerShell_-_Handy_function_to_connect_to_Office365_services/7-2-2014_5-40-04_PM.png" width="757" height="571" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Implicit remoting modules loaded start by a "tmp". You can see a sample of the Cmdlets available
 with the prefix we included.</td></tr></tbody></table>
 
 

@@ -51,7 +51,7 @@ However, if you use the Azure Portal, you have the option to upload your module 
 
 This is what you would see in the portal after submitting your file:
 
-![azure automation account upload module in portal](../../images/2020/2020-08-02/azure_automation_account-upload_module_in_portal.png){: loading="lazy" decoding="async"}
+![azure automation account upload module in portal](../../images/2020/2020-08-02/azure_automation_account-upload_module_in_portal.png){: loading="lazy" decoding="async" width="655" height="160"}
 
 ## Uploading a PSModule to a Storage Account with Terraform
 
@@ -65,7 +65,7 @@ I used Terraform to replicate the Azure Portal functionality in the following sc
 
 Here is the whole workflow, including the dependencies.
 
-![azure automation account upload module flow](../../images/2020/2020-08-02/azure_automation_account-upload_module-flow.png){: loading="lazy" decoding="async"}
+![azure automation account upload module flow](../../images/2020/2020-08-02/azure_automation_account-upload_module-flow.png){: loading="lazy" decoding="async" width="584" height="744"}
 
 
 ## azurerm_automation_module Terraform resource
@@ -150,11 +150,11 @@ terraform apply "automation.tfplan"
 
 #### terraform plan
 
-![azure automation account upload module terraform plan2](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_plan2.png){: loading="lazy" decoding="async"}
+![azure automation account upload module terraform plan2](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_plan2.png){: loading="lazy" decoding="async" width="590" height="1262"}
 
 #### terraform apply
 
-![azure automation account upload module terraform apply](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_apply.png){: loading="lazy" decoding="async"}
+![azure automation account upload module terraform apply](../../images/2020/2020-08-02/azure_automation_account-upload_module-terraform_apply.png){: loading="lazy" decoding="async" width="596" height="831"}
 
 
 

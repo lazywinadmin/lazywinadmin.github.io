@@ -27,5 +27,5 @@ Just to name a few people I follow: Ed Wilson (The Scripting Guy),<a class="g-pr
 
 Here is my Microsoft MVP Profile:<a href="http://mvp.microsoft.com/en-us/mvp/Francois-Xavier%20Cat-5000475">http://mvp.microsoft.com/en-us/mvp/Francois-Xavier%20Cat-5000475</a>
 
-<a href="{{ site.url }}/images/2014/20140105_Microsoft_MVP_2014_for_PowerShell_!/MVP_Horizontal_BlueOnly__1743049738__-182x74.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="MVP Horizontal BlueOnly" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140105_Microsoft_MVP_2014_for_PowerShell_!/MVP_Horizontal_BlueOnly__1743049738__-182x74.png" /></a>
+<a href="{{ site.url }}/images/2014/20140105_Microsoft_MVP_2014_for_PowerShell_!/MVP_Horizontal_BlueOnly__1743049738__-182x74.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="MVP Horizontal BlueOnly" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140105_Microsoft_MVP_2014_for_PowerShell_!/MVP_Horizontal_BlueOnly__1743049738__-182x74.png" width="182" height="74" /></a>
 

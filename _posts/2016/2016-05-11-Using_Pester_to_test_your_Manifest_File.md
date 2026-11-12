@@ -114,7 +114,7 @@ Describe "$ModuleName Module - Testing Manifest File (.psd1)"{
 
 Output of the pester tests against a Manifest File
 
-<img alt="Pester Manifest" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/Pester_Manifest__1218784296__-790x248.png" />
+<img alt="Pester Manifest" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160511_Using_Pester_to_test_your_Manifest_File/Pester_Manifest__1218784296__-790x248.png" width="790" height="248" />
 
 
 ## Extra: Generating a Manifest file

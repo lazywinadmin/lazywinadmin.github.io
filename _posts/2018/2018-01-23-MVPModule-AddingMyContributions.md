@@ -84,7 +84,7 @@ Description            : Full day of PowerShell :)
 
 This will create the following entry in the Microsoft MVP portal.
 
-![Microsoft MVP portal Edit community activities form filled in with a conference (organizer) entry](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions01.jpg){: .align-center loading="lazy" decoding="async"}
+![Microsoft MVP portal Edit community activities form filled in with a conference (organizer) entry](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions01.jpg){: .align-center loading="lazy" decoding="async" width="706" height="782"}
 
 Now let's look at the important parameters.
 
@@ -96,11 +96,11 @@ This means that the possible values will show as you type them.
 
 __`ContributionTechnology` parameter in action:__
 
-![New-MVPContribution -ContributionTechnology with an autocomplete list of values such as ARM & DevOps on Azure, ASP.NET/IIS and Azure App Service](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions02.jpg){: .align-center loading="lazy" decoding="async"}
+![New-MVPContribution -ContributionTechnology with an autocomplete list of values such as ARM & DevOps on Azure, ASP.NET/IIS and Azure App Service](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions02.jpg){: .align-center loading="lazy" decoding="async" width="748" height="365"}
 
 __`ContributionType` parameter in action:__
 
-![New-MVPContribution -ContributionType with an autocomplete list of values such as Article, Blog Site Posts and Book (Author)](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions03.jpg){: .align-center loading="lazy" decoding="async"}
+![New-MVPContribution -ContributionType with an autocomplete list of values such as Article, Blog Site Posts and Book (Author)](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions03.jpg){: .align-center loading="lazy" decoding="async" width="623" height="362"}
 
 ### Visibility parameter
 
@@ -119,7 +119,7 @@ Note that your file need to be in CSV format so PowerShell can work with it.
 
 Example of CSV file in Excel:
 
-![sample.csv open in Excel with one contribution per row: start date, title, description, reference URL, quantities, visibility, type and technology](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions04.jpg){: .align-center loading="lazy" decoding="async"}
+![sample.csv open in Excel with one contribution per row: start date, title, description, reference URL, quantities, visibility, type and technology](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions04.jpg){: .align-center loading="lazy" decoding="async" width="1117" height="421"}
 
 Here is the sample that I'm using (You can copy and paste it into notepad and save it as a CSV file. You should then be able to open and edit it in Excel).
 
@@ -143,7 +143,7 @@ We can validate the file load property by using `Import-CSV`
 Import-CSV .\Sample.csv
 ```
 
-![Import-Csv of sample.csv in PowerShell, listing the contributions Test1, Test2 and Test3 as objects](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions05.jpg){: .align-center loading="lazy" decoding="async"}
+![Import-Csv of sample.csv in PowerShell, listing the contributions Test1, Test2 and Test3 as objects](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions05.jpg){: .align-center loading="lazy" decoding="async" width="637" height="729"}
 
 ### Creating the entries
 
@@ -156,8 +156,8 @@ import-csv .\Examples\MultipleEntries.csv | New-MVPContribution
 
 This should give you the following output:
 
-![Import-Csv of sample.csv piped to New-MVPContribution in PowerShell, showing the created contributions with their ContributionId](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions06.jpg){: .align-center loading="lazy" decoding="async"}
+![Import-Csv of sample.csv piped to New-MVPContribution in PowerShell, showing the created contributions with their ContributionId](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions06.jpg){: .align-center loading="lazy" decoding="async" width="795" height="815"}
 
 Here is the result on the Microsoft MVP website:
 
-![Microsoft MVP portal Edit community activities list showing the new Blog Site Posts entries for PowerShell, Test2 to Test10](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions07.jpg){: .align-center loading="lazy" decoding="async"}
+![Microsoft MVP portal Edit community activities list showing the new Blog Site Posts entries for PowerShell, Test2 to Test10](/images/2018/2018-01-23-MVPModule-AddingMyContributions/MVP-AddContributions07.jpg){: .align-center loading="lazy" decoding="async" width="696" height="630"}

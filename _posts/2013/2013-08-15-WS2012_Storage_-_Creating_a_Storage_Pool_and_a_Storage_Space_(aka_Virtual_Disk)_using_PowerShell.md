@@ -73,7 +73,7 @@ There are two primary types of pools which are used in conjunction with Storage 
 
 ### <span style="font-size: x-large;">Storage Virtualization Concept
 
-<div markdown="1" class="separator" style="clear: both; text-align: left;">This diagram from Yung Chou shows nicely how the different parts of Windows Server 2012 Storage work together.<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/8738.image_2_1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/8738.image_2_1.png" /></a></div>
+<div markdown="1" class="separator" style="clear: both; text-align: left;">This diagram from Yung Chou shows nicely how the different parts of Windows Server 2012 Storage work together.<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/8738.image_2_1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/8738.image_2_1.png" width="640" height="357" /></a></div>
 
 
 ### <span style="font-size: x-large;">Deployment Model of a Storage Space (Virtual Disk)
@@ -206,14 +206,14 @@ Update-StorageProviderCache
 
 The first thing we will need is to identify which physical disk I will be using for my Storage Pool(s).
 
-<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" /></a>
+<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" width="332" height="140" /></a>
 
 In the example below, I'm using the Get-PhysicalDisk cmdlet to list all of the Physical Disks that are present on the system:
 ```
 Get-PhysicalDisk -CanPool $true
 ```
 
-<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_10-52-28_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 7 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_10-52-28_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_10-52-28_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 7 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_10-52-28_PM.png" width="640" height="121" /></a>
 
 ### <span style="font-size: x-large;">Creating the Storage Pool
 
@@ -221,7 +221,7 @@ Get-PhysicalDisk -CanPool $true
 
 In the example below I use <a href="http://technet.microsoft.com/en-us/library/hh848689.aspx" target="_blank">New-StoragePool</a> Cmdlet to show the creation of a Storage Pool named "LUN-1TB", using all of the Physical Disks which are currently available for pooling.
 
-<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" /></a>
+<a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" width="332" height="140" /></a>
 
 ```
 New-StoragePool -FriendlyName "LUN-1TB" `
@@ -229,7 +229,7 @@ New-StoragePool -FriendlyName "LUN-1TB" `
 -PhysicalDisks (Get-PhysicalDisk -CanPool $true)
 ```
 
-<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-29-26_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 9 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-29-26_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-29-26_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 9 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-29-26_PM.png" width="640" height="303" /></a>
 
 ### <span style="font-size: x-large;">Creating the Virtual Disk (aka LUN/Storage Space)
 
@@ -262,10 +262,10 @@ New-VirtualDisk -FriendlyName "Datastore01" `
 ```
 
 
-<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-38-08_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 10 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-38-08_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-38-08_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 10 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-38-08_PM.png" width="640" height="121" /></a>
 <div markdown="1" class="separator" style="clear: both; text-align: left;"><span style="background-color: yellow;">Another example using <b>-UseMaximumSize</b><div markdown="1" class="separator" style="clear: both; text-align: left;">
 <div markdown="1" class="separator" style="clear: both; text-align: left;">New-VirtualDisk -FriendlyName "Datastore01" `<div markdown="1" class="separator" style="clear: both; text-align: left;">-StoragePoolFriendlyName "LUN-1TB" -UseMaximumSize `<div markdown="1" class="separator" style="clear: both; text-align: left;">-ProvisioningType Thin -ResiliencySettingName Mirror<div markdown="1" class="separator" style="clear: both; text-align: left;">
-<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-41-33_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 11 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-41-33_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-41-33_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 11 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-41-33_PM.png" width="639" height="43" /></a>
 
 ### <span style="font-size: x-large;">Initializing the Virtual Disk
 
@@ -281,13 +281,13 @@ Get-VirtualDisk -FriendlyName "Datastore01" | Get-Disk
 ```
 
 ### 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-45-04_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" alt="Image 12 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-45-04_PM.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">As you can see my virtual disk has the Number 5</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-45-04_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" alt="Image 12 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-45-04_PM.png" width="640" height="236" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">As you can see my virtual disk has the Number 5</td></tr></tbody></table>
 
 
 The next step is to use the `Initialize-Disk` cmdlet to initialize the disk:
 In the preceding example, we determined that the disk we need to initialize is disk number 5, so I would use the `Initialize-Disk` cmdlet as shown below:
 
-<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-51-24_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 13 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-51-24_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-51-24_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 13 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-51-24_PM.png" width="638" height="130" /></a>
 <div markdown="1" class="separator" style="clear: both; text-align: left;">
 
 ### <span style="font-size: x-large;">Partitioningand Formating
@@ -305,7 +305,7 @@ New-Partition -DiskNumber 5 -UseMaximumSize -AssignDriveLetter
 Format-Volume -DriveLetter D -FileSystem NTFS -NewFileSystemLabel "DataStore01"
 ```
 <div markdown="1" class="separator" style="clear: both; text-align: left;">
-<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-58-15_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 14 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-58-15_PM.png" /></a>
+<a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-58-15_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 14 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-58-15_PM.png" width="639" height="381" /></a>
 
 And you done...
 Where to go from here ? Check out my previous storage posts:

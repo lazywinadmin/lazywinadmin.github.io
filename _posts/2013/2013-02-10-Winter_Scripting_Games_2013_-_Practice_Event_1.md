@@ -12,7 +12,7 @@ published: true
 comments: true
 ---
 
-![The Scripting Games logo: a PowerShell icon inside a laurel wreath](/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/PowerShell-Scripting-Games-Logo__1155158921__-171x200.png){: .align-left}
+![The Scripting Games logo: a PowerShell icon inside a laurel wreath](/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/PowerShell-Scripting-Games-Logo__1155158921__-171x200.png){: .align-left width="171" height="200"}
 The Winter Scripting Games 2013 started last week with the first practice event.
 
 Unfortunately for me, I was not able to post my script on time. The first Practice event was due on the Tuesday, 5th of February... 11:59 PM GMT! I assume I had until midnight my time..... (My timezone is East GMT-5) 😆
@@ -133,7 +133,7 @@ END {# Cleanup
 ## Using the function
 
 By default, if you do not specify a computername, the function will query the localhost: $env:computername
-![PowerShell window running Get-DiskSizeInfo, showing the drive, computer name, free space, percent free and size for C:](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-01__1207834562__-485x284.png){: loading="lazy" decoding="async"}
+![PowerShell window running Get-DiskSizeInfo, showing the drive, computer name, free space, percent free and size for C:](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-01__1207834562__-485x284.png){: loading="lazy" decoding="async" width="485" height="284"}
 {: .full}
 
 ### Getting some Help
@@ -145,7 +145,7 @@ Get-Help Get-DiskSizeInfo -Full
 The Function's help has been wrote between the <b>lines 2 and 39</b>.
 More information on technet: <a href="http://technet.microsoft.com/library/hh847834.aspx" target="_blank">about_Comment_Based_Help</a>
 
-![Get-Help output for the Get-DiskSizeInfo function in a PowerShell window](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-02__757978919__-685x1040.png){: loading="lazy" decoding="async"}
+![Get-Help output for the Get-DiskSizeInfo function in a PowerShell window](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-02__757978919__-685x1040.png){: loading="lazy" decoding="async" width="685" height="1040"}
 {: .full}
 
 ### Use the Verbose switch
@@ -154,7 +154,7 @@ More information on technet: <a href="http://technet.microsoft.com/library/hh847
 Get-DiskSizeInfo -ComputerName XAVIER -Verbose
 ```
 
-![PowerShell window running Get-DiskSizeInfo -ComputerName Xavier -Verbose, with three verbose messages above the disk information](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-03__1499822209__-613x326.png){: loading="lazy" decoding="async"}
+![PowerShell window running Get-DiskSizeInfo -ComputerName Xavier -Verbose, with three verbose messages above the disk information](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-03__1499822209__-613x326.png){: loading="lazy" decoding="async" width="613" height="326"}
 {: .full}
 
 The verbose switch is available since we use the `[CmdletBinding()]` at the line 41.

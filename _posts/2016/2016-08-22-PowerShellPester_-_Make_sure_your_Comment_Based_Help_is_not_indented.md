@@ -26,11 +26,11 @@ My goal is just to keep my code clean and enforce the same practice across all t
 
 Here for example, <b>I don't want this</b>:
 
-<img alt="PowerShellPester Indented commentbasedhelp01" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp01__2057622999__-511x384.png" />
+<img alt="PowerShellPester Indented commentbasedhelp01" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp01__2057622999__-511x384.png" width="511" height="384" />
 
 Instead, <b>I want all the comment based help in that format</b>
 
-<img alt="PowerShellPester Indented commentbasedhelp02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp02__99513925__-475x378.png" />
+<img alt="PowerShellPester Indented commentbasedhelp02" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp02__99513925__-475x378.png" width="475" height="378" />
 
 (Help keywords directly at the beginning of the line)
 
@@ -109,7 +109,7 @@ $FunctionContent -split '\r\n' | select-string $Pattern
 line -match "^$Pattern" | Should Be $true
 ```
 
-<img alt="PowerShellPester Indented commentbasedhelp03" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp03__40354873__-834x329.png"/>
+<img alt="PowerShellPester Indented commentbasedhelp03" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160822_PowerShellPester_-_Make_sure_your_Comment_Based_Help_is_not_indented/PowerShellPester-Indented_commentbasedhelp03__40354873__-834x329.png" width="834" height="329"/>
 
 ## Related posts
 

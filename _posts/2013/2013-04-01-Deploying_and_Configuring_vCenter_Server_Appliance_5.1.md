@@ -54,7 +54,7 @@ More information :
 The following procedure will cover a basic/generic install of VMware vCenter Server Appliance. This is to be used as a template, in lab or POC only.
 1 - Open your <i>VMware vSphere Client</i> and Navigate to <b>File</b>/<b>Deploy OVF Template</b>.<b>
 </b>
-<a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-00__218845055__-332x312.png" imageanchor="1"><img alt="Image from the post &quot;Deploying and Configuring vCenter Server Appliance 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-00__218845055__-332x312.png" /></a>
+<a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-00__218845055__-332x312.png" imageanchor="1"><img alt="Image from the post &quot;Deploying and Configuring vCenter Server Appliance 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-00__218845055__-332x312.png" width="332" height="312" /></a>
 
 2 - <b>Browse</b> to the location of the vCenter Server Appliance .ovf file and click<b>Open</b>. Click <b>Next.</b>
 <a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-01__1263012603__-744x708.png" imageanchor="1"><img alt="Image from the post &quot;Deploying and Configuring vCenter Server Appliance 5.1&quot;" loading="lazy" decoding="async" border="0" height="608" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-01__311931524__-640x609.png" width="640" /></a>
@@ -70,7 +70,7 @@ The following procedure will cover a basic/generic install of VMware vCenter Ser
 <a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-07__440349423__-744x708.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;Deploying and Configuring vCenter Server Appliance 5.1&quot;" loading="lazy" decoding="async" border="0" height="608" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-07__1618633564__-640x609.png" width="640" /></a>
 
 8 - The deployment of the appliance should only take a couple of minutes...
-<a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-08__348755158__-409x210.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;Deploying and Configuring vCenter Server Appliance 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-08__348755158__-409x210.png" /></a>
+<a href="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-08__348755158__-409x210.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;Deploying and Configuring vCenter Server Appliance 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130401_Deploying_and_Configuring_vCenter_Server_Appliance_5.1/vCSA-08__348755158__-409x210.png" width="409" height="210" /></a>
 <b><span style="font-size: x-large;">Configuring vCenter Server Appliance (vCSA)</span></b>
 
 1 - After Starting the vCenter Appliance VM you will get to the following screen.

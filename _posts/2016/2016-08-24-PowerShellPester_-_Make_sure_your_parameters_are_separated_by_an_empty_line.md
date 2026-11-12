@@ -24,11 +24,11 @@ This will help bring clarity to my code and make it easier to read for other peo
 ## Example
 Here is an example,<b>I don't want this</b>:
 <center>
-<img alt="PowerShellPester EmptyLine between parameter01" loading="lazy" decoding="async" border="0" height="153" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter01__1521695242__-549x212.png"/></center>
+<img alt="PowerShellPester EmptyLine between parameter01" loading="lazy" decoding="async" border="0" height="153" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter01__1521695242__-549x212.png" width="396"/></center>
 
 Instead,<b>I want all the comment based help in that format</b> (with an empty line between each parameters)
 <center>
-<img alt="PowerShellPester EmptyLine between parameter02" loading="lazy" decoding="async" border="0" height="165" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter02__2044538152__-547x227.png"/></center>
+<img alt="PowerShellPester EmptyLine between parameter02" loading="lazy" decoding="async" border="0" height="165" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter02__2044538152__-547x227.png" width="398"/></center>
 
 ## Code
 
@@ -111,7 +111,7 @@ $ParamTextSeparator = $ParamText | select-string ',$'
 $ParamText[$ParamLine] -match '^$|\s+' | Should Be $true
 ```
 
-<img alt="PowerShellPester EmptyLine between parameter03" loading="lazy" decoding="async" border="0" height="157" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter03__1644746112__-834x329.png"/>
+<img alt="PowerShellPester EmptyLine between parameter03" loading="lazy" decoding="async" border="0" height="157" src="{{ site.url }}/images/2016/20160824_PowerShellPester_-_Make_sure_your_parameters_are_separated_by_an_empty_line/PowerShellPester_EmptyLine_between_parameter03__1644746112__-834x329.png" width="398"/>
 
 ## Related posts
 

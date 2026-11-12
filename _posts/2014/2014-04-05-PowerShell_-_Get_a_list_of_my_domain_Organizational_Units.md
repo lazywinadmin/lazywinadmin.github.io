@@ -15,7 +15,7 @@ toc_label: "Table of Content"
 classes: wide
 ---
 
-<a href="{{ site.url }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="1396679449 active directory" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" /></a>Quick post, last week my coworker <a href="http://www.virtualizemydc.ca/" target="_blank">Andrey</a> needed to list all the Organization Units in the domain by Canonical Name. I thought sharing the PowerShell One-Liner magic could save time to some people out there.
+<a href="{{ site.url }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="1396679449 active directory" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/1396679449_active_directory__771843079__-128x128.png" width="128" height="128" /></a>Quick post, last week my coworker <a href="http://www.virtualizemydc.ca/" target="_blank">Andrey</a> needed to list all the Organization Units in the domain by Canonical Name. I thought sharing the PowerShell One-Liner magic could save time to some people out there.
 
 In the following examples two methods to retrieve the information using<b>Active Directory</b> and <b>ADSI/NET</b>.
 
@@ -42,7 +42,7 @@ Import-Module -Name ActiveDirectory
 Get-Command -Module ActiveDirectory -Name *OrganizationalUnit*
 ```
 
-![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png)
+![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png){: width="691" height="426"}
 
 ### Get-ADOrganizationalUnit
 
@@ -148,7 +148,7 @@ The `Get-ADObject` cmdlet gets an Active Directory object or performs a search t
 Get-ADObject -Filter { ObjectClass -eq 'organizationalunit' }
 ```
 
-![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_22-45-52__806703649__-692x442.png)
+![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_22-45-52__806703649__-692x442.png){: width="692" height="442"}
 
 ```powershell
 # Get Organizational Unit objects
@@ -188,4 +188,4 @@ $info.PropertiesToLoad.AddRange("CanonicalName")
 $info.findall().properties.canonicalname
 ```
 
-![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-05_0-01-25__875077715__-692x346.png)
+![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-05_0-01-25__875077715__-692x346.png){: width="692" height="346"}

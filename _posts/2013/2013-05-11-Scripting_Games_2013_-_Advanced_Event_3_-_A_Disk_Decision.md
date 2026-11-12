@@ -84,7 +84,7 @@ Actually, while writing this post I wassurprised to see that using the Property 
 
 ```
 
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_Measure__587114782__-680x99.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Win32 logicalDisk Measure" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_Measure__587114782__-680x99.png" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_Measure__587114782__-680x99.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Win32 logicalDisk Measure" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Win32_logicalDisk_Measure__587114782__-680x99.png" width="680" height="99" /></a>
 
 
 <b>Connecting to the Remote Computers</b>
@@ -195,14 +195,14 @@ Here again we use Splatting to specify our ConvertTo-Html parameters. Note that 
 <b>Testing the function</b>
 
 Against a Windows Server 2000 and a fake server (to verify errorhandling)
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Test W2000" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Test W2000" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2000__2146064434__-679x224.png" width="679" height="224" /></a>
 With a Windows Server 2012 (WsMan Enabled)
 <a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2012__591643752__-622x171.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Test W2012" border="0" height="174" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/Test-W2012__1672090311__-622x171.png" width="640" /></a>
 
 
 <b>Final Report</b>
 
-<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="report" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" /></a>
+<a href="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="report" border="0" src="{{ site.url }}/images/2013/20130511_Scripting_Games_2013_-_Advanced_Event_3_-_A_Disk_Decision/report__1930977008__-556x350.png" width="556" height="350" /></a>
 
 Script
 

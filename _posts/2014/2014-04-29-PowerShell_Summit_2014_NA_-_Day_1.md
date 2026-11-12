@@ -12,7 +12,7 @@ comments: true
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="logo" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" /></a>The PowerShell Summit 2014 North America kicked off this morning ! What a day! The organizers really did an Awesome Work!! Great Summit so far! This event is a great opportunity to meet old friends, make some new ones and put faces on names.
+ <a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="logo" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Day_1/20140428101820-logo__1351838845__-200x200.png" width="200" height="200" /></a>The PowerShell Summit 2014 North America kicked off this morning ! What a day! The organizers really did an Awesome Work!! Great Summit so far! This event is a great opportunity to meet old friends, make some new ones and put faces on names.
 
 I also took this opportunity to bring a couple of PowerShell books, and get them signed by authors (a lot of them are at the summit).
 

@@ -172,6 +172,6 @@ Finally, I want to introduce the team I will work with for the Winter Scripting 
 
 As you can see we are almost all on a different TimeZones, so this will probably very challenging, but I'm sure we'll have some great fun :-) 
 
-<a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SG Join The Fun and Compete" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" /></a>
+<a href="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SG Join The Fun and Compete" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140116_Winter_Scripting_Games_2014/SG_Join-The-Fun-and-Compete__2062551088__-144x144.png" width="144" height="144" /></a>
 
 

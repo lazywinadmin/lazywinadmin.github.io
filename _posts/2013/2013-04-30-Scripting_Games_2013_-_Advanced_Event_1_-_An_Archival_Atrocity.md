@@ -52,7 +52,7 @@ You want to ensure that any errors that happen during the move are clearly displ
 VOTE<b> :-)</b><u><b></b></u>
 Anybody can vote even if you do not participate to the Scripting Games<u><b>
 </b></u>
-<img alt="vote" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/vote__1420710892__-120x116.png" />
+<img alt="vote" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130430_Scripting_Games_2013_-_Advanced_Event_1_-_An_Archival_Atrocity/vote__1420710892__-120x116.png" width="120" height="116" />
 
 
 

@@ -94,6 +94,6 @@ Set-WFDataGridView -DataGridView $datagridview1 -HideColumnHeader
 ```
 
 
-<a href="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DataGridView RawHeader2" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" /></a>
+<a href="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="DataGridView RawHeader2" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2016/20160728_PowerShellWinForms_-_Row_Header/DataGridView_RawHeader2__109809389__-301x308.jpg" width="301" height="308" /></a>
 
 <b><u><a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_RowHeader" target="_blank">Download this example</a></u></b>

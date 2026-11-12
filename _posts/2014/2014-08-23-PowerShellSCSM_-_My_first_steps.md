@@ -13,7 +13,7 @@ tldr: "First steps managing System Center Service Manager 2012 R2 with the SMLet
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" /></a>I recently started to work with<a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">System Center Service Manager 2012 R2</a>(also known as SCSM) which provides provides an integrated platform for automating and adapting an organization's IT service management best practices, such as those found in Microsoft Operations Framework (MOF) and Information Technology Infrastructure Library (ITIL). It provides built-in processes for incident and problem resolution, change control, and asset lifecycle management.
+ <a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" width="128" height="128" /></a>I recently started to work with<a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">System Center Service Manager 2012 R2</a>(also known as SCSM) which provides provides an integrated platform for automating and adapting an organization's IT service management best practices, such as those found in Microsoft Operations Framework (MOF) and Information Technology Infrastructure Library (ITIL). It provides built-in processes for incident and problem resolution, change control, and asset lifecycle management.
 
 
 
@@ -40,7 +40,7 @@ Before I start exploring some of the commands, I just wanted to point-out a very
 # Get List of all Service Request
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 ```
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B9-52-29%2BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell/SCSM - My first steps&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B9-52-29%2BPM__226504487__-772x778.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B9-52-29%2BPM__226504487__-772x778.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell/SCSM - My first steps&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/8-22-2014%2B9-52-29%2BPM__226504487__-772x778.png" width="772" height="778" /></a>
 <span style="font-size: x-large;">
 <span style="font-size: x-large;">Get the Service Requests<u>created in the last 2 days</u>
 
@@ -50,7 +50,7 @@ Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$) -Filter "LastModified -gt $((Get-Date).Adddays(-2))"
 ```
 
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SCSM SR Last two days" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SCSM SR Last two days" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_Last_two_days__451193997__-772x438.png" width="772" height="438" /></a>
 
 <span style="font-size: x-large;">Get the Service Requests <u>created in the last 2 days</u> with a status: <b>In Progress</b>
 
@@ -67,7 +67,7 @@ $TwoDaysAgo = $((Get-Date).Adddays(-2))
 Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified > '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'"
 ```
 
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SCSM SR InProgress Modified in the last two days" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SCSM SR InProgress Modified in the last two days" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_SR_InProgress_Modified_in_the_last_two_days__876218575__-772x338.png" width="772" height="338" /></a>
 
 
 <span style="font-size: x-large;">Get related object(s) of the Service Request
@@ -80,7 +80,7 @@ $SRTicket = Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified > '
 Get-SCSMRelatedObject -SMObject $SRTicket
 ```
 
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelatedObject" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelatedObject" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelatedObject__1223324536__-772x258.png" width="772" height="258" /></a>
 <span style="font-size: x-large;">
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s)<span style="font-size: x-large;">of the Service Request
 
@@ -90,7 +90,7 @@ Get-SCSMRelatedObject -SMObject $SRTicket
 Get-SCSMRelationshipObject -BySource $SRTicket
 ```
 
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject__80731515__-757x703.png" width="757" height="703" /></a>
 
 
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) TargetObject and RelationshipID<span style="font-size: x-large;">of the Service Request
@@ -103,7 +103,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket |
 ```
 
 For the next step we will re-use the Active Directory Object type (ID:d96c8b59-8554-6e77-0aa7-f51448868b43)
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject targetobj relationID" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject targetobj relationID" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_targetobj_relationID__1573650665__-772x458.png" width="772" height="458" /></a>
 
 
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) and filter on Active Directory objects
@@ -115,7 +115,7 @@ Those elements are queried to the CMDB of SCSM, not to ActiveDirectory.
 Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c8b59-8554-6e77-0aa7-f51448868b43'"
 ```
 
-<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject filter AD Obj" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" /></a>
+<a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject filter AD Obj" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SR_RelationShipObject_filter_AD_Obj__352979738__-772x498.png" width="772" height="498" /></a>
 
 
 ## Resources
