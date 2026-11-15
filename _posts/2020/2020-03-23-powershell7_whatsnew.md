@@ -30,6 +30,11 @@ classes: wide
 {% endcapture %}
 {{mynote}}{: .notice--info}
 
+{% capture myupdate%}
+**Update 2026/11:** PowerShell 7.0 LTS has been out of support since December 2022, and support for 7.4 LTS and 7.5 ended on 10 November 2026. The current LTS release is 7.6, built on .NET 10 and supported until 14 November 2028; 7.7.0, built on .NET 11, was released on 10 November 2026 and is the latest stable version. See the [PowerShell support lifecycle](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) and the [install documentation](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell).
+{% endcapture %}
+{{myupdate}}{: .notice--info}
+
 
 Last week I gave a [presentation on "PowerShell 7 - What's new ?"](https://www.youtube.com/watch?v=nqb6s0PYfM0) at the French PowerShell User Group.
 
