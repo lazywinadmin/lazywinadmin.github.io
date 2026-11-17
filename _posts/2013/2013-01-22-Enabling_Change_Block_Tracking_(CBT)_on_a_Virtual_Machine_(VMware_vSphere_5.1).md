@@ -58,7 +58,7 @@ Click on <b><u>Configuration Parameters</u></b> and add the following entries</t
 You can do the following even if your VM is Powered ON.
 
 
-```
+```powershell
 # Check and Add the PowerCli Snaping if not already present
 if(-not(Get-PSSnapin -Registered -Name "VMware.VimAutomation.Core"){
     Add-PSSnapin -Name VMware.VimAutomation.Core}
@@ -89,7 +89,7 @@ CBT is now enabled on this VM.
 <b>How to Check if CBT is enabled on your VM (PowerShell/PowerCli)</b>
 
 
-```
+```powershell
 # Check if your VM has (Change Block Tracking) enabled or not
 (Get-VM -Name TESTSERVER04).ExtensionData.Config.ChangeTrackingEnabled
 
@@ -97,18 +97,6 @@ CBT is now enabled on this VM.
 Get-VM| Where-Object{$_.ExtensionData.Config.ChangeTrackingEnabled -eq $true}
 ```
 
-```
 
 
-```
-
-```
-
-
-```
-
-```
-
-
-```
 

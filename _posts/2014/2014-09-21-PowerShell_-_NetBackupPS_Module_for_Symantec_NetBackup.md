@@ -42,16 +42,16 @@ I also push my last updates to a<a href="https://github.com/lazywinadmin/NetBack
 After <a href="https://github.com/lazywinadmin/NetBackupPS/releases/latest" target="_blank">downloading the last version from the repo</a>, unblock and extract the zip in the modules directory, most likely one of those directories:
 
 
-```
+```powershell
 $home\Documents\WindowsPowerShell\Modules
 ```
 
-```
+```powershell
 $pshome\Modules
 ```
 
 Then load your module:
-```
+```powershell
 Import-Module -Name NetBackupPS
 ```
 
@@ -67,7 +67,7 @@ As an example, here is the help from Get-NetBackupVolume which retrieve volumes 
 ### Get-NetBackupVolume
 
 
-```
+```powershell
 NAME
     Get-NetBackupVolume
 

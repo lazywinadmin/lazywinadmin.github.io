@@ -85,7 +85,7 @@ If I do the following:
 
 This can be solved by adding the property State anyway with a whitespace Regex Metacharacter<b>\s</b>
 
-```
+```text
   {Protocol*:UDP}    {LocalAddress:0.0.0.0:443}            {ForeignAddress:*:*}{State:\s}
 ```
 
@@ -100,7 +100,7 @@ IPV4,IPV6, with and without local/foreign ports and some without State property.
 You have to identity those possible case in your template so the cmdlet knows what do we each cases.
 
 
-```
+```text
   TCP    0.0.0.0:49164          0.0.0.0:0              LISTENING
   TCP    192.168.1.51:54331     74.125.228.42:80       ESTABLISHED
   TCP    [::]:135               [::]:0                 LISTENING
@@ -117,7 +117,7 @@ You have to identity those possible case in your template so the cmdlet knows wh
 Given all the previous elements, here is the TemplateFile:
 
 
-```
+```text
   {Protocol*:TCP}    {LocalAddress:0.0.0.0:49164}          {ForeignAddress:0.0.0.0:0}              {State:LISTENING}
   {Protocol*:TCP}    {LocalAddress:192.168.1.51:54331}     {ForeignAddress:74.125.228.42:80}       {State:ESTABLISHED}
   {Protocol*:TCP}    {LocalAddress:[::]:135}               {ForeignAddress:[::]:0}                 {State:LISTENING}

@@ -143,7 +143,7 @@ Small list of the interesting blog articles/documentations I found.
 <b style="font-size: x-large;">Script</b>
 
 
-```
+```powershell
 function Get-IISLogClientIPAddress {
 <#
 .SYNOPSIS

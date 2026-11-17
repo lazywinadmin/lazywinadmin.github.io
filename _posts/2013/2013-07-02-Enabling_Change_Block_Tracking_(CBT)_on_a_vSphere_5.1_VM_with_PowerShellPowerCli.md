@@ -77,7 +77,7 @@ Obviously you will need VMware PowerCli ; Here I used PowerCli version 5.1 with 
 Here is the small piece of the script that actually does the change (download the full script a bit below)
 
 
-```
+```powershell
 PROCESS{
     TRY{
         foreach ($item in $vm){

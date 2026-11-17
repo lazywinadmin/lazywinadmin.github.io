@@ -23,11 +23,11 @@ Something like this:`VMWARE-<Category>-<Explicit Title>`
 
 First, we start by listing the directories which contain "ESX"
 
-```
+```powershell
 PS C:\LazyWinAdmin\POSH> Get-ChildItem -Path *ESX* -Directory
 ```
 
-```
+```text
     Directory: C:\LazyWinAdmin\POSH
 
 
@@ -47,7 +47,7 @@ da---        2013-10-22   9:04 PM            FUNCT-ESX-VM-Enable-CopyPaste
 
 We take a look at the Help of Rename-Item using ShowWindow, just to make sure we type the right parameters.
 
-```
+```powershell
 PS C:\LazyWinAdmin\POSH> Get-Help -Name Rename-Item -ShowWindow
 ```
 
@@ -55,13 +55,13 @@ PS C:\LazyWinAdmin\POSH> Get-Help -Name Rename-Item -ShowWindow
 We will need to use the<b>Path</b>and the<b>NewName</b>parameters to specify the <b>current name</b>(path) and the <b>new name</b>. I end up with the following line, let's try it using WhatIf switch
 
 
-```
+```powershell
 PS C:\LazyWinAdmin\POSH> Get-ChildItem -Path *ESX* -Directory | ForEach-Object -Process {Rename-item -Path $_.Name -NewName ($_.name -replace "ESX","VMWARE") -WhatIf}
 ```
 This line can be translated to: Get me all the folder that contains
 
 
-```
+```powershell
 What if: Performing the operation "Rename Directory" on target "Item: C:\LazyWinAdmin\POSH\ESX-DATAS
 TORE-MultiPathing_Enforce Destination: C:\LazyWinAdmin\POSH\VMWARE-DATASTORE-MultiPathing_Enforce".
 What if: Performing the operation "Rename Directory" on target "Item: C:\LazyWinAdmin\POSH\ESX-HOST-
@@ -85,12 +85,12 @@ What if: Performing the operation "Rename Directory" on target "Item: C:\LazyWin
 Looks Good to me :-) ! let's try using Verbose!
 
 
-```
+```powershell
 PS C:\LazyWinAdmin\POSH> Get-ChildItem -Path *ESX* -Directory | ForEach-Object -Process {Rename-item
 -Path $_.Name -NewName ($_.name -replace "ESX","VMWARE") -Verbose}
 ```
 
-```
+```text
 VERBOSE: Performing the operation "Rename Directory" on target "Item:
 C:\LazyWinAdmin\POSH\ESX-DATASTORE-MultiPathing_Enforce Destination:
 C:\LazyWinAdmin\POSH\VMWARE-DATASTORE-MultiPathing_Enforce".

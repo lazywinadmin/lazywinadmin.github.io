@@ -122,7 +122,7 @@ Select a button and do one of the following action to add the powershell code :
 
 
 
-```
+```powershell
 $buttonClear_Click={
     # Clear the RichTextBox Control
     $richtextbox1.Clear()

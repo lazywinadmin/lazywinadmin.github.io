@@ -31,7 +31,7 @@ comments: true
 
 <div style="background-color: white;"><b><u>My Script</u></b></div>
 
-```
+```powershell
 # NAME  : Get-ComputerInventory
 # AUTHOR: Francois-Xavier Cat
 # DATE  : 2013/02/10

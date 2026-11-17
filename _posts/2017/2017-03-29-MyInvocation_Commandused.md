@@ -36,12 +36,12 @@ $myinvocation.line
 ```
 
 If you execute the script using the following line:
-```
+```powershell
 .\MyInvocation.ps1 -A test -B test
 ```
 
 It will output the following
-```
+```powershell
 .\MyInvocation.ps1 -A test -B test
 ```
 
@@ -63,12 +63,12 @@ $PSCmdlet.myinvocation.line
 ```
 
 If I invoke the script using:
-```
+```powershell
 .\MyInvocation.ps1 -C test -B test
 ```
 
 I will get the following output:
-```
+```powershell
 .\MyInvocation.ps1 -C test -B test
 ```
 

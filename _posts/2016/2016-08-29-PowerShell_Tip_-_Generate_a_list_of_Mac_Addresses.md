@@ -81,7 +81,7 @@ I used the following method to generate my list of mac addresses.
 
 <u><b>Output: </b></u>
 
-```
+```text
 ComputerNumber     ComputerMacAddress
 --------------     ------------------
 TestFakeDevice0001 00-00-00-00-00-00

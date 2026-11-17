@@ -35,12 +35,12 @@ OneGet is a new way to discover and install software packages from around the we
 ## Cmdlets
 
 Here is a list of the Cmdlets coming with this new module
-```
+```powershell
 Get-Command -Module OneGet
 ```
 
 
-```
+```powershell
 CommandType     Name                                               Source
 -----------     ----                                               ------
 Cmdlet          Add-PackageSource                                  OneGet
@@ -122,12 +122,12 @@ We first search for the package
 
 
 
-```
+```powershell
 # We first query our provider for a package called putty
 Find-Package -Name putty | fl *
 ```
 
-```
+```powershell
 # Then we install the package
 Find-Package -Name putty | Install-Package -Verbose
 ```
@@ -140,7 +140,7 @@ The file are download and unzipped inC:\Chocolatey\lib directory by default.
 
 <a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-35__684587052__-256x171.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 10 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-35__684587052__-256x171.png" width="256" height="171" /></a><a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-55__1919707307__-278x325.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 11 from the post &quot;PowerShell - Playing with the new OneGet module (v5 preview)&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/2014-04-07_0-12-55__1919707307__-278x325.png" width="278" height="325" /></a>
 <u>ChocolateyInstall.ps1 content:</u>
-```
+```powershell
 Install-ChocolateyZipPackage 'putty' 'http://the.earth.li/~sgtatham/putty/latest/x86/putty.zip'  "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 ```
 
@@ -163,10 +163,10 @@ Also note there is some interesting parameters in the Install-Package cmdlet:
 <a class="g-profile" href="https://plus.google.com/109550251938639533774" target="_blank">+Jeffrey Snover</a>also shared a very smart line on twitter on how to use a small "GUI" to Select one or multiple packages you want to install:
 
 
-```
+```powershell
 # Using Out-GridView -PassThru to select the Packages
 ```
-```
+```powershell
 Find-Package | Out-Gridview -PassThru | Install-Package -Verbose
 ```
 
@@ -179,12 +179,12 @@ The other cool thing with Out-GridView is that you can also filter on multiple p
 <b><u>Uninstalling a package</u></b>
 
 
-```
+```powershell
 # Get the package putty installed locally
 Get-Package putty
 ```
 
-```
+```powershell
 # Get and Uninstall putty
 Get-Package putty | Uninstall-Package -Verbose
 ```

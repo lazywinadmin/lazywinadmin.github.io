@@ -80,7 +80,7 @@ Description: find the MAC of a PC (useful for MC-WOL - see below)
 * **Arguments**: `%Hostname%`
 Download the `mcgetmac.exe`, put it to mRemoteNG's subfolder (Apps\MC-WOL) and create a mcgetmac.bat with the following 2 lines
 
-```
+```batch
 SELECT ALL
 @Apps\MC-WOL\mcgetmac.exe %1
 
@@ -135,7 +135,7 @@ Description: wake up a remote PC over the network (find the MAC by using the mcg
 * **Filename**: `check_remote.bat`
 * **Arguments**: `%HostName%`
 
-```
+```batch
 @echo off & setlocal
 
 IF "%1"=="" (
@@ -176,7 +176,7 @@ PAUSE
 * **Filename**: `configure_Samba.bat`
 * **Arguments**: `%HostName% %username% %password%`
 
-```
+```batch
 @echo off & setlocal
 set Hostname=%1
 set Username=%2

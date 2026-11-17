@@ -11,7 +11,7 @@ published: true
 comments: true
 ---
 
-```
+```powershell
 function Get-USB {
     <#
     .Synopsis

@@ -32,7 +32,7 @@ $strSID.Value
 
 **With WMI**
 
-```
+```batch
 wmic useraccount where name='test_user' get sid
 ```
 
@@ -49,7 +49,7 @@ $objUser.Value
 
 **With WMI**
 
-```
+```batch
 wmic useraccount where sid='S-1-3-12-12451234567-1234567890-1234567-1434' get name
 ```
 

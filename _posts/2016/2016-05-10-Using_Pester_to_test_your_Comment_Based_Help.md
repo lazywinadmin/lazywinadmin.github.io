@@ -138,7 +138,7 @@ Describe "AdsiPS Module" -Tags "Module" {
 Note that in PowerShell Core, It seems that the AST to Help content parameter comparison doesn't work.
 Thanks to [@mgeorgebrown89](https://github.com/mgeorgebrown89) who suggested the following:
 
-```powershel
+```powershell
 foreach ($param in $ASTParameters) {
     It "parameter `"$param`" has a .PARAMTER description" {
          (Get-Help $functionName -Parameter $param).description | Should -Not -BeNullOrEmpty

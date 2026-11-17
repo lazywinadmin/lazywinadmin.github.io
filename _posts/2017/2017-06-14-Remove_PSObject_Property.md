@@ -35,7 +35,7 @@ $MyObject = New-Object -Typename PSCustomObject -Property @{
 
 `$MyObject` returns:
 
-```
+```text
 ComputerName    Description MacAddress
 ------------    ----------- ----------
 DESKTOP-HPHHRC5 My Computer 00:11:22:33:44:55
@@ -50,7 +50,7 @@ $MyObject.PSObject.properties.remove('Description')
 
 `$MyObject` returns:
 
-```
+```text
 ComputerName    MacAddress
 ------------    ----------
 DESKTOP-HPHHRC5 00:11:22:33:44:55

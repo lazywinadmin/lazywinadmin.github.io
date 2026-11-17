@@ -52,12 +52,12 @@ I really like what Microsoft is doing ... Interoperability, pushing for a better
 
 
 Here is a list of the cmdlets available to us
-```
+```powershell
 Get-Command -Module NetworkSwitch
 ```
 
 
-```
+```powershell
 CommandType     Name                                               Source
 -----------     ----                                               ------
 Function        Disable-NetworkSwitchEthernetPort                  NetworkSwitch
@@ -81,9 +81,6 @@ Function        Set-NetworkSwitchPortProperty                      NetworkSwitch
 Function        Set-NetworkSwitchVlanProperty                      NetworkSwitch
 ```
 
-```
-
-```
 
 
 ## New Module: Windows PowerShell OneGet
@@ -93,12 +90,12 @@ The coolest news in my opinion is the module OneGet which allow you to install a
 <blockquote class="tr_bq"><b>Jeffrey Snover</b> - "... <i>introduces Windows PowerShell OneGet to dramatically simplify finding and installing software on your machines. OneGet works with the community-based software repository called Chocolatey which has over 1,700 unique software packages. Step by step, we are delivering the technologies you need to simplify creating and operating your computing environment..</i>." <a href="https://web.archive.org/web/20160201093705/http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx" target="_blank">Source</a></blockquote>
 
 Here is a list of the cmdlets available to us
-```
+```powershell
 Get-Command -Module OneGet
 ```
 
 
-```
+```powershell
 CommandType     Name                                               Source
 -----------     ----                                               ------
 Cmdlet          Add-PackageSource                                  OneGet

@@ -22,7 +22,7 @@ Once the SP1 installed, all you need is PowerShell 3.0.Already included in Windo
 <u>
 </u>
 
-```
+```powershell
 Import-Module "C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\ConfigurationManager.psd1"
 ```
 
@@ -30,7 +30,7 @@ Import-Module "C:\Program Files (x86)\Microsoft Configuration Manager\AdminConso
 <u>CMDLETS</u>
 <u>
 </u>
-```
+```text
 Add-CMBoundaryToGroup
 Add-CMDeviceAffinityToUser
 Add-CMDeviceCollectionDirectMembershipRule

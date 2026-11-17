@@ -42,7 +42,7 @@ So at the end of the month I have a bunch of CSV files that were generated durin
 
 To calculate the Sum of each domains for each months I can simply use the following One-Liner:
 
-```
+```powershell
 Get-ChildItem -Path .\*.csv | # Get each CSV files
     ForEach-Object -Process {
         Import-Csv -Path $PSItem.FullName # Import CSV data
@@ -70,9 +70,6 @@ Get-ChildItem -Path .\*.csv | # Get each CSV files
 
 <a href="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Sum similar entries from multiple CSV files&quot; (3)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140901_PowerShell_-_Sum_similar_entries_from_multiple_CSV_files/2014-09-01_18-13-59__1544608816__-692x292.png" width="692" height="292" /></a>
 
-```
-
-```
 
 Now we <u>import the data</u> inside each file. I added a Sort-Object so you can see that we have duplicates (since we have the same values coming from different files).
 

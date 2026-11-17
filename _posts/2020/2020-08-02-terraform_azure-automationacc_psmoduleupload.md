@@ -119,7 +119,7 @@ The output will look like this
 From the previous output, I'm creating a file called `secrets.tfvars.json`.
 This file will be passed to Terraform at runtime.
 
-```
+```json
 {
   "appId": "<spn app id>",
   "password": "<spn password>",

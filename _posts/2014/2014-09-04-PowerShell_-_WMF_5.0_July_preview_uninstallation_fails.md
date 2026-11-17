@@ -32,7 +32,7 @@ Fortunately, the PowerShell Team is already aware of this issue and documented t
  1- Open powershell.exe with elevated user rights (run as administrator).
  2- Run the following commands: 
 
-```
+```powershell
 $dscNamespace = Get-CimInstance -Namespace root\microsoft\windows -Query "select * from __namespace where name = 'desiredstateconfiguration'"
 $dscNamespace | Remove-CimInstance
 ```

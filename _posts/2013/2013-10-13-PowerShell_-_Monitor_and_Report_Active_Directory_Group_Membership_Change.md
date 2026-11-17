@@ -175,11 +175,11 @@ This PowerShell script will need some rights, it will:
 ### <u>Running the Script <span style="background-color: yellow;">the first time</span></u>
 
 In this example I run the script against 2 Active Directory Groups with the verbose parameter so it will let me know what it's doing.
-```
+```powershell
 .\TOOL-MONITOR-AD_Groups.ps1 -verbose -Group "FXGROUP", "FXGROUP2" -EmailServer "mail.fx.local" -EmailTo "catfx@fx.local" -EmailFrom "PowerShellMonitoring@fx.local"
 ```
 
-```
+```text
 VERBOSE: Creating the Output Folder : C:\LazyWinAdmin\Output
 VERBOSE: Creating the ChangeHistory Folder : C:\LazyWinAdmin\ChangeHistory
 VERBOSE: GROUP: FXGROUP
@@ -241,11 +241,11 @@ and include a 'Change History' table in the Email Report.</td></tr></tbody></tab
 Let's test the help now...
 
 
-```
+```powershell
 PS C:\LazyWinAdmin> Get-Help .\TOOL-MONITOR-AD_Groups.ps1 -full
 ```
 
-```
+```text
 NAME
     C:\LazyWinAdmin\TOOL-MONITOR-AD_Group.ps1
 

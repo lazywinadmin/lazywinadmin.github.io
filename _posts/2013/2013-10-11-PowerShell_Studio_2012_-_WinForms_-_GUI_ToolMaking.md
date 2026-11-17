@@ -72,7 +72,7 @@ Here is the code I used for each of my events.
 I basically do some basic <b>Get-WmiObject</b> queries on different classes related to the Services/Processes and Shared. Note the Output is sent to the pipeline to <b>`Out-GridView.`</b></span>
 
 
-```
+```powershell
 $buttonCredential_Click={
     # Ask for Credential
     $global:cred = Get-Credential -Credential 'FX\Administrator'
@@ -101,19 +101,19 @@ $buttonShares_Click={
 
 Here is the result when you click on one of the 3 buttons. Each of them invoke the events:
 * 
-```
+```powershell
 $buttonServices_Click
 ```
 
 
 * 
-```
+```powershell
 $buttonProcesses_Click
 ```
 
 
 * 
-```
+```powershell
 $buttonShares_Click
 ```
 
@@ -135,7 +135,7 @@ When you add the DataGridView to your form, you will notice that PowerShell Stud
 
 
 
-```
+```powershell
 #region Control Helper Functions
 function Load-DataGridView
 {
@@ -206,7 +206,7 @@ Now all you have to do is removing the Out-GridView and send the output to thefu
 
 
 
-```
+```powershell
 $buttonCredential_Click={
     # Ask for Credential
     $global:cred = Get-Credential -Credential 'FX\Administrator'

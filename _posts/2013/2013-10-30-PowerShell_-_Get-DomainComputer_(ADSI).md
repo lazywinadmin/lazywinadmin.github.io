@@ -74,7 +74,7 @@ Basically, I'm creating a `[ADSISearcher]` object with a filter which contains t
 Notice the `&` logical operator which can be translated to an `AND` operator, means the following conditions must be met.
 The execution of the search will not be perform until you actually use the FindOne() or FindAll() methods
 
-```
+```text
    TypeName: System.DirectoryServices.DirectorySearcher
 
 Name    MemberType Definition
@@ -95,7 +95,7 @@ LDAP://CN=DHCP1,CN=Computers,DC=FX,DC=LAB         {logoncount, codepage, objectc
 
 The full list of properties is available by doing the following
 
-```
+```powershell
 PS C:\> ($Search.findall()).properties
 
 Name                           Value
@@ -311,7 +311,7 @@ PS C:\> Get-DomainComputer -ComputerName "lab1*"
 ![Get-DomainComputer output in PowerShell listing lab computers with Name, WhenCreated, Description, OperatingSystem, DnsHostName and DistinguishedName]({{ site.url }}/images/2013/20131030_PowerShell_-_Get-DomainComputer_(ADSI)/example.png){: .align-center loading="lazy" decoding="async" width="505" height="865"}
 
 
-```
+```text
 Name              : LAB1DC01
 WhenCreated       : 3/7/2013 2:19:48 AM
 Description       : Domain Controller of FX.LAB

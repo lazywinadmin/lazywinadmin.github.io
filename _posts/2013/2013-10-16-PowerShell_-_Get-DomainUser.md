@@ -29,11 +29,11 @@ I wrote him back that he could just request RSAT(Remote Server Administration To
 
 
 
-```
+```powershell
 PS C:\> Get-DomainUser -DisplayName "jonathan*" | Format-List
 ```
 
-```
+```text
 UserName    : {JonathanD}
 Description : {Account of Jonathan Delpiero}
 DisplayName : {Jonathan Delpiero}
@@ -58,11 +58,11 @@ Let's take a look at this object and its members.
 I start bycreating an instance of the System.DirectoryServices.DirectorySearcher class by supplying empty strings.
 
 
-```
+```powershell
 PS C:\> [adsisearcher]""
 ```
 
-```
+```text
 CacheResults             : True
 ClientTimeout            : -00:00:01
 PropertyNamesOnly        : False
@@ -93,11 +93,11 @@ Container                :
 
 
 
-```
+```powershell
 PS C:\> [adsisearcher]"" | get-member
 ```
 
-```
+```text
    TypeName: System.DirectoryServices.DirectorySearcher
 
 Name                      MemberType Definition
@@ -155,11 +155,11 @@ After some search I found a list of the different Logical Operators and main Fil
 Now we can start to work with some basic filtering.
 
 
-```
+```powershell
 PS C:\> ([adsisearcher]"name=*jonathan*").FindAll()
 ```
 
-```
+```text
 Path                                              Properties
 ----                                              ----------
 LDAP://CN=JonathanD,CN=Users,DC=FX,DC=LAB         {givenname, codepage, objectcategory, departme...
@@ -178,11 +178,11 @@ He just wants to know what are their AccountName (SamAccount)
 So let's try with DisplayName property
 
 
-```
+```powershell
 PS C:\> ([adsisearcher]"displayname=*jonathan*").FindAll()
 ```
 
-```
+```text
 Path                                              Properties
 ----                                              ----------
 LDAP://CN=JonathanD,CN=Users,DC=FX,DC=LAB         {givenname, codepage, objectcategory, departme...
@@ -208,12 +208,12 @@ Finally, I use the ampersand symbol '<b>&amp;</b>' symbol at the start. The whol
 
 
 
-```
+```powershell
 PS C:\> ([adsisearcher]"(&amp;(objectCategory=person)(objectClass=User)(displayname=*jonatha
 n*))").FindAll()
 ```
 
-```
+```text
 Path                                              Properties
 ----                                              ----------
 LDAP://CN=JonathanD,CN=Users,DC=FX,DC=LAB         {givenname, codepage, objectcategory, departme...
@@ -226,12 +226,12 @@ Awesome! :-)
 Now we just have to select the properties we want:
 
 
-```
+```powershell
 PS C:\> ([adsisearcher]"(&amp;(objectClass=person)(objectClass=user)(displayname=*jonathan*)
 )").FindAll().properties | Select-Object -first 1
 ```
 
-```
+```text
 Name                           Value
 ----                           -----
 givenname                      {Jonathan}

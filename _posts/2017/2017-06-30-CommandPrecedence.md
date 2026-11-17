@@ -68,7 +68,7 @@ Get-Process
 
 __Output:__
 
-```
+```text
 Function
 
 ```
@@ -115,7 +115,7 @@ Get-Command Get-Process -all
 
 __Output:__
 
-```
+```powershell
 CommandType  Name         Version  Source                         
 -----------  ----         -------  ------                         
 Function     Get-Process                                        
@@ -131,7 +131,7 @@ Then you can use `-CommandType` to specify the `Cmdlet` type and select the prop
 
 __Output:__
 
-```
+```text
 Microsoft.PowerShell.Management
 ```
 
@@ -155,7 +155,7 @@ Get-FXProcess
 
 __Output:__
 
-```
+```text
 Module
 ```
 
