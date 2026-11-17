@@ -37,7 +37,7 @@ function Get-NetworkStatistics
  $properties = 'Protocol','LocalAddress','LocalPort'
  $properties += 'RemoteAddress','RemotePort','State','ProcessName','PID'
 
- netstat -ano |Select-String-Pattern '\s+(TCP|UDP)' | ForEach-Object {
+ netstat -ano |Select-String -Pattern '\s+(TCP|UDP)' | ForEach-Object {
 
  $item = $_.line.split(" ",[System.StringSplitOptions]::RemoveEmptyEntries)
 
@@ -67,14 +67,14 @@ function Get-NetworkStatistics
 
 New-ObjectPSObject -Property @{
  PID = $item[-1]
- ProcessName = (Get-Process-Id $item[-1] -ErrorAction SilentlyContinue).Name
+ ProcessName = (Get-Process -Id $item[-1] -ErrorAction SilentlyContinue).Name
  Protocol = $item[0]
  LocalAddress = $localAddress
  LocalPort = $localPort
  RemoteAddress =$remoteAddress
  RemotePort = $remotePort
  State = if($item[0] -eq 'tcp') {$item[3]} else {$null}
- } |Select-Object-Property $properties
+ } |Select-Object -Property $properties
  }
  }
 }

@@ -27,7 +27,7 @@ Those modifications are now part of the module.
 
 <u><span style="font-size: x-large;">Here is an example :</span></u>
 
-```
+```powershell
 # In the module we have the following query 
 #  (I had Backtick to fit in my blog, don't do this at home! ;-) )
 $computer =  Get-WMIObject `
@@ -61,7 +61,7 @@ Basically the command has to gather ALLLLLL the objects from the class `SMS_R_Sy
 
 <u><span style="font-size: x-large;">Let's try to improve this and use some filtering! </span></u>
 
-```
+```powershell
 
 # Let's measure our command on a big environment (+6000 computers) with some filtering
 #  Note that I replaced some values, you need to specify the SiteProvider, SiteCode and 

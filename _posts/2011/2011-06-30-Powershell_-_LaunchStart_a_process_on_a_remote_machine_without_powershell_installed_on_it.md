@@ -16,7 +16,7 @@ How to launch/start a process on a remote machine when this one does not have Po
 
 <b>Solution 1 ([Ravikanth Chaganti](http://www.ravichaganti.com/blog/?p=1979), see his WMI book! Must read!)</b>
 
-```
+```powershell
 $proc = Invoke-WmiMethod `
         -ComputerName Test `
         -Class Win32_Process `
@@ -31,7 +31,7 @@ Register-WmiEvent `
 <b>Solution 2 ([The Lonely Administrator](http://jdhitsolutions.com/blog/))</b>
 
 
-```
+```powershell
 Function New-RemoteProcess {
     Param([string]$computername=$env:computername,
         [string]$cmd=$(Throw "You must enter the full path to the command which will create the process.")

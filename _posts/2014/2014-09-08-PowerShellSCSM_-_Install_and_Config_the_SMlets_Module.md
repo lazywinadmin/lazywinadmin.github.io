@@ -54,7 +54,7 @@ Microsoft.EnterpriseManagement.ServiceManager.dll
 
 You can use the following command (make sure to run powershell as admin)
 
-```
+```powershell
 Get-ChildItem *core*, *service* | Copy-Item -dest C:\Windows\assembly
 ```
 
@@ -74,7 +74,7 @@ Get-ChildItem *core*, *service* | Copy-Item -dest C:\Windows\assembly
 
 <b><u>Comment the line 46 and add the following line</u></b>
 
-```
+```powershell
 $GLOBAL:smdefaultcomputer = "SCSM_SERVER_FQDN"
 ```
 <a href="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B10-50-10%2BPM__994127369__-775x613.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell/SCSM - Install and Config the SMlets Module&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140908_PowerShellSCSM_-_Install_and_Config_the_SMlets_Module/9-8-2014%2B10-50-10%2BPM__994127369__-775x613.png" width="775" height="613" /></a>
@@ -83,7 +83,7 @@ $GLOBAL:smdefaultcomputer = "SCSM_SERVER_FQDN"
 <b><u>Finally we can test to use the SMlets module</u></b>
 
 
-```
+```powershell
 # Import the SMlets Module
 Import-Module -Name SMLets
 

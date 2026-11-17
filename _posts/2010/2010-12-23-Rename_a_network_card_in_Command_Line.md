@@ -17,6 +17,6 @@ One of the task I wanted to do was: Renaming a Network Interface. As you probabl
 
 Here is the useful command:
 
-```
+```batch
 netsh interface set interface name="Local Area Connection" newname="ExampleLan"
 ```

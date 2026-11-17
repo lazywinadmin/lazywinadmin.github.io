@@ -39,7 +39,7 @@ Using PowerShell with the SMlets module, this information is not easily accessib
 <u style="font-weight: bold;">The problem:</u>We can't tell if an object is an user or a group. Computer however shows correctly as computer object.
 
 
-```
+```powershell
 # Get a single ticket with AD objects
 $SRTicket = Get-SCSMObject -Id 992315e4-a94c-6e35-2720-51fe9808f903
 
@@ -58,7 +58,7 @@ In the output, we have 2 groups, 1 user and 1 computer. But It looks like we can
 To work around that, we have to use the method `GetClasses(`) which reveal more information.
 
 
-```
+```powershell
 # Get all the classes of the first object (which is a group in this case)
 ((Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c8b59-8554-6e77-0aa7-f51448868b43'").targetobject | Select-Object -First 1).getclasses()
 ```
@@ -78,7 +78,7 @@ We are adding a property called "Class" that will run against each object and ch
 
 
 
-```
+```powershell
 # Retrieve Relationship Objects CLASS of AD objects(Computers, Users and Groups)) inside SCSM
 (Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c8b59-8554-6e77-0aa7-f51448868b43'").targetobject |
 Select-Object -Property DisplayName, @{

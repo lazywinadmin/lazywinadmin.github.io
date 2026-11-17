@@ -207,7 +207,7 @@ New-MVPContribution @splatting
 
 __Output:__
 
-```
+```text
 
 ContributionId         : 123456
 ContributionTypeName   : Blog Site Posts

@@ -142,7 +142,7 @@ For PowerGUI, check the following <a href="http://powergui.org/entry.jspa?extern
 
 <u>Preview:</u>
 
-```
+```powershell
 # Get the list of command with 'Get'
 Get-Command -Verb Get
 # Get the list of service with dependent services
@@ -170,7 +170,7 @@ Now you are ready to insert the HTML code in your blog post.
 
 Preview:
 
-```
+```powershell
 # Get the list of command with 'Get'
 Get-Command -Verb Get
 # Get the list of service with dependent services
@@ -185,7 +185,7 @@ $Params = @{
 
 Preview2: 
 
-```
+```powershell
 PS C:\Users\Xavier> Get-Process svchost
 
 Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName

@@ -41,7 +41,7 @@ installutil -i "C:\Program Files\Microsoft SQL Server\100\Tools\Binn\Redist\Micr
 
 `gbesuser "samaccountname"`
 
-```
+```powershell
 function gbesuser ($user){
 
     function devicetype ($type)

@@ -82,7 +82,7 @@ In the following post I will cover the following points:
 
 In order to work with the PowerCli cmdlets, you will need to load the PowerShell Snapin <b>VMware.VimAutomation.Core.</b>
 
-```
+```powershell
 # Load PowerCli Cmdlets
 Add-PSSnapin VMware.VimAutomation.Core
 
@@ -93,7 +93,7 @@ Connect-VIServer lab1vh02.fx.lab -Credential (Get-Credential)
 
 
 ```
-```
+```text
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
 
 Turn On the iSCSI Initiator
@@ -105,19 +105,12 @@ Turn On the iSCSI Initiator
 
 ```
 
-```
+```powershell
 # Turn on the iSCSI Initiator on my VMware vSphere host (lab1vh02.fx.lab)
 Get-VMHostStorage -VMHost lab1vh02.fx.lab | Set-VMHostStorage -SoftwareIScsiEnabled $True
 ```
-```
-
-```
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_8-49-53_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 3 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_8-49-53_PM.png" width="478" height="119" /></a>
-```
-
-
-```
-```
+```text
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
 
 Add a new iSCSI Target Address
@@ -126,22 +119,15 @@ Add a new iSCSI Target Address
 <span style="font-family: 'Times New Roman'; white-space: normal;">Then set the IP Address of the iSCSI Target Server to be able to connect to the iSCSI Targets
 
 ```
-```
 
-```
-
-```
+```powershell
 # Set the iSCSI Target Server (192.168.1.10) on my VMware vSphere Host (lab1vh02.fx.lab)
 Get-VMHostHba -VMHost lab1vh02.fx.lab -Type iScsi | 
     New-IScsiHbaTarget -Address 192.168.1.10
 
 ```
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_8-49-12_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 4 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-07_8-49-12_PM.png" width="544" height="124" /></a>
-```
-
-
-```
-```
+```text
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
 
 Refresh HBA / Rescan Datastore
@@ -150,7 +136,7 @@ Refresh HBA / Rescan Datastore
 <span style="font-family: 'Times New Roman'; white-space: normal;">Finally you will need to rescan the HBA and VMFS volumes in order to be able to add the new datastore(s).
 ```
 
-```
+```powershell
 
 # Performs a Rescan on all HBAs and VMFS volumes
 Get-VMHostStorage -VMHost lab1vh02.fx.lab -RescanAllHba
@@ -164,14 +150,11 @@ Get-VMHostStorage -VMHost lab1vh02.fx.lab -RescanVmfs
 
 #### Find the Lun Canonical Name
 
-```
+```powershell
 <span style="font-family: 'Times New Roman'; white-space: normal;">To create a datastore using the <span style="white-space: normal;">`New-Datastore`<span style="font-family: 'Times New Roman'; white-space: normal;"> cmdlet you will need to get the <span style="white-space: normal;">`CanonicalName`<span style="font-family: 'Times New Roman'; white-space: normal;"> property from the Lun you want to use.
 ```
-```
 
-```
-
-```
+```powershell
 # Get the iSCSI LUN presented to this server where Microsoft is the vendor
 Get-ScsiLun | Where-Object Vendor -like "MSFT"
 ```
@@ -179,16 +162,12 @@ Get-ScsiLun | Where-Object Vendor -like "MSFT"
 
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-15_10-09-01_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 5 from the post &quot;WS2012 Storage - iSCSI Target Server - Configuring an iSCSI Initiator on VMware vSphere 5.1&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Configuring_an_iSCSI_Initiator_on_VMware_vSphere_5_1/2013-07-15_10-09-01_PM.png" width="653" height="122" /></a>
 
-```
+```powershell
 # Get only the Lun and store it in the $lun variable
 $lun = Get-ScsiLun | Where-Object {(($_.Vendor -like "MSFT") -and ($_.CapacityGB -eq 10))}
 ```
 
-```
-
-
-```
-```
+```text
 <h4 style="font-family: 'Times New Roman'; white-space: normal;">
 Create the new Datastore
 
@@ -197,7 +176,7 @@ Create the new Datastore
 # Finally create the datastore using the Lun 
 
 ```
-```
+```powershell
 New-Datastore -Vmfs -Path $lun.CanonicalName -Name Lun1
 ```
 

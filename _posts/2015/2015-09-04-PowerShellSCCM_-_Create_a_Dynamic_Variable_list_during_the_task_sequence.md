@@ -34,7 +34,7 @@ When you use the task "<b><i>Install Application</i></b>" with the option '<i>In
 
 So you should have variables such as:
 
-```
+```text
 FX01
 FX02
 FX03

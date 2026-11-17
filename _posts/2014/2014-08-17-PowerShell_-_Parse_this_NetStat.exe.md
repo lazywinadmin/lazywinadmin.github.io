@@ -52,7 +52,7 @@ In this example we see that all the data we need is below the first 4 lines... u
 How to remove the first 4 lines ? How to get the total count of lines ? How to get a range of lines ?
 
 
-```
+```powershell
 # Store the output in the variable $data
 $data = netstat -n
 
@@ -99,7 +99,7 @@ Let's test the split in PowerShell:
 
 Now we can loop through each lines and output our properties using the new-object Cmdlet.
 
-```
+```powershell
 FOREACH ($line in $data)
 {
     
@@ -128,15 +128,6 @@ And here is the Output! Magnifique! :-)
 
 <a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 9 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-18-13__325637987__-772x578.png" width="772" height="578" /></a>
 
-```
-
-```
-```
-
-```
-```
-
-```
 
 
 
@@ -147,7 +138,7 @@ If you want the ports information in a separated fields, we can simply split on 
 <a href="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-27-28__249884520__-772x238.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 10 from the post &quot;PowerShell - Parse this - NetStat.exe&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140817_PowerShell_-_Parse_this_NetStat.exe/2014-08-14_23-27-28__249884520__-772x238.png" width="772" height="238" /></a>
 
 
-```
+```powershell
 FOREACH ($line in $data)
 {
     
@@ -174,11 +165,11 @@ FOREACH ($line in $data)
 
 ```
 
-```
+```text
 <u><b>Output:</b></u>
 ```
 
-```
+```text
 <u><b>
 </b></u>
 ```
@@ -189,7 +180,7 @@ FOREACH ($line in $data)
 Finally we can wrap this powershell code inside a function to create a re-usable tool.
 
 
-```
+```powershell
 function Get-NetStat
 {
 <#
@@ -239,7 +230,7 @@ Now...Let's say you want to know the most frequent ForeignAddress IP, the count 
 
 
 
-```
+```powershell
 Get-NetStat |
     Group-Object -Property ForeignAddressIP |
     Select-Object -Property Count, Name |

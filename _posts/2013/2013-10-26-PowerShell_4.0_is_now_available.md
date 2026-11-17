@@ -174,7 +174,7 @@ To repair your WMF 4.0 installation after this failure, install .NET Framework 4
 ### Finally... Don't forget to do Update-Help
 
 
-```
+```powershell
 Update-Help -Verbose -Force
 ```
 

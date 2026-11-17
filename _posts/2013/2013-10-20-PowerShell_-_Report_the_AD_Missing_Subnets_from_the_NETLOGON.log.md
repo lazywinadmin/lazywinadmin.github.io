@@ -44,7 +44,7 @@ Path of the NETLOGON.log file on a Domain Controller:
 
 <u>Missing subnets errors in NetLogon.log</u>
 
-```
+```text
 10/02 10:02:32 FX: NO_CLIENT_SITE: WORKSTATION01 10.126.76.146
 10/02 10:02:32 FX: NO_CLIENT_SITE: WORKSTATION02 172.16.32.16
 10/02 10:03:07 FX: NO_CLIENT_SITE: WORKSTATION03 1.2.3.4

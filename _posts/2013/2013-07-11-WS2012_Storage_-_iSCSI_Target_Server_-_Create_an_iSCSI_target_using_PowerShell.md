@@ -110,32 +110,24 @@ The module<b>iSCSI</b>is used for all iSCSI<u>Initiator-specific Cmdlets</u>and 
 In order to be able to use the Storage Features related to iSCSI, you will need to install the iSCSI Target Server Feature. This can be perform via the <i>Server Manager Console</i> but here I will only focus on PowerShell. You can find the UI procedure<a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">here</a>
 
 
-```
+```powershell
 # Import the ServerManager PowerShell Module
-Import-Module-Name ServerManager
-```
-
+Import-Module -Name ServerManager
 ```
 
 
-```
-
-```
+```powershell
 # Add the Windows Feature iSCSI Target Server
-Add-WindowsFeature-Name FS-iSCSITarget-Server
+Add-WindowsFeature -Name FS-iSCSITarget-Server
 ```
 
-```
-
-
-```
 <u style="background-color: yellow;">Optionally</u>
 You might also want to install the iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="https://web.archive.org/web/20151225130716/http://blogs.technet.com:80/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">more info</a>)
 
 
-```
+```powershell
 # Add the Windows Feature iSCSI VDS/VSS
-Add-WindowsFeature-Name FS-iSCSITarget-VSS-VDS
+Add-WindowsFeature -Name FS-iSCSITarget-VSS-VDS
 ```
 
 
@@ -169,19 +161,16 @@ Again, here I'll use only PowerShell Cmdlets. You can find the UI procedure <a h
 
 This Module provides all iSCSI target service-specific cmdlets (see the list of Cmdlets in the screenshot above)
 
-```
 
-```
-
-```
+```powershell
 # Import the PowerShell Module iSCSITarget
-Import-Module-Name iSCSITarget
+Import-Module -Name iSCSITarget
 ```
 #### 2 - Create iSCSI LUN
 
 Here we create a new iSCSI virtual hard disk (VHD) object with the specified file `Path` and `Size`.
 
-```
+```powershell
 # Create a 1GB iSCSI Virtual Disk
 New-IscsiVirtualDisk -Path c:\test\LUN1.vhd -Size 1GB
 ```
@@ -190,20 +179,14 @@ New-IscsiVirtualDisk -Path c:\test\LUN1.vhd -Size 1GB
 
 Here we create a new iSCSI target object with the name "TestTarget1" specified by the`-TargetNameparameter`. The `-InitiatorIdsparameter` stores the initiators which can connect to the Target.
 
-```
+```powershell
 # Creating a iSCSI Target. I specify the IPAddresses of the Initiator Hosts (192.168.1.101 and 192.168.1.102) which are VMware vSphere Hosts.
 New-IscsiServerTarget -TargetName TestTarget1 -InitiatorId IPAddress:192.168.1.101,IPAddress:192.168.1.102
 ```
 
-```
-
-```
 <span style="white-space: normal;"><u style="background-color: yellow;">Optionally:</u><span style="background-color: white;">Instead of the iSCSI Initiator's IPAddress you can also specify the IQN:
-```
+```powershell
 New-IscsiServerTarget -TargetName TestTarget1 -InitiatorId "IQN:iqn.1998-01.com.vmware:LAB1VH01-675d7f45"
-```
-```
-
 ```
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_7-15-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 11 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_7-15-17_PM.png" width="839" height="348" /></a>
 #### Finding the IQN of your iSCSI Initator
@@ -217,7 +200,7 @@ I found two ways to get this information with PowerCli ...
  1 - WithGet-View(Call to the NET Framework)
 
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_10-35-41_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 13 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_10-35-41_PM.png" width="656" height="58" /></a>
-```
+```powershell
    ((Get-view (Get-view -Id ((Get-VMhost lab1vh02.fx.lab).id)).config
 manager.storagesystem).StorageDeviceInfo.HostBusAdapter).iscsiName
 ```
@@ -225,19 +208,12 @@ manager.storagesystem).StorageDeviceInfo.HostBusAdapter).iscsiName
  2 - WithGet-EsxCli
 
 
-```
+```powershell
    (Get-EsxCli -VMHost lab1vh02.fx.lab).iscsi.adapter.list()
 ```
 
-```
-
-
-```
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_10-49-15_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 14 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_10-49-15_PM.png" width="593" height="139" /></a>
 
-```
-
-```
 
 
 #### 4 - Assign the iSCSI LUN to the Target
@@ -245,7 +221,7 @@ manager.storagesystem).StorageDeviceInfo.HostBusAdapter).iscsiName
 Here we assign a virtual disk to an iSCSI target.
 
 
-```
+```powershell
 # Assigning the virtual disk to the iSCSI Target
 Add-IscsiVirtualDiskTargetMapping -TargetName TestTarget1 -Path C:\test\Lun1.vhd
 ```
@@ -254,7 +230,7 @@ There is no <b>Passthru</b> parameter either :-(</span></td></tr></tbody></table
 <u style="background-color: yellow;">Optionally:</u><span style="background-color: white;">You can specify the Logical Unit Number (LUN) associated with the virtual disk. By default, the lowest available LUN number will be assigned.</span>
 
 
-```
+```powershell
 # Assigning the virtual disk to the iSCSI Target
 Add-IscsiVirtualDiskTargetMapping -TargetName TestTarget1 -Path C:\test\Lun1.vhd -Lun 25
 ```

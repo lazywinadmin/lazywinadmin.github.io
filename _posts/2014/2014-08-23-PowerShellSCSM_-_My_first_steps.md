@@ -36,7 +36,7 @@ Before I start exploring some of the commands, I just wanted to point-out a very
 <span style="font-size: x-large;">Get the Service Requests objects
 
 
-```
+```powershell
 # Get List of all Service Request
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 ```
@@ -45,7 +45,7 @@ Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$)
 <span style="font-size: x-large;">Get the Service Requests<u>created in the last 2 days</u>
 
 
-```
+```powershell
 # Get List of all Service Request modified in the last 2 days
 Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$) -Filter "LastModified -gt $((Get-Date).Adddays(-2))"
 ```
@@ -57,7 +57,7 @@ Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$) -Fil
 Here you can see how to filter on more than one criteria using the Get-SCSMObject.
 
 
-```
+```powershell
 # Get List of all Service Request modified in the last 2 days with an InProgress status
 $ServiceRequestClass = Get-SCSMClass -Name System.WorkItem.ServiceRequest$
 $ServiceRequestInProgressStatus = Get-SCSMEnumeration -Name ServiceRequestStatusEnum.InProgress$
@@ -74,7 +74,7 @@ Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified > '$TwoDaysAgo'
 
 
 
-```
+```powershell
 # Related Object of a Service request
 $SRTicket = Get-SCSMObject -Class $ServiceRequestClass -Filter "LastModified > '$TwoDaysAgo' AND Status = '$ServiceRequestInProgressStatusID'" | Select-Object -Last 1
 Get-SCSMRelatedObject -SMObject $SRTicket
@@ -85,7 +85,7 @@ Get-SCSMRelatedObject -SMObject $SRTicket
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s)<span style="font-size: x-large;">of the Service Request
 
 
-```
+```powershell
 # Retrieve Relationship Object(s)
 Get-SCSMRelationshipObject -BySource $SRTicket
 ```
@@ -96,7 +96,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket
 <span style="font-size: x-large;">Get r<span style="font-size: x-large;">elationship object(s) TargetObject and RelationshipID<span style="font-size: x-large;">of the Service Request
 
 
-```
+```powershell
 # Retrieve Relationship Object. Select the property TargetObject and RelationshipID
 Get-SCSMRelationshipObject -BySource $SRTicket |
     Select-Object -Property TargetObject,RelationshipID
@@ -110,7 +110,7 @@ For the next step we will re-use the Active Directory Object type (ID:d96c8b59-8
 Those elements are queried to the CMDB of SCSM, not to ActiveDirectory.
 
 
-```
+```powershell
 # Retrieve Relationship Objects with a specific relationship (in this case AD objects(Computers, Users and Groups)).
 Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c8b59-8554-6e77-0aa7-f51448868b43'"
 ```

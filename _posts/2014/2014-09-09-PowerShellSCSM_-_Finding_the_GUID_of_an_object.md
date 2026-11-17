@@ -32,7 +32,7 @@ You will have to use the method get_id() to retrieve this information
 
 <b><u>Incident Request</u></b>
 
-```
+```powershell
 # Get a specific Incident Request
 $IncidentRequest = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.Incident$) -filter "ID -eq IR31437"
 
@@ -46,7 +46,7 @@ $IncidentRequest.get_id()
 
 <b><u>Service Request</u></b>
 
-```
+```powershell
 # Get a specific Service Request
 $ServiceRequest = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.ServiceRequest$) -filter "ID -eq SR31467"
 
@@ -58,7 +58,7 @@ $ServiceRequest.get_id()
 
 <b><u>Review Activity</u></b>
 
-```
+```powershell
 # Get a specific review activity
 $ReviewActivity = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.Activity.ReviewActivity$) -filter "ID -eq RA31724"
 
@@ -70,7 +70,7 @@ $ReviewActivity.get_id()
 
 <b><u>ManualActivity</u></b>
 
-```
+```powershell
 # Get a specific manual activity
 $ManualActivity = Get-SCSMObject -Class (Get-SCSMClass -Name System.WorkItem.Activity.ManualActivity$) -filter "ID -eq MA45345"
 
@@ -82,7 +82,7 @@ $ManualActivity.get_id()
 
 <b><u>Runbook Activity</u></b>
 
-```
+```powershell
 # Get a Runbook Activity
 $RunbookActivity = Get-SCSMObject -Class (Get-SCSMClass -Name Microsoft.SystemCenter.Orchestrator.RunbookAutomationActivity$) -filter 'ID -eq RB30579'
 
@@ -103,7 +103,7 @@ $RunbookActivity.get_id()
 
 <b><u>Domain User</u></b>
 
-```
+```powershell
 # Query a Domain User from the CMDB
 $DomainUser = Get-SCSMObject -Class (Get-SCSMClass -Name Microsoft.AD.User$) -Filter "LastName -eq Cat"
 
@@ -115,7 +115,7 @@ $DomainUser.id
 
 <b><u>Domain Computer</u></b>
 
-```
+```powershell
 # Get a computer object from the CMDB
 $ComputerObject = Get-SCSMObject -Class (Get-SCSMClass -Name Microsoft.Windows.Computer$) -Filter "Displayname -eq MTLLAP8500"
 

@@ -93,7 +93,7 @@ I decided to add the parameter Credential to allow alternative username/password
 <a class="g-profile" href="http://plus.google.com/100797865397105871021" target="_blank">+Boe Prox</a>posted a nice article last year during the Scripting Games 2012 (<a href="http://learn-powershell.net/2012/05/10/speedy-network-information-query-using-powershell/" target="_blank">Speedy Network Information Query Using PowerShell</a>) Check out his blog for more details.
 
 
-```
+```powershell
 [Alias("RunAs")]
 [System.Management.Automation.Credential()]$Credential = [System.Management.Automation.PSCredential]::Empty,
 ```
@@ -207,7 +207,7 @@ With a Windows Server 2012 (WsMan Enabled)
 Script
 
 
-```
+```powershell
 #requires -Version 3
 
 function Get-LogicalDisk {

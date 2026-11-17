@@ -31,7 +31,7 @@ Using PowerShell Studio 2014, let's create a simple GUI and add a DataGridView c
 For test purpose, I will add some PowerShell code to load the list of processes currently running and the machine and send it to the DataGridView control:
 
 
-```
+```powershell
 $form1_Load = {
     $Processes = Get-Process | Select-Object -Property Name, id, ws
     Load-DataGridView -DataGridView $datagridview1 -Item $Processes
@@ -59,7 +59,7 @@ To load this function, open the snippets using the CTRL+K shortcut and select "C
 Now we need to convert the output of <b>Get-Process</b> to a <b>DataTable</b> object:
 
 
-```
+```powershell
 $form1_Load = {
     $Processes = Get-Process | Select-Object -Property Name, id, ws
     $ProcessesDT = ConvertTo-DataTable -InputObject $Processes
@@ -81,7 +81,7 @@ In the designer view, select your DataGridView and double click on the event cal
 Finally add this piece of code, to enable the feature:
 
 
-```
+```powershell
 $datagridview1_ColumnHeaderMouseClick=[System.Windows.Forms.DataGridViewCellMouseEventHandler]{
 #Event Argument: $_ = [System.Windows.Forms.DataGridViewCellMouseEventArgs]
     if ($datagridview1.DataSource -is [System.Data.DataTable])

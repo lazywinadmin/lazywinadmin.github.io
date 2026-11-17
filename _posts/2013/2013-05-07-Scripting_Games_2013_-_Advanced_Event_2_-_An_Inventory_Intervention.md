@@ -69,7 +69,7 @@ For this part, I looked at the property `SocketDesignation` in the <a href="http
 I used the following code to count my sockets and cores:
 
 
-```
+```powershell
 FOREACH ($Proc in $Processors){
     IF($Proc.numberofcores -eq $null){
         IF ($Proc.SocketDesignation -ne $null){$Sockets++}
@@ -81,13 +81,6 @@ FOREACH ($Proc in $Processors){
 }#FOREACH $Proc in $Processors
 ```
 
-```
-
-
-```
-```
-
-```
 <u style="font-weight: bold;">Note:</u>For the Processor part, I think Mike F Robbins got a betterapproached, Check his post <a href="http://mikefrobbins.com/2013/05/07/2013-powershell-scripting-games-advanced-event-2-attention-to-detail-is-everything/" target="_blank">here.</a>
 
 

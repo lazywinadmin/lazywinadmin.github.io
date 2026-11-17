@@ -201,10 +201,10 @@ I like to build my function that way.
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function sample" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_sample__2440202__-418x637.png" width="418" height="637" /></a>
 
-```
+```text
 <u style="font-family: 'Times New Roman'; white-space: normal;">Error Handling</u>
 ```
-```
+```text
 <u style="font-family: 'Times New Roman'; white-space: normal;">
 </u>
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function explained" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" /></a>
@@ -225,11 +225,11 @@ Article about Error Handling<a href="http://www.vexasoft.com/blogs/powershell/72
 I got some comments on the fact that I did not put Error Handling on the Out-File Cmdlet, which is part of the error handling itself in my script...<span style="background-color: yellow;"><u>see below the part Highlighted</u>
 
 
-```
+```powershell
 TRY{...}
 ```
 
-```
+```powershell
 CATCH{
     
  # ERROR HANDLING
@@ -248,11 +248,11 @@ CATCH{
 I could add an extra layer...I guess...<span style="background-color: yellow;"><u>see below the part Highlighted</u>
 
 
-```
+```powershell
 TRY{...}
 ```
 
-```
+```powershell
 CATCH{
 
  # ERROR HANDLING
@@ -271,7 +271,7 @@ CATCH{
   <span style="background-color: yellow;">}#CATCH ErrorLog File
 ```
 
-```
+```powershell
  }#IF PSBoundParameters ErrorLog
 }#CATCH
 ```

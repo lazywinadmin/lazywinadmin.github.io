@@ -126,7 +126,7 @@ Unfortunately I had the same issue when running the Windows 10 ADK Installer.
 <br>
 Error seen in the setup log file:
 
-```
+```text
 Error 0x800705514: Process returned error: 0x514
 Error 0x800705514: Failed to execute EXE package
 Error 0x800705514: Failed to configure per-machine EXE package.
@@ -155,7 +155,7 @@ Error seen in the log file:
 {% endcapture %}
 [![{{ImageText}}]({{ImageUrl}}){: loading="lazy" decoding="async" width="719" height="176"}]({{SourceUrl}})
 
-```
+```text
 Image Path is  [\??D:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\DISM\wimmount.sys]
 Could not acquire privileges; GLE=0x514
 Returning status 0x514

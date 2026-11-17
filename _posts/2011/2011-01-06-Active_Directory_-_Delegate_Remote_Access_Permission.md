@@ -22,7 +22,7 @@ filtered (set them from 7 to a 0):
 1. Set the following values to 0 under the [user] area in the file (not 
 under [computer]):
 
-```
+```text
 msNPAllowDialin=0 
 msNPCallingStationID=0 
 msNPSavedCallingStationID=0 
@@ -46,7 +46,7 @@ msRASSavedFramedRoute=0
 1. Select **Read and Write Remote Access Information**
 1. Select the Read and Write checkboxes for all of the following attributes 
 
-```
+```text
 msNPAllowDialin 
 msNPCallingStationID 
 msNPSavedCallingStationID 

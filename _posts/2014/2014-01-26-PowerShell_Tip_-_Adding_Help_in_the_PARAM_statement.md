@@ -27,7 +27,7 @@ A very cool way to add some help to your script parameters is to add comments wi
 <u>Example:</u>
 
 
-```
+```powershell
 <#
     .SYNOPSIS
         This function will get some cool stuff
@@ -44,7 +44,7 @@ A very cool way to add some help to your script parameters is to add comments wi
 Then use Get-Help against your function/script
 
 
-```
+```powershell
 Get-Help Get-Something -Parameter *
 
 ```
@@ -53,7 +53,7 @@ Get-Help Get-Something -Parameter *
 This command will only return the Parameters information with the help we added in the PARAM statement
 
 
-```
+```text
 -ComputerName <string>
     Specifies the ComputerName
 

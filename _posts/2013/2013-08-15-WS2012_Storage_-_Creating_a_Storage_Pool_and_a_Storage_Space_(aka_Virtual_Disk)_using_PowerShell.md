@@ -96,18 +96,18 @@ With the conventional <b>Server Manager</b>, under <b>File and Storage Services<
 <b><u>Using PowerShell - Module Storage</u></b>
 Microsoft Windows Server 2012 is delivered with a really awesome PowerShell Storage module.
 Use the Cmdlet`Get-Command` to retrieve the full list of Cmdlets available in this module.
-```
+```powershell
 Get-Command -Module Storage | Select-Object Name
 ```
 
 <u>Note:</u> You need to import the `Storage` module in order to be able those. If it's not the case, juste use `Import-Module`.
-```
+```powershell
 Import-Module Storage
 ```
 
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_7-20-44_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 5 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" loading="lazy" decoding="async" border="0" height="640" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_7-20-44_PM_s640.webp" width="420" /></a>
 Here is the full list of Cmdlets for the Storage Module.
-```
+```powershell
 Get-Command -Module Storage | Select-Object Name
 ```
 
@@ -209,7 +209,7 @@ The first thing we will need is to identify which physical disk I will be using 
 <a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2__2105661421__-332x140.png" width="332" height="140" /></a>
 
 In the example below, I'm using the Get-PhysicalDisk cmdlet to list all of the Physical Disks that are present on the system:
-```
+```powershell
 Get-PhysicalDisk -CanPool $true
 ```
 
@@ -223,7 +223,7 @@ In the example below I use <a href="http://technet.microsoft.com/en-us/library/h
 
 <a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" width="332" height="140" /></a>
 
-```
+```powershell
 New-StoragePool -FriendlyName "LUN-1TB" `
 -StorageSubSystemUniqueId (Get-StorageSubSystem -FriendlyName "*Space*").uniqueID `
 -PhysicalDisks (Get-PhysicalDisk -CanPool $true)
@@ -255,7 +255,7 @@ For more information on using advanced settings for the creation of a Storage Sp
 
 The following example shows the creation of a Storage Space that is 200GB in size, named "<b>DataStore01</b>", using the pool named "<b>LUN-1TB</b>"
 
-```
+```powershell
 New-VirtualDisk -FriendlyName "Datastore01" `
 -StoragePoolFriendlyName "LUN-1TB" -Size 200GB `
 -ProvisioningType Thin -ResiliencySettingName Mirror
@@ -276,7 +276,7 @@ New-VirtualDisk -FriendlyName "Datastore01" `
 ### <span style="font-size: small; font-weight: normal;">Locating the disk, this can be done by `Get-VirtualDisk` and `Get-Disk` cmdlets as shown below:
 
 
-```
+```powershell
 Get-VirtualDisk -FriendlyName "Datastore01" | Get-Disk
 ```
 
@@ -293,15 +293,11 @@ In the preceding example, we determined that the disk we need to initialize is d
 ### <span style="font-size: x-large;">Partitioningand Formating
 
 <div markdown="1" class="separator" style="clear: both; text-align: left;">Now that disk 5 is initialized, the next step is to create a partition on the Storage Space, which can be done via the `New-Partition` cmdlet.<div markdown="1" class="separator" style="clear: both; text-align: left;">
-```
+```powershell
 New-Partition -DiskNumber 5 -UseMaximumSize -AssignDriveLetter
 ```
-```
-
-
-```
 <div markdown="1" class="separator" style="clear: both; text-align: left;">To create a volume on the Storage Space, I will now format the volume associated with DriveLetter D which was assigned in the previous step.<div markdown="1" class="separator" style="clear: both; text-align: left;">
-```
+```powershell
 Format-Volume -DriveLetter D -FileSystem NTFS -NewFileSystemLabel "DataStore01"
 ```
 <div markdown="1" class="separator" style="clear: both; text-align: left;">
