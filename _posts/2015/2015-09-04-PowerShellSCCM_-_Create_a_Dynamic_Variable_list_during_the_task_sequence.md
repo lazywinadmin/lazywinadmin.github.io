@@ -119,7 +119,7 @@ $ApplicationList | ForEach-Object {
 
 ## More Information
 
-Note also that there is a bunch of built-in variables available when you use Task Sequence, <a href="https://technet.microsoft.com/en-us/library/hh273375.aspx?f=255&amp;MSPPError=-2147217396" target="_blank">See here</a>.
+Note also that there is a bunch of built-in variables available when you use Task Sequence, documented in the <a href="https://technet.microsoft.com/en-us/library/hh273375.aspx?f=255&amp;MSPPError=-2147217396" target="_blank">Microsoft Docs article on task sequence built-in variables in Configuration Manager</a>.
 Another alternative is to create Collection Variables or Computer Variables and retrieve them during your Task Sequence.
 
 * <a href="https://technet.microsoft.com/en-us/library/hh846237.aspx#BKMK_InstallApplication" target="_blank">Technet - SCCM Task Sequence - Task: Install Application</a>

@@ -10,7 +10,7 @@ tags:
 published: true
 comments: true
 ---
-[source](http://stackoverflow.com/questions/2025989/what-is-the-recommended-coding-style-for-powershell)
+[Stack Overflow question on the recommended coding style for PowerShell](http://stackoverflow.com/questions/2025989/what-is-the-recommended-coding-style-for-powershell)
 Here are someRecommended coding style for powershell byRichard Berg
 
 ```powershell

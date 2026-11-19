@@ -21,7 +21,7 @@ Windows PowerShell allows you to run scripts, functions, and modules of cmdlets.
 
 After you install WMF 4.0, Windows PowerShell is upgraded to version 4.0.
 
-<a href="https://web.archive.org/web/20131029092323/http://www.microsoft.com/en-us/download/details.aspx?id=40855" target="_blank"><b>DOWNLOAD HERE</b></a>
+<a href="https://web.archive.org/web/20131029092323/http://www.microsoft.com/en-us/download/details.aspx?id=40855" target="_blank"><b>Download Windows Management Framework 4.0 (PowerShell 4.0)</b></a>
 
 
 

@@ -535,4 +535,4 @@ NOTES
 
 ### Download
 
-Script can be found [here](https://github.com/lazywinadmin/PowerShell/blob/master/AD-COMPUTER-Get-DomainComputer/Get-DomainComputer.ps1)
+The script can be found in [Get-DomainComputer.ps1 on GitHub](https://github.com/lazywinadmin/PowerShell/blob/master/AD-COMPUTER-Get-DomainComputer/Get-DomainComputer.ps1)

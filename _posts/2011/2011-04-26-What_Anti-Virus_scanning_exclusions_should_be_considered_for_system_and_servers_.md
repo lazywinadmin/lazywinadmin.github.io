@@ -12,7 +12,7 @@ tags:
 published: true
 comments: true
 ---
-[Source](https://web.archive.org/web/20110720184845/http://myitforum.com/cs2/blogs/scassells/archive/2007/05/14/what-anti-virus-scanning-exclusions-should-be-considered-for-system-and-servers.aspx)
+[Original myITforum article on antivirus scanning exclusions](https://web.archive.org/web/20110720184845/http://myitforum.com/cs2/blogs/scassells/archive/2007/05/14/what-anti-virus-scanning-exclusions-should-be-considered-for-system-and-servers.aspx)
 
 <span class="Apple-style-span" style="font-family: Tahoma, Arial, Helvetica; font-size: 13px;">
 Consider the following<a class="" href="http://www.blogger.com/post-edit.g?blogID=5118199599906690528&amp;postID=3371138807439705803" name="#h1" title="#h1"></a>file scanning exceptions for your Anti-Virus software where applicable:

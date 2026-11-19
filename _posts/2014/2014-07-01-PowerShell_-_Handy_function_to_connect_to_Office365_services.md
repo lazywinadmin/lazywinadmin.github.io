@@ -48,13 +48,13 @@ Here is a very handy function that you can include to your PowerShell Profil to 
 <b><u>Requirements</u></b>
 
 <ul>
-* <b>Azure Active Directory</b><a href="http://technet.microsoft.com/en-us/library/jj151815.aspx#BKMK_Requirements" target="_blank">Download</a>
+* <b>Azure Active Directory</b> <a href="http://technet.microsoft.com/en-us/library/jj151815.aspx#BKMK_Requirements" target="_blank">module requirements on Microsoft Docs</a>
 
 * <b>Exchange Online PowerShell</b>(no download needed, the function will create an implicit remoting module)
 
 * <b>SharePoint Online PowerShell</b>(no download needed, the function will create an implicit remoting module)
 
-* <b>Lync Online PowerShell</b><a href="http://www.microsoft.com/en-us/download/details.aspx?id=39366" target="_blank">Download</a>
+* <b>Lync Online PowerShell</b> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=39366" target="_blank">Lync Online PowerShell module download</a>
 </ul>
 
 

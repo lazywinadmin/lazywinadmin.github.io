@@ -27,7 +27,7 @@ But before I get into the code, a small reminder on the Manifest file's role.
 
 
 >A module manifest is a Windows PowerShell data file (.psd1) that describes the contents of a module and determines how a module is processed. The manifest file itself is a text file that contains a hash table of keys and values. You link a manifest file to a module by naming it the same as the module, and placing it in the root of the module directory.
-> <br> For simple modules that contain only a single .psm1 or binary assembly, a module manifest is optional. However, it is recommended that you use a module manifest whenever possible, as they are useful to help you organize your code and to maintain versioning information. <a href="https://web.archive.org/web/20170923132918/https://msdn.microsoft.com/en-us/library/dd878337(v=vs.85).aspx">More info</a>.<br><br>
+> <br> For simple modules that contain only a single .psm1 or binary assembly, a module manifest is optional. However, it is recommended that you use a module manifest whenever possible, as they are useful to help you organize your code and to maintain versioning information. See the <a href="https://web.archive.org/web/20170923132918/https://msdn.microsoft.com/en-us/library/dd878337(v=vs.85).aspx">Microsoft Docs article on module manifests</a>.<br><br>
 
 (You'll find at the end of this article the command that I use to generate my manifest.)
 

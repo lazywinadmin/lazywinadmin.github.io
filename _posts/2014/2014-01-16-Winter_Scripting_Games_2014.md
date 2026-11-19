@@ -158,17 +158,17 @@ We tested a couple of tools like SkyDrive, GitHub, GoogleDocs, PiratePad, ... an
 Finally, I want to introduce the team I will work with for the Winter Scripting Games 2014, the<u></u> <b>Posh Monks</b> team!!<b>
 </b>
 
-* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdmin</a> - <a href="http://lazywinadmin.com/" target="_blank">Blog</a>
+* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdmin</a> - <a href="http://lazywinadmin.com/" target="_blank">LazyWinAdmin blog</a>
 
-* <b>Stephane Van Gulick</b> (Switzerland GMT+1:00) <a href="https://twitter.com/Stephanevg" target="_blank">@Stephanevg</a> - <a href="http://powershelldistrict.com/" target="_blank">Blog</a>
+* <b>Stephane Van Gulick</b> (Switzerland GMT+1:00) <a href="https://twitter.com/Stephanevg" target="_blank">@Stephanevg</a> - <a href="http://powershelldistrict.com/" target="_blank">PowerShell District blog</a>
 
-* <b>Deepak Dhami</b> (India GMT+5:30) <a href="https://twitter.com/DexterPOSH" target="_blank">@DexterPOSH</a> - <a href="http://dexterposh.blogspot.ca/" target="_blank">Blog</a>
+* <b>Deepak Dhami</b> (India GMT+5:30) <a href="https://twitter.com/DexterPOSH" target="_blank">@DexterPOSH</a> - <a href="http://dexterposh.blogspot.ca/" target="_blank">DexterPOSH blog</a>
 
 * <b>Allister Philippe</b> (France GMT+1:00)
 
 * <b>Benjamin Rouleau</b> (France GMT+1:00)
 
-* <b>Guido Oliviera</b> (Brazil GMT -3:00) <a href="https://twitter.com/_Guido_Oliveira" target="_blank">@_Guido_Oliveira</a> - <a href="http://guidooliveira.com/" target="_blank">Blog</a>
+* <b>Guido Oliviera</b> (Brazil GMT -3:00) <a href="https://twitter.com/_Guido_Oliveira" target="_blank">@_Guido_Oliveira</a> - <a href="http://guidooliveira.com/" target="_blank">Guido Oliveira's blog</a>
 
 As you can see we are almost all on a different TimeZones, so this will probably very challenging, but I'm sure we'll have some great fun :-) 
 

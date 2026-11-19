@@ -70,7 +70,7 @@ PowerShell can be installed using different methods:
 - MacOS: `brew cask install powershell`
 - Using the .NET SDK: `dotnet tool install --global PowerShell`
 
-Other methods are available [here](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.0).
+Other methods are available on the [PowerShell 7.0.0 GitHub release page](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.0).
 
 
 ## ForEach-Object -Parallel

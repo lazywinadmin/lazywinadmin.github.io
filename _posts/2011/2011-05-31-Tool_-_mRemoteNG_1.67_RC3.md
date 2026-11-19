@@ -12,7 +12,7 @@ comments: true
 
 New version of one of my favorite Admin tool: **mRemoteNG**
 
-[Download](http://www.mremoteng.org/download/rc)
+[mRemoteNG release candidate download](http://www.mremoteng.org/download/rc)
 
 ## Changes from 1.67 RC2 to 1.67 RC3
 

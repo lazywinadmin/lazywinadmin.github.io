@@ -22,7 +22,7 @@ The certification name:<b>Windows PowerShell 3.0 Toolmaking.</b>
 <u>More information:</u>
 
 
-* <b><a href="http://donjones.com/verified/" target="_blank">Official </a><a href="http://donjones.com/verified/" target="_blank">Website</a></b>
+* <b><a href="http://donjones.com/verified/" target="_blank">Official </a><a href="http://donjones.com/verified/" target="_blank">Don Jones Verified site</a></b>
 
 * Certification <b>Program Guide (PDF file, no longer available)</b>.
 

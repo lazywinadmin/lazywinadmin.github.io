@@ -107,7 +107,7 @@ The module<b>iSCSI</b>is used for all iSCSI<u>Initiator-specific Cmdlets</u>and 
 ### <span style="font-size: x-large;">Installation of iSCSI Target Server
 
 
-In order to be able to use the Storage Features related to iSCSI, you will need to install the iSCSI Target Server Feature. This can be perform via the <i>Server Manager Console</i> but here I will only focus on PowerShell. You can find the UI procedure<a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">here</a>
+In order to be able to use the Storage Features related to iSCSI, you will need to install the iSCSI Target Server Feature. This can be perform via the <i>Server Manager Console</i> but here I will only focus on PowerShell. You can find the UI procedure in <a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">Cavarpe's post on configuring Windows Server 2012 as an iSCSI storage server</a>
 
 
 ```powershell
@@ -122,7 +122,7 @@ Add-WindowsFeature -Name FS-iSCSITarget-Server
 ```
 
 <u style="background-color: yellow;">Optionally</u>
-You might also want to install the iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="https://web.archive.org/web/20151225130716/http://blogs.technet.com:80/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">more info</a>)
+You might also want to install the iSCSITarget-VSS-VDS WindowsFeature too to be able to manage older application(s) that need <b>VDS</b> (Virtual Disk Service) and <b>VSS</b> (Volume Snapshot Service) to create volume shadow copies of data on iSCSI virtual disks. VSS is also used by some backup solutions. (<a href="https://web.archive.org/web/20151225130716/http://blogs.technet.com:80/b/filecab/archive/2012/10/08/iscsi-target-storage-vds-vss-provider.aspx" target="_blank">TechNet FileCab post on the iSCSI Target VDS/VSS provider</a>)
 
 
 ```powershell
@@ -142,7 +142,7 @@ Add-WindowsFeature -Name FS-iSCSITarget-VSS-VDS
 ### <span style="font-size: x-large;">Configuration of iSCSI Target Server
 
 
-Again, here I'll use only PowerShell Cmdlets. You can find the UI procedure <a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">here</a>
+Again, here I'll use only PowerShell Cmdlets. You can find the UI procedure in <a href="http://cavarpe.wordpress.com/2012/09/04/configure-windows-server-2012-as-a-iscsi-storage-server/" target="_blank">Cavarpe's post on configuring Windows Server 2012 as an iSCSI storage server</a>
 
 
 #### Overview
