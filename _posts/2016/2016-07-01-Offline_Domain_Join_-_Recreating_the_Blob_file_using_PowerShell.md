@@ -23,7 +23,7 @@ Using that same method, I recently had a tricky problem to solve. The environmen
 
 Fortunately the system handling the deployment could perform action on other systems and gather data. I could rely on something like System Center Orchestrator (or SMA) and get the content of the Blob file over HTTP/HTTPS by invoking a runbook.
 
-Recreating the djoin file with the content was a bit trickier. Djoin is really picky on how the file is created. (see <a href="https://web.archive.org/web/20160908063120/http://www.msuiche.net/2009/01/29/windows-7-and-windows-server-2008-r2-djoin-offline-domain-join-utility/" target="_blank">here</a> and <a href="http://www.win7dll.info/netjoin_dll.html" target="_blank">here</a> for more information)
+Recreating the djoin file with the content was a bit trickier. Djoin is really picky on how the file is created. (see the <a href="https://web.archive.org/web/20160908063120/http://www.msuiche.net/2009/01/29/windows-7-and-windows-server-2008-r2-djoin-offline-domain-join-utility/" target="_blank">msuiche.net post on the djoin offline domain join utility</a> and <a href="http://www.win7dll.info/netjoin_dll.html" target="_blank">the netjoin.dll page on win7dll.info</a> for more information)
 
 > ## Using Djoin
 > Djoin comes with Windows Client and Server since Windows 7 and Windows Server 2008 R2 installation. Djoin requires administrator privileges, you have to use the tool on an elevated command prompt. Of course, you also need an account that has sufficient rights to create domain computer accounts.

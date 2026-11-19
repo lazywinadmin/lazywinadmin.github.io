@@ -87,7 +87,7 @@ resource "azurerm_automation_module" "mymodule" {
 
 ## Code
 
-*Show me the code already! Jump to [download](#download)*
+*Show me the code already! Jump to [the Download section](#download)*
 
 In the following I'm using Terraform and the azurerm provider to create the resources needed. Nothing very complicated but a few requirements to be aware of.
 

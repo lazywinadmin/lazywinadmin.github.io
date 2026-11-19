@@ -618,7 +618,7 @@ comments:
   provider               : "utterances"
 ```
 
-However if your blog does not, you can find information on the following [page](https://utteranc.es/).
+However if your blog does not, you can find information on the [Utterances site](https://utteranc.es/).
 
 ## Final result
 

@@ -177,7 +177,7 @@ Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,password
 <u>Note about LastLogon, LastLogonTimestamp or LastLogonDate property.</u>
 
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Get ADUser LastLogon Properties" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/Get-ADUser_LastLogon_Properties__291692481__-507x98.png" width="507" height="98" /></a>
-<a href="https://web.archive.org/web/20131006015929/http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">Article</a> about `LastLogonTimeStamp` and`LastLogon` properties :
+<a href="https://web.archive.org/web/20131006015929/http://aducadmin.com/ad-attributes-last-logon-timestamp/" target="_blank">ADUCAdmin article</a> about `LastLogonTimeStamp` and`LastLogon` properties :
 <blockquote class="tr_bq"><i>The reason why most people want to obtain these values is to find out if a user or computer object can be safely deleted. If you want to know when someone logged on to a computer in your network for the exact last time, search for the last logon value. If you want to know when someone last accessed a resource in your network (accessed webmail or one of your file systems etc), search for the last logon timestamp value. <b>If you want to know when someone last used any network resource, search for the most recent of both values.</b></i></blockquote><b style="font-size: x-large;">
 </b><b style="font-size: x-large;">Random User</b>
 PowerShell comes with a Cmdlet called `Get-Randomsince` the version 2.
@@ -209,7 +209,7 @@ I like to build my function that way.
 </u>
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function explained" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" /></a>
 Help about <a href="http://technet.microsoft.com/en-us/library/hh847766.aspx" target="_blank">Throw</a> and <a href="http://technet.microsoft.com/en-us/library/hh847793.aspx" target="_blank">Try/Catch/Finally</a>
-Article about Error Handling<a href="http://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell" target="_blank">here</a>.
+Article about Error Handling: the <a href="http://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell" target="_blank">Vexasoft tutorial on try/catch/finally in PowerShell</a>.
 <b style="font-size: x-large;">
 </b>
 <b>What I missed ?</b>

@@ -18,7 +18,7 @@ comments: true
 <div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Resources</span></b><div class="" style="clear: both; text-align: left;">
 * <a href="http://technet.microsoft.com/en-us/library/hh237242.aspx" target="_blank">Technet Documentation</a></div></div>
 
-* <a href="http://technet.microsoft.com/en-US/evalcenter/hh505660.aspx?wt.mc_id=TEC_103_1_5" target="_blank">Download</a>
+* <a href="http://technet.microsoft.com/en-US/evalcenter/hh505660.aspx?wt.mc_id=TEC_103_1_5" target="_blank">System Center Orchestrator evaluation download</a>
 
 * VIDEO:<a href="http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-B201#fbid=o7rk9O5rx58" target="_blank">Microsoft System Center 2012 - Orchestrator: Crash Course</a>
 

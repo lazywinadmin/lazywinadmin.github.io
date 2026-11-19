@@ -81,7 +81,7 @@ FOREACH ($Proc in $Processors){
 }#FOREACH $Proc in $Processors
 ```
 
-<u style="font-weight: bold;">Note:</u>For the Processor part, I think Mike F Robbins got a betterapproached, Check his post <a href="http://mikefrobbins.com/2013/05/07/2013-powershell-scripting-games-advanced-event-2-attention-to-detail-is-everything/" target="_blank">here.</a>
+<u style="font-weight: bold;">Note:</u>For the Processor part, I think Mike F Robbins got a betterapproached, Check <a href="http://mikefrobbins.com/2013/05/07/2013-powershell-scripting-games-advanced-event-2-attention-to-detail-is-everything/" target="_blank">Mike F. Robbins' post on Scripting Games 2013 Advanced Event 2</a>.
 
 
 Vote for me! And Comment!

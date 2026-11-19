@@ -30,7 +30,7 @@ toc_label: "Table of content"
 
 {{mynote}}{: .notice--warning}
 
-I recently worked on a small PowerShell module to interact with the SpaceX Data REST API ([available here](https://github.com/r-spacex/SpaceX-API) ).
+I recently worked on a small PowerShell module to interact with the SpaceX Data REST API ([SpaceX-API on GitHub](https://github.com/r-spacex/SpaceX-API)).
 
 The API allows you to gather data regarding company info, vehicles, launch sites, and launch data.
 
