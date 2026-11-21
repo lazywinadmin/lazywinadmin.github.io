@@ -17,7 +17,7 @@ header:
   teaserlogo: images/2017/2017-03-29-ResolveDNSEntry/http.png
 ---
 
-Here is one way to resolve a DNS Entry usng .NET
+Here is one way to resolve a DNS Entry using .NET
 
 ```powershell
 [System.net.DNS]::resolve('SERVER')

@@ -86,7 +86,7 @@ From my understanding this is how the OneGet module interact with the package ma
 
 
 
-<a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/OneGet_Workfow_v8__45444797__-797x833.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="OneGet Workfow v8" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/OneGet_Workfow_v8__45444797__-797x833.png" height="640" width="612" /></a>
+<a href="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/OneGet_Workfow_v8__45444797__-797x833.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="OneGet Workflow v8" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140407_PowerShell_-_Playing_with_the_new_OneGet_module_(v5_preview)/OneGet_Workfow_v8__45444797__-797x833.png" height="640" width="612" /></a>
 
 
 

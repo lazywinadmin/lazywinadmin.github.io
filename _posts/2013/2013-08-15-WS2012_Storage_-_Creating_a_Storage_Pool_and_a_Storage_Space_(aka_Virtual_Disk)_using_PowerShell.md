@@ -51,7 +51,7 @@ The cost to acquire and manage highly available and reliable storage can represe
 
 * <b>Initializing the Virtual Disk</b>
 
-* <b>Partitioning and Formating</b>
+* <b>Partitioning and Formatting</b>
 
 
 
@@ -67,7 +67,7 @@ There are two primary types of pools which are used in conjunction with Storage 
 
 <b>Concrete Pool:</b>A Concrete pool is a specific collection of Physical Disks that was formed by the user to allow creating Storage Spaces (aka Virtual Disks).
 
-<b>Storage Space:</b>Virtual disks with associated attibutes that include a desired level of resiliency, thin of fixed provisioning, automatic or controlled allocation on diverse storage media, and precise administrative control.
+<b>Storage Space:</b>Virtual disks with associated attributes that include a desired level of resiliency, thin of fixed provisioning, automatic or controlled allocation on diverse storage media, and precise administrative control.
 
 
 
@@ -290,7 +290,7 @@ In the preceding example, we determined that the disk we need to initialize is d
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-51-24_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Image 13 from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/2013-07-23_11-51-24_PM.png" width="638" height="130" /></a>
 <div markdown="1" class="separator" style="clear: both; text-align: left;">
 
-### <span style="font-size: x-large;">Partitioningand Formating
+### <span style="font-size: x-large;">Partitioning and Formatting
 
 <div markdown="1" class="separator" style="clear: both; text-align: left;">Now that disk 5 is initialized, the next step is to create a partition on the Storage Space, which can be done via the `New-Partition` cmdlet.<div markdown="1" class="separator" style="clear: both; text-align: left;">
 ```powershell

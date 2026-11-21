@@ -153,7 +153,7 @@ adspath                        {LDAP://CN=LAB1VC02,OU=Servers,OU=TEST,DC=FX,DC=L
 
 ```
 
-The output is poorly formated and we have some extra curly brackets that need to be take care of... Let's fix that by creating a new PowerShell object for each item retrieve by the query.
+The output is poorly formatted and we have some extra curly brackets that need to be take care of... Let's fix that by creating a new PowerShell object for each item retrieve by the query.
 
 ```powershell
 $searcher = [adsisearcher]"(&amp;(objectcategory=computer)(lastlogontimestamp<=$((Get-Date).AddDays(-90).ToFileTime())))"

@@ -28,7 +28,7 @@ I moved my blog from Google Blogger to Github Pages and Jekyll about 2 years ago
 1. forked the repository,
 1. rename the repository to `<github username>.github.io`
 1. Blog up and running! 🚀
-1. You can now clone your fork locally and start writting blog posts.
+1. You can now clone your fork locally and start writing blog posts.
 
 The migration of my old blog posts and comment was another story 😶.
 

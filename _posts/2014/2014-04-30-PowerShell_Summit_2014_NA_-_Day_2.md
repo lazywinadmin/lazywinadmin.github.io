@@ -16,7 +16,7 @@ comments: true
 
 <b><u>Note:</u></b> The names of the PowerShell Team members might not be correct, sorry about that (please correct me!)
 
-<b><u>PshSummit 2014 NA serie posts:</u></b>
+<b><u>PshSummit 2014 NA series posts:</u></b>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-1.html" target="_blank">PowerShell Summit 2014 NA - Day 1</a>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-iron-scripter.html" target="_blank">PowerShell Summit 2014 NA - Iron Scripter Competition</a>
 PowerShell Summit 2014 NA - Day 2 <i>(current post)</i>

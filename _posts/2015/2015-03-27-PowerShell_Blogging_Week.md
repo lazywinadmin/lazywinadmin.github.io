@@ -15,7 +15,7 @@ comments: true
 
 <b>But.. what is the PowerShell Blogging Week: </b>This event was initiated by Jeffery Hicks and Adam Bertram and will focus on one PowerShell topic.
 
-Each participants will be posting one article on his/her affected day, on their respective blog.  You can follow the event by following the blogs bellow, using the twitter hashtag <a href="https://twitter.com/search?q=%23PSBlogWeek&amp;src=typd" target="_blank">#PSBlogWeek</a> or the <a href="https://twitter.com/mikefrobbins/lists/psblogweek" target="_blank">Twitter list</a> created by Mike F Robbins.
+Each participants will be posting one article on his/her affected day, on their respective blog.  You can follow the event by following the blogs below, using the twitter hashtag <a href="https://twitter.com/search?q=%23PSBlogWeek&amp;src=typd" target="_blank">#PSBlogWeek</a> or the <a href="https://twitter.com/mikefrobbins/lists/psblogweek" target="_blank">Twitter list</a> created by Mike F Robbins.
 
 <u>Topic of this week:</u> <b>PowerShell Advanced Functions</b>.
 
@@ -30,4 +30,4 @@ Here's the list of bloggers who are involved, their Names, Twitter handles and t
 | June Blender | [@juneb_get_help](http://twitter.com/juneb_get_help) | http://www.sapien.com/blog/ |
 | Mike F. Robbins | [@mikefrobbins](http://twitter.com/mikefrobbins) | http://mikefrobbins.com/ |
 
-Stay tunned !
+Stay tuned !

@@ -14,7 +14,7 @@ comments: true
  
  <a href="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%2B6-43-32%2BPM__34967239__-298x308.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Summit 2014 NA - Iron Scripter scenario&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140429_PowerShell_Summit_2014_NA_-_Iron_Scripter_scenario/2014-03-11%2B6-43-32%2BPM__34967239__-298x308.jpg" height="200" width="193" /></a>Monday evening, the PowerShell Summit 2014 NA organized an Iron Scripter competition. The goal was to fix/create 3 scripts and to get them rated by 3 juges. We had 45 minutes to complete everything, including time for the juges to score the scripts.
 
-<b><u>PshSummit 2014 NA serie posts:</u></b>
+<b><u>PshSummit 2014 NA series posts:</u></b>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-1.html" target="_blank">PowerShell Summit 2014 NA - Day 1</a>
 PowerShell Summit 2014 NA - Iron Scripter Competition <i>(current post)</i>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-2.html" target="_blank">PowerShell Summit 2014 NA - Day 2</a>
@@ -28,7 +28,7 @@ PowerShell Summit 2014 NA - Iron Scripter Competition <i>(current post)</i>
 ## Iron Scripter
 
 <b><u>Score system</u></b>
-You will be awarded 1-5 points in each of four categories: Presentation (formating), Creativity, Use of Theme Ingredient, and Tast (functionality)
+You will be awarded 1-5 points in each of four categories: Presentation (formatting), Creativity, Use of Theme Ingredient, and Taste (functionality)
 
 <b><u>Theme Ingredient</u></b> : <b>CIM</b>
 

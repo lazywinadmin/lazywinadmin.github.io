@@ -189,7 +189,7 @@ New-IscsiServerTarget -TargetName TestTarget1 -InitiatorId IPAddress:192.168.1.1
 New-IscsiServerTarget -TargetName TestTarget1 -InitiatorId "IQN:iqn.1998-01.com.vmware:LAB1VH01-675d7f45"
 ```
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_7-15-17_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 11 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-07_7-15-17_PM.png" width="839" height="348" /></a>
-#### Finding the IQN of your iSCSI Initator
+#### Finding the IQN of your iSCSI Initiator
 
 
 <u>UsingVMware vSphere Client:</u>You can find the <b>IQN</b> in the properties of your <b>iSCSI Software Adapter</b>.

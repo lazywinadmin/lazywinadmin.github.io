@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "PowerShell Tip: Parse a date inside a string"
-excerpt: "I was recently parsing a bunch of logs where the date and time were in a format that Get-Date couldn't interprete..."
+excerpt: "I was recently parsing a bunch of logs where the date and time were in a format that Get-Date couldn't interpret..."
 permalink:
 tags:
 - powershell
@@ -64,7 +64,7 @@ Date           Type Message
 
 ## Problem and Solution
 
-However the first column `Date` is not interprated as a DateTime type. For this you can leverage the Method `ParseExact` from the `[datetime]` class.
+However the first column `Date` is not interpreted as a DateTime type. For this you can leverage the Method `ParseExact` from the `[datetime]` class.
 
 You'll need to pass the value and the format. The format strings available can be found in the [Microsoft Docs article on standard date and time format strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
 * `yyyy`  : Year

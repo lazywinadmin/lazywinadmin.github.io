@@ -24,7 +24,7 @@ For the 2014 Edition however, the formula of the Scripting Games is a bit differ
 
 * <u>Teams</u>: This edition of the Scripting Games is a team work event ! No more Solo mode, participants have to create or join a team (from 2 to a maximum of 6 team members),
 
-* <u>Coaches</u>: A list of experts will give advices/critics on the posted script via comments or blog posts.
+* <u>Coaches</u>: A list of experts will give advice/critics on the posted script via comments or blog posts.
 
 * <u>Judges</u>: A team of MVPs and Well-known PowerShell Guru will scores each of the scripts. 
 
@@ -66,7 +66,7 @@ Here are the most important Information you will need for the games. Note that t
 
 
 
-## Stay Tunned !
+## Stay Tuned !
 
 
 * <a href="https://web.archive.org/web/20140701200104/http://powershell.org/wp/category/announcements/scripting-games/" target="_blank">PowerShell.org posts</a>
@@ -136,7 +136,7 @@ Since this event is a Team work task, we had to find a tool that can handle a fe
 
 * Versioning/Version Control
 
-* PowerShell Syntax Highlightin
+* PowerShell Syntax Highlighting
 
 * Private 
 

@@ -72,7 +72,7 @@ So I created a PowerShell script to handle this task and report all the Missing 
 
 <u>The report will contains:</u>
 
-* One table with the Missings Subnets from all the Domain Controllers
+* One table with the Missing Subnets from all the Domain Controllers
 * The other error(s) found in the last 200 lines of each NETLOGON.log on each Domain Controllers(200 is default)
 
 ![AD Missing Subnets email report annotated with the missing subnets from all DCs, the domain controller name, and the other errors found for each DC]({{ site.url }}/images/2013/PowerShell_-_Report_the_AD_Missing_Subnets_from_the_NETLOGON_log/2013-10-20_9-36-27_PM.png){: .align-center width="509" height="370"}

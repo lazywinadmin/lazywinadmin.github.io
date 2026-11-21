@@ -131,7 +131,7 @@ Expend your Form and add a DataGridView control.
 <div markdown="1" class="separator" style="clear: both; font-size: medium; font-weight: normal; text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (7)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-14-08_PM.png" width="739" height="483" /></a>
 
 
-When you add the DataGridView to your form, you will notice that PowerShell Studio 2012 automatically add one ore more functions that can interact with this kind of control, you can write your own of course but this make things simpler for people who don't know which properties to modify or methods to invoke.
+When you add the DataGridView to your form, you will notice that PowerShell Studio 2012 automatically add one or more functions that can interact with this kind of control, you can write your own of course but this make things simpler for people who don't know which properties to modify or methods to invoke.
 
 
 

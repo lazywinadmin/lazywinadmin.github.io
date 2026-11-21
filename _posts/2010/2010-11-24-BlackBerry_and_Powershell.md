@@ -15,7 +15,7 @@ toc: true
 
 ## Summary
 
-Something that might be useful to anyone that uses poweshell alot. I wrote this so I could quickly look up a users information instead of having to go the BES Admin console. I put this in my profile.ps1 along with my other custom functions so it loads when i open powershell.
+Something that might be useful to anyone that uses poweshell a lot. I wrote this so I could quickly look up a users information instead of having to go the BES Admin console. I put this in my profile.ps1 along with my other custom functions so it loads when i open powershell.
 
 ## Requirements
 

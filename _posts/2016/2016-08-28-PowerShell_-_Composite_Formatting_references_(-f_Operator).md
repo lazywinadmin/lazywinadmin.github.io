@@ -177,7 +177,7 @@ Here is a quick example `"Welcome to {0}" -f "LazyWinAdmin.com"`
 (Get-date).tostring('yyyyMMdd') #20160828
 ```
 
-### Alignement / Spacing
+### Alignment / Spacing
 
 ```powershell
 ########################

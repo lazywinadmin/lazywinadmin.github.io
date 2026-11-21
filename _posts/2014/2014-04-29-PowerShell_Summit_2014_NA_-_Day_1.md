@@ -23,7 +23,7 @@ For me it was kind of a long day, I am still jet lagged and couldn't sleep anymo
 
 <u><b>Note</b></u><b><u>about recorded sessions:</u></b> I saw some people were recording some of the sessions using microphones and camera....so hopefully they will upload those online some time soon. However, cool thing to know... Don Jones <a href="https://web.archive.org/web/20210508052056/https://www.indiegogo.com/projects/powershell-summit-session-recording" target="_blank">started a crowd funding</a> this morning with a first goal of 3000$USD and he already reached it!! Currently there is 3300$USD raised! only 10hours! This money will be used to buy a device that sit between the screen/projector and the computer (basically capture the display output from the computer).
 
-<b><u>PshSummit 2014 NA serie posts:</u></b>
+<b><u>PshSummit 2014 NA series posts:</u></b>
 PowerShell Summit 2014 NA - Day 1 <i>(current post)</i>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-iron-scripter.html" target="_blank">PowerShell Summit 2014 NA - Iron Scripter Competition</a>
 <a href="{{ site.url }}/2014/04/powershell-summit-2014-na-day-2.html" target="_blank">PowerShell Summit 2014 NA - Day 2</a>

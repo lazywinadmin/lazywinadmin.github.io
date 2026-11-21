@@ -76,7 +76,7 @@ comments: true
 <u>
 </u><u>Prerequisites</u>
 <div class="" style="clear: both; text-align: left;">* 
-* Mimimum of 1GB of RAM
+* Minimum of 1GB of RAM
 
 * .Net 3.5 SP1
 

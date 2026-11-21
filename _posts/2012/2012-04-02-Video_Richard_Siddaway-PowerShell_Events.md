@@ -26,7 +26,7 @@ See [@rsiddaway](https://twitter.com/#%21/rsiddaway)/[Richard Siddaway](http://r
 <i>Between them they give a handle into the inner workings of your system. A customizable, generic approach to handling events will be presented that enables you to perform actions based on the events detected. Events don't just provide an insight into what's happening. We can use them to trigger system actions for us — a self-healing system anyone</i>
 
 <i></i>
-<i>The key take aways from this session will be:</i>
+<i>The key takeaways from this session will be:</i>
 
 <i>* The PowerShell event engine enables you to interact at a closer level with your system</i>
 

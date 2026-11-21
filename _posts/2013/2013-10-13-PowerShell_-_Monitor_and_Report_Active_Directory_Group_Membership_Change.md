@@ -140,7 +140,7 @@ The script is a bit complex to understand, so I created a small workflow that ex
 #### PowerShell v3.0
 
 You will need PowerShell version 3.0 to take advantage <span style="background-color: yellow;"><b><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">[mailaddress]</span></b> which make a validation on the Source and Destination Email addresses.
-<h4>Quest Active Directory PowerShell Snappin</h4></span>
+<h4>Quest Active Directory PowerShell Snap-in</h4></span>
 
 I used the Quest Active Directory Snapin to do my queries, <a href="http://www.quest.com/powershell/activeroles-server.aspx" target="_blank">get it here</a>
 In the next update I plan to add support for the Active Directory module (maybe ADSI too).

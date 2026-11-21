@@ -90,7 +90,7 @@ Press the `Windows Key` + `R` on your keyboard or click on `Start` > `Start Sear
 * Sound Recorder = `soundrecorder`
 * Sound Volume = `sndvol`
 * Sounds and Audio = `mmsys.cpl`
-* Spider Solitare Card Game = `spider`
+* Spider Solitaire Card Game = `spider`
 * SQL Client Configuration = `cliconfg`
 * Sticky Note = `StikyNot`
 * Stored User Names and Passwords = `credwiz`
@@ -113,7 +113,7 @@ Press the `Windows Key` + `R` on your keyboard or click on `Start` > `Start Sear
 * Windows Management Infrastructure = `wmimgmt.msc`
 * Windows Media Player = `wmplayer`
 * Windows Share Creation Wizard = `shrpubw`
-* Windows Standalong Update Manager = `wusa`
+* Windows Standalone Update Manager = `wusa`
 * Windows System Security Tool = `syskey`
 * Windows Update App Manager = `wuapp`
 * Wordpad = `write`

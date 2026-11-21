@@ -21,7 +21,7 @@ Windows PowerShell is now a cross platform technology with the <b>availability o
 Today (2016/08/18) also marks the 10th Anniversary of PowerShell ! Quite a surprise that the PowerShell team prepared for us :-) Given the recent changes in leadership and culture, It is really nice to see Microsoft taking that direction.
 
 
-<a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1227934463__-1027x653.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Whats new today" loading="lazy" decoding="async" border="0" height="203" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1312684459__-320x204.png" width="320" /></a>
+<a href="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1227934463__-1027x653.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="What's new today" loading="lazy" decoding="async" border="0" height="203" src="{{ site.url }}/images/2016/20160818_PowerShell_10th_Anniversary_-_Open_Source__Running_on_Linux_and_Mac_OS_X/Whats+new+today__1312684459__-320x204.png" width="320" /></a>
 
 
 ## PowerShell is now Open Source
@@ -145,7 +145,7 @@ Some of the features:
 
 * PowerShell Classes
 * Pester
-* PowerShell JEA (Just Enought Administration)
+* PowerShell JEA (Just Enough Administration)
 * PacketManagement (OneGet)
 * Debugging Runspaces in remote processes
 * Debugging PowerShell Background jobs

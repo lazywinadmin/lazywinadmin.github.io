@@ -146,7 +146,7 @@ OU=MTL1
 ```
 
 Finally we can use the method `SubString()` to select the piece of text we want.
-The first letter of the Site code comes after the `=` sign, so it will be charactere number **3**.
+The first letter of the Site code comes after the `=` sign, so it will be character number **3**.
 
 ```powershell
 PS C:\> ("OU=MTL1,OU=CORP,DC=FX,DC=LAB" -split ',')[0].substring(3)
