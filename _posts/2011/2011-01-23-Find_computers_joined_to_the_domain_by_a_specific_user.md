@@ -37,7 +37,7 @@ $UserSID = (Get-ADUser $UserName -Property objectsid).objectsid
 Get-ADComputer -SizeLimit 0 -LdapFilter "(&(objectcategory=computer)(mS-DS-CreatorSid=$UserSID)"
 ```
 
-## With Quest Active Directory PowerShell snappin
+## With Quest Active Directory PowerShell snap-in
 
 ```powershell
 # Find computers joined to the domain by a specific user

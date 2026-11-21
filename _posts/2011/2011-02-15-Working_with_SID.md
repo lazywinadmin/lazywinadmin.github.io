@@ -13,7 +13,7 @@ comments: true
 toc: true
 ---
 
-I recently had to write mutliple scripts that were using a few different methods to convert SID to name and vice versa for Local and Active Directory accounts.
+I recently had to write multiple scripts that were using a few different methods to convert SID to name and vice versa for Local and Active Directory accounts.
 
 Here
 Here is a PowerShell tip to convert Active Directory account from Name to SID and vice versa

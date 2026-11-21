@@ -42,7 +42,7 @@ Quick overview of my NFS Service architecture in my Home Lab</i></td></tr></tbod
 
 Before I start, if you are not familiar with NFS, W2012or vSphere 5.1, please check the following links:
 
-* NFS stands fo Networ FileSystem <a href="http://en.wikipedia.org/wiki/Network_File_System" target="_blank">Wikipedia</a>
+* NFS stands for Network File System <a href="http://en.wikipedia.org/wiki/Network_File_System" target="_blank">Wikipedia</a>
 * <a href="https://web.archive.org/web/20160112031001/http://blogs.technet.com/b/filecab/archive/2012/09/14/server-for-nfs-in-windows-server-2012.aspx" target="_blank">Windows Server 2012 - Server for NFS</a>
 * <a href="https://web.archive.org/web/20130808151150/http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Storage-Technical-Whitepaper.pdf" target="_blank">What's New in vSphere 5.1 - Storage</a>
 
@@ -124,7 +124,7 @@ Continue by clicking oAdd Features</td></tr></tbody></table>
 Right click on the folder and selectProperties, you will see a new tab calledNFS Sharing
 Click onManage NFS Sharing</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS06__1089662780__-762x638.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 10 from the post &quot;WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS06__1089662780__-762x638.png" width="762" height="638" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">On the <u>NFS Share Permission</u> windows, change the Type of access t READ-WRITE,
-andCheck the <u>Allow root access</u>propertie.
+andCheck the <u>Allow root access</u>property.
 ClickOK to complete.</td></tr></tbody></table>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS07__318342633__-383x503.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 11 from the post &quot;WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS07__318342633__-383x503.png" width="383" height="503" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">And you are done! Under the "<u>Services for NFS Sharing</u>" area 
 you can find the information about your current NFS share.

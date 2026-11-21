@@ -24,7 +24,7 @@ I did not have any handy machine with only PS2 installed so I had to register a 
 Register-PSSessionConfiguration -Name PS2 -PSVersion 2
 ```
 
-To access to this PSSession Configuration remotly, you would do the following
+To access to this PSSession Configuration remotely, you would do the following
 
 ```powershell
 # Access the PSSession configuration created above remotely

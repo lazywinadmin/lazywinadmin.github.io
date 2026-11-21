@@ -1,5 +1,5 @@
 ---
-description: "In a previous post I talked about parsing NetStat.exe using PowerShell and some regex, It is a fun exercice but require some knowledge to figure out how the…"
+description: "In a previous post I talked about parsing NetStat.exe using PowerShell and some regex, It is a fun exercise but require some knowledge to figure out how the…"
 layout: single
 title: PowerShell - Playing with the new ConvertFrom-String cmdlet
 excerpt: 
@@ -15,7 +15,7 @@ comments: true
 tldr: "A first look at ConvertFrom-String from the WMF 5.0 September 2014 preview, used to parse netstat.exe -n output. It splits on whitespace by default, names the columns with -PropertyNames, and removes leading spaces with -replace '^\\s+'. The post is based on pre-release software."
 ---
 
-<a href="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Playing with the new ConvertFrom-String cmdlet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" width="144" height="125" /></a>In a previous post I talked about <a href="{{ site.url }}/2014/08/powershell-parse-this-netstatexe.html" target="_blank">parsing NetStat.exe using PowerShell and some regex</a>, It is a fun exercice but require some knowledge to figure out how the parsing should happen.
+<a href="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Playing with the new ConvertFrom-String cmdlet&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140905_PowerShell_-_Playing_with_the_new_ConvertFrom-String_cmdlet/2014-09-04_20-28-34__556572779__-144x125.png" width="144" height="125" /></a>In a previous post I talked about <a href="{{ site.url }}/2014/08/powershell-parse-this-netstatexe.html" target="_blank">parsing NetStat.exe using PowerShell and some regex</a>, It is a fun exercise but require some knowledge to figure out how the parsing should happen.
 
 Today, It got way easier ! The PowerShell Team just released a new version of the WMF : <a href="https://devblogs.microsoft.com/powershell/windows-management-framework-5-0-preview-september-2014-is-now-available/" target="_blank">v5 September preview !</a> And One of the coolest feature is the new <b>ConvertFrom-String</b>cmdlet.
 

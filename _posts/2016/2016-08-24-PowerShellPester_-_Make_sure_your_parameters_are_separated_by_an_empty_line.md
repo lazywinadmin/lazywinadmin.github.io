@@ -105,7 +105,7 @@ Here we are using Regex and the Dollar sign `$` that will matches the ending of 
 $ParamTextSeparator = $ParamText | select-string ',$'
 ```
 
-* #4 - Then for each lines that finish by a comma character, we will check if the next line is empty or contains only white spaces, which is fine too. Again we will be using regex here, `^$` matches an empty line and `\s+` matches one ore more whitespaces. This should return either `$true` or `$false` and we can use Pester from here to return the success of failure of the test.
+* #4 - Then for each lines that finish by a comma character, we will check if the next line is empty or contains only white spaces, which is fine too. Again we will be using regex here, `^$` matches an empty line and `\s+` matches one or more whitespaces. This should return either `$true` or `$false` and we can use Pester from here to return the success of failure of the test.
 
 ```powershell
 $ParamText[$ParamLine] -match '^$|\s+' | Should Be $true

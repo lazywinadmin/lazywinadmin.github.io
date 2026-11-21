@@ -143,8 +143,8 @@ Enable-VMCopyPaste</h2>
 <h2 id="Get-ADGPOReplication">
 Get-ADGPOReplication</h2>
 <br />
-<u>Description:</u>Get-ADGPOReplication is retrieving the GPO version and Sysvol version accross the domain for one ore more Group Policy. This can help you troubleshoot replication issues.<br />
-<u>Blog post(s):</u> 2014/10/01<a href="http://www.lazywinadmin.com/2014/10/powershell-check-gpo-replication.html" target="_blank">PowerShell - Check the GPO Replication accross your domain</a><br />
+<u>Description:</u>Get-ADGPOReplication is retrieving the GPO version and Sysvol version across the domain for one or more Group Policy. This can help you troubleshoot replication issues.<br />
+<u>Blog post(s):</u> 2014/10/01<a href="http://www.lazywinadmin.com/2014/10/powershell-check-gpo-replication.html" target="_blank">PowerShell - Check the GPO Replication across your domain</a><br />
 <br />
 <u>Download:</u> <a href="https://web.archive.org/web/20151230035455/http://gallery.technet.microsoft.com/Get-GPO-Replication-4db47c83" target="_blank">Technet</a> / <a href="https://github.com/lazywinadmin/PowerShell/tree/master/AD-GPO-Get-ADGPOReplication" target="_blank">GitHub</a><br />
 <br />

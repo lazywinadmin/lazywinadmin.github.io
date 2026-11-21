@@ -13,7 +13,7 @@ comments: true
 ---
 
  The year 2013 has been a pretty good year for the LazyWinAdmin blog.
-Thank you guys for following my blog and participating to the comments discussions. Thanks also for those who give me advices, critics and ideas to improve my scripts, I think It helps everyone (and myself) to improve our knowledge everyday, Really appreciated :-)
+Thank you guys for following my blog and participating to the comments discussions. Thanks also for those who give me advice, critics and ideas to improve my scripts, I think It helps everyone (and myself) to improve our knowledge everyday, Really appreciated :-)
 
 I get more and more page views, comments,... every month :-) and I thought It would be nice to give a small Top Five 2013 of the LazyWinAdmin blog posts.
 
@@ -34,4 +34,4 @@ I get more and more page views, comments,... every month :-) and I thought It wo
 In 2013 I started playing a bit more <i>with Regex, this post talked about getting text from a string. I'll post more about this subject soon. </i>
 
 <b><a href="{{ site.url }}/2013/10/powershell-40-is-now-available.html" target="_blank">PowerShell 4.0 is now available</a></b>
-<i>The team of Jeffery Snover, the PowerShell Team, realeased a new version of this awesome tool ! more cmdlets!! more fun!!</i>
+<i>The team of Jeffery Snover, the PowerShell Team, released a new version of this awesome tool ! more cmdlets!! more fun!!</i>

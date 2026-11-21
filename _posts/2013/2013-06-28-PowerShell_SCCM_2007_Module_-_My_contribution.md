@@ -57,7 +57,7 @@ TotalSeconds      : 42.2735527
 TotalMilliseconds : 42273.5527
 ```
 <b>It took 42 seconds to finish this command</b>, that's pretty long... 
-Basically the command has to gather ALLLLLL the objects from the class `SMS_R_Systemand` then send it throught the pipe to `Where-Object` to filter on the `ResourceID` property.
+Basically the command has to gather ALLLLLL the objects from the class `SMS_R_Systemand` then send it through the pipe to `Where-Object` to filter on the `ResourceID` property.
 
 <u><span style="font-size: x-large;">Let's try to improve this and use some filtering! </span></u>
 

@@ -32,14 +32,14 @@ In this post I'm documenting my blog comment migration from Disqus to Github Iss
 
 When I initially started to blog on Google Blogger I did not really care where my comments where stored. I was happy with the solution provided by Google which allow the readers to authenticate using different systems or to remain anonymous.
 
-As the traffic on my blog started to rise, the amount of spam comments started to climb as well. Eventually I moved from the built-in comment system provided by Google to Disqus, the most popular (still?) comment system for websites/blog which was external to my blog and was better ot handle spam comments. The advantage being, Disqus handles the spam, the authentication of users and the email notifications when some one reply to their comments.
+As the traffic on my blog started to rise, the amount of spam comments started to climb as well. Eventually I moved from the built-in comment system provided by Google to Disqus, the most popular (still?) comment system for websites/blog which was external to my blog and was better to handle spam comments. The advantage being, Disqus handles the spam, the authentication of users and the email notifications when some one reply to their comments.
 
 ## Moving my blog to Github Pages
 
 At the beginning of 2017 I decided to move my blog to a Static site, hosted on Github Pages. This allowed me to have the control over the whole blog content, config and layout with the exception of the blog comments, which were still hosted in Disqus. Remapping my Disqus comments was straight forward as I just added the Disqus widget into my static site.
 
 Here is a representation of the setup with Disqus widget:
-1. I commited changes to my blog on a github repository
+1. I committed changes to my blog on a github repository
 1. Github re-generated the static site for me at each commit
 1. The Disqus widget is loaded in the browser when a user browse the page and this shows the comments for the current blog post url.
 
@@ -71,7 +71,7 @@ To comment, users must authorize the utterances app to post on their behalf usin
 
 * **Pros**:
   * No spam
-  * Authentification via Github 🛂
+  * Authentication via Github 🛂
   * Notifications managed by Github 📫
   * Emoticons 😸
   * Support Markdown 📖
@@ -167,7 +167,7 @@ Notice you have 2 main parts in this file, `thread` and `post`.
 * `thread` contains the blog post/article information
 * `post` contains the actual comment with a reference to the `thread` unique ID.
 
-As mentionned aboved, I will have multiple threads for the same blog article since I had multiple urls per blog article, same situation for the comments.
+As mentioned above, I will have multiple threads for the same blog article since I had multiple urls per blog article, same situation for the comments.
 
 Here is what the content of the `post` property looks like:
 
@@ -279,7 +279,7 @@ $AllComments | Foreach-Object -process {
 
 ### Parse and format the threads
 
-Next, same exercice for the threads item.
+Next, same exercise for the threads item.
 
 Again, each thread represent one blog post. We may have multiple threads for the same blog post since it was reachable by multiple urls.
 

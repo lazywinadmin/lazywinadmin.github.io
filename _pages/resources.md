@@ -24,7 +24,7 @@ toc_sticky: true
   * [Stucko](https://github.com/devblackops/Stucco)
   * [Plaster](https://github.com/PowerShell/Plaster)
 
-### Continuous Integration / Continous Deployment
+### Continuous Integration / Continuous Deployment
 
   * [InvokeBuild](https://github.com/nightroman/Invoke-Build)
   * [PsSake](https://github.com/psake/psake)
@@ -150,7 +150,7 @@ toc_sticky: true
 
 ##  System Center Configuration Manager (SCCM/ConfigMgr)
 
-* [Technet - Developper Network - Configuration Manager Reference](http://msdn.microsoft.com/en-us/library/hh948405.aspx)
+* [Technet - Developer Network - Configuration Manager Reference](http://msdn.microsoft.com/en-us/library/hh948405.aspx)
 * [System Center 2012 R2 Configuration Manager Toolkit SDK Released](http://blogs.technet.com/b/configmgr_geek_speak/archive/2013/12/07/system-center-2012-r2-configuration-manager-toolkit-released.aspx)
 * [Configuration Manager PowerShell SDK](https://web.archive.org/web/20150813195223/http://cm12sdk.net/?page_id=10)
 * [Lazy Properties (WMI/ConfigMgr)](https://web.archive.org/web/20150215213015/http://trevorsullivan.net/2010/09/28/powershell-configmgr-wmi-provider-feat-lazy-properties/)
@@ -169,7 +169,7 @@ toc_sticky: true
 * [mRemoteNG](http://www.mremoteng.org/) is a fork of mRemote, an open source, tabbed, multi-protocol, remote connections manager. mRemoteNG adds bug fixes and new features to mRemote.
 * [JoeWare Tools](http://www.joeware.net/freetools/index.htm) offers a bunch of tool for saving administrators around the world time and frustration
 * [NirSoft Tools](http://www.nirsoft.net/) NirSoft web site provides a unique collection of small and useful freeware utilities, all of them developed by Nir Sofer.
-* [CJWDEV Tools](http://www.cjwdev.co.uk/Software.html) offer softwares aimed at helping make the jobs of fellow IT Professionalss easier
+* [CJWDEV Tools](http://www.cjwdev.co.uk/Software.html) offer software aimed at helping make the jobs of fellow IT Professionalss easier
 * [NetPerf](https://web.archive.org/web/20130901084606/http://www.chriswolf.com/download/netperf.zip) Netperf is a great tool for obtaining instantaneous network bandwidth between a client and server. Instructions on using Netperf can be found in [this article](http://mcpmag.com/articles/2005/09/13/bottleneck-battle.aspx)
 * [Netwrix Freetools](https://web.archive.org/web/20130116175956/http://www.netwrix.com/top_10_freeware_tools.html)
 * [WMI Explorer 2014 (SAPIEN)](http://www.sapien.com/blog/2013/07/29/introducing-the-wmi-explorer-2014/) Allows you to get a handle on WMI classes and their properties and methods

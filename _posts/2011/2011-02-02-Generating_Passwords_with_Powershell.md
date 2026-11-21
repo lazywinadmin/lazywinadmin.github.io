@@ -12,7 +12,7 @@ comments: true
 classes: wide
 ---
 
-Here is a very neat script writte by Derek Mangrum that can generate new passwords based on your parameters
+Here is a very neat script written by Derek Mangrum that can generate new passwords based on your parameters
 
 
 ## Script

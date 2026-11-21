@@ -17,7 +17,7 @@ comments: true
 
 One of the Summit attendee Aaron Hoover recorded some of the sessions he attended using his webcam.
 
-Find bellow the list of session available on <a href="https://www.youtube.com/channel/UCX27-k3xeNSgXVklCx-dnXQ/videos" target="_blank">his Youtube Account</a>:
+Find below the list of session available on <a href="https://www.youtube.com/channel/UCX27-k3xeNSgXVklCx-dnXQ/videos" target="_blank">his Youtube Account</a>:
 
 
 * <a href="https://www.youtube.com/watch?v=0NeEU3FHp8I" target="_blank">Device Management With PowerShell - Ricardo Mendes</a>

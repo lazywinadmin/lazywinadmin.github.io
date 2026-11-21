@@ -51,7 +51,7 @@ I used the following method to generate my list of mac addresses.
 ("000000000000" -split "(..)" | where { $_ }).count #returns 6
 ```
 
-* Finally we join the whole string (that is currently splitted every two characters) using -join with the delimiter ":"
+* Finally we join the whole string (that is currently split every two characters) using -join with the delimiter ":"
 ```powershell
 -join ":"
 ```

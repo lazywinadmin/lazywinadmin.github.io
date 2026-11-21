@@ -26,7 +26,7 @@ New version of one of my favorite Admin tool: **mRemoteNG**
 ## Changes from 1.67 RC1 to 1.67 RC2
 
 * Added partial French translation to the application.
-* Addded Thai translation to the installer.
+* Added Thai translation to the installer.
 * Updated graphics in the installer to mRemoteNG logo.
 * Added buttons for Add Connection, Add Folder, and Sort Ascending (A-Z) to the Connections panel toolbar.
 * Fixed rename edit control staying open when collapsing all folders.

@@ -161,7 +161,7 @@ After running `sydi-wrapper` you might have ended up with a whole lot of XML fil
 Cscript.exe sydi-overview.vbs -x\\fileserver\net$\sydi\output
 ```
 
-Running the script requires that you have Microsoft Excel installed on your machine. The script will parse all the XML files and start to populate the cells in Excel. The script will create six sheets. Computers with basic information about all your computers, WMI Programs is a list of all software installed by Windows Installer, Reg Programs are the ones found in the Uninstall registry key, Processes tells you what every computer is running. All these can be good to detect rouge programs or processes.Finally there is the OS distribution pie chart and data source.
+Running the script requires that you have Microsoft Excel installed on your machine. The script will parse all the XML files and start to populate the cells in Excel. The script will create six sheets. Computers with basic information about all your computers, WMI Programs is a list of all software installed by Windows Installer, Reg Programs are the ones found in the Uninstall registry key, Processes tells you what every computer is running. All these can be good to detect rogue programs or processes.Finally there is the OS distribution pie chart and data source.
 
 ## Wasn't There an Option for Html?
 

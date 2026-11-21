@@ -10,7 +10,7 @@ tags:
 - powershell
 - powershell studio
 published: true
-commment: true
+comments: true
 ---
 
  

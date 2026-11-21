@@ -1,7 +1,7 @@
 ---
 description: "A couple of days ago we had to troubleshoot some SYSVOL replication issues throughout the domain."
 layout: single
-title: PowerShell - Check the GPO Replication accross your domain
+title: PowerShell - Check the GPO Replication across your domain
 excerpt: 
 permalink: /2014/10/powershell-check-gpo-replication.html
 tags:
@@ -50,14 +50,14 @@ You need to inspect the property Computer to finally find the versions informati
 (Get-GPO -Name AZE_Test).Computer
 ```
 
-<a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/9-30-2014%2B1-17-57%2BPM__690915297__-772x238.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Check the GPO Replication accross your domain&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/9-30-2014%2B1-17-57%2BPM__690915297__-772x238.png" width="772" height="238" /></a>
+<a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/9-30-2014%2B1-17-57%2BPM__690915297__-772x238.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Check the GPO Replication across your domain&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/9-30-2014%2B1-17-57%2BPM__690915297__-772x238.png" width="772" height="238" /></a>
 Same information is available for the User Configuration.
 
 <a href="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/User_Computer_GetMember__1676378068__-772x398.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="User Computer GetMember" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20141001_PowerShell_-_Check_the_GPO_Replication_accross_your_domain/User_Computer_GetMember__1676378068__-772x398.png" width="772" height="398" /></a>
 
 ## Function Get-ADGPOReplication
 
-`Get-ADGPOReplication` is retrieving the GPO version and Sysvol version accross the domain for one or more Group Policy objects. This can especially helps you troubleshooting replication issues.
+`Get-ADGPOReplication` is retrieving the GPO version and Sysvol version across the domain for one or more Group Policy objects. This can especially helps you troubleshooting replication issues.
 
 This small function is taking advantage of the module <b>ActiveDirectory</b> to retrieve the list of all Domain Controllers and the module <b>GroupPolicy</b> to query one or more Group Policy objects.
 
