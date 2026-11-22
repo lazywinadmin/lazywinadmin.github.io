@@ -60,7 +60,7 @@ toc_sticky: true
 
   * [Show-Object](http://www.powershellcookbook.com/recipe/bpqU/program-interactively-view-and-explore-objects) (Lee Holmes)
   * [Start-Demo](https://devblogs.microsoft.com/powershell/new-and-improved-start-demo/) (very useful for presentation)
-  * [Monitor Active Directory Groups](http://www.lazywinadmin.com/p/monitor-active-directory-group.html)
+  * [Monitor Active Directory Groups](/p/monitor-active-directory-group.html)
   * [PowerEvents](https://web.archive.org/web/20150630004844/http://powerevents.codeplex.com/)
   * [PoshEventUI](https://web.archive.org/web/20150722093716/https://posheventui.codeplex.com/)
   * [PoshPAIG](https://web.archive.org/web/20150703191039/http://poshpaig.codeplex.com/)
