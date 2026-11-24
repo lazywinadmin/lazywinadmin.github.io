@@ -36,7 +36,7 @@ You will also need to create a scheduled task to run the script at the specific 
 
 ### Step by Step
 
-1. Look for user accounts expiring in the next 10 days using the cmdlet [`Search-ADAccount`](https://technet.microsoft.com/en-us/library/hh852292.aspx) (from the Active Directory Module)
+1. Look for user accounts expiring in the next 10 days using the cmdlet [`Search-ADAccount`](https://learn.microsoft.com/en-us/powershell/module/activedirectory/search-adaccount) (from the Active Directory Module)
 1. If some accounts are found, Continue, else Stop.
 1. Generate a HTML Report,
 1. Send the Report to IT Support team.

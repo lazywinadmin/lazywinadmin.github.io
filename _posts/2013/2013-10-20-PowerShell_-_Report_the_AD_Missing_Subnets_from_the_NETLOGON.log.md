@@ -30,10 +30,10 @@ When a computer is joined to a domain It knows for sure of which AD domain it is
 
 In the Active Directory Sites and Services console, your need to associate create all of your subnets inthese subnets with the appropriate site(s). It is important to note that with Windows Server 2012 R2 some new cmdlets are available with the Active Directory module to manage the Site subnets:
 
-* [Get-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852246.aspx)
-* [New-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852206.aspx)
-* [Set-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852195.aspx)
-* [Remove-ADReplicationSubnet](http://technet.microsoft.com/en-us/library/hh852303.aspx)
+* [Get-ADReplicationSubnet](https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adreplicationsubnet)
+* [New-ADReplicationSubnet](https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-adreplicationsubnet)
+* [Set-ADReplicationSubnet](https://learn.microsoft.com/en-us/powershell/module/activedirectory/set-adreplicationsubnet)
+* [Remove-ADReplicationSubnet](https://learn.microsoft.com/en-us/powershell/module/activedirectory/remove-adreplicationsubnet)
 
 ## NETLOGON.log
 
@@ -304,12 +304,12 @@ RELATED LINKS
 
 ## Resources
 
-* [TechNet -Get-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852246.aspx)
-* [TechNet - New-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852206.aspx)
-* [TechNet - Set-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852195.aspx)
-* [TechNet - Remove-ADReplicationSubnet (Windows 8.1/W2012R2)](http://technet.microsoft.com/en-us/library/hh852303.aspx)
-* [Using Catch-All Subnets in Active Directory](http://technet.microsoft.com/en-us/magazine/2009.06.subnets.aspx)
+* [TechNet -Get-ADReplicationSubnet (Windows 8.1/W2012R2)](https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adreplicationsubnet)
+* [TechNet - New-ADReplicationSubnet (Windows 8.1/W2012R2)](https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-adreplicationsubnet)
+* [TechNet - Set-ADReplicationSubnet (Windows 8.1/W2012R2)](https://learn.microsoft.com/en-us/powershell/module/activedirectory/set-adreplicationsubnet)
+* [TechNet - Remove-ADReplicationSubnet (Windows 8.1/W2012R2)](https://learn.microsoft.com/en-us/powershell/module/activedirectory/remove-adreplicationsubnet)
+* [Using Catch-All Subnets in Active Directory](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/dd797576(v=msdn.10))
 * [DC Locator – What Does "NO_CLIENT_SITE" Mean In Netlogon.log](http://jorgequestforknowledge.wordpress.com/2011/01/27/dc-locator-what-does-quot-no-client-site-quot-mean-in-netlogon-log/)
 * [Ask the Directory Services Team - Sites Sites Everywhere...](https://web.archive.org/web/20160122122043/http://blogs.technet.com/b/askds/archive/2011/04/29/sites-sites-everywhere.aspx)
 * [How Domain Controllers Are Located in Windows XP](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-security/enable-debug-logging-netlogon-service)
-* [Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)](http://technet.microsoft.com/en-us/library/cc733142(v=ws.10).aspx)
+* [Enabling Clients to Locate the Next Closest Domain Controller (W2008/W2008R2/W2012)](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733142(v=ws.10))

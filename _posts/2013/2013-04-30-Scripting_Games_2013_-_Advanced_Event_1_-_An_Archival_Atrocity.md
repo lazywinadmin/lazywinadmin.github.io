@@ -68,7 +68,7 @@ Annotations
 
 * <b>Line 85 and 92</b> - Adding Validation to verify that the path specified by the user  exist. I have to admit I could have gone a bit deeper on that :-/<b></b>
 
-* <b>Line 110</b> - Bad Bad Baaaaad... I used the back tick! I know... I should had <a href="http://technet.microsoft.com/en-us/magazine/gg675931.aspx" target="_blank">use splatting</a> instead... I'm learning!
+* <b>Line 110</b> - Bad Bad Baaaaad... I used the back tick! I know... I should had <a href="https://learn.microsoft.com/en-us/previous-versions/technet-magazine/gg675931(v=msdn.10)" target="_blank">use splatting</a> instead... I'm learning!
 
 * <b>Line 125</b> - Here I use a small shortcut to get the parent folder name for the  current file (inside the foreach loop), then verify if this folder exist  in the Archive destination folder at the <b>line 131</b>
 

@@ -16,7 +16,7 @@ comments: true
 <div class="" style="clear: both; text-align: left;">The following procedure will cover a basic/generic install of System Center Orchestrator 2012. This is to be used as a template or POC only.<div class="" style="clear: both; text-align: left;">
 
 <div class="" style="clear: both; text-align: left;"><b><span style="font-size: x-large;">Resources</span></b><div class="" style="clear: both; text-align: left;">
-* <a href="http://technet.microsoft.com/en-us/library/hh237242.aspx" target="_blank">Technet Documentation</a></div></div>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh237242(v=sc.12)" target="_blank">Technet Documentation</a></div></div>
 
 * <a href="http://technet.microsoft.com/en-US/evalcenter/hh505660.aspx?wt.mc_id=TEC_103_1_5" target="_blank">System Center Orchestrator evaluation download</a>
 
@@ -34,7 +34,7 @@ comments: true
 
 * VIDEO:<a href="http://channel9.msdn.com/Events/MMS/2013/UD-B342" target="_blank">Pairing Configuration Manager 2012 and Orchestrator 2012</a>
 
-* VIDEO:Orchestrator Architecture Overview with SC 2012 SP1 Orchestrator <a href="http://technet.microsoft.com/en-us/video/microsoft-virtual-academy-system-center-2012-sp1-automation-part-2-orchestrator-architecture-overview-with-system-center-2012-sp1-orchestrator-part-1" target="_blank">Part 1</a> <a href="http://technet.microsoft.com/en-us/video/microsoft-virtual-academy-system-center-2012-sp1-automation-part-2-orchestrator-architecture-overview-with-system-center-2012-sp1-orchestrator-part-2.aspx" target="_blank">Part 2</a>
+* VIDEO:Orchestrator Architecture Overview with SC 2012 SP1 Orchestrator <a href="https://web.archive.org/web/20130828020610/http://technet.microsoft.com/en-us/video/microsoft-virtual-academy-system-center-2012-sp1-automation-part-2-orchestrator-architecture-overview-with-system-center-2012-sp1-orchestrator-part-1" target="_blank">Part 1</a> <a href="https://web.archive.org/web/20130826071944/http://technet.microsoft.com/en-us/video/microsoft-virtual-academy-system-center-2012-sp1-automation-part-2-orchestrator-architecture-overview-with-system-center-2012-sp1-orchestrator-part-2.aspx" target="_blank">Part 2</a>
 
 * VIDEO:<a href="http://www.youtube.com/user/charlesjoyMS" target="_blank">Charles Joy - Youtube channel</a>
 

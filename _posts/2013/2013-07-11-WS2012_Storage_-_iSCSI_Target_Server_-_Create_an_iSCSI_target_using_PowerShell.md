@@ -100,7 +100,7 @@ Windows Server 2012 comes with a complete set of PowerShell cmdlets for iSCSI. B
 <a href="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-06_1-30-50_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image 8 from the post &quot;WS2012 Storage - iSCSI Target Server - Create an iSCSI target using PowerShell&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_iSCSI_Target_Server_-_Create_an_iSCSI_target_using_PowerShell/2013-07-06_1-30-50_PM.png" width="661" height="599" /></a>
 The module<b>iSCSI</b>is used for all iSCSI<u>Initiator-specific Cmdlets</u>and the<b>iSCSITarget</b>for all iSCSI<u>target service-specific cmdlets</u>.
 <u>More Info:</u>
-<a href="http://technet.microsoft.com/en-us/library/hh826099.aspx" target="_blank">iSCSI Cmdlets in Windows PowerShell</a><a href="https://learn.microsoft.com/en-us/powershell/module/iscsitarget/" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
+<a href="https://learn.microsoft.com/en-us/powershell/module/iscsi/" target="_blank">iSCSI Cmdlets in Windows PowerShell</a><a href="https://learn.microsoft.com/en-us/powershell/module/iscsitarget/" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
 
 
 
@@ -250,7 +250,7 @@ Once a virtual disk has been assigned to a target, and after the iSCSi initiator
 ### <span style="font-size: x-large;">References
 
 
-* <a href="http://technet.microsoft.com/en-us/library/hh826099.aspx" target="_blank">iSCSI Cmdlets in Windows PowerShell</a>
+* <a href="https://learn.microsoft.com/en-us/powershell/module/iscsi/" target="_blank">iSCSI Cmdlets in Windows PowerShell</a>
 
 * <a href="https://learn.microsoft.com/en-us/powershell/module/iscsitarget/" target="_blank">iSCSI Target Cmdlets in Windows PowerShell</a>
 

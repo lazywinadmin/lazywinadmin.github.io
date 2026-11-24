@@ -30,7 +30,7 @@ More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="
 <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30002" target="_blank">Windows PowerShell 3.0 and Server Manager Quick Reference Guides</a>
 <a href="http://www.ravichaganti.com/blog/?p=1979" target="_blank">Ravikanth Chaganti - WMI Query Language via PowerShell</a>
 <a href="http://powershellbooks.com/" target="_blank">Don Jones - Secrets of PowerShell Remoting</a>
-<a href="http://technet.microsoft.com/en-us/library/hh847856.aspx" target="_blank">Windows PowerShell Core About Topics</a>
+<a href="https://learn.microsoft.com/en-us/previous-versions/windows/powershell-scripting/hh847856(v=wps.640)" target="_blank">Windows PowerShell Core About Topics</a>
 
 
 
@@ -39,11 +39,11 @@ More videos on<a href="http://channel9.msdn.com/search?term=powershell" target="
 <a href="https://web.archive.org/web/20200318040908/https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&amp;f%5B0%5D.Value=PowerShell" target="_blank">Technet Gallery - Script Repository</a>
 
 Powershell sites
-http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx (link no longer available)
+https://web.archive.org/web/20140527115028/http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx (link no longer available)
 [http://www.powershell.org](http://www.powershell.org/)
 <a href="https://web.archive.org/web/20120701113617/http://powershell.com/cs/" target="_blank">powershell.com/cs/</a>
 <a href="http://www.powershellmagazine.com/" target="_blank">http://www.powershellmagazine.com</a>
 [http://www.powershellpro.com](http://www.powershellpro.com/)
-[http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx](http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx)
+[https://web.archive.org/web/20140527115028/http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx](https://web.archive.org/web/20140527115028/http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx)
 
 

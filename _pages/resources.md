@@ -49,7 +49,7 @@ toc_sticky: true
   * [SCCM Automation](https://github.com/andrebocchini/sccm-powershell-automation-module) (PowerShell Module)
   * [SSH](https://github.com/darkoperator/Posh-SSH) (PowerShell Module)
   * [VisioPS](https://github.com/saveenr/VisioAutomation) (Automate Microsoft Visio)
-  * [Active Directory Attribute Recovery module](http://blogs.technet.com/b/ashleymcglone/archive/2014/04/24/oh-snap-active-directory-attribute-recovery-with-powershell.aspx)
+  * [Active Directory Attribute Recovery module](https://web.archive.org/web/20141215170529/http://blogs.technet.com/b/ashleymcglone/archive/2014/04/24/oh-snap-active-directory-attribute-recovery-with-powershell.aspx)
   * [Pester](https://github.com/pester/Pester) (Script Tester)
   * [Base Class Libraries](https://web.archive.org/web/20150217072040/http://bcl.codeplex.com/wikipage?title=Long%20Path) (.NET Library for Long Path Support)
   * [SMlets](https://github.com/SMLets/SMLets) (SCSM Module)
@@ -151,7 +151,7 @@ toc_sticky: true
 ##  System Center Configuration Manager (SCCM/ConfigMgr)
 
 * [Technet - Developer Network - Configuration Manager Reference](http://msdn.microsoft.com/en-us/library/hh948405.aspx)
-* [System Center 2012 R2 Configuration Manager Toolkit SDK Released](http://blogs.technet.com/b/configmgr_geek_speak/archive/2013/12/07/system-center-2012-r2-configuration-manager-toolkit-released.aspx)
+* [System Center 2012 R2 Configuration Manager Toolkit SDK Released](https://web.archive.org/web/20131210234219/http://blogs.technet.com/b/configmgr_geek_speak/archive/2013/12/07/system-center-2012-r2-configuration-manager-toolkit-released.aspx)
 * [Configuration Manager PowerShell SDK](https://web.archive.org/web/20150813195223/http://cm12sdk.net/?page_id=10)
 * [Lazy Properties (WMI/ConfigMgr)](https://web.archive.org/web/20150215213015/http://trevorsullivan.net/2010/09/28/powershell-configmgr-wmi-provider-feat-lazy-properties/)
 * Configuration Manager 2012 R2 Developer Excel Sheet
@@ -165,7 +165,7 @@ toc_sticky: true
 
 * [Sydi](http://sydiproject.com/download/) SYDI Network Documentation  made easy (VBS script) SYDI-Server v.2.3 Server is a tool for documenting Windows computers
 * [vCheck](https://github.com/alanrenouf/vCheck-vSphere) is a PowerShell HTML framework script, the script is designed to run as a scheduled task before you get into the office to present you with key information via an email directly to your inbox in a nice easily readable format.
-* [Microsoft SysInternals](http://technet.microsoft.com/en-us/sysinternals/default.aspx) Sysinternals utilities help you manage, troubleshoot and diagnose your Windows systems and applications.
+* [Microsoft SysInternals](https://learn.microsoft.com/en-us/sysinternals/) Sysinternals utilities help you manage, troubleshoot and diagnose your Windows systems and applications.
 * [mRemoteNG](http://www.mremoteng.org/) is a fork of mRemote, an open source, tabbed, multi-protocol, remote connections manager. mRemoteNG adds bug fixes and new features to mRemote.
 * [JoeWare Tools](http://www.joeware.net/freetools/index.htm) offers a bunch of tool for saving administrators around the world time and frustration
 * [NirSoft Tools](http://www.nirsoft.net/) NirSoft web site provides a unique collection of small and useful freeware utilities, all of them developed by Nir Sofer.
@@ -196,10 +196,10 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
 * Regular Expression
   * [Regex101](http://regex101.com/)
 * Active Directory
-  * [LDAP Syntax Filters](http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx)
+  * [LDAP Syntax Filters](https://learn.microsoft.com/en-us/archive/technet-wiki/5392.active-directory-ldap-syntax-filters)
   * [PowerShell and AD (.NET)](http://mow001.blogspot.ca/2006/07/powershell-and-active-directory-part-3.html)
-  * [LDAP Query Basics](http://technet.microsoft.com/en-us/library/aa996205(v=EXCHG.65).aspx)
-  * [Searching Active Directory with Windows PowerShell](http://technet.microsoft.com/en-us/library/ff730967.aspx)
+  * [LDAP Query Basics](https://web.archive.org/web/20140605091617/http://technet.microsoft.com/en-us/library/aa996205(v=EXCHG.65).aspx)
+  * [Searching Active Directory with Windows PowerShell](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell-1.0/ff730967(v=technet.10))
 * Online Learning
   * [Code Academy](http://www.codecademy.com/)
   * [LearnStreet](https://www.learnstreet.com/) (learn Java, Javascript, Ruby, Python

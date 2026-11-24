@@ -20,7 +20,7 @@ Each of those also need to have a PTR entry.
 
 Lazy as i am... a quick search for PowerShell DNS module did return some interesting things but none who can create both `A` and< `PTR` DNS entries at the same time.
 
-So I decided to finally use `DNSCMD.exe` (<a href="http://technet.microsoft.com/en-us/library/cc772069(v=ws.10).aspx" target="_blank">full syntax on technet</a>) with powershell.
+So I decided to finally use `DNSCMD.exe` (<a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772069(v=ws.10)" target="_blank">full syntax on technet</a>) with powershell.
 
 **Requirement**: `DNSCmd.exe` is part of theDNS Server Tools and need to be installed prior to use it. On Windows server you can install it using `Add-WindowsFeature RSAT-ADDS-Tools`
 

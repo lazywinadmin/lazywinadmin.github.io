@@ -219,7 +219,7 @@ Get-PhysicalDisk -CanPool $true
 
 
 
-In the example below I use <a href="http://technet.microsoft.com/en-us/library/hh848689.aspx" target="_blank">New-StoragePool</a> Cmdlet to show the creation of a Storage Pool named "LUN-1TB", using all of the Physical Disks which are currently available for pooling.
+In the example below I use <a href="https://learn.microsoft.com/en-us/powershell/module/storage/new-storagepool" target="_blank">New-StoragePool</a> Cmdlet to show the creation of a Storage Pool named "LUN-1TB", using all of the Physical Disks which are currently available for pooling.
 
 <a href="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img loading="lazy" decoding="async" alt="Diagram from the post &quot;WS2012 Storage - Creating a Storage Pool and a Storage Space (aka Virtual Disk) using PowerShell&quot;" border="0" src="{{ site.url }}/images/2013/20130815_WS2012_Storage_-_Creating_a_Storage_Pool_and_a_Storage_Space_(aka_Virtual_Disk)_using_PowerShell/Drawing2_2__212364170__-332x140.png" width="332" height="140" /></a>
 
@@ -250,7 +250,7 @@ Creating a Storage Space requires the following information:
 * Utilizing specific resiliency setting
 
 * Provisioning Type.
-For more information on using advanced settings for the creation of a Storage Space, please refer to the `New-VirtualDisk` help using `Get-Help` or on the <a href="http://technet.microsoft.com/en-us/library/hh848643.aspx" target="_blank">TechNet page online</a>.
+For more information on using advanced settings for the creation of a Storage Space, please refer to the `New-VirtualDisk` help using `Get-Help` or on the <a href="https://learn.microsoft.com/en-us/powershell/module/storage/new-virtualdisk" target="_blank">TechNet page online</a>.
 
 
 The following example shows the creation of a Storage Space that is 200GB in size, named "<b>DataStore01</b>", using the pool named "<b>LUN-1TB</b>"
@@ -316,8 +316,8 @@ Where to go from here ? Check out my previous storage posts:
 
 <span style="font-size: x-large;">Resources
 
-<a href="http://technet.microsoft.com/en-us/evalcenter/hh670538.aspx" target="_blank">Download - Windows Server 2012</a>
-<a href="http://technet.microsoft.com/en-us/evalcenter/dn205286.aspx" target="_blank">Download - Windows Server 2012 R2 Preview</a><a href="https://web.archive.org/web/20160301200146/http://blogs.technet.com/b/yungchou/archive/2012/08/31/windows-server-2012-storage-virtualization-explained.aspx" target="_blank">TechNet - Windows Server 2012 Storage Virtualization Explained</a><a href="http://download.microsoft.com/download/A/B/E/ABE02B78-BEC7-42B0-8504-C880A1144EE1/WS%202012%20White%20Paper_Storage.pdf" target="_blank">Download - Windows Server 2012 White Paper Storage.pdf</a>
+<a href="https://web.archive.org/web/20140527115358/http://technet.microsoft.com/en-us/evalcenter/hh670538.aspx" target="_blank">Download - Windows Server 2012</a>
+<a href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2012-r2" target="_blank">Download - Windows Server 2012 R2 Preview</a><a href="https://web.archive.org/web/20160301200146/http://blogs.technet.com/b/yungchou/archive/2012/08/31/windows-server-2012-storage-virtualization-explained.aspx" target="_blank">TechNet - Windows Server 2012 Storage Virtualization Explained</a><a href="http://download.microsoft.com/download/A/B/E/ABE02B78-BEC7-42B0-8504-C880A1144EE1/WS%202012%20White%20Paper_Storage.pdf" target="_blank">Download - Windows Server 2012 White Paper Storage.pdf</a>
 <a href="https://learn.microsoft.com/en-us/archive/blogs/san/an-introduction-to-storage-management-in-windows-server-2012" target="_blank">MSDN - An Introduction to Storage Management in Windows Server 2012</a>
 <a href="https://web.archive.org/web/20151107151442/http://www.microsoft.com/en-us/download/details.aspx?id=30125" target="_blank">Download - Deploy and Manage Storage Spaces with PowerShell.docx</a>
 <a href="http://www.techrepublic.com/blog/data-center/diy-san-windows-server-2012-storage-spaces-and-iscsi-target/" target="_blank">TechRepublic - DIY SAN: Windows Server 2012 Storage Spaces and iSCSI target</a>

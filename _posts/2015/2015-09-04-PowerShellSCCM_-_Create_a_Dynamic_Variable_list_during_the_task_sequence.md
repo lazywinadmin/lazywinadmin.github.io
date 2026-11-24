@@ -119,10 +119,10 @@ $ApplicationList | ForEach-Object {
 
 ## More Information
 
-Note also that there is a bunch of built-in variables available when you use Task Sequence, documented in the <a href="https://technet.microsoft.com/en-us/library/hh273375.aspx?f=255&amp;MSPPError=-2147217396" target="_blank">Microsoft Docs article on task sequence built-in variables in Configuration Manager</a>.
+Note also that there is a bunch of built-in variables available when you use Task Sequence, documented in the <a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh273375(v=technet.10)" target="_blank">Microsoft Docs article on task sequence built-in variables in Configuration Manager</a>.
 Another alternative is to create Collection Variables or Computer Variables and retrieve them during your Task Sequence.
 
-* <a href="https://technet.microsoft.com/en-us/library/hh846237.aspx#BKMK_InstallApplication" target="_blank">Technet - SCCM Task Sequence - Task: Install Application</a>
-* <a href="https://technet.microsoft.com/en-us/library/hh846237.aspx#BKMK_RunPowerShellScript" target="_blank">Technet - SCCM Task Sequence - Task: Run Powershell Shell Script</a>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh846237(v=technet.10)#BKMK_InstallApplication" target="_blank">Technet - SCCM Task Sequence - Task: Install Application</a>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh846237(v=technet.10)#BKMK_RunPowerShellScript" target="_blank">Technet - SCCM Task Sequence - Task: Run Powershell Shell Script</a>
 * <a href="https://msdn.microsoft.com/en-us/library/txafckwd(v=vs.110).aspx" target="_blank">MSDN - Composite Formatting</a>
 

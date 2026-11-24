@@ -56,7 +56,7 @@ Launch PowerShell as Administrator and run:
 Add-WindowsFeature "FS-NFS-Service"
 ```
 
-<i>(<a href="http://technet.microsoft.com/en-us/library/ee662309.aspx" target="_blank">Add-WindowsFeature</a>on technet)</i>
+<i>(<a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee662309(v=technet.10)" target="_blank">Add-WindowsFeature</a>on technet)</i>
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td><a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell03__2094578633__-877x269.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image from the post &quot;WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab&quot;" loading="lazy" decoding="async" border="0" height="196" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell03__1590823609__-640x196.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="font-size: 13px;">
 </td></tr></tbody></table>
@@ -83,7 +83,7 @@ New-NfsShare `
   -Authentication all
 ```
 
-(<a href="http://technet.microsoft.com/en-us/library/jj603091.aspx" target="_blank">New-NfsShare</a>on Technet)
+(<a href="https://learn.microsoft.com/en-us/powershell/module/nfs/new-nfsshare" target="_blank">New-NfsShare</a>on Technet)
 <a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell05__1547897153__-878x175.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Image from the post &quot;WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab&quot;" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell05__1547897153__-878x175.png" width="878" height="175" /></a>
 Add the NFS Share to your vSphere Lab
 

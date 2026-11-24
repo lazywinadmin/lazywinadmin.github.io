@@ -113,5 +113,5 @@ Get-ADGroup -LDAPFilter "(ManagedBy=*)" -SearchBase "OU=Groups,DC=FX,DC=Lab" -Pr
 
 ## Other Resources
 
-* [about_ActiveDirectory_Filter](https://technet.microsoft.com/en-us/library/hh531527%28v=ws.10%29.aspx)
+* [about_ActiveDirectory_Filter](https://learn.microsoft.com/en-us/previous-versions/windows/server/hh531527(v=ws.10))
   * Describes the syntax and behavior of the search filter supported by the Active Directory module for Windows PowerShell.

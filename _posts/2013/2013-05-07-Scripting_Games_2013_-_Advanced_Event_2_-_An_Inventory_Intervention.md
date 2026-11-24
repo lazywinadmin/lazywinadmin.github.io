@@ -42,7 +42,7 @@ comments: true
 Using WMI you can retrieve most of the information on remote machines (WMI Service is present since Windows 2000, Assuming WMI Service is running.. of course...)
 
 Why not CIM ?
-I could had play with <a href="http://technet.microsoft.com/en-us/library/jj590758(v=wps.620).aspx" target="_blank">Get-CIMInstance</a> (which use WSman in the background by default), but for my old servers without PowerShell and WSman, I would had to create an Explicit session with DCOM protocol, then use this session with Get-CimInstance.... I think it is a bit heavy to do this... so I stick to <a href="http://technet.microsoft.com/en-us/library/hh849824.aspx" target="_blank">Get-WmiObject</a>.
+I could had play with <a href="https://learn.microsoft.com/en-us/powershell/module/cimcmdlets/get-ciminstance" target="_blank">Get-CIMInstance</a> (which use WSman in the background by default), but for my old servers without PowerShell and WSman, I would had to create an Explicit session with DCOM protocol, then use this session with Get-CimInstance.... I think it is a bit heavy to do this... so I stick to <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1" target="_blank">Get-WmiObject</a>.
 
 <b>Operating System Name</b> (`Caption` Property), <b>Operating System Version</b> (`Version` property) and <b>ComputerName</b>(Properties: `PSComputerName`, `__SERVER` or `CSName`) were all in the WMI class<a href="http://msdn.microsoft.com/en-ca/library/windows/desktop/aa394239(v=vs.85).aspx" target="_blank">Win32_OperatingSystem</a>.
 

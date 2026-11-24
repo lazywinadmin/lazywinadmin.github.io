@@ -157,7 +157,7 @@ If you take a look at the parameters available with and without the CmdletBindin
 
 The common parameters are available with any cmdlet and on advanced functions that use the CmdletBinding attribute or the Parameter attribute. They can, for example, help you handle different types of error, warnings or show some programmer-level details about the operation performed.
 
-I won't go into too much detail about those, you can check this article <a href="https://technet.microsoft.com/en-us/library/hh847884.aspx" target="_blank">`about_CommonParameters`</a> for more information.
+I won't go into too much detail about those, you can check this article <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters" target="_blank">`about_CommonParameters`</a> for more information.
 
 <b><u>Why should you use Advanced Function over the Standard?</u></b>
 
@@ -233,12 +233,12 @@ In this example, I'm loading a list of machines inside the text file computers.t
 
 Here are some great resources if you want to learn more on PowerShell Functions:
 
-* [about_Functions](https://technet.microsoft.com/en-us/library/hh847829.aspx)
-* [about_Functions_Advanced](https://technet.microsoft.com/en-us/library/hh847806.aspx)
-* [about_Functions_CmdletBindingAttribute](https://technet.microsoft.com/en-us/library/hh847872.aspx)
-* [about_Functions_Advanced_Methods](https://technet.microsoft.com/en-us/library/hh847781.aspx)
-* [about_Functions_Advanced_Parameters](https://technet.microsoft.com/en-us/library/hh847743.aspx)
-* [about_Functions_OutputTypeAttribute](https://technet.microsoft.com/en-us/library/hh847785.aspx)
+* [about_Functions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions)
+* [about_Functions_Advanced](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced)
+* [about_Functions_CmdletBindingAttribute](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_cmdletbindingattribute)
+* [about_Functions_Advanced_Methods](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_methods)
+* [about_Functions_Advanced_Parameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters)
+* [about_Functions_OutputTypeAttribute](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_outputtypeattribute)
 
 ## PowerShell Blogging Week
 

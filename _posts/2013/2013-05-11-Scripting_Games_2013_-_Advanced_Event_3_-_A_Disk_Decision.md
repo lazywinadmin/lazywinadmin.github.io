@@ -99,7 +99,7 @@ I decided to add the parameter Credential to allow alternative username/password
 ```
 
 I decided to use CIMSession since I did not get to work with those that much since PowerShell v3.0 has been released...
-At the PowerShell Summit I learned that CIMSession uses WSMan by default. However you can also specify to CIMSession to use the protocol DCOM using the Cmdlet <a href="http://technet.microsoft.com/en-us/library/jj590764(v=wps.620).aspx" target="_blank">New-CimSessionOption</a>
+At the PowerShell Summit I learned that CIMSession uses WSMan by default. However you can also specify to CIMSession to use the protocol DCOM using the Cmdlet <a href="https://learn.microsoft.com/en-us/powershell/module/cimcmdlets/new-cimsessionoption" target="_blank">New-CimSessionOption</a>
 I liked the approach of<a class="g-profile" href="http://plus.google.com/110276222213807732733" target="_blank">+Mike Robbins</a>on this in the Event 2 for this part and I decided to do my own from it.
 
 ```powershell
@@ -161,7 +161,7 @@ $Report = $LogicalDiskInfo | Select-Object @{Label="Drive";Expression={$_.Device
 ```
 
 
-Here we convert our final Output to HTML using <a href="http://technet.microsoft.com/en-us/library/hh849944.aspx" target="_blank">ConvertTo-Html</a>.
+Here we convert our final Output to HTML using <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-html" target="_blank">ConvertTo-Html</a>.
 We also use the parameter Fragment that generates only an HTML table. The HTML, HEAD, TITLE, and BODY tags are omitted in that case.
 
 Finally there are some requirements for the HTML Report:

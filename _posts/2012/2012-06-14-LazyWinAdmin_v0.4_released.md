@@ -35,8 +35,8 @@ The Form was created using [Sapien Powershell Studio 2012](http://www.sapien.com
 ## External Tools (Optional)
 The following tools are not included in the zip file
 
-* AdExplorer -  http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx
-* PSExec - http://technet.microsoft.com/en-us/sysinternals/bb897553.aspx
+* AdExplorer -  https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer
+* PSExec - https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
 * PAExec - http://www.poweradmin.com/PAExec/
 * WMIExplorer.ps1 - https://web.archive.org/web/20201031193801/http://gallery.technet.microsoft.com/scriptcenter/89c759b7-20b4-49e8-98a8-3c8fbdb2dd69
 * SYDI-Server.vbs - http://sydiproject.com/products/sydi-server/
