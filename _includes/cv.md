@@ -6,7 +6,7 @@ United States · [lazywinadmin.com](https://lazywinadmin.com) · [linkedin.com/i
 
 ## Summary
 
-Staff platform engineer with 19 years in infrastructure, the last 7 focused on Azure and Infrastructure as Code. At Ares I build the Terraform control plane, governance as code, and landing-zone guardrails other teams build on, and I now work on AI platform engineering. Microsoft MVP 2014 - 2022 and author of lazywinadmin.com.
+Staff platform engineer with 19 years in infrastructure, the last 7 focused on Azure and Infrastructure as Code. At Ares I build the Terraform control plane, governance as code, and landing-zone guardrails other teams build on, and I now work on AI platform engineering. Former Microsoft MVP (2014–2023) and author of lazywinadmin.com.
 
 ## Skills
 
@@ -105,7 +105,6 @@ Staff platform engineer with 19 years in infrastructure, the last 7 focused on A
 
 ## Certifications
 
-- Microsoft MVP Alumni — Microsoft — 2023
 - Microsoft Certified: Azure AI Fundamentals (AI-900) — Microsoft — 2022
 - Microsoft Certified: Azure Fundamentals (AZ-900) — Microsoft — 2020
 - VMware Certified Professional 5 – Data Center Virtualization (VCP5-DCV) — VMware — 2013
@@ -115,7 +114,7 @@ Staff platform engineer with 19 years in infrastructure, the last 7 focused on A
 
 | Award | Authority | Year |
 |---|---|---|
-| Most Valuable Professional (Windows PowerShell; Cloud and Datacenter Management) | Microsoft | 2014 – 2022 |
+| Former Microsoft MVP | Microsoft | 2014 – 2023 |
 | SAPIEN MVP | SAPIEN Technologies | 2015 |
 | PowerShell Hero | PowerShell.org | 2014 |
 

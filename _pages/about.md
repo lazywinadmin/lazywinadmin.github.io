@@ -1,5 +1,5 @@
 ---
-description: "About François-Xavier Cat: cloud and DevOps engineer, former Microsoft MVP, and author of the LazyWinAdmin blog on PowerShell, Azure and automation."
+description: "About François-Xavier Cat: cloud and DevOps engineer, former Microsoft MVP (2014–2023), and author of the LazyWinAdmin blog on PowerShell, Azure and automation."
 title: About
 layout: archive
 permalink: /about.html
@@ -37,8 +37,7 @@ I founded and organized these user groups:
 
 | Award | Issued by |
 |---|:---:|
-| Most Valuable Professional (MVP), Cloud and Datacenter Management, 2016 to 2019-2020 | Microsoft |
-| Most Valuable Professional (MVP), Windows PowerShell, 2014 and 2015 | Microsoft |
+| Former Microsoft MVP (2014–2023) | Microsoft |
 | [SAPIEN MVP 2015](https://www.sapien.com/blog/2015/01/16/sapien-technologies-mvps-for-2015-2/) | SAPIEN Technologies |
 | [PowerShell Hero 2014](https://web.archive.org/web/20160407040927/http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/) | PowerShell.org |
 
@@ -73,7 +72,6 @@ Spotted an error or have a suggestion? Please [open an issue](https://github.com
     "sameAs": [
       "https://github.com/lazywinadmin",
       "https://www.linkedin.com/in/fxcat/",
-      "https://mvp.microsoft.com/en-us/PublicProfile/5000475",
       "https://x.com/lazywinadmin"
     ]
   }
