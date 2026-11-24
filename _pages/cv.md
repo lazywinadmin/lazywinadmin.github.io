@@ -1,5 +1,5 @@
 ---
-description: "CV of François-Xavier Cat: Staff Engineer, AI Platform Engineering, with experience at Ares, Morgan Stanley and WB Games; Microsoft MVP 2014–2022."
+description: "CV of François-Xavier Cat: Staff Engineer, AI Platform Engineering, with experience at Ares, Morgan Stanley and WB Games; Former Microsoft MVP 2014–2023."
 title: "CV"
 seo_title: "CV of François-Xavier Cat, Staff Engineer, AI Platform Engineering"
 layout: single
