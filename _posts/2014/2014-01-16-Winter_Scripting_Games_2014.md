@@ -158,7 +158,7 @@ We tested a couple of tools like SkyDrive, GitHub, GoogleDocs, PiratePad, ... an
 Finally, I want to introduce the team I will work with for the Winter Scripting Games 2014, the<u></u> <b>Posh Monks</b> team!!<b>
 </b>
 
-* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdmin</a> - <a href="http://lazywinadmin.com/" target="_blank">LazyWinAdmin blog</a>
+* <b>Francois-Xavier Cat</b> (Canada GMT -5:00) <a href="https://twitter.com/LazyWinAdm" target="_blank">@LazyWinAdmin</a> - <a href="/" target="_blank">LazyWinAdmin blog</a>
 
 * <b>Stephane Van Gulick</b> (Switzerland GMT+1:00) <a href="https://twitter.com/Stephanevg" target="_blank">@Stephanevg</a> - <a href="http://powershelldistrict.com/" target="_blank">PowerShell District blog</a>
 
