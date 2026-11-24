@@ -9,4 +9,13 @@
 
 {% include jsonld-blogposting.html %}
 
+
+{% if page.hide_footer_x %}
+<style>
+  /* CV page only: hide the site footer "Follow: X" profile link */
+  .page__footer-follow li:has(> a[href="https://x.com/lazywinadmin"]) {
+    display: none;
+  }
+</style>
+{% endif %}
 <!-- end custom head snippets -->
