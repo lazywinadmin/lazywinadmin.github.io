@@ -1,5 +1,5 @@
 ---
-description: "The year 2013 has been a pretty good year for the LazyWinAdmin blog.Thank you guys for following my blog and participating to the comments discussions."
+description: "The five most popular LazyWinAdmin blog posts of 2013: WS2012 NFS for vSphere, PowerShell Studio, AD group monitoring, Regex substrings, and PowerShell 4.0."
 layout: single
 title: Top Five 2013 LazyWinAdmin Blog Posts
 excerpt: 

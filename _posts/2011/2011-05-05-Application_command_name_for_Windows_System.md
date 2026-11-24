@@ -1,5 +1,5 @@
 ---
-description: "Source (Technet Wiki)If you encounter any problem launching some of the program, please try the following :Press theWindows Key + Ron your keyboard or click…"
+description: "A list of Windows application command names from a TechNet Wiki article, to launch tools from the Run dialog or Start Search, such as appwiz.cpl."
 layout: single
 title: Application command name for Windows System
 excerpt: 

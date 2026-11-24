@@ -1,5 +1,5 @@
 ---
-description: "UPDATE 2016/05/03:The most recent update is availableon GithubSee also the related…"
+description: "A PowerShell 3.0 script, using the Quest snap-in, that monitors specified Active Directory groups and emails an HTML report when membership changes."
 layout: single
 title: PowerShell - Monitor and Report Active Directory Group Membership Change
 seo_title: "PowerShell: Monitor and Report AD Group Membership Changes"

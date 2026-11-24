@@ -1,5 +1,5 @@
 ---
-description: "Update: Getting Started with PowerShell 3.0and Advanced Tools & Scripting with PowerShell 3.0recorded videosare now available on Microsoft Virtual Academy."
+description: "Two free Microsoft Virtual Academy PowerShell 3.0 courses with Jeffrey Snover and Jason Helmick, later released as recorded videos."
 layout: single
 title: PowerShell - Free Trainings from Microsoft Virtual Academy
 excerpt: 

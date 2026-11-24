@@ -1,5 +1,5 @@
 ---
-description: "I finally ordered my home lab to work on my technicalknowledgeand to help me work on some certifications.My first goal will be to pass my VCP5-DV in February…"
+description: "A home lab of three whiteboxes for certifications, starting with VCP5-DV: two VMware ESXi vSphere 5.1 hypervisors and one FreeNAS 8.3 storage server."
 layout: single
 title: My Home Lab !
 excerpt: 
