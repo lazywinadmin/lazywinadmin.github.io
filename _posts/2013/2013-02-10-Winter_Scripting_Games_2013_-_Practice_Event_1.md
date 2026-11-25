@@ -130,6 +130,21 @@ END {# Cleanup
 }#Function Get-DiskSizeInfo
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The function above is unchanged. The challenge already allowed WMI or CIM; on PowerShell 7 you must use `Get-CimInstance`. The splat key is `ClassName`, not `Class`. `DriveType`, `DeviceID`, `FreeSpace`, and `Size` are the same properties on `Win32_LogicalDisk`.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+$params = @{
+    ComputerName = $Computer
+    ClassName    = 'Win32_LogicalDisk'
+    Filter       = "DriveType=3"
+    ErrorAction  = 'SilentlyContinue'
+}
+$Disks = Get-CimInstance @params
+```
+
 ## Using the function
 
 By default, if you do not specify a computername, the function will query the localhost: $env:computername

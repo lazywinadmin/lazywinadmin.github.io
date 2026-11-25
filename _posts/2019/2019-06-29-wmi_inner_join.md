@@ -119,4 +119,9 @@ This will contains all the information about the device such as `IPAddresses`, `
 
 ℹ️ **Note**: Yes I'm aware the `CIM` module should be used here instead of *wmiObject* cmdlets, just needed a quick query 🚀
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The samples above are unchanged. `Get-CimInstance` accepts `-Query` and the same `ComputerName` / `Namespace` splat, but WQL `INNER JOIN` and the nested `sms_r_system` / `sms_fullcollectionmembership` WMI COM objects in the output shown above are not a clean CIM equivalent. If you need this on PowerShell 7, test the query against your site server rather than assuming the same result shape.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
 If you want to learn more about Using WMI with PowerShell, I highly recommend the free book written by Ravikanth Chaganti [WMI Query Language via PowerShell](https://web.archive.org/web/20161017175511/http://www.ravichaganti.com/blog/ebook-wmi-query-language-via-powershell/)

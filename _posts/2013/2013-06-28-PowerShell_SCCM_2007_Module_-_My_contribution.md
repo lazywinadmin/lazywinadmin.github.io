@@ -84,6 +84,21 @@ TotalSeconds      : 0.2026858
 TotalMilliseconds : 202.6858
 
 ```
+
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The samples above are unchanged; the filtering lesson still applies. On PowerShell 7, use `Get-CimInstance` with `-ClassName` or `-Query`, and the same `-ComputerName` and `-Namespace`. Filter on the left in either case.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+# Unfiltered (slow) form
+Get-CimInstance -ComputerName $siteProvider -Namespace "root\sms\site_$siteCode" -ClassName SMS_R_System |
+    Where-Object { $_.ResourceID -eq $resourceId }
+
+# Filtered (fast) form
+Get-CimInstance -ComputerName $siteProvider -Namespace "root\sms\site_$siteCode" -Query "Select * From SMS_R_System WHERE ResourceID='$resourceId'"
+```
+
 WOW! This time <b>Only 200 Milliseconds!!</b> Pretty Awesome! Filtering is definitely the way to go! ;-)  
 All I did is really filtering on the `ResourceID` property with `Get-WmiObject`, I don't need to retrieve all the data.
 <a href="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Apps preferences system performance icon" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130628_PowerShell_SCCM_2007_Module_-_My_contribution/Apps-preferences-system-performance-icon__2062179201__-128x128.png" width="128" height="128" /></a>

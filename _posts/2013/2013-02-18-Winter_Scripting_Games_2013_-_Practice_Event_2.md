@@ -136,3 +136,13 @@ Function Get-ComputerInventory {
 }#Function Get-ComputerInventory
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The function above is unchanged. On PowerShell 7, use `Get-CimInstance -ClassName`. The properties used later (`Model`, `Manufacturer`, `NumberOfLogicalProcessors`, `TotalPhysicalMemory`, `SerialNumber`) are the same on the CIM classes.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+$WMIComputerSystem = Get-CimInstance -ClassName Win32_ComputerSystem -ComputerName $Computer -ErrorAction Stop
+$WMIBios = Get-CimInstance -ClassName Win32_BIOS -ComputerName $Computer -ErrorAction Stop
+```
+

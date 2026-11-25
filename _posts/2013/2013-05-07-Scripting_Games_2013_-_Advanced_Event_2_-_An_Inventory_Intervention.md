@@ -44,6 +44,11 @@ Using WMI you can retrieve most of the information on remote machines (WMI Servi
 Why not CIM ?
 I could had play with <a href="http://technet.microsoft.com/en-us/library/jj590758(v=wps.620).aspx" target="_blank">Get-CIMInstance</a> (which use WSman in the background by default), but for my old servers without PowerShell and WSman, I would had to create an Explicit session with DCOM protocol, then use this session with Get-CimInstance.... I think it is a bit heavy to do this... so I stick to <a href="http://technet.microsoft.com/en-us/library/hh849824.aspx" target="_blank">Get-WmiObject</a>.
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The 2013 rationale above still explains why the entry used WMI (Windows 2000-era boxes without WS-Man). On PowerShell 7 you need `Get-CimInstance`; the three queries and a `PSComputerName` substitution for `__Server` are at the end of the script sample.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
 <b>Operating System Name</b> (`Caption` Property), <b>Operating System Version</b> (`Version` property) and <b>ComputerName</b>(Properties: `PSComputerName`, `__SERVER` or `CSName`) were all in the WMI class<a href="http://msdn.microsoft.com/en-ca/library/windows/desktop/aa394239(v=vs.85).aspx" target="_blank">Win32_OperatingSystem</a>.
 
 <a href="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/wmi__182847684__-893x659.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="wmi" loading="lazy" decoding="async" border="0" height="472" src="{{ site.url }}/images/2013/20130507_Scripting_Games_2013_-_Advanced_Event_2_-_An_Inventory_Intervention/wmi__1570869439__-640x472.png" width="640" /></a>
@@ -306,5 +311,18 @@ function Get-ComputerInfo
 }#function
 
 
+```
+
+{% capture wmicimqueries %}
+**Update 2026/11:** PowerShell 7 equivalents of the three WMI queries, and of `"ComputerName" = $OperatingSystem.__Server` (use `PSComputerName`; `CSName` also works, as noted earlier in this post):
+{% endcapture %}
+{{wmicimqueries}}{: .notice--info}
+
+```powershell
+$OperatingSystem = Get-CimInstance -ClassName Win32_OperatingSystem -ComputerName $Computer -ErrorAction Stop -ErrorVariable ProcessError
+$ComputerSystem = Get-CimInstance -ClassName Win32_ComputerSystem -ComputerName $Computer -ErrorAction Stop -ErrorVariable ProcessError
+$Processors = Get-CimInstance -ClassName Win32_Processor -ComputerName $Computer -ErrorAction Stop -ErrorVariable ProcessError
+# later:
+# "ComputerName" = $OperatingSystem.PSComputerName
 ```
 
