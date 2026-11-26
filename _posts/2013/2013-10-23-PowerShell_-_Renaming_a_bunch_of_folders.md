@@ -14,7 +14,7 @@ comments: true
 <a href="{{ site.url }}/2013/10/powershell-organizing-my-scripts.html" target="_blank">In my previous post</a> I talked about Organizing my script directory, naming convention, preferences and bottlenecks... Today let's reorganize some of those script folders.
 
 
-### Renaming a bunch of folders
+## Renaming a bunch of folders
 
 At my work, all the scripts related to VMware are named `ESX-<Category>-<Explicit Title>`. And I use the same naming convention at home for my own scripts. So let's say I want to rename all those *ESX* folders by VMWARE instead.
 Something like this:`VMWARE-<Category>-<Explicit Title>`

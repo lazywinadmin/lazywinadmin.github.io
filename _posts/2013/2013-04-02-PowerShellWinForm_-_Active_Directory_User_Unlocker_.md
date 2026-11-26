@@ -23,14 +23,14 @@ You can integrate this query in the saved queries of your Active Directory Users
 ![AD SavedQueries](../images/2020/../../../images/2013/20130402_PowerShellWinForm_-_Active_Directory_User_Unlocker_/AD-SavedQueries__1964619053__-265x152.png){: loading="lazy" decoding="async" width="265" height="152"}
 
 
-### Description
+## Description
 
 The following script will use PowerShell to generate a WinForm and give you the ability to unlock account right from the interface. The goal is to do something simple and functional, nothing fancy.
 
 The GUI was created using PowerShell Studio from SAPIEN. You can try this tool by going on Sapien.com
 
 
-### No Module Required
+## No Module Required
 
 The beautiful part of it is that no Active Directory Module or Quest Active Directory Snapin are required
 In my case I used <b>ADSI</b>: <b>[ADSISearcher]</b>
@@ -38,20 +38,20 @@ In my case I used <b>ADSI</b>: <b>[ADSISearcher]</b>
 If you want to know more about `ADSISearcher` check this [article from the Scripting Guy](https://devblogs.microsoft.com/scripting/use-the-powershell-adsisearcher-type-accelerator-to-search-active-directory/)
 
 
-### User Interface
+## User Interface
 
 
 Here is what the tool look like:
 
 ![AD USER Unlocker 02](../images/2020/../../../images/2013/20130402_PowerShellWinForm_-_Active_Directory_User_Unlocker_/AD-USER-Unlocker-02__648315511__-466x330.png){: loading="lazy" decoding="async" width="466" height="330"}
 
-### Usage
+## Usage
 
 Invoking the script from a PowerShell will do it. Make sure you run this with an account that have the privileges to unlock accounts.
 
 ![AD USER Unlocker 05](../images/2020/../../../images/2013/20130402_PowerShellWinForm_-_Active_Directory_User_Unlocker_/AD-USER-Unlocker-05__737634742__-268x72.png){: loading="lazy" decoding="async" width="268" height="72"}
 
 
-### Download
+## Download
 
 Script available [on Github](https://github.com/lazywinadmin/PowerShellGUI/tree/master/AD-User-Unlocker)

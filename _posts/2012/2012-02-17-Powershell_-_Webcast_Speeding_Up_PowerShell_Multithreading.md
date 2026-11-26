@@ -12,7 +12,7 @@ comments: true
 ---
 Interesting Web cast next Monday about Powershell Multi threading.
 
-###  Monday, February 20th, 2012 12:00 PM to 1:00 PM Central Time
+##  Monday, February 20th, 2012 12:00 PM to 1:00 PM Central Time
 
 Here is the Event home page
 

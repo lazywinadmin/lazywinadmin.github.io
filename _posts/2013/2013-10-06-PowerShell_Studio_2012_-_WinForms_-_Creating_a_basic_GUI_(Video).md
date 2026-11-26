@@ -37,7 +37,7 @@ Since then, I got a lot of emails asking me questions about PowerShell and how t
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20131006_PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/lwa-v0.4-main01__1020695344__-1202x773.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="lwa v0.4 main01" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20131006_PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/lwa-v0.4-main01__1896092340__-400x257.png" height="255" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">LazyWinAdmin v0.4 Script</td></tr></tbody></table>
-### <b>Overview</b>
+## <b>Overview</b>
 
 
 
@@ -67,7 +67,7 @@ We will simply add a couple of controls (Buttons and a Richtextbox), and add a f
 </b><b>
 </b><b>
 </b>
-### <b>Get PowerShell Studio 2012</b>
+## <b>Get PowerShell Studio 2012</b>
 
 I think PowerShell Studio is the most powerful and feature complete PowerShell Integrated Scripting Environment (ISE) available today. Of course you can create and edit normal PowerShell scripts but you can also create single and multiple forms GUI and export them as PS1 or EXE files !
 Some of my favorite features are the Function explorer and the Snippets explorer.
@@ -81,7 +81,7 @@ Sapien also has a free version: <b><a href="http://www.sapien.com/blog/topics/so
 
 
 
-### <b>Creating the GUI</b>
+## <b>Creating the GUI</b>
 
 
 Select <b>File</b> / <b>New</b> / <b>New Form</b>
@@ -90,7 +90,7 @@ Select <b>File</b> / <b>New</b> / <b>New Form</b>
 </td></tr></tbody></table>
 
 
-### <b>Editing the GUI</b>
+## <b>Editing the GUI</b>
 
 <b>
 </b>Drag and drop the controls into the main form. Here I added 3 <b>Buttons</b> and 1 <b>RichTextBox</b>
@@ -104,7 +104,7 @@ Arrange the Form so it does not look too weird :-)
 
 
 
-### <b>Adding the PowerShell code</b>
+## <b>Adding the PowerShell code</b>
 
 
 Select a button and do one of the following action to add the powershell code :
@@ -153,7 +153,7 @@ $buttonAddBlueText_Click={
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-06-17_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - Creating a basic GUI (Video)&quot; (9)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_Creating_a_basic_GUI_(Video)/2013-08-08_7-06-17_PM.png" width="534" height="316" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Final GUI ! :-)</td></tr></tbody></table>
 
 
-### <b>DOWNLOAD</b>
+## <b>DOWNLOAD</b>
 
 <b>Technet Script Repository (link no longer available)</b>
 <b>
