@@ -97,3 +97,14 @@ function Get-NonstandardService {
 
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The function above is unchanged. On PowerShell 7, use `Get-CimInstance -Query` with the same WQL filter. `__Server` is a WMI system property and is not returned on CIM instances; use `PSComputerName`, or the computer name you already passed in (`$rv.computer`). Drop `__Server` from the `SELECT` list.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+$wql = 'Select Name, DisplayName, StartName From Win32_Service WHERE ((StartName != "LocalSystem") and (StartName != "NT Authority\\LocalService") and (StartName != "NT Authority\\NetworkService"))'
+$result = @(Get-CimInstance -Query $wql -ComputerName $rv.computer -ErrorAction Stop | Sort-Object DisplayName)
+# later: $rv.Computer = $_.PSComputerName
+```
+

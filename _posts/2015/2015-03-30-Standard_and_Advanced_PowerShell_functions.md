@@ -39,6 +39,20 @@ Get-WmiObject -class win32_OperatingSystem
 Get-WmiObject -class Win32_BIOS
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The samples in this post are unchanged. On PowerShell 7, use `Get-CimInstance` with `-ClassName` (not `-Class`). A local equivalent of the three queries above:
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+# Computer System
+Get-CimInstance -ClassName Win32_ComputerSystem
+# Operating System
+Get-CimInstance -ClassName Win32_OperatingSystem
+# BIOS
+Get-CimInstance -ClassName Win32_BIOS
+```
+
 ## Standard Function
 
 A function is a list of statements wrapped into a scriptblock. A function has a name that you assign. You run those statements by simply typing the function name.
@@ -91,6 +105,17 @@ Function Get-ComputerInformation
     New-Object -TypeName PSobject -Property $Properties
     
 }
+```
+
+{% capture wmicimremote %}
+**Update 2026/11:** PowerShell 7 equivalent of the three remote queries. The later function versions in this post use the same WMI calls; the CIM form is the same. `Manufacturer`, `Model`, `Caption`, `Version`, and `SerialNumber` are the same properties on the CIM classes.
+{% endcapture %}
+{{wmicimremote}}{: .notice--info}
+
+```powershell
+$ComputerSystem = Get-CimInstance -ClassName Win32_ComputerSystem -ComputerName $ComputerName
+$OperatingSystem = Get-CimInstance -ClassName Win32_OperatingSystem -ComputerName $ComputerName
+$Bios = Get-CimInstance -ClassName Win32_BIOS -ComputerName $ComputerName
 ```
 
 <a href="{{ site.url }}/images/2015/20150330_Standard_and_Advanced_PowerShell_functions/Get-ComputerInformation5__1609500709__-810x218.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">

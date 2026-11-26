@@ -279,6 +279,24 @@ In my case i added %tools% (system variable)
 * **Filename**: `powershell`
 * **Arguments**: `-noexit Get-WmiObject win32_share -computer %hostname%|sort name|fl`
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The arguments above (and the matching entries in the `ExtApp.xml` sample below) are unchanged. On PowerShell 7, use `Get-CimInstance -ClassName` and `-ComputerName`. WMI system properties `__SERVER` and `__PATH` are not on CIM instances: use `PSComputerName` instead of `__SERVER`, and omit `__PATH`. `VM` and `WS` were WMI-object aliases for `VirtualSize` and `WorkingSetSize`.
+
+PowerShell 7 equivalents of the three PowerShell external-app commands:
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+# Processes List
+-noexit Get-CimInstance -ClassName Win32_Process -ComputerName %hostname% | Select-Object PSComputerName,Name,ProcessId,SessionId,VirtualSize,WorkingSetSize,Description,ExecutablePath,OSName,WindowsVersion | Out-GridView
+
+# Services List (in ExtApp.xml)
+-noexit Get-CimInstance -ClassName Win32_Service -ComputerName %hostname% | Select-Object DisplayName,Name,State,Status,StartMode,ProcessId,StartName | Sort-Object State,DisplayName,Name | Out-GridView
+
+# Shares List
+-noexit Get-CimInstance -ClassName Win32_Share -ComputerName %hostname% | Sort-Object Name | Format-List
+```
+
 ### Application: Shutdown GUi
 * **Filename**: `shutdown`
 * **Arguments**: `/i /m %hostname%`

@@ -20,4 +20,16 @@ Get-WmiObject Win32_Service -ComputerName . |`
 	select DisplayName,Name,StartMode,State|ft -AutoSize
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The sample above is unchanged. `-ComputerName .` is the local computer; `Get-CimInstance` uses `-ClassName` and can omit `-ComputerName` when querying locally. `DisplayName`, `Name`, `StartMode`, and `State` are the same properties on `Win32_Service`.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+Get-CimInstance -ClassName Win32_Service |
+	Where-Object {($_.StartMode -like "*auto*") -and `
+		($_.State -notlike "*running*")}|`
+	Select-Object DisplayName,Name,StartMode,State | Format-Table -AutoSize
+```
+
 *Originally published on PoshCode (now offline); [archived copy](https://web.archive.org/web/20151020070254/http://poshcode.org/2759).*

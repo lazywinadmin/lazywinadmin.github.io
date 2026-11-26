@@ -76,6 +76,25 @@ $ComputerName = "SERVER01"
 (Get-WmiObject -class "Win32_TSGeneralSetting" -Namespace root\cimv2\terminalservices -ComputerName $ComputerName -Filter "TerminalName='RDP-tcp'").SetUserAuthenticationRequired(1)
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The one-liners above are unchanged. `UserAuthenticationRequired` is still a property on the CIM instance, but instance methods such as `SetUserAuthenticationRequired` are invoked with `Invoke-CimMethod`. The method takes a `UserAuthenticationRequired` argument (`0` disables the requirement, `1` enables it); see [SetUserAuthenticationRequired](https://learn.microsoft.com/en-us/windows/win32/termserv/setuserauthenticationrequired-win32-tsgeneralsetting). This post already walks through the CIM cmdlets later on. A complete equivalent of the one-liners is:
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+$ComputerName = "SERVER01"
+$nla = Get-CimInstance -ClassName Win32_TSGeneralSetting -Namespace root\cimv2\terminalservices -ComputerName $ComputerName -Filter "TerminalName='RDP-tcp'"
+
+# Getting the NLA information
+$nla.UserAuthenticationRequired
+
+# Setting the NLA information to Disabled
+Invoke-CimMethod -InputObject $nla -MethodName SetUserAuthenticationRequired -Arguments @{ UserAuthenticationRequired = 0 }
+
+# Setting the NLA information to Enabled
+Invoke-CimMethod -InputObject $nla -MethodName SetUserAuthenticationRequired -Arguments @{ UserAuthenticationRequired = 1 }
+```
+
 ## Using PowerShell Advanced Functions (re-usable tools)
 
 I created two re-usable advanced functions for this purpose
@@ -159,6 +178,11 @@ Get-Ciminstance -Class Win32_TSGeneralSetting -Namespace root\cimv2\terminalserv
 ```powershell
 Invoke-CimMethod -MethodName SetUserAuthenticationRequired -Arguments @{ UserAuthenticationRequired = $EnableNLA }
 ```
+
+{% capture wmiciminvoke %}
+**Update 2026/11:** That `Invoke-CimMethod` example still needs a target instance: add `-InputObject $nla` (the object from `Get-CimInstance`), as in the one-liners equivalent earlier in this post.
+{% endcapture %}
+{{wmiciminvoke}}{: .notice--info}
 
 The <a href="http://msdn.microsoft.com/en-us/library/aa383441%28v=vs.85%29.aspx" target="_blank">MSDN page</a> of this method show us how to use it:
 

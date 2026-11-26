@@ -32,3 +32,16 @@ function Get-USB {
 }
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The function above is unchanged. This sample is not a straight `Get-CimInstance` swap: it also uses the WMI type accelerator `[Wmi]` on the association's `Dependent` path, plus DCOM-only `-Impersonation` and `-Authentication PacketPrivacy` (those are not parameters of `Get-CimInstance`). `Win32_USBControllerDevice` is an association class (`CIM_USBController` antecedent, `CIM_LogicalDevice` dependent). In CIM, start from `Win32_USBController` and follow the association with `Get-CimAssociatedInstance`. Session authentication, if you need it, goes on `New-CimSession -Authentication` (and its values are not the WMI PacketPrivacy level).
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+function Get-USB {
+    param($computerName = "localhost")
+    Get-CimInstance -ClassName Win32_USBController -ComputerName $ComputerName |
+        ForEach-Object { Get-CimAssociatedInstance -InputObject $_ -Association Win32_USBControllerDevice }
+}
+```
+

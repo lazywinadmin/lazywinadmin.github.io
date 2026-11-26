@@ -229,3 +229,8 @@ filter script:FixComputerName
 }
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The `Get-WmiObject SomethingReallyOpaque` example earlier in this sample is illustrative (not a real class), and the `Put()` / property-set pipeline around it is specific to the old WMI COM objects. There is no clean `Get-CimInstance` equivalent for that snippet; on PowerShell 7 you would use `Get-CimInstance` / `Set-CimInstance` against a real class instead.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+

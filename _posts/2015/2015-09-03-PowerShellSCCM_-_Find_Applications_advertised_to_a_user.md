@@ -82,6 +82,17 @@ Foreach ($Collection in $collections)
 }
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The samples above are unchanged. The same `$Splatting` hashtable (`ComputerName`, `NameSpace`) works with `Get-CimInstance`. Use `-ClassName` rather than `-Class`. `Get-CimInstance` has no `-Credential` parameter (the function usage later in this post passes `-Credential`): create a session with `New-CimSession -Credential` and pass it with `-CimSession` instead of putting a computer name in the splat.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+$User = Get-CimInstance @Splatting -Query "Select * From SMS_R_User WHERE UserName='FxTest'"
+$Collections = Get-CimInstance -ClassName sms_fullcollectionmembership @Splatting -Filter "ResourceID = '$($User.ResourceID)'"
+$Deployments = Get-CimInstance @Splatting -Query "Select * From SMS_DeploymentInfo WHERE CollectionID='$($Collection.CollectionID)'"
+```
+
 
 ## Using the function
 

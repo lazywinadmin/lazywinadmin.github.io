@@ -94,6 +94,19 @@ $buttonShares_Click={
 }
 ```
 
+{% capture wmicimupdate %}
+**Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The sample above is unchanged. `Get-CimInstance` has no `-Credential` parameter: create a session with `New-CimSession -Credential` and pass it with `-CimSession`. `__Server` is a WMI system property; use `PSComputerName` on CIM instances.
+{% endcapture %}
+{{wmicimupdate}}{: .notice--info}
+
+```powershell
+$session = New-CimSession -ComputerName $textboxComputerName.Text -Credential $cred
+Get-CimInstance -ClassName Win32_Service -CimSession $session | Select-Object PSComputerName,Name | Out-GridView
+Get-CimInstance -ClassName Win32_Process -CimSession $session | Select-Object PSComputerName,Name | Out-GridView
+Get-CimInstance -ClassName Win32_Share -CimSession $session | Select-Object PSComputerName,Name | Out-GridView
+# Remove-CimSession $session
+```
+
 
 
 ## Test the GUI, using Out-Gridview cmdlet for the output
@@ -229,6 +242,18 @@ $buttonShares_Click={
     $Shares = Get-WmiObject Win32_Share -ComputerName $textboxComputerName.Text -Credential $cred | Select-Object __Server,Name
     Load-DataGridView -DataGridView $datagridview1 -Item $shares
 }
+```
+
+{% capture wmicimgrid %}
+**Update 2026/11:** Same PowerShell 7 pattern as the earlier Out-GridView sample: `New-CimSession -Credential`, then `Get-CimInstance -CimSession`, and `PSComputerName` instead of `__Server`.
+{% endcapture %}
+{{wmicimgrid}}{: .notice--info}
+
+```powershell
+$session = New-CimSession -ComputerName $textboxComputerName.Text -Credential $cred
+$Services = Get-CimInstance -ClassName Win32_Service -CimSession $session | Select-Object PSComputerName,Name
+Load-DataGridView -DataGridView $datagridview1 -Item $Services
+# similarly for Win32_Process and Win32_Share; Remove-CimSession $session when finished
 ```
 
 
