@@ -1,0 +1,36 @@
+# Dependabot version updates for this site's own dependencies.
+#
+# The root package.json / package-lock.json belong to Minimal Mistakes theme
+# tooling (uglify-js via the theme Rakefile), not the blog build. npm is left
+# out so Dependabot does not open PRs that edit theme files. mcp/package.json
+# is first-party but has no lockfile and is excluded from the site; add an
+# npm entry for /mcp later if that Worker should be kept current this way.
+#
+# This repository is a fork of mmistakes/minimal-mistakes. Version updates
+# are not enabled automatically on forks; after this file is on master,
+# enable "Dependabot version updates" under Settings → Security and quality
+# → Advanced Security.
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+    commit-message:
+      prefix: "ci"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      bundler:
+        patterns:
+          - "*"
+    commit-message:
+      prefix: "ci"
