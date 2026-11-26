@@ -59,9 +59,9 @@ You'll find more information about this module here:
 
 * [Github Project (source code)](https://github.com/lazywinadmin/MVP)
 * [PowerShell Gallery](https://www.powershellgallery.com/packages/MVP)
-* [LazyWinAdmin - MVP Module](https://lazywinadmin.com/2017/05/MVP_Module.html#)
-* [LazyWinAdmin - Adding my contributions](https://lazywinadmin.com/2018/01/MVPModule-AddingMyContributions.html)
-* [LazyWinAdmin - Backing up your entries](https://lazywinadmin.com/2018/01/MVPModule-BackupMyEntries.html)
+* [LazyWinAdmin - MVP Module](/2017/05/MVP_Module.html)
+* [LazyWinAdmin - Adding my contributions](/2018/01/MVPModule-AddingMyContributions.html)
+* [LazyWinAdmin - Backing up your entries](/2018/01/MVPModule-BackupMyEntries.html)
 * [P0w3rsh3ll (Emin Atac) - First release of MVP PowerShell module](https://p0w3rsh3ll.wordpress.com/2017/05/05/first-release-of-mvp-powershell-module/)
 * [Microsoft MVP Award program blog](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/01/29/powershell-module/)
 * [Automating the submission of WordPress Blog Posts to your Microsoft MVP Community Activities Profile using PowerShell](https://blog.darrenjrobinson.com/automating-the-submission-of-wordpress-blog-posts-to-your-microsoft-mvp-community-activities-profile-using-powershell/)

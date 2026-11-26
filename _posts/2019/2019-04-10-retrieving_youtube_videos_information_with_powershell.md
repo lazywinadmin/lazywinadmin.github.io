@@ -142,7 +142,7 @@ Output:
 
 Now we can retrieve the MVP Contribution that contains Youtube Links.
 
-To set up the MVP Module connection, see [the MVP PowerShell module post](https://lazywinadmin.com/2017/05/MVP_Module.html)
+To set up the MVP Module connection, see [the MVP PowerShell module post](/2017/05/MVP_Module.html)
 
 ```powershell
 # Assuming the MVP module is installed and configured.
