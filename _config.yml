@@ -117,14 +117,11 @@ analytics:
 author:
   name             : "François-Xavier Cat"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Staff Engineer, AI Platform Engineering"
+  bio              : "Staff Engineer, AI Platform Engineering. Former Microsoft MVP (2014–2023)"
   job_title        : "Staff Engineer, AI Platform Engineering" # used in JSON-LD Person.jobTitle (matches the CV)
   location         : "Colorado"
   email            :
   links:
-    - label: "Microsoft MVP"
-      icon: "fab fa-fw fa-microsoft"
-      url: "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/lazywinadmin"

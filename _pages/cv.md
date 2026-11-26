@@ -32,8 +32,7 @@ toc_icon: "file-alt"
     "jobTitle": "Staff Engineer, AI Platform Engineering",
     "sameAs": [
       "https://github.com/lazywinadmin",
-      "https://www.linkedin.com/in/fxcat/",
-      "https://mvp.microsoft.com/en-us/PublicProfile/5000475"
+      "https://www.linkedin.com/in/fxcat/"
     ]
   }
 }
