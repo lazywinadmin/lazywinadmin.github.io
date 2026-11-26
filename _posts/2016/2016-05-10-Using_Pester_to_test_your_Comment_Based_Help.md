@@ -1,5 +1,5 @@
 ---
-description: "Update 2019/07/26: It seems that the AST to Help content parameter comparison doesn’t work in PowerShell Core.See the example suggested by @mgeorgebrown89…"
+description: "Pester tests that check the comment-based help of each function in the ADSIPs module: synopsis, description, and parameter descriptions are present."
 layout: single
 title: Using Pester to test your Comment Based Help
 excerpt: 

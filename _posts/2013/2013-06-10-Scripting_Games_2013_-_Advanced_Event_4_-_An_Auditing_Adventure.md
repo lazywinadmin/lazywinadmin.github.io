@@ -1,5 +1,5 @@
 ---
-description: "This is my solution for the Advanced Event 4 of the Scripting Games 2013.This event was a bit challenging for me… In the past, I played with Quest Active…"
+description: "My Scripting Games 2013 Advanced Event 4 solution: a reusable tool that builds an HTML report of randomly selected AD users, with last logon and password dates."
 layout: single
 title: Scripting Games 2013 - Advanced Event 4 - An Auditing Adventure
 seo_title: "Scripting Games 2013 Advanced 4: An Auditing Adventure"

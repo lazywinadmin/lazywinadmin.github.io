@@ -1,5 +1,5 @@
 ---
-description: "In my previous post, I explain my PowerShell function to retrieve the local administrators group membership.Today I will go a bit further and find the nested…"
+description: "A PowerShell function, Get-LocalGroupAllMembers, that lists direct and nested local and domain members of a local group on the localhost or a remote computer."
 layout: single
 title: PowerShell - Retrieve a local group membership
 excerpt:
