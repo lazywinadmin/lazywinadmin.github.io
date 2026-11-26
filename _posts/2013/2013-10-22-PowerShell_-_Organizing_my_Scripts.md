@@ -21,7 +21,7 @@ Today I will talk about my scripts directory, how I maintain it, which naming co
 
 
 
-### <b>Naming Convention</b>
+## <b>Naming Convention</b>
 
 Personally I organize my directories this way:
 
@@ -51,7 +51,7 @@ FUNCT-VMWARE-VM-Disable-CopyPaste
 
 
 
-### <b>Other preferences</b>
+## <b>Other preferences</b>
 
 
 * Keep the script in one place! That's why I use SkyDrive (see below), easier to maintain when you access your scripts from different devices/locations.
@@ -61,7 +61,7 @@ FUNCT-VMWARE-VM-Disable-CopyPaste
 * Instead of using files, I prefer to use folders for each script or function, especially if I want to keep track of different versions. Also Some scripts might need some XML config file, CSV file input etc... or just because your script is a project of multiple PowerShell script/functions files.
 
 
-### <b>BottleNecks/Missing items</b>
+## <b>BottleNecks/Missing items</b>
 
 
 * Versioning/Version Control
@@ -79,7 +79,7 @@ FUNCT-VMWARE-VM-Disable-CopyPaste
 
 
 
-### SkyDrive
+## SkyDrive
 
 I store all my scripts on Skydrive, Windows 8.1 comes with it !
 <b>Plus</b>, Skydrive allows you to edit your file online! Pure Awesomeness! :-)

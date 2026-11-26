@@ -20,7 +20,7 @@ tldr: "Sets up a Windows Server 2012 NFS server as backend storage for a VMware 
 
 You can also check my post on<a href="{{ site.url }}/2013/07/create-iscsi-target-using-powershell-on.html" target="_blank">Creating an iSCSI Target Server on Windows Server 2012</a>.
 
-### <span style="font-size: x-large;">Overview
+## <span style="font-size: x-large;">Overview
 
 In the following post I will talk about the following points:
 
@@ -38,7 +38,7 @@ In the following post I will talk about the following points:
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5_1_Home_Lab/2013-07-17_10-25-33_PM.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img loading="lazy" decoding="async" alt="NFS Storage" border="0" src="{{ site.url }}/images/2013/WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5_1_Home_Lab/2013-07-17_10-25-33_PM.png" title="WS2012 NFS Server with VMware ESXi" width="396" height="834" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><i>
 Quick overview of my NFS Service architecture in my Home Lab</i></td></tr></tbody></table>
 
-### <span style="font-size: x-large;">Terminology
+## <span style="font-size: x-large;">Terminology
 
 Before I start, if you are not familiar with NFS, W2012or vSphere 5.1, please check the following links:
 
@@ -46,7 +46,7 @@ Before I start, if you are not familiar with NFS, W2012or vSphere 5.1, please ch
 * <a href="https://web.archive.org/web/20160112031001/http://blogs.technet.com/b/filecab/archive/2012/09/14/server-for-nfs-in-windows-server-2012.aspx" target="_blank">Windows Server 2012 - Server for NFS</a>
 * <a href="https://web.archive.org/web/20130808151150/http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Storage-Technical-Whitepaper.pdf" target="_blank">What's New in vSphere 5.1 - Storage</a>
 
-### Using PowerShell
+## Using PowerShell
 Adding the "Server for NFS" Role on Windows Server 2012
 
 First you will need to add the Windows Feature to handle the NFS Service and shares.
@@ -108,7 +108,7 @@ New-Datastore `
 
 ![VMware vSphere PowerCLI session running Get-VMHost piped to Get-Datastore, then New-Datastore -Nfs to mount an NFS datastore from FILESERVER01](/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS-PowerShell02__1916855805__-677x283.png){: .align-center width="677" height="283"}
 
-### Using the User Interface
+## Using the User Interface
 
 Adding the "Server for NFS" Role on Windows Server 2012
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS01__1507319904__-806x573.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img alt="Image 5 from the post &quot;WS2012 Storage - NFS Server - Configure NFS for VMware vSphere 5.1 Home Lab&quot;" loading="lazy" decoding="async" border="0" height="454" src="{{ site.url }}/images/2013/20130120_WS2012_Storage_-_NFS_Server_-_Configure_NFS_for_VMware_vSphere_5.1_Home_Lab/NFS01__444216165__-640x455.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Select the featureServer For NFS, undeFile and Storage Services / File and iSCSI Services</td></tr></tbody></table>

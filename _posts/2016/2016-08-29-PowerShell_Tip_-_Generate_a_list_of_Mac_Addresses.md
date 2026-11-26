@@ -28,7 +28,7 @@ I used the following method to generate my list of mac addresses.
 
 
 
-### What is happening here
+## What is happening here
 
 * We list from the number 1 to 150
 ```powershell
@@ -60,7 +60,7 @@ I used the following method to generate my list of mac addresses.
 
 
 
-### Extra: Here is a list of fake ComputerName with their fake Mac Addresses
+## Extra: Here is a list of fake ComputerName with their fake Mac Addresses
 
 ```powershell
 1..10 | ForEach-Object{

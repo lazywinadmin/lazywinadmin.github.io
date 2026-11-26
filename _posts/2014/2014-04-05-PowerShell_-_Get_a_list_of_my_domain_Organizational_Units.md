@@ -19,7 +19,7 @@ classes: wide
 
 In the following examples two methods to retrieve the information using<b>Active Directory</b> and <b>ADSI/NET</b>.
 
-### Active Directory Module
+## Active Directory Module
 
 I found two ways to get this information using this module
 
@@ -44,7 +44,7 @@ Get-Command -Module ActiveDirectory -Name *OrganizationalUnit*
 
 ![Get_a_list_of_my_domain_Organizational_Units]({{ site.url }}{{ site.baseurl }}/images/2014/20140405_PowerShell_-_Get_a_list_of_my_domain_Organizational_Units/2014-04-04_21-39-53__683241467__-691x426.png){: width="691" height="426"}
 
-### Get-ADOrganizationalUnit
+## Get-ADOrganizationalUnit
 
 The Get-ADOrganizational unit cmdlet gets an organizational unit object or performs a search to retrieve multiple organizational units.
 

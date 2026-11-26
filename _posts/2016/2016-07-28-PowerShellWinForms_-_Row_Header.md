@@ -28,7 +28,7 @@ Assuming you already have a form with a Datagridview in it, you will need to do 
 
 <b><i>(The example <a href="https://github.com/lazywinadmin/PowerShellGUI/tree/master/_Examples/DataGridView/DataGridView_RowHeader" target="_blank">can be download on my github</a>)</i></b>
 
-### Creating a Column
+## Creating a Column
 
 ```powershell
 # Create Column object
@@ -40,7 +40,7 @@ $NewColumn.HeaderText = "Column1"
 $DataGridView.Columns.Add($NewColumn)
 ```
 
-### Creating a Row with Header value
+## Creating a Row with Header value
 
 ```powershell
 # Create a Row
@@ -54,13 +54,13 @@ $Row.CreateCells($DataGridView, "Value1")
 
 ```
 
-### Add Row to Datagridview
+## Add Row to Datagridview
 ```powershell
 # Add the row to the DataGridView control
 $DataGridView.Rows.Add($Row)
 ```
 
-### Hide the Column Header and Show the Row Header
+## Hide the Column Header and Show the Row Header
 
 ```powershell
 # Make the Row Header Visible

@@ -18,7 +18,7 @@ comments: true
 
 Not that prior to perforce the following command you need to be already connected to Office365, <a href="{{ site.url }}/2014/07/powershell-handy-function-to-connect-to.html" target="_blank">see this post</a>.
 
-### Retrieving all members of each Distribution Group
+## Retrieving all members of each Distribution Group
 
 Now if I want to retrieve all the Distribution group members, it's bit trickier you'll see. First I started by listing the groups members. My PowerShell instinct made me type `Get-DistributionGroup | Get-DistributionGroupMember` but it did not work, see below:
 
@@ -60,7 +60,7 @@ You can include the Distribution group name in the output using the following:
 }
 ```
 
-### Retrieving a single Distribution Group membership
+## Retrieving a single Distribution Group membership
 
 Pretty similar to the one above, just specify the name of the Distribution Group
 
@@ -77,7 +77,7 @@ Pretty similar to the one above, just specify the name of the Distribution Group
 }
 ```
 
-### Retrieving Distribution Groups membership with a specific name pattern
+## Retrieving Distribution Groups membership with a specific name pattern
 
 You can also specify the pattern of distribution groups you are looking for.
 Here it will return all the Distribution Group starting by `MTL`.

@@ -34,14 +34,14 @@ The research core of FlashExtract comes from <a href="http://research.microsoft.
 
 {{ notice-text | markdownify }} 
 
-### NetStat.exe -na
+## NetStat.exe -na
 
 Once again, I will work with the <b>NetStat.exe</b>command line, to demo <b>ConvertFrom-String </b>with the<b style="text-decoration: underline;">TemplateFile</b>parameter. Here is the default output.
 
 <a href="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - ConvertFrom-String and the TemplateFile parameter&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140906_PowerShell_-_ConvertFrom-String_and_the_TemplateFile_parameter/2014-09-06_2-50-01__1141328320__-692x832.png" width="692" height="832" /></a>
 
 
-### Creating the Template File
+## Creating the Template File
 
 The <b>-TemplateFile</b> parameter allows us to specify a file that contains the data structure pattern of the information we want to automatically extract.
 

@@ -13,7 +13,7 @@ comments: true
 <b>PowerShell 4.0</b> has been released by Microsoft andis now available to download and install with the Windows Management Framework 4.0 (WMF 4.0).
 
 
-### <b>Windows PowerShell</b>
+## <b>Windows PowerShell</b>
 
 Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. Built on the .NET Framework, Windows PowerShell helps IT professionals and power users control and automate the administration of the Windows operating system and applications that run on Windows.
 
@@ -31,7 +31,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 
 <a href="{{ site.url }}/images/2013/PowerShell_4_0_is_now_available/2013-10-26_2-59-45_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell 4.0 is now available&quot; (1)" loading="lazy" decoding="async" border="0" height="284" src="{{ site.url }}/images/2013/PowerShell_4_0_is_now_available/2013-10-26_2-59-45_PM_s640.png" width="640" /></a>
 
-### <b>New Features, functionality and updates included in this new WMF 4.0</b>
+## <b>New Features, functionality and updates included in this new WMF 4.0</b>
 
 
 * Windows PowerShell
@@ -47,7 +47,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 * Windows PowerShell Desired State Configuration (DSC)
 
 
-### <b>Supported Operating System</b>
+## <b>Supported Operating System</b>
 
 <span style="background-color: yellow;"><b><u>IMPORTANT:</u> your system requires</b><a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653" target="_blank"><b>.NET Framework 4.5</b></a>
 
@@ -68,7 +68,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 * and Windows Embedded 7
 
 
-### <b>This package is <u>not compatible</u> with the following server applications</b>
+## <b>This package is <u>not compatible</u> with the following server applications</b>
 
 
 * System Center 2012 Configuration Manager (not including SP1)
@@ -82,7 +82,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 * Windows Small Business Server 2011 Standard
 
 
-### <b>Along with this package, the PowerShell team released a couple of interesting document</b>
+## <b>Along with this package, the PowerShell team released a couple of interesting document</b>
 
 
 * Windows Management Framework 4.0 Release Notes.docx [89KB]
@@ -92,7 +92,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 * Desired State Configuration Quick Reference for Windows Management Framework 4.0.pptx[73KB]
 <a href="{{ site.url }}/images/2013/PowerShell_4_0_is_now_available/2013-10-26_3-32-41_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell 4.0 is now available&quot; (2)" loading="lazy" decoding="async" border="0" height="225" src="{{ site.url }}/images/2013/PowerShell_4_0_is_now_available/2013-10-26_3-32-41_PM_s400.png" width="400" /></a>
 
-### <b>Some of the new features in <u>Windows PowerShell 4.0</u> include</b>
+## <b>Some of the new features in <u>Windows PowerShell 4.0</u> include</b>
 
 
 
@@ -109,7 +109,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 * Several bug fixes and performance improvements
 
 
-### <b>Windows PowerShell ISE in Windows Management Framework 4.0 introduces</b>
+## <b>Windows PowerShell ISE in Windows Management Framework 4.0 introduces</b>
 
 
 
@@ -121,7 +121,7 @@ Windows8-RT-KB2799888-x64.msu [17.5 MB]
 
 
 
-### <b>Windows PowerShell Web Services</b> (<b>Management OData IIS Extension</b>)
+## <b>Windows PowerShell Web Services</b> (<b>Management OData IIS Extension</b>)
 
 enables an administrator to expose a set of Windows PowerShell cmdlets as a RESTful web endpoint accessible by using OData (Open Data Protocol). This provides remote access to run cmdlets from both Windows-based and non-Windows-based client computers or devices.
 
@@ -146,7 +146,7 @@ enables an administrator to expose a set of Windows PowerShell cmdlets as a REST
 
 
 
-### <b>Windows PowerShell Desired State Configuration (DSC)</b>
+## <b>Windows PowerShell Desired State Configuration (DSC)</b>
 
 Windows Management Framework 4.0 introduces <b>Windows PowerShell Desired State Configuration (DSC)</b>, with the following highlights:
 
@@ -171,7 +171,7 @@ To repair your WMF 4.0 installation after this failure, install .NET Framework 4
 
 
 
-### Finally... Don't forget to do Update-Help
+## Finally... Don't forget to do Update-Help
 
 
 ```powershell

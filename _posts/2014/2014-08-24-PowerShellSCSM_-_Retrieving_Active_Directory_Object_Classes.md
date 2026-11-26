@@ -33,7 +33,7 @@ We properly see the class of each objects.
 
 
 
-### Retrieving this information with PowerShell/Smlets module
+## Retrieving this information with PowerShell/Smlets module
 
 Using PowerShell with the SMlets module, this information is not easily accessible.
 <u style="font-weight: bold;">The problem:</u>We can't tell if an object is an user or a group. Computer however shows correctly as computer object.
@@ -53,7 +53,7 @@ In the output, we have 2 groups, 1 user and 1 computer. But It looks like we can
 <a href="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SR_RelationShipObject_filter_AD_Obj_bad_class__1389336323__-772x278.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="SR RelationShipObject filter AD Obj bad class" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140824_PowerShellSCSM_-_Retrieving_Active_Directory_Object_Classes/SR_RelationShipObject_filter_AD_Obj_bad_class__1389336323__-772x278.png" width="772" height="278" /></a>
 
 
-### Finding the real class of an object
+## Finding the real class of an object
 
 To work around that, we have to use the method `GetClasses(`) which reveal more information.
 
@@ -71,7 +71,7 @@ You have to look at the property <b><u>Name</u></b> and look for "<b>Microsoft.A
 
 
 
-### Adding a property Class
+## Adding a property Class
 
 Finally you can use the following piece of code to retrieve all the class.
 We are adding a property called "Class" that will run against each object and check which value is present: "<i>Microsoft.AD.User</i>", "<i>Microsoft.AD.Group</i>" or "<i>Microsoft.AD.Computer</i>".

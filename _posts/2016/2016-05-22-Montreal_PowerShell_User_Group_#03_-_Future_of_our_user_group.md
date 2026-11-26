@@ -29,12 +29,12 @@ More details on meetup.com
 Hope to see you there!
 
 
-### When
+## When
 
 Tuesday, 24th of May 2016 from 6:00pm to 8:00pm
 
 
-### Where
+## Where
 
 [Warner Brothers Games - 888 Maisonneuve Est](https://www.google.ca/maps/place/WB+Games+Montr%C3%A9al/@45.5165241,-73.5612371,17z/data=!3m1!4b1!4m2!3m1!1s0x4cc91bb2589124bb:0x25949bac8df91a78)
 
@@ -42,7 +42,7 @@ Tuesday, 24th of May 2016 from 6:00pm to 8:00pm
 Room: Jack Warner (In front of elevators)
 
 
-### Sponsors
+## Sponsors
 
 We would like to thank our sponsors for their support:
 
@@ -55,7 +55,7 @@ We would like to thank our sponsors for their support:
 <img alt="WB Games Montreal logo" loading="lazy" decoding="async" border="0" height="200" src="{{ site.url }}/images/2016/20160522_Montreal_PowerShell_User_Group_%2303_-_Future_of_our_user_group/WB_Games_Montreal_logo__867391258__-240x320.png" width="150" />
 
 
-### RSVP/Register and more information
+## RSVP/Register and more information
 
 Meetup.com event page (no longer online)
 

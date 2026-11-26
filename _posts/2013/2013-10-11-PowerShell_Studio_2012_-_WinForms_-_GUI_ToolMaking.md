@@ -26,7 +26,7 @@ One cool thing to mention when using PowerShell Studio 2012 is, if you add some 
 
 
 
-### Overview
+## Overview
 
 
 
@@ -50,14 +50,14 @@ One cool thing to mention when using PowerShell Studio 2012 is, if you add some 
 
 
 
-### ToolMaking - Video
+## ToolMaking - Video
 
 
 <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/HmcWucxQeQE" width="480"></iframe>
 
 
 
-### Creating and Editing the GUI
+## Creating and Editing the GUI
 
 Insert your controls. Here I used 3 buttons and one TextBox
 <a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-42-52_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (2)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-42-52_PM.png" width="330" height="138" /></a>
@@ -66,7 +66,7 @@ Rename your button text properties and rename the textbox control (Design Name p
 
 <a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-26_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (4)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_1-46-26_PM.png" width="288" height="61" /></a>
 
-### Adding your PowerShell Code
+## Adding your PowerShell Code
 
 Here is the code I used for each of my events.
 I basically do some basic <b>Get-WmiObject</b> queries on different classes related to the Services/Processes and Shared. Note the Output is sent to the pipeline to <b>`Out-GridView.`</b></span>
@@ -96,7 +96,7 @@ $buttonShares_Click={
 
 
 
-### Test the GUI, using Out-Gridview cmdlet for the output
+## Test the GUI, using Out-Gridview cmdlet for the output
 
 
 Here is the result when you click on one of the 3 buttons. Each of them invoke the events:
@@ -123,7 +123,7 @@ You can define all sort of Events for each control, take a look below
 
 <a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_5-33-20_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (6)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_5-33-20_PM.png" width="323" height="480" /></a>
 
-### Replacing the Out-Gridview by a DataGridView Control
+## Replacing the Out-Gridview by a DataGridView Control
 
 
 Expend your Form and add a DataGridView control.
@@ -199,7 +199,7 @@ function Load-DataGridView
 
 
 
-### Modifying your PowerShell Code for DataGridView
+## Modifying your PowerShell Code for DataGridView
 
 
 Now all you have to do is removing the Out-GridView and send the output to thefunction Load-DataGridView. This function will do the job for you and load everything.
@@ -233,14 +233,14 @@ $buttonShares_Click={
 
 
 
-### Test the GUI using the DataGridView for the output
+## Test the GUI using the DataGridView for the output
 
 
 
 <a href="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-19-47_PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell Studio 2012 - WinForms - GUI ToolMaking&quot; (8)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_Studio_2012_-_WinForms_-_GUI_ToolMaking/2013-10-11_4-19-47_PM.png" width="486" height="440" /></a>
 
 
-### Download (PS1 and PFF)
+## Download (PS1 and PFF)
 
 Download from TechNet Script Repository (link no longer available)
 

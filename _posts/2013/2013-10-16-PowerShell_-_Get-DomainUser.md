@@ -18,14 +18,14 @@ tldr: "A small Get-DomainUser function that uses the [adsisearcher] type acceler
 I wrote him back that he could just request RSAT(Remote Server Administration Tools) to be installed on his workstation or just use this small PowerShell that I just wrote in minutes. Since Active Directory does not require any specific permission to access this kind of information. Here is the code, nothing advanced, but it does the work ;-)
 
 
-### 
+## 
 
 <div markdown="1" class="PoshOne"><div markdown="1" class="x_MsoNormal">function`Get-DomainUser` {<div markdown="1" class="x_MsoNormal">`PARAM`($DisplayName`)`<div markdown="1" class="x_MsoNormal"> $Search =  [adsisearcher]"(&amp;(objectCategory=person)(objectClass=User)(displayname=$DisplayName))"<div markdown="1" class="x_MsoNormal">`foreach` ($user`in` $($Search`.FindAll(`))){<div markdown="1" class="x_MsoNormal">  <b>New-Object</b>`-TypeName``PSObject`  -Property @{<div markdown="1" class="x_MsoNormal">  "DisplayName" = $user`.properties.displayname`<div markdown="1" class="x_MsoNormal">  "UserName" = $user`.properties.samaccountname`<div markdown="1" class="x_MsoNormal">"Description" = $user.properties.description}<div markdown="1" class="x_MsoNormal"> }<div markdown="1" class="x_MsoNormal">}<span lang="FR-CA" style="color: #1f497d;">
 
-### 
+## 
 
 
-### Result
+## Result
 
 
 
@@ -48,7 +48,7 @@ DisplayName : {Jonathan Dumoulin}
 
 
 
-### [AdsiSearcher] Accelerator
+## [AdsiSearcher] Accelerator
 
 I'm using the Windows PowerShell`[AdsiSearcher]` type accelerator to search Active Directory Domain Services (AD DS).
 
