@@ -13,7 +13,7 @@ tldr: "First steps managing System Center Service Manager 2012 R2 with the SMLet
 ---
 
  
- <a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" width="128" height="128" /></a>I recently started to work with<a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">System Center Service Manager 2012 R2</a>(also known as SCSM) which provides provides an integrated platform for automating and adapting an organization's IT service management best practices, such as those found in Microsoft Operations Framework (MOF) and Information Technology Infrastructure Library (ITIL). It provides built-in processes for incident and problem resolution, change control, and asset lifecycle management.
+ <a href="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="SCSM 128x128x32" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2014/20140823_PowerShellSCSM_-_My_first_steps/SCSM_128x128x32__1759738231__-128x128.png" width="128" height="128" /></a>I recently started to work with<a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh305220(v=sc.12)" target="_blank">System Center Service Manager 2012 R2</a>(also known as SCSM) which provides provides an integrated platform for automating and adapting an organization's IT service management best practices, such as those found in Microsoft Operations Framework (MOF) and Information Technology Infrastructure Library (ITIL). It provides built-in processes for incident and problem resolution, change control, and asset lifecycle management.
 
 
 
@@ -121,7 +121,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 ## Resources
 
 <ul>
-* <a href="http://technet.microsoft.com/en-us/library/hh305220.aspx" target="_blank">Technet Documentation</a>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh305220(v=sc.12)" target="_blank">Technet Documentation</a>
 
 * <a href="http://www.microsoft.com/en-ca/download/details.aspx?id=27850" target="_blank">Technical Documentation Download for SCSM2012</a>
 
@@ -129,7 +129,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 <ul>
 * <a href="https://web.archive.org/web/20150421071829/http://blogs.technet.com/b/servicemanager/archive/2011/11/10/demo-automating-service-request-fulfillment-from-the-scsm-service-catalog-with-orchestrator-real-world-examples.aspx#3464611" target="_blank">Demo: Automating Service Request Fulfillment from the SCSM Service Catalog with Orchestrator–Real World Examples</a>
 </ul>
-* <a href="http://technet.microsoft.com/en-ca/virtuallabs/bb467605.aspx" target="_blank">Technet Virtual Labs</a> (Search for 'Service Manager')
+* <a href="https://learn.microsoft.com/en-us/previous-versions/bb467605(v=msdn.10)" target="_blank">Technet Virtual Labs</a> (Search for 'Service Manager')
 
 * Microsoft Virtual Academy
 <ul>
@@ -148,7 +148,7 @@ Get-SCSMRelationshipObject -BySource $SRTicket -Filter "RelationshipID -eq 'd96c
 
 ## Terminology
 
-<a href="http://technet.microsoft.com/en-us/library/hh750212.aspx" target="_blank">See extensive SCSM Glossary (technet)</a>
+<a href="https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh750212(v=sc.12)" target="_blank">See extensive SCSM Glossary (technet)</a>
 
 <b>Configuration Item</b>
 ITIL defines a configuration item (CI) as any component that needs to be managed in order to

@@ -56,7 +56,7 @@ Same result :(
 <b><u>Solution </u></b>
 
 Finally I found a way by running the installer with the Local System Account. The name of this account is `NT AUTHORITY\System`. It is a powerful account that has unrestricted access to all local system resources.
-Using [`PsExec.exe`](https://technet.microsoft.com/en-us/sysinternals/bb897553.aspx) run the following command:
+Using [`PsExec.exe`](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) run the following command:
 `psexec.exe /sid powershell.exe`
 
 

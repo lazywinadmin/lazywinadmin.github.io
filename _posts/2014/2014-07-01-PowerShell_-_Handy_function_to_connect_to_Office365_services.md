@@ -48,7 +48,7 @@ Here is a very handy function that you can include to your PowerShell Profil to 
 <b><u>Requirements</u></b>
 
 <ul>
-* <b>Azure Active Directory</b> <a href="http://technet.microsoft.com/en-us/library/jj151815.aspx#BKMK_Requirements" target="_blank">module requirements on Microsoft Docs</a>
+* <b>Azure Active Directory</b> <a href="https://learn.microsoft.com/en-us/previous-versions/azure/jj151815(v=azure.100)" target="_blank">module requirements on Microsoft Docs</a>
 
 * <b>Exchange Online PowerShell</b>(no download needed, the function will create an implicit remoting module)
 

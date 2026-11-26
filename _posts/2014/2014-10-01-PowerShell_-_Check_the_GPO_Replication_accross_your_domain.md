@@ -22,7 +22,7 @@ I created a small function called `Get-ADGPOReplication` to easily compare the v
 ## Retrieving the GPO Version and SysVol Version
 
 As you probably know, you'll find 2 types of configurations inside each GPO: User and Computer.
-The Cmdlet [`Get-GPO`](http://technet.microsoft.com/en-us/library/ee461059.aspx) (From the module [GroupPolicy](http://technet.microsoft.com/en-us/library/ee461027.aspx)) give us some great details on the versions number and the SysVol versions of those configurations.
+The Cmdlet [`Get-GPO`](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee461059(v=technet.10)) (From the module [GroupPolicy](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee461027(v=technet.10))) give us some great details on the versions number and the SysVol versions of those configurations.
 
 ```powershell
 Get-GPO -Name AZE_Test

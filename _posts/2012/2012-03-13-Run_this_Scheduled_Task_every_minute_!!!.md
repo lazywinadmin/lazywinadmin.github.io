@@ -31,7 +31,7 @@ schtasks /create /sc minute /mo 1 /tn "Hello World" /tr \\Server\scripts\hellowo
 ```
 
 <i><b>
-</b></i><i>See Technet: <a href="http://technet.microsoft.com/en-us/library/cc725744%28v=ws.10%29.aspx" target="_blank">Schtasks.exe</a>for more details.</i>
+</b></i><i>See Technet: <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725744(v=ws.10)" target="_blank">Schtasks.exe</a>for more details.</i>
 
 <b><u>Using the GUI</u></b>
 I realize that i couldn't set the task to repeat under 5 minutes ;-(

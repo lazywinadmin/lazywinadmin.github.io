@@ -20,7 +20,7 @@ All queries located in the Saved Queries folder are stored in Active Directory U
 
 ## LDAP Syntax
 
-* <a href="http://technet.microsoft.com/en-us/library/aa996205(v=exchg.65).aspx" style="line-height: 19px;" target="_blank">LDAP Query Basics</a>
+* <a href="https://web.archive.org/web/20140605091617/http://technet.microsoft.com/en-us/library/aa996205(v=exchg.65).aspx" style="line-height: 19px;" target="_blank">LDAP Query Basics</a>
 * <a href="http://msdn.microsoft.com/en-ca/library/windows/desktop/aa746475(v=vs.85).aspx" target="_blank">Search Filter Syntax</a>
 
 ## LDAP Queries

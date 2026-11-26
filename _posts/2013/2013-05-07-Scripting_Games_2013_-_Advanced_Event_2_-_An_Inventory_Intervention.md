@@ -42,7 +42,7 @@ comments: true
 Using WMI you can retrieve most of the information on remote machines (WMI Service is present since Windows 2000, Assuming WMI Service is running.. of course...)
 
 Why not CIM ?
-I could had play with <a href="http://technet.microsoft.com/en-us/library/jj590758(v=wps.620).aspx" target="_blank">Get-CIMInstance</a> (which use WSman in the background by default), but for my old servers without PowerShell and WSman, I would had to create an Explicit session with DCOM protocol, then use this session with Get-CimInstance.... I think it is a bit heavy to do this... so I stick to <a href="http://technet.microsoft.com/en-us/library/hh849824.aspx" target="_blank">Get-WmiObject</a>.
+I could had play with <a href="https://learn.microsoft.com/en-us/powershell/module/cimcmdlets/get-ciminstance" target="_blank">Get-CIMInstance</a> (which use WSman in the background by default), but for my old servers without PowerShell and WSman, I would had to create an Explicit session with DCOM protocol, then use this session with Get-CimInstance.... I think it is a bit heavy to do this... so I stick to <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1" target="_blank">Get-WmiObject</a>.
 
 {% capture wmicimupdate %}
 **Update 2026/11:** `Get-WmiObject` was removed in PowerShell 6 and later. The 2013 rationale above still explains why the entry used WMI (Windows 2000-era boxes without WS-Man). On PowerShell 7 you need `Get-CimInstance`; the three queries and a `PSComputerName` substitution for `__Server` are at the end of the script sample.

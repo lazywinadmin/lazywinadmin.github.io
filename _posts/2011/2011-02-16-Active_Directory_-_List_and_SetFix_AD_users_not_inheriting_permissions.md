@@ -18,7 +18,7 @@ comments: true
 
 If the Allow and Deny permission check boxes in the various parts of the access control user interface are shaded when you view the permissions of an object, the object has inherited permissions from a parent object. You can set these inherited permissions by using the Permissions tab of the Advanced Security Settings properties page.
 
-<a href="http://technet.microsoft.com/en-us/library/cc726071.aspx" target="_blank">Check Technet for more information</a>
+<a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc726071(v=ws.11)" target="_blank">Check Technet for more information</a>
 
 Here is the PowerShell way to check which users does not have Inheriting Permission and How to Enabling it for all your users. You will need to user <a href="http://www.quest.com/active-directory/" target="_blank">Quest Active Directory Snapin</a>
 

@@ -25,7 +25,7 @@ I did not play much with this new feature but I plan to invest more time into it
 
 > DSC is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.
 > DSC provides a set of Windows PowerShell language extensions, new Windows PowerShell cmdlets, and resources that you can use to declaratively specify how you want your software environment to be configured. It also provides a means to maintain and manage existing configurations.
-> <u>Source:</u> <a href="https://technet.microsoft.com/en-ca/library/dn249912.aspx" target="_blank">Technet</a>
+> <u>Source:</u> <a href="https://web.archive.org/web/20141204152932/http://technet.microsoft.com/en-ca/library/dn249912.aspx" target="_blank">Technet</a>
 
 ## Events details
 
@@ -82,7 +82,7 @@ Explore implementation and testing of custom resources, along with packaging and
 * Video Training: <a href="https://www.youtube.com/watch?v=JAzjf4sQvro" target="_blank">Patterns For Implementing A DSC PullServer Environment</a> by Steve Murawski (PowerShell Summit 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=BWR2SVXEpXk" target="_blank">The Life and Times of a DSC Resource</a> by Steve Murawski (PowerShell Summit 2014)
 * Video Training: <a href="https://www.youtube.com/watch?v=5wk-ZcW9Wmc" target="_blank">PowerShell DSC in the AWS Cloud</a> by Mike Pfeiffer (PowerShell Summit 2014)
-* Documentation: <a href="https://technet.microsoft.com/en-ca/library/dn249918.aspx" target="_blank">Technet - Get Started with Windows PowerShell Desired State Configuration</a>
+* Documentation: <a href="https://web.archive.org/web/20140810075448/http://technet.microsoft.com/en-us/library/dn249918.aspx" target="_blank">Technet - Get Started with Windows PowerShell Desired State Configuration</a>
 * Documentation: Technet - Windows PowerShell Desired State Configuration Resources
 * Documentation: <a href="https://web.archive.org/web/20150911085640/https://technet.microsoft.com/en-us/library/dn249925.aspx" target="_blank">Technet - Separating Configuration and Environment Data</a>
 * Documentation: <a href="https://web.archive.org/web/20151231123340/https://technet.microsoft.com/en-us/library/dn249922.aspx" target="_blank">Technet - Windows PowerShell Desired State Configuration Local Configuration Manager</a>

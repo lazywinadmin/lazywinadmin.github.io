@@ -20,11 +20,11 @@ I used a dedicated VM that will be used to host the database of Configuration Ma
 <b>Resources</b>
 
 
-* <a href="http://technet.microsoft.com/en-us/sqlserver/ff898410.aspx" target="_blank">Documentation - Microsoft SQL Server 2012 - Technet</a>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2012/hh231622(v=sql.110)" target="_blank">Documentation - Microsoft SQL Server 2012 - Technet</a>
 
 * <a href="https://web.archive.org/web/20130629092526/http://www.microsoft.com/en-us/sqlserver/editions/2012-editions/standard.aspx" target="_blank">Download - Microsoft SQL Server 2012 - Technet</a>
 
-* <a href="http://technet.microsoft.com/en-us/library/bb500469.aspx" target="_blank">Plan, Install, Upgrade, Uninstall, Failover Cluster - Technet</a>
+* <a href="https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver17" target="_blank">Plan, Install, Upgrade, Uninstall, Failover Cluster - Technet</a>
 
 <b>Installation</b>
 

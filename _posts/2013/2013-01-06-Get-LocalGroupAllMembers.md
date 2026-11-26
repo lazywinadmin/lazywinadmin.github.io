@@ -57,7 +57,7 @@ Once your Powershell is launched you can load the function using the Dot Sourcin
 #	Members can be from the Local Machine or from the Domain.
 #	Also, this function does not look for nested membership on local group(local group member of another local group)
 #	since it is not supported by Microsoft (even if you can do it via net.exe, the permission won't work)
-#	http://technet.microsoft.com/en-us/library/ee681621(v=ws.10).aspx
+#	https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/ee681621(v=ws.10)
 Function global:Get-LocalGroupMembership {
 	[Cmdletbinding()]
 	Param (

@@ -135,7 +135,7 @@ Small list of the interesting blog articles/documentations I found.
 
 * <u><a href="https://web.archive.org/web/20160413123319/http://www.gfi.com/blog/windows-powershell-extracting-strings-using-regular-expressions/" target="_blank">Windows PowerShell: Extracting Strings Using Regular Expressions</a></u>
 
-* <a href="http://technet.microsoft.com/en-us/magazine/2008.09.windowspowershell.aspx" target="_blank">Don Jones - Select-Strin</a>g
+* <a href="https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc743166(v=msdn.10)" target="_blank">Don Jones - Select-Strin</a>g
 
 * <a href="http://stevenaskwith.com/2012/05/22/parse-iis-log-files-with-powershell/" target="_blank">Parse IIS log files with PowerShell <b>using System.IO.File</b></a>
 

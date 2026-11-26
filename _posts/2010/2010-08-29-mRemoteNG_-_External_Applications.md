@@ -214,7 +214,7 @@ GOTO Ende
 PAUSE
 ```
 
-Sysinternals tools: http://technet.microsoft.com/en-us/sysinternals/default.aspx
+Sysinternals tools: https://learn.microsoft.com/en-us/sysinternals/
 SYDI: http://sydiproject.com/
 
 ### Application: [HTTPS] Dell OpenManage [port 1311]

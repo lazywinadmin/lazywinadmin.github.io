@@ -17,7 +17,7 @@ tldr: "Shows two ways to pull MTL1 out of the distinguished name OU=MTL1,OU=CORP
 ---
 <a href="{{ site.url }}/images/2013/PowerShell_-_Get_a_SubString_out_of_a_String_using_RegEx/2013-10-19_4-20-29_PM.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Screenshot from &quot;PowerShell - Get a SubString out of a String using RegEx&quot; (1)" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/PowerShell_-_Get_a_SubString_out_of_a_String_using_RegEx/2013-10-19_4-20-29_PM.png" width="106" height="122" /></a>Last week one of my colleague asked me if I could help him with some Regular Expression (Regex) to select some text inside a String.
 
-I don't work a lot with RegEx but when I do, I use tools like <a href="http://www.sapien.com/blog/2013/08/26/introducing-powerregex-community-preview/" target="_blank">PowerRegex from Sapien</a>, <a href="http://gskinner.com/RegExr/" target="_blank">RegExr</a>,the technet help for<a href="http://technet.microsoft.com/en-us/library/hh847880.aspx" target="_blank">about_Regular_Expressions</a>or <a href="http://regexlib.com/" target="_blank">RegExlib.com</a>. And to be honest, most of the time I'm trying to avoid it...trying to find a solution the "PowerShell Way" before trying with Regex...
+I don't work a lot with RegEx but when I do, I use tools like <a href="http://www.sapien.com/blog/2013/08/26/introducing-powerregex-community-preview/" target="_blank">PowerRegex from Sapien</a>, <a href="http://gskinner.com/RegExr/" target="_blank">RegExr</a>,the technet help for<a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_regular_expressions" target="_blank">about_Regular_Expressions</a>or <a href="http://regexlib.com/" target="_blank">RegExlib.com</a>. And to be honest, most of the time I'm trying to avoid it...trying to find a solution the "PowerShell Way" before trying with Regex...
 
 ## Problem
 
@@ -191,10 +191,10 @@ $matches["MTL1"]
 
 ## Resources
 
-* <a href="http://technet.microsoft.com/en-us/library/hh847732.aspx" target="_blank">TechNet - about_Operators</a>
-* <a href="http://technet.microsoft.com/en-us/library/hh847759.aspx" target="_blank">TechNet - about_Comparaison_operators</a>
-* <a href="http://technet.microsoft.com/en-us/library/hh847811.aspx" target="_blank">TechNet - about_split</a>
-* <a href="http://technet.microsoft.com/en-us/library/hh847757.aspx" target="_blank">TechNet - about_join</a>
+* <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_operators" target="_blank">TechNet - about_Operators</a>
+* <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators" target="_blank">TechNet - about_Comparaison_operators</a>
+* <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_split" target="_blank">TechNet - about_split</a>
+* <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_join" target="_blank">TechNet - about_join</a>
 * <a href="https://web.archive.org/web/20130821012817/http://www.powershellcookbook.com/recipe/qAxK/appendix-b-regular-expression-reference" target="_blank">PowerShell Cookbook - Appendix B - Regular Expression Reference</a>
 * <a href="http://msdn.microsoft.com/en-us/library/az24scfc(v=vs.110).aspx" target="_blank">MSDN - Regular Expression Language - Quick Reference</a>(Thanks Jay)
 * <a href="https://web.archive.org/web/20150322053206/http://blogs.technet.com/b/heyscriptingguy/archive/2009/04/13/how-can-i-create-a-phone-directory-from-files-with-varying-text-formats.aspx" target="_blank">Scripting Guys Blog - How Can I Create a Phone Directory from Files with Varying Text Formats?</a>

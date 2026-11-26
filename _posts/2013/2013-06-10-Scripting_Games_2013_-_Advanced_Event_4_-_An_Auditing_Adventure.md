@@ -81,7 +81,7 @@ Dr Scripto mentioned a last point about emailing the report to the auditor.This 
 
 * <a href="http://msdn.microsoft.com/en-us/library/system.directoryservices.aspx" target="_blank">Net Framework</a>(viaSystem.DirectoryServices Namespace)
 
-* <a href="http://technet.microsoft.com/en-us/library/dd378937(v=ws.10).aspx" target="_blank">Active Directory Module</a>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd378937(v=ws.10)" target="_blank">Active Directory Module</a>
 
 * <a href="http://www.quest.com/powershell/activeroles-server.aspx" rel="" target="_blank">Quest Active Directory Snapin</a>
 
@@ -142,7 +142,7 @@ Get-ADUser -filter * | Get-Member
 
 <span style="background-color: white;"><u>Why are we only seeing a few properties here ? :-/</u>
 
-The documentation on Technet about<a href="http://technet.microsoft.com/en-us/library/ee617241.aspx" target="_blank">Get-ADUser</a>specify the following:
+The documentation on Technet about<a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617241(v=technet.10)" target="_blank">Get-ADUser</a>specify the following:
 <blockquote class="tr_bq"><i>This cmdlet retrieves a default set of user object properties. <span style="background-color: #fff2cc;">To retrieve additional properties use the Properties parameter. For more information about the how to determine the properties for user objects, see the Properties parameter description.</span></i></blockquote>Properties parameter description:
 <blockquote class="tr_bq"><i><b>Properties</b></i></blockquote><blockquote class="tr_bq"><i>Specifies the properties of the output object to retrieve from the server. Use this parameter to retrieve properties that are not included in the default set.</i></blockquote><blockquote class="tr_bq"><i>Specify properties for this parameter as a comma-separated list of names. <span style="background-color: #fff2cc;">To display all of the attributes that are set on the object, specify * (asterisk).</span></i></blockquote>
 
@@ -181,7 +181,7 @@ Get-ADUser -Identify xavierc -properties Department,Title,LastLogonDate,password
 <blockquote class="tr_bq"><i>The reason why most people want to obtain these values is to find out if a user or computer object can be safely deleted. If you want to know when someone logged on to a computer in your network for the exact last time, search for the last logon value. If you want to know when someone last accessed a resource in your network (accessed webmail or one of your file systems etc), search for the last logon timestamp value. <b>If you want to know when someone last used any network resource, search for the most recent of both values.</b></i></blockquote><b style="font-size: x-large;">
 </b><b style="font-size: x-large;">Random User</b>
 PowerShell comes with a Cmdlet called `Get-Randomsince` the version 2.
-Check more information here<a href="http://technet.microsoft.com/en-us/library/ff730929.aspx" target="_blank">Get-Random (TechNet)</a>and <a href="https://devblogs.microsoft.com/powershell/get-random/" target="_blank">PowerShell Team Blog</a>.
+Check more information here<a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell-1.0/ff730929(v=technet.10)" target="_blank">Get-Random (TechNet)</a>and <a href="https://devblogs.microsoft.com/powershell/get-random/" target="_blank">PowerShell Team Blog</a>.
 
 This is exactly what I need!
 
@@ -208,7 +208,7 @@ I like to build my function that way.
 <u style="font-family: 'Times New Roman'; white-space: normal;">
 </u>
 <a href="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="function explained" loading="lazy" decoding="async" border="0" src="{{ site.url }}/images/2013/20130610_Scripting_Games_2013_-_Advanced_Event_4_-_An_Auditing_Adventure/function_explained__1325023819__-745x587.png" /></a>
-Help about <a href="http://technet.microsoft.com/en-us/library/hh847766.aspx" target="_blank">Throw</a> and <a href="http://technet.microsoft.com/en-us/library/hh847793.aspx" target="_blank">Try/Catch/Finally</a>
+Help about <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_throw" target="_blank">Throw</a> and <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally" target="_blank">Try/Catch/Finally</a>
 Article about Error Handling: the <a href="http://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell" target="_blank">Vexasoft tutorial on try/catch/finally in PowerShell</a>.
 <b style="font-size: x-large;">
 </b>

@@ -158,7 +158,7 @@ Get-Help Get-DiskSizeInfo -Full
 ```
 
 The Function's help has been wrote between the <b>lines 2 and 39</b>.
-More information on technet: <a href="http://technet.microsoft.com/library/hh847834.aspx" target="_blank">about_Comment_Based_Help</a>
+More information on technet: <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comment_based_help" target="_blank">about_Comment_Based_Help</a>
 
 ![Get-Help output for the Get-DiskSizeInfo function in a PowerShell window](/images/2013/20130210_Winter_Scripting_Games_2013_-_Practice_Event_1/WinterScriptingGames-Event1-02__757978919__-685x1040.png){: loading="lazy" decoding="async" width="685" height="1040"}
 {: .full}
